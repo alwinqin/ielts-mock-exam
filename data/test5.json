@@ -1,0 +1,348 @@
+{
+  "id": "test5",
+  "title": "Test 5",
+  "totalQuestions": 40,
+  "passages": [
+    {
+      "id": "p1",
+      "title": "The History of Maps",
+      "text": "Maps have been essential tools for human exploration and understanding of the world for thousands of years. The earliest known maps date back to ancient Babylon around 2300 BCE, where clay tablets depicted local geographic features. These early maps were practical tools for navigation, land ownership, and military planning.\n\nThe ancient Greeks made significant contributions to cartography. Claudius Ptolemy, writing in the 2nd century CE, created a comprehensive guide to mapmaking that included instructions for projecting a spherical Earth onto a flat surface. His work, Geographia, remained authoritative for over 1,000 years and contained coordinates for approximately 8,000 places.\n\nDuring the Age of Exploration in the 15th and 16th centuries, cartography flourished as European explorers ventured across oceans. The discovery of the Americas by Columbus in 1492 and subsequent voyages created demand for more accurate world maps. Gerardus Mercator developed his famous projection in 1569, which was revolutionary for navigation because it preserved angles, allowing sailors to plot straight-line courses.\n\nThe 18th and 19th centuries brought scientific advances in surveying and measurement. The invention of the chronometer by John Harrison enabled accurate determination of longitude at sea. National mapping agencies were established, including the British Ordnance Survey in 1791. These organizations produced detailed topographic maps that were crucial for military operations, urban planning, and resource management.\n\nThe 20th century saw revolutionary changes with aerial photography and satellite imagery. The launch of Landsat in 1972 provided the first continuous Earth observation from space. Global Positioning System (GPS) technology, developed by the US Department of Defense, became fully operational in 1995 and transformed how people navigate.\n\nToday, digital maps created by companies like Google, Apple, and OpenStreetMap are ubiquitous. They combine satellite imagery, street-level photography, real-time traffic data, and user contributions to create dynamic, interactive representations of the world. Artificial intelligence is now being used to automatically update maps from aerial and street-level imagery, promising even faster and more accurate mapping in the future.",
+      "questions": [
+        {
+          "id": "p5-q1",
+          "type": "tfng",
+          "question": "The earliest known maps date back to around 2300 BCE in ancient Babylon.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'The earliest known maps date back to ancient Babylon around 2300 BCE.'|CN: 文章指出'已知最早的地图可追溯到公元前2300年左右的古巴比伦。'"
+        },
+        {
+          "id": "p5-q2",
+          "type": "multiple_choice",
+          "question": "Who created a comprehensive guide to mapmaking in the 2nd century CE?",
+          "options": ["A. Gerardus Mercator", "B. Claudius Ptolemy", "C. John Harrison", "D. Christopher Columbus"],
+          "correctAnswer": "B. Claudius Ptolemy",
+          "explanation": "EN: The text states 'Claudius Ptolemy, writing in the 2nd century CE, created a comprehensive guide to mapmaking.'|CN: 文章指出'公元2世纪的克劳狄斯·托勒密编写了一本全面的制图指南。'"
+        },
+        {
+          "id": "p5-q3",
+          "type": "tfng",
+          "question": "Ptolemy's work contained coordinates for approximately 8,000 places.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states it 'contained coordinates for approximately 8,000 places.'|CN: 文章指出它'包含了大约8000个地点的坐标。'"
+        },
+        {
+          "id": "p5-q4",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Mercator's projection was revolutionary because it preserved _______.",
+          "options": [],
+          "correctAnswer": "angles",
+          "explanation": "EN: The text states the Mercator projection 'preserved angles, allowing sailors to plot straight-line courses.'|CN: 文章指出墨卡托投影'保持了角度，使海员能够规划直线航向。'"
+        },
+        {
+          "id": "p5-q5",
+          "type": "short_answer",
+          "question": "What instrument did John Harrison invent that enabled accurate determination of longitude at sea?",
+          "options": [],
+          "correctAnswer": "chronometer",
+          "explanation": "EN: The text states 'The invention of the chronometer by John Harrison enabled accurate determination of longitude at sea.'|CN: 文章指出'John Harrison发明的航海天文钟使在海上精确测定经度成为可能。'"
+        },
+        {
+          "id": "p5-q6",
+          "type": "tfng",
+          "question": "The British Ordnance Survey was established in the 18th century.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: The text states Ordnance Survey was established 'in 1791' which is the 18th century - actually 1791 IS the 18th century. Wait, the text says '1791' which is in the 18th century. TRUE.|CN: 文章指出地形测量局'成立于1791年'属于18世纪。TRUE。"
+        },
+        {
+          "id": "p5-q7",
+          "type": "multiple_choice",
+          "question": "What did the launch of Landsat in 1972 provide?",
+          "options": ["A. The first GPS signals", "B. The first continuous Earth observation from space", "C. The first digital map", "D. The first weather satellite"],
+          "correctAnswer": "B. The first continuous Earth observation from space",
+          "explanation": "EN: The text states 'The launch of Landsat in 1972 provided the first continuous Earth observation from space.'|CN: 文章指出'1972年发射的Landsat提供了首次来自太空的持续地球观测。'"
+        },
+        {
+          "id": "p5-q8",
+          "type": "tfng",
+          "question": "GPS technology was developed by the European Space Agency.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: The text states GPS was 'developed by the US Department of Defense.'|CN: 文章指出GPS是'由美国国防部开发的。'"
+        },
+        {
+          "id": "p5-q9",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: GPS became fully operational in _______.",
+          "options": [],
+          "correctAnswer": "1995",
+          "explanation": "EN: The text states GPS 'became fully operational in 1995.'|CN: 文章指出GPS'于1995年全面投入使用。'"
+        },
+        {
+          "id": "p5-q10",
+          "type": "tfng",
+          "question": "Digital maps today include real-time traffic data.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text mentions digital maps combine 'real-time traffic data' among other features.|CN: 文章提到数字地图融合了'实时交通数据'等功能。"
+        },
+        {
+          "id": "p5-q11",
+          "type": "multiple_choice",
+          "question": "What technology is now being used to automatically update maps from imagery?",
+          "options": ["A. Virtual reality", "B. Artificial intelligence", "C. Blockchain", "D. Quantum computing"],
+          "correctAnswer": "B. Artificial intelligence",
+          "explanation": "EN: The text states 'Artificial intelligence is now being used to automatically update maps from aerial and street-level imagery.'|CN: 文章指出'人工智能现在被用于从航空和街道级图像中自动更新地图。'"
+        },
+        {
+          "id": "p5-q12",
+          "type": "short_answer",
+          "question": "Who developed the Mercator projection? (Two-word name)",
+          "options": [],
+          "correctAnswer": "Gerardus Mercator",
+          "explanation": "EN: The text states 'Gerardus Mercator developed his famous projection in 1569.'|CN: 文章指出'Gerardus Mercator在1569年发展了他的著名投影。'"
+        },
+        {
+          "id": "p5-q13",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: During the Age of Exploration, cartography flourished as European explorers ventured across _______.",
+          "options": [],
+          "correctAnswer": "oceans",
+          "explanation": "EN: The text states 'cartography flourished as European explorers ventured across oceans.'|CN: 文章指出'随着欧洲探险家穿越海洋，制图学蓬勃发展。'"
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "Biodiversity and Ecosystem Services",
+      "text": "Biodiversity - the variety of life on Earth at all levels, from genes to ecosystems - is not just an environmental concern; it is fundamental to human wellbeing. Ecosystems provide services that are essential for human survival and prosperity, yet these services are often taken for granted.\n\nEcosystem services are typically categorized into four types. Provisioning services include tangible products we obtain from ecosystems: food, fresh water, timber, fiber, and medicinal resources. Regulating services include benefits such as climate regulation, flood control, water purification, and pollination. Cultural services encompass non-material benefits like recreation, tourism, spiritual enrichment, and aesthetic appreciation. Supporting services form the foundation - nutrient cycling, soil formation, and primary production.\n\nThe economic value of ecosystem services is staggering. A landmark study estimated the global value at approximately $125 trillion per year, more than the global GDP. Pollination alone, primarily by insects, is worth an estimated $235-577 billion annually. Forests provide clean water to over 1.5 billion people and regulate rainfall patterns across continents.\n\nDespite their importance, biodiversity is declining at an alarming rate. Current extinction rates are estimated to be 100 to 1,000 times higher than natural background rates. The primary drivers of biodiversity loss are habitat destruction, overexploitation of resources, climate change, pollution, and invasive species. According to the IPBES Global Assessment Report, around one million species are threatened with extinction.\n\nThe consequences of biodiversity loss extend beyond environmental concerns. It undermines food security by reducing crop pollination and fish stocks. It increases vulnerability to natural disasters by degrading protective ecosystems like mangroves and coral reefs. It threatens the discovery of new medicines, as many pharmaceutical compounds are derived from natural sources.\n\nConservation efforts include establishing protected areas, which now cover 15% of land and 7% of oceans globally. International agreements like the Convention on Biological Diversity set targets for conservation. Restoration ecology offers hope by rehabilitating degraded ecosystems. Individual actions, such as sustainable consumption and supporting conservation organizations, also contribute to protecting Earth's biodiversity.",
+      "questions": [
+        {
+          "id": "p5-q14",
+          "type": "multiple_choice",
+          "question": "Which of the following is an example of a provisioning service?",
+          "options": ["A. Climate regulation", "B. Food and fresh water", "C. Recreation and tourism", "D. Nutrient cycling"],
+          "correctAnswer": "B. Food and fresh water",
+          "explanation": "EN: Provisioning services include 'food, fresh water, timber, fiber, and medicinal resources.'|CN: 供给服务包括'食物、淡水、木材、纤维和药用资源。'"
+        },
+        {
+          "id": "p5-q15",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: The estimated global value of ecosystem services is approximately _______ per year.",
+          "options": [],
+          "correctAnswer": "$125 trillion",
+          "explanation": "EN: The text states 'the global value at approximately $125 trillion per year.'|CN: 文章指出'全球价值约为每年125万亿美元。'"
+        },
+        {
+          "id": "p5-q16",
+          "type": "tfng",
+          "question": "Pollination is worth more than $500 billion annually.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "Not Given",
+          "explanation": "EN: The text says pollination is worth '$235-577 billion annually' - the upper estimate is $577 billion which is more than $500 billion, but the range varies.|CN: 文章说授粉价值'每年2350-5770亿美元'——上限是5770亿美元，超过5000亿美元，但这是一个范围。"
+        },
+        {
+          "id": "p5-q17",
+          "type": "multiple_choice",
+          "question": "How many people depend on forests for clean water?",
+          "options": ["A. Over 500 million", "B. Over 1 billion", "C. Over 1.5 billion", "D. Over 2 billion"],
+          "correctAnswer": "C. Over 1.5 billion",
+          "explanation": "EN: The text states 'Forests provide clean water to over 1.5 billion people.'|CN: 文章指出'森林为超过15亿人提供清洁水。'"
+        },
+        {
+          "id": "p5-q18",
+          "type": "tfng",
+          "question": "Current extinction rates are 10 to 100 times higher than natural background rates.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: The text says '100 to 1,000 times higher' - not 10 to 100 times.|CN: 文章说的是'100到1000倍'——不是10到100倍。"
+        },
+        {
+          "id": "p5-q19",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: According to the IPBES report, approximately _______ species are threatened with extinction.",
+          "options": [],
+          "correctAnswer": "one million",
+          "explanation": "EN: The text states 'around one million species are threatened with extinction.'|CN: 文章指出'约有100万个物种面临灭绝威胁。'"
+        },
+        {
+          "id": "p5-q20",
+          "type": "short_answer",
+          "question": "How many primary drivers of biodiversity loss are listed in the passage? (Number only)",
+          "options": [],
+          "correctAnswer": "five",
+          "explanation": "EN: The text lists five drivers: habitat destruction, overexploitation, climate change, pollution, and invasive species.|CN: 文章列出了五个驱动因素：栖息地破坏、资源过度开发、气候变化、污染和外来入侵物种。"
+        },
+        {
+          "id": "p5-q21",
+          "type": "tfng",
+          "question": "Biodiversity loss only affects environmental systems, not human food security.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: The text states biodiversity loss 'undermines food security by reducing crop pollination and fish stocks.'|CN: 文章指出生物多样性丧失'通过减少作物授粉和鱼类资源来破坏粮食安全。'"
+        },
+        {
+          "id": "p5-q22",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Protected areas now cover _______ of land and 7% of oceans globally.",
+          "options": [],
+          "correctAnswer": "15%",
+          "explanation": "EN: The text states 'protected areas, which now cover 15% of land and 7% of oceans globally.'|CN: 文章指出'保护区目前覆盖全球15%的陆地和7%的海洋。'"
+        },
+        {
+          "id": "p5-q23",
+          "type": "multiple_choice",
+          "question": "What does restoration ecology focus on?",
+          "options": ["A. Creating new species", "B. Rehabilitating degraded ecosystems", "C. Removing all human impact", "D. Relocating endangered species"],
+          "correctAnswer": "B. Rehabilitating degraded ecosystems",
+          "explanation": "EN: The text states 'Restoration ecology offers hope by rehabilitating degraded ecosystems.'|CN: 文章指出'恢复生态学通过修复退化的生态系统带来了希望。'"
+        },
+        {
+          "id": "p5-q24",
+          "type": "tfng",
+          "question": "Cultural services include spiritual enrichment and aesthetic appreciation.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text lists 'Cultural services encompass non-material benefits like recreation, tourism, spiritual enrichment, and aesthetic appreciation.'|CN: 文章列出了'文化服务包括娱乐、旅游、精神滋养和审美欣赏等非物质利益。'"
+        },
+        {
+          "id": "p5-q25",
+          "type": "short_answer",
+          "question": "What category of ecosystem service includes nutrient cycling? (One word answer)",
+          "options": [],
+          "correctAnswer": "Supporting",
+          "explanation": "EN: The text states 'Supporting services form the foundation - nutrient cycling, soil formation, and primary production.'|CN: 文章指出'支持服务构成了基础——养分循环、土壤形成和初级生产。'"
+        },
+        {
+          "id": "p5-q26",
+          "type": "multiple_choice",
+          "question": "Which international agreement sets targets for conservation mentioned in the passage?",
+          "options": ["A. Paris Agreement", "B. Convention on Biological Diversity", "C. Kyoto Protocol", "D. Montreal Protocol"],
+          "correctAnswer": "B. Convention on Biological Diversity",
+          "explanation": "EN: The text mentions 'International agreements like the Convention on Biological Diversity set targets for conservation.'|CN: 文章提到'《生物多样性公约》等国际协议为保护设定了目标。'"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "The Science of Language Acquisition",
+      "text": "Language acquisition is one of the most remarkable achievements of human development. Within just a few years, children progress from babbling to producing complex sentences, demonstrating a capacity for language learning that adults often struggle to match.\n\nThere are two main theories of language acquisition. The nativist theory, championed by Noam Chomsky, proposes that humans are born with an innate language faculty - a 'universal grammar' that provides the basic structure for all human languages. This explains why children can learn any language they are exposed to and why they follow similar developmental patterns worldwide.\n\nThe interactionist theory emphasizes the role of social interaction in language development. Proponents like Jerome Bruner argue that while children may have innate language capabilities, these are activated and shaped through interaction with caregivers. The concept of 'scaffolding' - where adults adjust their language to match a child's level - is central to this view.\n\nResearch on the critical period hypothesis suggests that there is an optimal window for language acquisition, particularly for achieving native-like pronunciation and grammar. Children who are exposed to a language before puberty generally achieve higher proficiency than those who start later. This has practical implications for language education policy.\n\nSecond language acquisition involves different processes. Adults learning a second language often rely more on explicit learning strategies, such as memorizing vocabulary and grammar rules. While adult learners can achieve high levels of proficiency, they rarely achieve native-like fluency. Factors affecting second language acquisition include age, motivation, exposure, and the similarity between the first and second languages.\n\nBilingualism research has revealed cognitive advantages associated with speaking multiple languages. Bilingual individuals often show better executive function, including enhanced attention control, problem-solving skills, and cognitive flexibility. They also demonstrate delayed onset of dementia compared to monolinguals. These benefits have led to increased support for bilingual education programs worldwide.",
+      "questions": [
+        {
+          "id": "p5-q27",
+          "type": "multiple_choice",
+          "question": "What are the two main theories of language acquisition discussed in the passage?",
+          "options": ["A. Behavioral and cognitive", "B. Nativist and interactionist", "C. Structural and functional", "D. Formal and informal"],
+          "correctAnswer": "B. Nativist and interactionist",
+          "explanation": "EN: The text discusses the 'nativist theory' and the 'interactionist theory.'|CN: 文章讨论了'先天论'和'交互论'。"
+        },
+        {
+          "id": "p5-q28",
+          "type": "tfng",
+          "question": "Noam Chomsky proposed that humans are born with an innate language faculty.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'The nativist theory, championed by Noam Chomsky, proposes that humans are born with an innate language faculty.'|CN: 文章指出'由Noam Chomsky倡导的先天论认为，人类天生具有语言能力。'"
+        },
+        {
+          "id": "p5-q29",
+          "type": "short_answer",
+          "question": "What term describes the innate language structure proposed by Chomsky? (Two-word answer)",
+          "options": [],
+          "correctAnswer": "universal grammar",
+          "explanation": "EN: The text mentions 'a universal grammar that provides the basic structure for all human languages.'|CN: 文章提到'普遍语法为所有人类语言提供了基本结构。'"
+        },
+        {
+          "id": "p5-q30",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: The interactionist theory emphasizes the role of _______ in language development.",
+          "options": [],
+          "correctAnswer": "social interaction",
+          "explanation": "EN: The text states 'The interactionist theory emphasizes the role of social interaction in language development.'|CN: 文章指出'交互论强调社会互动在语言发展中的作用。'"
+        },
+        {
+          "id": "p5-q31",
+          "type": "tfng",
+          "question": "The critical period hypothesis applies equally to first and second language acquisition.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "Not Given",
+          "explanation": "EN: The text discusses the critical period in relation to first language acquisition but does not explicitly state it applies equally to second language.|CN: 文章讨论了关键期与第一语言习得的关系，但没有明确说明它同样适用于第二语言。"
+        },
+        {
+          "id": "p5-q32",
+          "type": "multiple_choice",
+          "question": "According to the passage, children exposed to a language before puberty generally:",
+          "options": ["A. Have more difficulty learning", "B. Achieve higher proficiency than late starters", "C. Learn faster but forget quicker", "D. Only learn vocabulary well"],
+          "correctAnswer": "B. Achieve higher proficiency than late starters",
+          "explanation": "EN: The text states 'Children who are exposed to a language before puberty generally achieve higher proficiency than those who start later.'|CN: 文章指出'在青春期前接触语言的儿童通常比晚开始的人获得更高的语言能力。'"
+        },
+        {
+          "id": "p5-q33",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Adults learning a second language often rely more on _______ learning strategies.",
+          "options": [],
+          "correctAnswer": "explicit",
+          "explanation": "EN: The text states 'Adults learning a second language often rely more on explicit learning strategies.'|CN: 文章指出'成人学习第二语言通常更多地依赖显性学习策略。'"
+        },
+        {
+          "id": "p5-q34",
+          "type": "short_answer",
+          "question": "What concept describes adults adjusting their language to match a child's level? (One word answer)",
+          "options": [],
+          "correctAnswer": "scaffolding",
+          "explanation": "EN: The text defines 'scaffolding - where adults adjust their language to match a child's level.'|CN: 文章定义了'支架式教学——成人调整语言以匹配儿童水平。'"
+        },
+        {
+          "id": "p5-q35",
+          "type": "tfng",
+          "question": "Adult learners of a second language can never achieve high levels of proficiency.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: The text says 'While adult learners can achieve high levels of proficiency, they rarely achieve native-like fluency.'|CN: 文章说'虽然成人学习者可以达到较高水平的语言能力，但他们很少能达到母语般的流利度。'"
+        },
+        {
+          "id": "p5-q36",
+          "type": "multiple_choice",
+          "question": "Which of the following is mentioned as a cognitive advantage of bilingualism?",
+          "options": ["A. Higher IQ scores", "B. Enhanced attention control", "C. Better musical ability", "D. Improved memory for faces"],
+          "correctAnswer": "B. Enhanced attention control",
+          "explanation": "EN: The text lists 'enhanced attention control, problem-solving skills, and cognitive flexibility' as advantages.|CN: 文章列出了'增强的注意力控制、解决问题的能力和认知灵活性'等优势。"
+        },
+        {
+          "id": "p5-q37",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Bilingual individuals show delayed onset of _______ compared to monolinguals.",
+          "options": [],
+          "correctAnswer": "dementia",
+          "explanation": "EN: The text states 'Bilingual individuals... demonstrate delayed onset of dementia compared to monolinguals.'|CN: 文章指出'双语者...与单语者相比，痴呆症的发病时间延迟。'"
+        },
+        {
+          "id": "p5-q38",
+          "type": "tfng",
+          "question": "Jerome Bruner supported the nativist theory of language acquisition.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: Jerome Bruner is associated with the interactionist theory, not the nativist theory.|CN: Jerome Bruner与交互论相关联，而非先天论。"
+        },
+        {
+          "id": "p5-q39",
+          "type": "short_answer",
+          "question": "What four factors affect second language acquisition according to the passage? (Write in order separated by commas)",
+          "options": [],
+          "correctAnswer": "age, motivation, exposure, similarity",
+          "explanation": "EN: The text lists 'age, motivation, exposure, and the similarity between the first and second languages.'|CN: 文章列出了'年龄、动机、接触量以及第一语言与第二语言之间的相似性。'"
+        },
+        {
+          "id": "p5-q40",
+          "type": "multiple_choice",
+          "question": "What does the passage say is a practical implication of the critical period hypothesis?",
+          "options": ["A. Adults should not learn languages", "B. Implications for language education policy", "C. Children should only learn one language", "D. Language learning is impossible after puberty"],
+          "correctAnswer": "B. Implications for language education policy",
+          "explanation": "EN: The text states 'This has practical implications for language education policy.'|CN: 文章指出'这对语言教育政策具有实际意义。'"
+        }
+      ]
+    }
+  ]
+}

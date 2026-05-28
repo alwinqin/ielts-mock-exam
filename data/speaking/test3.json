@@ -1,0 +1,35 @@
+{
+  "id": "test3",
+  "part1": [
+    {
+      "question": "Do you like music?",
+      "followUp": "What kind of music do you enjoy?"
+    },
+    {
+      "question": "Can you play a musical instrument?",
+      "followUp": "Would you like to learn one?"
+    },
+    {
+      "question": "Do you prefer live music or recorded music?",
+      "followUp": "Have you been to a concert recently?"
+    },
+    {
+      "question": "How has music streaming changed the way people listen to music?",
+      "followUp": "Do you think physical albums will disappear?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a skill you would like to learn.",
+    "bulletPoints": [
+      "What the skill is",
+      "Why you want to learn it",
+      "How you plan to learn it",
+      "Explain how it might benefit you"
+    ],
+    "followUpQuestions": [
+      "Do you think people should learn new skills throughout their lives?",
+      "What is the best way to learn a new skill?",
+      "How has technology changed the way people learn?"
+    ]
+  }
+}

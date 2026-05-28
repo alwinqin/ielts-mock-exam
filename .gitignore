@@ -1,0 +1,18 @@
+# Claude Code
+.claude/
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# Build output
+*.zip

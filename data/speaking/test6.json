@@ -1,0 +1,35 @@
+{
+  "id": "test6",
+  "part1": [
+    {
+      "question": "Do you like sports?",
+      "followUp": "What sports do you enjoy playing or watching?"
+    },
+    {
+      "question": "Did you play sports when you were a child?",
+      "followUp": "What was your favourite sport at school?"
+    },
+    {
+      "question": "Do you think children should do more sports at school?",
+      "followUp": "Why do you think so?"
+    },
+    {
+      "question": "Who is your favourite sportsperson?",
+      "followUp": "What do you admire about them?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a place in your city that you enjoy visiting.",
+    "bulletPoints": [
+      "Where it is",
+      "How often you go there",
+      "What you do there",
+      "Explain why you like this place"
+    ],
+    "followUpQuestions": [
+      "What makes a city a good place to live?",
+      "How has your city changed in recent years?",
+      "What improvements would you like to see in your city?"
+    ]
+  }
+}

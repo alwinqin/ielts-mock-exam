@@ -1,0 +1,35 @@
+{
+  "id": "test9",
+  "part1": [
+    {
+      "question": "Do you like to keep fit?",
+      "followUp": "What do you do to stay healthy?"
+    },
+    {
+      "question": "What is your favourite form of exercise?",
+      "followUp": "How often do you do it?"
+    },
+    {
+      "question": "Do you think people are more health-conscious now than in the past?",
+      "followUp": "What has caused this change?"
+    },
+    {
+      "question": "What could be done to encourage people to be more active?",
+      "followUp": "Does your government promote healthy lifestyles?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a piece of advice someone gave you.",
+    "bulletPoints": [
+      "Who gave you the advice",
+      "What the advice was",
+      "Whether you followed it",
+      "Explain how it helped you"
+    ],
+    "followUpQuestions": [
+      "Do people in your country ask for advice from family or friends?",
+      "Is it better to get advice from older or younger people?",
+      "How has the internet changed the way people seek advice?"
+    ]
+  }
+}

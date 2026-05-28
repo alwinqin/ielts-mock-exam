@@ -1,0 +1,35 @@
+{
+  "id": "test7",
+  "part1": [
+    {
+      "question": "Do you like animals?",
+      "followUp": "Do you have any pets?"
+    },
+    {
+      "question": "What is your favourite animal?",
+      "followUp": "Why do you like it?"
+    },
+    {
+      "question": "Should animals be kept in zoos?",
+      "followUp": "What are the advantages and disadvantages?"
+    },
+    {
+      "question": "Are there many wild animals in your country?",
+      "followUp": "What is being done to protect them?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a memorable event from your childhood.",
+    "bulletPoints": [
+      "What the event was",
+      "When it happened",
+      "Who was with you",
+      "Explain why it was memorable"
+    ],
+    "followUpQuestions": [
+      "Do you think childhood is the most important stage of life?",
+      "How has childhood changed compared to the past?",
+      "What can adults learn from children?"
+    ]
+  }
+}

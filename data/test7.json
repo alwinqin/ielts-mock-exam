@@ -1,0 +1,348 @@
+{
+  "id": "test7",
+  "title": "Test 7",
+  "totalQuestions": 40,
+  "passages": [
+    {
+      "id": "p1",
+      "title": "The Development of Writing Systems",
+      "text": "Writing is one of humanity's most significant inventions, enabling the preservation and transmission of knowledge across generations and distances. The development of writing systems represents a cognitive leap that fundamentally changed human civilization.\n\nThe earliest known writing systems emerged independently in different parts of the world. Sumerian cuneiform, developed in Mesopotamia around 3400 BCE, began as a system of pictographs representing objects and evolved into a complex script of wedge-shaped marks representing syllables. Egyptian hieroglyphs appeared shortly after, combining logographic and alphabetic elements.\n\nThe great innovation came with the development of the alphabet. The first true alphabet was developed by Canaanite workers in Egypt around 1800 BCE, adapting Egyptian hieroglyphs to represent individual consonant sounds. This concept was refined by the Phoenicians, whose 22-character consonant alphabet became the ancestor of most modern alphabets.\n\nThe Greeks made a crucial modification by adding vowel symbols to the Phoenician consonant alphabet around 800 BCE. This created the first complete alphabet where both consonants and vowels were represented. The Greek alphabet spread throughout the Mediterranean region and gave rise to the Etruscan and Latin alphabets, which form the basis of most Western writing systems today.\n\nMeanwhile, other writing traditions flourished independently. Chinese characters, first attested around 1200 BCE during the Shang Dynasty, developed from oracle bone inscriptions into a logographic system where each character represents a word or morpheme. This system, with thousands of characters, spread throughout East Asia, influencing Japanese and Korean writing.\n\nThe invention of writing had profound social consequences. It enabled the administration of large empires, the codification of laws, the recording of history, and the development of literature. Writing transformed human cognition by enabling complex abstract thought and allowing knowledge to accumulate beyond individual memory.\n\nThe digital age has brought new changes to writing. Text messaging, social media, and emoji are creating new forms of written communication. While some lament the decline of traditional writing skills, others see these developments as the natural evolution of human communication.",
+      "questions": [
+        {
+          "id": "p7-q1",
+          "type": "tfng",
+          "question": "Writing systems emerged independently in different parts of the world.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'The earliest known writing systems emerged independently in different parts of the world.'|CN: 文章指出'已知最早的书写系统在世界不同地区独立出现。'"
+        },
+        {
+          "id": "p7-q2",
+          "type": "multiple_choice",
+          "question": "When did Sumerian cuneiform first emerge?",
+          "options": ["A. Around 4000 BCE", "B. Around 3400 BCE", "C. Around 2800 BCE", "D. Around 2000 BCE"],
+          "correctAnswer": "B. Around 3400 BCE",
+          "explanation": "EN: The text states 'Sumerian cuneiform, developed in Mesopotamia around 3400 BCE.'|CN: 文章指出'苏美尔楔形文字，约公元前3400年在美索不达米亚发展起来。'"
+        },
+        {
+          "id": "p7-q3",
+          "type": "short_answer",
+          "question": "What did Sumerian cuneiform begin as? (One word answer)",
+          "options": [],
+          "correctAnswer": "pictographs",
+          "explanation": "EN: The text states it 'began as a system of pictographs representing objects.'|CN: 文章指出它'始于一个代表物体的象形文字系统。'"
+        },
+        {
+          "id": "p7-q4",
+          "type": "tfng",
+          "question": "The first true alphabet was developed by the Phoenicians.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: The text states 'The first true alphabet was developed by Canaanite workers in Egypt' - not the Phoenicians, who refined the concept.|CN: 文章指出'第一个真正的字母表是由在埃及的迦南工人开发的'——不是腓尼基人，腓尼基人完善了这一概念。"
+        },
+        {
+          "id": "p7-q5",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: The first true alphabet was developed around _______.",
+          "options": [],
+          "correctAnswer": "1800 BCE",
+          "explanation": "EN: The text states 'The first true alphabet was developed by Canaanite workers in Egypt around 1800 BCE.'|CN: 文章指出'约公元前1800年，在埃及的迦南工人开发了第一个真正的字母表。'"
+        },
+        {
+          "id": "p7-q6",
+          "type": "multiple_choice",
+          "question": "How many characters were in the Phoenician alphabet?",
+          "options": ["A. 18", "B. 22", "C. 26", "D. 30"],
+          "correctAnswer": "B. 22",
+          "explanation": "EN: The text mentions 'the Phoenicians, whose 22-character consonant alphabet became the ancestor of most modern alphabets.'|CN: 文章提到'腓尼基人，其22个辅音字母成为大多数现代字母表的祖先。'"
+        },
+        {
+          "id": "p7-q7",
+          "type": "tfng",
+          "question": "The Greeks added vowel symbols to the alphabet around 800 BCE.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'The Greeks made a crucial modification by adding vowel symbols to the Phoenician consonant alphabet around 800 BCE.'|CN: 文章指出'希腊人在公元前800年左右做出了一项关键改进，在腓尼基辅音字母表中加入了元音符号。'"
+        },
+        {
+          "id": "p7-q8",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Chinese characters were first attested around _______ during the Shang Dynasty.",
+          "options": [],
+          "correctAnswer": "1200 BCE",
+          "explanation": "EN: The text states 'Chinese characters, first attested around 1200 BCE during the Shang Dynasty.'|CN: 文章指出'汉字最早在公元前1200年左右的商代出现。'"
+        },
+        {
+          "id": "p7-q9",
+          "type": "short_answer",
+          "question": "What did Chinese characters develop from? (Three-word answer)",
+          "options": [],
+          "correctAnswer": "oracle bone inscriptions",
+          "explanation": "EN: The text states Chinese characters 'developed from oracle bone inscriptions into a logographic system.'|CN: 文章指出汉字'从甲骨文发展为一个语标系统。'"
+        },
+        {
+          "id": "p7-q10",
+          "type": "tfng",
+          "question": "Writing had profound social consequences including enabling the administration of large empires.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text lists 'the administration of large empires, the codification of laws, the recording of history, and the development of literature.'|CN: 文章列出了'大帝国的管理、法律的编纂、历史的记录和文学的发展'。"
+        },
+        {
+          "id": "p7-q11",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Writing transformed human cognition by enabling complex abstract thought and allowing knowledge to accumulate beyond _______.",
+          "options": [],
+          "correctAnswer": "individual memory",
+          "explanation": "EN: The text states writing 'allowed knowledge to accumulate beyond individual memory.'|CN: 文章指出文字'使知识能够超越个人记忆而积累。'"
+        },
+        {
+          "id": "p7-q12",
+          "type": "short_answer",
+          "question": "What does the passage say is creating new forms of written communication in the digital age? (Three items separated by commas)",
+          "options": [],
+          "correctAnswer": "text messaging, social media, emoji",
+          "explanation": "EN: The text states 'Text messaging, social media, and emoji are creating new forms of written communication.'|CN: 文章指出'短信、社交媒体和表情符号正在创造新的书面交流形式。'"
+        },
+        {
+          "id": "p7-q13",
+          "type": "multiple_choice",
+          "question": "According to the passage, which alphabet forms the basis of most Western writing systems today?",
+          "options": ["A. Greek alphabet", "B. Latin alphabet", "C. Phoenician alphabet", "D. Etruscan alphabet"],
+          "correctAnswer": "B. Latin alphabet",
+          "explanation": "EN: The text mentions 'the Etruscan and Latin alphabets, which form the basis of most Western writing systems today.'|CN: 文章提到'伊特鲁里亚字母和拉丁字母，构成了今天大多数西方书写系统的基础。'"
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "Sustainable Architecture",
+      "text": "Sustainable architecture, also known as green building, is an approach to design and construction that minimizes environmental impact while enhancing occupant wellbeing. As climate concerns grow, sustainable architecture has moved from a niche interest to a mainstream priority in the building industry.\n\nOne of the fundamental principles of sustainable architecture is energy efficiency. Buildings account for approximately 40% of global energy consumption and 33% of greenhouse gas emissions. Passive design strategies - such as proper orientation, insulation, natural ventilation, and daylighting - can dramatically reduce energy needs. Active systems like solar panels, heat pumps, and energy-efficient appliances further reduce the carbon footprint.\n\nWater conservation is another key consideration. Sustainable buildings incorporate rainwater harvesting systems, greywater recycling, and water-efficient fixtures. Green roofs and permeable pavements help manage stormwater runoff, reducing pressure on urban drainage systems and replenishing groundwater.\n\nMaterial selection plays a crucial role. Sustainable architects prioritize locally sourced materials to reduce transportation emissions, recycled and reclaimed materials to reduce waste, and rapidly renewable materials like bamboo. The concept of 'embodied energy' - the total energy required to produce a material - guides material choices. Low-embodied-energy materials like rammed earth and straw bale are gaining popularity.\n\nIndoor environmental quality is equally important. Sustainable buildings use low-VOC (volatile organic compound) paints and finishes to improve air quality. Abundant natural light and views of nature have been shown to improve productivity and mental health. Biophilic design - incorporating natural elements into built environments - enhances occupant connection to nature.\n\nGreen building certification systems like LEED (Leadership in Energy and Environmental Design) and BREEAM provide frameworks for assessing sustainability. These rating systems evaluate buildings across multiple categories, encouraging holistic approaches to sustainable design.\n\nThe costs of sustainable architecture are often higher upfront, but life-cycle cost analysis typically shows significant savings over time through reduced energy and water bills, lower maintenance costs, and higher property values. As building codes become more stringent and climate awareness grows, sustainable architecture is becoming the new standard rather than the exception.",
+      "questions": [
+        {
+          "id": "p7-q14",
+          "type": "multiple_choice",
+          "question": "What percentage of global energy consumption do buildings account for?",
+          "options": ["A. 33%", "B. 40%", "C. 50%", "D. 25%"],
+          "correctAnswer": "B. 40%",
+          "explanation": "EN: The text states 'Buildings account for approximately 40% of global energy consumption.'|CN: 文章指出'建筑约占全球能源消耗的40%。'"
+        },
+        {
+          "id": "p7-q15",
+          "type": "tfng",
+          "question": "Passive design strategies include solar panels and heat pumps.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: Solar panels and heat pumps are 'active systems', not passive design strategies.|CN: 太阳能板和热泵是'主动系统'，而非被动设计策略。"
+        },
+        {
+          "id": "p7-q16",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Sustainable buildings incorporate rainwater harvesting systems, greywater recycling, and _______ fixtures.",
+          "options": [],
+          "correctAnswer": "water-efficient",
+          "explanation": "EN: The text mentions 'water-efficient fixtures' as part of water conservation.|CN: 文章提到'节水装置'作为水资源保护的一部分。"
+        },
+        {
+          "id": "p7-q17",
+          "type": "short_answer",
+          "question": "What concept guides material choices by representing the total energy required to produce a material? (Two-word answer)",
+          "options": [],
+          "correctAnswer": "embodied energy",
+          "explanation": "EN: The text defines 'embodied energy - the total energy required to produce a material.'|CN: 文章定义了'隐含能量——生产一种材料所需的总能量。'"
+        },
+        {
+          "id": "p7-q18",
+          "type": "multiple_choice",
+          "question": "Which of the following is NOT mentioned as a sustainable material or construction method?",
+          "options": ["A. Bamboo", "B. Rammed earth", "C. Concrete blocks", "D. Straw bale"],
+          "correctAnswer": "C. Concrete blocks",
+          "explanation": "EN: The text mentions bamboo, rammed earth, and straw bale - but not concrete blocks.|CN: 文章提到了竹子、夯土和秸秆捆——但没有提到混凝土砌块。"
+        },
+        {
+          "id": "p7-q19",
+          "type": "tfng",
+          "question": "Low-VOC paints improve indoor air quality in sustainable buildings.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'Sustainable buildings use low-VOC paints and finishes to improve air quality.'|CN: 文章指出'可持续建筑使用低挥发性有机化合物涂料和饰面来改善空气质量。'"
+        },
+        {
+          "id": "p7-q20",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Biophilic design incorporates natural elements into built environments to enhance occupant connection to _______.",
+          "options": [],
+          "correctAnswer": "nature",
+          "explanation": "EN: The text states 'Biophilic design... enhances occupant connection to nature.'|CN: 文章指出'亲生物设计...增强居住者与自然的联系。'"
+        },
+        {
+          "id": "p7-q21",
+          "type": "short_answer",
+          "question": "What does LEED stand for? (Full name without abbreviation expansion - just the acronym)",
+          "options": [],
+          "correctAnswer": "Leadership in Energy and Environmental Design",
+          "explanation": "EN: The text defines LEED as 'Leadership in Energy and Environmental Design.'|CN: 文章将LEED定义为'能源与环境设计先锋。'"
+        },
+        {
+          "id": "p7-q22",
+          "type": "tfng",
+          "question": "Sustainable architecture always costs less upfront than conventional building.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: The text states 'The costs of sustainable architecture are often higher upfront' but save money over time.|CN: 文章指出'可持续建筑的前期成本通常较高'，但长期来看会省钱。"
+        },
+        {
+          "id": "p7-q23",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Green roofs and permeable pavements help manage _______ runoff.",
+          "options": [],
+          "correctAnswer": "stormwater",
+          "explanation": "EN: The text mentions 'Green roofs and permeable pavements help manage stormwater runoff.'|CN: 文章提到'绿色屋顶和透水路面有助于管理雨水径流。'"
+        },
+        {
+          "id": "p7-q24",
+          "type": "multiple_choice",
+          "question": "Why do sustainable architects prioritize locally sourced materials?",
+          "options": ["A. They are cheaper", "B. To reduce transportation emissions", "C. They look better", "D. Local governments require it"],
+          "correctAnswer": "B. To reduce transportation emissions",
+          "explanation": "EN: The text states 'locally sourced materials to reduce transportation emissions.'|CN: 文章指出'本地采购材料以减少运输排放。'"
+        },
+        {
+          "id": "p7-q25",
+          "type": "tfng",
+          "question": "Abundant natural light has been shown to improve productivity and mental health.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'Abundant natural light and views of nature have been shown to improve productivity and mental health.'|CN: 文章指出'充足的自然光和大自然景观已被证明能提高生产力和心理健康。'"
+        },
+        {
+          "id": "p7-q26",
+          "type": "short_answer",
+          "question": "What type of cost analysis shows savings from sustainable buildings over time? (Hyphenated three-word answer)",
+          "options": [],
+          "correctAnswer": "life-cycle cost",
+          "explanation": "EN: The text mentions 'life-cycle cost analysis typically shows significant savings over time.'|CN: 文章提到'生命周期成本分析通常显示长期有显著节省。'"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "The Power of Music on the Brain",
+      "text": "Music is a universal human experience, present in every culture throughout history. But why does music have such a powerful effect on us? Neuroscience is beginning to uncover the remarkable ways music affects the brain.\n\nWhen we listen to music, multiple areas of the brain are activated simultaneously. The auditory cortex processes sound, the motor cortex responds to rhythm, the limbic system processes emotion, and the prefrontal cortex engages in pattern recognition and prediction. This widespread activation explains why music can influence mood, movement, and memory so effectively.\n\nOne of the most fascinating findings is music's effect on the brain's reward system. Listening to pleasurable music triggers the release of dopamine, the same neurotransmitter involved in the experience of pleasure from food, sex, and addictive substances. The anticipation of a favorite part of a song can cause dopamine release even before the music reaches that point.\n\nMusic has remarkable therapeutic applications. Music therapy has been shown to reduce anxiety and depression, improve mood in dementia patients, and help stroke victims recover speech and movement. For people with Parkinson's disease, rhythmic auditory stimulation can improve gait and reduce freezing episodes. Premature infants exposed to lullabies show improved feeding and sleep patterns.\n\nLearning to play a musical instrument produces structural changes in the brain. Musicians have increased gray matter volume in areas related to motor control, auditory processing, and spatial reasoning. Children who study music tend to perform better in language processing, reading comprehension, and mathematical reasoning. These cognitive benefits persist into adulthood.\n\nThe emotional power of music is partly explained by its ability to trigger memories. Music is encoded in the brain alongside contextual information, which is why hearing a song from your past can vividly recall associated memories and emotions. This is particularly useful for dementia patients, where familiar music can access memories otherwise inaccessible.\n\nInterestingly, the pleasure derived from music is highly subjective and influenced by cultural background, personal experiences, and familiarity. What one person finds beautiful, another may find unpleasant. This subjectivity reflects the highly personal nature of musical experience and the complex interplay between brain structure, experience, and cultural context.",
+      "questions": [
+        {
+          "id": "p7-q27",
+          "type": "multiple_choice",
+          "question": "What is the main topic of this passage?",
+          "options": ["A. Different types of music", "B. How music affects the brain", "C. The history of music therapy", "D. Why musicians are more intelligent"],
+          "correctAnswer": "B. How music affects the brain",
+          "explanation": "EN: The passage discusses neuroscience findings on music's effects on the brain, including emotion, memory, and therapy.|CN: 文章讨论了音乐对大脑影响的神经科学研究发现，包括情感、记忆和治疗方面。"
+        },
+        {
+          "id": "p7-q28",
+          "type": "tfng",
+          "question": "Only one area of the brain is activated when listening to music.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: The text states 'multiple areas of the brain are activated simultaneously.'|CN: 文章指出'大脑的多个区域同时被激活。'"
+        },
+        {
+          "id": "p7-q29",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Listening to pleasurable music triggers the release of _______.",
+          "options": [],
+          "correctAnswer": "dopamine",
+          "explanation": "EN: The text states 'listening to pleasurable music triggers the release of dopamine.'|CN: 文章指出'听悦耳的音乐会触发多巴胺的释放。'"
+        },
+        {
+          "id": "p7-q30",
+          "type": "multiple_choice",
+          "question": "Which part of the brain processes sound when listening to music?",
+          "options": ["A. Motor cortex", "B. Prefrontal cortex", "C. Auditory cortex", "D. Limbic system"],
+          "correctAnswer": "C. Auditory cortex",
+          "explanation": "EN: 'The auditory cortex processes sound' according to the passage.|CN: 文章指出'听觉皮层处理声音。'"
+        },
+        {
+          "id": "p7-q31",
+          "type": "tfng",
+          "question": "Dopamine is only released at the most enjoyable moment of a song.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: The text states 'The anticipation of a favorite part of a song can cause dopamine release even before the music reaches that point.'|CN: 文章指出'即使音乐还未到达最喜欢的部分，对它的期待就能引起多巴胺释放。'"
+        },
+        {
+          "id": "p7-q32",
+          "type": "short_answer",
+          "question": "What type of stimulation can improve gait in Parkinson's patients? (Two-word answer)",
+          "options": [],
+          "correctAnswer": "rhythmic auditory",
+          "explanation": "EN: The text states 'rhythmic auditory stimulation can improve gait and reduce freezing episodes' for Parkinson's patients.|CN: 文章指出'节律性听觉刺激可以改善帕金森病患者的步态并减少冻结现象。'"
+        },
+        {
+          "id": "p7-q33",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Premature infants exposed to lullabies show improved feeding and _______ patterns.",
+          "options": [],
+          "correctAnswer": "sleep",
+          "explanation": "EN: The text states 'Premature infants exposed to lullabies show improved feeding and sleep patterns.'|CN: 文章指出'接触摇篮曲的早产儿表现出改善的进食和睡眠模式。'"
+        },
+        {
+          "id": "p7-q34",
+          "type": "tfng",
+          "question": "Learning to play a musical instrument increases gray matter volume in the brain.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'Musicians have increased gray matter volume in areas related to motor control, auditory processing, and spatial reasoning.'|CN: 文章指出'音乐家在运动控制、听觉处理和空间推理相关区域的灰质体积增加。'"
+        },
+        {
+          "id": "p7-q35",
+          "type": "multiple_choice",
+          "question": "Children who study music tend to perform better in which of the following areas?",
+          "options": ["A. Only music", "B. Language processing, reading comprehension, and math", "C. Only reading comprehension", "D. Physical education"],
+          "correctAnswer": "B. Language processing, reading comprehension, and math",
+          "explanation": "EN: The text states 'Children who study music tend to perform better in language processing, reading comprehension, and mathematical reasoning.'|CN: 文章指出'学习音乐的儿童在语言处理、阅读理解和数学推理方面往往表现更好。'"
+        },
+        {
+          "id": "p7-q36",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Music is encoded in the brain alongside _______ information.",
+          "options": [],
+          "correctAnswer": "contextual",
+          "explanation": "EN: The text states 'Music is encoded in the brain alongside contextual information.'|CN: 文章指出'音乐在大脑中与情境信息一起编码。'"
+        },
+        {
+          "id": "p7-q37",
+          "type": "tfng",
+          "question": "Familiar music can help dementia patients access otherwise inaccessible memories.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'familiar music can access memories otherwise inaccessible' for dementia patients.|CN: 文章指出'熟悉的音乐可以访问原本无法触及的记忆'，对痴呆症患者如此。"
+        },
+        {
+          "id": "p7-q38",
+          "type": "short_answer",
+          "question": "What three factors influence the subjective pleasure derived from music? (Separated by commas)",
+          "options": [],
+          "correctAnswer": "cultural background, personal experiences, familiarity",
+          "explanation": "EN: The text mentions 'cultural background, personal experiences, and familiarity' as influencing factors.|CN: 文章提到'文化背景、个人经历和熟悉程度'是影响因素。"
+        },
+        {
+          "id": "p7-q39",
+          "type": "tfng",
+          "question": "Music therapy can help stroke victims recover speech and movement.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states music therapy can 'help stroke victims recover speech and movement.'|CN: 文章指出音乐疗法可以'帮助中风患者恢复语言和运动能力。'"
+        },
+        {
+          "id": "p7-q40",
+          "type": "multiple_choice",
+          "question": "What does the passage say processes emotion when listening to music?",
+          "options": ["A. Auditory cortex", "B. Motor cortex", "C. Limbic system", "D. Prefrontal cortex"],
+          "correctAnswer": "C. Limbic system",
+          "explanation": "EN: 'the limbic system processes emotion' according to the passage.|CN: 文章指出'边缘系统处理情感。'"
+        }
+      ]
+    }
+  ]
+}

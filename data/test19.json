@@ -1,0 +1,356 @@
+{
+  "id": "test19",
+  "title": "Test 19 (Cambridge 15/18/19)",
+  "totalQuestions": 40,
+  "passages": [
+    {
+      "id": "passage1",
+      "title": "Henry Moore (1898-1986)",
+      "text": "Henry Moore was born in Castleford, a small town near Leeds in the north of England. He was the seventh child of Raymond Moore and his wife Mary Baker. He studied at Castleford Grammar School from 1909 to 1915, where his early interest in art was encouraged by his teacher Alice Gostick. After leaving school, Moore hoped to become a sculptor, but instead he complied with his father's wish that he train as a schoolteacher. He had to abandon his training in 1917 when he was sent to France to fight in the First World War.\n\nAfter the war, Moore enrolled at the Leeds School of Art, where he studied for two years. In his first year, he spent most of his time drawing. Although he wanted to study sculpture, no teacher was appointed until his second year. At the end of that year, he passed the sculpture examination and was awarded a scholarship to the Royal College of Art in London. In September 1921, he moved to London and began three years of advanced study in sculpture.\n\nAlongside the instruction he received at the Royal College, Moore visited many of the London museums, particularly the British Museum, which had a wide-ranging collection of ancient sculpture. During these visits, he discovered the power and beauty of ancient Egyptian and African sculpture. As he became increasingly interested in these primitive forms of art, he turned away from European sculptural traditions.\n\nAfter graduating, Moore spent the first six months of 1925 travelling in France. When he visited the Trocadero Museum in Paris, he was impressed by a cast of a Mayan sculpture of the rain spirit. It was a male reclining figure with its knees drawn up together, and its head at a right angle to its body. Moore became fascinated with this stone sculpture, which he thought had a power and originality that no other stone sculpture possessed. He himself started carving a variety of subjects in stone, including depiction of reclining women, mother-and-child groups, and masks.\n\nMoore's exceptional talent soon gained recognition, and in 1926 he started work as a sculpture instructor at the Royal College. In 1933, he became a member of a group of young artists called Unit One. The aim of the group was to convince the English public of the merits of the emerging international movement in modern art and architecture.\n\nAround this time, Moore moved away from the human figure to experiment with abstract shapes. In 1931, he held an exhibition at the Leicester Galleries in London. His work was enthusiastically welcomed by fellow sculptors, but the reviews in the press were extremely negative and turned Moore into a notorious figure. There were calls for his resignation from the Royal College, and the following year, when his contract expired, he left to start a sculpture department at the Chelsea School of Art in London.\n\nThroughout the 1930s, Moore did not show any inclination to please the British public. He became interested in the paintings of the Spanish artist Pablo Picasso, whose work inspired him to distort the human body in a radical way. At times, he seemed to abandon the human figure altogether. The pages of his sketchbooks from this period show his ideas for abstract sculptures that bore little resemblance to the human form.\n\nIn 1940, during the Second World War, Moore stopped teaching at the Chelsea School and moved to a farmhouse about 20 miles north of London. A shortage of materials forced him to focus on drawing. He did numerous small sketches of Londoners, later turning these ideas into large coloured drawings in his studio. In 1942, he returned to Castleford to make a series of sketches of the miners who worked there.\n\nIn 1944, Harlow, a town near London, offered Moore a commission for a sculpture depicting a family. The resulting work signifies a dramatic change in Moore's style, away from the experimentation of the 1930s towards a more natural and humanistic subject matter. He did dozens of studies in clay for the sculpture, and these were cast in bronze and issued in editions of seven to nine copies each. In this way, Moore's work became available to collectors all over the world. The boost to his income enabled him to take on ambitious projects and start working on the scale he felt his sculpture demanded.\n\nCritics who had begun to think that Moore had become less revolutionary were proven wrong by the appearance, in 1950, of the first of Moore's series of standing figures in bronze, with their harsh and angular pierced forms and distinct impression of menace. Moore also varied his subject matter in the 1950s with such works as Warrior with Shield and Falling Warrior. These were rare examples of Moore's use of the male figure and owe something to his visit to Greece in 1951, when he had the opportunity to study ancient works of art.\n\nIn his final years, Moore created the Henry Moore Foundation to promote art appreciation and to display his work. Moore was the first modern English sculptor to achieve international critical acclaim and he is still regarded as one of the most important sculptors of the 20th century.",
+      "questions": [
+        {
+          "id": "p1-q1",
+          "type": "tfng",
+          "question": "On leaving school, Moore did what his father wanted him to do.",
+          "correctAnswer": "TRUE",
+          "explanation": "EN: He complied with his father's wish that he train as a schoolteacher. | CN: 他遵从父亲的意愿，接受学校教师培训。"
+        },
+        {
+          "id": "p1-q2",
+          "type": "tfng",
+          "question": "Moore began studying sculpture in his first term at the Leeds School of Art.",
+          "correctAnswer": "FALSE",
+          "explanation": "EN: No teacher was appointed until his second year, so he could not study sculpture in his first term. | CN: 直到第二年才任命教师，所以第一学期无法学习雕塑。"
+        },
+        {
+          "id": "p1-q3",
+          "type": "tfng",
+          "question": "When Moore started at the Royal College of Art, its reputation for teaching sculpture was excellent.",
+          "correctAnswer": "NOT GIVEN",
+          "explanation": "EN: The passage mentions the Royal College but says nothing about its reputation for teaching sculpture. | CN: 文章提到了皇家学院但未提及其雕塑教学声誉。"
+        },
+        {
+          "id": "p1-q4",
+          "type": "tfng",
+          "question": "Moore became aware of ancient sculpture as a result of visiting London museums.",
+          "correctAnswer": "TRUE",
+          "explanation": "EN: He visited many London museums and during these visits discovered the power and beauty of ancient Egyptian and African sculpture. | CN: 他参观了许多伦敦博物馆，期间发现了古埃及和非洲雕塑的力量和美感。"
+        },
+        {
+          "id": "p1-q5",
+          "type": "tfng",
+          "question": "The Trocadero Museum's Mayan sculpture attracted a lot of public interest.",
+          "correctAnswer": "NOT GIVEN",
+          "explanation": "EN: Only Moore's personal fascination is mentioned, not public interest. | CN: 只提到了Moore个人的着迷，未提及公众兴趣。"
+        },
+        {
+          "id": "p1-q6",
+          "type": "tfng",
+          "question": "Moore thought the Mayan sculpture was similar in certain respects to other stone sculptures.",
+          "correctAnswer": "FALSE",
+          "explanation": "EN: He thought it had a power and originality that no other stone sculpture possessed. | CN: 他认为它具有其他石雕所没有的力量和独创性。"
+        },
+        {
+          "id": "p1-q7",
+          "type": "tfng",
+          "question": "The artists who belonged to Unit One wanted to make modern art and architecture more popular.",
+          "correctAnswer": "TRUE",
+          "explanation": "EN: The aim of Unit One was to convince the English public of the merits of modern art and architecture. | CN: Unit One的目标是让英国公众信服现代艺术和建筑的价值。"
+        },
+        {
+          "id": "p1-q8",
+          "type": "sentence_completion",
+          "question": "In the 1930s, Moore was urged to offer his ______ and leave the Royal College.",
+          "correctAnswer": "resignation",
+          "explanation": "EN: There were calls for his resignation from the Royal College. | CN: 有人要求他从皇家学院辞职。"
+        },
+        {
+          "id": "p1-q9",
+          "type": "sentence_completion",
+          "question": "In the 1940s, Moore turned to drawing because ______ for sculpting were not readily available.",
+          "correctAnswer": "materials",
+          "explanation": "EN: A shortage of materials forced him to focus on drawing. | CN: 材料短缺迫使他专注于绘画。"
+        },
+        {
+          "id": "p1-q10",
+          "type": "sentence_completion",
+          "question": "In 1942, while visiting his hometown, Moore did some drawings of ______.",
+          "correctAnswer": "miners",
+          "explanation": "EN: He returned to Castleford to make a series of sketches of the miners who worked there. | CN: 他回到Castleford画了一系列在那里工作的矿工的素描。"
+        },
+        {
+          "id": "p1-q11",
+          "type": "sentence_completion",
+          "question": "In 1944, Moore was employed to produce a sculpture of a ______.",
+          "correctAnswer": "family",
+          "explanation": "EN: Harlow offered Moore a commission for a sculpture depicting a family. | CN: Harlow委托Moore创作一件描绘家庭的雕塑。"
+        },
+        {
+          "id": "p1-q12",
+          "type": "sentence_completion",
+          "question": "Moore's work became available to ______ all over the world through bronze editions.",
+          "correctAnswer": "collectors",
+          "explanation": "EN: Moore's work became available to collectors all over the world. | CN: Moore的作品被世界各地的收藏家所获得。"
+        },
+        {
+          "id": "p1-q13",
+          "type": "sentence_completion",
+          "question": "Moore's increased ______ made it possible for him to do more ambitious sculptures.",
+          "correctAnswer": "income",
+          "explanation": "EN: The boost to his income enabled him to take on ambitious projects. | CN: 收入的增加使他能够承担雄心勃勃的项目。"
+        }
+      ]
+    },
+    {
+      "id": "passage2",
+      "title": "Living with artificial intelligence",
+      "text": "Powerful artificial intelligence (AI) needs to be reliably aligned with human values, but does this mean AI will eventually have to police those values?\n\nThis has been the decade of AI, with one astonishing feat after another. A chess-playing AI that can defeat not only all human chess players, but also all previous human-programmed chess machines, after learning the game in just four hours? That's yesterday's news, what's next? True, these prodigious accomplishments are all in so-called narrow AI, where machines perform highly specialised tasks. But many experts believe this restriction is very temporary. By mid-century, we may have artificial general intelligence (AGI) - machines that can achieve human-level performance on the full range of tasks that we ourselves can tackle.\n\nIf so, there's little reason to think it will stop there. Machines will be free of many of the physical constraints on human intelligence. Our brains run at slow biochemical processing speeds on the power of a light bulb, and their size is restricted by the dimensions of the human birth canal. It is remarkable what they accomplish, given these handicaps. But they may be as far from the physical limits of thought as our eyes are from the incredibly powerful Webb Space Telescope.\n\nOnce machines are better than us at designing even smarter machines, progress towards these limits could accelerate. What would this mean for us? Could we ensure a safe and worthwhile coexistence with such machines? On the plus side, AI is already useful and profitable for many things, and super AI might be expected to be super useful, and super profitable. But the more powerful AI becomes, the more important it will be to specify its goals with great care. Folklore is full of tales of people who ask for the wrong thing, with disastrous consequences - King Midas, for example, might have wished that everything he touched turned to gold, but didn't really intend this to apply to his breakfast.\n\nSo we need to create powerful AI machines that are human-friendly - that have goals reliably aligned with our own values. One thing that makes this task difficult is that we are far from reliably human-friendly ourselves. We do many terrible things to each other and to many other creatures with whom we share the planet. If superintelligent machines don't do a lot better than us, we'll be in deep trouble. We'll have powerful new intelligence amplifying the dark sides of our own fallible natures.\n\nFor safety's sake, then, we want the machines to be ethically as well as cognitively superhuman. We want them to aim for the moral high ground, not for the troughs in which many of us spend some of our time. Luckily they'll be smart enough for the job. If there are routes to the moral high ground, they'll be better than us at finding them, and steering us in the right direction.\n\nHowever, there are two big problems with this utopian vision. One is how we get the machines started on the journey, the other is what it would mean to reach this destination. The getting started problem is that we need to tell the machines what they're looking for with sufficient clarity that we can be confident they will find it - whatever it actually turns out to be. This won't be easy, given that we are tribal creatures and conflicted about the ideals ourselves. We often ignore the suffering of strangers, and even contribute to it, at least indirectly. How then, do we point machines in the direction of something better?\n\nAs for the destination problem, we might, by putting ourselves in the hands of these moral guides and gatekeepers, be sacrificing our own autonomy - an important part of what makes us human. Machines who are better than us at sticking to the moral high ground may be expected to discourage some of the lapses we presently take for granted. We might lose our freedom to discriminate in favour of our own communities, for example.\n\nLoss of freedom to behave badly isn't always a bad thing, of course: denying ourselves the freedom to put children to work in factories, or to smoke in restaurants are signs of progress. But are we ready for ethical silicon police limiting our options? They might be so good at doing it that we won't notice them; but few of us are likely to welcome such a future.\n\nThese issues might seem far-fetched, but they are to some extent already here. AI already has some input into how resources are used in our National Health Service (NHS) here in the UK, for example. If it was given a greater role, it might do so much more efficiently than humans can manage, and act in the interests of taxpayers and those who use the health system. However, we'd be depriving some humans (e.g. senior doctors) of the control they presently enjoy. Since we'd want to ensure that people are treated equally and that policies are fair, the goals of AI would need to be specified correctly.\n\nWe have a new powerful technology to deal with - itself, literally, a new way of thinking. For our own safety, we need to point these new thinkers in the right direction, and get them to act well for us. It is not yet clear whether this is possible, but if it is, it will require a cooperative spirit, and a willingness to set aside self-interest.\n\nBoth general intelligence and moral reasoning are often thought to be uniquely human capacities. But safety seems to require that we think of them as a package: if we are to give general intelligence to machines, we'll need to give them moral authority, too. And where exactly would that leave human beings? All the more reason to think about the destination now, and to be careful about what we wish for.",
+      "questions": [
+        {
+          "id": "p2-q1",
+          "type": "multiple_choice",
+          "question": "What point does the writer make about AI in the first paragraph?",
+          "options": [
+            "A. AI has already surpassed human intelligence",
+            "B. Current AI achievements are limited to narrow, specialised tasks",
+            "C. AI will never achieve human-level intelligence",
+            "D. AI development has slowed down in recent years"
+          ],
+          "correctAnswer": "B",
+          "explanation": "EN: The prodigious accomplishments are all in narrow AI where machines perform highly specialised tasks. | CN: 这些惊人成就都在狭义AI中，机器执行高度专业化的任务。"
+        },
+        {
+          "id": "p2-q2",
+          "type": "multiple_choice",
+          "question": "According to the second paragraph, why might machines surpass human intelligence?",
+          "options": [
+            "A. They have access to more data",
+            "B. They are free from many physical constraints on human intelligence",
+            "C. They can work continuously without rest",
+            "D. They have better memory capacity"
+          ],
+          "correctAnswer": "B",
+          "explanation": "EN: Machines will be free of many of the physical constraints on human intelligence. | CN: 机器将摆脱人类智能的许多物理限制。"
+        },
+        {
+          "id": "p2-q3",
+          "type": "multiple_choice",
+          "question": "Why does the writer mention King Midas in the third paragraph?",
+          "options": [
+            "A. To show that AI can grant wishes",
+            "B. To illustrate the danger of not specifying goals carefully",
+            "C. To compare AI to ancient mythology",
+            "D. To suggest AI will bring wealth"
+          ],
+          "correctAnswer": "B",
+          "explanation": "EN: Folklore is full of tales of people who ask for the wrong thing with disastrous consequences - illustrating the need to specify goals with great care. | CN: 民间传说中充满了要求错误事物导致灾难性后果的故事，说明需要谨慎指定目标。"
+        },
+        {
+          "id": "p2-q4",
+          "type": "multiple_choice",
+          "question": "What difficulty does the writer identify in creating human-friendly AI?",
+          "options": [
+            "A. Machines lack emotional intelligence",
+            "B. Humans are far from reliably human-friendly themselves",
+            "C. AI technology is not yet advanced enough",
+            "D. There is no agreement on what values should be programmed"
+          ],
+          "correctAnswer": "B",
+          "explanation": "EN: One thing that makes this task difficult is that we are far from reliably human-friendly ourselves. | CN: 使这项任务困难的一点是我们自己远非可靠的人类友好型。"
+        },
+        {
+          "id": "p2-q5",
+          "type": "ynng",
+          "question": "The writer suggests that people might lose their freedom to discriminate in favour of their own communities.",
+          "correctAnswer": "YES",
+          "explanation": "EN: We might lose our freedom to discriminate in favour of our own communities, for example. | CN: 我们可能会失去偏袒自己社区的自由。"
+        },
+        {
+          "id": "p2-q6",
+          "type": "ynng",
+          "question": "It would require a large number of silicon police to limit human options effectively.",
+          "correctAnswer": "NOT GIVEN",
+          "explanation": "EN: The passage mentions ethical silicon police but does not specify how many would be needed. | CN: 文章提到了道德硅警察但未说明需要多少。"
+        },
+        {
+          "id": "p2-q7",
+          "type": "ynng",
+          "question": "Most people would be comfortable with ethical silicon police limiting their options.",
+          "correctAnswer": "NO",
+          "explanation": "EN: Few of us are likely to welcome such a future. | CN: 我们中很少有人可能欢迎这样的未来。"
+        },
+        {
+          "id": "p2-q8",
+          "type": "ynng",
+          "question": "Ensuring AI safety will require a cooperative spirit and a willingness to set aside self-interest.",
+          "correctAnswer": "YES",
+          "explanation": "EN: It will require a cooperative spirit, and a willingness to set aside self-interest. | CN: 这将需要合作精神和放下自身利益的意愿。"
+        },
+        {
+          "id": "p2-q9",
+          "type": "multiple_choice",
+          "question": "According to the NHS example, how could AI benefit healthcare?",
+          "options": [
+            "A. By replacing all doctors with machines",
+            "B. By providing free healthcare to everyone",
+            "C. By allocating resources more efficiently than humans",
+            "D. By developing new medical treatments"
+          ],
+          "correctAnswer": "C",
+          "explanation": "EN: AI might do so much more efficiently than humans can manage in allocating NHS resources. | CN: AI在分配NHS资源方面可能比人类管理更高效。"
+        },
+        {
+          "id": "p2-q10",
+          "type": "multiple_choice",
+          "question": "According to the NHS example, what concern does the writer raise about AI in healthcare?",
+          "options": [
+            "A. Senior doctors would lose some of the control they presently enjoy",
+            "B. AI might make incorrect medical diagnoses",
+            "C. Patients would not trust AI recommendations",
+            "D. The cost of implementing AI would be too high"
+          ],
+          "correctAnswer": "A",
+          "explanation": "EN: We'd be depriving some humans (e.g. senior doctors) of the control they presently enjoy. | CN: 我们将剥夺一些人（如资深医生）目前享有的控制权。"
+        },
+        {
+          "id": "p2-q11",
+          "type": "multiple_choice",
+          "question": "What does the writer conclude about general intelligence and moral reasoning?",
+          "options": [
+            "A. They should be developed separately",
+            "B. Only humans can possess these capacities",
+            "C. They are not relevant to AI development",
+            "D. They need to be thought of as a package for safety"
+          ],
+          "correctAnswer": "D",
+          "explanation": "EN: Safety seems to require that we think of them as a package. | CN: 安全似乎要求我们将它们视为一个整体。"
+        },
+        {
+          "id": "p2-q12",
+          "type": "sentence_completion",
+          "question": "By ______, we may have artificial general intelligence (AGI) that can match human performance.",
+          "correctAnswer": "mid-century",
+          "explanation": "EN: By mid-century, we may have artificial general intelligence. | CN: 到本世纪中叶，我们可能拥有通用人工智能。"
+        },
+        {
+          "id": "p2-q13",
+          "type": "sentence_completion",
+          "question": "The writer suggests that powerful AI could amplify the ______ of our own fallible natures.",
+          "correctAnswer": "dark sides",
+          "explanation": "EN: We'll have powerful new intelligence amplifying the dark sides of our own fallible natures. | CN: 我们将有强大的新智能放大我们自身易错本性的阴暗面。"
+        }
+      ]
+    },
+    {
+      "id": "passage3",
+      "title": "How tennis rackets have changed",
+      "text": "In 2016, the British tennis player Andy Murray was regarded as a talented outsider who had never quite lived up to his potential. Yet by the end of that year, he had become the world's top-ranked player. Looking back, Murray has identified a subtle change he made to his rackets in 2012 as a critical turning point: he switched to using synthetic string for the mains while keeping natural string for the crosses. This change was so subtle as to pass more or less unnoticed, yet by switching to a synthetic string with a slightly different composition, Murray reduced the number of unforced errors he made and gained a competitive edge.\n\nMurray is not alone in making such adjustments. Most of the world's top players customise their rackets to suit their individual playing style. The American doubles players Mike and Bob Bryan, for example, use rackets that are about 28 inches long, an inch longer than the standard racket. Their rackets also weigh more than the average model and have a different string pattern. The Bryan brothers also experiment with different kinds of paint on their racket frames, as the thickness of the paint affects the racket's weight and swing.\n\nRacket modifications date back to the 1970s, when the German player Werner Fischer started playing with a spaghetti-strung racket. This created so much topspin that the racket was eventually banned. Since then, the range of possible modifications has expanded enormously. They can be broadly divided into two categories: those affecting the string bed, and those affecting the racket frame.\n\nHistorically, tennis strings were made from natural gut - the dried and twisted outer layer of sheep or cow intestines. Natural gut is still favoured by many top players for its elasticity and feel. However, the introduction of co-polyester strings has revolutionised the game. These synthetic strings allow players to generate about 25 per cent more spin than natural gut. Players can also change the tension of their strings depending on climatic conditions. On a cold day, when the ball travels more slowly through the air, a lower string tension can provide more power.\n\nRacket frames have also undergone significant modification. The American player Pete Sampras famously added lead weights to the head of his racket, a modification which was said to have been partly responsible for the power of his serve. Modern players adjust the weight and balance of their rackets in many ways, adding strips of lead tape to various positions on the frame. Players like Goncalo Oliveira have replaced the original grips with thinner ones, finding that removing a few grams can make a crucial difference. For professional players, these racket changes are of equal significance to other aspects of their game such as nutrition and training. The technology of tennis rackets continues to evolve, and with it, the game itself.",
+      "questions": [
+        {
+          "id": "p3-q1",
+          "type": "tfng",
+          "question": "People had expected Andy Murray to become the world's top tennis player for at least five years before 2016.",
+          "correctAnswer": "FALSE",
+          "explanation": "EN: Murray was regarded as a talented outsider who had never quite lived up to his potential before 2016. | CN: Murray在2016年之前被视为从未完全发挥潜力的有才华的边缘人物。"
+        },
+        {
+          "id": "p3-q2",
+          "type": "tfng",
+          "question": "The change that Andy Murray made to his rackets attracted a lot of attention.",
+          "correctAnswer": "FALSE",
+          "explanation": "EN: This change was so subtle as to pass more or less unnoticed. | CN: 这个改变如此微妙以至于几乎没有被注意到。"
+        },
+        {
+          "id": "p3-q3",
+          "type": "tfng",
+          "question": "Most of the world's top players take a professional racket stringer on tour with them.",
+          "correctAnswer": "NOT GIVEN",
+          "explanation": "EN: The passage says most top players customise their rackets but does not mention taking a stringer on tour. | CN: 文章说大多数顶级选手定制球拍但未提及带穿线师巡回。"
+        },
+        {
+          "id": "p3-q4",
+          "type": "tfng",
+          "question": "Mike and Bob Bryan use rackets that are light in comparison to the majority of rackets.",
+          "correctAnswer": "FALSE",
+          "explanation": "EN: Their rackets weigh more than the average model. | CN: 他们的球拍比平均型号更重。"
+        },
+        {
+          "id": "p3-q5",
+          "type": "tfng",
+          "question": "Werner Fischer played with a spaghetti-strung racket that he designed himself.",
+          "correctAnswer": "NOT GIVEN",
+          "explanation": "EN: He started playing with a spaghetti-strung racket but the passage does not say he designed it himself. | CN: 他开始使用意面式穿线的球拍但文章未说他自己设计的。"
+        },
+        {
+          "id": "p3-q6",
+          "type": "tfng",
+          "question": "The weather can affect how professional players adjust the strings on their rackets.",
+          "correctAnswer": "TRUE",
+          "explanation": "EN: Players change the tension of their strings depending on climatic conditions; on a cold day they use lower tension. | CN: 选手根据气候条件改变球拍线的张力。"
+        },
+        {
+          "id": "p3-q7",
+          "type": "tfng",
+          "question": "It was believed that the change Pete Sampras made to his rackets contributed to his strong serve.",
+          "correctAnswer": "TRUE",
+          "explanation": "EN: Sampras added lead weights to his racket, a modification said to have been partly responsible for the power of his serve. | CN: Sampras添加铅块被视为部分负责其发球威力。"
+        },
+        {
+          "id": "p3-q8",
+          "type": "sentence_completion",
+          "question": "The Bryan brothers experimented with different kinds of ______ on their racket frames.",
+          "correctAnswer": "paint",
+          "explanation": "EN: The Bryan brothers experiment with different kinds of paint on their racket frames. | CN: Bryan兄弟在球拍框架上试验不同种类的漆。"
+        },
+        {
+          "id": "p3-q9",
+          "type": "sentence_completion",
+          "question": "Werner Fischer's spaghetti-strung racket created so much ______ that it was banned.",
+          "correctAnswer": "topspin",
+          "explanation": "EN: This created so much topspin that the racket was eventually banned. | CN: 这产生了如此多的上旋以至于球拍最终被禁止。"
+        },
+        {
+          "id": "p3-q10",
+          "type": "sentence_completion",
+          "question": "Racket changes are equal in significance to nutrition or ______.",
+          "correctAnswer": "training",
+          "explanation": "EN: These racket changes are of equal significance to other aspects such as nutrition and training. | CN: 球拍变化与营养和训练同等重要。"
+        },
+        {
+          "id": "p3-q11",
+          "type": "sentence_completion",
+          "question": "Natural gut strings were made from the outer layer of sheep or cow ______.",
+          "correctAnswer": "intestines",
+          "explanation": "EN: Natural gut is the dried and twisted outer layer of sheep or cow intestines. | CN: 天然肠线是羊或牛肠外层的干燥和扭曲。"
+        },
+        {
+          "id": "p3-q12",
+          "type": "sentence_completion",
+          "question": "Pete Sampras added lead ______ to his racket to increase serving power.",
+          "correctAnswer": "weights",
+          "explanation": "EN: Pete Sampras famously added lead weights to the head of his racket. | CN: Pete Sampras著名地在球拍头部添加了铅块。"
+        },
+        {
+          "id": "p3-q13",
+          "type": "sentence_completion",
+          "question": "Goncalo Oliveira replaced the original ______ on his racket with thinner ones.",
+          "correctAnswer": "grips",
+          "explanation": "EN: Players like Goncalo Oliveira have replaced the original grips with thinner ones. | CN: Goncalo Oliveira等选手将原装握把换成了更薄的。"
+        },
+        {
+          "id": "p3-q14",
+          "type": "multiple_choice",
+          "question": "What is the writer's main purpose in this passage?",
+          "options": [
+            "A. To argue that tennis racket technology has made the game too easy",
+            "B. To describe how professional tennis players customise their equipment",
+            "C. To compare different brands of tennis rackets",
+            "D. To explain the history of the Wimbledon tournament"
+          ],
+          "correctAnswer": "B",
+          "explanation": "EN: The passage focuses on how professional tennis players customise their rackets through string and frame modifications. | CN: 文章聚焦于职业网球选手如何通过球拍线和框架修改来定制他们的设备。"
+        }
+      ]
+    }
+  ]
+}

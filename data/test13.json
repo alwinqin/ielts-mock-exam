@@ -1,0 +1,473 @@
+{
+  "id": "test13",
+  "title": "Test 13 (Cambridge 17)",
+  "totalQuestions": 40,
+  "passages": [
+    {
+      "id": "p1",
+      "title": "The development of the London underground railway",
+      "text": "In the first half of the 1800s, London's population grew at an astonishing rate, and the central area became increasingly congested. In addition, the expansion of the overground railway network resulted in more and more passengers arriving in the capital. However, in 1846, a Royal Commission decided that the railways should not be allowed to enter the City, the capital's historic and business centre. The result was that the overground railway stations formed a ring around the City. The area within consisted of poorly built, overcrowded slums and the streets were full of horse-drawn traffic. Crossing the City became a nightmare. It could take an hour and a half to travel 8 km by horse-drawn carriage or bus. Numerous schemes were proposed to resolve these problems, but few succeeded.\n\nAmongst the most vocal advocates for a solution to London's traffic problems was Charles Pearson, who worked as a solicitor for the City of London. He saw both social and economic advantages in building an underground railway that would link the overground railway stations together and clear London slums at the same time. His idea was to relocate the poor workers who lived in the inner-city slums to newly constructed suburbs, and to provide cheap rail travel for them to get to work. Pearson's ideas gained support amongst some businessmen and in 1851 he submitted a plan to Parliament. It was rejected, but coincided with a proposal from another group for an underground connecting line, which Parliament passed.\n\nThe two groups merged and established the Metropolitan Railway Company in August 1854. The company's plan was to construct an underground railway line from the Great Western Railway's (GWR) station at Paddington to the edge of the City at Farringdon Street - a distance of almost 5 km. The organisation had difficulty in raising the funding for such a radical and expensive scheme, not least because of the critical articles printed by the press. Objectors argued that the tunnels would collapse under the weight of traffic overhead, buildings would be shaken and passengers would be poisoned by the emissions from the train engines. However, Pearson and his partners persisted.\n\nThe GWR, aware that the new line would finally enable them to run trains into the heart of the City, invested almost 250,000 pounds in the scheme. Eventually, over a five-year period, 1 million pounds was raised. The chosen route ran beneath existing main roads to minimise the expense of demolishing buildings. Originally scheduled to be completed in 21 months, the construction of the underground line took three years. It was built just below street level using a technique known as 'cut and cover'. A trench about ten metres wide and six metres deep was dug, and the sides temporarily held up with timber beams. Brick walls were then constructed, and finally a brick arch was added to create a tunnel. A two-metre-deep layer of soil was laid on top of the tunnel and the road above rebuilt.\n\nThe Metropolitan line, which opened on 10 January 1863, was the world's first underground railway. On its first day, almost 40,000 passengers were carried between Paddington and Farringdon, the journey taking about 18 minutes. By the end of the Metropolitan's first year of operation, 9.5 million journeys had been made.\n\nEven as the Metropolitan began operation, the first extensions to the line were being authorised; these were built over the next five years, reaching Moorgate in the east of London and Hammersmith in the west. The original plan was to pull the trains with steam locomotives, using firebricks in the boilers to provide steam, but these engines were never introduced. Instead, the line used specially designed locomotives that were fitted with water tanks in which steam could be condensed. However, smoke and fumes remained a problem, even though ventilation shafts were added to the tunnels.\n\nDespite the extension of the underground railway, by the 1880s, congestion on London's streets had become worse. The problem was partly that the existing underground lines formed a circuit around the centre of London and extended to the suburbs, but did not cross the capital's centre. The 'cut and cover' method of construction was not an option in this part of the capital. The only alternative was to tunnel deep underground.\n\nAlthough the technology to create these tunnels existed, steam locomotives could not be used in such a confined space. It wasn't until the development of a reliable electric motor, and a means of transferring power from the generator to a moving train, that the world's first deep-level electric railway, the City & South London, became possible. The line opened in 1890, and ran from the City to Stockwell, south of the River Thames. The trains were made up of three carriages and driven by electric engines. The carriages were narrow and had tiny windows just below the roof because it was thought that passengers would not want to look out at the tunnel walls. The line was not without its problems, mainly caused by an unreliable power supply. Although the City & South London Railway was a great technical achievement, it did not make a profit. Then, in 1900, the Central London Railway, known as the 'Tuppenny Tube', began operation using new electric locomotives. It was very popular and soon afterwards new railways and extensions were added to the growing tube network. By 1907, the heart of today's Underground system was in place.",
+      "questions": [
+        {
+          "id": "p1-q1",
+          "type": "sentence_completion",
+          "question": "The _____ of London increased rapidly between 1800 and 1850.",
+          "options": [],
+          "correctAnswer": "population",
+          "explanation": "EN: 'London's population grew at an astonishing rate.' | CN: 伦敦的人口以惊人的速度增长。"
+        },
+        {
+          "id": "p1-q2",
+          "type": "sentence_completion",
+          "question": "Building the railway would make it possible to move people to better housing in the _____.",
+          "options": [],
+          "correctAnswer": "suburbs",
+          "explanation": "EN: 'relocate the poor workers...to newly constructed suburbs.' | CN: 将贫困工人迁移到新建的郊区。"
+        },
+        {
+          "id": "p1-q3",
+          "type": "sentence_completion",
+          "question": "A number of _____ agreed with Pearson's idea.",
+          "options": [],
+          "correctAnswer": "businessmen",
+          "explanation": "EN: 'Pearson's ideas gained support amongst some businessmen.' | CN: Pearson的想法获得了一些商人的支持。"
+        },
+        {
+          "id": "p1-q4",
+          "type": "sentence_completion",
+          "question": "The company initially had problems getting the _____ needed for the project.",
+          "options": [],
+          "correctAnswer": "funding",
+          "explanation": "EN: 'difficulty in raising the funding.' | CN: 筹集资金遇到困难。"
+        },
+        {
+          "id": "p1-q5",
+          "type": "sentence_completion",
+          "question": "Negative articles about the project appeared in the _____.",
+          "options": [],
+          "correctAnswer": "press",
+          "explanation": "EN: 'critical articles printed by the press.' | CN: 媒体刊登的批评文章。"
+        },
+        {
+          "id": "p1-q6",
+          "type": "sentence_completion",
+          "question": "With the completion of the brick arch, the tunnel was covered with _____.",
+          "options": [],
+          "correctAnswer": "soil",
+          "explanation": "EN: 'A two-metre-deep layer of soil was laid on top of the tunnel.' | CN: 隧道顶部铺设了两米厚的土层。"
+        },
+        {
+          "id": "p1-q7",
+          "type": "tfng",
+          "question": "Other countries had built underground railways before the Metropolitan line opened.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "correctAnswer": "False",
+          "explanation": "EN: It was 'the world's first underground railway.' | CN: 这是世界上第一条地下铁路。"
+        },
+        {
+          "id": "p1-q8",
+          "type": "tfng",
+          "question": "More people than predicted travelled on the Metropolitan line on the first day.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "correctAnswer": "Not Given",
+          "explanation": "EN: The passage gives the number (40,000) but no prediction figure for comparison. | CN: 文章给出了人数但没有预测数据可供比较。"
+        },
+        {
+          "id": "p1-q9",
+          "type": "tfng",
+          "question": "The use of ventilation shafts failed to prevent pollution in the tunnels.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "correctAnswer": "True",
+          "explanation": "EN: 'smoke and fumes remained a problem, even though ventilation shafts were added.' | CN: 即使加了通风井，烟雾和废气仍然是个问题。"
+        },
+        {
+          "id": "p1-q10",
+          "type": "tfng",
+          "question": "A different approach from the 'cut and cover' technique was required in London's central area.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "correctAnswer": "True",
+          "explanation": "EN: 'The cut and cover method...was not an option. The only alternative was to tunnel deep underground.' | CN: 明挖法在市中心不可行，只能深挖隧道。"
+        },
+        {
+          "id": "p1-q11",
+          "type": "tfng",
+          "question": "The windows on City & South London trains were at eye level.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "correctAnswer": "False",
+          "explanation": "EN: Windows were 'tiny windows just below the roof' - not at eye level. | CN: 窗户很小且在车顶下方，不在视线高度。"
+        },
+        {
+          "id": "p1-q12",
+          "type": "tfng",
+          "question": "The City & South London Railway was a financial success.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "correctAnswer": "False",
+          "explanation": "EN: 'Although a great technical achievement, it did not make a profit.' | CN: 虽然是伟大的技术成就，但没有盈利。"
+        },
+        {
+          "id": "p1-q13",
+          "type": "tfng",
+          "question": "Trains on the 'Tuppenny Tube' nearly always ran on time.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
+          "correctAnswer": "Not Given",
+          "explanation": "EN: The passage says it was 'very popular' but doesn't mention punctuality. | CN: 文章说它很受欢迎但没提到准时性。"
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "Stadiums: past, present and future",
+      "text": "A - Stadiums are among the oldest forms of urban architecture: vast stadiums where the public could watch sporting events were at the centre of western city life as far back as the ancient Greek and Roman Empires, well before the construction of the great medieval cathedrals and the grand 19th- and 20th-century railway stations which dominated urban skylines in later eras. Today, however, stadiums are regarded with growing scepticism. Construction costs can soar above 1 billion pounds, and stadiums finished for major events such as the Olympic Games or the FIFA World Cup have notably fallen into disuse and disrepair. But this need not be the case. History shows that stadiums can drive urban development and adapt to the culture of every age. Even today, architects and planners are finding new ways to adapt the mono-functional sports arenas which became emblematic of modernisation during the 20th century.\n\nB - The amphitheatre of Arles in southwest France, with a capacity of 25,000 spectators, is perhaps the best example of just how versatile stadiums can be. Built by the Romans in 90 AD, it became a fortress with four towers after the fifth century, and was then transformed into a village containing more than 200 houses. With the growing interest in conservation during the 19th century, it was converted back into an arena for the staging of bullfights, thereby returning the structure to its original use as a venue for public spectacles. Another example is the imposing arena of Verona in northern Italy, with space for 30,000 spectators, which was built 60 years before the Arles amphitheatre and 40 years before Rome's famous Colosseum. It has endured the centuries and is currently considered one of the world's prime sites for opera, thanks to its outstanding acoustics.\n\nC - The area in the centre of the Italian town of Lucca, known as the Piazza dell'Anfiteatro, is yet another impressive example of an amphitheatre becoming absorbed into the fabric of the city. The site evolved in a similar way to Arles and was progressively filled with buildings from the Middle Ages until the 19th century, variously used as houses, a salt depot and a prison. But rather than reverting to an arena, it became a market square, designed by Romanticist architect Lorenzo Nottolini. Today, the ruins of the amphitheatre remain embedded in the various shops and residences surrounding the public square.\n\nD - There are many similarities between modern stadiums and the ancient amphitheatres intended for games. But some of the flexibility was lost at the beginning of the 20th century, as stadiums were developed using new products such as steel and reinforced concrete, and made use of bright lights for night-time matches. Many such stadiums are situated in suburban areas, designed for sporting use only and surrounded by parking lots. These factors mean that they may not be as accessible to the general public, require more energy to run and contribute to urban heat.\n\nE - But many of today's most innovative architects see scope for the stadium to help improve the city. Among the current strategies, two seem to be having particular success: the stadium as an urban hub, and as a power plant. There's a growing trend for stadiums to be equipped with public spaces and services that serve a function beyond sport, such as hotels, retail outlets, conference centres, restaurants and bars, children's playgrounds and green space. Creating mixed-use developments such as this reinforces compactness and multi-functionality, making more efficient use of land and helping to regenerate urban spaces. This opens the space up to families and a wider cross-section of society, instead of catering only to sportspeople and supporters. There have been many examples of this in the UK: the mixed-use facilities at Wembley and Old Trafford have become a blueprint for many other stadiums in the world.\n\nF - The phenomenon of stadiums as power stations has arisen from the idea that energy problems can be overcome by integrating interconnected buildings by means of a smart grid, which is an electricity supply network that uses digital communications technology to detect and react to local changes in usage, without significant energy losses. Stadiums are ideal for these purposes, because their canopies have a large surface area for fitting photovoltaic panels and rise high enough (more than 40 metres) to make use of micro wind turbines. Freiburg Mage Solar Stadium in Germany is the first of a new wave of stadiums as power plants, which also includes the Amsterdam Arena and the Kaohsiung Stadium. The latter, inaugurated in 2009, has 8,844 photovoltaic panels producing up to 1.14 GWh of electricity annually. This reduces the annual output of carbon dioxide by 660 tons and supplies up to 80 percent of the surrounding area when the stadium is not in use. This is proof that a stadium can serve its city, and have a decidedly positive impact in terms of reduction of CO2 emissions.\n\nG - Sporting arenas have always been central to the life and culture of cities. In every era, the stadium has acquired new value and uses: from military fortress to residential village, public space to theatre and most recently a field for experimentation in advanced engineering. The stadium of today now brings together multiple functions, thus helping cities to create a sustainable future.",
+      "questions": [
+        {
+          "id": "p2-q1",
+          "type": "matching_headings",
+          "question": "Which section mentions negative attitudes towards stadium building projects?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "correctAnswer": "A",
+          "explanation": "EN: Paragraph A mentions 'growing scepticism' and fallen-into-disuse stadiums. | CN: A段提到日益增长的怀疑态度和废弃的体育场。"
+        },
+        {
+          "id": "p2-q2",
+          "type": "matching_headings",
+          "question": "Which section contains figures demonstrating the environmental benefits of a certain stadium?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "correctAnswer": "F",
+          "explanation": "EN: Paragraph F gives figures: 8,844 PV panels, 1.14 GWh, 660 tons CO2 reduction. | CN: F段给出了环境效益的具体数据。"
+        },
+        {
+          "id": "p2-q3",
+          "type": "matching_headings",
+          "question": "Which section gives examples of the wide range of facilities available at some new stadiums?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "correctAnswer": "E",
+          "explanation": "EN: Paragraph E lists hotels, retail outlets, conference centres, restaurants, bars, playgrounds, green space. | CN: E段列举了酒店、零售、会议中心等多种设施。"
+        },
+        {
+          "id": "p2-q4",
+          "type": "matching_headings",
+          "question": "Which section refers to the disadvantages of stadiums built during a certain era?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "correctAnswer": "D",
+          "explanation": "EN: Paragraph D describes 20th-century stadium disadvantages: less accessible, more energy, urban heat. | CN: D段描述了20世纪体育场的缺点：不方便、耗能多、城市热岛。"
+        },
+        {
+          "id": "p2-q5",
+          "type": "sentence_completion",
+          "question": "The amphitheatre of Arles was converted first into a _____.",
+          "options": [],
+          "correctAnswer": "fortress",
+          "explanation": "EN: 'became a fortress with four towers.' | CN: 变成了一座有四座塔楼的堡垒。"
+        },
+        {
+          "id": "p2-q6",
+          "type": "sentence_completion",
+          "question": "It was finally converted into an arena where spectators could watch _____.",
+          "options": [],
+          "correctAnswer": "bullfights",
+          "explanation": "EN: 'converted back into an arena for the staging of bullfights.' | CN: 恢复为斗牛表演的竞技场。"
+        },
+        {
+          "id": "p2-q7",
+          "type": "sentence_completion",
+          "question": "The arena in Verona is famous today as a venue where _____ is performed.",
+          "options": [],
+          "correctAnswer": "opera",
+          "explanation": "EN: 'one of the world's prime sites for opera.' | CN: 世界顶级歌剧演出场所之一。"
+        },
+        {
+          "id": "p2-q8",
+          "type": "sentence_completion",
+          "question": "The site of Lucca's amphitheatre was also used for the storage of _____.",
+          "options": [],
+          "correctAnswer": "salt",
+          "explanation": "EN: 'variously used as houses, a salt depot and a prison.' | CN: 曾用作房屋、盐库和监狱。"
+        },
+        {
+          "id": "p2-q9",
+          "type": "sentence_completion",
+          "question": "It is now a market square with _____ and homes incorporated into the remains.",
+          "options": [],
+          "correctAnswer": "shops",
+          "explanation": "EN: 'embedded in the various shops and residences.' | CN: 融入各种商店和住宅之中。"
+        },
+        {
+          "id": "p2-q10",
+          "type": "multiple_choice",
+          "question": "When comparing twentieth-century stadiums to ancient amphitheatres, which TWO negative features does the writer mention? (Select option A)",
+          "options": [
+            "A. They are less imaginatively designed.",
+            "B. They are less spacious.",
+            "C. They are in less convenient locations.",
+            "D. They are less versatile.",
+            "E. They are made of less durable materials."
+          ],
+          "correctAnswer": "C",
+          "explanation": "EN: 'situated in suburban areas, not as accessible to the general public' (C) and 'some of the flexibility was lost' (D). | CN: 位于郊区不太方便(C)，且灵活性降低(D)。"
+        },
+        {
+          "id": "p2-q11",
+          "type": "multiple_choice",
+          "question": "Which TWO negative features does the writer mention? (Select option B)",
+          "options": [
+            "A. They are less imaginatively designed.",
+            "B. They are less spacious.",
+            "C. They are in less convenient locations.",
+            "D. They are less versatile.",
+            "E. They are made of less durable materials."
+          ],
+          "correctAnswer": "D",
+          "explanation": "EN: Second negative: 'some of the flexibility was lost' = less versatile. | CN: 第二个缺点：灵活性降低。"
+        },
+        {
+          "id": "p2-q12",
+          "type": "multiple_choice",
+          "question": "Which TWO advantages of modern stadium design does the writer mention? (Select option A)",
+          "options": [
+            "A. offering improved amenities for the enjoyment of sports events",
+            "B. bringing community life back into the city environment",
+            "C. facilitating research into solar and wind energy solutions",
+            "D. enabling local residents to reduce their consumption of electricity",
+            "E. providing a suitable site for the installation of renewable power generators"
+          ],
+          "correctAnswer": "B",
+          "explanation": "EN: 'opens the space up to families and a wider cross-section of society' (B) and ideal for PV/wind turbines (E). | CN: 开放空间给家庭和更广泛的社会群体(B)，适合安装可再生能源(E)。"
+        },
+        {
+          "id": "p2-q13",
+          "type": "multiple_choice",
+          "question": "Which TWO advantages of modern stadium design does the writer mention? (Select option B)",
+          "options": [
+            "A. offering improved amenities for the enjoyment of sports events",
+            "B. bringing community life back into the city environment",
+            "C. facilitating research into solar and wind energy solutions",
+            "D. enabling local residents to reduce their consumption of electricity",
+            "E. providing a suitable site for the installation of renewable power generators"
+          ],
+          "correctAnswer": "E",
+          "explanation": "EN: Second advantage: stadiums are 'ideal for fitting photovoltaic panels and micro wind turbines.' | CN: 第二个优点：体育场非常适合安装光伏板和微型风力涡轮机。"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "Building the Skyline: The Birth and Growth of Manhattan's Skyscrapers",
+      "text": "In Building the Skyline, Jason Barr takes the reader through a detailed history of New York City. The book combines geology, history, economics, and a lot of data to explain why business clusters developed where they did and how the early decisions of workers and firms shaped the skyline we see today. Building the Skyline is organized into two distinct parts. The first is primarily historical and addresses New York's settlement and growth from 1609 to 1900; the second deals primarily with the 20th century and is a compilation of chapters commenting on different aspects of New York's urban development. The tone and organization of the book changes somewhat between the first and second parts, as the latter chapters incorporate aspects of Barr's related research papers.\n\nBarr begins chapter one by taking the reader on a 'helicopter time-machine' ride - giving a fascinating account of how the New York landscape in 1609 might have looked from the sky. He then moves on to a subterranean walking tour of the city, indicating the location of rock and water below the subsoil, before taking the reader back to the surface. His love of the city comes through as he describes various fun facts about the location of the New York residence of early 19th-century vice-president Aaron Burr as well as a number of legends about the city.\n\nChapters two and three take the reader up to the Civil War (1861-1865), with chapter two focusing on the early development of land and the implementation of a grid system in 1811. Chapter three focuses on land use before the Civil War. Both chapters are informative and well researched and set the stage for the economic analysis that comes later in the book. I would have liked Barr to expand upon his claim that existing tenements prevented skyscrapers in certain neighborhoods because 'likely no skyscraper developer was interested in performing the necessary slum clearance'. Later in the book, Barr makes the claim that the depth of bedrock was not a limiting factor for developers, as foundation costs were a small fraction of the cost of development. At first glance, it is not obvious why slum clearance would be limiting, while more expensive foundations would not.\n\nChapter four focuses on immigration and the location of neighborhoods and tenements in the late 19th century. Barr identifies four primary immigrant enclaves and analyzes their locations in terms of the amenities available in the area. Most of these enclaves were located on the least valuable land, between the industries located on the waterfront and the wealthy neighborhoods bordering Central Park.\n\nPart two of the book begins with a discussion of the economics of skyscraper height. In chapter five, Barr distinguishes between engineering height, economic height, and developer height - where engineering height is the tallest building that can be safely made at a given time, economic height is the height that is most efficient from society's point of view, and developer height is the actual height chosen by the developer, who is attempting to maximize return on investment.\n\nChapter five also has an interesting discussion of the technological advances that led to the construction of skyscrapers. For example, the introduction of iron and steel skeletal frames made thick, load-bearing walls unnecessary, expanding the usable square footage of buildings and increasing the use of windows and availability of natural light. Chapter six then presents data on building height throughout the 20th century and uses regression analysis to 'predict' building construction. While less technical than the research paper on which the chapter is based, it is probably more technical than would be preferred by a general audience.\n\nChapter seven tackles the 'bedrock myth', the assumption that the absence of bedrock close to the surface between Downtown and Midtown New York is the reason for skyscrapers not being built between the two urban centers. Rather, Barr argues that while deeper bedrock does increase foundation costs, these costs were neither prohibitively high nor were they large compared to the overall cost of building a skyscraper. What I enjoyed the most about this chapter was Barr's discussion of how foundations are actually built. He describes the use of caissons, which enable workers to dig down for considerable distances, often below the water table, until they reach bedrock. Barr's thorough technological history discusses not only how caissons work, but also the dangers involved. While this chapter references empirical research papers, it is a relatively easy read.\n\nChapters eight and nine focus on the birth of Midtown and the building boom of the 1920s. Chapter eight contains lengthy discussions of urban economic theory that may serve as a distraction to readers primarily interested in New York. However, they would be well-suited for undergraduates learning about the economics of cities. In the next chapter, Barr considers two of the primary explanations for the building boom of the 1920s - the first being exuberance, and the second being financing. He uses data to assess the viability of these two explanations and finds that supply and demand factors explain much of the development of the 1920s; though it enabled the boom, cheap credit was not, he argues, the primary cause.\n\nIn the final chapter (chapter 10), Barr discusses another of his empirical papers that estimates Manhattan land values from the mid-19th century to the present day. The data work that went into these estimations is particularly impressive. Toward the end of the chapter, Barr assesses 'whether skyscrapers are a cause or an effect of high land values'. He finds that changes in land values predict future building height, but the reverse is not true. The book ends with an epilogue, in which Barr discusses the impact of climate change on the city and makes policy suggestions for New York going forward.",
+      "questions": [
+        {
+          "id": "p3-q1",
+          "type": "multiple_choice",
+          "question": "What point does Shester make about Barr's book in the first paragraph?",
+          "options": [
+            "A. It gives a highly original explanation for urban development.",
+            "B. Elements of Barr's research papers are incorporated throughout the book.",
+            "C. Other books on the subject have taken a different approach.",
+            "D. It covers a range of factors that affected the development of New York."
+          ],
+          "correctAnswer": "D",
+          "explanation": "EN: The first paragraph states the book 'combines geology, history, economics, and a lot of data.' | CN: 第一段说这本书结合了地质学、历史、经济学和大量数据。"
+        },
+        {
+          "id": "p3-q2",
+          "type": "multiple_choice",
+          "question": "How does Shester respond to the information in the book about tenements?",
+          "options": [
+            "A. She describes the reasons for Barr's interest.",
+            "B. She indicates a potential problem with Barr's analysis.",
+            "C. She compares Barr's conclusion with that of other writers.",
+            "D. She provides details about the sources Barr used for his research."
+          ],
+          "correctAnswer": "B",
+          "explanation": "EN: 'At first glance, it is not obvious why slum clearance would be limiting, while more expensive foundations would not.' | CN: 乍一看，不清楚为什么贫民窟清理会是限制因素而更昂贵的地基却不是。"
+        },
+        {
+          "id": "p3-q3",
+          "type": "multiple_choice",
+          "question": "What does Shester say about chapter six of the book?",
+          "options": [
+            "A. It contains conflicting data.",
+            "B. It focuses too much on possible trends.",
+            "C. It is too specialised for most readers.",
+            "D. It draws on research that is out of date."
+          ],
+          "correctAnswer": "C",
+          "explanation": "EN: 'more technical than would be preferred by a general audience.' | CN: 比普通读者喜欢的更技术性。"
+        },
+        {
+          "id": "p3-q4",
+          "type": "multiple_choice",
+          "question": "What does Shester suggest about the chapters focusing on the 1920s building boom?",
+          "options": [
+            "A. The information should have been organised differently.",
+            "B. More facts are needed about the way construction was financed.",
+            "C. The explanation given for the building boom is unlikely.",
+            "D. Some parts will have limited appeal to certain people."
+          ],
+          "correctAnswer": "D",
+          "explanation": "EN: 'may serve as a distraction to readers primarily interested in New York.' | CN: 可能对主要关注纽约的读者来说是分散注意力的。"
+        },
+        {
+          "id": "p3-q5",
+          "type": "multiple_choice",
+          "question": "What impresses Shester the most about the chapter on land values?",
+          "options": [
+            "A. the broad time period that is covered",
+            "B. the interesting questions that Barr asks",
+            "C. the nature of the research into the topic",
+            "D. the recommendations Barr makes for the future"
+          ],
+          "correctAnswer": "C",
+          "explanation": "EN: 'The data work that went into these estimations is particularly impressive.' | CN: 这些估算中的数据工作特别令人印象深刻。"
+        },
+        {
+          "id": "p3-q6",
+          "type": "tfng",
+          "question": "The description in the first chapter of how New York probably looked from the air in the early 1600s lacks interest.",
+          "options": [
+            "Yes",
+            "No",
+            "Not Given"
+          ],
+          "correctAnswer": "No",
+          "explanation": "EN: The passage calls it a 'fascinating account' - directly contradicting 'lacks interest.' | CN: 文章称其为'引人入胜的描述'--与'缺乏趣味'直接矛盾。"
+        },
+        {
+          "id": "p3-q7",
+          "type": "tfng",
+          "question": "Chapters two and three prepare the reader well for material yet to come.",
+          "options": [
+            "Yes",
+            "No",
+            "Not Given"
+          ],
+          "correctAnswer": "Yes",
+          "explanation": "EN: 'Both chapters...set the stage for the economic analysis that comes later.' | CN: 两章都为后面的经济分析做好了铺垫。"
+        },
+        {
+          "id": "p3-q8",
+          "type": "tfng",
+          "question": "The biggest problem for many nineteenth-century New York immigrant neighbourhoods was a lack of amenities.",
+          "options": [
+            "Yes",
+            "No",
+            "Not Given"
+          ],
+          "correctAnswer": "Not Given",
+          "explanation": "EN: The passage discusses amenities but never states that a lack of amenities was 'the biggest problem.' | CN: 文章讨论了便利设施但从未说缺乏便利设施是'最大问题'。"
+        },
+        {
+          "id": "p3-q9",
+          "type": "tfng",
+          "question": "In the nineteenth century, New York's immigrant neighbourhoods tended to concentrate around the harbor.",
+          "options": [
+            "Yes",
+            "No",
+            "Not Given"
+          ],
+          "correctAnswer": "No",
+          "explanation": "EN: Enclaves were 'on the least valuable land, between the industries located on the waterfront and the wealthy neighborhoods.' | CN: 聚居区在'最不值钱的土地上，位于滨水工业区和富人区之间'，并非集中在港口附近。"
+        },
+        {
+          "id": "p3-q10",
+          "type": "sentence_completion",
+          "question": "In chapter seven, Barr indicates how the lack of bedrock close to the surface does not explain why skyscrapers are absent from _____.",
+          "options": [],
+          "correctAnswer": "specific areas",
+          "explanation": "EN: Skyscrapers absent from the areas between Downtown and Midtown New York. | CN: 摩天大楼不在市中心和中城之间的特定区域。"
+        },
+        {
+          "id": "p3-q11",
+          "type": "sentence_completion",
+          "question": "The cost of foundations when bedrock is deep cannot be regarded as _____.",
+          "options": [],
+          "correctAnswer": "excessive expense",
+          "explanation": "EN: Costs were not 'prohibitively high.' | CN: 成本并非高得令人望而却步。"
+        },
+        {
+          "id": "p3-q12",
+          "type": "sentence_completion",
+          "question": "This is especially true when compared to _____.",
+          "options": [],
+          "correctAnswer": "total expenditure",
+          "explanation": "EN: 'compared to the overall cost of building a skyscraper.' | CN: 与建造摩天大楼的总成本相比。"
+        },
+        {
+          "id": "p3-q13",
+          "type": "sentence_completion",
+          "question": "Barr describes how _____ are made possible by the use of caissons.",
+          "options": [],
+          "correctAnswer": "deep excavations",
+          "explanation": "EN: 'caissons, which enable workers to dig down for considerable distances.' | CN: 沉箱使工人能够向下挖掘相当远的距离。"
+        },
+        {
+          "id": "p3-q14",
+          "type": "sentence_completion",
+          "question": "He also discusses their _____.",
+          "options": [],
+          "correctAnswer": "associated risks",
+          "explanation": "EN: 'discusses not only how caissons work, but also the dangers involved.' | CN: 不仅讨论了沉箱的工作原理，还讨论了其中的危险。"
+        }
+      ]
+    }
+  ]
+}

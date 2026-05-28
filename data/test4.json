@@ -1,0 +1,348 @@
+{
+  "id": "test4",
+  "title": "Test 4",
+  "totalQuestions": 40,
+  "passages": [
+    {
+      "id": "p1",
+      "title": "Renewable Energy: The Solar Revolution",
+      "text": "The global energy landscape is undergoing a profound transformation. Renewable energy sources, particularly solar power, have experienced dramatic growth in recent years, driven by technological improvements, falling costs, and increasing concern about climate change.\n\nThe cost of solar photovoltaic (PV) panels has dropped by more than 80% since 2010, making solar energy competitive with fossil fuels in many parts of the world. This price reduction is largely due to improvements in manufacturing efficiency, economies of scale, and advances in panel technology. In some regions, solar power is now the cheapest source of electricity ever recorded.\n\nSolar energy offers several advantages over conventional power sources. It produces no greenhouse gas emissions during operation, requires minimal water compared to coal or nuclear plants, and can be installed at various scales - from small rooftop systems to utility-scale solar farms. Solar panels have a lifespan of 25-30 years and require relatively little maintenance.\n\nHowever, solar power also faces challenges. The most significant is intermittency - solar panels only generate electricity when the sun is shining. This has led to the development of energy storage solutions, particularly lithium-ion batteries, which can store excess energy for use during cloudy periods or at night. Grid-scale battery storage has also seen dramatic cost reductions, falling by more than 85% since 2010.\n\nAnother challenge is land use. Large solar farms require significant amounts of land, which can compete with agriculture or natural habitats. Innovative solutions such as agrivoltaics - combining solar panels with agriculture - allow land to be used for both food production and electricity generation simultaneously.\n\nThe future of solar energy looks promising. Emerging technologies such as perovskite solar cells promise even higher efficiencies and lower costs. Floating solar farms on reservoirs and canals offer new installation options. Building-integrated photovoltaics, where solar cells are incorporated into building materials like windows and roof tiles, are making urban solar power more practical. With continued innovation and policy support, solar energy is expected to become the dominant source of electricity globally by 2050.",
+      "questions": [
+        {
+          "id": "p4-q1",
+          "type": "tfng",
+          "question": "The cost of solar panels has dropped by more than 80% since 2010.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'The cost of solar photovoltaic (PV) panels has dropped by more than 80% since 2010.'|CN: 文章指出'自2010年以来，太阳能光伏板的价格已下降超过80%。'"
+        },
+        {
+          "id": "p4-q2",
+          "type": "multiple_choice",
+          "question": "Which of the following is NOT mentioned as an advantage of solar energy?",
+          "options": ["A. No greenhouse gas emissions during operation", "B. Minimal water usage", "C. Can generate electricity 24 hours a day", "D. Can be installed at various scales"],
+          "correctAnswer": "C. Can generate electricity 24 hours a day",
+          "explanation": "EN: Solar cannot generate electricity 24/7 - this is actually listed as a challenge (intermittency).|CN: 太阳能无法全天候发电——这实际上被列为挑战（间歇性问题）。"
+        },
+        {
+          "id": "p4-q3",
+          "type": "tfng",
+          "question": "Solar panels typically last for 25-30 years.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'Solar panels have a lifespan of 25-30 years.'|CN: 文章指出'太阳能板的使用寿命为25-30年。'"
+        },
+        {
+          "id": "p4-q4",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: The most significant challenge facing solar power is _______.",
+          "options": [],
+          "correctAnswer": "intermittency",
+          "explanation": "EN: The text states 'The most significant is intermittency - solar panels only generate electricity when the sun is shining.'|CN: 文章指出'最显著的挑战是间歇性问题——太阳能板只在有阳光时发电。'"
+        },
+        {
+          "id": "p4-q5",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Grid-scale battery storage costs have fallen by more than _______ since 2010.",
+          "options": [],
+          "correctAnswer": "85%",
+          "explanation": "EN: The text states 'Grid-scale battery storage has also seen dramatic cost reductions, falling by more than 85% since 2010.'|CN: 文章指出'电网规模的电池存储成本也大幅下降，自2010年以来降低了超过85%。'"
+        },
+        {
+          "id": "p4-q6",
+          "type": "short_answer",
+          "question": "What term describes combining solar panels with agriculture? (One word answer)",
+          "options": [],
+          "correctAnswer": "agrivoltaics",
+          "explanation": "EN: The text defines 'agrivoltaics - combining solar panels with agriculture.'|CN: 文章定义了'agrivoltaics（农业光伏）——将太阳能板与农业相结合。'"
+        },
+        {
+          "id": "p4-q7",
+          "type": "multiple_choice",
+          "question": "What emerging solar technology is mentioned as promising even higher efficiencies?",
+          "options": ["A. Silicon panels", "B. Perovskite solar cells", "C. Thin-film solar", "D. Concentrated solar power"],
+          "correctAnswer": "B. Perovskite solar cells",
+          "explanation": "EN: The text mentions 'Emerging technologies such as perovskite solar cells promise even higher efficiencies.'|CN: 文章提到'钙钛矿太阳能电池等新兴技术有望实现更高效率。'"
+        },
+        {
+          "id": "p4-q8",
+          "type": "tfng",
+          "question": "Floating solar farms can be installed on reservoirs and canals.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'Floating solar farms on reservoirs and canals offer new installation options.'|CN: 文章指出'在水库和运河上的漂浮太阳能农场提供了新的安装选择。'"
+        },
+        {
+          "id": "p4-q9",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Building-integrated photovoltaics incorporate solar cells into building materials like windows and ______.",
+          "options": [],
+          "correctAnswer": "roof tiles",
+          "explanation": "EN: The text mentions 'solar cells are incorporated into building materials like windows and roof tiles.'|CN: 文章提到'太阳能电池被集成到窗户和屋顶瓦片等建筑材料中。'"
+        },
+        {
+          "id": "p4-q10",
+          "type": "tfng",
+          "question": "By 2050, solar energy is expected to become the dominant source of electricity globally.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'solar energy is expected to become the dominant source of electricity globally by 2050.'|CN: 文章指出'预计到2050年，太阳能将成为全球主要的电力来源。'"
+        },
+        {
+          "id": "p4-q11",
+          "type": "multiple_choice",
+          "question": "What is the main reason for the dramatic cost reduction in solar panels?",
+          "options": ["A. Government subsidies only", "B. Manufacturing efficiency, economies of scale, and technology advances", "C. Reduced demand for electricity", "D. Cheaper raw materials"],
+          "correctAnswer": "B. Manufacturing efficiency, economies of scale, and technology advances",
+          "explanation": "EN: The text attributes cost reduction to 'improvements in manufacturing efficiency, economies of scale, and advances in panel technology.'|CN: 文章将成本降低归因于'制造效率的提高、规模经济和面板技术的进步。'"
+        },
+        {
+          "id": "p4-q12",
+          "type": "short_answer",
+          "question": "What type of batteries are mentioned as energy storage solutions for solar power? (Two-word answer with hyphen)",
+          "options": [],
+          "correctAnswer": "lithium-ion",
+          "explanation": "EN: The text mentions 'lithium-ion batteries' as an energy storage solution.|CN: 文章提到'锂离子电池'作为储能解决方案。"
+        },
+        {
+          "id": "p4-q13",
+          "type": "tfng",
+          "question": "Solar power requires more water than nuclear power plants.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: The text states solar 'requires minimal water compared to coal or nuclear plants' - so it requires LESS water.|CN: 文章指出太阳能'与煤电或核电站相比需要极少的水'——所以需要更少的水。"
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "Emotional Intelligence in the Workplace",
+      "text": "Emotional intelligence (EI), the ability to recognize, understand, and manage emotions in oneself and others, has become increasingly recognized as a critical factor in professional success. Unlike IQ, which remains relatively stable throughout life, EI can be developed and improved with practice.\n\nThe concept was popularized by psychologist Daniel Goleman in the 1990s, who identified five key components of emotional intelligence: self-awareness, self-regulation, motivation, empathy, and social skills. Self-awareness involves recognizing one's own emotions and their impact. Self-regulation refers to controlling impulses and managing emotions constructively. Motivation involves using emotional tendencies to achieve goals. Empathy is the ability to understand others' emotional perspectives, and social skills encompass proficiency in managing relationships.\n\nResearch has shown that EI is a strong predictor of workplace performance. A landmark study of over 200 companies found that EI competencies accounted for 67% of the abilities needed for superior performance in leadership roles. In fact, when senior managers at these companies had high EI, their divisions outperformed annual earnings goals by 20%.\n\nEI also plays a crucial role in teamwork and collaboration. Team members with high EI communicate more effectively, resolve conflicts more constructively, and build stronger working relationships. They are better at reading nonverbal cues, adapting their communication style to different audiences, and creating an environment of psychological safety where team members feel comfortable taking risks.\n\nIn leadership, EI is particularly important. Leaders with high EI are better at inspiring and motivating their teams, managing change, and creating a positive organizational culture. They tend to have more engaged employees, lower turnover rates, and higher productivity. Employees who work for high-EI leaders report greater job satisfaction and are more likely to go above and beyond their basic job requirements.\n\nDeveloping EI requires intentional practice. Techniques include mindfulness meditation to improve self-awareness, seeking feedback from others, practicing active listening, and reflecting on emotional responses to daily situations. Many organizations now incorporate EI training into their professional development programs, recognizing its value in creating more effective and harmonious workplaces.",
+      "questions": [
+        {
+          "id": "p4-q14",
+          "type": "multiple_choice",
+          "question": "What is emotional intelligence according to the passage?",
+          "options": ["A. The ability to score well on IQ tests", "B. The ability to recognize, understand, and manage emotions", "C. The ability to control other people's behavior", "D. The ability to work long hours without fatigue"],
+          "correctAnswer": "B. The ability to recognize, understand, and manage emotions",
+          "explanation": "EN: The text defines EI as 'the ability to recognize, understand, and manage emotions in oneself and others.'|CN: 文章将情商定义为'识别、理解和管理自己及他人情绪的能力。'"
+        },
+        {
+          "id": "p4-q15",
+          "type": "tfng",
+          "question": "Unlike IQ, emotional intelligence can be developed and improved with practice.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'Unlike IQ... EI can be developed and improved with practice.'|CN: 文章指出'与智商不同...情商可以通过练习得到发展和提高。'"
+        },
+        {
+          "id": "p4-q16",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: The concept of emotional intelligence was popularized by psychologist _______.",
+          "options": [],
+          "correctAnswer": "Daniel Goleman",
+          "explanation": "EN: The text states 'The concept was popularized by psychologist Daniel Goleman in the 1990s.'|CN: 文章指出'这一概念由心理学家Daniel Goleman在20世纪90年代推广开来。'"
+        },
+        {
+          "id": "p4-q17",
+          "type": "multiple_choice",
+          "question": "How many components of emotional intelligence did Goleman identify?",
+          "options": ["A. Three", "B. Four", "C. Five", "D. Six"],
+          "correctAnswer": "C. Five",
+          "explanation": "EN: The text mentions 'five key components of emotional intelligence.'|CN: 文章提到'情商的五个关键组成部分。'"
+        },
+        {
+          "id": "p4-q18",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: A landmark study found that EI competencies accounted for _______ of the abilities needed for superior leadership performance.",
+          "options": [],
+          "correctAnswer": "67%",
+          "explanation": "EN: The text states 'EI competencies accounted for 67% of the abilities needed for superior performance in leadership roles.'|CN: 文章指出'情商能力占领导角色卓越表现所需能力的67%。'"
+        },
+        {
+          "id": "p4-q19",
+          "type": "tfng",
+          "question": "Teams with high EI managers outperformed annual earnings goals by 20%.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'when senior managers... had high EI, their divisions outperformed annual earnings goals by 20%.'|CN: 文章指出'当高级管理者...具有高情商时，他们部门的年度盈利目标超出20%。'"
+        },
+        {
+          "id": "p4-q20",
+          "type": "tfng",
+          "question": "People with high EI never experience negative emotions.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "Not Given",
+          "explanation": "EN: The passage discusses managing emotions constructively but does not claim high EI people never experience negative emotions.|CN: 文章讨论了建设性地管理情绪，但没有声称高情商的人从不体验负面情绪。"
+        },
+        {
+          "id": "p4-q21",
+          "type": "short_answer",
+          "question": "What term describes an environment where team members feel comfortable taking risks? (Two-word answer)",
+          "options": [],
+          "correctAnswer": "psychological safety",
+          "explanation": "EN: The text mentions 'creating an environment of psychological safety where team members feel comfortable taking risks.'|CN: 文章提到'创造一个心理安全的环境，让团队成员感到可以安心地承担风险。'"
+        },
+        {
+          "id": "p4-q22",
+          "type": "multiple_choice",
+          "question": "Which of the following is NOT mentioned as a technique for developing EI?",
+          "options": ["A. Mindfulness meditation", "B. Seeking feedback from others", "C. Reading more books", "D. Practicing active listening"],
+          "correctAnswer": "C. Reading more books",
+          "explanation": "EN: The text mentions mindfulness, feedback, active listening, and reflection - but not reading books.|CN: 文章提到了正念、反馈、积极倾听和反思——但没有提到读书。"
+        },
+        {
+          "id": "p4-q23",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Employees who work for high-EI leaders report greater job satisfaction and are more likely to go above and beyond their basic _______.",
+          "options": [],
+          "correctAnswer": "job requirements",
+          "explanation": "EN: The text states employees under high-EI leaders 'are more likely to go above and beyond their basic job requirements.'|CN: 文章指出高情商领导者下属的员工'更有可能超越基本工作要求。'"
+        },
+        {
+          "id": "p4-q24",
+          "type": "tfng",
+          "question": "EI training is now mandatory in all organizations.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "Not Given",
+          "explanation": "EN: The text says 'Many organizations now incorporate EI training' but does not say all or that it's mandatory.|CN: 文章说'许多组织现在将情商培训纳入其中'，但未说明是所有组织或强制要求。"
+        },
+        {
+          "id": "p4-q25",
+          "type": "short_answer",
+          "question": "What is the term for understanding others' emotional perspectives? (One word answer)",
+          "options": [],
+          "correctAnswer": "empathy",
+          "explanation": "EN: The text defines 'Empathy is the ability to understand others' emotional perspectives.'|CN: 文章定义了'同理心是理解他人情感视角的能力。'"
+        },
+        {
+          "id": "p4-q26",
+          "type": "multiple_choice",
+          "question": "According to the passage, what is true about EI compared to IQ?",
+          "options": ["A. EI is more important than IQ in all situations", "B. EI remains stable while IQ can improve", "C. EI can be developed while IQ remains relatively stable", "D. EI and IQ are equally stable throughout life"],
+          "correctAnswer": "C. EI can be developed while IQ remains relatively stable",
+          "explanation": "EN: The text compares: 'Unlike IQ, which remains relatively stable throughout life, EI can be developed and improved.'|CN: 文章比较道：'与在整个生命中保持相对稳定的智商不同，情商可以通过练习得到发展和提高。'"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "The Great Barrier Reef",
+      "text": "The Great Barrier Reef, stretching over 2,300 kilometers along the northeast coast of Australia, is the largest living structure on Earth. It is so vast that it can be seen from space. This UNESCO World Heritage site comprises nearly 3,000 individual reef systems, 900 islands, and supports an extraordinary diversity of marine life.\n\nThe reef is home to more than 1,500 species of fish, 400 types of coral, 133 species of sharks and rays, and 30 species of whales and dolphins. It also supports six of the world's seven species of marine turtles. This biodiversity makes it one of the most complex ecosystems on the planet.\n\nCorals, the building blocks of the reef, are actually colonies of tiny animals called polyps. These polyps secrete calcium carbonate to form hard skeletons, which accumulate over thousands of years to create the reef structure. The relationship between coral and algae is symbiotic - algae live within coral tissues and provide up to 90% of the coral's energy through photosynthesis.\n\nClimate change poses the greatest threat to the Great Barrier Reef. Rising ocean temperatures cause coral bleaching, a stress response where corals expel the algae living in their tissues, turning white. Severe bleaching events occurred in 2016, 2017, and 2020, affecting large sections of the reef. While corals can recover if temperatures return to normal, repeated bleaching events prevent recovery.\n\nOther threats include ocean acidification, which reduces the ability of corals to build their skeletons; pollution from agricultural runoff; and outbreaks of crown-of-thorns starfish, which feed on coral. The combined impact of these stressors has led to a significant decline in coral cover across the reef.\n\nConservation efforts include the Australian government's Reef 2050 Plan, which addresses water quality improvement, crown-of-thorns starfish control, and fishing restrictions. Marine protected areas cover about one-third of the reef. Research into coral restoration techniques, such as breeding heat-resistant corals, offers hope for the future. The reef's resilience depends on global action to reduce greenhouse gas emissions.",
+      "questions": [
+        {
+          "id": "p4-q27",
+          "type": "multiple_choice",
+          "question": "How long is the Great Barrier Reef?",
+          "options": ["A. 1,300 kilometers", "B. 2,300 kilometers", "C. 3,300 kilometers", "D. 900 kilometers"],
+          "correctAnswer": "B. 2,300 kilometers",
+          "explanation": "EN: The text states the reef stretches 'over 2,300 kilometers.'|CN: 文章指出大堡礁绵延'超过2300公里。'"
+        },
+        {
+          "id": "p4-q28",
+          "type": "tfng",
+          "question": "The Great Barrier Reef can be seen from space.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'It is so vast that it can be seen from space.'|CN: 文章指出'它如此之大，可以从太空中看到。'"
+        },
+        {
+          "id": "p4-q29",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: The reef comprises nearly 3,000 individual reef systems and _______ islands.",
+          "options": [],
+          "correctAnswer": "900",
+          "explanation": "EN: The text states 'nearly 3,000 individual reef systems, 900 islands.'|CN: 文章指出'近3000个独立的礁体系统、900个岛屿。'"
+        },
+        {
+          "id": "p4-q30",
+          "type": "multiple_choice",
+          "question": "Corals are colonies of what type of tiny animals?",
+          "options": ["A. Plankton", "B. Polyps", "C. Mollusks", "D. Crustaceans"],
+          "correctAnswer": "B. Polyps",
+          "explanation": "EN: The text defines 'Corals... are actually colonies of tiny animals called polyps.'|CN: 文章定义了'珊瑚...实际上是由称为珊瑚虫的微小动物组成的群落。'"
+        },
+        {
+          "id": "p4-q31",
+          "type": "short_answer",
+          "question": "What percentage of coral's energy comes from algae through photosynthesis? (Number + %)",
+          "options": [],
+          "correctAnswer": "90%",
+          "explanation": "EN: The text states algae 'provide up to 90% of the coral's energy through photosynthesis.'|CN: 文章指出藻类'通过光合作用提供珊瑚高达90%的能量。'"
+        },
+        {
+          "id": "p4-q32",
+          "type": "tfng",
+          "question": "Coral bleaching occurs when corals expel the algae living in their tissues.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'coral bleaching, a stress response where corals expel the algae living in their tissues.'|CN: 文章指出'珊瑚白化是一种应激反应，珊瑚排出组织中的藻类。'"
+        },
+        {
+          "id": "p4-q33",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Severe bleaching events occurred in 2016, 2017, and _______.",
+          "options": [],
+          "correctAnswer": "2020",
+          "explanation": "EN: The text states 'Severe bleaching events occurred in 2016, 2017, and 2020.'|CN: 文章指出'严重的白化事件发生在2016、2017和2020年。'"
+        },
+        {
+          "id": "p4-q34",
+          "type": "tfng",
+          "question": "Corals can always recover from bleaching if temperatures return to normal.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: The text says 'While corals can recover if temperatures return to normal, repeated bleaching events prevent recovery' - so not always.|CN: 文章说'如果温度恢复正常，珊瑚可以恢复，但反复的白化事件会阻止恢复'——所以并非总是能恢复。"
+        },
+        {
+          "id": "p4-q35",
+          "type": "multiple_choice",
+          "question": "Which of the following is NOT mentioned as a threat to the Great Barrier Reef?",
+          "options": ["A. Ocean acidification", "B. Agricultural runoff pollution", "C. Tourism", "D. Crown-of-thorns starfish"],
+          "correctAnswer": "C. Tourism",
+          "explanation": "EN: The text mentions ocean acidification, pollution from agricultural runoff, and crown-of-thorns starfish - but not tourism.|CN: 文章提到了海洋酸化、农业径流污染和棘冠海星——但没有提到旅游业。"
+        },
+        {
+          "id": "p4-q36",
+          "type": "short_answer",
+          "question": "What is the name of the Australian government's plan for reef conservation? (Two words with a number)",
+          "options": [],
+          "correctAnswer": "Reef 2050 Plan",
+          "explanation": "EN: The text mentions 'the Australian government's Reef 2050 Plan.'|CN: 文章提到'澳大利亚政府的珊瑚礁2050计划。'"
+        },
+        {
+          "id": "p4-q37",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Marine protected areas cover about _______ of the reef.",
+          "options": [],
+          "correctAnswer": "one-third",
+          "explanation": "EN: The text states 'Marine protected areas cover about one-third of the reef.'|CN: 文章指出'海洋保护区覆盖了大约三分之一的珊瑚礁。'"
+        },
+        {
+          "id": "p4-q38",
+          "type": "tfng",
+          "question": "Coral restoration techniques include breeding heat-resistant corals.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text mentions 'Research into coral restoration techniques, such as breeding heat-resistant corals.'|CN: 文章提到'珊瑚修复技术的研究，如培育耐热珊瑚。'"
+        },
+        {
+          "id": "p4-q39",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: The reef's resilience depends on global action to reduce _______ gas emissions.",
+          "options": [],
+          "correctAnswer": "greenhouse",
+          "explanation": "EN: The text concludes 'The reef's resilience depends on global action to reduce greenhouse gas emissions.'|CN: 文章总结道'珊瑚礁的恢复力取决于全球减少温室气体排放的行动。'"
+        },
+        {
+          "id": "p4-q40",
+          "type": "multiple_choice",
+          "question": "What does the passage say is the greatest threat to the Great Barrier Reef?",
+          "options": ["A. Crown-of-thorns starfish", "B. Overfishing", "C. Climate change", "D. Shipping traffic"],
+          "correctAnswer": "C. Climate change",
+          "explanation": "EN: The text states 'Climate change poses the greatest threat to the Great Barrier Reef.'|CN: 文章指出'气候变化是对大堡礁最大的威胁。'"
+        }
+      ]
+    }
+  ]
+}

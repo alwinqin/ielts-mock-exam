@@ -1,0 +1,413 @@
+const isFileProtocol = window.location.protocol === 'file:';
+
+async function loadTestData(path) {
+  if (isFileProtocol && window.__DATA_BUNDLE__) {
+    const parts = path.replace('.json', '').split('/');
+    if (parts[0] === 'data' && parts.length === 2) {
+      return window.__DATA_BUNDLE__.reading[parts[1]];
+    }
+    if (parts[0] === 'data' && parts.length === 3) {
+      const category = parts[1];
+      return window.__DATA_BUNDLE__[category]?.[parts[2]];
+    }
+    throw new Error('Unknown path: ' + path);
+  }
+  const response = await fetch(path);
+  if (!response.ok) throw new Error('HTTP ' + response.status);
+  return response.json();
+}
+
+const App = {
+  currentTest: null,
+  tests: [],
+  activeTab: localStorage.getItem('ielts_active_tab') || 'reading',
+
+  async init() {
+    await this.loadTestList();
+    this.setupRouter();
+    this.handleRoute();
+    window.addEventListener('hashchange', () => this.handleRoute());
+  },
+
+  async loadTestList() {
+    const testList = [];
+    const maxTests = (isFileProtocol && window.__DATA_BUNDLE__)
+      ? Object.keys(window.__DATA_BUNDLE__.reading).length
+      : 10;
+    for (let i = 1; i <= maxTests; i++) {
+      testList.push({ id: `test${i}`, title: `Test ${i}`, file: `data/test${i}.json` });
+    }
+    this.tests = testList;
+  },
+
+  getTestStatus(testId) {
+    const state = loadExamState(testId);
+    const history = getAttemptHistory();
+    const attempts = history.filter(h => h.testId === testId);
+    const bestScore = attempts.length > 0 ? Math.max(...attempts.map(a => a.score)) : null;
+
+    if (state && !state.completed) return { status: 'in_progress', bestScore };
+    if (state && state.completed) return { status: 'completed', bestScore };
+    return { status: 'new', bestScore };
+  },
+
+  getListeningStatus(testId) {
+    const state = loadListeningState(testId);
+    const history = getListeningAttemptHistory();
+    const attempts = history.filter(h => h.testId === testId);
+    const bestScore = attempts.length > 0 ? Math.max(...attempts.map(a => a.score)) : null;
+
+    if (state && !state.completed) return { status: 'in_progress', bestScore };
+    if (state && state.completed) return { status: 'completed', bestScore };
+    return { status: 'new', bestScore };
+  },
+
+  switchTab(tab) {
+    this.activeTab = tab;
+    localStorage.setItem('ielts_active_tab', tab);
+    const main = document.getElementById('mainContent');
+    this.renderTestSelect(main);
+  },
+
+  setupRouter() {
+    // routing handled in handleRoute
+  },
+
+  handleRoute() {
+    const hash = window.location.hash.slice(1) || '/';
+    const main = document.getElementById('mainContent');
+    if (!main) return;
+
+    if (hash === '/' || hash === '') {
+      this.renderTestSelect(main);
+    } else if (hash.startsWith('/exam/')) {
+      const testId = hash.split('/exam/')[1];
+      this.showExam(testId);
+    } else if (hash.startsWith('/review/')) {
+      const testId = hash.split('/review/')[1];
+      this.showReview(testId);
+    } else if (hash.startsWith('/listening-exam/')) {
+      const testId = hash.split('/listening-exam/')[1];
+      this.showListeningExam(testId);
+    } else if (hash.startsWith('/listening-review/')) {
+      const testId = hash.split('/listening-review/')[1];
+      this.showListeningReview(testId);
+    } else if (hash === '/wrong-book') {
+      this.showWrongBook(main);
+    } else if (hash.startsWith('/wrong-book/')) {
+      this.showWrongBook(main);
+    } else if (hash === '/history') {
+      this.showHistory(main);
+    } else if (hash === '/listening-history') {
+      this.showListeningHistory(main);
+    } else if (hash.startsWith('/writing-exam/')) {
+      const testId = hash.split('/writing-exam/')[1];
+      this.showWritingExam(testId);
+    } else if (hash.startsWith('/writing-review/')) {
+      const testId = hash.split('/writing-review/')[1];
+      this.showWritingReview(testId);
+    } else if (hash.startsWith('/speaking-exam/')) {
+      const testId = hash.split('/speaking-exam/')[1];
+      this.showSpeakingExam(testId);
+    } else {
+      this.renderTestSelect(main);
+    }
+  },
+
+  renderTestSelect(container) {
+    container.innerHTML = `
+      <div class="test-select">
+        <h1 data-i18n="selectTest">${t('selectTest')}</h1>
+        <div class="tab-nav">
+          <button class="tab-btn ${this.activeTab === 'reading' ? 'active' : ''}" onclick="App.switchTab('reading')" data-i18n="reading">${t('reading')}</button>
+          <button class="tab-btn ${this.activeTab === 'listening' ? 'active' : ''}" onclick="App.switchTab('listening')" data-i18n="listening">${t('listening')}</button>
+          <button class="tab-btn ${this.activeTab === 'writing' ? 'active' : ''}" onclick="App.switchTab('writing')" data-i18n="writing">${t('writing')}</button>
+          <button class="tab-btn ${this.activeTab === 'speaking' ? 'active' : ''}" onclick="App.switchTab('speaking')" data-i18n="speaking">${t('speaking')}</button>
+        </div>
+        <div class="test-grid" id="testGrid"></div>
+        <div class="sidebar-actions">
+          <a href="#/history" class="btn btn-secondary" data-i18n="viewHistory">${t('viewHistory')}</a>
+          <a href="#/wrong-book" class="btn btn-secondary" style="margin-left:8px;" data-i18n="wrongBook">${t('wrongBook')}</a>
+        </div>
+      </div>
+    `;
+    const grid = document.getElementById('testGrid');
+    if (this.activeTab === 'listening') {
+      this.renderListeningGrid(grid);
+    } else if (this.activeTab === 'writing') {
+      this.renderWritingGrid(grid);
+    } else if (this.activeTab === 'speaking') {
+      this.renderSpeakingGrid(grid);
+    } else {
+      this.renderReadingGrid(grid);
+    }
+  },
+
+  renderReadingGrid(grid) {
+    this.tests.forEach(test => {
+      const { status, bestScore } = this.getTestStatus(test.id);
+      const statusLabel = t(status === 'in_progress' ? 'inProgress' : status === 'completed' ? 'completed' : 'newTest');
+      const bestScoreHtml = bestScore !== null ? `<span class="best-score">${t('bestScore')}: ${bestScore}/40</span>` : '';
+      const actionText = status === 'in_progress' ? t('resumeExam') : t('startExam');
+      const actionLink = `#/exam/${test.id}`;
+      const reviewLink = status === 'completed' ? `#/review/${test.id}` : null;
+
+      grid.innerHTML += `
+        <div class="test-card ${status}">
+          <div class="test-card-header">
+            <h3>${test.title}</h3>
+            <span class="status-badge ${status}">${statusLabel}</span>
+          </div>
+          <div class="test-card-body">
+            ${bestScoreHtml}
+          </div>
+          <div class="test-card-actions">
+            <a href="${actionLink}" class="btn btn-primary">${actionText}</a>
+            ${reviewLink ? `<a href="${reviewLink}" class="btn btn-secondary" style="margin-left:6px;">${t('review')}</a>` : ''}
+            ${status !== 'new' ? `<a href="${actionLink}" class="btn btn-secondary" style="margin-left:6px;" onclick="event.preventDefault(); App.confirmRedo('${test.id}', 'reading')">${t('redoExam')}</a>` : ''}
+          </div>
+        </div>
+      `;
+    });
+  },
+
+  renderListeningGrid(grid) {
+    for (let i = 1; i <= 10; i++) {
+      const id = `test${i}`;
+      const { status, bestScore } = this.getListeningStatus(id);
+      const statusLabel = t(status === 'in_progress' ? 'inProgress' : status === 'completed' ? 'completed' : 'newTest');
+      const bestScoreHtml = bestScore !== null ? `<span class="best-score">${t('bestScore')}: ${bestScore}/40</span>` : '';
+      const actionText = status === 'in_progress' ? t('resumeExam') : t('startExam');
+      const actionLink = `#/listening-exam/${id}`;
+      const reviewLink = status === 'completed' ? `#/listening-review/${id}` : null;
+
+      grid.innerHTML += `
+        <div class="test-card ${status}">
+          <div class="test-card-header">
+            <h3>${t('listening')} ${i}</h3>
+            <span class="status-badge ${status}">${statusLabel}</span>
+          </div>
+          <div class="test-card-body">
+            ${bestScoreHtml}
+          </div>
+          <div class="test-card-actions">
+            <a href="${actionLink}" class="btn btn-primary">${actionText}</a>
+            ${reviewLink ? `<a href="${reviewLink}" class="btn btn-secondary" style="margin-left:6px;">${t('review')}</a>` : ''}
+            ${status !== 'new' ? `<a href="${actionLink}" class="btn btn-secondary" style="margin-left:6px;" onclick="event.preventDefault(); App.confirmRedo('${id}', 'listening')">${t('redoExam')}</a>` : ''}
+          </div>
+        </div>
+      `;
+    }
+  },
+
+  async showExam(testId) {
+    const container = document.getElementById('mainContent');
+    container.innerHTML = `<div class="loading">${t('loading')}</div>`;
+
+    try {
+      this.currentTest = await loadTestData(`data/${testId}.json`);
+      if (!this.currentTest || !this.currentTest.passages) throw new Error('Invalid data format');
+      renderExam(this.currentTest);
+    } catch (e) {
+      console.error('Exam error:', e);
+      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:#999">${e.message}</small></div>`;
+    }
+  },
+
+  async showListeningExam(testId) {
+    const container = document.getElementById('mainContent');
+    container.innerHTML = `<div class="loading">${t('loading')}</div>`;
+
+    try {
+      const testData = await loadTestData(`data/listening/${testId}.json`);
+      if (!testData || !testData.sections) throw new Error('Invalid data format');
+      renderListeningExam(testData);
+    } catch (e) {
+      console.error('Listening exam error:', e);
+      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:#999">${e.message}</small></div>`;
+    }
+  },
+
+  showReview(testId) {
+    const container = document.getElementById('mainContent');
+    this._showReview(testId, container);
+  },
+
+  _showReview(testId, container) {
+    const state = loadExamState(testId);
+    const answers = loadAnswers(testId);
+
+    // Look for latest attempt in history
+    const history = getAttemptHistory();
+    const attempt = history.filter(h => h.testId === testId).pop();
+
+    if (!attempt && Object.keys(answers).length === 0) {
+      container.innerHTML = `<div class="error"><p data-i18n="noHistory">${t('noHistory')}</p><a href="#/" class="btn btn-primary" data-i18n="backToTests">${t('backToTests')}</a></div>`;
+      return;
+    }
+
+    loadTestData(`data/${testId}.json`).then(testData => {
+      if (attempt) {
+        renderReview(testData, attempt, container);
+      } else {
+        const tempAttempt = {
+          testId: testId,
+          score: 0,
+          total: testData.totalQuestions,
+          bandScore: 0,
+          timeTaken: 0,
+          answers: { ...answers }
+        };
+        let correct = 0;
+        const allQs = [];
+        testData.passages.forEach(p => p.questions.forEach(q => allQs.push(q)));
+        allQs.forEach(q => {
+          const userAns = (answers[q.id] || '').trim().toLowerCase();
+          const correctAns = (q.correctAnswer || '').trim().toLowerCase();
+          if (userAns === correctAns) correct++;
+        });
+        tempAttempt.score = correct;
+        tempAttempt.bandScore = bandScore(correct);
+        renderReview(testData, tempAttempt, container);
+      }
+    }).catch(() => {
+      container.innerHTML = `<div class="error">${t('errorLoadData')}</div>`;
+    });
+  },
+
+  showListeningReview(testId) {
+    const container = document.getElementById('mainContent');
+    const history = getListeningAttemptHistory();
+    const attempt = history.filter(h => h.testId === testId).pop();
+
+    if (!attempt) {
+      container.innerHTML = `<div class="error"><p data-i18n="noHistory">${t('noHistory')}</p><a href="#/" class="btn btn-primary" data-i18n="backToTests">${t('backToTests')}</a></div>`;
+      return;
+    }
+
+    loadTestData(`data/listening/${testId}.json`).then(testData => {
+      renderListeningReview(testData, attempt, container);
+    }).catch(() => {
+      container.innerHTML = `<div class="error">${t('errorLoadData')}</div>`;
+    });
+  },
+
+  showListeningHistory(container) {
+    renderListeningHistoryPage(container);
+  },
+
+  showHistory(container) {
+    renderHistoryPage(container);
+  },
+
+  showWrongBook(container) {
+    renderWrongBookPage(container);
+  },
+
+  renderWritingGrid(grid) {
+    for (let i = 1; i <= 10; i++) {
+      const id = `test${i}`;
+      const status = 'new';
+      const statusLabel = t('newTest');
+      grid.innerHTML += `
+        <div class="test-card">
+          <div class="test-card-header">
+            <h3>${t('writing')} ${i}</h3>
+            <span class="status-badge new">${statusLabel}</span>
+          </div>
+          <div class="test-card-body" style="font-size:0.8rem;color:#888;">
+            ${t('task1')}: 150 ${t('words')} (20 min)<br>
+            ${t('task2')}: 250 ${t('words')} (40 min)
+          </div>
+          <div class="test-card-actions">
+            <a href="#/writing-exam/${id}" class="btn btn-primary">${t('startExam')}</a>
+          </div>
+        </div>
+      `;
+    }
+  },
+
+  async showWritingExam(testId) {
+    const container = document.getElementById('mainContent');
+    container.innerHTML = `<div class="loading">${t('loading')}</div>`;
+    try {
+      const testData = await loadTestData(`data/writing/${testId}.json`);
+      renderWritingExam(testData);
+    } catch (e) {
+      console.error('Writing exam error:', e);
+      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:#999">${e.message}</small></div>`;
+    }
+  },
+
+  showWritingReview(testId) {
+    const container = document.getElementById('mainContent');
+    loadTestData(`data/writing/${testId}.json`).then(testData => {
+      renderWritingReview(testData, container);
+    }).catch(() => {
+      container.innerHTML = `<div class="error">${t('errorLoadData')}</div>`;
+    });
+  },
+
+  renderSpeakingGrid(grid) {
+    for (let i = 1; i <= 10; i++) {
+      const id = `test${i}`;
+      grid.innerHTML += `
+        <div class="test-card">
+          <div class="test-card-header">
+            <h3>${t('speaking')} ${i}</h3>
+            <span class="status-badge new">${t('newTest')}</span>
+          </div>
+          <div class="test-card-body" style="font-size:0.8rem;color:#888;">
+            ${t('part1')} (4-5 min)<br>
+            ${t('part2')} (3-4 min)<br>
+            ${t('part3')} (4-5 min)
+          </div>
+          <div class="test-card-actions">
+            <a href="#/speaking-exam/${id}" class="btn btn-primary">${t('startExam')}</a>
+          </div>
+        </div>
+      `;
+    }
+  },
+
+  async showSpeakingExam(testId) {
+    const container = document.getElementById('mainContent');
+    container.innerHTML = `<div class="loading">${t('loading')}</div>`;
+    try {
+      const testData = await loadTestData(`data/speaking/${testId}.json`);
+      renderSpeakingExam(testData);
+    } catch (e) {
+      console.error('Speaking exam error:', e);
+      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:#999">${e.message}</small></div>`;
+    }
+  },
+
+  confirmRedo(testId, type) {
+    const label = type === 'listening' ? t('listening') : t('reading');
+    const overlay = document.createElement('div');
+    overlay.className = 'modal-overlay';
+    overlay.innerHTML = `
+      <div class="modal">
+        <h2>${t('redoExam')} ${label}</h2>
+        <p>${t('submitConfirmDesc')}</p>
+        <div class="modal-actions">
+          <button class="btn btn-secondary" onclick="this.closest('.modal-overlay').remove()" data-i18n="cancel">${t('cancel')}</button>
+          <button class="btn btn-primary" onclick="this.closest('.modal-overlay').remove(); App._doRedo('${testId}', '${type}')" data-i18n="confirm">${t('confirm')}</button>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(overlay);
+  },
+
+  _doRedo(testId, type) {
+    if (type === 'listening') {
+      clearListeningData(testId);
+      window.location.hash = `#/listening-exam/${testId}`;
+    } else {
+      clearExamData(testId);
+      window.location.hash = `#/exam/${testId}`;
+    }
+  }
+};
+
+window.addEventListener('DOMContentLoaded', () => App.init());

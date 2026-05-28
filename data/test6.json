@@ -1,0 +1,348 @@
+{
+  "id": "test6",
+  "title": "Test 6",
+  "totalQuestions": 40,
+  "passages": [
+    {
+      "id": "p1",
+      "title": "The History of Aviation",
+      "text": "Humanity's dream of flight is ancient, but achieving it required centuries of observation, experimentation, and innovation. The earliest attempts at flight involved mimicking birds, with inventors creating wings and jumping from towers. These efforts, while unsuccessful, contributed to the growing understanding of aerodynamics.\n\nThe first successful manned flight in a powered, heavier-than-air aircraft was achieved by the Wright brothers on December 17, 1903, at Kitty Hawk, North Carolina. Their aircraft, the Wright Flyer, covered 37 meters in 12 seconds. This achievement marked the beginning of the aviation age.\n\nAviation technology advanced rapidly in the following decades. During World War I, aircraft evolved from observation platforms to fighting machines. The interwar period saw improvements in aircraft design, including the development of all-metal aircraft, retractable landing gear, and more powerful engines. Charles Lindbergh's solo transatlantic flight in 1927 captured global imagination and demonstrated aviation's potential for long-distance travel.\n\nWorld War II accelerated aircraft development dramatically. The war spurred advancements in jet engine technology, radar, and pressurized cabins. The German Me 262, the world's first operational jet fighter, flew in 1944, signaling the end of the propeller era for military aviation.\n\nThe post-war period saw the dawn of commercial jet aviation. The de Havilland Comet, introduced in 1952, was the first commercial jet airliner. However, it was the Boeing 707, launched in 1958, that truly revolutionized air travel, making it faster, more comfortable, and increasingly accessible to the public.\n\nThe Concorde, a supersonic passenger aircraft jointly developed by British and French companies, began commercial service in 1976 and could fly from London to New York in just over three hours. While technically remarkable, the Concorde was economically challenging and was retired in 2003.\n\nToday, aviation faces new challenges: reducing its environmental impact, improving fuel efficiency, and developing sustainable aviation fuels. Electric aircraft and hydrogen-powered planes are being developed as potential solutions. Despite these challenges, air travel continues to connect the world, carrying over 4 billion passengers annually before the pandemic.",
+      "questions": [
+        {
+          "id": "p6-q1",
+          "type": "tfng",
+          "question": "The first successful manned flight was achieved by the Wright brothers in 1903.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'The first successful manned flight in a powered, heavier-than-air aircraft was achieved by the Wright brothers on December 17, 1903.'|CN: 文章指出'1903年12月17日，莱特兄弟实现了首次载人动力重于空气飞机的成功飞行。'"
+        },
+        {
+          "id": "p6-q2",
+          "type": "multiple_choice",
+          "question": "How far did the Wright Flyer travel on its first flight?",
+          "options": ["A. 12 meters", "B. 37 meters", "C. 100 meters", "D. 200 meters"],
+          "correctAnswer": "B. 37 meters",
+          "explanation": "EN: The Wright Flyer 'covered 37 meters in 12 seconds.'|CN: 莱特飞行器'在12秒内飞行了37米。'"
+        },
+        {
+          "id": "p6-q3",
+          "type": "tfng",
+          "question": "Charles Lindbergh's transatlantic flight was in 1927.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text mentions 'Charles Lindbergh's solo transatlantic flight in 1927.'|CN: 文章提到'1927年查尔斯·林德伯格的跨大西洋 solo 飞行。'"
+        },
+        {
+          "id": "p6-q4",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: The German Me 262 was the world's first operational _______ fighter.",
+          "options": [],
+          "correctAnswer": "jet",
+          "explanation": "EN: The text states 'The German Me 262, the world's first operational jet fighter.'|CN: 文章指出'德国Me 262，世界上第一架实用型喷气式战斗机。'"
+        },
+        {
+          "id": "p6-q5",
+          "type": "multiple_choice",
+          "question": "What was the first commercial jet airliner?",
+          "options": ["A. Boeing 707", "B. Concorde", "C. de Havilland Comet", "D. Wright Flyer"],
+          "correctAnswer": "C. de Havilland Comet",
+          "explanation": "EN: The text states 'The de Havilland Comet, introduced in 1952, was the first commercial jet airliner.'|CN: 文章指出'1952年推出的德哈维兰彗星是第一款商用喷气式客机。'"
+        },
+        {
+          "id": "p6-q6",
+          "type": "tfng",
+          "question": "The Boeing 707 was introduced before the de Havilland Comet.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: The Comet was introduced in 1952, while the Boeing 707 was launched in 1958, so the Comet came first.|CN: 彗星于1952年推出，而波音707于1958年推出，所以彗星在先。"
+        },
+        {
+          "id": "p6-q7",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: The Concorde was developed jointly by British and _______ companies.",
+          "options": [],
+          "correctAnswer": "French",
+          "explanation": "EN: The text states 'The Concorde, a supersonic passenger aircraft jointly developed by British and French companies.'|CN: 文章指出'协和式超音速客机由英国和法国公司联合开发。'"
+        },
+        {
+          "id": "p6-q8",
+          "type": "tfng",
+          "question": "The Concorde was technically remarkable but economically challenging.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'While technically remarkable, the Concorde was economically challenging and was retired in 2003.'|CN: 文章指出'虽然协和式在技术上卓越，但在经济上具有挑战性，并于2003年退役。'"
+        },
+        {
+          "id": "p6-q9",
+          "type": "short_answer",
+          "question": "How many hours did the Concorde take to fly from London to New York? (Number + 'hours')",
+          "options": [],
+          "correctAnswer": "three hours",
+          "explanation": "EN: The text states the Concorde 'could fly from London to New York in just over three hours.'|CN: 文章指出协和式'从伦敦飞往纽约仅需三个多小时。'"
+        },
+        {
+          "id": "p6-q10",
+          "type": "multiple_choice",
+          "question": "Which of the following is NOT mentioned as a current challenge facing aviation?",
+          "options": ["A. Reducing environmental impact", "B. Improving fuel efficiency", "C. Reducing flight speeds", "D. Developing sustainable aviation fuels"],
+          "correctAnswer": "C. Reducing flight speeds",
+          "explanation": "EN: The text mentions reducing environmental impact, improving fuel efficiency, and developing sustainable fuels - not reducing flight speeds.|CN: 文章提到了减少环境影响、提高燃油效率和开发可持续燃料——但没有提到降低飞行速度。"
+        },
+        {
+          "id": "p6-q11",
+          "type": "tfng",
+          "question": "Electric aircraft are being developed as a potential solution for aviation's environmental challenges.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'Electric aircraft and hydrogen-powered planes are being developed as potential solutions.'|CN: 文章指出'电动飞机和氢动力飞机正在被开发作为潜在解决方案。'"
+        },
+        {
+          "id": "p6-q12",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Before the pandemic, air travel carried over _______ passengers annually.",
+          "options": [],
+          "correctAnswer": "4 billion",
+          "explanation": "EN: The text states 'carrying over 4 billion passengers annually before the pandemic.'|CN: 文章指出'疫情前每年运送超过40亿乘客。'"
+        },
+        {
+          "id": "p6-q13",
+          "type": "short_answer",
+          "question": "In what year was the Concorde retired? (Four-digit number)",
+          "options": [],
+          "correctAnswer": "2003",
+          "explanation": "EN: The text states the Concorde 'was retired in 2003.'|CN: 文章指出协和式'于2003年退役。'"
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "Desert Ecosystems",
+      "text": "Deserts cover approximately one-third of the Earth's land surface and are defined by their aridity - receiving less than 250mm of precipitation annually. Despite their harsh conditions, deserts support a surprising diversity of life adapted to extreme temperatures and water scarcity.\n\nDesert plants have evolved remarkable adaptations. Cacti store water in their thick stems and have spines instead of leaves to reduce water loss. Many desert plants have extensive root systems that spread wide to capture infrequent rainfall. Some plants, like the welwitschia, can live for over 1,000 years. Ephemeral plants survive as seeds for years, only germinating after sufficient rainfall, then completing their life cycle in a matter of weeks.\n\nDesert animals similarly display extraordinary adaptations. The fennec fox has large ears that dissipate heat. The kangaroo rat never needs to drink water, obtaining all necessary moisture from its food through metabolic processes. Many desert animals are nocturnal, avoiding the extreme daytime heat. Reptiles like the thorny devil can collect water through their skin from dew or damp sand.\n\nDesert ecosystems are also important for human communities. Indigenous peoples have lived in deserts for thousands of years, developing sophisticated knowledge of water sources, edible plants, and sustainable land management. Traditional desert farming techniques, such as the wadi system in North Africa, capture and distribute seasonal floodwaters.\n\nHowever, deserts face environmental pressures. Climate change is causing some deserts to expand, a process known as desertification. Overgrazing, unsustainable agriculture, and water extraction exacerbate this problem. The Sahara Desert has expanded by approximately 10% since 1920. Conversely, some deserts are experiencing increased rainfall due to climate change, leading to shifts in ecosystem composition.\n\nConservation efforts include establishing desert reserves, promoting sustainable grazing practices, and supporting traditional knowledge systems. The Great Green Wall initiative in Africa aims to combat desertification by planting a vast belt of trees across the Sahel region. These efforts recognize that deserts are not wastelands but valuable ecosystems that require protection.",
+      "questions": [
+        {
+          "id": "p6-q14",
+          "type": "tfng",
+          "question": "Deserts receive less than 250mm of precipitation annually.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text defines deserts as 'receiving less than 250mm of precipitation annually.'|CN: 文章将沙漠定义为'年降水量不足250毫米。'"
+        },
+        {
+          "id": "p6-q15",
+          "type": "multiple_choice",
+          "question": "What percentage of Earth's land surface do deserts cover?",
+          "options": ["A. About one-quarter", "B. About one-third", "C. About one-half", "D. About two-thirds"],
+          "correctAnswer": "B. About one-third",
+          "explanation": "EN: The text states deserts 'cover approximately one-third of the Earth's land surface.'|CN: 文章指出沙漠'覆盖了地球陆地表面的大约三分之一。'"
+        },
+        {
+          "id": "p6-q16",
+          "type": "short_answer",
+          "question": "How do cacti reduce water loss? (One word - the part that is modified)",
+          "options": [],
+          "correctAnswer": "spines",
+          "explanation": "EN: Cacti 'have spines instead of leaves to reduce water loss.'|CN: 仙人掌'用刺代替叶子以减少水分流失。'"
+        },
+        {
+          "id": "p6-q17",
+          "type": "tfng",
+          "question": "The welwitschia plant can live for over 1,000 years.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'Some plants, like the welwitschia, can live for over 1,000 years.'|CN: 文章指出'有些植物，如百岁兰，可以存活超过1000年。'"
+        },
+        {
+          "id": "p6-q18",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: The kangaroo rat obtains all necessary moisture from its food through _______ processes.",
+          "options": [],
+          "correctAnswer": "metabolic",
+          "explanation": "EN: The text states 'The kangaroo rat never needs to drink water, obtaining all necessary moisture from its food through metabolic processes.'|CN: 文章指出'更格卢鼠从不需要喝水，通过新陈代谢过程从食物中获取所有必要的水分。'"
+        },
+        {
+          "id": "p6-q19",
+          "type": "multiple_choice",
+          "question": "How does the thorny devil collect water?",
+          "options": ["A. Through its mouth", "B. Through its skin from dew", "C. By storing water in its tail", "D. By digging for underground water"],
+          "correctAnswer": "B. Through its skin from dew",
+          "explanation": "EN: The text states 'the thorny devil can collect water through their skin from dew or damp sand.'|CN: 文章指出'棘蜥可以通过皮肤从露水或潮湿的沙子中收集水分。'"
+        },
+        {
+          "id": "p6-q20",
+          "type": "tfng",
+          "question": "Many desert animals are nocturnal to avoid extreme daytime heat.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'Many desert animals are nocturnal, avoiding the extreme daytime heat.'|CN: 文章指出'许多沙漠动物是夜行性的，以避开极端的白天高温。'"
+        },
+        {
+          "id": "p6-q21",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Traditional desert farming techniques, such as the _______ system in North Africa, capture seasonal floodwaters.",
+          "options": [],
+          "correctAnswer": "wadi",
+          "explanation": "EN: The text mentions 'the wadi system in North Africa.'|CN: 文章提到'北非的wadi系统（干河灌溉系统）。'"
+        },
+        {
+          "id": "p6-q22",
+          "type": "tfng",
+          "question": "The Sahara Desert has expanded by 10% since 1920.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'The Sahara Desert has expanded by approximately 10% since 1920.'|CN: 文章指出'自1920年以来，撒哈拉沙漠扩大了大约10%。'"
+        },
+        {
+          "id": "p6-q23",
+          "type": "short_answer",
+          "question": "What is the process called when deserts expand due to climate change? (One word answer)",
+          "options": [],
+          "correctAnswer": "desertification",
+          "explanation": "EN: The text defines 'a process known as desertification.'|CN: 文章定义了'沙漠化过程。'"
+        },
+        {
+          "id": "p6-q24",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: The Great Green Wall initiative in Africa aims to combat desertification by planting a vast belt of trees across the _______.",
+          "options": [],
+          "correctAnswer": "Sahel",
+          "explanation": "EN: The text mentions 'the Great Green Wall initiative in Africa aims to combat desertification by planting a vast belt of trees across the Sahel region.'|CN: 文章提到'非洲的绿色长城倡议旨在通过在萨赫勒地区种植大片树林来防治沙漠化。'"
+        },
+        {
+          "id": "p6-q25",
+          "type": "multiple_choice",
+          "question": "Which of the following is NOT mentioned as an adaptation of desert plants?",
+          "options": ["A. Storing water in thick stems", "B. Having spines instead of leaves", "C. Having deep taproots only", "D. Surviving as seeds for years"],
+          "correctAnswer": "C. Having deep taproots only",
+          "explanation": "EN: The text mentions extensive root systems 'that spread wide' - not just deep taproots.|CN: 文章提到了广泛延伸的根系，而不仅仅是深的主根。"
+        },
+        {
+          "id": "p6-q26",
+          "type": "tfng",
+          "question": "All deserts are experiencing expansion due to climate change.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: The text states 'some deserts are experiencing increased rainfall due to climate change' - so they are not all expanding.|CN: 文章指出'由于气候变化，一些沙漠的降雨量正在增加'——所以并非所有沙漠都在扩大。"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "The Psychology of Decision Making",
+      "text": "Every day, humans make countless decisions, from trivial choices to life-altering ones. Understanding how people make decisions has been a central focus of psychology and behavioral economics for decades.\n\nTraditional economic theory assumed that humans are rational actors who make decisions by weighing costs and benefits to maximize utility. However, psychologists Daniel Kahneman and Amos Tversky demonstrated that human decision-making is systematically influenced by cognitive biases - mental shortcuts that can lead to predictable errors.\n\nKahneman's framework distinguishes between two systems of thinking. System 1 is fast, automatic, and intuitive - it operates with little effort and is responsible for most everyday decisions. System 2 is slow, deliberate, and analytical - it requires conscious effort and is used for complex problems. While System 1 is efficient, it is also prone to biases. System 2 can correct these errors but is lazy and often defers to System 1.\n\nOne well-documented bias is the anchoring effect, where initial information disproportionately influences subsequent judgments. For example, if asked whether Gandhi was older than 140 when he died, people subsequently estimate his actual age as higher than those given a lower anchor. This effect is powerful even when the anchor is clearly arbitrary.\n\nThe availability heuristic describes the tendency to overestimate the likelihood of events that are easily recalled. Vivid, dramatic events like plane crashes are perceived as more common than they actually are, while common causes of death like heart disease are underestimated. Media coverage amplifies this bias.\n\nFraming effects demonstrate that the way information is presented influences decisions. People respond differently to a medical treatment described as having a '90% survival rate' versus a '10% mortality rate,' even though the information is identical. This has significant implications for public health communication and marketing.\n\nDespite these biases, heuristics are not inherently bad. They allow us to make quick decisions with limited information, which was evolutionarily advantageous. Recognizing our cognitive biases can help us make better decisions by knowing when to slow down and engage System 2 thinking.",
+      "questions": [
+        {
+          "id": "p6-q27",
+          "type": "multiple_choice",
+          "question": "What is the main topic of this passage?",
+          "options": ["A. How to make perfect decisions", "B. Cognitive biases and decision-making processes", "C. The history of economic theory", "D. Why intelligent people make poor decisions"],
+          "correctAnswer": "B. Cognitive biases and decision-making processes",
+          "explanation": "EN: The passage discusses cognitive biases, the two-system framework, and heuristics in decision-making.|CN: 文章讨论了认知偏差、双系统框架和决策中的启发式方法。"
+        },
+        {
+          "id": "p6-q28",
+          "type": "tfng",
+          "question": "Traditional economic theory assumed humans are rational decision-makers.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'Traditional economic theory assumed that humans are rational actors.'|CN: 文章指出'传统经济学理论假设人类是理性行为者。'"
+        },
+        {
+          "id": "p6-q29",
+          "type": "short_answer",
+          "question": "Who demonstrated that human decision-making is influenced by cognitive biases? (Two names connected by 'and')",
+          "options": [],
+          "correctAnswer": "Daniel Kahneman and Amos Tversky",
+          "explanation": "EN: The text states 'psychologists Daniel Kahneman and Amos Tversky demonstrated that human decision-making is systematically influenced by cognitive biases.'|CN: 文章指出'心理学家Daniel Kahneman和Amos Tversky证明了人类决策系统性地受到认知偏差的影响。'"
+        },
+        {
+          "id": "p6-q30",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: System 1 thinking is fast, automatic, and _______.",
+          "options": [],
+          "correctAnswer": "intuitive",
+          "explanation": "EN: The text states 'System 1 is fast, automatic, and intuitive.'|CN: 文章指出'系统1是快速、自动和直觉的。'"
+        },
+        {
+          "id": "p6-q31",
+          "type": "multiple_choice",
+          "question": "Which system of thinking requires conscious effort and is used for complex problems?",
+          "options": ["A. System 1", "B. System 2", "C. Both systems equally", "D. Neither system"],
+          "correctAnswer": "B. System 2",
+          "explanation": "EN: 'System 2 is slow, deliberate, and analytical - it requires conscious effort and is used for complex problems.'|CN: '系统2是缓慢、审慎和分析性的——它需要有意识的努力，用于处理复杂问题。'"
+        },
+        {
+          "id": "p6-q32",
+          "type": "tfng",
+          "question": "System 2 can correct errors made by System 1 but is often lazy and defers to System 1.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: The text states 'System 2 can correct these errors but is lazy and often defers to System 1.'|CN: 文章指出'系统2可以纠正这些错误，但懒惰且常常遵从系统1。'"
+        },
+        {
+          "id": "p6-q33",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: The anchoring effect describes how initial information disproportionately influences _______ judgments.",
+          "options": [],
+          "correctAnswer": "subsequent",
+          "explanation": "EN: The text states 'the anchoring effect, where initial information disproportionately influences subsequent judgments.'|CN: 文章指出'锚定效应，即初始信息不成比例地影响后续判断。'"
+        },
+        {
+          "id": "p6-q34",
+          "type": "multiple_choice",
+          "question": "What does the availability heuristic describe?",
+          "options": ["A. The tendency to rely on expert opinions", "B. Overestimating the likelihood of easily recalled events", "C. The preference for available options", "D. The tendency to choose the first option presented"],
+          "correctAnswer": "B. Overestimating the likelihood of easily recalled events",
+          "explanation": "EN: The text defines it as 'the tendency to overestimate the likelihood of events that are easily recalled.'|CN: 文章将其定义为'高估容易回忆的事件的可能性的倾向。'"
+        },
+        {
+          "id": "p6-q35",
+          "type": "tfng",
+          "question": "Plane crashes are actually more common than heart disease as causes of death.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: The text states the opposite - 'common causes of death like heart disease are underestimated' compared to vivid events like plane crashes.|CN: 文章说的是相反的——与飞机失事等生动事件相比，'心脏病等常见死亡原因被低估了。'"
+        },
+        {
+          "id": "p6-q36",
+          "type": "short_answer",
+          "question": "What is the term for how the presentation of information influences decisions? (One word answer)",
+          "options": [],
+          "correctAnswer": "framing",
+          "explanation": "EN: The text describes 'Framing effects demonstrate that the way information is presented influences decisions.'|CN: 文章描述了'框架效应表明信息呈现方式影响决策。'"
+        },
+        {
+          "id": "p6-q37",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: People respond differently to a '90% survival rate' versus a '10% _______ rate.'",
+          "options": [],
+          "correctAnswer": "mortality",
+          "explanation": "EN: The text uses the example of '90% survival rate' versus '10% mortality rate.'|CN: 文章使用了'90%存活率'与'10%死亡率'的例子。"
+        },
+        {
+          "id": "p6-q38",
+          "type": "tfng",
+          "question": "Heuristics are always detrimental to good decision-making.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: The text states 'heuristics are not inherently bad' and that they 'allow us to make quick decisions with limited information.'|CN: 文章指出'启发式方法本身并不坏'，它们'使我们能够在信息有限时快速做出决定。'"
+        },
+        {
+          "id": "p6-q39",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Recognizing our cognitive biases can help us make better decisions by knowing when to slow down and engage _______ thinking.",
+          "options": [],
+          "correctAnswer": "System 2",
+          "explanation": "EN: The text concludes with 'knowing when to slow down and engage System 2 thinking.'|CN: 文章总结道'知道何时放慢脚步并启动系统2思维。'"
+        },
+        {
+          "id": "p6-q40",
+          "type": "short_answer",
+          "question": "The anchoring effect remains powerful even when the anchor is what? (One word answer)",
+          "options": [],
+          "correctAnswer": "arbitrary",
+          "explanation": "EN: The text states 'This effect is powerful even when the anchor is clearly arbitrary.'|CN: 文章指出'即使锚定值明显是任意的，这种效应也很强大。'"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,462 @@
+{
+  "id": "test16",
+  "title": "Test 16 (Cambridge 18/19)",
+  "totalQuestions": 40,
+  "passages": [
+    {
+      "id": "passage1",
+      "title": "Urban farming",
+      "text": "In Paris, urban farmers are trying a soil-free approach to agriculture that uses less space and fewer resources. Could it help cities face the threats to our food supplies?\n\nOn top of a striking new exhibition hall in southern Paris, the world's largest urban rooftop farm has started to bear fruit. Strawberries that are small, intensely flavoured and resplendently red sprout abundantly from large plastic tubes. Peer inside and you see the tubes are completely hollow, the roots of dozens of strawberry plants dangling down inside them. From identical vertical tubes nearby burst row upon row of lettuces; near those are aromatic herbs, such as basil, sage and peppermint. Opposite, in narrow, horizontal trays packed not with soil but with coconut fibre, grow cherry tomatoes, shiny aubergines and brightly coloured chards.\n\nPascal Hardy, an engineer and sustainable development consultant, began experimenting with vertical farming and aeroponic growing towers - as the soil-free plastic tubes are known - on his Paris apartment block roof five years ago. The urban rooftop space above the exhibition hall is somewhat bigger: 14,000 square metres and almost exactly the size of a couple of football pitches. Already, the team of young urban farmers who tend it have picked, in one day, 3,000 lettuces and 150 punnets of strawberries. When the remaining two thirds of the vast open area are in production, 20 staff will harvest up to 1,000 kg of perhaps 35 different varieties of fruit and vegetables, every day. 'We're not ever, obviously, going to feed the whole city this way,' cautions Hardy. 'In the urban environment you're working with very significant practical constraints, clearly, on what you can do and where. But if enough unused space can be developed like this, there's no reason why you shouldn't eventually target maybe between 5% and 10% of consumption.'\n\nPerhaps most significantly, however, this is a real-life showcase for the work of Hardy's flourishing urban agriculture consultancy, Agripolis, which is currently fielding enquiries from around the world to design, build and equip a new breed of soil-free inner-city farm. 'The method's advantages are many,' he says. 'First, I don't much like the fact that most of the fruit and vegetables we eat have been treated with something like 17 different pesticides, or that the intensive farming techniques that produced them are such huge generators of greenhouse gases. I don't much like the fact, either, that they've travelled an average of 2,000 refrigerated kilometres to my plate, that their quality is so poor, because the varieties are selected for their capacity to withstand such substantial journeys, or that 80% of the price I pay goes to wholesalers and transport companies, not the producers.'\n\nProduce grown using this soil-free method, on the other hand - which relies solely on a small quantity of water, enriched with organic nutrients, pumped around a closed circuit of pipes, towers and trays - is 'produced up here, and sold locally, just down there. It barely travels at all,' Hardy says. 'You can select crop varieties for their flavour, not their resistance to the transport and storage chain, and you can pick them when they're really at their best, and not before.' No soil is exhausted, and the water that gently showers the plants' roots every 12 minutes is recycled, so the method uses 90% less water than a classic intensive farm for the same yield.\n\nUrban farming is not, of course, a new phenomenon. Inner-city agriculture is booming from Shanghai to Detroit and Tokyo to Bangkok. Strawberries are being grown in disused shipping containers, mushrooms in underground carparks. Aeroponic farming, he says, is 'virtuous'. The equipment weighs little, can be installed on almost any flat surface and is cheap to buy: roughly 100 to 150 euros per square metre. It is cheap to run, too, consuming a tiny fraction of the electricity used by some techniques.\n\nProduce grown this way typically sells at prices that, while generally higher than those of classic intensive agriculture, are lower than soil-based organic growers. There are limits to what farmers can grow this way, of course, and much of the produce is suited to the summer months. 'Root vegetables we cannot do, at least not yet,' he says. 'Radishes are OK, but carrots, potatoes, that kind of thing - the roots are simply too long. Fruit trees are obviously not an option. And beans tend to take up a lot of space for not much return.' Nevertheless, urban farming of the kind being practised in Paris is one part of a bigger and fast-changing picture that is bringing food production closer to our lives.",
+      "questions": [
+        {
+          "id": "p1-q1",
+          "type": "sentence_completion",
+          "question": "Vertical tubes are used to grow strawberries, ______ and herbs.",
+          "correctAnswer": "lettuces",
+          "explanation": "EN: From identical vertical tubes nearby burst row upon row of lettuces; near those are aromatic herbs. | CN: 附近的相同垂直管中长出一排排生菜，旁边是香草。"
+        },
+        {
+          "id": "p1-q2",
+          "type": "sentence_completion",
+          "question": "There will eventually be a daily harvest of as much as ______ in weight of fruit and vegetables.",
+          "correctAnswer": "1,000 kg",
+          "explanation": "EN: 20 staff will harvest up to 1,000 kg of perhaps 35 different varieties of fruit and vegetables, every day. | CN: 20名员工每天将收获多达1000公斤约35种不同的水果和蔬菜。"
+        },
+        {
+          "id": "p1-q3",
+          "type": "sentence_completion",
+          "question": "It may be possible that the farm's produce will account for as much as 10% of the city's ______ overall.",
+          "correctAnswer": "consumption",
+          "explanation": "EN: There's no reason why you shouldn't eventually target maybe between 5% and 10% of consumption. | CN: 没有理由不最终达到城市消费量的5%到10%。"
+        },
+        {
+          "id": "p1-q4",
+          "type": "sentence_completion",
+          "question": "Intensive farming: a wide range of ______ are used and techniques pollute the air.",
+          "correctAnswer": "pesticides",
+          "explanation": "EN: Most fruit and vegetables have been treated with something like 17 different pesticides. | CN: 大多数水果和蔬菜都被使用了约17种不同的农药。"
+        },
+        {
+          "id": "p1-q5",
+          "type": "sentence_completion",
+          "question": "Intensive farming: varieties are chosen that can survive long ______.",
+          "correctAnswer": "journeys",
+          "explanation": "EN: Varieties are selected for their capacity to withstand such substantial journeys. | CN: 品种的选择是基于其承受长途运输的能力。"
+        },
+        {
+          "id": "p1-q6",
+          "type": "sentence_completion",
+          "question": "Intensive farming: ______ receive very little of overall income.",
+          "correctAnswer": "producers",
+          "explanation": "EN: 80% of the price I pay goes to wholesalers and transport companies, not the producers. | CN: 我支付的80%给了批发商和运输公司，而非生产者。"
+        },
+        {
+          "id": "p1-q7",
+          "type": "sentence_completion",
+          "question": "Aeroponic urban farming: produce is chosen because of its ______.",
+          "correctAnswer": "flavour",
+          "explanation": "EN: You can select crop varieties for their flavour, not their resistance to the transport and storage chain. | CN: 你可以根据风味选择作物品种，而不是其对运输和储存链的耐受性。"
+        },
+        {
+          "id": "p1-q8",
+          "type": "tfng",
+          "question": "Urban farming can take place above or below ground.",
+          "correctAnswer": "TRUE",
+          "explanation": "EN: Strawberries in disused shipping containers (above ground), mushrooms in underground carparks (below ground). | CN: 草莓在废弃集装箱中种植（地上），蘑菇在地下停车场种植（地下）。"
+        },
+        {
+          "id": "p1-q9",
+          "type": "tfng",
+          "question": "Some of the equipment used in aeroponic farming can be made by hand.",
+          "correctAnswer": "NOT GIVEN",
+          "explanation": "EN: The passage discusses equipment cost and weight but never mentions whether it can be handmade. | CN: 文章讨论了设备成本和重量，但未提及是否可以手工制作。"
+        },
+        {
+          "id": "p1-q10",
+          "type": "tfng",
+          "question": "Urban farming relies more on electricity than some other types of farming.",
+          "correctAnswer": "FALSE",
+          "explanation": "EN: It consumes a tiny fraction of the electricity used by some techniques. | CN: 它消耗的电力只是某些技术使用量的一小部分。"
+        },
+        {
+          "id": "p1-q11",
+          "type": "tfng",
+          "question": "Fruit and vegetables grown on an aeroponic urban farm are cheaper than traditionally grown organic produce.",
+          "correctAnswer": "TRUE",
+          "explanation": "EN: Prices are lower than soil-based organic growers. | CN: 价格低于土壤种植的有机产品。"
+        },
+        {
+          "id": "p1-q12",
+          "type": "tfng",
+          "question": "Most produce can be grown on an aeroponic urban farm at any time of the year.",
+          "correctAnswer": "FALSE",
+          "explanation": "EN: Much of the produce is suited to the summer months. | CN: 大部分农产品适合夏季月份。"
+        },
+        {
+          "id": "p1-q13",
+          "type": "tfng",
+          "question": "Beans take longer to grow on an urban farm than other vegetables.",
+          "correctAnswer": "NOT GIVEN",
+          "explanation": "EN: The passage says beans take up a lot of space for not much return but says nothing about growth time. | CN: 文章说豆类占用大量空间但回报不多，未提及生长时间。"
+        }
+      ]
+    },
+    {
+      "id": "passage2",
+      "title": "The global importance of wetlands",
+      "text": "Wetlands are areas where water covers the soil, or is present either at or near the surface of the soil, for all or part of the year. These are complex ecosystems, rich in unique plant and animal life. But according to the World Wide Fund for Nature (WWFN), half of the world's wetlands have disappeared since 1990 - converted or destroyed for commercial development, drainage schemes and the extraction of minerals and peat. Many of those that remain have been damaged by agricultural pesticides and fertilisers, industrial pollutants, and construction works.\n\nThroughout history, humans have gathered around wetlands, and their fertile ecosystems have played an important part in human development. Consequently, they are of considerable religious, historical and archaeological value to many communities around the world. 'Wetlands directly support the livelihoods and well-being of millions of people,' says Dr Matthew McCartney, principal researcher and hydrologist at the International Water Management Institute (IWMI). 'In many developing countries, large numbers of people are dependent on wetland agriculture for their livelihoods.'\n\nThey also serve a crucial environmental purpose. 'Wetlands are one of the key tools in mitigating climate change across the planet,' says Pieter van Eijk, head of Climate Adaptation at Wetlands International (WI), pointing to their use as buffers that protect coastal areas from sea-level rise and extreme weather events such as hurricanes and flooding. Wetland coastal forests provide food and water, as well as shelter from storms, and WI and other agencies are working to restore those forests which have been lost. 'It can be as simple as planting a few trees per hectare to create shade and substantially change a microclimate,' he says. 'Implementing climate change projects isn't so much about money.'\n\nThe world's wetlands are, unfortunately, rich sources for in-demand commodities, such as palm oil and pulpwood. Peatlands - wetlands with a waterlogged organic soil layer - are particularly targeted. When peatlands are drained for cultivation, they become net carbon emitters instead of active carbon stores, and, according to Marcel Silvius, head of Climate-smart Land-use at WI, this practice causes six per cent of all global carbon emissions. The clearance of peatlands for planting also increases the risk of forest fires, which release huge amounts of CO2. 'We're seeing huge peatland forests with extremely high biodiversity value being lost for a few decades of oil palm revenues,' says Silvius.\n\nThe damage starts when logging companies arrive to clear the trees. They dig ditches to enter the peat swamps by boat and then float the logs out the same way. These are then used to drain water out of the peatlands to allow for the planting of corn, oil palms or pulpwood trees. Once the water has drained away, bacteria and fungi then break down the carbon in the peat and turn it into CO2 and methane. Meanwhile, the remainder of the solid matter in the peat starts to move downwards, in a process known as subsidence. Peat comprises 90 per cent water, so this is one of the most alarming consequences of peatland clearances. 'In the tropics, peat subsides at about four centimetres a year, so within half a century, very large landscapes on Sumatra and Borneo will become flooded as the peat drops below water level,' says Silvius. 'It's a huge catastrophe that's in preparation. Some provinces will lose 40 per cent of their landmass.'\n\nAnd while these industries affect wetlands in ways that can easily be documented, Dr Dave Tickner of the WWFN believes that more subtle impacts can be even more devastating. 'Sediment run-off and fertilisers can be pretty invisible,' says Tickner. 'Over-extraction of water is equally invisible. You do get shock stories about rivers running red, or even catching fire, but there's seldom one big impact that really hurts a wetland.' Tickner does not blame anyone for deliberate damage, however. 'I've worked on wetland issues for 20 years and have never met anybody who wanted to damage a wetland,' he says. 'It isn't something that people generally set out to do. Quite often, the effects simply come from people trying to make a living.'\n\nSilvius also acknowledges the importance of income generation. 'It's not that we just want to restore the biodiversity of wetlands - which we do - but we recognise there's a need to provide an income for local people.' This approach is supported by IWMI. 'The idea is that people in a developing country will only protect wetlands if they value and profit from them,' says McCartney. 'For sustainability, it's essential that local people are involved in wetland planning and decision making and have clear rights to use wetlands.'\n\nThe fortunes of wetlands would be improved, Silvius suggests, if more governments recognised their long-term value. 'Different governments have different attitudes,' he says, and goes on to explain that some countries place a high priority on restoring wetlands, while others still deny the issue. McCartney is cautiously optimistic, however. 'Awareness of the importance of wetlands is growing,' he says. 'It's true that wetland degradation still continues at a rapid pace, but my impression is that things are slowly changing.'",
+      "questions": [
+        {
+          "id": "p2-q1",
+          "type": "matching_information",
+          "question": "Which paragraph contains a reference to the need to ensure that inhabitants of wetland regions continue to benefit from them?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "correctAnswer": "G",
+          "explanation": "EN: Paragraph G discusses providing income for local people and involving them in planning. | CN: G段讨论了为当地居民提供收入并让他们参与规划。"
+        },
+        {
+          "id": "p2-q2",
+          "type": "matching_information",
+          "question": "Which paragraph contains the proportion of wetlands which have already been lost?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "correctAnswer": "A",
+          "explanation": "EN: Paragraph A states half of the world's wetlands have disappeared since 1990. | CN: A段指出自1990年以来世界上一半的湿地已经消失。"
+        },
+        {
+          "id": "p2-q3",
+          "type": "matching_information",
+          "question": "Which paragraph contains reference to the idea that people are beginning to appreciate the value of wetlands?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "correctAnswer": "H",
+          "explanation": "EN: Paragraph H ends with Awareness of the importance of wetlands is growing. | CN: H段结尾提到对湿地重要性的认识正在增长。"
+        },
+        {
+          "id": "p2-q4",
+          "type": "matching_information",
+          "question": "Which paragraph contains mention of the cultural significance of wetlands?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "correctAnswer": "B",
+          "explanation": "EN: Paragraph B mentions religious, historical and archaeological value. | CN: B段提到了宗教、历史和考古价值。"
+        },
+        {
+          "id": "p2-q5",
+          "type": "sentence_completion",
+          "question": "Peatlands which have been drained begin to release ______ instead of storing it.",
+          "correctAnswer": "carbon",
+          "explanation": "EN: When peatlands are drained, they become net carbon emitters instead of active carbon stores. | CN: 当泥炭地被排干时，它们变成净碳排放者而非活跃的碳储存库。"
+        },
+        {
+          "id": "p2-q6",
+          "type": "sentence_completion",
+          "question": "Once peatland areas have been cleared, ______ are more likely to occur.",
+          "correctAnswer": "fires",
+          "explanation": "EN: The clearance of peatlands for planting increases the risk of forest fires. | CN: 清除泥炭地用于种植增加了森林火灾的风险。"
+        },
+        {
+          "id": "p2-q7",
+          "type": "sentence_completion",
+          "question": "Clearing peatland forests to make way for oil palm plantations destroys the ______ of the local environment.",
+          "correctAnswer": "biodiversity",
+          "explanation": "EN: Huge peatland forests with extremely high biodiversity value being lost. | CN: 具有极高生物多样性价值的泥炭地森林正在消失。"
+        },
+        {
+          "id": "p2-q8",
+          "type": "sentence_completion",
+          "question": "Water is drained out of peatlands through the ______ which are created by logging companies.",
+          "correctAnswer": "ditches",
+          "explanation": "EN: They dig ditches to enter the peat swamps by boat; these are then used to drain water. | CN: 他们挖沟渠乘船进入泥炭沼泽，然后用这些沟渠排水。"
+        },
+        {
+          "id": "p2-q9",
+          "type": "sentence_completion",
+          "question": "Draining peatlands leads to ______: a serious problem which can eventually result in coastal flooding and land loss.",
+          "correctAnswer": "subsidence",
+          "explanation": "EN: Peat starts to move downwards in a process known as subsidence; landscapes will become flooded. | CN: 泥炭开始下沉，这个过程称为沉降；地貌将被淹没。"
+        },
+        {
+          "id": "p2-q10",
+          "type": "matching_names",
+          "question": "Which expert believes communities living in wetland regions must be included in discussions about the future of these areas?",
+          "options": [
+            "A. Matthew McCartney",
+            "B. Pieter van Eijk",
+            "C. Marcel Silvius",
+            "D. Dave Tickner"
+          ],
+          "correctAnswer": "A",
+          "explanation": "EN: McCartney says it's essential that local people are involved in wetland planning and decision making. | CN: McCartney表示当地居民参与湿地规划和决策至关重要。"
+        },
+        {
+          "id": "p2-q11",
+          "type": "matching_names",
+          "question": "Which expert notes that official policies towards wetlands vary from one nation to the next?",
+          "options": [
+            "A. Matthew McCartney",
+            "B. Pieter van Eijk",
+            "C. Marcel Silvius",
+            "D. Dave Tickner"
+          ],
+          "correctAnswer": "C",
+          "explanation": "EN: Silvius says different governments have different attitudes towards wetlands. | CN: Silvius表示不同政府对湿地有不同的态度。"
+        },
+        {
+          "id": "p2-q12",
+          "type": "matching_names",
+          "question": "Which expert observes that people cause harm to wetlands without having any intention to do so?",
+          "options": [
+            "A. Matthew McCartney",
+            "B. Pieter van Eijk",
+            "C. Marcel Silvius",
+            "D. Dave Tickner"
+          ],
+          "correctAnswer": "D",
+          "explanation": "EN: Tickner says he has never met anybody who wanted to damage a wetland; effects come from people trying to make a living. | CN: Tickner说他从未遇到过想破坏湿地的人；影响来自人们谋生的行为。"
+        },
+        {
+          "id": "p2-q13",
+          "type": "matching_names",
+          "question": "Which expert suggests that initiatives to reverse environmental damage need not be complex?",
+          "options": [
+            "A. Matthew McCartney",
+            "B. Pieter van Eijk",
+            "C. Marcel Silvius",
+            "D. Dave Tickner"
+          ],
+          "correctAnswer": "B",
+          "explanation": "EN: Van Eijk says it can be as simple as planting a few trees per hectare; implementing projects isn't so much about money. | CN: Van Eijk表示可以简单到每公顷种几棵树；实施项目不太关乎资金。"
+        }
+      ]
+    },
+    {
+      "id": "passage3",
+      "title": "Alfred Wegener: science, exploration and the theory of continental drift",
+      "text": "This is a book about the life and scientific work of Alfred Wegener, whose reputation today rests with his theory of continental displacements, better known as 'continental drift'. Wegener proposed this theory in 1912 and developed it extensively for nearly 20 years. His book on the subject, The Origin of Continents and Oceans, went through four editions and was the focus of an international controversy in his lifetime and for some years after his death.\n\nWegener's basic idea was that many mysteries about the Earth's history could be solved if one supposed that the continents moved laterally, rather than supposing that they remained fixed in place. Wegener showed in great detail how such continental movements were plausible and how they worked, using evidence from a large number of sciences including geology, geophysics, paleontology, and climatology. Wegener's idea - that the continents move - is at the heart of the theory that guides Earth sciences today: namely plate tectonics. Plate tectonics is in many respects quite different from Wegener's proposal, in the same way that modern evolutionary theory is very different from the ideas Charles Darwin proposed in the 1850s about biological evolution. Yet plate tectonics is a descendant of Alfred Wegener's theory of continental drift, in quite the same way that modern evolutionary theory is a descendant of Darwin's theory of natural selection.\n\nWhen I started writing about Wegener's life and work, one of the most intriguing things about him for me was that, although he came up with a theory on continental drift, he was not a geologist. He trained as an astronomer and pursued a career in atmospheric physics. When he proposed the theory of continental displacements in 1912, he was a lecturer in physics and astronomy at the University of Marburg, in southern Germany. However, he was not an 'unknown'. In 1906 he had set a world record (with his brother Kurt) for time aloft in a hot-air balloon: 52 hours. Between 1906 and 1908 he had taken part in a highly publicized and extremely dangerous expedition to the coast of northeast Greenland. He had also made a name for himself amongst a small circle of meteorologists and atmospheric physicists in Germany as the author of a textbook, Thermodynamics of the Atmosphere (1911), and of a number of interesting scientific papers.\n\nAs important as Wegener's work on continental drift has turned out to be, it was largely a sideline to his interest in atmospheric physics, geophysics, and paleoclimatology, and thus I have been at great pains to put Wegener's work on continental drift in the larger context of his other scientific work, and in the even larger context of atmospheric sciences in his lifetime. This is a 'continental drift book' only to the extent that Wegener was interested in that topic and later became famous for it. My treatment of his other scientific work is no less detailed, though I certainly have devoted more attention to the reception of his ideas on continental displacement, as they were much more controversial than his other work.\n\nReaders interested in the specific detail of Wegener's career will see that he often stopped pursuing a given line of investigation (sometimes for years on end), only to pick it up later. I have tried to provide guideposts to his rapidly shifting interests by characterizing different phases of his life as careers in different sciences, which is reflected in the titles of the chapters. Thus, the index should be a sufficient guide for those interested in a particular aspect of Wegener's life but perhaps not all of it. My own feeling, however, is that the parts do not make as much sense on their own as do all of his activities taken together. In this respect I urge readers to try to experience Wegener's life as he lived it, with all the interruptions, changes of mind, and renewed efforts this entailed.\n\nWegener left behind a few published works but, as was standard practice, these reported the results of his work - not the journey he took to reach that point. Only a few hundred of the many thousands of letters he wrote and received in his lifetime have survived and he didn't keep notebooks or diaries that recorded his life and activities. He was not active (with a few exceptions) in scientific societies, and did not seek to find influence or advance his ideas through professional contacts and politics, spending most of his time at home in his study reading and writing, or in the field collecting observations.\n\nSome famous scientists, such as Newton, Darwin, and Einstein, left mountains of written material behind, hundreds of notebooks and letters numbering in the tens of thousands. Others, like Michael Faraday, left extensive journals of their thoughts and speculations, parallel to their scientific notebooks. The more such material a scientist leaves behind, the better chance a biographer has of forming an accurate picture of how a scientist's ideas took shape and evolved.\n\nI am firmly of the opinion that most of us, Wegener included, are not in any real sense the authors of our own lives. We plan, think, and act, often with apparent freedom, but most of the time our lives 'happen to us', and we only retrospectively turn this happenstance into a coherent narrative of fulfilled intentions. This book, therefore, is a story both of the life and scientific work that Alfred Wegener planned and intended and of the life and scientific work that actually 'happened to him'. These are, as I think you will soon see, not always the same thing.",
+      "questions": [
+        {
+          "id": "p3-q1",
+          "type": "ynng",
+          "question": "Wegener's ideas about continental drift were widely disputed while he was alive.",
+          "correctAnswer": "YES",
+          "explanation": "EN: His book was the focus of an international controversy in his lifetime. | CN: 他的书在他有生之年是国际争议的焦点。"
+        },
+        {
+          "id": "p3-q2",
+          "type": "ynng",
+          "question": "The idea that the continents remained fixed in place was defended in a number of respected scientific publications.",
+          "correctAnswer": "NOT GIVEN",
+          "explanation": "EN: The passage mentions the fixed-continent idea but does not specify it was defended in respected scientific publications. | CN: 文章提到了固定大陆观点，但未说明是否在有声望的科学出版物中被捍卫。"
+        },
+        {
+          "id": "p3-q3",
+          "type": "ynng",
+          "question": "Wegener relied on a limited range of scientific fields to support his theory.",
+          "correctAnswer": "NO",
+          "explanation": "EN: He used evidence from a large number of sciences including geology, geophysics, paleontology, and climatology. | CN: 他使用了大量科学领域的证据，包括地质学、地球物理学、古生物学和气候学。"
+        },
+        {
+          "id": "p3-q4",
+          "type": "ynng",
+          "question": "The similarities between Wegener's theory and modern plate tectonics are enormous.",
+          "correctAnswer": "NO",
+          "explanation": "EN: Plate tectonics is in many respects quite different from Wegener's proposal. | CN: 板块构造在许多方面与Wegener的提议大不相同。"
+        },
+        {
+          "id": "p3-q5",
+          "type": "sentence_completion",
+          "question": "The writer describes his approach as writing from a ______.",
+          "options": [
+            "A. modest fame",
+            "B. geological viewpoint",
+            "C. record-breaking achievement",
+            "D. theoretical perspective",
+            "E. select group",
+            "F. professional interests",
+            "G. educational background",
+            "H. hazardous exploration",
+            "I. biographer's perspective"
+          ],
+          "correctAnswer": "I",
+          "explanation": "EN: When I started writing about Wegener's life and work, one of the most intriguing things... | CN: 当我开始写关于Wegener的生活和工作时，最有趣的事情之一..."
+        },
+        {
+          "id": "p3-q6",
+          "type": "sentence_completion",
+          "question": "Wegener's ______ were in astronomy and atmospheric physics rather than geology.",
+          "options": [
+            "A. modest fame",
+            "B. geological viewpoint",
+            "C. record-breaking achievement",
+            "D. theoretical perspective",
+            "E. select group",
+            "F. professional interests",
+            "G. educational background",
+            "H. hazardous exploration",
+            "I. biographer's perspective"
+          ],
+          "correctAnswer": "F",
+          "explanation": "EN: He trained as an astronomer and pursued a career in atmospheric physics. | CN: 他接受天文学训练并从事大气物理学职业。"
+        },
+        {
+          "id": "p3-q7",
+          "type": "sentence_completion",
+          "question": "Before proposing continental drift, Wegener had achieved ______ through his balloon record and textbook.",
+          "options": [
+            "A. modest fame",
+            "B. geological viewpoint",
+            "C. record-breaking achievement",
+            "D. theoretical perspective",
+            "E. select group",
+            "F. professional interests",
+            "G. educational background",
+            "H. hazardous exploration",
+            "I. biographer's perspective"
+          ],
+          "correctAnswer": "A",
+          "explanation": "EN: He was not an 'unknown'; he had set a world record and authored a textbook. | CN: 他并非无名之辈；他创造了世界纪录并撰写了一本教科书。"
+        },
+        {
+          "id": "p3-q8",
+          "type": "sentence_completion",
+          "question": "In 1906, Wegener achieved a ______ by spending 52 hours aloft in a hot-air balloon.",
+          "options": [
+            "A. modest fame",
+            "B. geological viewpoint",
+            "C. record-breaking achievement",
+            "D. theoretical perspective",
+            "E. select group",
+            "F. professional interests",
+            "G. educational background",
+            "H. hazardous exploration",
+            "I. biographer's perspective"
+          ],
+          "correctAnswer": "C",
+          "explanation": "EN: In 1906 he had set a world record for time aloft in a hot-air balloon: 52 hours. | CN: 1906年，他创造了热气球滞空时间的世界纪录：52小时。"
+        },
+        {
+          "id": "p3-q9",
+          "type": "sentence_completion",
+          "question": "Wegener participated in ______ to the coast of northeast Greenland between 1906 and 1908.",
+          "options": [
+            "A. modest fame",
+            "B. geological viewpoint",
+            "C. record-breaking achievement",
+            "D. theoretical perspective",
+            "E. select group",
+            "F. professional interests",
+            "G. educational background",
+            "H. hazardous exploration",
+            "I. biographer's perspective"
+          ],
+          "correctAnswer": "H",
+          "explanation": "EN: He had taken part in a highly publicized and extremely dangerous expedition to the coast of northeast Greenland. | CN: 他参加了一次广为人知且极其危险的格陵兰东北海岸探险。"
+        },
+        {
+          "id": "p3-q10",
+          "type": "sentence_completion",
+          "question": "Wegener made a name for himself amongst a ______ of meteorologists and atmospheric physicists.",
+          "options": [
+            "A. modest fame",
+            "B. geological viewpoint",
+            "C. record-breaking achievement",
+            "D. theoretical perspective",
+            "E. select group",
+            "F. professional interests",
+            "G. educational background",
+            "H. hazardous exploration",
+            "I. biographer's perspective"
+          ],
+          "correctAnswer": "E",
+          "explanation": "EN: He made a name for himself amongst a small circle of meteorologists and atmospheric physicists. | CN: 他在一小群气象学家和大气物理学家中赢得了声誉。"
+        },
+        {
+          "id": "p3-q11",
+          "type": "multiple_choice",
+          "question": "What is the writer's main purpose in the fifth paragraph?",
+          "options": [
+            "A. to suggest that readers should focus on specific chapters",
+            "B. to explain why it is desirable to read the whole book",
+            "C. to apologise for the complexity of the subject matter",
+            "D. to describe the structure of the book"
+          ],
+          "correctAnswer": "B",
+          "explanation": "EN: The writer urges readers to experience Wegener's life as he lived it and says parts don't make as much sense on their own. | CN: 作者敦促读者体验Wegener的生活方式，并表示各部分单独看不那么有意义。"
+        },
+        {
+          "id": "p3-q12",
+          "type": "multiple_choice",
+          "question": "What does the writer suggest about Wegener in the sixth paragraph?",
+          "options": [
+            "A. He was not a particularly ambitious person",
+            "B. He was a prolific letter writer",
+            "C. He was well connected in scientific circles",
+            "D. He carefully documented his research process"
+          ],
+          "correctAnswer": "A",
+          "explanation": "EN: He did not seek to find influence or advance his ideas through professional contacts and politics. | CN: 他不寻求通过职业关系和政治来获取影响力或推进自己的想法。"
+        },
+        {
+          "id": "p3-q13",
+          "type": "multiple_choice",
+          "question": "Why does the writer mention Newton, Darwin, and Einstein in the seventh paragraph?",
+          "options": [
+            "A. To compare their theories with Wegener's",
+            "B. To show how science has progressed",
+            "C. To contrast their personalities with Wegener's",
+            "D. To explain they are easier subjects to write about than Wegener"
+          ],
+          "correctAnswer": "D",
+          "explanation": "EN: They left mountains of material behind; the more material, the better chance a biographer has. Wegener left very little. | CN: 他们留下了大量材料；材料越多，传记作者的机会越大。Wegener留下的很少。"
+        },
+        {
+          "id": "p3-q14",
+          "type": "multiple_choice",
+          "question": "What is the main point the writer makes in the final paragraph?",
+          "options": [
+            "A. Wegener's life was more interesting than most",
+            "B. Biographers should focus on their subjects' achievements",
+            "C. People have little control over many aspects of their lives",
+            "D. Scientific discovery is largely a matter of chance"
+          ],
+          "correctAnswer": "C",
+          "explanation": "EN: Most of us are not in any real sense the authors of our own lives; our lives happen to us. | CN: 我们大多数人在真正意义上并非自己生活的主人；生活是发生在我们身上的。"
+        }
+      ]
+    }
+  ]
+}

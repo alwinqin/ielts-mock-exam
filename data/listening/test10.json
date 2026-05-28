@@ -1,0 +1,433 @@
+{
+  "id": "test10",
+  "title": "Listening Test 10",
+  "totalQuestions": 40,
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Course Enrollment",
+      "subtitle": "A conversation about enrolling in an evening course",
+      "audioFile": "test10_s1.mp3",
+      "duration": 420,
+      "questions": [
+        {
+          "id": "l10-s1-1",
+          "type": "form_completion",
+          "question": "Student name: _______",
+          "options": [],
+          "correctAnswer": "Lisa Park",
+          "explanation": "The student's name is Lisa Park.|学生名字是Lisa Park。"
+        },
+        {
+          "id": "l10-s1-2",
+          "type": "form_completion",
+          "question": "Course name: _______ Photography",
+          "options": [],
+          "correctAnswer": "Digital",
+          "explanation": "She wants to enroll in Digital Photography.|她想报读数码摄影课程。"
+        },
+        {
+          "id": "l10-s1-3",
+          "type": "form_completion",
+          "question": "Course code: PH_______",
+          "options": [],
+          "correctAnswer": "204",
+          "explanation": "The course code is PH204.|课程代码是PH204。"
+        },
+        {
+          "id": "l10-s1-4",
+          "type": "form_completion",
+          "question": "Start date: _______ September",
+          "options": [],
+          "correctAnswer": "12",
+          "explanation": "The course starts on 12 September.|课程从9月12日开始。"
+        },
+        {
+          "id": "l10-s1-5",
+          "type": "multiple_choice",
+          "question": "What level is the course?",
+          "options": [
+            "A. Beginner",
+            "B. Intermediate",
+            "C. Advanced",
+            "D. Professional"
+          ],
+          "correctAnswer": "B. Intermediate",
+          "explanation": "She enrolls in the intermediate level.|她报名中级班。"
+        },
+        {
+          "id": "l10-s1-6",
+          "type": "form_completion",
+          "question": "Course fee: £_______",
+          "options": [],
+          "correctAnswer": "180",
+          "explanation": "The fee is 180 pounds.|费用是180英镑。"
+        },
+        {
+          "id": "l10-s1-7",
+          "type": "form_completion",
+          "question": "Duration: _______ weeks",
+          "options": [],
+          "correctAnswer": "8",
+          "explanation": "The course runs for 8 weeks.|课程为期8周。"
+        },
+        {
+          "id": "l10-s1-8",
+          "type": "form_completion",
+          "question": "Time: 6:30 PM - _______ PM",
+          "options": [],
+          "correctAnswer": "8:30",
+          "explanation": "The class runs from 6:30 to 8:30 PM.|课程从下午6:30到8:30。"
+        },
+        {
+          "id": "l10-s1-9",
+          "type": "multiple_choice",
+          "question": "What equipment does she need to bring?",
+          "options": [
+            "A. Camera",
+            "B. Laptop",
+            "C. Tripod",
+            "D. All of the above"
+          ],
+          "correctAnswer": "A. Camera",
+          "explanation": "She needs to bring her own camera.|她需要自带相机。"
+        },
+        {
+          "id": "l10-s1-10",
+          "type": "form_completion",
+          "question": "Payment method: _______",
+          "options": [],
+          "correctAnswer": "credit card",
+          "explanation": "She pays by credit card.|她用信用卡支付。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Community Center",
+      "subtitle": "A guide describing community center activities",
+      "audioFile": "test10_s2.mp3",
+      "duration": 420,
+      "questions": [
+        {
+          "id": "l10-s2-11",
+          "type": "multiple_choice",
+          "question": "What is the main purpose of the Community Center announcement?",
+          "options": [
+            "A. To advertise a sale",
+            "B. To inform about events and facilities",
+            "C. To apologize for closure",
+            "D. To ask for volunteers"
+          ],
+          "correctAnswer": "B. To inform about events and facilities",
+          "explanation": "EN: Based on the announcement.|CN: 基于公告内容。"
+        },
+        {
+          "id": "l10-s2-12",
+          "type": "multiple_choice",
+          "question": "When is the facility open on weekdays?",
+          "options": [
+            "A. 8 AM - 6 PM",
+            "B. 9 AM - 5 PM",
+            "C. 8 AM - 8 PM",
+            "D. 10 AM - 4 PM"
+          ],
+          "correctAnswer": "C. 8 AM - 8 PM",
+          "explanation": "EN: Based on the announcement.|CN: 基于公告内容。"
+        },
+        {
+          "id": "l10-s2-13",
+          "type": "form_completion",
+          "question": "The community center is located on _______ Street",
+          "options": [],
+          "correctAnswer": "Main",
+          "explanation": "EN: Based on the announcement.|CN: 基于公告内容。"
+        },
+        {
+          "id": "l10-s2-14",
+          "type": "form_completion",
+          "question": "Admission for adults: $_______",
+          "options": [],
+          "correctAnswer": "10",
+          "explanation": "EN: Based on the announcement.|CN: 基于公告内容。"
+        },
+        {
+          "id": "l10-s2-15",
+          "type": "form_completion",
+          "question": "Children under 5: _______",
+          "options": [],
+          "correctAnswer": "free",
+          "explanation": "EN: Based on the announcement.|CN: 基于公告内容。"
+        },
+        {
+          "id": "l10-s2-16",
+          "type": "multiple_choice",
+          "question": "What special event is happening next week?",
+          "options": [
+            "A. A concert",
+            "B. A workshop",
+            "C. A festival",
+            "D. A competition"
+          ],
+          "correctAnswer": "B. A workshop",
+          "explanation": "EN: Based on the announcement.|CN: 基于公告内容。"
+        },
+        {
+          "id": "l10-s2-17",
+          "type": "form_completion",
+          "question": "The event starts at _______ AM",
+          "options": [],
+          "correctAnswer": "10",
+          "explanation": "EN: Based on the announcement.|CN: 基于公告内容。"
+        },
+        {
+          "id": "l10-s2-18",
+          "type": "form_completion",
+          "question": "To book, call: 555-_______",
+          "options": [],
+          "correctAnswer": "0192",
+          "explanation": "EN: Based on the announcement.|CN: 基于公告内容。"
+        },
+        {
+          "id": "l10-s2-19",
+          "type": "multiple_choice",
+          "question": "Which amenity is NOT available?",
+          "options": [
+            "A. Parking",
+            "B. Café",
+            "C. Swimming pool",
+            "D. Gift shop"
+          ],
+          "correctAnswer": "C. Swimming pool",
+          "explanation": "EN: Based on the announcement.|CN: 基于公告内容。"
+        },
+        {
+          "id": "l10-s2-20",
+          "type": "form_completion",
+          "question": "Feedback can be submitted at the _______ desk",
+          "options": [],
+          "correctAnswer": "information",
+          "explanation": "EN: Based on the announcement.|CN: 基于公告内容。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Sociology Survey",
+      "subtitle": "Two students designing a sociology survey",
+      "audioFile": "test10_s3.mp3",
+      "duration": 420,
+      "questions": [
+        {
+          "id": "l10-s3-21",
+          "type": "multiple_choice",
+          "question": "What is the main focus of the Sociology Survey discussion?",
+          "options": [
+            "A. Research methodology",
+            "B. Presentation design",
+            "C. Data collection",
+            "D. Group roles"
+          ],
+          "correctAnswer": "C. Data collection",
+          "explanation": "EN: Based on the student discussion.|CN: 基于学生讨论内容。"
+        },
+        {
+          "id": "l10-s3-22",
+          "type": "multiple_choice",
+          "question": "How many sources do they need?",
+          "options": [
+            "A. 5",
+            "B. 8",
+            "C. 10",
+            "D. 12"
+          ],
+          "correctAnswer": "B. 8",
+          "explanation": "EN: Based on the student discussion.|CN: 基于学生讨论内容。"
+        },
+        {
+          "id": "l10-s3-23",
+          "type": "sentence_completion",
+          "question": "They will use the _______ library for research",
+          "options": [],
+          "correctAnswer": "university",
+          "explanation": "EN: Based on the student discussion.|CN: 基于学生讨论内容。"
+        },
+        {
+          "id": "l10-s3-24",
+          "type": "sentence_completion",
+          "question": "The deadline is next _______",
+          "options": [],
+          "correctAnswer": "Friday",
+          "explanation": "EN: Based on the student discussion.|CN: 基于学生讨论内容。"
+        },
+        {
+          "id": "l10-s3-25",
+          "type": "multiple_choice",
+          "question": "Who will present first?",
+          "options": [
+            "A. The first student",
+            "B. The second student",
+            "C. Both together",
+            "D. A different group"
+          ],
+          "correctAnswer": "A. The first student",
+          "explanation": "EN: Based on the student discussion.|CN: 基于学生讨论内容。"
+        },
+        {
+          "id": "l10-s3-26",
+          "type": "form_completion",
+          "question": "Presentation time: _______ minutes",
+          "options": [],
+          "correctAnswer": "15",
+          "explanation": "EN: Based on the student discussion.|CN: 基于学生讨论内容。"
+        },
+        {
+          "id": "l10-s3-27",
+          "type": "form_completion",
+          "question": "They need _______ visual aids",
+          "options": [],
+          "correctAnswer": "three",
+          "explanation": "EN: Based on the student discussion.|CN: 基于学生讨论内容。"
+        },
+        {
+          "id": "l10-s3-28",
+          "type": "multiple_choice",
+          "question": "What is the professor's main advice?",
+          "options": [
+            "A. Practice more",
+            "B. Use simpler language",
+            "C. Add more data",
+            "D. Shorten the talk"
+          ],
+          "correctAnswer": "D. Shorten the talk",
+          "explanation": "EN: Based on the student discussion.|CN: 基于学生讨论内容。"
+        },
+        {
+          "id": "l10-s3-29",
+          "type": "sentence_completion",
+          "question": "Extra credit is available for _______ review",
+          "options": [],
+          "correctAnswer": "peer",
+          "explanation": "EN: Based on the student discussion.|CN: 基于学生讨论内容。"
+        },
+        {
+          "id": "l10-s3-30",
+          "type": "multiple_choice",
+          "question": "What format will the submission be?",
+          "options": [
+            "A. PDF",
+            "B. PowerPoint",
+            "C. Video",
+            "D. Physical poster"
+          ],
+          "correctAnswer": "B. PowerPoint",
+          "explanation": "EN: Based on the student discussion.|CN: 基于学生讨论内容。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Language Evolution",
+      "subtitle": "A lecture on how languages evolve over time",
+      "audioFile": "test10_s4.mp3",
+      "duration": 480,
+      "questions": [
+        {
+          "id": "l10-s4-31",
+          "type": "sentence_completion",
+          "question": "In the lecture on Language Evolution, the speaker begins by discussing its historical _______",
+          "options": [],
+          "correctAnswer": "origins",
+          "explanation": "EN: Based on the lecture content.|CN: 基于讲座内容。"
+        },
+        {
+          "id": "l10-s4-32",
+          "type": "sentence_completion",
+          "question": "A key factor in language evolution is _______ change",
+          "options": [],
+          "correctAnswer": "climate",
+          "explanation": "EN: Based on the lecture content.|CN: 基于讲座内容。"
+        },
+        {
+          "id": "l10-s4-33",
+          "type": "multiple_choice",
+          "question": "What does the speaker say is the biggest challenge?",
+          "options": [
+            "A. Lack of funding",
+            "B. Public awareness",
+            "C. Political will",
+            "D. Technical limitations"
+          ],
+          "correctAnswer": "C. Political will",
+          "explanation": "EN: Based on the lecture content.|CN: 基于讲座内容。"
+        },
+        {
+          "id": "l10-s4-34",
+          "type": "sentence_completion",
+          "question": "The solution requires international _______",
+          "options": [],
+          "correctAnswer": "cooperation",
+          "explanation": "EN: Based on the lecture content.|CN: 基于讲座内容。"
+        },
+        {
+          "id": "l10-s4-35",
+          "type": "short_answer",
+          "question": "What year does the speaker reference for a key milestone? (four digits)",
+          "options": [],
+          "correctAnswer": "2050",
+          "explanation": "EN: Based on the lecture content.|CN: 基于讲座内容。"
+        },
+        {
+          "id": "l10-s4-36",
+          "type": "multiple_choice",
+          "question": "Which country is mentioned as a successful example?",
+          "options": [
+            "A. Germany",
+            "B. Japan",
+            "C. Costa Rica",
+            "D. Norway"
+          ],
+          "correctAnswer": "C. Costa Rica",
+          "explanation": "EN: Based on the lecture content.|CN: 基于讲座内容。"
+        },
+        {
+          "id": "l10-s4-37",
+          "type": "sentence_completion",
+          "question": "Investment in research needs to increase by _______%",
+          "options": [],
+          "correctAnswer": "50",
+          "explanation": "EN: Based on the lecture content.|CN: 基于讲座内容。"
+        },
+        {
+          "id": "l10-s4-38",
+          "type": "short_answer",
+          "question": "What technology does the speaker highlight? (one word)",
+          "options": [],
+          "correctAnswer": "innovation",
+          "explanation": "EN: Based on the lecture content.|CN: 基于讲座内容。"
+        },
+        {
+          "id": "l10-s4-39",
+          "type": "multiple_choice",
+          "question": "What is the speaker's overall tone?",
+          "options": [
+            "A. Pessimistic",
+            "B. Cautiously optimistic",
+            "C. Neutral",
+            "D. Enthusiastic"
+          ],
+          "correctAnswer": "B. Cautiously optimistic",
+          "explanation": "EN: Based on the lecture content.|CN: 基于讲座内容。"
+        },
+        {
+          "id": "l10-s4-40",
+          "type": "sentence_completion",
+          "question": "The lecture concludes with a call for _______ action",
+          "options": [],
+          "correctAnswer": "immediate",
+          "explanation": "EN: Based on the lecture content.|CN: 基于讲座内容。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "id": "test9",
+  "title": "Test 9",
+  "totalQuestions": 40,
+  "passages": [
+    {
+      "id": "p1",
+      "title": "The History of Money",
+      "text": "Money is such a fundamental part of modern life that it is difficult to imagine a world without it. Yet for most of human history, people lived without money, relying instead on barter, gift economies, and reciprocal exchange.\n\nThe earliest forms of money emerged around 3000 BCE in Mesopotamia, where shekels - a unit of weight for barley - were used as a standard of value. Silver shekels later became a common medium of exchange. In China, cowrie shells were used as money as early as 1200 BCE, and they continued to be used in some parts of the world into the 20th century.\n\nThe first metal coins were produced in Lydia (modern-day Turkey) around 600 BCE. Made from electrum, a natural alloy of gold and silver, these coins were stamped with official symbols guaranteeing their weight and purity. This innovation spread rapidly throughout the Greek world and beyond. Coins offered advantages over other forms of money: they were durable, divisible, portable, and difficult to counterfeit.\n\nPaper money was a Chinese innovation, first appearing during the Tang Dynasty (618-907 CE) as receipts from deposit shops. The government began issuing official paper currency during the Song Dynasty (960-1279 CE). Marco Polo's accounts of paper money astonished Europeans when he returned from China in the 13th century. Europe would not adopt paper money widely for another 400 years.\n\nThe establishment of banks, starting with the Bank of Stockholm in 1668 and the Bank of England in 1694, transformed money by creating banknotes that were promises to pay the bearer a specified amount of gold or silver. This system, known as the gold standard, meant that paper money was directly convertible to precious metals.\n\nThe 20th century saw dramatic changes. During the Great Depression, many countries abandoned the gold standard to allow for more flexible monetary policy. In 1971, the United States fully suspended dollar convertibility to gold, ushering in the era of fiat money - currency that has value because a government maintains it, not because it is backed by a commodity.\n\nToday, the nature of money continues to evolve. Digital payments, cryptocurrencies like Bitcoin, and central bank digital currencies are pushing the boundaries of what money is. While the forms of money have changed dramatically over thousands of years, its essential functions remain the same: a medium of exchange, a unit of account, and a store of value.",
+      "questions": [
+        {
+          "id": "p9-q1",
+          "type": "tfng",
+          "question": "Money has existed for all of human history.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: 'for most of human history, people lived without money.'|CN: '在人类历史的大部分时间里，人们没有货币。'"
+        },
+        {
+          "id": "p9-q2",
+          "type": "multiple_choice",
+          "question": "What was used as money in Mesopotamia around 3000 BCE?",
+          "options": ["A. Cowrie shells", "B. Shekels of barley", "C. Metal coins", "D. Paper notes"],
+          "correctAnswer": "B. Shekels of barley",
+          "explanation": "EN: 'shekels - a unit of weight for barley - were used as a standard of value.'|CN: 'shekel——大麦的重量单位——被用作价值标准。'"
+        },
+        {
+          "id": "p9-q3",
+          "type": "tfng",
+          "question": "The first metal coins were produced in Lydia around 600 BCE.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: 'The first metal coins were produced in Lydia (modern-day Turkey) around 600 BCE.'|CN: '最早的金属硬币大约在公元前600年铸造于吕底亚（今土耳其）。'"
+        },
+        {
+          "id": "p9-q4",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: The first coins were made from _______, a natural alloy of gold and silver.",
+          "options": [],
+          "correctAnswer": "electrum",
+          "explanation": "EN: 'Made from electrum, a natural alloy of gold and silver.'|CN: '由金银天然合金琥珀金（electrum）制成。'"
+        },
+        {
+          "id": "p9-q5",
+          "type": "short_answer",
+          "question": "Where was paper money first developed? (One word answer - country name)",
+          "options": [],
+          "correctAnswer": "China",
+          "explanation": "EN: 'Paper money was a Chinese innovation.'|CN: '纸币是中国的创新。'"
+        },
+        {
+          "id": "p9-q6",
+          "type": "tfng",
+          "question": "Paper money first appeared during the Song Dynasty.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: It first appeared 'during the Tang Dynasty' and the government issued it 'during the Song Dynasty.'|CN: 它最早出现在'唐朝'，政府在'宋朝'开始发行。"
+        },
+        {
+          "id": "p9-q7",
+          "type": "multiple_choice",
+          "question": "When was the Bank of England established?",
+          "options": ["A. 1668", "B. 1694", "C. 1710", "D. 1650"],
+          "correctAnswer": "B. 1694",
+          "explanation": "EN: 'the Bank of England in 1694' is mentioned in the text.|CN: 文章提到'1694年的英格兰银行。'"
+        },
+        {
+          "id": "p9-q8",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: The system where paper money was convertible to gold or silver is known as the _______.",
+          "options": [],
+          "correctAnswer": "gold standard",
+          "explanation": "EN: 'This system, known as the gold standard.'|CN: '这个系统被称为金本位制。'"
+        },
+        {
+          "id": "p9-q9",
+          "type": "tfng",
+          "question": "The United States suspended dollar convertibility to gold in 1971.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: 'In 1971, the United States fully suspended dollar convertibility to gold.'|CN: '1971年，美国完全暂停了美元与黄金的兑换。'"
+        },
+        {
+          "id": "p9-q10",
+          "type": "short_answer",
+          "question": "What term describes currency that has value because a government maintains it? (Two-word answer)",
+          "options": [],
+          "correctAnswer": "fiat money",
+          "explanation": "EN: 'fiat money - currency that has value because a government maintains it.'|CN: '法定货币——因为政府维持而具有价值的货币。'"
+        },
+        {
+          "id": "p9-q11",
+          "type": "multiple_choice",
+          "question": "Which of the following is NOT mentioned as a form of modern money evolution?",
+          "options": ["A. Digital payments", "B. Cryptocurrencies", "C. Barter systems", "D. Central bank digital currencies"],
+          "correctAnswer": "C. Barter systems",
+          "explanation": "EN: The text mentions digital payments, cryptocurrencies, and central bank digital currencies - but not barter systems.|CN: 文章提到了数字支付、加密货币和央行数字货币——但没有提到以物易物系统。"
+        },
+        {
+          "id": "p9-q12",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Coins were durable, divisible, portable, and difficult to _______.",
+          "options": [],
+          "correctAnswer": "counterfeit",
+          "explanation": "EN: Coins were 'durable, divisible, portable, and difficult to counterfeit.'|CN: 硬币'耐用、可分、便携且难以伪造。'"
+        },
+        {
+          "id": "p9-q13",
+          "type": "tfng",
+          "question": "Marco Polo's accounts of paper money astonished Europeans when he returned from China.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: 'Marco Polo's accounts of paper money astonished Europeans when he returned from China in the 13th century.'|CN: '马可·波罗在13世纪从中国返回时对纸币的描述震惊了欧洲人。'"
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "Ocean Currents and Climate",
+      "text": "Ocean currents are the continuous, directed movements of seawater driven by various forces including wind, temperature, salinity differences, and the Earth's rotation. These currents play a crucial role in regulating the Earth's climate by redistributing heat from the equator toward the poles.\n\nThe global ocean conveyor belt, also known as thermohaline circulation, is a large-scale ocean circulation driven by differences in water density. Warm water from the tropics travels toward the poles near the surface, cooling and becoming denser along the way. In the North Atlantic, this cold, salty water sinks and flows southward at depth, eventually rising again in the Pacific and Indian Oceans. This complete cycle takes approximately 1,000 years.\n\nSurface currents, driven primarily by wind, affect the upper 400 meters of the ocean. The major surface currents form large circular patterns called gyres. The five main ocean gyres - North Atlantic, South Atlantic, North Pacific, South Pacific, and Indian Ocean - are driven by global wind patterns and deflected by the Coriolis effect, which causes currents to curve right in the Northern Hemisphere and left in the Southern Hemisphere.\n\nThe Gulf Stream is one of the most significant surface currents. It carries warm water from the Gulf of Mexico across the Atlantic to northwestern Europe. This current is responsible for keeping Western Europe significantly warmer than other regions at similar latitudes. Without the Gulf Stream, London would have a climate similar to Moscow.\n\nEl Nino and La Nina are examples of how changes in ocean currents can dramatically affect global weather patterns. El Nino, characterized by warming of the eastern Pacific Ocean, can cause flooding in South America and droughts in Southeast Asia and Australia. These events occur irregularly every 2-7 years and have far-reaching effects on agriculture, fisheries, and weather worldwide.\n\nClimate change is affecting ocean currents. Warming temperatures are causing the Greenland ice sheet to melt, adding fresh water to the North Atlantic. This could potentially slow down or disrupt thermohaline circulation, with serious consequences for global climate patterns. Some studies suggest that the Atlantic Meridional Overturning Circulation (AMOC) has weakened by about 15% since the mid-20th century.",
+      "questions": [
+        {
+          "id": "p9-q14",
+          "type": "multiple_choice",
+          "question": "What drives ocean currents according to the passage?",
+          "options": ["A. Only wind", "B. Wind, temperature, salinity, and Earth's rotation", "C. Only temperature differences", "D. Only the moon's gravity"],
+          "correctAnswer": "B. Wind, temperature, salinity, and Earth's rotation",
+          "explanation": "EN: 'driven by various forces including wind, temperature, salinity differences, and the Earth's rotation.'|CN: '由风、温度、盐度差异和地球自转等多种力量驱动。'"
+        },
+        {
+          "id": "p9-q15",
+          "type": "short_answer",
+          "question": "What is the other name for thermohaline circulation? (Four-word answer)",
+          "options": [],
+          "correctAnswer": "global ocean conveyor belt",
+          "explanation": "EN: 'The global ocean conveyor belt, also known as thermohaline circulation.'|CN: '全球海洋传送带，也称为热盐环流。'"
+        },
+        {
+          "id": "p9-q16",
+          "type": "tfng",
+          "question": "A complete cycle of the global ocean conveyor belt takes about 1,000 years.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: 'This complete cycle takes approximately 1,000 years.'|CN: '这个完整周期大约需要1000年。'"
+        },
+        {
+          "id": "p9-q17",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Surface currents affect the upper _______ meters of the ocean.",
+          "options": [],
+          "correctAnswer": "400",
+          "explanation": "EN: 'Surface currents... affect the upper 400 meters of the ocean.'|CN: '表层流影响海洋上层的400米。'"
+        },
+        {
+          "id": "p9-q18",
+          "type": "multiple_choice",
+          "question": "How many main ocean gyres are mentioned in the passage?",
+          "options": ["A. Four", "B. Five", "C. Six", "D. Seven"],
+          "correctAnswer": "B. Five",
+          "explanation": "EN: 'The five main ocean gyres' are listed in the passage.|CN: 文章列出了'五个主要的海洋环流。'"
+        },
+        {
+          "id": "p9-q19",
+          "type": "tfng",
+          "question": "The Coriolis effect causes currents to curve right in the Southern Hemisphere.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: The Coriolis effect causes currents to curve 'right in the Northern Hemisphere and left in the Southern Hemisphere.'|CN: 科里奥利效应使洋流'在北半球向右偏，在南半球向左偏。'"
+        },
+        {
+          "id": "p9-q20",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: The Gulf Stream carries warm water from the Gulf of Mexico across the Atlantic to northwestern _______.",
+          "options": [],
+          "correctAnswer": "Europe",
+          "explanation": "EN: 'The Gulf Stream... carries warm water from the Gulf of Mexico across the Atlantic to northwestern Europe.'|CN: '墨西哥湾流将温暖的水从墨西哥湾穿过大西洋带到欧洲西北部。'"
+        },
+        {
+          "id": "p9-q21",
+          "type": "short_answer",
+          "question": "Without the Gulf Stream, London would have a climate similar to which city? (One word answer)",
+          "options": [],
+          "correctAnswer": "Moscow",
+          "explanation": "EN: 'Without the Gulf Stream, London would have a climate similar to Moscow.'|CN: '如果没有墨西哥湾流，伦敦的气候将与莫斯科相似。'"
+        },
+        {
+          "id": "p9-q22",
+          "type": "multiple_choice",
+          "question": "El Nino events occur how frequently?",
+          "options": ["A. Every year", "B. Every 2-7 years", "C. Every 10 years", "D. Every 20 years"],
+          "correctAnswer": "B. Every 2-7 years",
+          "explanation": "EN: 'These events occur irregularly every 2-7 years.'|CN: '这些事件不规则地每2-7年发生一次。'"
+        },
+        {
+          "id": "p9-q23",
+          "type": "tfng",
+          "question": "El Nino causes droughts in South America and flooding in Southeast Asia.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: 'El Nino... can cause flooding in South America and droughts in Southeast Asia and Australia.'|CN: '厄尔尼诺...可能导致南美洪涝和东南亚及澳大利亚干旱。'"
+        },
+        {
+          "id": "p9-q24",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: The AMOC has weakened by about _______ since the mid-20th century.",
+          "options": [],
+          "correctAnswer": "15%",
+          "explanation": "EN: 'the Atlantic Meridional Overturning Circulation (AMOC) has weakened by about 15% since the mid-20th century.'|CN: '自20世纪中期以来，大西洋经向翻转环流（AMOC）已经减弱了大约15%。'"
+        },
+        {
+          "id": "p9-q25",
+          "type": "short_answer",
+          "question": "What is melting due to warming temperatures that could disrupt ocean currents? (Three-word answer)",
+          "options": [],
+          "correctAnswer": "Greenland ice sheet",
+          "explanation": "EN: 'Warming temperatures are causing the Greenland ice sheet to melt.'|CN: '气温升高正导致格陵兰冰盖融化。'"
+        },
+        {
+          "id": "p9-q26",
+          "type": "tfng",
+          "question": "Climate change has no effect on ocean currents.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: The passage discusses how climate change 'is affecting ocean currents.'|CN: 文章讨论了气候变化如何'影响洋流。'"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "The Science of Happiness",
+      "text": "For centuries, happiness was the domain of philosophers and poets. In recent decades, however, it has become a serious subject of scientific inquiry. Positive psychology, pioneered by Martin Seligman, has transformed our understanding of what makes people happy and how happiness can be cultivated.\n\nResearch reveals that happiness is determined by a combination of factors. About 50% of individual differences in happiness are attributable to genetics - a person's baseline set-point for happiness. Only about 10% is determined by life circumstances such as income, education, and marital status. The remaining 40% is within our control, determined by our intentional activities and habits.\n\nThis finding is liberating because it means that while we cannot change our genes or many of our circumstances, we have significant power to influence our happiness through our actions. This 40% accounts for more than the impact of all external circumstances combined.\n\nSeveral activities have been scientifically shown to increase happiness. Practicing gratitude - keeping a journal of things one is thankful for - has been shown to produce significant and lasting increases in wellbeing. Acts of kindness, whether volunteering or helping others, activate brain reward centers and boost happiness. Cultivating social connections is one of the strongest predictors of happiness; people with strong relationships are happier, healthier, and live longer.\n\nMindfulness and meditation practices have also been shown to increase happiness by reducing stress and increasing present-moment awareness. Regular physical exercise releases endorphins and improves mood. Pursuing meaningful goals that align with personal values provides a sense of purpose and fulfillment.\n\nThe hedonic treadmill is an important concept in happiness research. It describes the tendency of humans to return to a relatively stable level of happiness despite major positive or negative life events. Winning the lottery or getting a promotion may boost happiness temporarily, but people typically return to their baseline. Understanding this can help people invest their time in activities that produce lasting rather than temporary happiness.\n\nSeligman's PERMA model identifies five elements of wellbeing: Positive emotion, Engagement, Relationships, Meaning, and Accomplishment. This framework suggests that happiness is not a single thing but a multidimensional construct that involves feeling good, being fully engaged, having meaningful connections, finding purpose, and achieving goals.",
+      "questions": [
+        {
+          "id": "p9-q27",
+          "type": "multiple_choice",
+          "question": "Who pioneered the field of positive psychology?",
+          "options": ["A. Sigmund Freud", "B. Martin Seligman", "C. Abraham Maslow", "D. Carl Jung"],
+          "correctAnswer": "B. Martin Seligman",
+          "explanation": "EN: 'Positive psychology, pioneered by Martin Seligman.'|CN: '由Martin Seligman开创的积极心理学。'"
+        },
+        {
+          "id": "p9-q28",
+          "type": "tfng",
+          "question": "Approximately 50% of happiness differences between people are due to genetics.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "True",
+          "explanation": "EN: 'About 50% of individual differences in happiness are attributable to genetics.'|CN: '大约50%的幸福感个体差异可归因于遗传。'"
+        },
+        {
+          "id": "p9-q29",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Only about _______ of happiness is determined by life circumstances.",
+          "options": [],
+          "correctAnswer": "10%",
+          "explanation": "EN: 'Only about 10% is determined by life circumstances.'|CN: '只有大约10%由生活环境决定。'"
+        },
+        {
+          "id": "p9-q30",
+          "type": "multiple_choice",
+          "question": "What percentage of happiness is within our control through intentional activities?",
+          "options": ["A. 10%", "B. 25%", "C. 40%", "D. 50%"],
+          "correctAnswer": "C. 40%",
+          "explanation": "EN: 'The remaining 40% is within our control, determined by our intentional activities and habits.'|CN: '剩下的40%在我们掌控之中，由我们有意的活动和习惯决定。'"
+        },
+        {
+          "id": "p9-q31",
+          "type": "short_answer",
+          "question": "What practice involves keeping a journal of things one is thankful for? (One word answer)",
+          "options": [],
+          "correctAnswer": "gratitude",
+          "explanation": "EN: 'Practicing gratitude - keeping a journal of things one is thankful for.'|CN: '练习感恩——记录值得感谢的事物。'"
+        },
+        {
+          "id": "p9-q32",
+          "type": "tfng",
+          "question": "Acts of kindness do not affect brain activity according to the passage.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: 'Acts of kindness... activate brain reward centers and boost happiness.'|CN: '善举...激活大脑奖励中枢并提升幸福感。'"
+        },
+        {
+          "id": "p9-q33",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: People with strong relationships are happier, healthier, and live _______.",
+          "options": [],
+          "correctAnswer": "longer",
+          "explanation": "EN: 'people with strong relationships are happier, healthier, and live longer.'|CN: '拥有牢固关系的人更快乐、更健康、更长寿。'"
+        },
+        {
+          "id": "p9-q34",
+          "type": "multiple_choice",
+          "question": "What does the hedonic treadmill describe?",
+          "options": ["A. The pursuit of pleasure at all costs", "B. Returning to a stable happiness level despite major events", "C. Running to escape negative emotions", "D. The need for constant excitement"],
+          "correctAnswer": "B. Returning to a stable happiness level despite major events",
+          "explanation": "EN: 'It describes the tendency of humans to return to a relatively stable level of happiness despite major positive or negative life events.'|CN: '它描述了人类尽管经历重大的积极或消极生活事件，但仍会恢复到相对稳定的幸福感水平。'"
+        },
+        {
+          "id": "p9-q35",
+          "type": "tfng",
+          "question": "Winning the lottery produces a permanent increase in happiness.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: 'Winning the lottery... may boost happiness temporarily, but people typically return to their baseline.'|CN: '买彩票中奖...可能暂时提升幸福感，但人们通常会回到基线水平。'"
+        },
+        {
+          "id": "p9-q36",
+          "type": "short_answer",
+          "question": "What does the E in Seligman's PERMA model stand for? (One word answer)",
+          "options": [],
+          "correctAnswer": "Engagement",
+          "explanation": "EN: 'PERMA model identifies five elements: Positive emotion, Engagement, Relationships, Meaning, and Accomplishment.'|CN: 'PERMA模型确定了五个要素：积极情绪、投入、关系、意义和成就。'"
+        },
+        {
+          "id": "p9-q37",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: Regular physical exercise releases _______ and improves mood.",
+          "options": [],
+          "correctAnswer": "endorphins",
+          "explanation": "EN: 'Regular physical exercise releases endorphins and improves mood.'|CN: '定期的体育锻炼释放内啡肽并改善情绪。'"
+        },
+        {
+          "id": "p9-q38",
+          "type": "tfng",
+          "question": "The passage states that happiness is a single, simple concept.",
+          "options": ["True", "False", "Not Given"],
+          "correctAnswer": "False",
+          "explanation": "EN: 'happiness is not a single thing but a multidimensional construct.'|CN: '幸福不是单一的，而是一个多维度的概念。'"
+        },
+        {
+          "id": "p9-q39",
+          "type": "multiple_choice",
+          "question": "What is one of the strongest predictors of happiness according to the passage?",
+          "options": ["A. High income", "B. Social connections", "C. Educational level", "D. Career success"],
+          "correctAnswer": "B. Social connections",
+          "explanation": "EN: 'Cultivating social connections is one of the strongest predictors of happiness.'|CN: '培养社交联系是幸福感最强的预测因素之一。'"
+        },
+        {
+          "id": "p9-q40",
+          "type": "sentence_completion",
+          "question": "Complete the sentence: The PERMA model suggests that happiness involves feeling good, being engaged, having meaningful connections, finding purpose, and achieving _______.",
+          "options": [],
+          "correctAnswer": "goals",
+          "explanation": "EN: The text lists 'feeling good, being fully engaged, having meaningful connections, finding purpose, and achieving goals.'|CN: 文章列出了'感觉良好、充分投入、有意义的关系、找到目标和实现目标。'"
+        }
+      ]
+    }
+  ]
+}

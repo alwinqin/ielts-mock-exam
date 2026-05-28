@@ -1,0 +1,7 @@
+# IELTS Mock Exam — Speech Recognition Server Dependencies
+# Install: pip install -r requirements.txt
+#
+# openai-whisper is only needed if you want speech recognition for the Speaking module.
+# The Reading, Listening, and Writing modules work without it.
+
+openai-whisper
