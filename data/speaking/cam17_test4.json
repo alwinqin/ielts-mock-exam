@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "Do you like to keep in touch with friends and family?",
+      "followUp": "How do you usually communicate with them?"
+    },
+    {
+      "question": "Has social media changed the way you communicate?",
+      "followUp": "What are the advantages of social media?"
+    },
+    {
+      "question": "Do you prefer calling or texting?",
+      "followUp": "In what situations is it better to call rather than text?"
+    },
+    {
+      "question": "How often do you meet friends in person?",
+      "followUp": "What do you usually do when you meet up with friends?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a person you know who has an interesting job.",
+    "bulletPoints": [
+      "who this person is",
+      "what job they do",
+      "how they got into this job",
+      "and explain why you think their job is interesting"
+    ],
+    "followUpQuestions": [
+      "What jobs are most respected in your country?",
+      "How do young people choose their careers these days?",
+      "Do you think job satisfaction is more important than a high salary?",
+      "How is the job market changing with new technology?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam17_test4"
+}

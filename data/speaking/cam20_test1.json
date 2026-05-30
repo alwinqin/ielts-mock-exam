@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "Do you work or are you a student?",
+      "followUp": "What do you hope to achieve in the next five years?"
+    },
+    {
+      "question": "What do you do to relax after a long day?",
+      "followUp": "Do you think it is important to have a daily routine?"
+    },
+    {
+      "question": "Do you enjoy spending time alone or with others?",
+      "followUp": "How has this preference changed as you have grown older?"
+    },
+    {
+      "question": "What is your favourite time of the day?",
+      "followUp": "Do you consider yourself a morning person or a night owl?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a goal that you would like to achieve in the future.",
+    "bulletPoints": [
+      "what the goal is",
+      "when you set this goal",
+      "what you need to do to achieve it",
+      "and explain why achieving this goal is important to you"
+    ],
+    "followUpQuestions": [
+      "Why is it important for people to have goals?",
+      "How can people stay motivated when working towards long-term goals?",
+      "Do you think young people today have different goals than their parents?",
+      "Should employers help their employees achieve personal goals?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam20_test1"
+}

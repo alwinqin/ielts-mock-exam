@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "Do you enjoy giving and receiving gifts?",
+      "followUp": "What was the last gift you received?"
+    },
+    {
+      "question": "On what occasions do people give gifts in your country?",
+      "followUp": "Do you prefer giving or receiving gifts?"
+    },
+    {
+      "question": "How do you choose gifts for people?",
+      "followUp": "Is the value of a gift important?"
+    },
+    {
+      "question": "Have you ever received a gift you did not like?",
+      "followUp": "What do you do with gifts you do not need?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a special gift that you gave to someone.",
+    "bulletPoints": [
+      "what the gift was",
+      "who you gave it to",
+      "why you chose that particular gift",
+      "and explain how the person reacted when they received it"
+    ],
+    "followUpQuestions": [
+      "Has the tradition of gift-giving changed in your country?",
+      "Do you think expensive gifts are more meaningful than inexpensive ones?",
+      "How do consumer habits affect gift-giving?",
+      "Should children be taught about the value of giving rather than receiving?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam20_test3"
+}

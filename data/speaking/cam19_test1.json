@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "Do you live in a house or an apartment?",
+      "followUp": "What do you like most about your home?"
+    },
+    {
+      "question": "What is your neighbourhood like?",
+      "followUp": "What facilities are available near your home?"
+    },
+    {
+      "question": "Do you get on well with your neighbours?",
+      "followUp": "How important is it to have good neighbours?"
+    },
+    {
+      "question": "Would you like to move to a different area in the future?",
+      "followUp": "What would your ideal home look like?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a house or apartment that you would like to live in.",
+    "bulletPoints": [
+      "what it would look like",
+      "where it would be located",
+      "who you would live with",
+      "and explain why you would like to live there"
+    ],
+    "followUpQuestions": [
+      "How has housing design changed in your country?",
+      "What are the advantages and disadvantages of living in a big city?",
+      "Do you think the government should provide affordable housing?",
+      "How will housing change in the future?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam19_test1"
+}

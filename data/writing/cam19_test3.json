@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Line Graph: Visitors to a Tourist Attraction (Summer vs Winter)",
+    "prompt": "The graph below shows the number of visitors to a particular tourist attraction in a European city over a twelve-month period.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "wordLimit": 150,
+    "modelAnswer": ""
+  },
+  "task2": {
+    "title": "Opinion: Government Focus on Pollution and Housing",
+    "prompt": "Some people think that governments should focus on reducing environmental pollution and housing problems to help prevent illness and disease.\n\nTo what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordLimit": 250,
+    "modelAnswer": ""
+  },
+  "id": "cam19_test3"
+}

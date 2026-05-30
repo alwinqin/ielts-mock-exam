@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "How do you usually get to work or school?",
+      "followUp": "How long does your journey take?"
+    },
+    {
+      "question": "What is the traffic like in your area?",
+      "followUp": "Has traffic got better or worse in recent years?"
+    },
+    {
+      "question": "Do you think public transport is good in your city?",
+      "followUp": "How could public transport be improved?"
+    },
+    {
+      "question": "Do you enjoy travelling long distances?",
+      "followUp": "What is the longest journey you have ever taken?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a journey that you remember well.",
+    "bulletPoints": [
+      "where you went",
+      "how you travelled",
+      "who you travelled with",
+      "and explain why you remember this journey so well"
+    ],
+    "followUpQuestions": [
+      "How has transport changed in the last 50 years?",
+      "What are the environmental effects of increased travel?",
+      "Do you think people will travel more or less in the future?",
+      "How can governments encourage people to use greener transport?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam19_test4"
+}

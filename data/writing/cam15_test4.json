@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Pie Charts: Household Expenditure in Australia (1998 vs 2018)",
+    "prompt": "The charts below show the average household expenditure in Australia in two different years.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "wordLimit": 150,
+    "modelAnswer": ""
+  },
+  "task2": {
+    "title": "Opinion: Throwaway Society - Causes and Problems",
+    "prompt": "Nowadays people live in a \"throwaway\" society where they use things for a short time and then throw them away.\n\nWhat are the causes of this problem? What problems does it lead to?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordLimit": 250,
+    "modelAnswer": ""
+  },
+  "id": "cam15_test4"
+}

@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "Do you work or are you a student?",
+      "followUp": "What do you hope to achieve in your career?"
+    },
+    {
+      "question": "Who do you admire most in your life?",
+      "followUp": "What qualities do you think make someone admirable?"
+    },
+    {
+      "question": "Do you follow any famous business people?",
+      "followUp": "What can we learn from successful business people?"
+    },
+    {
+      "question": "Do you think it is important to have role models?",
+      "followUp": "How do role models influence young people?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a business person you admire.",
+    "bulletPoints": [
+      "who this person is",
+      "what business they are in",
+      "what you know about their career",
+      "and explain why you admire this person"
+    ],
+    "followUpQuestions": [
+      "What qualities does a person need to succeed in business?",
+      "How important is education for business success?",
+      "Do you think business people have a responsibility to society?",
+      "How has the role of business leaders changed in recent years?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam15_test3"
+}

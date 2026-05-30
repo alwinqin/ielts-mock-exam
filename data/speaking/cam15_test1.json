@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "Do you enjoy travelling?",
+      "followUp": "What is your favourite type of holiday?"
+    },
+    {
+      "question": "How often do you stay in hotels?",
+      "followUp": "What do you look for when choosing a hotel?"
+    },
+    {
+      "question": "What is the most important thing for you when you travel?",
+      "followUp": "Do you prefer luxury or budget accommodation?"
+    },
+    {
+      "question": "Have you ever had a bad experience in a hotel?",
+      "followUp": "What would you do if you were unhappy with your hotel room?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a hotel that you know.",
+    "bulletPoints": [
+      "where the hotel is",
+      "what the hotel looks like",
+      "what facilities it has",
+      "and explain whether you would recommend this hotel to others"
+    ],
+    "followUpQuestions": [
+      "What makes a hotel a good place to stay?",
+      "How has the hotel industry changed in recent years?",
+      "Do you prefer staying in a hotel or other types of accommodation?",
+      "How can hotels attract more customers?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam15_test1"
+}

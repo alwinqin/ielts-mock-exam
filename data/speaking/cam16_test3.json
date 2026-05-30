@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "Do you like shopping for luxury items?",
+      "followUp": "What do you consider a luxury item?"
+    },
+    {
+      "question": "Do you ever save money for expensive things?",
+      "followUp": "How do you decide whether something is worth the price?"
+    },
+    {
+      "question": "Are there any brands you particularly like?",
+      "followUp": "Why do people buy branded products?"
+    },
+    {
+      "question": "Do you think expensive things are always of better quality?",
+      "followUp": "What makes a product worth its high price?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a luxury item you would like to own in the future.",
+    "bulletPoints": [
+      "what the item is",
+      "what it looks like",
+      "why you would like to own it",
+      "and explain how you would feel if you owned it"
+    ],
+    "followUpQuestions": [
+      "Why do some people spend a lot of money on luxury goods?",
+      "Do you think the desire for luxury goods is a positive or negative thing?",
+      "How has the market for luxury goods changed over time?",
+      "Should luxury goods be taxed more heavily?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam16_test3"
+}

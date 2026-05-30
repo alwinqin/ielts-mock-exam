@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Maps: Town of Porth Harbour (Past vs Present)",
+    "prompt": "The maps below show the town of Porth Harbour in 2000 and how it looks today.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "wordLimit": 150,
+    "modelAnswer": ""
+  },
+  "task2": {
+    "title": "Opinion: Road Safety - Punishments vs Other Measures",
+    "prompt": "Some people think that strict punishments for driving offences are the key to reducing traffic accidents. Others, however, believe that other measures would be more effective in improving road safety.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordLimit": 250,
+    "modelAnswer": ""
+  },
+  "id": "cam19_test4"
+}

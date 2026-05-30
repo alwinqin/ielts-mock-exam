@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Pie Charts: Tourist Enquiries to a Travel Agency",
+    "prompt": "The charts below show the results of a survey of tourist enquiries made to a travel agency in one month.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "wordLimit": 150,
+    "modelAnswer": ""
+  },
+  "task2": {
+    "title": "Opinion: Watching Films at Cinema vs on Phones/Tablets",
+    "prompt": "Some people say that now we can see films on our phones or tablets there is no need to go to the cinema. Others say that to be fully enjoyed, films need to be seen in a cinema.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordLimit": 250,
+    "modelAnswer": ""
+  },
+  "id": "cam15_test3"
+}

@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "How often do you listen to music?",
+      "followUp": "What kind of music do you enjoy?"
+    },
+    {
+      "question": "Do you play any musical instruments?",
+      "followUp": "Would you like to learn to play an instrument?"
+    },
+    {
+      "question": "Do you prefer listening to music alone or with others?",
+      "followUp": "Has your taste in music changed over the years?"
+    },
+    {
+      "question": "How do you discover new music?",
+      "followUp": "Do you go to live music events?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a song or piece of music that is meaningful to you.",
+    "bulletPoints": [
+      "what the song or piece of music is",
+      "when you first heard it",
+      "what it is about",
+      "and explain why it is meaningful to you"
+    ],
+    "followUpQuestions": [
+      "Why is music so important in people's lives?",
+      "How has the music industry changed with the internet?",
+      "Do you think music should be taught more in schools?",
+      "Is traditional music in your country being lost?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam18_test4"
+}

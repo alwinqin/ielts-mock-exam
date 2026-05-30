@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Maps: Beechwood Farm and Surroundings (1960 vs Present)",
+    "prompt": "The maps below show the Beechwood Farm and its surroundings in 1960 and at the present day.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "wordLimit": 150,
+    "modelAnswer": ""
+  },
+  "task2": {
+    "title": "Opinion: Longer School Holidays - Advantages and Disadvantages",
+    "prompt": "In some countries, school holidays are getting longer.\n\nDo you think the advantages of this trend outweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordLimit": 250,
+    "modelAnswer": ""
+  },
+  "id": "cam20_test2"
+}

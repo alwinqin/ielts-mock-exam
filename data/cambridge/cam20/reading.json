@@ -1,0 +1,1893 @@
+{
+  "id": "cam20",
+  "title": "Cambridge IELTS 20 Academic Reading",
+  "tests": [
+    {
+      "id": "cam20_test1",
+      "testNumber": 1,
+      "passages": [
+        {
+          "id": "cam20_t1_p1",
+          "title": "The Kakapo",
+          "text": "The Kakapo is a flightless, nocturnal parrot native to New Zealand. Once widespread across the North and South Islands, the species has been pushed to the brink of extinction due to habitat destruction and predation by introduced mammals including stoats, cats, rats, and possums. The kakapo possesses several unique traits: it is the world's heaviest parrot, it cannot fly, and it has a distinct musky odour. Males produce a low-frequency booming call during the breeding season that can travel several kilometres through the forest. The species' unusual biology and behaviour have made it a subject of intense scientific interest.\n\nConservation efforts for the kakapo have been underway for decades, with the Kakapo Recovery Programme established to protect remaining individuals. The programme has relocated surviving birds to predator-free offshore islands where they receive intensive management including supplementary feeding, nest monitoring, and artificial incubation. However, the recovery has faced significant challenges. The kakapo population suffers from extremely low genetic diversity, and breeding is closely tied to the intermittent fruiting of native rimu trees, which only occurs every two to four years. These constraints have limited the speed at which the population can grow.\n\nThe recovery programme involves collaboration between government agencies, conservation organisations, local communities, and iwi (Maori tribes). Funding has been a persistent concern, as the intensive management required for each bird is costly. Researchers and conservationists continue to develop new strategies to support the kakapo's recovery, including advances in artificial insemination, smart nest monitoring technology, and genetic management. The long-term goal remains the establishment of a self-sustaining kakapo population that can survive without intensive human intervention.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam20_t1_r_q1",
+              "type": "tfng",
+              "question": "The kakapo was once found on all three main islands of New Zealand.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "FALSE"
+            },
+            {
+              "id": "cam20_t1_r_q2",
+              "type": "tfng",
+              "question": "The kakapo was hunted to extinction on the main islands by Maori settlers.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "FALSE"
+            },
+            {
+              "id": "cam20_t1_r_q3",
+              "type": "tfng",
+              "question": "The male kakapo is significantly larger than the female.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "FALSE"
+            },
+            {
+              "id": "cam20_t1_r_q4",
+              "type": "tfng",
+              "question": "Kakapos were frequently kept as pets by European settlers.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            },
+            {
+              "id": "cam20_t1_r_q5",
+              "type": "tfng",
+              "question": "The kakapo's inability to fly makes it especially vulnerable to introduced predators.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "TRUE"
+            },
+            {
+              "id": "cam20_t1_r_q6",
+              "type": "tfng",
+              "question": "The kakapo recovery programme has involved moving birds to predator-free islands.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "TRUE"
+            },
+            {
+              "id": "cam20_t1_r_q7",
+              "type": "notes_completion",
+              "question": "The kakapo's diet includes fruit, seeds, roots and 7. _____",
+              "options": [],
+              "correctAnswer": "bulbs"
+            },
+            {
+              "id": "cam20_t1_r_q8",
+              "type": "notes_completion",
+              "question": "Kakapos build their nests in burrows or under rocks on the 8. _____",
+              "options": [],
+              "correctAnswer": "soil"
+            },
+            {
+              "id": "cam20_t1_r_q9",
+              "type": "notes_completion",
+              "question": "The kakapo's soft, green and brown 9. _____ help camouflage it.",
+              "options": [],
+              "correctAnswer": "feathers"
+            },
+            {
+              "id": "cam20_t1_r_q10",
+              "type": "notes_completion",
+              "question": "Introduced predators include stoats, cats and 10. _____",
+              "options": [],
+              "correctAnswer": "deer"
+            },
+            {
+              "id": "cam20_t1_r_q11",
+              "type": "notes_completion",
+              "question": "The Kakapo Recovery Programme was formally established in 11. _____",
+              "options": [],
+              "correctAnswer": "1980"
+            },
+            {
+              "id": "cam20_t1_r_q12",
+              "type": "notes_completion",
+              "question": "The programme has persistently struggled to obtain adequate 12. _____",
+              "options": [],
+              "correctAnswer": "funding"
+            },
+            {
+              "id": "cam20_t1_r_q13",
+              "type": "notes_completion",
+              "question": "The programme depends on collaboration with a wide range of 13. _____",
+              "options": [],
+              "correctAnswer": "stakeholders"
+            }
+          ]
+        },
+        {
+          "id": "cam20_t1_p2",
+          "title": "Bringing Elms Back to Britain (Return of the Elm)",
+          "text": "Dutch elm disease devastated Britain's elm population during the second half of the 20th century, killing an estimated 25 million trees and transforming the character of the British countryside and urban landscapes. The disease is caused by a fungus (Ophiostoma novo-ulmi) that is spread by elm bark beetles. The fungus blocks the tree's water-conducting vessels, causing wilting and rapid death. For decades, it seemed that the majestic English elm, which had been a defining feature of the landscape for centuries, would become little more than a memory.\n\nHowever, a small number of elms survived the epidemic. Some of these survivors had grown in isolation, far from the bark beetles that spread the fungus. Others appeared to possess a degree of natural resistance to the disease. Researchers and conservationists launched a project to locate, document, and propagate these surviving elms. By collecting cuttings from the hardiest mature trees, they have been able to clone them and grow new saplings. Some of the most promising specimens have been planted in trial sites across the country to assess their long-term resilience. These efforts aim to restore the elm to its place in the British landscape.\n\nThe project has involved collaboration between botanical gardens, university researchers, and local conservation groups. The work has progressed methodically: identifying candidate trees, testing their resistance to the fungus, establishing clonal orchards, and eventually replanting in suitable locations. While a full-scale return of the elm remains a long-term aspiration, the results so far have been encouraging. The effort also carries broader significance as a model for how societies might respond to large-scale ecological losses and attempt to restore species that have been virtually lost from the landscape.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam20_t1_r_q14",
+              "type": "matching_info",
+              "question": "how the disease that killed the elms spreads",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam20_t1_r_q15",
+              "type": "matching_info",
+              "question": "the writer's optimism about the long-term prospects for the elm",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "G"
+            },
+            {
+              "id": "cam20_t1_r_q16",
+              "type": "matching_info",
+              "question": "a description of the effect of the disease on Britain's elm trees",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam20_t1_r_q17",
+              "type": "matching_info",
+              "question": "a project to reproduce elms that survived the disease",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam20_t1_r_q18",
+              "type": "matching_info",
+              "question": "how the writer describes the scale of the destruction",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam20_t1_r_q19",
+              "type": "matching_names",
+              "question": "believes the main goal is to restore the elm to the British landscape",
+              "options": [
+                "A. Matt Elliot",
+                "B. Karen Russell",
+                "C. Peter Bourne"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam20_t1_r_q20",
+              "type": "matching_names",
+              "question": "co-ordinates the fieldwork involved in locating surviving elms",
+              "options": [
+                "A. Matt Elliot",
+                "B. Karen Russell",
+                "C. Peter Bourne"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam20_t1_r_q21",
+              "type": "matching_names",
+              "question": "emphasises the importance of testing the resistance of potential trees",
+              "options": [
+                "A. Matt Elliot",
+                "B. Karen Russell",
+                "C. Peter Bourne"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam20_t1_r_q22",
+              "type": "matching_names",
+              "question": "considers the elm project a model for future conservation work",
+              "options": [
+                "A. Matt Elliot",
+                "B. Karen Russell",
+                "C. Peter Bourne"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam20_t1_r_q23",
+              "type": "matching_names",
+              "question": "has collected cuttings from elms that showed signs of resistance",
+              "options": [
+                "A. Matt Elliot",
+                "B. Karen Russell",
+                "C. Peter Bourne"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam20_t1_r_q24",
+              "type": "summary_completion",
+              "question": "The new trees are being planted in former 24. _____ woodlands.",
+              "options": [],
+              "correctAnswer": "oak"
+            },
+            {
+              "id": "cam20_t1_r_q25",
+              "type": "summary_completion",
+              "question": "Some of the timber from the new trees may be used for 25. _____",
+              "options": [],
+              "correctAnswer": "flooring"
+            },
+            {
+              "id": "cam20_t1_r_q26",
+              "type": "summary_completion",
+              "question": "The project aims to develop elms that can withstand the disease known as 26. _____",
+              "options": [],
+              "correctAnswer": "keel"
+            }
+          ]
+        },
+        {
+          "id": "cam20_t1_p3",
+          "title": "How Stress Affects Our Judgement",
+          "text": "Scientific research has increasingly demonstrated that stress fundamentally alters the way people make decisions and judge situations. When individuals are under acute or chronic stress, their cognitive processes shift in predictable ways. Studies have found that stressed individuals tend to focus on short-term outcomes while discounting long-term consequences, take greater risks, and show reduced ability to weigh evidence objectively. This has important implications for everything from personal financial decisions to professional performance in high-stakes environments.\n\nNeurobiologically, stress triggers the release of hormones such as cortisol and adrenaline, which affect brain function. The prefrontal cortex, which governs higher-order reasoning, impulse control, and rational decision-making, becomes less active under stress. At the same time, brain regions associated with emotional responses and habitual behaviour become more dominant. This neurological shift helps explain why stressed individuals may behave impulsively, rely on mental shortcuts, or make choices that seem irrational in hindsight. Research also suggests that the effects of stress on judgement can persist even after the stressful situation has passed.\n\nThe implications of this research extend across multiple domains. In healthcare, stressed medical professionals may be more prone to diagnostic errors. In finance, stressed investors may make poor trading decisions. In everyday life, people under stress may misjudge social situations or make unwise personal choices. Understanding the mechanisms through which stress impairs judgement has become an important area of psychological and neurological research, with potential applications in workplace design, education, and public policy aimed at reducing the harmful effects of stress on decision-making.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam20_t1_r_q27",
+              "type": "matching_info",
+              "question": "research findings concerning individuals who were actually experiencing stress",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam20_t1_r_q28",
+              "type": "matching_info",
+              "question": "a biological explanation of why the brain responds to stress in a particular way",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam20_t1_r_q29",
+              "type": "matching_info",
+              "question": "an account of how stress influences people's thinking in a financial context",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam20_t1_r_q30",
+              "type": "matching_info",
+              "question": "examples of how people's behaviour under stress is counterproductive",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam20_t1_r_q31",
+              "type": "matching_info",
+              "question": "research that compared the behaviour of people under stress with those who were not",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam20_t1_r_q32",
+              "type": "matching_info",
+              "question": "a reference to the persistence of the effects of stress on judgement",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "G"
+            },
+            {
+              "id": "cam20_t1_r_q33",
+              "type": "matching_info",
+              "question": "findings relating to people who were not able to detect a difference in their behaviour",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam20_t1_r_q34",
+              "type": "matching_info",
+              "question": "how participants were made to feel stressed during a study",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam20_t1_r_q35",
+              "type": "matching_info",
+              "question": "the occupations of the people who took part in one study",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam20_t1_r_q36",
+              "type": "ynng",
+              "question": "Stressed individuals are generally unaware of the effects that stress is having on their decision-making.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "YES"
+            },
+            {
+              "id": "cam20_t1_r_q37",
+              "type": "ynng",
+              "question": "Stressed individuals are less capable of distinguishing between important and unimportant information.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            },
+            {
+              "id": "cam20_t1_r_q38",
+              "type": "ynng",
+              "question": "Stress is more likely to affect men's judgement than women's.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NO"
+            },
+            {
+              "id": "cam20_t1_r_q39",
+              "type": "ynng",
+              "question": "The stress caused by time pressure can reduce a person's ability to think creatively.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "YES"
+            },
+            {
+              "id": "cam20_t1_r_q40",
+              "type": "ynng",
+              "question": "Understanding how stress affects judgement can help improve performance in certain professions.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "YES"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cam20_test2",
+      "testNumber": 2,
+      "passages": [
+        {
+          "id": "cam20_t2_p1",
+          "title": "Manatees",
+          "text": "Manatees, also known as sea cows, are large, slow-moving marine mammals belonging to the order Sirenia. They inhabit the warm coastal waters, rivers, and springs of the Caribbean Sea, the Gulf of Mexico, the Amazon Basin, and West Africa. Three species exist: the West Indian manatee, the Amazonian manatee, and the West African manatee. These gentle herbivores can grow up to four metres in length and weigh over 1,500 kilograms. Their anatomy is uniquely adapted to an aquatic lifestyle, with a large, rounded tail for propulsion, powerful flippers for steering and manoeuvring, and a flexible, prehensile upper lip that is split in the middle and used for grasping vegetation.\n\nManatees feed primarily on seagrasses and other aquatic plants, consuming up to 10 percent of their body weight daily. Their slow metabolism means they are adapted to warm waters, and they must migrate to heated areas such as natural springs during cold weather. Manatees have small, widely spaced eyes with limited vision, but they compensate with excellent hearing and sensitive body hair that may detect vibrations in the water. Their teeth are continuously replaced throughout their lives as the front ones wear down from grinding vegetation. They communicate through a range of vocalisations including squeaks and chirps.\n\nManatees face numerous threats from human activity. Collisions with boats and ships are a leading cause of injury and death, as manatees are slow-moving and spend much of their time near the surface. They also suffer from entanglement in fishing gear, habitat destruction due to coastal development, and cold stress as warm-water refuges become scarcer. Conservation measures have included boat speed restrictions in manatee habitats, the establishment of protected areas and sanctuaries, rescue and rehabilitation programmes for injured animals, and public education campaigns. While some populations have shown signs of recovery, the species remains vulnerable and dependent on continued conservation efforts.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam20_t2_r_q1",
+              "type": "notes_completion",
+              "question": "Manatees propel themselves through the water using their 1. _____",
+              "options": [],
+              "correctAnswer": "tail"
+            },
+            {
+              "id": "cam20_t2_r_q2",
+              "type": "notes_completion",
+              "question": "They steer and manoeuvre using their 2. _____",
+              "options": [],
+              "correctAnswer": "flippers"
+            },
+            {
+              "id": "cam20_t2_r_q3",
+              "type": "notes_completion",
+              "question": "Manatees have sensitive 3. _____ on their bodies that can detect vibrations.",
+              "options": [],
+              "correctAnswer": "hair"
+            },
+            {
+              "id": "cam20_t2_r_q4",
+              "type": "notes_completion",
+              "question": "Their diet consists mainly of 4. _____ and other aquatic plants.",
+              "options": [],
+              "correctAnswer": "seagrasses"
+            },
+            {
+              "id": "cam20_t2_r_q5",
+              "type": "notes_completion",
+              "question": "They grasp vegetation using their flexible upper 5. _____",
+              "options": [],
+              "correctAnswer": "lips"
+            },
+            {
+              "id": "cam20_t2_r_q6",
+              "type": "notes_completion",
+              "question": "Manatees control their position in the water through 6. _____",
+              "options": [],
+              "correctAnswer": "buoyancy"
+            },
+            {
+              "id": "cam20_t2_r_q7",
+              "type": "tfng",
+              "question": "Manatees need to eat a very large amount of food each day to survive.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "TRUE"
+            },
+            {
+              "id": "cam20_t2_r_q8",
+              "type": "tfng",
+              "question": "Manatees rely mainly on their eyesight to find food.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            },
+            {
+              "id": "cam20_t2_r_q9",
+              "type": "tfng",
+              "question": "Manatees are more active at night than during the day.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "FALSE"
+            },
+            {
+              "id": "cam20_t2_r_q10",
+              "type": "tfng",
+              "question": "Manatees migrate over long distances every year.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            },
+            {
+              "id": "cam20_t2_r_q11",
+              "type": "tfng",
+              "question": "The greatest threat to manatees comes from collisions with boats.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "TRUE"
+            },
+            {
+              "id": "cam20_t2_r_q12",
+              "type": "tfng",
+              "question": "Some manatees have adapted to living in cold water.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            },
+            {
+              "id": "cam20_t2_r_q13",
+              "type": "tfng",
+              "question": "Manatees have been known to survive for many years in captivity.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "TRUE"
+            }
+          ]
+        },
+        {
+          "id": "cam20_t2_p2",
+          "title": "Procrastination",
+          "text": "Procrastination, the voluntary delay of an intended task despite expecting to be worse off for the delay, affects a large proportion of the population. It is estimated that around 15 to 20 percent of adults engage in chronic procrastination, with even higher rates among students and young adults. Procrastination has been linked to negative outcomes including lower academic achievement, reduced career success, poorer financial management, and diminished psychological well-being. Despite the obvious costs of delaying important tasks, the behaviour remains stubbornly persistent.\n\nPsychological research has reshaped our understanding of procrastination. Far from being simply a time-management problem or a matter of laziness, procrastination is now understood as a problem of emotional regulation. People delay tasks not because they cannot organise their time, but because the tasks trigger negative feelings such as anxiety, boredom, or self-doubt, and putting them off provides temporary relief. This perspective explains why procrastination is strongly correlated with personality traits such as high impulsivity and low conscientiousness, and with conditions such as anxiety and depression.\n\nResearch has identified a range of strategies that can help reduce procrastination. One effective approach involves self-forgiveness — acknowledging past procrastination without self-blame, which reduces the guilt that can fuel further avoidance. Breaking tasks into smaller, manageable steps and reducing distractions in the environment have also been shown to help. Identifying the specific fears or threats that trigger avoidance can allow individuals to address the underlying emotional obstacles. The most successful interventions tend to combine cognitive behavioural techniques with practical strategies for managing the immediate environment.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam20_t2_r_q14",
+              "type": "matching_info",
+              "question": "the reason why procrastinators often continue to delay despite knowing the consequences",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam20_t2_r_q15",
+              "type": "matching_info",
+              "question": "the claim that procrastination can sometimes be beneficial",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam20_t2_r_q16",
+              "type": "matching_info",
+              "question": "a problem with how some people label procrastinators",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam20_t2_r_q17",
+              "type": "notes_completion",
+              "question": "Procrastination is often wrongly assumed to be a sign of 17. _____",
+              "options": [],
+              "correctAnswer": "laziness"
+            },
+            {
+              "id": "cam20_t2_r_q18",
+              "type": "notes_completion",
+              "question": "Delaying tasks can trigger feelings of being overwhelmed and 18. _____",
+              "options": [],
+              "correctAnswer": "anxious"
+            },
+            {
+              "id": "cam20_t2_r_q19",
+              "type": "notes_completion",
+              "question": "Many procrastinators worry about being unable to cope with certain 19. _____",
+              "options": [],
+              "correctAnswer": "threats"
+            },
+            {
+              "id": "cam20_t2_r_q20",
+              "type": "notes_completion",
+              "question": "Academic procrastination is commonly associated with studying for 20. _____",
+              "options": [],
+              "correctAnswer": "exams"
+            },
+            {
+              "id": "cam20_t2_r_q21",
+              "type": "notes_completion",
+              "question": "Procrastination affects people who describe themselves as 21. _____",
+              "options": [],
+              "correctAnswer": "perfectionists"
+            },
+            {
+              "id": "cam20_t2_r_q22",
+              "type": "notes_completion",
+              "question": "The emotional consequence of putting things off often includes 22. _____",
+              "options": [],
+              "correctAnswer": "guilt"
+            },
+            {
+              "id": "cam20_t2_r_q23",
+              "type": "matching_names",
+              "question": "those who tend to procrastinate generally earn less",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam20_t2_r_q24",
+              "type": "matching_names",
+              "question": "chronic procrastinators tend to have less stable jobs",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam20_t2_r_q25",
+              "type": "matching_names",
+              "question": "advises people to forgive themselves for procrastinating",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam20_t2_r_q26",
+              "type": "matching_names",
+              "question": "suggests avoiding distractions",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "E"
+            }
+          ]
+        },
+        {
+          "id": "cam20_t2_p3",
+          "title": "Invasion of the Robot Umpires",
+          "text": "Technology is increasingly being deployed to assist or replace human officials in professional sports, a development that has provoked both enthusiasm and controversy. In tennis, the Hawk-Eye system tracks ball trajectories using multiple cameras to determine whether a shot is in or out with an accuracy far exceeding human perception. In cricket, similar ball-tracking technology is used for leg-before-wicket decisions. In baseball, automated strike-zone systems have been introduced in some leagues to call balls and strikes. These systems promise greater accuracy, consistency, and fairness, removing the human error that can decide the outcome of crucial matches.\n\nHowever, the invasion of robot umpires has generated significant debate about the nature of sport itself. Critics argue that human officiating, with all its imperfections, is part of the fabric of athletic competition. The judgement calls made by referees and umpires, the strategic considerations that arise from knowing a call might go either way, and even the occasional controversial decision that becomes part of sporting lore are, for many fans, inseparable from the experience of watching sport. There are also concerns about the cost and accessibility of such technologies, which may create a two-tier system where elite competitions benefit from advanced technology while lower-level games do not.\n\nProponents counter that athletes and fans deserve the most accurate decisions possible, and that the purity of competition is better served by getting calls right than by preserving tradition. They point to the growing number of disputes over calls in fast-paced modern sports and argue that technology can resolve ambiguities that human officials cannot. The debate continues over where to draw the line: should technology simply assist officials, or should it have the final word? Different sports and leagues have arrived at different answers, and the conversation remains active as technology continues to advance.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam20_t2_r_q27",
+              "type": "ynng",
+              "question": "Robot umpires have been adopted by all major professional sports leagues.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NO"
+            },
+            {
+              "id": "cam20_t2_r_q28",
+              "type": "ynng",
+              "question": "The use of technology in sports has reduced the number of disputes during matches.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "YES"
+            },
+            {
+              "id": "cam20_t2_r_q29",
+              "type": "ynng",
+              "question": "Professional athletes generally prefer robot umpires to human officials.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            },
+            {
+              "id": "cam20_t2_r_q30",
+              "type": "ynng",
+              "question": "Controversial refereeing decisions are part of what makes sport appealing to many fans.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NO"
+            },
+            {
+              "id": "cam20_t2_r_q31",
+              "type": "ynng",
+              "question": "Robot umpires have made sport more accessible to lower-level competitions.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            },
+            {
+              "id": "cam20_t2_r_q32",
+              "type": "ynng",
+              "question": "The use of technology has removed all human error from top-level sport.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "YES"
+            },
+            {
+              "id": "cam20_t2_r_q33",
+              "type": "matching_info",
+              "question": "what people think about the roles of officials",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam20_t2_r_q34",
+              "type": "matching_info",
+              "question": "the argument that accuracy is more important than tradition",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam20_t2_r_q35",
+              "type": "matching_info",
+              "question": "the area of the field that is monitored by a particular technology",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "correctAnswer": "H"
+            },
+            {
+              "id": "cam20_t2_r_q36",
+              "type": "matching_info",
+              "question": "how disagreements over decisions have increased",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam20_t2_r_q37",
+              "type": "matching_info",
+              "question": "the complete quiet needed by a particular technology",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "correctAnswer": "G"
+            },
+            {
+              "id": "cam20_t2_r_q38",
+              "type": "multiple_choice",
+              "question": "What is the main reason the writer gives for the introduction of robot umpires?",
+              "options": [
+                "A. They are cheaper than human officials in the long term.",
+                "B. They offer greater accuracy than human officials.",
+                "C. They are favoured by the majority of sports fans.",
+                "D. They speed up the pace of the game."
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam20_t2_r_q39",
+              "type": "multiple_choice",
+              "question": "What concern does the writer raise about the cost of technological officiating?",
+              "options": [
+                "A. It may mean fewer resources for player development.",
+                "B. It could create inequality between wealthy and less wealthy competitions.",
+                "C. It discourages investment in grassroots sport.",
+                "D. It is too expensive for most professional leagues."
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam20_t2_r_q40",
+              "type": "multiple_choice",
+              "question": "What is the writer's overall conclusion about robot umpires?",
+              "options": [
+                "A. They will eventually replace human officials entirely.",
+                "B. Their introduction has been too rapid.",
+                "C. They are here to stay but the limits of their use are still being debated.",
+                "D. They should only be used as a backup for human officials."
+              ],
+              "correctAnswer": "C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cam20_test3",
+      "testNumber": 3,
+      "passages": [
+        {
+          "id": "cam20_t3_p1",
+          "title": "Frozen Food",
+          "text": "The development of frozen food technology in the early 20th century revolutionised the global food industry. The American inventor Clarence Birdseye is credited as the pioneer of modern frozen food after observing that fish caught in Arctic waters froze rapidly in the extreme cold and retained their freshness and flavour when thawed. He developed the quick-freezing process, which involved pressing packaged food between refrigerated metal plates at very low temperatures. This rapid freezing prevented the formation of large ice crystals that would puncture cell walls and damage the food's texture, flavour, and nutritional value. Birdseye's innovations led to the founding of what became a global frozen food empire.\n\nThe frozen food industry grew rapidly as technology improved and infrastructure expanded. Early products included frozen vegetables such as peas and potatoes, as well as fish, meat, fruit, and prepared meals. Packaging evolved from waxed paper and cardboard to moisture-proof materials such as cellophane, and later to boil-in-bag pouches and microwave-safe containers. The development of the home refrigerator and freezer was critical to the industry's success, as consumers needed a way to store frozen products. Tin cans and other containers were also important in the processing and storage of frozen foods.\n\nThe impact of frozen food on everyday life has been profound. It has enabled households to store a wide variety of foods for extended periods, reducing food waste and the need for frequent shopping. It has transformed eating habits by making seasonal foods available year-round and by enabling the creation of ready meals that require minimal preparation. The global supply chain for frozen food now spans continents, with specialised refrigerated transport and storage facilities ensuring that products reach consumers in optimal condition. Despite ongoing debates about nutritional quality and processing, frozen food remains a staple of modern diets around the world.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam20_t3_r_q1",
+              "type": "notes_completion",
+              "question": "The first products to be frozen included peas and 1. _____",
+              "options": [],
+              "correctAnswer": "potatoes"
+            },
+            {
+              "id": "cam20_t3_r_q2",
+              "type": "notes_completion",
+              "question": "Birdseye used 2. _____ to prevent the formation of large ice crystals.",
+              "options": [],
+              "correctAnswer": "butter"
+            },
+            {
+              "id": "cam20_t3_r_q3",
+              "type": "notes_completion",
+              "question": "Frozen 3. _____ was also an early commercially available product.",
+              "options": [],
+              "correctAnswer": "meat"
+            },
+            {
+              "id": "cam20_t3_r_q4",
+              "type": "notes_completion",
+              "question": "The quick-freezing process prevented the formation of large ice 4. _____",
+              "options": [],
+              "correctAnswer": "crystals"
+            },
+            {
+              "id": "cam20_t3_r_q5",
+              "type": "notes_completion",
+              "question": "Early packaging materials included waxed paper and 5. _____",
+              "options": [],
+              "correctAnswer": "cellophane"
+            },
+            {
+              "id": "cam20_t3_r_q6",
+              "type": "notes_completion",
+              "question": "Frozen products were also stored in 6. _____ containers.",
+              "options": [],
+              "correctAnswer": "tin"
+            },
+            {
+              "id": "cam20_t3_r_q7",
+              "type": "notes_completion",
+              "question": "The development of the home 7. _____ was crucial for the frozen food industry.",
+              "options": [],
+              "correctAnswer": "refrigerator"
+            },
+            {
+              "id": "cam20_t3_r_q8",
+              "type": "tfng",
+              "question": "Birdseye's quick-freezing method was based on techniques used by Arctic communities.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            },
+            {
+              "id": "cam20_t3_r_q9",
+              "type": "tfng",
+              "question": "The quick-freezing process helped preserve the nutritional value of food.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "TRUE"
+            },
+            {
+              "id": "cam20_t3_r_q10",
+              "type": "tfng",
+              "question": "Frozen food was more expensive than fresh food when it was first introduced.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "FALSE"
+            },
+            {
+              "id": "cam20_t3_r_q11",
+              "type": "tfng",
+              "question": "The availability of frozen food has reduced the need for frequent shopping.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "TRUE"
+            },
+            {
+              "id": "cam20_t3_r_q12",
+              "type": "tfng",
+              "question": "Frozen food always has lower nutritional value than fresh food.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "FALSE"
+            },
+            {
+              "id": "cam20_t3_r_q13",
+              "type": "tfng",
+              "question": "The frozen food industry now relies on global supply chains.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            }
+          ]
+        },
+        {
+          "id": "cam20_t3_p2",
+          "title": "Can the Planet's Coral Reefs Be Saved?",
+          "text": "Coral reefs are among the most biodiverse and productive ecosystems on Earth, supporting an estimated 25 percent of all marine species despite covering less than one percent of the ocean floor. They provide food, coastal protection, and livelihoods for hundreds of millions of people worldwide. However, coral reefs are facing an existential crisis driven primarily by climate change. Rising sea temperatures cause mass coral bleaching events, in which corals expel the symbiotic algae (zooxanthellae) living in their tissues, turning white and becoming vulnerable to disease and death. Ocean acidification, caused by increased carbon dioxide absorption, further weakens coral skeletons and impairs growth.\n\nThe scale of the problem is staggering. Scientists estimate that half of the world's coral reefs have already been lost, and without urgent action, up to 90 percent could be gone by mid-century. Local stressors compound the global threats: pollution from agricultural runoff and coastal development, overfishing that disrupts reef ecosystems, and physical damage from tourism and boat anchors all contribute to reef degradation. The loss of coral reefs would have devastating consequences for marine biodiversity, fisheries, coastal communities, and economies that depend on reef tourism.\n\nIn response, scientists and conservation organisations are pursuing a range of interventions. Researchers are working to identify and propagate coral strains that show natural resistance to heat and bleaching, with the aim of restoring degraded reefs with hardier stock. Assisted gene flow and selective breeding programmes seek to enhance the resilience of coral populations. New techniques for speeding up coral reproduction, including larval propagation and microfragmentation, are being developed and tested. Marine protected areas, improved water quality management, and sustainable fishing practices all contribute to reef conservation. Ultimately, however, most experts agree that the long-term survival of coral reefs depends on rapid and substantial reductions in global carbon emissions.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam20_t3_r_q14",
+              "type": "matching_headings",
+              "question": "Section A",
+              "options": [
+                "i. A common interest in survival",
+                "ii. Cooperation beneath the waves",
+                "iii. Working to lessen the problems",
+                "iv. Disagreement about accuracy of a phrase",
+                "v. Two clear educational goals",
+                "vi. Promoting hope",
+                "vii. A warning of further trouble ahead"
+              ],
+              "correctAnswer": "v"
+            },
+            {
+              "id": "cam20_t3_r_q15",
+              "type": "matching_headings",
+              "question": "Section B",
+              "options": [
+                "i. A common interest in survival",
+                "ii. Cooperation beneath the waves",
+                "iii. Working to lessen the problems",
+                "iv. Disagreement about accuracy of a phrase",
+                "v. Two clear educational goals",
+                "vi. Promoting hope",
+                "vii. A warning of further trouble ahead"
+              ],
+              "correctAnswer": "ii"
+            },
+            {
+              "id": "cam20_t3_r_q16",
+              "type": "matching_headings",
+              "question": "Section C",
+              "options": [
+                "i. A common interest in survival",
+                "ii. Cooperation beneath the waves",
+                "iii. Working to lessen the problems",
+                "iv. Disagreement about accuracy of a phrase",
+                "v. Two clear educational goals",
+                "vi. Promoting hope",
+                "vii. A warning of further trouble ahead"
+              ],
+              "correctAnswer": "iv"
+            },
+            {
+              "id": "cam20_t3_r_q17",
+              "type": "matching_headings",
+              "question": "Section D",
+              "options": [
+                "i. A common interest in survival",
+                "ii. Cooperation beneath the waves",
+                "iii. Working to lessen the problems",
+                "iv. Disagreement about accuracy of a phrase",
+                "v. Two clear educational goals",
+                "vi. Promoting hope",
+                "vii. A warning of further trouble ahead"
+              ],
+              "correctAnswer": "vii"
+            },
+            {
+              "id": "cam20_t3_r_q18",
+              "type": "matching_headings",
+              "question": "Section E",
+              "options": [
+                "i. A common interest in survival",
+                "ii. Cooperation beneath the waves",
+                "iii. Working to lessen the problems",
+                "iv. Disagreement about accuracy of a phrase",
+                "v. Two clear educational goals",
+                "vi. Promoting hope",
+                "vii. A warning of further trouble ahead"
+              ],
+              "correctAnswer": "iii"
+            },
+            {
+              "id": "cam20_t3_r_q19",
+              "type": "matching_headings",
+              "question": "Section F",
+              "options": [
+                "i. A common interest in survival",
+                "ii. Cooperation beneath the waves",
+                "iii. Working to lessen the problems",
+                "iv. Disagreement about accuracy of a phrase",
+                "v. Two clear educational goals",
+                "vi. Promoting hope",
+                "vii. A warning of further trouble ahead"
+              ],
+              "correctAnswer": "vi"
+            },
+            {
+              "id": "cam20_t3_r_q20",
+              "type": "matching_info",
+              "question": "contamination of the sea from waste",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam20_t3_r_q21",
+              "type": "matching_info",
+              "question": "alterations in the usual flow of water in the seas",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam20_t3_r_q22",
+              "type": "matching_info",
+              "question": "identify corals that can cope with changed conditions",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam20_t3_r_q23",
+              "type": "matching_info",
+              "question": "trying methods to speed up reproduction",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam20_t3_r_q24",
+              "type": "notes_completion",
+              "question": "Coral polyps have stinging 24. _____ that they use to capture food.",
+              "options": [],
+              "correctAnswer": "tentacles"
+            },
+            {
+              "id": "cam20_t3_r_q25",
+              "type": "notes_completion",
+              "question": "The algae living in coral tissues provide them with 25. _____",
+              "options": [],
+              "correctAnswer": "protection"
+            },
+            {
+              "id": "cam20_t3_r_q26",
+              "type": "notes_completion",
+              "question": "When corals bleach, they lose their 26. _____",
+              "options": [],
+              "correctAnswer": "colour"
+            }
+          ]
+        },
+        {
+          "id": "cam20_t3_p3",
+          "title": "Robots and Us",
+          "text": "The accelerating pace of advances in artificial intelligence and robotics has raised profound questions about the future relationship between humans and machines. Different experts bring sharply different perspectives to these questions. The astronomer and cosmologist Martin Rees has written extensively about the long-term trajectory of intelligence, both biological and electronic. He argues that machine intelligence is likely to surpass human capabilities in many domains within decades, and that this development could be as transformative as the emergence of life itself. Rees warns that we need to think carefully about the risks as well as the opportunities presented by advanced AI.\n\nKathleen Richardson, a professor of ethics and culture of robots and AI, brings a different perspective. She has raised ethical concerns about the development of robots designed for companionship and care, arguing that these technologies risk dehumanising relationships and may reflect troubling attitudes about human connection. Richardson suggests that the drive to create artificial companions may stem from a desire to control relationships rather than engage with the unpredictability and messiness of genuine human interaction. Her work highlights the social and ethical dimensions of robotics that are often overlooked in purely technical discussions.\n\nDaniel Wolpert, a neuroscientist, offers yet another viewpoint. He argues that the brain's primary purpose is to produce complex, adaptive movement, and that understanding how the human brain controls movement is essential to building truly intelligent and capable robots. Wolpert's research on motor control and the cerebellum suggests that many of the challenges in robotics — particularly those involving dexterity, balance, and interaction with the physical world — will only be solved by understanding the neural mechanisms that enable biological movement. Together, these diverse perspectives illustrate the complex interplay between technological capability, ethical consideration, and scientific understanding that will shape the future of humans and robots.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam20_t3_r_q27",
+              "type": "matching_names",
+              "question": "believes machine intelligence will eventually overpower human intelligence",
+              "options": [
+                "A. Martin Rees",
+                "B. Daniel Wolpert",
+                "C. Kathleen Richardson"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam20_t3_r_q28",
+              "type": "matching_names",
+              "question": "claims that human-like robots may cause people to treat each other less well",
+              "options": [
+                "A. Martin Rees",
+                "B. Daniel Wolpert",
+                "C. Kathleen Richardson"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam20_t3_r_q29",
+              "type": "matching_names",
+              "question": "argues that the main role of the brain is to enable us to move",
+              "options": [
+                "A. Martin Rees",
+                "B. Daniel Wolpert",
+                "C. Kathleen Richardson"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam20_t3_r_q30",
+              "type": "matching_names",
+              "question": "believes we must consider both the benefits and dangers of AI",
+              "options": [
+                "A. Martin Rees",
+                "B. Daniel Wolpert",
+                "C. Kathleen Richardson"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam20_t3_r_q31",
+              "type": "matching_names",
+              "question": "states that understanding how the brain controls movement can help improve robot design",
+              "options": [
+                "A. Martin Rees",
+                "B. Daniel Wolpert",
+                "C. Kathleen Richardson"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam20_t3_r_q32",
+              "type": "matching_names",
+              "question": "says machine intelligence could be as momentous as the origin of life",
+              "options": [
+                "A. Martin Rees",
+                "B. Daniel Wolpert",
+                "C. Kathleen Richardson"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam20_t3_r_q33",
+              "type": "matching_names",
+              "question": "suggests that the desire to create companions reflects a desire for control",
+              "options": [
+                "A. Martin Rees",
+                "B. Daniel Wolpert",
+                "C. Kathleen Richardson"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam20_t3_r_q34",
+              "type": "matching_info",
+              "question": "changes made to other planets for our own benefit",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam20_t3_r_q35",
+              "type": "matching_info",
+              "question": "advances made in machine intelligence so far",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam20_t3_r_q36",
+              "type": "matching_info",
+              "question": "the harm already done by artificial intelligence",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam20_t3_r_q37",
+              "type": "multiple_choice",
+              "question": "What does Martin Rees say about the future of machine intelligence?",
+              "options": [
+                "A. It will not happen in our lifetime.",
+                "B. It could be the most important event in human history.",
+                "C. It will mainly benefit wealthy countries.",
+                "D. It poses a greater risk than climate change."
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam20_t3_r_q38",
+              "type": "multiple_choice",
+              "question": "What is Kathleen Richardson's main concern about companion robots?",
+              "options": [
+                "A. They are too expensive for most people.",
+                "B. They may replace human relationships.",
+                "C. They could make people less able to relate to others.",
+                "D. They are not sophisticated enough to be useful."
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam20_t3_r_q39",
+              "type": "multiple_choice",
+              "question": "According to Daniel Wolpert, what is the main purpose of the brain?",
+              "options": [
+                "A. To process sensory information.",
+                "B. To generate complex movement.",
+                "C. To enable conscious thought.",
+                "D. To store and retrieve memories."
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam20_t3_r_q40",
+              "type": "multiple_choice",
+              "question": "What is the main point the writer makes in the passage?",
+              "options": [
+                "A. Robots will eventually replace humans in most jobs.",
+                "B. The development of AI should be restricted.",
+                "C. Different experts hold contrasting views on the future of AI and robotics.",
+                "D. Humans and robots will learn to coexist peacefully."
+              ],
+              "correctAnswer": "C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cam20_test4",
+      "testNumber": 4,
+      "passages": [
+        {
+          "id": "cam20_t4_p1",
+          "title": "Georgia O'Keeffe",
+          "text": "Georgia O'Keeffe (1887-1986) was one of the most significant and influential American artists of the 20th century. Born in Wisconsin, she initially trained as a teacher before committing herself fully to a career as an artist. She studied at the Art Institute of Chicago and the Art Students League in New York, developing her skills in drawing and painting. Her early work, executed in charcoal and watercolour, demonstrated an original approach to abstraction that caught the attention of the prominent photographer and art dealer Alfred Stieglitz, who became her husband and greatest supporter.\n\nO'Keeffe is best known for her large-scale, close-up paintings of natural forms, particularly flowers, animal bones, and desert landscapes. During her time in New York, she also painted a series of works depicting skyscrapers, capturing the energy and verticality of the modern city. Later, she moved permanently to New Mexico, where she found lifelong inspiration in the dramatic desert landscape. Her paintings of bleached animal bones against vivid Southwestern skies, and her evocative representations of the region's rivers, mesas, and rock formations, became iconic images of American modernism.\n\nO'Keeffe's work is characterised by bold compositions, subtle gradations of colour, and a distinctive ability to transform ordinary natural subjects into powerful abstract forms. She rejected the labels and categories that critics and curators attempted to apply to her work, insisting on her independence as an artist. Over a career spanning more than six decades, she produced a body of work that continues to influence artists and captivate audiences worldwide. Her legacy includes not only her paintings but also her role in shaping the identity of American modern art and her enduring status as a pioneering female artist in a field dominated by men.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam20_t4_r_q1",
+              "type": "notes_completion",
+              "question": "O'Keeffe began her professional life as a 1. _____",
+              "options": [],
+              "correctAnswer": "teacher"
+            },
+            {
+              "id": "cam20_t4_r_q2",
+              "type": "notes_completion",
+              "question": "Her early work was executed primarily in 2. _____",
+              "options": [],
+              "correctAnswer": "charcoal"
+            },
+            {
+              "id": "cam20_t4_r_q3",
+              "type": "notes_completion",
+              "question": "While living in New York, she painted a series of 3. _____",
+              "options": [],
+              "correctAnswer": "skyscrapers"
+            },
+            {
+              "id": "cam20_t4_r_q4",
+              "type": "notes_completion",
+              "question": "She is best known for her large-scale paintings of 4. _____",
+              "options": [],
+              "correctAnswer": "flowers"
+            },
+            {
+              "id": "cam20_t4_r_q5",
+              "type": "notes_completion",
+              "question": "In New Mexico, she painted images of animal 5. _____",
+              "options": [],
+              "correctAnswer": "bones"
+            },
+            {
+              "id": "cam20_t4_r_q6",
+              "type": "notes_completion",
+              "question": "Her work was deeply influenced by the Southwestern 6. _____",
+              "options": [],
+              "correctAnswer": "landscape"
+            },
+            {
+              "id": "cam20_t4_r_q7",
+              "type": "notes_completion",
+              "question": "Her paintings of the region included images of 7. _____",
+              "options": [],
+              "correctAnswer": "rivers"
+            },
+            {
+              "id": "cam20_t4_r_q8",
+              "type": "tfng",
+              "question": "O'Keeffe trained as an artist before she became a teacher.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "FALSE"
+            },
+            {
+              "id": "cam20_t4_r_q9",
+              "type": "tfng",
+              "question": "Alfred Stieglitz was instrumental in promoting O'Keeffe's work.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "TRUE"
+            },
+            {
+              "id": "cam20_t4_r_q10",
+              "type": "tfng",
+              "question": "O'Keeffe's flower paintings were her most commercially successful works.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "FALSE"
+            },
+            {
+              "id": "cam20_t4_r_q11",
+              "type": "tfng",
+              "question": "O'Keeffe deliberately avoided being classified by artistic movements.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "TRUE"
+            },
+            {
+              "id": "cam20_t4_r_q12",
+              "type": "tfng",
+              "question": "O'Keeffe's work was initially more popular in Europe than in the United States.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            },
+            {
+              "id": "cam20_t4_r_q13",
+              "type": "tfng",
+              "question": "O'Keeffe stopped painting in the final years of her life.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            }
+          ]
+        },
+        {
+          "id": "cam20_t4_p2",
+          "title": "Adapting to the Effects of Climate Change",
+          "text": "As the impacts of climate change become increasingly visible and severe, communities around the world are being forced to adapt. Rising sea levels threaten coastal cities and low-lying islands; more frequent and intense extreme weather events — including hurricanes, floods, droughts, and heatwaves — are straining infrastructure and endangering lives; and shifts in temperature and precipitation patterns are disrupting agriculture and natural ecosystems. Adaptation has therefore become a central pillar of climate policy, alongside efforts to reduce greenhouse gas emissions.\n\nThe specific adaptation measures required vary greatly depending on local conditions. In coastal areas, cities are building sea walls, improving drainage systems with powerful pumps, and constructing dams and barriers to protect against storm surges. Some communities are experimenting with floating homes and buildings that can rise with floodwaters. In agriculture, researchers are developing crop varieties and tree species that are more resistant to drought, heat, and salt. Urban planners are redesigning cities with more green spaces, permeable surfaces, and improved water management systems to cope with heavier rainfall and higher temperatures.\n\nThe question of who bears responsibility for funding and implementing adaptation measures remains contentious. Some argue that governments must take the lead, given the scale of investment required. Others point to the role of international bodies in supporting vulnerable developing nations that have contributed least to climate change but face its worst effects. Individuals and businesses are also taking action, from retrofitting buildings to changing land management practices. The challenge is immense and the costs are high, but the alternative — failing to adapt — would be far more costly in both human and economic terms.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam20_t4_r_q14",
+              "type": "matching_info",
+              "question": "how the effects of climate change are becoming more intense",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam20_t4_r_q15",
+              "type": "matching_info",
+              "question": "the need to balance adaptation with emission reduction",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam20_t4_r_q16",
+              "type": "matching_info",
+              "question": "examples of different adaptation methods used in different parts of the world",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam20_t4_r_q17",
+              "type": "matching_info",
+              "question": "a description of specific urban adaptation strategies",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam20_t4_r_q18",
+              "type": "notes_completion",
+              "question": "In coastal cities, 18. _____ are being installed to improve drainage.",
+              "options": [],
+              "correctAnswer": "pumps"
+            },
+            {
+              "id": "cam20_t4_r_q19",
+              "type": "notes_completion",
+              "question": "Some regions are building 19. _____ to manage water resources.",
+              "options": [],
+              "correctAnswer": "dams"
+            },
+            {
+              "id": "cam20_t4_r_q20",
+              "type": "notes_completion",
+              "question": "New homes designed to 20. _____ on water are being developed.",
+              "options": [],
+              "correctAnswer": "float"
+            },
+            {
+              "id": "cam20_t4_r_q21",
+              "type": "notes_completion",
+              "question": "Drought-resistant 21. _____ are being developed for agriculture.",
+              "options": [],
+              "correctAnswer": "crops"
+            },
+            {
+              "id": "cam20_t4_r_q22",
+              "type": "notes_completion",
+              "question": "Flood-resistant 22. _____ are also being planted.",
+              "options": [],
+              "correctAnswer": "trees"
+            },
+            {
+              "id": "cam20_t4_r_q23",
+              "type": "matching_names",
+              "question": "says we need to rethink how we build homes in flood-prone areas",
+              "options": [
+                "A. Yanira Pineda",
+                "B. Susanna Tol",
+                "C. Elizabeth English",
+                "D",
+                "E. Greg Spotts"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam20_t4_r_q24",
+              "type": "matching_names",
+              "question": "believes cities need to invest more in green infrastructure",
+              "options": [
+                "A. Yanira Pineda",
+                "B. Susanna Tol",
+                "C. Elizabeth English",
+                "D",
+                "E. Greg Spotts"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam20_t4_r_q25",
+              "type": "matching_names",
+              "question": "argues that adaptation should focus on protecting the most vulnerable communities",
+              "options": [
+                "A. Yanira Pineda",
+                "B. Susanna Tol",
+                "C. Elizabeth English",
+                "D",
+                "E. Greg Spotts"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam20_t4_r_q26",
+              "type": "matching_names",
+              "question": "emphasises the need for international funding for adaptation",
+              "options": [
+                "A. Yanira Pineda",
+                "B. Susanna Tol",
+                "C. Elizabeth English",
+                "D",
+                "E. Greg Spotts"
+              ],
+              "correctAnswer": "C"
+            }
+          ]
+        },
+        {
+          "id": "cam20_t4_p3",
+          "title": "Livestock Guard Dogs (A New Role for Livestock Guard Dogs)",
+          "text": "Livestock guard dogs have been used for centuries to protect sheep, goats, and other herd animals from predators. Traditionally, these dogs were employed to defend against large carnivores such as wolves, bears, and coyotes. Breeds such as the Great Pyrenees, Anatolian Shepherd, and Maremma Sheepdog have been developed specifically for this purpose, possessing the size, strength, and territorial instincts needed to deter predators. These dogs live among the livestock, forming bonds with the animals they protect and using barking, posturing, and physical intervention to drive away threats.\n\nRecent research has expanded our understanding of what livestock guard dogs can achieve. Studies have shown that their presence does not simply protect livestock from large predators but also deters a wider range of smaller predators and scavengers including jackals and foxes. This has important ecological implications: by reducing the need for lethal predator control methods such as trapping and poisoning, guard dogs can contribute to the conservation of biodiversity. The dogs' constant presence and territorial behaviour create a zone of protection around livestock that also benefits other wildlife sharing the same landscape.\n\nHowever, the integration of guard dogs into farming systems requires careful management. Not all dogs are suited to the work; breed selection, early training, and the quality of the bond formed with the livestock are critical factors influencing success. There are also risks that need to be managed: guard dogs may themselves pose a threat to native wildlife if not properly trained and supervised, and their welfare must be ensured through appropriate veterinary care and working conditions. Nevertheless, for many farmers and conservationists, the use of livestock guard dogs represents a practical and ecologically sound alternative to conventional predator management.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam20_t4_r_q27",
+              "type": "matching_info",
+              "question": "why some guard dogs may pose a risk to wildlife",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam20_t4_r_q28",
+              "type": "matching_info",
+              "question": "the type of training guard dogs need",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "G"
+            },
+            {
+              "id": "cam20_t4_r_q29",
+              "type": "matching_info",
+              "question": "the fact that guard dogs also protect against smaller predators",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam20_t4_r_q30",
+              "type": "matching_info",
+              "question": "a comparison between modern and traditional uses of guard dogs",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam20_t4_r_q31",
+              "type": "matching_info",
+              "question": "the importance of the bond between the dog and the livestock",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam20_t4_r_q32",
+              "type": "matching_info",
+              "question": "the role of barking in the guard dog's behaviour",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam20_t4_r_q33",
+              "type": "matching_names",
+              "question": "warned that self-reported results from farmers should be treated with caution",
+              "options": [
+                "A. Dan Macon",
+                "B. Silvia Ribeiro",
+                "C. Linda van Bommel",
+                "D. Julie Young",
+                "E. Bethany Smith"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam20_t4_r_q34",
+              "type": "matching_names",
+              "question": "pointed out the risk that if guard dogs are not used by all farmers, predators may target unprotected neighbours",
+              "options": [
+                "A. Dan Macon",
+                "B. Silvia Ribeiro",
+                "C. Linda van Bommel",
+                "D. Julie Young",
+                "E. Bethany Smith"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam20_t4_r_q35",
+              "type": "matching_names",
+              "question": "claimed that when properly managed, livestock guard dogs are the most effective control method available",
+              "options": [
+                "A. Dan Macon",
+                "B. Silvia Ribeiro",
+                "C. Linda van Bommel",
+                "D. Julie Young",
+                "E. Bethany Smith"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam20_t4_r_q36",
+              "type": "matching_names",
+              "question": "noted that too much human affection can interfere with a guard dog's working ability",
+              "options": [
+                "A. Dan Macon",
+                "B. Silvia Ribeiro",
+                "C. Linda van Bommel",
+                "D. Julie Young",
+                "E. Bethany Smith"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam20_t4_r_q37",
+              "type": "notes_completion",
+              "question": "Guard dogs protect livestock from predators such as wolves, coyotes and 37. _____",
+              "options": [],
+              "correctAnswer": "jackals"
+            },
+            {
+              "id": "cam20_t4_r_q38",
+              "type": "notes_completion",
+              "question": "Their presence can reduce the spread of 38. _____ among livestock.",
+              "options": [],
+              "correctAnswer": "diseases"
+            },
+            {
+              "id": "cam20_t4_r_q39",
+              "type": "notes_completion",
+              "question": "The dogs help ensure a more reliable supply of 39. _____",
+              "options": [],
+              "correctAnswer": "food"
+            },
+            {
+              "id": "cam20_t4_r_q40",
+              "type": "notes_completion",
+              "question": "They have also been shown to deter 40. _____ from the area.",
+              "options": [],
+              "correctAnswer": "foxes"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

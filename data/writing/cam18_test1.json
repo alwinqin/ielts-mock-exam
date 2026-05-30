@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Table: International Students in Four English-speaking Countries",
+    "prompt": "The table below shows the number of international students from different regions studying in four English-speaking countries.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "wordLimit": 150,
+    "modelAnswer": ""
+  },
+  "task2": {
+    "title": "Opinion: The Most Important Aim of Science",
+    "prompt": "The most important aim of science should be to improve people's lives.\n\nTo what extent do you agree or disagree with this statement?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordLimit": 250,
+    "modelAnswer": ""
+  },
+  "id": "cam18_test1"
+}

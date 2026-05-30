@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Process Diagram: Making Bamboo Fabric",
+    "prompt": "The diagram below shows the process of making bamboo fabric from the bamboo plant.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "wordLimit": 150,
+    "modelAnswer": ""
+  },
+  "task2": {
+    "title": "Opinion: Global Fashion Trends - Positive or Negative?",
+    "prompt": "In many parts of the world, people wear similar clothes and follow the same global fashion trends.\n\nDo you think this is a positive or a negative development?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordLimit": 250,
+    "modelAnswer": ""
+  },
+  "id": "cam20_test4"
+}

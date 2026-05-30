@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "Do you work or are you a student?",
+      "followUp": "What subjects do/did you study?"
+    },
+    {
+      "question": "What do you find most challenging about your work or studies?",
+      "followUp": "How do you usually overcome difficult tasks?"
+    },
+    {
+      "question": "Do you set goals for yourself?",
+      "followUp": "How do you keep yourself motivated?"
+    },
+    {
+      "question": "Have you ever had to work as part of a team?",
+      "followUp": "What makes a team successful?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a very difficult task that you succeeded in doing as part of your work or studies.",
+    "bulletPoints": [
+      "what the task was",
+      "why it was difficult",
+      "how you completed it",
+      "and explain how you felt when you had successfully completed the task"
+    ],
+    "followUpQuestions": [
+      "Do you think difficult tasks are good for people's development?",
+      "How do employers or teachers help people deal with challenging tasks?",
+      "Is it better to work on difficult tasks alone or in a team?",
+      "What skills are most important for overcoming challenges?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam14_test3"
+}

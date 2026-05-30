@@ -97,10 +97,18 @@ function renderReviewQuestions(allQuestions) {
     // Determine question type label
     const typeLabels = {
       'multiple_choice': 'Multiple Choice',
+      'multiple_choice_multi': 'Multiple Choice (Multi)',
       'tfng': 'True/False/Not Given',
+      'ynng': 'YES/NO/NOT GIVEN',
       'matching_headings': 'Matching Headings',
+      'matching_info': 'Matching Information',
+      'matching_sentence': 'Matching Sentence Endings',
+      'matching_names': 'Matching Names',
+      'matching': 'Matching',
       'sentence_completion': 'Sentence Completion',
       'summary_completion': 'Summary Completion',
+      'notes_completion': 'Notes Completion',
+      'form_completion': 'Form Completion',
       'short_answer': 'Short Answer'
     };
 

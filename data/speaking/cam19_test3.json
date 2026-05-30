@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "Do you like taking photographs?",
+      "followUp": "What do you usually take photos of?"
+    },
+    {
+      "question": "Do you prefer taking photos with a phone or a camera?",
+      "followUp": "What do you do with the photos you take?"
+    },
+    {
+      "question": "How important are photographs in preserving memories?",
+      "followUp": "Do you like looking at old photographs?"
+    },
+    {
+      "question": "Has social media changed the way people take photos?",
+      "followUp": "Do you share your photos online?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a photograph that you really like.",
+    "bulletPoints": [
+      "what the photograph shows",
+      "when and where it was taken",
+      "who took the photograph",
+      "and explain why you like this photograph so much"
+    ],
+    "followUpQuestions": [
+      "Why do people enjoy looking at photographs?",
+      "How has digital photography changed the way we record our lives?",
+      "Do you think professional photography is still important?",
+      "Should photography be taught as an art form in schools?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam19_test3"
+}

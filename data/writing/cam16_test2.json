@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Map: Changes to a Factory Site (Present vs Proposed Redevelopment)",
+    "prompt": "The map below shows a factory site and a proposed plan for its redevelopment for housing.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "wordLimit": 150,
+    "modelAnswer": ""
+  },
+  "task2": {
+    "title": "Opinion: Advertising New Products - Reasons and Effects",
+    "prompt": "In their advertising, businesses nowadays usually emphasise that their products are new in some way.\n\nWhy is this? Do you think it is a positive or negative development?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordLimit": 250,
+    "modelAnswer": ""
+  },
+  "id": "cam16_test2"
+}

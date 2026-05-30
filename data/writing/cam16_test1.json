@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Line Graph: Electronic Appliances Ownership (1920-2019)",
+    "prompt": "The charts below show the changes in ownership of electrical appliances and the amount of time spent doing housework in households in one country between 1920 and 2019.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "wordLimit": 150,
+    "modelAnswer": ""
+  },
+  "task2": {
+    "title": "Opinion: History of One's Own House - Reasons and Research Methods",
+    "prompt": "In some countries, more and more people are becoming interested in finding out about the history of the house or building they live in.\n\nWhat are the reasons for this? How can people research this?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordLimit": 250,
+    "modelAnswer": ""
+  },
+  "id": "cam16_test1"
+}

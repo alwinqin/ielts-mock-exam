@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "Do you work or are you a student?",
+      "followUp": "What do you enjoy most about your work or studies?"
+    },
+    {
+      "question": "What kind of books do you like to read?",
+      "followUp": "Do you prefer reading physical books or e-books?"
+    },
+    {
+      "question": "How often do you read for pleasure?",
+      "followUp": "Has your reading habit changed over the years?"
+    },
+    {
+      "question": "Did you enjoy reading when you were a child?",
+      "followUp": "What was your favourite book as a child?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a book that you enjoyed reading because you had to think a lot.",
+    "bulletPoints": [
+      "what the book was",
+      "why you decided to read it",
+      "what it was about",
+      "and explain why you enjoyed reading it because you had to think a lot"
+    ],
+    "followUpQuestions": [
+      "Do you think reading is still important in the digital age?",
+      "What kinds of books are most popular in your country?",
+      "How do you think reading habits will change in the future?",
+      "Is it better to read for information or for pleasure?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam14_test1"
+}

@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Line Graph: Urban and Rural Population Trends (1950-2050)",
+    "prompt": "The graph below shows the percentage of the population living in urban and rural areas worldwide from 1950 to 2050.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "wordLimit": 150,
+    "modelAnswer": ""
+  },
+  "task2": {
+    "title": "Opinion: Prepared Food and Home Cooking",
+    "prompt": "In many countries, people are buying more and more prepared food and cooking at home less often.\n\nWhy do you think this is happening? Do you think the advantages of this trend outweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordLimit": 250,
+    "modelAnswer": ""
+  },
+  "id": "cam18_test4"
+}

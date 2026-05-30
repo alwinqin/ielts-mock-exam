@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "Do you like your home?",
+      "followUp": "What is your favourite room in your home?"
+    },
+    {
+      "question": "What kind of housing do you live in?",
+      "followUp": "Would you prefer to live in a house or an apartment?"
+    },
+    {
+      "question": "Do you enjoy shopping?",
+      "followUp": "What do you usually buy when you go shopping?"
+    },
+    {
+      "question": "Have you ever bought something for your home online?",
+      "followUp": "Do you prefer shopping online or in physical stores?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe something you liked very much which you bought for your home.",
+    "bulletPoints": [
+      "what you bought",
+      "where you bought it from",
+      "why you chose this particular thing",
+      "and explain why you liked it so much"
+    ],
+    "followUpQuestions": [
+      "Why do people like to decorate their homes?",
+      "How has home decoration changed in your country over the years?",
+      "Do you think people spend too much money on things for their home?",
+      "Is the design of a home more important than its functionality?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam14_test2"
+}

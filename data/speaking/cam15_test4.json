@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "Do you enjoy watching TV?",
+      "followUp": "What kinds of TV programs do you like?"
+    },
+    {
+      "question": "How much time do you spend watching TV?",
+      "followUp": "Do you prefer watching TV alone or with others?"
+    },
+    {
+      "question": "Are there any science programs you find interesting?",
+      "followUp": "How do TV programs help people learn about science?"
+    },
+    {
+      "question": "Has the way you watch TV changed in recent years?",
+      "followUp": "Do you use streaming services or traditional TV?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe an interesting TV programme you watched about a science topic.",
+    "bulletPoints": [
+      "what the programme was about",
+      "when you watched it",
+      "why you decided to watch it",
+      "and explain why you found it interesting"
+    ],
+    "followUpQuestions": [
+      "Why do you think science programmes are popular?",
+      "Should schools use TV programmes to teach science?",
+      "How has television changed the way people learn about science?",
+      "Do you think people trust the science presented on TV?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam15_test4"
+}

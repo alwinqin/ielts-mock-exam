@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Bar Chart: Car Ownership by Household in a European Country",
+    "prompt": "The chart below shows changes in car ownership by households in one European country between 1971 and 2001.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "wordLimit": 150,
+    "modelAnswer": ""
+  },
+  "task2": {
+    "title": "Opinion: Children Should Try Hard to Achieve Success",
+    "prompt": "In some cultures, children are often told that they can achieve anything if they try hard enough.\n\nWhat are the advantages and disadvantages of giving children this message?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordLimit": 250,
+    "modelAnswer": ""
+  },
+  "id": "cam15_test1"
+}

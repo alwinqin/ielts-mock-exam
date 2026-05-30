@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "Do you like animals?",
+      "followUp": "Did you have any pets when you were growing up?"
+    },
+    {
+      "question": "What is your favourite animal?",
+      "followUp": "Have you ever been to a zoo or wildlife park?"
+    },
+    {
+      "question": "How important is it to protect endangered species?",
+      "followUp": "What can people do to help protect animals?"
+    },
+    {
+      "question": "Are there any animals that are special in your culture?",
+      "followUp": "How do people in your country feel about keeping pets?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe an animal that you find interesting.",
+    "bulletPoints": [
+      "what animal it is",
+      "where it lives",
+      "what you know about its behaviour",
+      "and explain why you find this animal interesting"
+    ],
+    "followUpQuestions": [
+      "How important are zoos in protecting animals?",
+      "Should wild animals be kept as pets?",
+      "How has human activity affected wildlife?",
+      "What can be done to protect endangered species more effectively?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam20_test4"
+}

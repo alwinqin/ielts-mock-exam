@@ -131,13 +131,22 @@ function renderQuestionInput(q, qid, userAnswer) {
   switch (q.type) {
     case 'multiple_choice':
       return renderRadioOptions(q, qid, userAnswer);
+    case 'multiple_choice_multi':
+      return renderCheckboxOptions(q, qid, userAnswer);
     case 'tfng':
       return renderRadioOptions(q, qid, userAnswer, ['True', 'False', 'Not Given']);
+    case 'ynng':
+      return renderRadioOptions(q, qid, userAnswer, ['YES', 'NO', 'NOT GIVEN']);
     case 'matching_headings':
+    case 'matching_info':
+    case 'matching_sentence':
+    case 'matching_names':
+    case 'matching':
       return renderMatchingHeadings(q, qid, userAnswer);
     case 'sentence_completion':
-      return renderCompletion(q, qid, userAnswer);
     case 'summary_completion':
+    case 'notes_completion':
+    case 'form_completion':
       return renderCompletion(q, qid, userAnswer);
     case 'short_answer':
       return renderTextInput(q, qid, userAnswer);
@@ -172,6 +181,53 @@ function renderMatchingHeadings(q, qid, userAnswer) {
   });
   html += '</select></div>';
   return html;
+}
+
+function renderCheckboxOptions(q, qid, userAnswer) {
+  const selected = (userAnswer || '').split(',').map(s => s.trim()).filter(Boolean);
+  let html = '<div class="options">';
+  (q.options || []).forEach(opt => {
+    const checked = selected.includes(opt);
+    html += `
+      <label class="option-label checkbox-label ${checked ? 'selected' : ''}">
+        <input type="checkbox" name="q_${escapeHtml(qid)}" value="${escapeHtml(opt)}" ${checked ? 'checked' : ''} onchange="saveCheckboxAnswer('${escapeHtml(qid)}')">
+        ${escapeHtml(opt)}
+      </label>
+    `;
+  });
+  html += '</div>';
+  return html;
+}
+
+function saveCheckboxAnswer(qid) {
+  const checked = [];
+  document.querySelectorAll(`input[name="q_${qid}"]:checked`).forEach(cb => {
+    checked.push(cb.value);
+  });
+  const value = checked.join(', ');
+  if (value) {
+    currentAnswers[qid] = value;
+  } else {
+    delete currentAnswers[qid];
+  }
+  saveAnswers(currentTestData.id, currentAnswers);
+
+  const questionItem = document.getElementById(`q-${qid}`);
+  if (questionItem) {
+    if (value) {
+      questionItem.classList.add('answered');
+    } else {
+      questionItem.classList.remove('answered');
+    }
+  }
+
+  document.querySelectorAll(`#q-${qid} .checkbox-label`).forEach(l => {
+    const cb = l.querySelector('input[type="checkbox"]');
+    l.classList.toggle('selected', cb && cb.checked);
+  });
+
+  updateProgress();
+  renderQuestionNav();
 }
 
 function renderCompletion(q, qid, userAnswer) {
@@ -319,7 +375,14 @@ function submitExam() {
   allQuestions.forEach(q => {
     const userAns = (answers[q.id] || '').trim().toLowerCase();
     const correctAns = (q.correctAnswer || '').trim().toLowerCase();
-    const isCorrect = userAns === correctAns;
+    let isCorrect;
+    if (q.type === 'multiple_choice_multi') {
+      const userParts = userAns.split(',').map(s => s.trim()).filter(Boolean).sort();
+      const correctParts = correctAns.split(',').map(s => s.trim()).filter(Boolean).sort();
+      isCorrect = userParts.length === correctParts.length && userParts.every((v, i) => v === correctParts[i]);
+    } else {
+      isCorrect = userAns === correctAns;
+    }
     if (isCorrect) correct++;
     results[q.id] = isCorrect;
   });
@@ -341,7 +404,14 @@ function submitExam() {
   allQuestions.forEach((q, idx) => {
     const userAns = (answers[q.id] || '').trim();
     const correctAns = (q.correctAnswer || '').trim().toLowerCase();
-    const isCorrect = userAns.trim().toLowerCase() === correctAns;
+    let isCorrect;
+    if (q.type === 'multiple_choice_multi') {
+      const userParts = userAns.toLowerCase().split(',').map(s => s.trim()).filter(Boolean).sort();
+      const correctParts = correctAns.split(',').map(s => s.trim()).filter(Boolean).sort();
+      isCorrect = userParts.length === correctParts.length && userParts.every((v, i) => v === correctParts[i]);
+    } else {
+      isCorrect = userAns.trim().toLowerCase() === correctAns;
+    }
     if (!isCorrect) {
       wrongAnswers.push({
         testId: testData.id,

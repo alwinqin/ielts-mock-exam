@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "How often do you read reviews before buying something?",
+      "followUp": "What kind of reviews do you usually read?"
+    },
+    {
+      "question": "Do you write reviews yourself?",
+      "followUp": "What motivates people to write reviews?"
+    },
+    {
+      "question": "How do you decide whether a product is good?",
+      "followUp": "Do you trust online reviews?"
+    },
+    {
+      "question": "Have you ever been disappointed by a product with good reviews?",
+      "followUp": "How do you deal with a disappointing purchase?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a review you read about a product or service.",
+    "bulletPoints": [
+      "what the product or service was",
+      "where you read the review",
+      "what the review said",
+      "and explain whether the review influenced your decision"
+    ],
+    "followUpQuestions": [
+      "Why are online reviews so popular?",
+      "Do you think companies should respond to negative reviews?",
+      "How reliable are online reviews in your opinion?",
+      "What impact do reviews have on businesses?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam16_test2"
+}

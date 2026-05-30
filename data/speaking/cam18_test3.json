@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "Do you like watching films?",
+      "followUp": "What kind of films do you prefer?"
+    },
+    {
+      "question": "How often do you go to the cinema?",
+      "followUp": "Do you prefer watching films at home or in a cinema?"
+    },
+    {
+      "question": "Do you have a favourite actor or director?",
+      "followUp": "What makes a film great in your opinion?"
+    },
+    {
+      "question": "Are foreign films popular in your country?",
+      "followUp": "Do you enjoy films from other cultures?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a film that left a strong impression on you.",
+    "bulletPoints": [
+      "what film it was",
+      "when and where you watched it",
+      "what the film was about",
+      "and explain why it left such a strong impression on you"
+    ],
+    "followUpQuestions": [
+      "How do films influence society?",
+      "Do you think the film industry will survive the rise of streaming services?",
+      "Should films be used to educate people about social issues?",
+      "How has film-making technology changed the viewing experience?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam18_test3"
+}

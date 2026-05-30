@@ -1,0 +1,1795 @@
+{
+  "id": "cam14",
+  "title": "Cambridge IELTS 14 Academic Listening",
+  "tests": [
+    {
+      "id": "cam14_listening_test1",
+      "testNumber": 1,
+      "parts": [
+        {
+          "id": "cam14_lt1_p1",
+          "title": "Crime Report Form",
+          "audioFile": "cam14_test1_part1.mp3",
+          "subtitle": "",
+          "duration": "",
+          "questions": [
+            {
+              "id": "cam14_lt1_q1",
+              "type": "notes_completion",
+              "question": "1. Nationality: _____",
+              "options": [],
+              "correctAnswer": "Canadian"
+            },
+            {
+              "id": "cam14_lt1_q2",
+              "type": "notes_completion",
+              "question": "2. Stolen item: _____",
+              "options": [],
+              "correctAnswer": "furniture"
+            },
+            {
+              "id": "cam14_lt1_q3",
+              "type": "notes_completion",
+              "question": "3. Street name: _____ Road",
+              "options": [],
+              "correctAnswer": "Park"
+            },
+            {
+              "id": "cam14_lt1_q4",
+              "type": "notes_completion",
+              "question": "4. Value: £_____",
+              "options": [],
+              "correctAnswer": "250"
+            },
+            {
+              "id": "cam14_lt1_q5",
+              "type": "notes_completion",
+              "question": "5. Contact: _____ number",
+              "options": [],
+              "correctAnswer": "phone"
+            },
+            {
+              "id": "cam14_lt1_q6",
+              "type": "notes_completion",
+              "question": "6. Date: _____",
+              "options": [],
+              "correctAnswer": "10(th) September"
+            },
+            {
+              "id": "cam14_lt1_q7",
+              "type": "notes_completion",
+              "question": "7. Location: opposite the _____",
+              "options": [],
+              "correctAnswer": "museum"
+            },
+            {
+              "id": "cam14_lt1_q8",
+              "type": "notes_completion",
+              "question": "8. Need to confirm the _____",
+              "options": [],
+              "correctAnswer": "time"
+            },
+            {
+              "id": "cam14_lt1_q9",
+              "type": "notes_completion",
+              "question": "9. Hair colour: _____",
+              "options": [],
+              "correctAnswer": "blond(e)"
+            },
+            {
+              "id": "cam14_lt1_q10",
+              "type": "notes_completion",
+              "question": "10. Phone number: _____",
+              "options": [],
+              "correctAnswer": "87954 82361"
+            }
+          ]
+        },
+        {
+          "id": "cam14_lt1_p2",
+          "title": "Induction Talk for New Apprentices",
+          "audioFile": "cam14_test1_part2.mp3",
+          "subtitle": "",
+          "duration": "",
+          "questions": [
+            {
+              "id": "cam14_lt1_q11",
+              "type": "multiple_choice",
+              "question": "Which TWO pieces of advice does the speaker give to new apprentices?\nA. ask lots of questions\nB. get to know colleagues\nC. arrive early to work\nD. attend all training sessions\nE. follow the dress code",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam14_lt1_q12",
+              "type": "multiple_choice",
+              "question": "Which TWO pieces of advice does the speaker give to new apprentices?\nA. ask lots of questions\nB. get to know colleagues\nC. arrive early to work\nD. attend all training sessions\nE. follow the dress code",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam14_lt1_q13",
+              "type": "multiple_choice",
+              "question": "Which TWO topics does the mentor discuss regularly?\nA. health and safety\nB. reviewing progress\nC. salary expectations\nD. career plans\nE. holiday requests",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam14_lt1_q14",
+              "type": "multiple_choice",
+              "question": "Which TWO topics does the mentor discuss regularly?\nA. health and safety\nB. reviewing progress\nC. salary expectations\nD. career plans\nE. holiday requests",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam14_lt1_q15",
+              "type": "multiple_choice",
+              "question": "Using the internet: _____",
+              "options": [
+                "A. encouraged",
+                "B. some restrictions",
+                "C. against rules"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam14_lt1_q16",
+              "type": "multiple_choice",
+              "question": "Flexible working: _____",
+              "options": [
+                "A. encouraged",
+                "B. some restrictions",
+                "C. against rules"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam14_lt1_q17",
+              "type": "multiple_choice",
+              "question": "Booking holidays: _____",
+              "options": [
+                "A. encouraged",
+                "B. some restrictions",
+                "C. against rules"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam14_lt1_q18",
+              "type": "multiple_choice",
+              "question": "Working overtime: _____",
+              "options": [
+                "A. encouraged",
+                "B. some restrictions",
+                "C. against rules"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam14_lt1_q19",
+              "type": "multiple_choice",
+              "question": "Wearing trainers: _____",
+              "options": [
+                "A. encouraged",
+                "B. some restrictions",
+                "C. against rules"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam14_lt1_q20",
+              "type": "multiple_choice",
+              "question": "Bringing food: _____",
+              "options": [
+                "A. encouraged",
+                "B. some restrictions",
+                "C. against rules"
+              ],
+              "correctAnswer": "C"
+            }
+          ]
+        },
+        {
+          "id": "cam14_lt1_p3",
+          "title": "Cities Built by the Sea",
+          "audioFile": "cam14_test1_part3.mp3",
+          "subtitle": "",
+          "duration": "",
+          "questions": [
+            {
+              "id": "cam14_lt1_q21",
+              "type": "multiple_choice",
+              "question": "Question 21: Choose the correct letter.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam14_lt1_q22",
+              "type": "multiple_choice",
+              "question": "Question 22: Choose the correct letter.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam14_lt1_q23",
+              "type": "multiple_choice",
+              "question": "Question 23: Choose the correct letter.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam14_lt1_q24",
+              "type": "multiple_choice",
+              "question": "Question 24: Choose the correct letter.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam14_lt1_q25",
+              "type": "multiple_choice",
+              "question": "Question 25: Choose the correct letter.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam14_lt1_q26",
+              "type": "matching",
+              "question": "Historical background: _____",
+              "options": [
+                "A. use visuals",
+                "B. keep it short",
+                "C. involve other students",
+                "D. change the order",
+                "E. add a case study",
+                "F. focus on one example",
+                "G. do online research",
+                "H. check the statistics"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam14_lt1_q27",
+              "type": "matching",
+              "question": "Geographical factors: _____",
+              "options": [
+                "A. use visuals",
+                "B. keep it short",
+                "C. involve other students",
+                "D. change the order",
+                "E. add a case study",
+                "F. focus on one example",
+                "G. do online research",
+                "H. check the statistics"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam14_lt1_q28",
+              "type": "matching",
+              "question": "Past mistakes: _____",
+              "options": [
+                "A. use visuals",
+                "B. keep it short",
+                "C. involve other students",
+                "D. change the order",
+                "E. add a case study",
+                "F. focus on one example",
+                "G. do online research",
+                "H. check the statistics"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam14_lt1_q29",
+              "type": "matching",
+              "question": "Future risks: _____",
+              "options": [
+                "A. use visuals",
+                "B. keep it short",
+                "C. involve other students",
+                "D. change the order",
+                "E. add a case study",
+                "F. focus on one example",
+                "G. do online research",
+                "H. check the statistics"
+              ],
+              "correctAnswer": "G"
+            },
+            {
+              "id": "cam14_lt1_q30",
+              "type": "matching",
+              "question": "International implications: _____",
+              "options": [
+                "A. use visuals",
+                "B. keep it short",
+                "C. involve other students",
+                "D. change the order",
+                "E. add a case study",
+                "F. focus on one example",
+                "G. do online research",
+                "H. check the statistics"
+              ],
+              "correctAnswer": "C"
+            }
+          ]
+        },
+        {
+          "id": "cam14_lt1_p4",
+          "title": "Marine Renewable Energy",
+          "audioFile": "cam14_test1_part4.mp3",
+          "subtitle": "",
+          "duration": "",
+          "questions": [
+            {
+              "id": "cam14_lt1_q31",
+              "type": "notes_completion",
+              "question": "Question 31: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "industry"
+            },
+            {
+              "id": "cam14_lt1_q32",
+              "type": "notes_completion",
+              "question": "Question 32: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "constant"
+            },
+            {
+              "id": "cam14_lt1_q33",
+              "type": "notes_completion",
+              "question": "Question 33: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "direction"
+            },
+            {
+              "id": "cam14_lt1_q34",
+              "type": "notes_completion",
+              "question": "Question 34: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "floor"
+            },
+            {
+              "id": "cam14_lt1_q35",
+              "type": "notes_completion",
+              "question": "Question 35: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "predictable"
+            },
+            {
+              "id": "cam14_lt1_q36",
+              "type": "notes_completion",
+              "question": "Question 36: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "bay"
+            },
+            {
+              "id": "cam14_lt1_q37",
+              "type": "notes_completion",
+              "question": "Question 37: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "gates"
+            },
+            {
+              "id": "cam14_lt1_q38",
+              "type": "notes_completion",
+              "question": "Question 38: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "fuel"
+            },
+            {
+              "id": "cam14_lt1_q39",
+              "type": "notes_completion",
+              "question": "Question 39: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "jobs"
+            },
+            {
+              "id": "cam14_lt1_q40",
+              "type": "notes_completion",
+              "question": "Question 40: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "migration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cam14_listening_test2",
+      "testNumber": 2,
+      "parts": [
+        {
+          "id": "cam14_lt2_p1",
+          "title": "Total Health Clinic",
+          "audioFile": "cam14_test2_part1.mp3",
+          "subtitle": "",
+          "duration": "",
+          "questions": [
+            {
+              "id": "cam14_lt2_q1",
+              "type": "notes_completion",
+              "question": "1. Phone: _____",
+              "options": [],
+              "correctAnswer": "219 442 9785"
+            },
+            {
+              "id": "cam14_lt2_q2",
+              "type": "notes_completion",
+              "question": "2. Date: _____",
+              "options": [],
+              "correctAnswer": "10(th) October"
+            },
+            {
+              "id": "cam14_lt2_q3",
+              "type": "notes_completion",
+              "question": "3. Occupation: _____",
+              "options": [],
+              "correctAnswer": "manager"
+            },
+            {
+              "id": "cam14_lt2_q4",
+              "type": "notes_completion",
+              "question": "4. Surname: _____",
+              "options": [],
+              "correctAnswer": "Cawley"
+            },
+            {
+              "id": "cam14_lt2_q5",
+              "type": "notes_completion",
+              "question": "5. Pain location: _____",
+              "options": [],
+              "correctAnswer": "knee"
+            },
+            {
+              "id": "cam14_lt2_q6",
+              "type": "notes_completion",
+              "question": "6. Duration: _____",
+              "options": [],
+              "correctAnswer": "3 weeks"
+            },
+            {
+              "id": "cam14_lt2_q7",
+              "type": "notes_completion",
+              "question": "7. Sports: _____",
+              "options": [],
+              "correctAnswer": "tennis"
+            },
+            {
+              "id": "cam14_lt2_q8",
+              "type": "notes_completion",
+              "question": "8. Other sports: _____",
+              "options": [],
+              "correctAnswer": "running"
+            },
+            {
+              "id": "cam14_lt2_q9",
+              "type": "notes_completion",
+              "question": "9. Previous injury: _____",
+              "options": [],
+              "correctAnswer": "shoulder"
+            },
+            {
+              "id": "cam14_lt2_q10",
+              "type": "notes_completion",
+              "question": "10. Currently taking: _____",
+              "options": [],
+              "correctAnswer": "vitamins"
+            }
+          ]
+        },
+        {
+          "id": "cam14_lt2_p2",
+          "title": "Visit to Branley Castle",
+          "audioFile": "cam14_test2_part2.mp3",
+          "subtitle": "",
+          "duration": "",
+          "questions": [
+            {
+              "id": "cam14_lt2_q11",
+              "type": "multiple_choice",
+              "question": "Question 11: Choose the correct letter.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam14_lt2_q12",
+              "type": "multiple_choice",
+              "question": "Question 12: Choose the correct letter.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam14_lt2_q13",
+              "type": "multiple_choice",
+              "question": "Question 13: Choose the correct letter.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam14_lt2_q14",
+              "type": "multiple_choice",
+              "question": "Question 14: Choose the correct letter.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam14_lt2_q15",
+              "type": "multiple_choice",
+              "question": "Question 15: Choose the correct letter.",
+              "options": [
+                "A",
+                "B",
+                "C"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam14_lt2_q16",
+              "type": "matching",
+              "question": "Match the location to the letter on the map.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "correctAnswer": "H"
+            },
+            {
+              "id": "cam14_lt2_q17",
+              "type": "matching",
+              "question": "Match the location to the letter on the map.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam14_lt2_q18",
+              "type": "matching",
+              "question": "Match the location to the letter on the map.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam14_lt2_q19",
+              "type": "matching",
+              "question": "Match the location to the letter on the map.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam14_lt2_q20",
+              "type": "matching",
+              "question": "Match the location to the letter on the map.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "correctAnswer": "E"
+            }
+          ]
+        },
+        {
+          "id": "cam14_lt2_p3",
+          "title": "Woolly Mammoths on St Paul's Island",
+          "audioFile": "cam14_test2_part3.mp3",
+          "subtitle": "",
+          "duration": "",
+          "questions": [
+            {
+              "id": "cam14_lt2_q21",
+              "type": "multiple_choice",
+              "question": "Question 21: Choose the correct letter.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam14_lt2_q22",
+              "type": "multiple_choice",
+              "question": "Question 22: Choose the correct letter.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam14_lt2_q23",
+              "type": "multiple_choice",
+              "question": "Question 23: Choose the correct letter.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam14_lt2_q24",
+              "type": "multiple_choice",
+              "question": "Question 24: Choose the correct letter.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam14_lt2_q25",
+              "type": "matching",
+              "question": "Match the statement.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam14_lt2_q26",
+              "type": "matching",
+              "question": "Match the statement.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam14_lt2_q27",
+              "type": "matching",
+              "question": "Match the statement.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam14_lt2_q28",
+              "type": "matching",
+              "question": "Match the statement.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "correctAnswer": "H"
+            },
+            {
+              "id": "cam14_lt2_q29",
+              "type": "matching",
+              "question": "Match the statement.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "correctAnswer": "G"
+            },
+            {
+              "id": "cam14_lt2_q30",
+              "type": "matching",
+              "question": "Match the statement.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "correctAnswer": "C"
+            }
+          ]
+        },
+        {
+          "id": "cam14_lt2_p4",
+          "title": "The History of Weather Forecasting",
+          "audioFile": "cam14_test2_part4.mp3",
+          "subtitle": "",
+          "duration": "",
+          "questions": [
+            {
+              "id": "cam14_lt2_q31",
+              "type": "notes_completion",
+              "question": "Question 31: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "dances"
+            },
+            {
+              "id": "cam14_lt2_q32",
+              "type": "notes_completion",
+              "question": "Question 32: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "survival"
+            },
+            {
+              "id": "cam14_lt2_q33",
+              "type": "notes_completion",
+              "question": "Question 33: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "clouds"
+            },
+            {
+              "id": "cam14_lt2_q34",
+              "type": "notes_completion",
+              "question": "Question 34: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "festivals"
+            },
+            {
+              "id": "cam14_lt2_q35",
+              "type": "notes_completion",
+              "question": "Question 35: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "comets"
+            },
+            {
+              "id": "cam14_lt2_q36",
+              "type": "notes_completion",
+              "question": "Question 36: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "sky"
+            },
+            {
+              "id": "cam14_lt2_q37",
+              "type": "notes_completion",
+              "question": "Question 37: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "instruments"
+            },
+            {
+              "id": "cam14_lt2_q38",
+              "type": "notes_completion",
+              "question": "Question 38: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "thermometer"
+            },
+            {
+              "id": "cam14_lt2_q39",
+              "type": "notes_completion",
+              "question": "Question 39: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "storms"
+            },
+            {
+              "id": "cam14_lt2_q40",
+              "type": "notes_completion",
+              "question": "Question 40: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "telegraph"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cam14_listening_test3",
+      "testNumber": 3,
+      "parts": [
+        {
+          "id": "cam14_lt3_p1",
+          "title": "Flanders Conference Hotel",
+          "audioFile": "cam14_test3_part1.mp3",
+          "subtitle": "",
+          "duration": "",
+          "questions": [
+            {
+              "id": "cam14_lt3_q1",
+              "type": "notes_completion",
+              "question": "1. Surname: _____",
+              "options": [],
+              "correctAnswer": "Tesla"
+            },
+            {
+              "id": "cam14_lt3_q2",
+              "type": "notes_completion",
+              "question": "2. Equipment needed: _____",
+              "options": [],
+              "correctAnswer": "microphone"
+            },
+            {
+              "id": "cam14_lt3_q3",
+              "type": "notes_completion",
+              "question": "3. Room type: _____",
+              "options": [],
+              "correctAnswer": "exhibition"
+            },
+            {
+              "id": "cam14_lt3_q4",
+              "type": "notes_completion",
+              "question": "4. Internet: _____",
+              "options": [],
+              "correctAnswer": "wifi"
+            },
+            {
+              "id": "cam14_lt3_q5",
+              "type": "notes_completion",
+              "question": "5. Number of people: _____",
+              "options": [],
+              "correctAnswer": "45"
+            },
+            {
+              "id": "cam14_lt3_q6",
+              "type": "notes_completion",
+              "question": "6. Cost per person: £_____",
+              "options": [],
+              "correctAnswer": "135"
+            },
+            {
+              "id": "cam14_lt3_q7",
+              "type": "notes_completion",
+              "question": "7. Facility: _____",
+              "options": [],
+              "correctAnswer": "pool"
+            },
+            {
+              "id": "cam14_lt3_q8",
+              "type": "notes_completion",
+              "question": "8. Transport: _____",
+              "options": [],
+              "correctAnswer": "airport"
+            },
+            {
+              "id": "cam14_lt3_q9",
+              "type": "notes_completion",
+              "question": "9. View: _____",
+              "options": [],
+              "correctAnswer": "sea"
+            },
+            {
+              "id": "cam14_lt3_q10",
+              "type": "notes_completion",
+              "question": "10. Nearby: _____",
+              "options": [],
+              "correctAnswer": "clubs"
+            }
+          ]
+        },
+        {
+          "id": "cam14_lt3_p2",
+          "title": "Volunteering",
+          "audioFile": "cam14_test3_part2.mp3",
+          "subtitle": "",
+          "duration": "",
+          "questions": [
+            {
+              "id": "cam14_lt3_q11",
+              "type": "multiple_choice",
+              "question": "Which TWO activities can volunteers do?\nA. decorating\nB. driving\nC. cooking\nD. gardening\nE. childcare",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam14_lt3_q12",
+              "type": "multiple_choice",
+              "question": "Which TWO activities can volunteers do?\nA. decorating\nB. driving\nC. cooking\nD. gardening\nE. childcare",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam14_lt3_q13",
+              "type": "multiple_choice",
+              "question": "Which TWO benefits of volunteering are mentioned?\nA. financial benefits\nB. sense of purpose\nC. improved health\nD. free training\nE. employment prospects",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam14_lt3_q14",
+              "type": "multiple_choice",
+              "question": "Which TWO benefits of volunteering are mentioned?\nA. financial benefits\nB. sense of purpose\nC. improved health\nD. free training\nE. employment prospects",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam14_lt3_q15",
+              "type": "matching",
+              "question": "Match the person to what they gained from volunteering.",
+              "options": [
+                "A. overcome physical difficulties",
+                "B. gain a qualification",
+                "C. improve communication skills",
+                "D. solve problems independently",
+                "E. escape isolation",
+                "F. remember past times",
+                "G. start a new hobby"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam14_lt3_q16",
+              "type": "matching",
+              "question": "Match the person to what they gained from volunteering.",
+              "options": [
+                "A. overcome physical difficulties",
+                "B. gain a qualification",
+                "C. improve communication skills",
+                "D. solve problems independently",
+                "E. escape isolation",
+                "F. remember past times",
+                "G. start a new hobby"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam14_lt3_q17",
+              "type": "matching",
+              "question": "Match the person to what they gained from volunteering.",
+              "options": [
+                "A. overcome physical difficulties",
+                "B. gain a qualification",
+                "C. improve communication skills",
+                "D. solve problems independently",
+                "E. escape isolation",
+                "F. remember past times",
+                "G. start a new hobby"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam14_lt3_q18",
+              "type": "matching",
+              "question": "Match the person to what they gained from volunteering.",
+              "options": [
+                "A. overcome physical difficulties",
+                "B. gain a qualification",
+                "C. improve communication skills",
+                "D. solve problems independently",
+                "E. escape isolation",
+                "F. remember past times",
+                "G. start a new hobby"
+              ],
+              "correctAnswer": "G"
+            },
+            {
+              "id": "cam14_lt3_q19",
+              "type": "matching",
+              "question": "Match the person to what they gained from volunteering.",
+              "options": [
+                "A. overcome physical difficulties",
+                "B. gain a qualification",
+                "C. improve communication skills",
+                "D. solve problems independently",
+                "E. escape isolation",
+                "F. remember past times",
+                "G. start a new hobby"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam14_lt3_q20",
+              "type": "matching",
+              "question": "Match the person to what they gained from volunteering.",
+              "options": [
+                "A. overcome physical difficulties",
+                "B. gain a qualification",
+                "C. improve communication skills",
+                "D. solve problems independently",
+                "E. escape isolation",
+                "F. remember past times",
+                "G. start a new hobby"
+              ],
+              "correctAnswer": "C"
+            }
+          ]
+        },
+        {
+          "id": "cam14_lt3_p3",
+          "title": "School Marching Band",
+          "audioFile": "cam14_test3_part3.mp3",
+          "subtitle": "",
+          "duration": "",
+          "questions": [
+            {
+              "id": "cam14_lt3_q21",
+              "type": "notes_completion",
+              "question": "Question 21: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "50"
+            },
+            {
+              "id": "cam14_lt3_q22",
+              "type": "notes_completion",
+              "question": "Question 22: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "regional"
+            },
+            {
+              "id": "cam14_lt3_q23",
+              "type": "notes_completion",
+              "question": "Question 23: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "carnival"
+            },
+            {
+              "id": "cam14_lt3_q24",
+              "type": "notes_completion",
+              "question": "Question 24: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "drummer"
+            },
+            {
+              "id": "cam14_lt3_q25",
+              "type": "notes_completion",
+              "question": "Question 25: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "film"
+            },
+            {
+              "id": "cam14_lt3_q26",
+              "type": "notes_completion",
+              "question": "Question 26: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "parade"
+            },
+            {
+              "id": "cam14_lt3_q27",
+              "type": "matching",
+              "question": "Match the band member to the problem.",
+              "options": [
+                "A. is often late",
+                "B. makes unhelpful suggestions",
+                "C. argues with the band leader",
+                "D. misses too many rehearsals",
+                "E. has a health problem",
+                "F. doesn't mix with other students"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam14_lt3_q28",
+              "type": "matching",
+              "question": "Match the band member to the problem.",
+              "options": [
+                "A. is often late",
+                "B. makes unhelpful suggestions",
+                "C. argues with the band leader",
+                "D. misses too many rehearsals",
+                "E. has a health problem",
+                "F. doesn't mix with other students"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam14_lt3_q29",
+              "type": "matching",
+              "question": "Match the band member to the problem.",
+              "options": [
+                "A. is often late",
+                "B. makes unhelpful suggestions",
+                "C. argues with the band leader",
+                "D. misses too many rehearsals",
+                "E. has a health problem",
+                "F. doesn't mix with other students"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam14_lt3_q30",
+              "type": "matching",
+              "question": "Match the band member to the problem.",
+              "options": [
+                "A. is often late",
+                "B. makes unhelpful suggestions",
+                "C. argues with the band leader",
+                "D. misses too many rehearsals",
+                "E. has a health problem",
+                "F. doesn't mix with other students"
+              ],
+              "correctAnswer": "F"
+            }
+          ]
+        },
+        {
+          "id": "cam14_lt3_p4",
+          "title": "Concerts in University Arts Festival",
+          "audioFile": "cam14_test3_part4.mp3",
+          "subtitle": "",
+          "duration": "",
+          "questions": [
+            {
+              "id": "cam14_lt3_q31",
+              "type": "notes_completion",
+              "question": "Question 31: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "violin"
+            },
+            {
+              "id": "cam14_lt3_q32",
+              "type": "notes_completion",
+              "question": "Question 32: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "energy"
+            },
+            {
+              "id": "cam14_lt3_q33",
+              "type": "notes_completion",
+              "question": "Question 33: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "complex"
+            },
+            {
+              "id": "cam14_lt3_q34",
+              "type": "notes_completion",
+              "question": "Question 34: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "opera"
+            },
+            {
+              "id": "cam14_lt3_q35",
+              "type": "notes_completion",
+              "question": "Question 35: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "disturbing"
+            },
+            {
+              "id": "cam14_lt3_q36",
+              "type": "notes_completion",
+              "question": "Question 36: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "clarinet"
+            },
+            {
+              "id": "cam14_lt3_q37",
+              "type": "notes_completion",
+              "question": "Question 37: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "diversity"
+            },
+            {
+              "id": "cam14_lt3_q38",
+              "type": "notes_completion",
+              "question": "Question 38: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "physics"
+            },
+            {
+              "id": "cam14_lt3_q39",
+              "type": "notes_completion",
+              "question": "Question 39: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "dance"
+            },
+            {
+              "id": "cam14_lt3_q40",
+              "type": "notes_completion",
+              "question": "Question 40: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "Olympics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cam14_listening_test4",
+      "testNumber": 4,
+      "parts": [
+        {
+          "id": "cam14_lt4_p1",
+          "title": "Enquiry about booking hotel room for event",
+          "audioFile": "cam14_test4_part1.mp3",
+          "subtitle": "",
+          "duration": "",
+          "questions": [
+            {
+              "id": "cam14_lt4_q1",
+              "type": "notes_completion",
+              "question": "1. Number of guests: _____",
+              "options": [],
+              "correctAnswer": "85"
+            },
+            {
+              "id": "cam14_lt4_q2",
+              "type": "notes_completion",
+              "question": "2. Flowers: _____",
+              "options": [],
+              "correctAnswer": "roses"
+            },
+            {
+              "id": "cam14_lt4_q3",
+              "type": "notes_completion",
+              "question": "3. Decoration: _____",
+              "options": [],
+              "correctAnswer": "trees"
+            },
+            {
+              "id": "cam14_lt4_q4",
+              "type": "notes_completion",
+              "question": "4. Equipment needed: _____",
+              "options": [],
+              "correctAnswer": "stage"
+            },
+            {
+              "id": "cam14_lt4_q5",
+              "type": "notes_completion",
+              "question": "5. Length of _____",
+              "options": [],
+              "correctAnswer": "speech"
+            },
+            {
+              "id": "cam14_lt4_q6",
+              "type": "notes_completion",
+              "question": "6. Need extra _____",
+              "options": [],
+              "correctAnswer": "support"
+            },
+            {
+              "id": "cam14_lt4_q7",
+              "type": "notes_completion",
+              "question": "7. Accommodation type: _____",
+              "options": [],
+              "correctAnswer": "cabins"
+            },
+            {
+              "id": "cam14_lt4_q8",
+              "type": "multiple_choice",
+              "question": "Question 8:",
+              "options": [
+                "A. included in cost",
+                "B. available at extra charge",
+                "C. not available"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam14_lt4_q9",
+              "type": "multiple_choice",
+              "question": "Question 9:",
+              "options": [
+                "A. included in cost",
+                "B. available at extra charge",
+                "C. not available"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam14_lt4_q10",
+              "type": "multiple_choice",
+              "question": "Question 10:",
+              "options": [
+                "A. included in cost",
+                "B. available at extra charge",
+                "C. not available"
+              ],
+              "correctAnswer": "B"
+            }
+          ]
+        },
+        {
+          "id": "cam14_lt4_p2",
+          "title": "Excursions & Evening Entertainment",
+          "audioFile": "cam14_test4_part2.mp3",
+          "subtitle": "",
+          "duration": "",
+          "questions": [
+            {
+              "id": "cam14_lt4_q11",
+              "type": "matching",
+              "question": "Match the excursion.",
+              "options": [
+                "A. all downhill",
+                "B. suitable for beginners",
+                "C. includes lunch",
+                "D. food included",
+                "E. no charge",
+                "F. swimming possible",
+                "G. fully booked"
+              ],
+              "correctAnswer": "G"
+            },
+            {
+              "id": "cam14_lt4_q12",
+              "type": "matching",
+              "question": "Match the excursion.",
+              "options": [
+                "A. all downhill",
+                "B. suitable for beginners",
+                "C. includes lunch",
+                "D. food included",
+                "E. no charge",
+                "F. swimming possible",
+                "G. fully booked"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam14_lt4_q13",
+              "type": "matching",
+              "question": "Match the excursion.",
+              "options": [
+                "A. all downhill",
+                "B. suitable for beginners",
+                "C. includes lunch",
+                "D. food included",
+                "E. no charge",
+                "F. swimming possible",
+                "G. fully booked"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam14_lt4_q14",
+              "type": "matching",
+              "question": "Match the excursion.",
+              "options": [
+                "A. all downhill",
+                "B. suitable for beginners",
+                "C. includes lunch",
+                "D. food included",
+                "E. no charge",
+                "F. swimming possible",
+                "G. fully booked"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam14_lt4_q15",
+              "type": "matching",
+              "question": "Match the excursion.",
+              "options": [
+                "A. all downhill",
+                "B. suitable for beginners",
+                "C. includes lunch",
+                "D. food included",
+                "E. no charge",
+                "F. swimming possible",
+                "G. fully booked"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam14_lt4_q16",
+              "type": "matching",
+              "question": "Match the excursion.",
+              "options": [
+                "A. all downhill",
+                "B. suitable for beginners",
+                "C. includes lunch",
+                "D. food included",
+                "E. no charge",
+                "F. swimming possible",
+                "G. fully booked"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam14_lt4_q17",
+              "type": "multiple_choice",
+              "question": "Which TWO features of Musical Favourites are mentioned?\nA. includes a meal\nB. book in advance\nC. lasts two hours\nD. meet performers\nE. free admission",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam14_lt4_q18",
+              "type": "multiple_choice",
+              "question": "Which TWO features of Musical Favourites are mentioned?\nA. includes a meal\nB. book in advance\nC. lasts two hours\nD. meet performers\nE. free admission",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam14_lt4_q19",
+              "type": "multiple_choice",
+              "question": "Which TWO features of Castle Feast are mentioned?\nA. dance after meal\nB. free drinks\nC. vegetarian options\nD. no knives/forks\nE. children welcome",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam14_lt4_q20",
+              "type": "multiple_choice",
+              "question": "Which TWO features of Castle Feast are mentioned?\nA. dance after meal\nB. free drinks\nC. vegetarian options\nD. no knives/forks\nE. children welcome",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "D"
+            }
+          ]
+        },
+        {
+          "id": "cam14_lt4_p3",
+          "title": "Children's Literature",
+          "audioFile": "cam14_test4_part3.mp3",
+          "subtitle": "",
+          "duration": "",
+          "questions": [
+            {
+              "id": "cam14_lt4_q21",
+              "type": "multiple_choice",
+              "question": "Question 21:",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam14_lt4_q22",
+              "type": "multiple_choice",
+              "question": "Question 22:",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam14_lt4_q23",
+              "type": "multiple_choice",
+              "question": "Question 23:",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam14_lt4_q24",
+              "type": "multiple_choice",
+              "question": "Question 24:",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam14_lt4_q25",
+              "type": "multiple_choice",
+              "question": "Question 25:",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam14_lt4_q26",
+              "type": "matching",
+              "question": "Match the book.",
+              "options": [
+                "A. became a film",
+                "B. hard to read",
+                "C. inspired work in different area of art",
+                "D. based on a true story",
+                "E. title refers to another book",
+                "F. started a new genre",
+                "G. unlikely topic"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam14_lt4_q27",
+              "type": "matching",
+              "question": "Match the book.",
+              "options": [
+                "A. became a film",
+                "B. hard to read",
+                "C. inspired work in different area of art",
+                "D. based on a true story",
+                "E. title refers to another book",
+                "F. started a new genre",
+                "G. unlikely topic"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam14_lt4_q28",
+              "type": "matching",
+              "question": "Match the book.",
+              "options": [
+                "A. became a film",
+                "B. hard to read",
+                "C. inspired work in different area of art",
+                "D. based on a true story",
+                "E. title refers to another book",
+                "F. started a new genre",
+                "G. unlikely topic"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam14_lt4_q29",
+              "type": "matching",
+              "question": "Match the book.",
+              "options": [
+                "A. became a film",
+                "B. hard to read",
+                "C. inspired work in different area of art",
+                "D. based on a true story",
+                "E. title refers to another book",
+                "F. started a new genre",
+                "G. unlikely topic"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam14_lt4_q30",
+              "type": "matching",
+              "question": "Match the book.",
+              "options": [
+                "A. became a film",
+                "B. hard to read",
+                "C. inspired work in different area of art",
+                "D. based on a true story",
+                "E. title refers to another book",
+                "F. started a new genre",
+                "G. unlikely topic"
+              ],
+              "correctAnswer": "G"
+            }
+          ]
+        },
+        {
+          "id": "cam14_lt4_p4",
+          "title": "Marine Archaeology",
+          "audioFile": "cam14_test4_part4.mp3",
+          "subtitle": "",
+          "duration": "",
+          "questions": [
+            {
+              "id": "cam14_lt4_q31",
+              "type": "notes_completion",
+              "question": "Question 31: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "spring"
+            },
+            {
+              "id": "cam14_lt4_q32",
+              "type": "notes_completion",
+              "question": "Question 32: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "tools"
+            },
+            {
+              "id": "cam14_lt4_q33",
+              "type": "notes_completion",
+              "question": "Question 33: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "maps"
+            },
+            {
+              "id": "cam14_lt4_q34",
+              "type": "notes_completion",
+              "question": "Question 34: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "heavy"
+            },
+            {
+              "id": "cam14_lt4_q35",
+              "type": "notes_completion",
+              "question": "Question 35: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "marble"
+            },
+            {
+              "id": "cam14_lt4_q36",
+              "type": "notes_completion",
+              "question": "Question 36: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "light"
+            },
+            {
+              "id": "cam14_lt4_q37",
+              "type": "notes_completion",
+              "question": "Question 37: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "cameras"
+            },
+            {
+              "id": "cam14_lt4_q38",
+              "type": "notes_completion",
+              "question": "Question 38: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "medical"
+            },
+            {
+              "id": "cam14_lt4_q39",
+              "type": "notes_completion",
+              "question": "Question 39: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "eyes"
+            },
+            {
+              "id": "cam14_lt4_q40",
+              "type": "notes_completion",
+              "question": "Question 40: ONE WORD ONLY.",
+              "options": [],
+              "correctAnswer": "wine"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

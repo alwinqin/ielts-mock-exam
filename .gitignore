@@ -16,3 +16,25 @@ __pycache__/
 
 # Build output
 *.zip
+
+# Audio files (too large for GitHub)
+data/listening/audio/
+data/cambridge/audio/
+
+# PDFs and extraction artifacts
+data/cambridge/pdf/
+data/cambridge/**/*.txt
+
+# Empty Cambridge-format placeholders
+data/cambridge/*/speaking.json
+data/cambridge/*/writing.json
+
+# Intermediate per-test files (cam17)
+data/cambridge/cam17/*_test*.json
+
+# Temp/one-off scripts
+analyze_ielts.ps1
+cam15_page11.png
+cam15_page11_out.txt
+extract_all_pdfs.py
+extract_text.py

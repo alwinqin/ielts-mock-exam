@@ -1,0 +1,2167 @@
+{
+  "id": "cam17",
+  "title": "Cambridge IELTS 17 Listening",
+  "tests": [
+    {
+      "id": "cam17_test1",
+      "testNumber": 1,
+      "parts": [
+        {
+          "id": "cam17_t1_l_p1",
+          "title": "Buckworth Conservation Group",
+          "audioFile": "cam17_s1.mp3",
+          "questions": [
+            {
+              "id": "cam17_t1_l_q1",
+              "type": "form_completion",
+              "question": "making sure the beach does not have 1. _____ on it",
+              "options": [],
+              "correctAnswer": "litter"
+            },
+            {
+              "id": "cam17_t1_l_q2",
+              "type": "form_completion",
+              "question": "no 2. _____",
+              "options": [],
+              "correctAnswer": "dogs"
+            },
+            {
+              "id": "cam17_t1_l_q3",
+              "type": "form_completion",
+              "question": "next task is taking action to attract 3. _____ to the place",
+              "options": [],
+              "correctAnswer": "insects"
+            },
+            {
+              "id": "cam17_t1_l_q4",
+              "type": "form_completion",
+              "question": "identifying types of 4. _____",
+              "options": [],
+              "correctAnswer": "butterflies"
+            },
+            {
+              "id": "cam17_t1_l_q5",
+              "type": "form_completion",
+              "question": "building a new 5. _____",
+              "options": [],
+              "correctAnswer": "wall"
+            },
+            {
+              "id": "cam17_t1_l_q6",
+              "type": "form_completion",
+              "question": "walk across the sands and reach the 6. _____",
+              "options": [],
+              "correctAnswer": "island"
+            },
+            {
+              "id": "cam17_t1_l_q7",
+              "type": "form_completion",
+              "question": "wear appropriate 7. _____",
+              "options": [],
+              "correctAnswer": "boots"
+            },
+            {
+              "id": "cam17_t1_l_q8",
+              "type": "form_completion",
+              "question": "suitable for 8. _____ to participate in",
+              "options": [],
+              "correctAnswer": "beginners"
+            },
+            {
+              "id": "cam17_t1_l_q9",
+              "type": "form_completion",
+              "question": "making 9. _____ out of wood",
+              "options": [],
+              "correctAnswer": "spoons"
+            },
+            {
+              "id": "cam17_t1_l_q10",
+              "type": "form_completion",
+              "question": "cost of session (no camping): 10. £ _____",
+              "options": [],
+              "correctAnswer": "35 / thirty five"
+            }
+          ]
+        },
+        {
+          "id": "cam17_t1_l_p2",
+          "title": "Boat trip round Tasmania",
+          "audioFile": "cam17_s2.mp3",
+          "questions": [
+            {
+              "id": "cam17_t1_l_q11",
+              "type": "multiple_choice",
+              "question": "What is the maximum number of people who can stand on each side of the boat?",
+              "options": [
+                "A. 9",
+                "B. 15",
+                "C. 18"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam17_t1_l_q12",
+              "type": "multiple_choice",
+              "question": "What colour are the tour boats?",
+              "options": [
+                "A. dark red",
+                "B. jet black",
+                "C. light green"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam17_t1_l_q13",
+              "type": "multiple_choice",
+              "question": "Which lunchbox is suitable for someone who doesn't eat meat or fish?",
+              "options": [
+                "A. Lunchbox 1",
+                "B. Lunchbox 2",
+                "C. Lunchbox 3"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam17_t1_l_q14",
+              "type": "multiple_choice",
+              "question": "What should people do with their litter?",
+              "options": [
+                "A. take it home",
+                "B. hand it to a member of staff",
+                "C. put it in the bins provided on the boat"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam17_t1_l_q15",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO features of the lighthouse does Lou mention?",
+              "options": [
+                "A. why it was built",
+                "B. who built it",
+                "C. how long it took to build",
+                "D. who staffed it",
+                "E. what it was built with"
+              ],
+              "correctAnswer": "A,D"
+            },
+            {
+              "id": "cam17_t1_l_q16",
+              "type": "multiple_choice_multi",
+              "question": "Q15 second option",
+              "options": [
+                "A. why it was built",
+                "B. who built it",
+                "C. how long it took to build",
+                "D. who staffed it",
+                "E. what it was built with"
+              ],
+              "correctAnswer": "A,D"
+            },
+            {
+              "id": "cam17_t1_l_q17",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO types of creature might come close to the boat?",
+              "options": [
+                "A. sea eagles",
+                "B. fur seals",
+                "C. dolphins",
+                "D. whales",
+                "E. penguins"
+              ],
+              "correctAnswer": "B,C"
+            },
+            {
+              "id": "cam17_t1_l_q18",
+              "type": "multiple_choice_multi",
+              "question": "Q17 second option",
+              "options": [
+                "A. sea eagles",
+                "B. fur seals",
+                "C. dolphins",
+                "D. whales",
+                "E. penguins"
+              ],
+              "correctAnswer": "B,C"
+            },
+            {
+              "id": "cam17_t1_l_q19",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO points does Lou make about the caves?",
+              "options": [
+                "A. Only large tourist boats can visit them.",
+                "B. The entrances are often blocked.",
+                "C. It is too dangerous for individuals.",
+                "D. Someone will explain what is inside them.",
+                "E. They cannot be reached on foot."
+              ],
+              "correctAnswer": "D,E"
+            },
+            {
+              "id": "cam17_t1_l_q20",
+              "type": "multiple_choice_multi",
+              "question": "Q19 second option",
+              "options": [
+                "A. Only large tourist boats can visit them.",
+                "B. The entrances are often blocked.",
+                "C. It is too dangerous for individuals.",
+                "D. Someone will explain what is inside them.",
+                "E. They cannot be reached on foot."
+              ],
+              "correctAnswer": "D,E"
+            }
+          ]
+        },
+        {
+          "id": "cam17_t1_l_p3",
+          "title": "Work experience for veterinary science students",
+          "audioFile": "cam17_s3.mp3",
+          "questions": [
+            {
+              "id": "cam17_t1_l_q21",
+              "type": "multiple_choice",
+              "question": "What problem did both Diana and Tim have when arranging their work experience?",
+              "options": [
+                "A. making initial contact with suitable farms",
+                "B. organising transport to and from the farm",
+                "C. finding a placement for the required length of time"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam17_t1_l_q22",
+              "type": "multiple_choice",
+              "question": "Tim was pleased to be able to help",
+              "options": [
+                "A. a lamb that had a broken leg.",
+                "B. a sheep that was having difficulty giving birth.",
+                "C. a newly born lamb that was having trouble feeding."
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam17_t1_l_q23",
+              "type": "multiple_choice",
+              "question": "Diana says the sheep on her farm",
+              "options": [
+                "A. were of various different varieties.",
+                "B. were mainly reared for their meat.",
+                "C. had better quality wool than sheep on the hills."
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam17_t1_l_q24",
+              "type": "multiple_choice",
+              "question": "What did the students learn about adding supplements to chicken feed?",
+              "options": [
+                "A. These should only be given if specially needed.",
+                "B. It is worth paying extra for the most effective ones.",
+                "C. The amount given at one time should be limited."
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam17_t1_l_q25",
+              "type": "multiple_choice",
+              "question": "What happened when Diana was working with dairy cows?",
+              "options": [
+                "A. She identified some cows incorrectly.",
+                "B. She accidentally threw some milk away.",
+                "C. She made a mistake when storing milk."
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam17_t1_l_q26",
+              "type": "multiple_choice",
+              "question": "What did both farmers mention about vets and farming?",
+              "options": [
+                "A. Vets are failing to cope with some aspects of animal health.",
+                "B. There needs to be a fundamental change in the training of vets.",
+                "C. Some jobs could be done by the farmer rather than by a vet."
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam17_t1_l_q27",
+              "type": "matching",
+              "question": "Medical terminology — what opinion?",
+              "options": [
+                "A. Tim found this easier than expected.",
+                "B. Tim thought this was not very clearly organised.",
+                "C. Diana may do some further study on this.",
+                "D. They both found the reading difficult.",
+                "E. Tim was shocked at something he learned.",
+                "F. They were both surprised how little is known."
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam17_t1_l_q28",
+              "type": "matching",
+              "question": "Diet and nutrition — what opinion?",
+              "options": [
+                "A. Tim found this easier than expected.",
+                "B. Tim thought this was not very clearly organised.",
+                "C. Diana may do some further study on this.",
+                "D. They both found the reading difficult.",
+                "E. Tim was shocked at something he learned.",
+                "F. They were both surprised how little is known."
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam17_t1_l_q29",
+              "type": "matching",
+              "question": "Animal disease — what opinion?",
+              "options": [
+                "A. Tim found this easier than expected.",
+                "B. Tim thought this was not very clearly organised.",
+                "C. Diana may do some further study on this.",
+                "D. They both found the reading difficult.",
+                "E. Tim was shocked at something he learned.",
+                "F. They were both surprised how little is known."
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam17_t1_l_q30",
+              "type": "matching",
+              "question": "Wildlife medication — what opinion?",
+              "options": [
+                "A. Tim found this easier than expected.",
+                "B. Tim thought this was not very clearly organised.",
+                "C. Diana may do some further study on this.",
+                "D. They both found the reading difficult.",
+                "E. Tim was shocked at something he learned.",
+                "F. They were both surprised how little is known."
+              ],
+              "correctAnswer": "C"
+            }
+          ]
+        },
+        {
+          "id": "cam17_t1_l_p4",
+          "title": "Labyrinths",
+          "audioFile": "cam17_s4.mp3",
+          "questions": [
+            {
+              "id": "cam17_t1_l_q31",
+              "type": "form_completion",
+              "question": "Mazes are a type of 31. _____",
+              "options": [],
+              "correctAnswer": "puzzle"
+            },
+            {
+              "id": "cam17_t1_l_q32",
+              "type": "form_completion",
+              "question": "32. _____ is needed to navigate through a maze",
+              "options": [],
+              "correctAnswer": "logic"
+            },
+            {
+              "id": "cam17_t1_l_q33",
+              "type": "form_completion",
+              "question": "the word 'maze' is derived from a word meaning a feeling of 33. _____",
+              "options": [],
+              "correctAnswer": "confusion"
+            },
+            {
+              "id": "cam17_t1_l_q34",
+              "type": "form_completion",
+              "question": "they have frequently been used in 34. _____ and prayer",
+              "options": [],
+              "correctAnswer": "meditation"
+            },
+            {
+              "id": "cam17_t1_l_q35",
+              "type": "form_completion",
+              "question": "Ancient carvings on 35. _____ have been found across many cultures",
+              "options": [],
+              "correctAnswer": "stone"
+            },
+            {
+              "id": "cam17_t1_l_q36",
+              "type": "form_completion",
+              "question": "Ancient Greeks used the symbol on 36. _____",
+              "options": [],
+              "correctAnswer": "coins"
+            },
+            {
+              "id": "cam17_t1_l_q37",
+              "type": "form_completion",
+              "question": "The largest surviving example of a turf labyrinth once had a big 37. _____ at its centre",
+              "options": [],
+              "correctAnswer": "tree"
+            },
+            {
+              "id": "cam17_t1_l_q38",
+              "type": "form_completion",
+              "question": "walking a maze can reduce a person's 38. _____ rate",
+              "options": [],
+              "correctAnswer": "breathing"
+            },
+            {
+              "id": "cam17_t1_l_q39",
+              "type": "form_completion",
+              "question": "patients who can't walk can use 'finger labyrinths' made from 39. _____",
+              "options": [],
+              "correctAnswer": "paper"
+            },
+            {
+              "id": "cam17_t1_l_q40",
+              "type": "form_completion",
+              "question": "Alzheimer's sufferers experience less 40. _____",
+              "options": [],
+              "correctAnswer": "anxiety"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cam17_test2",
+      "testNumber": 2,
+      "parts": [
+        {
+          "id": "cam17_t2_l_p1",
+          "title": "Opportunities for voluntary work in Southoe village",
+          "audioFile": "cam17_s5.mp3",
+          "questions": [
+            {
+              "id": "cam17_t2_l_q1",
+              "type": "form_completion",
+              "question": "Help with 1. _____ books (times to be arranged)",
+              "options": [],
+              "correctAnswer": "collecting"
+            },
+            {
+              "id": "cam17_t2_l_q2",
+              "type": "form_completion",
+              "question": "Help needed to keep 2. _____ of books up to date",
+              "options": [],
+              "correctAnswer": "records"
+            },
+            {
+              "id": "cam17_t2_l_q3",
+              "type": "form_completion",
+              "question": "Library is in the 3. _____ Room in the village hall",
+              "options": [],
+              "correctAnswer": "West"
+            },
+            {
+              "id": "cam17_t2_l_q4",
+              "type": "form_completion",
+              "question": "Help by providing 4. _____",
+              "options": [],
+              "correctAnswer": "transport"
+            },
+            {
+              "id": "cam17_t2_l_q5",
+              "type": "form_completion",
+              "question": "Help with hobbies such as 5. _____",
+              "options": [],
+              "correctAnswer": "art"
+            },
+            {
+              "id": "cam17_t2_l_q6",
+              "type": "form_completion",
+              "question": "Taking Mrs Carroll to 6. _____",
+              "options": [],
+              "correctAnswer": "hospital"
+            },
+            {
+              "id": "cam17_t2_l_q7",
+              "type": "form_completion",
+              "question": "Work in the 7. _____ at Mr Selsbury's house",
+              "options": [],
+              "correctAnswer": "garden"
+            },
+            {
+              "id": "cam17_t2_l_q8",
+              "type": "form_completion",
+              "question": "19 Oct event: 8. _____ at Village hall",
+              "options": [],
+              "correctAnswer": "quiz"
+            },
+            {
+              "id": "cam17_t2_l_q9",
+              "type": "form_completion",
+              "question": "18 Nov dance: checking 9. _____",
+              "options": [],
+              "correctAnswer": "tickets"
+            },
+            {
+              "id": "cam17_t2_l_q10",
+              "type": "form_completion",
+              "question": "31 Dec New Year's Eve party: designing the 10. _____",
+              "options": [],
+              "correctAnswer": "poster"
+            }
+          ]
+        },
+        {
+          "id": "cam17_t2_l_p2",
+          "title": "Oniton Hall",
+          "audioFile": "cam17_s6.mp3",
+          "questions": [
+            {
+              "id": "cam17_t2_l_q11",
+              "type": "multiple_choice",
+              "question": "Many past owners made changes to",
+              "options": [
+                "A. the gardens.",
+                "B. the house.",
+                "C. the farm."
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam17_t2_l_q12",
+              "type": "multiple_choice",
+              "question": "Sir Edward Downes built Oniton Hall because he wanted",
+              "options": [
+                "A. a place for discussing politics.",
+                "B. a place to display his wealth.",
+                "C. a place for artists and writers."
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam17_t2_l_q13",
+              "type": "multiple_choice",
+              "question": "Visitors can learn about the work of servants from",
+              "options": [
+                "A. audio guides.",
+                "B. photographs.",
+                "C. people in costume."
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam17_t2_l_q14",
+              "type": "multiple_choice",
+              "question": "What is new for children at Oniton Hall?",
+              "options": [
+                "A. clothes for dressing up",
+                "B. mini tractors",
+                "C. the adventure playground"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam17_t2_l_q15",
+              "type": "matching",
+              "question": "dairy — which activity?",
+              "options": [
+                "A. shopping",
+                "B. watching cows being milked",
+                "C. seeing old farming equipment",
+                "D. eating and drinking",
+                "E. starting a trip",
+                "F. seeing rare breeds of animals",
+                "G. helping to look after animals",
+                "H. using farming tools"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam17_t2_l_q16",
+              "type": "matching",
+              "question": "large barn — which activity?",
+              "options": [
+                "A. shopping",
+                "B. watching cows being milked",
+                "C. seeing old farming equipment",
+                "D. eating and drinking",
+                "E. starting a trip",
+                "F. seeing rare breeds of animals",
+                "G. helping to look after animals",
+                "H. using farming tools"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam17_t2_l_q17",
+              "type": "matching",
+              "question": "small barn — which activity?",
+              "options": [
+                "A. shopping",
+                "B. watching cows being milked",
+                "C. seeing old farming equipment",
+                "D. eating and drinking",
+                "E. starting a trip",
+                "F. seeing rare breeds of animals",
+                "G. helping to look after animals",
+                "H. using farming tools"
+              ],
+              "correctAnswer": "G"
+            },
+            {
+              "id": "cam17_t2_l_q18",
+              "type": "matching",
+              "question": "stables — which activity?",
+              "options": [
+                "A. shopping",
+                "B. watching cows being milked",
+                "C. seeing old farming equipment",
+                "D. eating and drinking",
+                "E. starting a trip",
+                "F. seeing rare breeds of animals",
+                "G. helping to look after animals",
+                "H. using farming tools"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam17_t2_l_q19",
+              "type": "matching",
+              "question": "shed — which activity?",
+              "options": [
+                "A. shopping",
+                "B. watching cows being milked",
+                "C. seeing old farming equipment",
+                "D. eating and drinking",
+                "E. starting a trip",
+                "F. seeing rare breeds of animals",
+                "G. helping to look after animals",
+                "H. using farming tools"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam17_t2_l_q20",
+              "type": "matching",
+              "question": "parkland — which activity?",
+              "options": [
+                "A. shopping",
+                "B. watching cows being milked",
+                "C. seeing old farming equipment",
+                "D. eating and drinking",
+                "E. starting a trip",
+                "F. seeing rare breeds of animals",
+                "G. helping to look after animals",
+                "H. using farming tools"
+              ],
+              "correctAnswer": "F"
+            }
+          ]
+        },
+        {
+          "id": "cam17_t2_l_p3",
+          "title": "Romeo and Juliet theatre review",
+          "audioFile": "cam17_s7.mp3",
+          "questions": [
+            {
+              "id": "cam17_t2_l_q21",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO things do the students agree they need to include in their reviews?",
+              "options": [
+                "A. analysis of the text",
+                "B. a summary of the plot",
+                "C. a description of the theatre",
+                "D. a personal reaction",
+                "E. a reference to particular scenes"
+              ],
+              "correctAnswer": "D,E"
+            },
+            {
+              "id": "cam17_t2_l_q22",
+              "type": "multiple_choice_multi",
+              "question": "Q21 second option",
+              "options": [
+                "A. analysis of the text",
+                "B. a summary of the plot",
+                "C. a description of the theatre",
+                "D. a personal reaction",
+                "E. a reference to particular scenes"
+              ],
+              "correctAnswer": "D,E"
+            },
+            {
+              "id": "cam17_t2_l_q23",
+              "type": "matching",
+              "question": "the set — which opinion?",
+              "options": [
+                "A. They both expected this to be more traditional.",
+                "B. They both thought this was original.",
+                "C. They agree this created the right atmosphere.",
+                "D. They agree this was a major strength.",
+                "E. They were both disappointed by this.",
+                "F. They disagree about why this was an issue.",
+                "G. They disagree about how this could be improved."
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam17_t2_l_q24",
+              "type": "matching",
+              "question": "the lighting — which opinion?",
+              "options": [
+                "A. expected more traditional",
+                "B. thought this was original",
+                "C. created the right atmosphere",
+                "D. was a major strength",
+                "E. both disappointed",
+                "F. disagree why an issue",
+                "G. disagree how to improve"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam17_t2_l_q25",
+              "type": "matching",
+              "question": "the costume design — which opinion?",
+              "options": [
+                "A. expected more traditional",
+                "B. thought this was original",
+                "C. created the right atmosphere",
+                "D. was a major strength",
+                "E. both disappointed",
+                "F. disagree why an issue",
+                "G. disagree how to improve"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam17_t2_l_q26",
+              "type": "matching",
+              "question": "the music — which opinion?",
+              "options": [
+                "A. expected more traditional",
+                "B. thought this was original",
+                "C. created the right atmosphere",
+                "D. was a major strength",
+                "E. both disappointed",
+                "F. disagree why an issue",
+                "G. disagree how to improve"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam17_t2_l_q27",
+              "type": "matching",
+              "question": "the actors' delivery — which opinion?",
+              "options": [
+                "A. expected more traditional",
+                "B. thought this was original",
+                "C. created the right atmosphere",
+                "D. was a major strength",
+                "E. both disappointed",
+                "F. disagree why an issue",
+                "G. disagree how to improve"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam17_t2_l_q28",
+              "type": "multiple_choice",
+              "question": "The students think Romeo and Juliet is still relevant for young people because",
+              "options": [
+                "A. it illustrates how easily conflict can start.",
+                "B. it deals with problems that families experience.",
+                "C. it teaches them about relationships."
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam17_t2_l_q29",
+              "type": "multiple_choice",
+              "question": "The students found watching Romeo and Juliet in another language",
+              "options": [
+                "A. frustrating.",
+                "B. demanding.",
+                "C. moving."
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam17_t2_l_q30",
+              "type": "multiple_choice",
+              "question": "Why do the students think Shakespeare's plays have such international appeal?",
+              "options": [
+                "A. The stories are exciting.",
+                "B. There are recognisable characters.",
+                "C. They can be interpreted in many ways."
+              ],
+              "correctAnswer": "C"
+            }
+          ]
+        },
+        {
+          "id": "cam17_t2_l_p4",
+          "title": "The impact of digital technology on the Icelandic language",
+          "audioFile": "cam17_s8.mp3",
+          "questions": [
+            {
+              "id": "cam17_t2_l_q31",
+              "type": "form_completion",
+              "question": "has approximately 31. _____ speakers",
+              "options": [],
+              "correctAnswer": "321,000"
+            },
+            {
+              "id": "cam17_t2_l_q32",
+              "type": "form_completion",
+              "question": "has a 32. _____ that is still growing",
+              "options": [],
+              "correctAnswer": "vocabulary"
+            },
+            {
+              "id": "cam17_t2_l_q33",
+              "type": "form_completion",
+              "question": "has its own words for computer-based concepts, such as web browser and 33. _____",
+              "options": [],
+              "correctAnswer": "podcast"
+            },
+            {
+              "id": "cam17_t2_l_q34",
+              "type": "form_completion",
+              "question": "are big users of digital technology, such as 34. _____",
+              "options": [],
+              "correctAnswer": "smartphones"
+            },
+            {
+              "id": "cam17_t2_l_q35",
+              "type": "form_completion",
+              "question": "are becoming 35. _____ very quickly",
+              "options": [],
+              "correctAnswer": "bilingual"
+            },
+            {
+              "id": "cam17_t2_l_q36",
+              "type": "form_completion",
+              "question": "are having discussions using only English while they are in the 36. _____ at school",
+              "options": [],
+              "correctAnswer": "playground"
+            },
+            {
+              "id": "cam17_t2_l_q37",
+              "type": "form_completion",
+              "question": "are better able to identify the content of a 37. _____ in English than Icelandic",
+              "options": [],
+              "correctAnswer": "picture"
+            },
+            {
+              "id": "cam17_t2_l_q38",
+              "type": "form_completion",
+              "question": "write very little in Icelandic because of how complicated its 38. _____ is",
+              "options": [],
+              "correctAnswer": "grammar"
+            },
+            {
+              "id": "cam17_t2_l_q39",
+              "type": "form_completion",
+              "question": "is worried that young Icelanders may lose their 39. _____ as Icelanders",
+              "options": [],
+              "correctAnswer": "identity"
+            },
+            {
+              "id": "cam17_t2_l_q40",
+              "type": "form_completion",
+              "question": "is worried about children not being 40. _____ in either Icelandic or English",
+              "options": [],
+              "correctAnswer": "fluent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cam17_test3",
+      "testNumber": 3,
+      "parts": [
+        {
+          "id": "cam17_t3_l_p1",
+          "title": "Advice on surfing holidays",
+          "audioFile": "cam17_s9.mp3",
+          "questions": [
+            {
+              "id": "cam17_t3_l_q1",
+              "type": "form_completion",
+              "question": "Recommends surfing for 1. _____ holidays in the summer",
+              "options": [],
+              "correctAnswer": "family"
+            },
+            {
+              "id": "cam17_t3_l_q2",
+              "type": "form_completion",
+              "question": "Need to be quite 2. _____",
+              "options": [],
+              "correctAnswer": "fit"
+            },
+            {
+              "id": "cam17_t3_l_q3",
+              "type": "form_completion",
+              "question": "Lahinch has some good quality 3. _____ and surf schools",
+              "options": [],
+              "correctAnswer": "hotels"
+            },
+            {
+              "id": "cam17_t3_l_q4",
+              "type": "form_completion",
+              "question": "Good surf school at 4. _____ beach",
+              "options": [],
+              "correctAnswer": "Carrowniskey"
+            },
+            {
+              "id": "cam17_t3_l_q5",
+              "type": "form_completion",
+              "question": "Surf camp lasts for one 5. _____",
+              "options": [],
+              "correctAnswer": "week"
+            },
+            {
+              "id": "cam17_t3_l_q6",
+              "type": "form_completion",
+              "question": "Can also explore the local 6. _____ by kayak",
+              "options": [],
+              "correctAnswer": "bay"
+            },
+            {
+              "id": "cam17_t3_l_q7",
+              "type": "form_completion",
+              "question": "Best month to go: 7. _____",
+              "options": [],
+              "correctAnswer": "September"
+            },
+            {
+              "id": "cam17_t3_l_q8",
+              "type": "form_completion",
+              "question": "Average temperature in summer: approx. 8. _____ degrees",
+              "options": [],
+              "correctAnswer": "19 / nineteen"
+            },
+            {
+              "id": "cam17_t3_l_q9",
+              "type": "form_completion",
+              "question": "Wetsuit and surfboard: 9. _____ euros per day",
+              "options": [],
+              "correctAnswer": "30 / thirty"
+            },
+            {
+              "id": "cam17_t3_l_q10",
+              "type": "form_completion",
+              "question": "Also advisable to hire 10. _____ for warmth",
+              "options": [],
+              "correctAnswer": "boots"
+            }
+          ]
+        },
+        {
+          "id": "cam17_t3_l_p2",
+          "title": "Extended hours childcare service",
+          "audioFile": "cam17_s10.mp3",
+          "questions": [
+            {
+              "id": "cam17_t3_l_q11",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO facts are given about the school's extended hours childcare service?",
+              "options": [
+                "A. It started recently.",
+                "B. More children attend after school than before school.",
+                "C. An average of 50 children attend in the mornings.",
+                "D. A child cannot attend both sessions.",
+                "E. The maximum number of children who can attend is 70."
+              ],
+              "correctAnswer": "B,E"
+            },
+            {
+              "id": "cam17_t3_l_q12",
+              "type": "multiple_choice_multi",
+              "question": "Q11 second option",
+              "options": [
+                "A. It started recently.",
+                "B. More children attend after school than before school.",
+                "C. An average of 50 children attend in the mornings.",
+                "D. A child cannot attend both sessions.",
+                "E. The maximum number of children who can attend is 70."
+              ],
+              "correctAnswer": "B,E"
+            },
+            {
+              "id": "cam17_t3_l_q13",
+              "type": "multiple_choice",
+              "question": "How much does childcare cost for a complete afternoon session per child?",
+              "options": [
+                "A. £3.50",
+                "B. £5.70",
+                "C. £7.20"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam17_t3_l_q14",
+              "type": "multiple_choice",
+              "question": "What does the manager say about food?",
+              "options": [
+                "A. Children with allergies should bring their own food.",
+                "B. Children may bring healthy snacks with them.",
+                "C. Children are given a proper meal at 5 p.m."
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam17_t3_l_q15",
+              "type": "multiple_choice",
+              "question": "What is different about arrangements in the school holidays?",
+              "options": [
+                "A. Children from other schools can attend.",
+                "B. Older children can attend.",
+                "C. A greater number of children can attend."
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam17_t3_l_q16",
+              "type": "matching",
+              "question": "Spanish — what information?",
+              "options": [
+                "A. has limited availability",
+                "B. is no longer available",
+                "C. is for over 8s only",
+                "D. requires help from parents",
+                "E. involves an additional fee",
+                "F. is a new activity",
+                "G. was requested by children"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam17_t3_l_q17",
+              "type": "matching",
+              "question": "Music — what information?",
+              "options": [
+                "A. has limited availability",
+                "B. is no longer available",
+                "C. is for over 8s only",
+                "D. requires help from parents",
+                "E. involves an additional fee",
+                "F. is a new activity",
+                "G. was requested by children"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam17_t3_l_q18",
+              "type": "matching",
+              "question": "Painting — what information?",
+              "options": [
+                "A. has limited availability",
+                "B. is no longer available",
+                "C. is for over 8s only",
+                "D. requires help from parents",
+                "E. involves an additional fee",
+                "F. is a new activity",
+                "G. was requested by children"
+              ],
+              "correctAnswer": "G"
+            },
+            {
+              "id": "cam17_t3_l_q19",
+              "type": "matching",
+              "question": "Yoga — what information?",
+              "options": [
+                "A. has limited availability",
+                "B. is no longer available",
+                "C. is for over 8s only",
+                "D. requires help from parents",
+                "E. involves an additional fee",
+                "F. is a new activity",
+                "G. was requested by children"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam17_t3_l_q20",
+              "type": "matching",
+              "question": "Cooking — what information?",
+              "options": [
+                "A. has limited availability",
+                "B. is no longer available",
+                "C. is for over 8s only",
+                "D. requires help from parents",
+                "E. involves an additional fee",
+                "F. is a new activity",
+                "G. was requested by children"
+              ],
+              "correctAnswer": "C"
+            }
+          ]
+        },
+        {
+          "id": "cam17_t3_l_p3",
+          "title": "Holly's Work Placement Tutorial",
+          "audioFile": "cam17_s11.mp3",
+          "questions": [
+            {
+              "id": "cam17_t3_l_q21",
+              "type": "multiple_choice",
+              "question": "Holly has chosen the Orion Stadium placement because",
+              "options": [
+                "A. it involves children.",
+                "B. it is outdoors.",
+                "C. it sounds like fun."
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam17_t3_l_q22",
+              "type": "multiple_choice",
+              "question": "Which aspect of safety does Dr Green emphasise most?",
+              "options": [
+                "A. ensuring children stay in the stadium",
+                "B. checking the equipment children will use",
+                "C. removing obstacles in changing rooms"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam17_t3_l_q23",
+              "type": "multiple_choice",
+              "question": "What does Dr Green say about the spectators?",
+              "options": [
+                "A. They can be hard to manage.",
+                "B. They make useful volunteers.",
+                "C. They shouldn't take photographs."
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam17_t3_l_q24",
+              "type": "multiple_choice",
+              "question": "What has affected the schedule in the past?",
+              "options": [
+                "A. bad weather",
+                "B. an injury",
+                "C. extra time"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam17_t3_l_q25",
+              "type": "matching",
+              "question": "Communication — important aspect?",
+              "options": [
+                "A. being flexible",
+                "B. focusing on details",
+                "C. having a smart appearance",
+                "D. hiding your emotions",
+                "E. relying on experts",
+                "F. trusting your own views",
+                "G. doing one thing at a time",
+                "H. thinking of the future"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam17_t3_l_q26",
+              "type": "matching",
+              "question": "Organisation — important aspect?",
+              "options": [
+                "A. being flexible",
+                "B. focusing on details",
+                "C. having a smart appearance",
+                "D. hiding your emotions",
+                "E. relying on experts",
+                "F. trusting your own views",
+                "G. doing one thing at a time",
+                "H. thinking of the future"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam17_t3_l_q27",
+              "type": "matching",
+              "question": "Time management — important aspect?",
+              "options": [
+                "A. being flexible",
+                "B. focusing on details",
+                "C. having a smart appearance",
+                "D. hiding your emotions",
+                "E. relying on experts",
+                "F. trusting your own views",
+                "G. doing one thing at a time",
+                "H. thinking of the future"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam17_t3_l_q28",
+              "type": "matching",
+              "question": "Creativity — important aspect?",
+              "options": [
+                "A. being flexible",
+                "B. focusing on details",
+                "C. having a smart appearance",
+                "D. hiding your emotions",
+                "E. relying on experts",
+                "F. trusting your own views",
+                "G. doing one thing at a time",
+                "H. thinking of the future"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam17_t3_l_q29",
+              "type": "matching",
+              "question": "Leadership — important aspect?",
+              "options": [
+                "A. being flexible",
+                "B. focusing on details",
+                "C. having a smart appearance",
+                "D. hiding your emotions",
+                "E. relying on experts",
+                "F. trusting your own views",
+                "G. doing one thing at a time",
+                "H. thinking of the future"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam17_t3_l_q30",
+              "type": "matching",
+              "question": "Networking — important aspect?",
+              "options": [
+                "A. being flexible",
+                "B. focusing on details",
+                "C. having a smart appearance",
+                "D. hiding your emotions",
+                "E. relying on experts",
+                "F. trusting your own views",
+                "G. doing one thing at a time",
+                "H. thinking of the future"
+              ],
+              "correctAnswer": "H"
+            }
+          ]
+        },
+        {
+          "id": "cam17_t3_l_p4",
+          "title": "Bird Migration Theory",
+          "audioFile": "cam17_s12.mp3",
+          "questions": [
+            {
+              "id": "cam17_t3_l_q31",
+              "type": "form_completion",
+              "question": "It was believed that birds hibernated underwater or buried themselves in 31. _____",
+              "options": [],
+              "correctAnswer": "mud"
+            },
+            {
+              "id": "cam17_t3_l_q32",
+              "type": "form_completion",
+              "question": "he observed that redstarts experience the loss of 32. _____ and thought they then turned into robins",
+              "options": [],
+              "correctAnswer": "feathers"
+            },
+            {
+              "id": "cam17_t3_l_q33",
+              "type": "form_completion",
+              "question": "the two species of birds had a similar 33. _____",
+              "options": [],
+              "correctAnswer": "shape"
+            },
+            {
+              "id": "cam17_t3_l_q34",
+              "type": "form_completion",
+              "question": "Charles Morton popularised the idea that birds fly to the 34. _____ in winter",
+              "options": [],
+              "correctAnswer": "moon"
+            },
+            {
+              "id": "cam17_t3_l_q35",
+              "type": "form_completion",
+              "question": "a stork was killed in Germany which had an African spear in its 35. _____",
+              "options": [],
+              "correctAnswer": "neck"
+            },
+            {
+              "id": "cam17_t3_l_q36",
+              "type": "form_completion",
+              "question": "previously there had been no 36. _____ that storks migrate to Africa",
+              "options": [],
+              "correctAnswer": "evidence"
+            },
+            {
+              "id": "cam17_t3_l_q37",
+              "type": "form_completion",
+              "question": "Little was known about the 37. _____ and journeys of migrating birds until ringing was established",
+              "options": [],
+              "correctAnswer": "destinations"
+            },
+            {
+              "id": "cam17_t3_l_q38",
+              "type": "form_completion",
+              "question": "they were considered incapable of travelling across huge 38. _____",
+              "options": [],
+              "correctAnswer": "oceans"
+            },
+            {
+              "id": "cam17_t3_l_q39",
+              "type": "form_completion",
+              "question": "Ringing depended on what is called the 39. _____ of dead birds",
+              "options": [],
+              "correctAnswer": "recovery"
+            },
+            {
+              "id": "cam17_t3_l_q40",
+              "type": "form_completion",
+              "question": "In 1931, the first 40. _____ to show the migration of European birds was printed",
+              "options": [],
+              "correctAnswer": "atlas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cam17_test4",
+      "testNumber": 4,
+      "parts": [
+        {
+          "id": "cam17_t4_l_p1",
+          "title": "Easy Life Cleaning Services",
+          "audioFile": "cam17_s13.mp3",
+          "questions": [
+            {
+              "id": "cam17_t4_l_q1",
+              "type": "form_completion",
+              "question": "Cleaning the 1. _____ throughout the apartment",
+              "options": [],
+              "correctAnswer": "floor(s)"
+            },
+            {
+              "id": "cam17_t4_l_q2",
+              "type": "form_completion",
+              "question": "Every week: Cleaning the 2. _____",
+              "options": [],
+              "correctAnswer": "fridge"
+            },
+            {
+              "id": "cam17_t4_l_q3",
+              "type": "form_completion",
+              "question": "Ironing clothes – 3. _____ only",
+              "options": [],
+              "correctAnswer": "shirts"
+            },
+            {
+              "id": "cam17_t4_l_q4",
+              "type": "form_completion",
+              "question": "Every month: Cleaning all the 4. _____ from the inside",
+              "options": [],
+              "correctAnswer": "windows"
+            },
+            {
+              "id": "cam17_t4_l_q5",
+              "type": "form_completion",
+              "question": "Washing down the 5. _____",
+              "options": [],
+              "correctAnswer": "balcony"
+            },
+            {
+              "id": "cam17_t4_l_q6",
+              "type": "form_completion",
+              "question": "They can organise a plumber or an 6. _____ if necessary",
+              "options": [],
+              "correctAnswer": "electrician"
+            },
+            {
+              "id": "cam17_t4_l_q7",
+              "type": "form_completion",
+              "question": "special cleaning service for customers allergic to 7. _____",
+              "options": [],
+              "correctAnswer": "dust"
+            },
+            {
+              "id": "cam17_t4_l_q8",
+              "type": "form_completion",
+              "question": "all cleaners have a background check carried out by the 8. _____",
+              "options": [],
+              "correctAnswer": "police"
+            },
+            {
+              "id": "cam17_t4_l_q9",
+              "type": "form_completion",
+              "question": "All cleaners are given 9. _____ for two weeks",
+              "options": [],
+              "correctAnswer": "training"
+            },
+            {
+              "id": "cam17_t4_l_q10",
+              "type": "form_completion",
+              "question": "Customers send a 10. _____ after each visit",
+              "options": [],
+              "correctAnswer": "review"
+            }
+          ]
+        },
+        {
+          "id": "cam17_t4_l_p2",
+          "title": "Hotel staff retention",
+          "audioFile": "cam17_s14.mp3",
+          "questions": [
+            {
+              "id": "cam17_t4_l_q11",
+              "type": "multiple_choice",
+              "question": "Many hotel managers are unaware that their staff often leave because of",
+              "options": [
+                "A. a lack of training.",
+                "B. long hours.",
+                "C. low pay."
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam17_t4_l_q12",
+              "type": "multiple_choice",
+              "question": "What is the impact of high staff turnover on managers?",
+              "options": [
+                "A. an increased workload",
+                "B. low morale",
+                "C. an inability to meet targets"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam17_t4_l_q13",
+              "type": "multiple_choice",
+              "question": "What mistake should managers always avoid?",
+              "options": [
+                "A. failing to treat staff equally",
+                "B. reorganising shifts without warning",
+                "C. neglecting to have enough staff during busy periods"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam17_t4_l_q14",
+              "type": "multiple_choice",
+              "question": "What unexpected benefit did Dunwich Hotel notice after improving staff retention rates?",
+              "options": [
+                "A. a fall in customer complaints",
+                "B. an increase in loyalty club membership",
+                "C. a rise in spending per customer"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam17_t4_l_q15",
+              "type": "matching",
+              "question": "The Sun Club — which way of reducing staff turnover?",
+              "options": [
+                "A. improving relationships and teamwork",
+                "B. offering incentives and financial benefits",
+                "C. providing career opportunities"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam17_t4_l_q16",
+              "type": "matching",
+              "question": "The Portland — which way?",
+              "options": [
+                "A. improving relationships and teamwork",
+                "B. offering incentives and financial benefits",
+                "C. providing career opportunities"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam17_t4_l_q17",
+              "type": "matching",
+              "question": "Bluewater Hotels — which way?",
+              "options": [
+                "A. improving relationships and teamwork",
+                "B. offering incentives and financial benefits",
+                "C. providing career opportunities"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam17_t4_l_q18",
+              "type": "matching",
+              "question": "Pentlow Hotels — which way?",
+              "options": [
+                "A. improving relationships and teamwork",
+                "B. offering incentives and financial benefits",
+                "C. providing career opportunities"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam17_t4_l_q19",
+              "type": "matching",
+              "question": "Green Planet — which way?",
+              "options": [
+                "A. improving relationships and teamwork",
+                "B. offering incentives and financial benefits",
+                "C. providing career opportunities"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam17_t4_l_q20",
+              "type": "matching",
+              "question": "The Amesbury — which way?",
+              "options": [
+                "A. improving relationships and teamwork",
+                "B. offering incentives and financial benefits",
+                "C. providing career opportunities"
+              ],
+              "correctAnswer": "A"
+            }
+          ]
+        },
+        {
+          "id": "cam17_t4_l_p3",
+          "title": "History of sporting equipment",
+          "audioFile": "cam17_s15.mp3",
+          "questions": [
+            {
+              "id": "cam17_t4_l_q21",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO points do Thomas and Jeanne make about Thomas's sporting activities at school?",
+              "options": [
+                "A. He should have felt more positive.",
+                "B. The training was too challenging.",
+                "C. He could have worked harder at them.",
+                "D. His parents were disappointed in him.",
+                "E. His fellow students admired him."
+              ],
+              "correctAnswer": "C,E"
+            },
+            {
+              "id": "cam17_t4_l_q22",
+              "type": "multiple_choice_multi",
+              "question": "Q21 second option",
+              "options": [
+                "A. He should have felt more positive.",
+                "B. The training was too challenging.",
+                "C. He could have worked harder at them.",
+                "D. His parents were disappointed in him.",
+                "E. His fellow students admired him."
+              ],
+              "correctAnswer": "C,E"
+            },
+            {
+              "id": "cam17_t4_l_q23",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO feelings did Thomas experience when he was in Kenya?",
+              "options": [
+                "A. disbelief",
+                "B. relief",
+                "C. stress",
+                "D. gratitude",
+                "E. homesickness"
+              ],
+              "correctAnswer": "A,D"
+            },
+            {
+              "id": "cam17_t4_l_q24",
+              "type": "multiple_choice_multi",
+              "question": "Q23 second option",
+              "options": [
+                "A. disbelief",
+                "B. relief",
+                "C. stress",
+                "D. gratitude",
+                "E. homesickness"
+              ],
+              "correctAnswer": "A,D"
+            },
+            {
+              "id": "cam17_t4_l_q25",
+              "type": "matching",
+              "question": "the table tennis bat — what comment?",
+              "options": [
+                "A. could cause excessive sweating",
+                "B. material was mass produced for another purpose",
+                "C. people often needed to make their own",
+                "D. often had to be replaced",
+                "E. material was expensive",
+                "F. was unpopular among spectators",
+                "G. caused injuries",
+                "H. no one using it liked it at first"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam17_t4_l_q26",
+              "type": "matching",
+              "question": "the cricket helmet — what comment?",
+              "options": [
+                "A. could cause excessive sweating",
+                "B. material was mass produced for another purpose",
+                "C. people often needed to make their own",
+                "D. often had to be replaced",
+                "E. material was expensive",
+                "F. was unpopular among spectators",
+                "G. caused injuries",
+                "H. no one using it liked it at first"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam17_t4_l_q27",
+              "type": "matching",
+              "question": "the cycle helmet — what comment?",
+              "options": [
+                "A. could cause excessive sweating",
+                "B. material was mass produced for another purpose",
+                "C. people often needed to make their own",
+                "D. often had to be replaced",
+                "E. material was expensive",
+                "F. was unpopular among spectators",
+                "G. caused injuries",
+                "H. no one using it liked it at first"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam17_t4_l_q28",
+              "type": "matching",
+              "question": "the golf club — what comment?",
+              "options": [
+                "A. could cause excessive sweating",
+                "B. material was mass produced for another purpose",
+                "C. people often needed to make their own",
+                "D. often had to be replaced",
+                "E. material was expensive",
+                "F. was unpopular among spectators",
+                "G. caused injuries",
+                "H. no one using it liked it at first"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam17_t4_l_q29",
+              "type": "matching",
+              "question": "the hockey stick — what comment?",
+              "options": [
+                "A. could cause excessive sweating",
+                "B. material was mass produced for another purpose",
+                "C. people often needed to make their own",
+                "D. often had to be replaced",
+                "E. material was expensive",
+                "F. was unpopular among spectators",
+                "G. caused injuries",
+                "H. no one using it liked it at first"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam17_t4_l_q30",
+              "type": "matching",
+              "question": "the football — what comment?",
+              "options": [
+                "A. could cause excessive sweating",
+                "B. material was mass produced for another purpose",
+                "C. people often needed to make their own",
+                "D. often had to be replaced",
+                "E. material was expensive",
+                "F. was unpopular among spectators",
+                "G. caused injuries",
+                "H. no one using it liked it at first"
+              ],
+              "correctAnswer": "G"
+            }
+          ]
+        },
+        {
+          "id": "cam17_t4_l_p4",
+          "title": "Maple syrup",
+          "audioFile": "cam17_s16.mp3",
+          "questions": [
+            {
+              "id": "cam17_t4_l_q31",
+              "type": "form_completion",
+              "question": "colour described as 31. _____",
+              "options": [],
+              "correctAnswer": "golden"
+            },
+            {
+              "id": "cam17_t4_l_q32",
+              "type": "form_completion",
+              "question": "very 32. _____ compared to refined sugar",
+              "options": [],
+              "correctAnswer": "healthy"
+            },
+            {
+              "id": "cam17_t4_l_q33",
+              "type": "form_completion",
+              "question": "best growing conditions and 33. _____ are in Canada and North America",
+              "options": [],
+              "correctAnswer": "climate"
+            },
+            {
+              "id": "cam17_t4_l_q34",
+              "type": "form_completion",
+              "question": "used hot 34. _____ to heat the sap",
+              "options": [],
+              "correctAnswer": "rock(s)"
+            },
+            {
+              "id": "cam17_t4_l_q35",
+              "type": "form_completion",
+              "question": "Tree trunks may not have the correct 35. _____ until they have been growing for 40 years",
+              "options": [],
+              "correctAnswer": "diameter"
+            },
+            {
+              "id": "cam17_t4_l_q36",
+              "type": "form_completion",
+              "question": "A tap is drilled into the trunk and a 36. _____ carries the sap into a bucket",
+              "options": [],
+              "correctAnswer": "tube"
+            },
+            {
+              "id": "cam17_t4_l_q37",
+              "type": "form_completion",
+              "question": "Large pans of sap called evaporators are heated by means of a 37. _____",
+              "options": [],
+              "correctAnswer": "fire"
+            },
+            {
+              "id": "cam17_t4_l_q38",
+              "type": "form_completion",
+              "question": "A lot of 38. _____ is produced during the evaporation process",
+              "options": [],
+              "correctAnswer": "steam"
+            },
+            {
+              "id": "cam17_t4_l_q39",
+              "type": "form_completion",
+              "question": "'Sugar sand' is removed because it makes the syrup look 39. _____ and affects the taste",
+              "options": [],
+              "correctAnswer": "cloudy"
+            },
+            {
+              "id": "cam17_t4_l_q40",
+              "type": "form_completion",
+              "question": "A huge quantity of sap is needed to make a 40. _____ of maple syrup",
+              "options": [],
+              "correctAnswer": "litre / liter"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "totalQuestions": 40,
+  "sections": [
+    {
+      "id": "cam17_t1_l_p1",
+      "title": "Buckworth Conservation Group",
+      "audioFile": "cam17_s1.mp3",
+      "questions": [
+        {
+          "id": "cam17_t1_l_q1",
+          "type": "form_completion",
+          "question": "making sure the beach does not have 1. _____ on it",
+          "options": [],
+          "correctAnswer": "litter"
+        },
+        {
+          "id": "cam17_t1_l_q2",
+          "type": "form_completion",
+          "question": "no 2. _____",
+          "options": [],
+          "correctAnswer": "dogs"
+        },
+        {
+          "id": "cam17_t1_l_q3",
+          "type": "form_completion",
+          "question": "next task is taking action to attract 3. _____ to the place",
+          "options": [],
+          "correctAnswer": "insects"
+        },
+        {
+          "id": "cam17_t1_l_q4",
+          "type": "form_completion",
+          "question": "identifying types of 4. _____",
+          "options": [],
+          "correctAnswer": "butterflies"
+        },
+        {
+          "id": "cam17_t1_l_q5",
+          "type": "form_completion",
+          "question": "building a new 5. _____",
+          "options": [],
+          "correctAnswer": "wall"
+        },
+        {
+          "id": "cam17_t1_l_q6",
+          "type": "form_completion",
+          "question": "walk across the sands and reach the 6. _____",
+          "options": [],
+          "correctAnswer": "island"
+        },
+        {
+          "id": "cam17_t1_l_q7",
+          "type": "form_completion",
+          "question": "wear appropriate 7. _____",
+          "options": [],
+          "correctAnswer": "boots"
+        },
+        {
+          "id": "cam17_t1_l_q8",
+          "type": "form_completion",
+          "question": "suitable for 8. _____ to participate in",
+          "options": [],
+          "correctAnswer": "beginners"
+        },
+        {
+          "id": "cam17_t1_l_q9",
+          "type": "form_completion",
+          "question": "making 9. _____ out of wood",
+          "options": [],
+          "correctAnswer": "spoons"
+        },
+        {
+          "id": "cam17_t1_l_q10",
+          "type": "form_completion",
+          "question": "cost of session (no camping): 10. £ _____",
+          "options": [],
+          "correctAnswer": "35 / thirty five"
+        }
+      ]
+    },
+    {
+      "id": "cam17_t1_l_p2",
+      "title": "Boat trip round Tasmania",
+      "audioFile": "cam17_s2.mp3",
+      "questions": [
+        {
+          "id": "cam17_t1_l_q11",
+          "type": "multiple_choice",
+          "question": "What is the maximum number of people who can stand on each side of the boat?",
+          "options": [
+            "A. 9",
+            "B. 15",
+            "C. 18"
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "id": "cam17_t1_l_q12",
+          "type": "multiple_choice",
+          "question": "What colour are the tour boats?",
+          "options": [
+            "A. dark red",
+            "B. jet black",
+            "C. light green"
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "id": "cam17_t1_l_q13",
+          "type": "multiple_choice",
+          "question": "Which lunchbox is suitable for someone who doesn't eat meat or fish?",
+          "options": [
+            "A. Lunchbox 1",
+            "B. Lunchbox 2",
+            "C. Lunchbox 3"
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "id": "cam17_t1_l_q14",
+          "type": "multiple_choice",
+          "question": "What should people do with their litter?",
+          "options": [
+            "A. take it home",
+            "B. hand it to a member of staff",
+            "C. put it in the bins provided on the boat"
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "id": "cam17_t1_l_q15",
+          "type": "multiple_choice_multi",
+          "question": "Which TWO features of the lighthouse does Lou mention?",
+          "options": [
+            "A. why it was built",
+            "B. who built it",
+            "C. how long it took to build",
+            "D. who staffed it",
+            "E. what it was built with"
+          ],
+          "correctAnswer": "A,D"
+        },
+        {
+          "id": "cam17_t1_l_q16",
+          "type": "multiple_choice_multi",
+          "question": "Q15 second option",
+          "options": [
+            "A. why it was built",
+            "B. who built it",
+            "C. how long it took to build",
+            "D. who staffed it",
+            "E. what it was built with"
+          ],
+          "correctAnswer": "A,D"
+        },
+        {
+          "id": "cam17_t1_l_q17",
+          "type": "multiple_choice_multi",
+          "question": "Which TWO types of creature might come close to the boat?",
+          "options": [
+            "A. sea eagles",
+            "B. fur seals",
+            "C. dolphins",
+            "D. whales",
+            "E. penguins"
+          ],
+          "correctAnswer": "B,C"
+        },
+        {
+          "id": "cam17_t1_l_q18",
+          "type": "multiple_choice_multi",
+          "question": "Q17 second option",
+          "options": [
+            "A. sea eagles",
+            "B. fur seals",
+            "C. dolphins",
+            "D. whales",
+            "E. penguins"
+          ],
+          "correctAnswer": "B,C"
+        },
+        {
+          "id": "cam17_t1_l_q19",
+          "type": "multiple_choice_multi",
+          "question": "Which TWO points does Lou make about the caves?",
+          "options": [
+            "A. Only large tourist boats can visit them.",
+            "B. The entrances are often blocked.",
+            "C. It is too dangerous for individuals.",
+            "D. Someone will explain what is inside them.",
+            "E. They cannot be reached on foot."
+          ],
+          "correctAnswer": "D,E"
+        },
+        {
+          "id": "cam17_t1_l_q20",
+          "type": "multiple_choice_multi",
+          "question": "Q19 second option",
+          "options": [
+            "A. Only large tourist boats can visit them.",
+            "B. The entrances are often blocked.",
+            "C. It is too dangerous for individuals.",
+            "D. Someone will explain what is inside them.",
+            "E. They cannot be reached on foot."
+          ],
+          "correctAnswer": "D,E"
+        }
+      ]
+    },
+    {
+      "id": "cam17_t1_l_p3",
+      "title": "Work experience for veterinary science students",
+      "audioFile": "cam17_s3.mp3",
+      "questions": [
+        {
+          "id": "cam17_t1_l_q21",
+          "type": "multiple_choice",
+          "question": "What problem did both Diana and Tim have when arranging their work experience?",
+          "options": [
+            "A. making initial contact with suitable farms",
+            "B. organising transport to and from the farm",
+            "C. finding a placement for the required length of time"
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "id": "cam17_t1_l_q22",
+          "type": "multiple_choice",
+          "question": "Tim was pleased to be able to help",
+          "options": [
+            "A. a lamb that had a broken leg.",
+            "B. a sheep that was having difficulty giving birth.",
+            "C. a newly born lamb that was having trouble feeding."
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "id": "cam17_t1_l_q23",
+          "type": "multiple_choice",
+          "question": "Diana says the sheep on her farm",
+          "options": [
+            "A. were of various different varieties.",
+            "B. were mainly reared for their meat.",
+            "C. had better quality wool than sheep on the hills."
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "id": "cam17_t1_l_q24",
+          "type": "multiple_choice",
+          "question": "What did the students learn about adding supplements to chicken feed?",
+          "options": [
+            "A. These should only be given if specially needed.",
+            "B. It is worth paying extra for the most effective ones.",
+            "C. The amount given at one time should be limited."
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "id": "cam17_t1_l_q25",
+          "type": "multiple_choice",
+          "question": "What happened when Diana was working with dairy cows?",
+          "options": [
+            "A. She identified some cows incorrectly.",
+            "B. She accidentally threw some milk away.",
+            "C. She made a mistake when storing milk."
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "id": "cam17_t1_l_q26",
+          "type": "multiple_choice",
+          "question": "What did both farmers mention about vets and farming?",
+          "options": [
+            "A. Vets are failing to cope with some aspects of animal health.",
+            "B. There needs to be a fundamental change in the training of vets.",
+            "C. Some jobs could be done by the farmer rather than by a vet."
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "id": "cam17_t1_l_q27",
+          "type": "matching",
+          "question": "Medical terminology — what opinion?",
+          "options": [
+            "A. Tim found this easier than expected.",
+            "B. Tim thought this was not very clearly organised.",
+            "C. Diana may do some further study on this.",
+            "D. They both found the reading difficult.",
+            "E. Tim was shocked at something he learned.",
+            "F. They were both surprised how little is known."
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "id": "cam17_t1_l_q28",
+          "type": "matching",
+          "question": "Diet and nutrition — what opinion?",
+          "options": [
+            "A. Tim found this easier than expected.",
+            "B. Tim thought this was not very clearly organised.",
+            "C. Diana may do some further study on this.",
+            "D. They both found the reading difficult.",
+            "E. Tim was shocked at something he learned.",
+            "F. They were both surprised how little is known."
+          ],
+          "correctAnswer": "E"
+        },
+        {
+          "id": "cam17_t1_l_q29",
+          "type": "matching",
+          "question": "Animal disease — what opinion?",
+          "options": [
+            "A. Tim found this easier than expected.",
+            "B. Tim thought this was not very clearly organised.",
+            "C. Diana may do some further study on this.",
+            "D. They both found the reading difficult.",
+            "E. Tim was shocked at something he learned.",
+            "F. They were both surprised how little is known."
+          ],
+          "correctAnswer": "F"
+        },
+        {
+          "id": "cam17_t1_l_q30",
+          "type": "matching",
+          "question": "Wildlife medication — what opinion?",
+          "options": [
+            "A. Tim found this easier than expected.",
+            "B. Tim thought this was not very clearly organised.",
+            "C. Diana may do some further study on this.",
+            "D. They both found the reading difficult.",
+            "E. Tim was shocked at something he learned.",
+            "F. They were both surprised how little is known."
+          ],
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "id": "cam17_t1_l_p4",
+      "title": "Labyrinths",
+      "audioFile": "cam17_s4.mp3",
+      "questions": [
+        {
+          "id": "cam17_t1_l_q31",
+          "type": "form_completion",
+          "question": "Mazes are a type of 31. _____",
+          "options": [],
+          "correctAnswer": "puzzle"
+        },
+        {
+          "id": "cam17_t1_l_q32",
+          "type": "form_completion",
+          "question": "32. _____ is needed to navigate through a maze",
+          "options": [],
+          "correctAnswer": "logic"
+        },
+        {
+          "id": "cam17_t1_l_q33",
+          "type": "form_completion",
+          "question": "the word 'maze' is derived from a word meaning a feeling of 33. _____",
+          "options": [],
+          "correctAnswer": "confusion"
+        },
+        {
+          "id": "cam17_t1_l_q34",
+          "type": "form_completion",
+          "question": "they have frequently been used in 34. _____ and prayer",
+          "options": [],
+          "correctAnswer": "meditation"
+        },
+        {
+          "id": "cam17_t1_l_q35",
+          "type": "form_completion",
+          "question": "Ancient carvings on 35. _____ have been found across many cultures",
+          "options": [],
+          "correctAnswer": "stone"
+        },
+        {
+          "id": "cam17_t1_l_q36",
+          "type": "form_completion",
+          "question": "Ancient Greeks used the symbol on 36. _____",
+          "options": [],
+          "correctAnswer": "coins"
+        },
+        {
+          "id": "cam17_t1_l_q37",
+          "type": "form_completion",
+          "question": "The largest surviving example of a turf labyrinth once had a big 37. _____ at its centre",
+          "options": [],
+          "correctAnswer": "tree"
+        },
+        {
+          "id": "cam17_t1_l_q38",
+          "type": "form_completion",
+          "question": "walking a maze can reduce a person's 38. _____ rate",
+          "options": [],
+          "correctAnswer": "breathing"
+        },
+        {
+          "id": "cam17_t1_l_q39",
+          "type": "form_completion",
+          "question": "patients who can't walk can use 'finger labyrinths' made from 39. _____",
+          "options": [],
+          "correctAnswer": "paper"
+        },
+        {
+          "id": "cam17_t1_l_q40",
+          "type": "form_completion",
+          "question": "Alzheimer's sufferers experience less 40. _____",
+          "options": [],
+          "correctAnswer": "anxiety"
+        }
+      ]
+    }
+  ]
+}

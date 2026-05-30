@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Map: Changes to a Town Centre (Present Day vs Proposed)",
+    "prompt": "The map below shows the present-day layout of a town centre and a proposed plan for its redevelopment.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "wordLimit": 150,
+    "modelAnswer": ""
+  },
+  "task2": {
+    "title": "Opinion: Printed Books/Newspapers vs Online in the Future",
+    "prompt": "In the future, nobody will buy printed newspapers or books because they will be able to read everything they want online without paying.\n\nTo what extent do you agree or disagree with this statement?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordLimit": 250,
+    "modelAnswer": ""
+  },
+  "id": "cam15_test2"
+}

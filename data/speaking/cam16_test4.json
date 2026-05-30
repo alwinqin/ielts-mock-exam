@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "How often do you use technology?",
+      "followUp": "What device do you use most frequently?"
+    },
+    {
+      "question": "Is there any technology you used to use but no longer do?",
+      "followUp": "Why did you stop using it?"
+    },
+    {
+      "question": "How has technology changed your daily life?",
+      "followUp": "Do you think people rely too much on technology?"
+    },
+    {
+      "question": "What new technology do you find most exciting?",
+      "followUp": "Is there any technology you would like to try?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe some technology that you decided to stop using.",
+    "bulletPoints": [
+      "what the technology was",
+      "when and why you started using it",
+      "why you decided to stop using it",
+      "and explain how your life has changed since you stopped using it"
+    ],
+    "followUpQuestions": [
+      "Do you think people are becoming too dependent on technology?",
+      "What older technologies are making a comeback?",
+      "How can people reduce their screen time?",
+      "Is it better to adopt new technology quickly or wait?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam16_test4"
+}

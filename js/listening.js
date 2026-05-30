@@ -85,7 +85,9 @@ function playAudioForSection(sectionIndex) {
   const section = listeningTestData.sections[sectionIndex];
   if (!section) return;
 
-  const audioPath = `data/listening/audio/${section.audioFile || `${listeningTestData.id}_s${sectionIndex + 1}.mp3`}`;
+  const isCambridge = listeningTestData._source === 'cambridge' || listeningTestData.id.startsWith('cam');
+  const audioPrefix = isCambridge ? 'data/cambridge/audio/' : 'data/listening/audio/';
+  const audioPath = audioPrefix + (section.audioFile || `${listeningTestData.id}_s${sectionIndex + 1}.mp3`);
   listeningAudioEl.src = audioPath;
   listeningAudioEl.currentTime = 0;
   listeningAudioEl.play().catch(e => {
@@ -372,9 +374,84 @@ function renderListeningQuestionInput(q, qid, userAnswer, disabled) {
       });
       mcHtml += '</div>';
       return mcHtml;
+    case 'multiple_choice_multi':
+      return renderListeningCheckboxOptions(q, qid, userAnswer, disabled);
+    case 'tfng':
+      return renderListeningRadioOptions(q, qid, userAnswer, ['True', 'False', 'Not Given'], disabled);
+    case 'ynng':
+      return renderListeningRadioOptions(q, qid, userAnswer, ['YES', 'NO', 'NOT GIVEN'], disabled);
+    case 'matching_headings':
+    case 'matching_info':
+    case 'matching_sentence':
+    case 'matching_names':
+    case 'matching':
+      return renderListeningMatching(q, qid, userAnswer, disabled);
+    case 'sentence_completion':
+    case 'summary_completion':
+    case 'notes_completion':
+    case 'form_completion':
+    case 'short_answer':
+      return `<div class="options"><label class="option-label"><input type="text" value="${escapeHtml(userAnswer)}" onchange="saveListeningAnswer('${qid}', this.value)" placeholder="..." style="flex:1;padding:6px;" ${ds}></label></div>`;
     default:
       return `<div class="options"><label class="option-label"><input type="text" value="${escapeHtml(userAnswer)}" onchange="saveListeningAnswer('${qid}', this.value)" placeholder="..." style="flex:1;padding:6px;" ${ds}></label></div>`;
   }
+}
+
+function renderListeningRadioOptions(q, qid, userAnswer, options, disabled) {
+  const ds = disabled ? 'disabled' : '';
+  let html = '<div class="options">';
+  options.forEach(opt => {
+    const sel = userAnswer === opt;
+    html += `<label class="option-label ${sel ? 'selected' : ''}"><input type="radio" name="lq_${qid}" value="${escapeHtml(opt)}" ${sel ? 'checked' : ''} onchange="saveListeningAnswer('${qid}', this.value)" ${ds}>${escapeHtml(opt)}</label>`;
+  });
+  html += '</div>';
+  return html;
+}
+
+function renderListeningCheckboxOptions(q, qid, userAnswer, disabled) {
+  const ds = disabled ? 'disabled' : '';
+  const selected = (userAnswer || '').split(',').map(s => s.trim()).filter(Boolean);
+  let html = '<div class="options">';
+  (q.options || []).forEach(opt => {
+    const checked = selected.includes(opt);
+    html += `<label class="option-label checkbox-label ${checked ? 'selected' : ''}"><input type="checkbox" name="lq_${qid}" value="${escapeHtml(opt)}" ${checked ? 'checked' : ''} onchange="saveListeningCheckboxAnswer('${qid}')" ${ds}>${escapeHtml(opt)}</label>`;
+  });
+  html += '</div>';
+  return html;
+}
+
+function renderListeningMatching(q, qid, userAnswer, disabled) {
+  const ds = disabled ? 'disabled' : '';
+  let html = '<div class="options">';
+  html += `<select class="matching-select" onchange="saveListeningAnswer('${escapeHtml(qid)}', this.value)" style="padding:6px;border:1px solid #ccc;border-radius:4px;width:100%;" ${ds}>`;
+  html += `<option value="">${t('selectAll')}</option>`;
+  (q.options || []).forEach(opt => {
+    const sel = userAnswer === opt;
+    html += `<option value="${escapeHtml(opt)}" ${sel ? 'selected' : ''}>${escapeHtml(opt)}</option>`;
+  });
+  html += '</select></div>';
+  return html;
+}
+
+function saveListeningCheckboxAnswer(qid) {
+  if (listeningSubPhase === 'preview' || listeningSubPhase === 'section_end') return;
+  const checked = [];
+  document.querySelectorAll(`input[name="lq_${qid}"]:checked`).forEach(cb => {
+    checked.push(cb.value);
+  });
+  const value = checked.join(', ');
+  listeningAnswers[qid] = value;
+  saveListeningAnswers(listeningTestData.id, listeningAnswers);
+  const qi = document.getElementById(`lq-${qid}`);
+  if (qi) {
+    if (value) qi.classList.add('answered');
+    else qi.classList.remove('answered');
+  }
+  document.querySelectorAll(`#lq-${qid} .checkbox-label`).forEach(l => {
+    const cb = l.querySelector('input[type="checkbox"]');
+    l.classList.toggle('selected', cb && cb.checked);
+  });
+  updateListeningProgress();
 }
 
 function updateListeningProgress() {
@@ -572,7 +649,14 @@ function listeningSubmitExam(isAuto) {
   listeningAllQuestions.forEach((q, idx) => {
     const userAns = (listeningAnswers[q.id] || '').trim().toLowerCase();
     const correctAns = (q.correctAnswer || '').trim().toLowerCase();
-    const isCorrect = userAns === correctAns;
+    let isCorrect;
+    if (q.type === 'multiple_choice_multi') {
+      const userParts = userAns.split(',').map(s => s.trim()).filter(Boolean).sort();
+      const correctParts = correctAns.split(',').map(s => s.trim()).filter(Boolean).sort();
+      isCorrect = userParts.length === correctParts.length && userParts.every((v, i) => v === correctParts[i]);
+    } else {
+      isCorrect = userAns === correctAns;
+    }
     if (isCorrect) correct++;
     else {
       wrongItems.push({

@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "Do you live in a city or a village?",
+      "followUp": "What do you like most about where you live?"
+    },
+    {
+      "question": "How do you usually get around?",
+      "followUp": "What is the public transport like in your area?"
+    },
+    {
+      "question": "Do you enjoy walking?",
+      "followUp": "Where do you like to go for a walk?"
+    },
+    {
+      "question": "How important is exercise to you?",
+      "followUp": "What kind of exercise do you do regularly?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a place in your hometown that has changed a lot.",
+    "bulletPoints": [
+      "what place it is",
+      "what it used to be like",
+      "how it has changed",
+      "and explain whether you think the changes are positive or negative"
+    ],
+    "followUpQuestions": [
+      "Why do cities change so quickly?",
+      "Do you think it is important to preserve historical buildings?",
+      "How can city planners balance development and preservation?",
+      "What will cities look like in 50 years?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam17_test2"
+}

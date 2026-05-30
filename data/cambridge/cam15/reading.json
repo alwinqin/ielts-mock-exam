@@ -1,0 +1,1921 @@
+{
+  "id": "cam15",
+  "title": "Cambridge IELTS 15 Academic Reading",
+  "tests": [
+    {
+      "id": "cam15_test1",
+      "testNumber": 1,
+      "passages": [
+        {
+          "id": "cam15_t1_p1",
+          "title": "Nutmeg - a valuable spice",
+          "text": "Nutmeg was once one of the most valuable commodities in the world, prized for its distinctive flavour and medicinal properties. The nutmeg tree, Myristica fragrans, is native to the Banda Islands in Indonesia, which were the world's sole source of this precious spice for centuries. The fruit of the tree contains both nutmeg (the seed) and mace (the aril surrounding the seed), making it a uniquely dual-purpose spice. European explorers and traders, particularly the Portuguese, Dutch, and British, competed fiercely for control of the nutmeg trade, with the Dutch East India Company eventually establishing a brutal monopoly.\n\nThe Dutch employed extreme measures to maintain their monopoly, including limiting cultivation to a few islands and destroying nutmeg trees in other locations. They also engaged in violent conflict with the indigenous population and rival European powers. The value of nutmeg was so great that it drove expeditions, shaped colonial policies, and influenced the course of European history. The spice was believed to have medicinal benefits, including the ability to treat stomach ailments and, during the plague, was thought to offer protection against infection.\n\nUltimately, the Dutch monopoly was broken when nutmeg trees were successfully transplanted to other locations, including Grenada and Mauritius. The value of nutmeg declined significantly as supply increased and competition grew. Today, nutmeg is a common household spice, but its remarkable history as a driver of global exploration and colonial ambition remains one of the most fascinating chapters in the story of the spice trade.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam15_t1_r_q1",
+              "type": "notes_completion",
+              "question": "The fruit of the nutmeg tree is 1. _____ in shape",
+              "options": [],
+              "correctAnswer": "oval"
+            },
+            {
+              "id": "cam15_t1_r_q2",
+              "type": "notes_completion",
+              "question": "The outer covering of the fruit is called the 2. _____",
+              "options": [],
+              "correctAnswer": "husk"
+            },
+            {
+              "id": "cam15_t1_r_q3",
+              "type": "notes_completion",
+              "question": "The 3. _____ of the fruit produces nutmeg",
+              "options": [],
+              "correctAnswer": "seed"
+            },
+            {
+              "id": "cam15_t1_r_q4",
+              "type": "notes_completion",
+              "question": "The spice 4. _____ comes from the covering of the nutmeg seed",
+              "options": [],
+              "correctAnswer": "mace"
+            },
+            {
+              "id": "cam15_t1_r_q5",
+              "type": "tfng",
+              "question": "The Portuguese were the first Europeans to control the nutmeg trade.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "FALSE"
+            },
+            {
+              "id": "cam15_t1_r_q6",
+              "type": "tfng",
+              "question": "Nutmeg was believed to be effective against certain diseases.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            },
+            {
+              "id": "cam15_t1_r_q7",
+              "type": "tfng",
+              "question": "The Dutch destroyed nutmeg trees on islands they did not control.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "TRUE"
+            },
+            {
+              "id": "cam15_t1_r_q8",
+              "type": "table_completion",
+              "question": "8. _____ traders controlled the supply of nutmeg in the 17th century",
+              "options": [],
+              "correctAnswer": "Arabs"
+            },
+            {
+              "id": "cam15_t1_r_q9",
+              "type": "table_completion",
+              "question": "Nutmeg was believed to be a cure for the 9. _____",
+              "options": [],
+              "correctAnswer": "plague"
+            },
+            {
+              "id": "cam15_t1_r_q10",
+              "type": "table_completion",
+              "question": "The Dutch used 10. _____ to treat the nutmeg seed before export",
+              "options": [],
+              "correctAnswer": "lime"
+            },
+            {
+              "id": "cam15_t1_r_q11",
+              "type": "table_completion",
+              "question": "The ship '11. _____' carried nutmeg trees from the Banda Islands",
+              "options": [],
+              "correctAnswer": "Run"
+            },
+            {
+              "id": "cam15_t1_r_q12",
+              "type": "table_completion",
+              "question": "Nutmeg trees were successfully grown on the island of 12. _____",
+              "options": [],
+              "correctAnswer": "Mauritius"
+            },
+            {
+              "id": "cam15_t1_r_q13",
+              "type": "table_completion",
+              "question": "The decline in nutmeg's value was accelerated by a 13. _____",
+              "options": [],
+              "correctAnswer": "tsunami"
+            }
+          ]
+        },
+        {
+          "id": "cam15_t1_p2",
+          "title": "Driverless cars",
+          "text": "The development of autonomous vehicles represents one of the most significant technological transformations in modern transportation. Driverless cars rely on a combination of sensors, cameras, radar, and artificial intelligence to navigate roads without human input. The potential benefits are substantial: the vast majority of road accidents are caused by human error, so removing the human driver could dramatically reduce collisions, injuries, and fatalities. Autonomous vehicles could also provide mobility for the elderly, disabled, and those too young to drive, while potentially reducing traffic congestion and emissions through more efficient driving patterns.\n\nHowever, the path to widespread adoption of driverless cars faces numerous challenges. Technical hurdles include navigating complex and unpredictable environments, handling adverse weather conditions, and ensuring the reliability of safety-critical systems. Legal and regulatory frameworks need to be developed to determine liability in the event of accidents and to establish safety standards. Ethical questions also arise, such as how autonomous vehicles should be programmed to make decisions in unavoidable crash scenarios. The transition period, when autonomous and human-driven vehicles share the roads, presents additional complexities.\n\nThe social and economic implications of driverless cars are far-reaching. Industries such as insurance, taxi services, and freight transportation would be transformed. The concept of car ownership itself might shift, with people potentially opting for shared autonomous vehicle services rather than owning private cars. Urban planning could change, with reduced need for parking spaces in city centres. While the promise of driverless technology is immense, the timeline for full autonomy remains uncertain, with experts disagreeing on when truly self-driving vehicles will become commonplace on public roads.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam15_t1_r_q14",
+              "type": "matching_info",
+              "question": "how autonomous vehicles could help those who cannot drive",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam15_t1_r_q15",
+              "type": "matching_info",
+              "question": "a reference to the challenge of sharing roads with human drivers",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam15_t1_r_q16",
+              "type": "matching_info",
+              "question": "the potential financial benefits of autonomous vehicles",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam15_t1_r_q17",
+              "type": "matching_info",
+              "question": "the variety of technologies that work together in driverless cars",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "G"
+            },
+            {
+              "id": "cam15_t1_r_q18",
+              "type": "matching_info",
+              "question": "the need for new laws to govern autonomous vehicles",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam15_t1_r_q19",
+              "type": "summary_completion",
+              "question": "The most significant benefit of driverless cars is the reduction of 19. _____",
+              "options": [],
+              "correctAnswer": "human error"
+            },
+            {
+              "id": "cam15_t1_r_q20",
+              "type": "summary_completion",
+              "question": "People may choose services based on 20. _____ rather than owning vehicles",
+              "options": [],
+              "correctAnswer": "car-sharing"
+            },
+            {
+              "id": "cam15_t1_r_q21",
+              "type": "summary_completion",
+              "question": "The concept of 21. _____ itself may change",
+              "options": [],
+              "correctAnswer": "ownership"
+            },
+            {
+              "id": "cam15_t1_r_q22",
+              "type": "summary_completion",
+              "question": "Autonomous driving patterns could reduce fuel consumption and 22. _____",
+              "options": [],
+              "correctAnswer": "mileage"
+            },
+            {
+              "id": "cam15_t1_r_q23",
+              "type": "multiple_choice",
+              "question": "Which TWO benefits of driverless cars are mentioned?\nA. reduced parking space requirements\nB. lower vehicle manufacturing costs\nC. fewer road accidents\nD. increased mobility for non-drivers\nE. elimination of traffic congestion",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam15_t1_r_q24",
+              "type": "multiple_choice",
+              "question": "Which TWO benefits of driverless cars are mentioned?\nA. reduced parking space requirements\nB. lower vehicle manufacturing costs\nC. fewer road accidents\nD. increased mobility for non-drivers\nE. elimination of traffic congestion",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam15_t1_r_q25",
+              "type": "multiple_choice",
+              "question": "Which TWO challenges to the adoption of driverless cars are mentioned?\nA. ethical dilemmas about decision-making\nB. lack of public interest\nC. insufficient battery technology\nD. high cost of sensors\nE. difficulty handling bad weather",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam15_t1_r_q26",
+              "type": "multiple_choice",
+              "question": "Which TWO challenges to the adoption of driverless cars are mentioned?\nA. ethical dilemmas about decision-making\nB. lack of public interest\nC. insufficient battery technology\nD. high cost of sensors\nE. difficulty handling bad weather",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "correctAnswer": "E"
+            }
+          ]
+        },
+        {
+          "id": "cam15_t1_p3",
+          "title": "What is exploration?",
+          "text": "The word 'exploration' traditionally conjures images of intrepid adventurers setting foot in uncharted territories - remote jungles, polar ice caps, or the surface of the moon. This classical view of exploration emphasises physical discovery, of going where no one has gone before. However, the passage challenges readers to reconsider this narrow definition. It questions whether exploration necessarily requires geographical discovery, or whether it can encompass the pursuit of knowledge and understanding in any domain. The author argues that true exploration involves pushing the boundaries of human knowledge, whether through scientific research, intellectual inquiry, or personal growth.\n\nThe passage examines different perspectives on what constitutes genuine exploration. Some argue that in an age where every corner of the globe has supposedly been mapped, the age of exploration is over. Others contend that exploration continues in new forms - deep ocean research, space exploration, advances in medicine, and the study of human consciousness. The author explores the motivations behind exploration, from simple curiosity and the desire for adventure to commercial opportunity and national prestige. The relationship between exploration and tourism is also examined, with the question of whether travelling to well-known destinations can ever be considered true exploration.\n\nThe text also considers the personalities and characteristics of famous explorers throughout history, examining what drove them to undertake dangerous journeys into the unknown. It reflects on the tension between the romantic ideal of exploration and its often harsh reality, including the physical dangers, the impact on indigenous populations, and the complex legacies that explorers leave behind. Ultimately, the passage invites readers to form their own understanding of what it means to explore, suggesting that the spirit of exploration may be more about mindset and attitude than about geographical location.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam15_t1_r_q27",
+              "type": "multiple_choice",
+              "question": "Question 27: Choose the correct letter, A, B, C or D.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam15_t1_r_q28",
+              "type": "multiple_choice",
+              "question": "Question 28: Choose the correct letter, A, B, C or D.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam15_t1_r_q29",
+              "type": "multiple_choice",
+              "question": "Question 29: Choose the correct letter, A, B, C or D.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam15_t1_r_q30",
+              "type": "multiple_choice",
+              "question": "Question 30: Choose the correct letter, A, B, C or D.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam15_t1_r_q31",
+              "type": "multiple_choice",
+              "question": "Question 31: Choose the correct letter, A, B, C or D.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam15_t1_r_q32",
+              "type": "multiple_choice",
+              "question": "Question 32: Choose the correct letter, A, B, C or D.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam15_t1_r_q33",
+              "type": "matching_names",
+              "question": "who believed exploration involves immersing oneself in a foreign culture",
+              "options": [
+                "A. Peter Fleming",
+                "B. Ran Fiennes",
+                "C. Sara Wheeler",
+                "D. Robin Hanbury-Tenison",
+                "E. Wilfred Thesiger"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam15_t1_r_q34",
+              "type": "matching_names",
+              "question": "who warned against mistaking travel for genuine exploration",
+              "options": [
+                "A. Peter Fleming",
+                "B. Ran Fiennes",
+                "C. Sara Wheeler",
+                "D. Robin Hanbury-Tenison",
+                "E. Wilfred Thesiger"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam15_t1_r_q35",
+              "type": "matching_names",
+              "question": "who argued that exploration requires purpose and planning",
+              "options": [
+                "A. Peter Fleming",
+                "B. Ran Fiennes",
+                "C. Sara Wheeler",
+                "D. Robin Hanbury-Tenison",
+                "E. Wilfred Thesiger"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam15_t1_r_q36",
+              "type": "matching_names",
+              "question": "whose exploration was driven by a desire to document disappearing ways of life",
+              "options": [
+                "A. Peter Fleming",
+                "B. Ran Fiennes",
+                "C. Sara Wheeler",
+                "D. Robin Hanbury-Tenison",
+                "E. Wilfred Thesiger"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam15_t1_r_q37",
+              "type": "matching_names",
+              "question": "who thought exploration was primarily about personal challenge",
+              "options": [
+                "A. Peter Fleming",
+                "B. Ran Fiennes",
+                "C. Sara Wheeler",
+                "D. Robin Hanbury-Tenison",
+                "E. Wilfred Thesiger"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam15_t1_r_q38",
+              "type": "summary_completion",
+              "question": "Some believe that undertaking 38. _____ to remote places qualifies as exploration",
+              "options": [],
+              "correctAnswer": "expeditions"
+            },
+            {
+              "id": "cam15_t1_r_q39",
+              "type": "summary_completion",
+              "question": "Geniune exploration can involve studying 39. _____ peoples and their cultures",
+              "options": [],
+              "correctAnswer": "uncontacted"
+            },
+            {
+              "id": "cam15_t1_r_q40",
+              "type": "summary_completion",
+              "question": "Others argue that you cannot call something exploration when the entire 40. _____ has already been mapped",
+              "options": [],
+              "correctAnswer": "(land) surface"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cam15_test2",
+      "testNumber": 2,
+      "passages": [
+        {
+          "id": "cam15_t2_p1",
+          "title": "Could Urban Engineers Learn from Dance?",
+          "text": "This article proposes that urban planners and engineers could gain valuable insights from the principles of dance and choreography. The central idea is that dance involves the coordinated movement of bodies through space, responding to rhythm, each other, and the environment - concepts that have direct parallels in how people move through urban spaces. The author argues that cities designed purely for efficiency, with a focus on vehicle traffic and rigid infrastructure, often fail to accommodate the natural flow of human movement and social interaction. By studying how dancers move in relation to each other and their surroundings, engineers might learn to create urban environments that feel more intuitive and harmonious.\n\nThe passage explores specific ways in which choreographic principles could be applied to urban design. For example, the concept of 'ensemble' in dance - where individual performers adjust their movements in relation to the group - could inform the design of intersections and public spaces where pedestrians, cyclists, and vehicles interact. The timing and rhythm that are fundamental to dance could help engineers think about traffic flow and pedestrian movement in new ways. The piece also discusses how the work of specific choreographers and dance companies has inspired architectural and urban design projects.\n\nThe article also acknowledges the limitations of this approach. Urban engineering deals with variables that dance does not, such as infrastructure costs, safety regulations, and the needs of diverse populations. The author does not suggest that dance provides a complete solution, but rather that it offers a fresh perspective that can complement traditional engineering approaches. By incorporating principles of flow, rhythm, and coordination from dance, urban spaces might become more pleasant, efficient, and responsive to the people who use them.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam15_t2_r_q1",
+              "type": "matching_info",
+              "question": "a description of how dance movements relate to urban planning concepts",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam15_t2_r_q2",
+              "type": "matching_info",
+              "question": "how the idea of ensemble performance could improve intersection design",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam15_t2_r_q3",
+              "type": "matching_info",
+              "question": "the limitations of applying dance principles to engineering problems",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam15_t2_r_q4",
+              "type": "matching_info",
+              "question": "an example of a dance company that inspired an architectural project",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam15_t2_r_q5",
+              "type": "matching_info",
+              "question": "how studying dance can change engineers' thinking about city spaces",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam15_t2_r_q6",
+              "type": "matching_info",
+              "question": "the suggestion that current approaches to urban design are too rigid",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam15_t2_r_q7",
+              "type": "sentence_completion",
+              "question": "One benefit of applying dance principles to urban design is improved pedestrian 7. _____",
+              "options": [],
+              "correctAnswer": "Safety"
+            },
+            {
+              "id": "cam15_t2_r_q8",
+              "type": "sentence_completion",
+              "question": "Dance concepts could help reduce 8. _____ congestion in city centres",
+              "options": [],
+              "correctAnswer": "Traffic"
+            },
+            {
+              "id": "cam15_t2_r_q9",
+              "type": "sentence_completion",
+              "question": "The design of the 9. _____ should consider how people naturally move through a space",
+              "options": [],
+              "correctAnswer": "Carriageway"
+            },
+            {
+              "id": "cam15_t2_r_q10",
+              "type": "sentence_completion",
+              "question": "Dancers adjust their movements in response to each other - a concept that relates to 10. _____ phone use while walking",
+              "options": [],
+              "correctAnswer": "Mobile"
+            },
+            {
+              "id": "cam15_t2_r_q11",
+              "type": "sentence_completion",
+              "question": "Without careful design, certain urban spaces can become 11. _____ for pedestrians",
+              "options": [],
+              "correctAnswer": "Dangerous"
+            },
+            {
+              "id": "cam15_t2_r_q12",
+              "type": "sentence_completion",
+              "question": "Dance-inspired design could help strengthen local 12. _____",
+              "options": [],
+              "correctAnswer": "Communities"
+            },
+            {
+              "id": "cam15_t2_r_q13",
+              "type": "sentence_completion",
+              "question": "Urban planners should aim to create environments that are both functional and 13. _____",
+              "options": [],
+              "correctAnswer": "Healthy"
+            }
+          ]
+        },
+        {
+          "id": "cam15_t2_p2",
+          "title": "Should We Try to Bring Extinct Species Back to Life?",
+          "text": "De-extinction - the process of resurrecting species that have died out - was once the stuff of science fiction, but advances in genetic technology have made it a serious scientific possibility. The passage examines the arguments for and against bringing back extinct species such as the woolly mammoth, the passenger pigeon, and the Tasmanian tiger. Proponents argue that de-extinction could restore biodiversity, repair damaged ecosystems, and correct past human-caused extinctions. They also suggest that the technologies developed for de-extinction could aid in the conservation of currently endangered species. The scientific challenges are considerable, involving the reconstruction of ancient genomes, cloning, and the ethical question of where resurrected animals would live.\n\nCritics of de-extinction raise several objections. They argue that the considerable financial resources required would be better spent on preventing the extinction of living species, many of which are critically endangered. Furthermore, even if scientists could recreate the genetic blueprint of an extinct species, the resulting animals would lack the learned behaviours, social structures, and ecological context of their ancestors. There are also concerns about animal welfare, as the first resurrected individuals might suffer from health problems or struggle to adapt to modern environments that differ significantly from their historical habitats.\n\nThe passage presents the views of several scientists working in this field. Some are optimistic, pointing to successful examples of genetic rescue in endangered species and the potential for de-extinction to capture the public imagination and galvanise conservation efforts. Others are more cautious, emphasising the complexity of ecosystems and the unpredictable consequences of reintroducing long-extinct species. The debate ultimately reflects deeper questions about humanity's relationship with nature, our responsibility for past extinctions, and how we should approach emerging biotechnologies.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam15_t2_r_q14",
+              "type": "matching_info",
+              "question": "the argument that de-extinction technology could help endangered species",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam15_t2_r_q15",
+              "type": "matching_info",
+              "question": "the view that the money spent on de-extinction could be used more productively elsewhere",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam15_t2_r_q16",
+              "type": "matching_info",
+              "question": "the idea that resurrected animals might struggle in today's environment",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam15_t2_r_q17",
+              "type": "matching_info",
+              "question": "an example of genetic rescue already being used successfully",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam15_t2_r_q18",
+              "type": "summary_completion",
+              "question": "the animal's distinctive 18. _____",
+              "options": [],
+              "correctAnswer": "genetic traits"
+            },
+            {
+              "id": "cam15_t2_r_q19",
+              "type": "summary_completion",
+              "question": "adaptations that helped minimise 19. _____",
+              "options": [],
+              "correctAnswer": "heat loss"
+            },
+            {
+              "id": "cam15_t2_r_q20",
+              "type": "summary_completion",
+              "question": "the size and shape of their 20. _____",
+              "options": [],
+              "correctAnswer": "ears"
+            },
+            {
+              "id": "cam15_t2_r_q21",
+              "type": "summary_completion",
+              "question": "the presence of 21. _____ beneath the skin",
+              "options": [],
+              "correctAnswer": "insulating fat"
+            },
+            {
+              "id": "cam15_t2_r_q22",
+              "type": "summary_completion",
+              "question": "reducing 22. _____ through improved digestion",
+              "options": [],
+              "correctAnswer": "emissions"
+            },
+            {
+              "id": "cam15_t2_r_q23",
+              "type": "matching_names",
+              "question": "emphasised the importance of public engagement in de-extinction projects",
+              "options": [
+                "A. Ben Novak",
+                "B. Michael Archer",
+                "C. Beth Shapiro",
+                "D. George Church",
+                "E. Svante Paabo"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam15_t2_r_q24",
+              "type": "matching_names",
+              "question": "expressed concern about the ecological risks of reintroducing extinct species",
+              "options": [
+                "A. Ben Novak",
+                "B. Michael Archer",
+                "C. Beth Shapiro",
+                "D. George Church",
+                "E. Svante Paabo"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam15_t2_r_q25",
+              "type": "matching_names",
+              "question": "highlighted the technological breakthroughs that have made de-extinction possible",
+              "options": [
+                "A. Ben Novak",
+                "B. Michael Archer",
+                "C. Beth Shapiro",
+                "D. George Church",
+                "E. Svante Paabo"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam15_t2_r_q26",
+              "type": "matching_names",
+              "question": "argued that de-extinction should not distract from current conservation needs",
+              "options": [
+                "A. Ben Novak",
+                "B. Michael Archer",
+                "C. Beth Shapiro",
+                "D. George Church",
+                "E. Svante Paabo"
+              ],
+              "correctAnswer": "C"
+            }
+          ]
+        },
+        {
+          "id": "cam15_t2_p3",
+          "title": "Having a Laugh",
+          "text": "Laughter is a universal human behaviour that plays a far more significant role in social interaction than is commonly recognised. The passage examines the scientific study of laughter and humour, exploring what makes things funny and why laughter evolved. Research suggests that laughter serves important social functions, including bonding between individuals, signalling shared understanding, and defusing tension in group situations. Far from being a trivial or frivolous activity, laughter appears to be deeply embedded in human communication and social organisation. Brain imaging studies have shown that laughter activates areas of the brain associated with reward, emotion, and social cognition.\n\nThe passage also explores the evolutionary origins of laughter. While humans are the only species that produces laughter in the complex social contexts that characterise humour, other animals, particularly primates and rats, produce vocalisations during social play that resemble laughter. This suggests that the evolutionary roots of laughter lie in play behaviour and social bonding. The text discusses how laughter in humans has evolved from these origins into a sophisticated social tool that can convey complex information about relationships, status, and emotional states. The ability to produce and appreciate humour is closely tied to cognitive development and social intelligence.\n\nThe article examines different types of humour and their effects on individuals and groups. It considers why some people find certain things funny while others do not, and how humour styles relate to personality and social position. The research indicates that laughter in conversation is much more about social signalling than about responding to jokes - people laugh more in social situations than when alone, and laughter is often used to smooth interactions and express agreement or affiliation. The passage concludes by considering the health benefits of laughter, including its effects on stress reduction, immune function, and pain tolerance.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam15_t2_r_q27",
+              "type": "multiple_choice",
+              "question": "Question 27: Choose the correct letter, A, B, C or D.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam15_t2_r_q28",
+              "type": "multiple_choice",
+              "question": "Question 28: Choose the correct letter, A, B, C or D.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam15_t2_r_q29",
+              "type": "multiple_choice",
+              "question": "Question 29: Choose the correct letter, A, B, C or D.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam15_t2_r_q30",
+              "type": "multiple_choice",
+              "question": "Question 30: Choose the correct letter, A, B, C or D.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam15_t2_r_q31",
+              "type": "multiple_choice",
+              "question": "Question 31: Choose the correct letter, A, B, C or D.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam15_t2_r_q32",
+              "type": "summary_completion",
+              "question": "Laughter is often linked to the experience of 32. _____",
+              "options": [
+                "A. unexpected",
+                "B. emotional",
+                "C. boring",
+                "D. anxiety",
+                "E. stimulating",
+                "F. emotion",
+                "G. surprise",
+                "H. amusing",
+                "I. connection"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam15_t2_r_q33",
+              "type": "summary_completion",
+              "question": "The quality of being 33. _____ is what makes humour effective",
+              "options": [
+                "A. unexpected",
+                "B. emotional",
+                "C. boring",
+                "D. anxiety",
+                "E. stimulating",
+                "F. emotion",
+                "G. surprise",
+                "H. amusing",
+                "I. connection"
+              ],
+              "correctAnswer": "H"
+            },
+            {
+              "id": "cam15_t2_r_q34",
+              "type": "summary_completion",
+              "question": "Some researchers argue that a 34. _____ joke cannot be truly funny",
+              "options": [
+                "A. unexpected",
+                "B. emotional",
+                "C. boring",
+                "D. anxiety",
+                "E. stimulating",
+                "F. emotion",
+                "G. surprise",
+                "H. amusing",
+                "I. connection"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam15_t2_r_q35",
+              "type": "summary_completion",
+              "question": "Humour can serve as a way to cope with feelings of 35. _____",
+              "options": [
+                "A. unexpected",
+                "B. emotional",
+                "C. boring",
+                "D. anxiety",
+                "E. stimulating",
+                "F. emotion",
+                "G. surprise",
+                "H. amusing",
+                "I. connection"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam15_t2_r_q36",
+              "type": "summary_completion",
+              "question": "People often find 36. _____ situations to be the most humorous",
+              "options": [
+                "A. unexpected",
+                "B. emotional",
+                "C. boring",
+                "D. anxiety",
+                "E. stimulating",
+                "F. emotion",
+                "G. surprise",
+                "H. amusing",
+                "I. connection"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam15_t2_r_q37",
+              "type": "ynng",
+              "question": "Laughter is primarily a response to jokes and humour.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            },
+            {
+              "id": "cam15_t2_r_q38",
+              "type": "ynng",
+              "question": "The ability to laugh evolved from social play behaviour in animals.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "YES"
+            },
+            {
+              "id": "cam15_t2_r_q39",
+              "type": "ynng",
+              "question": "People who laugh frequently tend to have more friends.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NO"
+            },
+            {
+              "id": "cam15_t2_r_q40",
+              "type": "ynng",
+              "question": "Laughter has measurable physiological benefits.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cam15_test3",
+      "testNumber": 3,
+      "passages": [
+        {
+          "id": "cam15_t3_p1",
+          "title": "Henry Moore (1898-1986)",
+          "text": "Henry Moore was one of the most influential British sculptors of the twentieth century. Born in Castleford, Yorkshire, in 1898, he was the seventh child of a coal miner. After serving in World War I, Moore studied at the Leeds School of Art and later at the Royal College of Art in London. His early work was influenced by pre-Columbian art, African sculpture, and the work of artists such as Picasso and Brancusi. Moore developed a distinctive style characterised by abstract, organic forms that often evoked the human body, particularly the reclining female figure. His sculptures frequently featured holes and voids, creating a dynamic relationship between solid mass and empty space.\n\nMoore's career rose to prominence in the post-war period, when he received numerous major commissions for public spaces. His works can be found in cities around the world, from London's Westminster Abbey to the grounds of the United Nations in New York. He also produced a significant body of drawings, including his famous 'Shelter Drawings' depicting Londoners sheltering in Tube stations during the Blitz. Moore's approach to materials was innovative; he worked directly with stone, wood, bronze, and other materials, developing techniques that allowed him to express his vision of organic abstraction. His large-scale bronze sculptures became particularly famous for their monumental presence and their ability to engage with the surrounding landscape.\n\nThe passage also discusses Moore's artistic philosophy and his approach to education. He was a dedicated teacher at the Royal College of Art and later at the Chelsea School of Art, where he influenced a generation of British sculptors. Moore was deeply interested in the relationship between sculpture and nature, often placing his works outdoors where they could interact with natural light and the changing environment. His legacy includes not only his vast body of work but also the Henry Moore Foundation, which continues to promote sculpture and support artists. Moore's death in 1986 marked the end of an era, but his influence on modern sculpture remains profound.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam15_t3_r_q1",
+              "type": "tfng",
+              "question": "Henry Moore's father worked as a coal miner.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "TRUE"
+            },
+            {
+              "id": "cam15_t3_r_q2",
+              "type": "tfng",
+              "question": "Moore was influenced by ancient Greek sculpture.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "FALSE"
+            },
+            {
+              "id": "cam15_t3_r_q3",
+              "type": "tfng",
+              "question": "Moore's 'Shelter Drawings' were commissioned by the government.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            },
+            {
+              "id": "cam15_t3_r_q4",
+              "type": "tfng",
+              "question": "Moore is known for including empty spaces in his sculptures.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "TRUE"
+            },
+            {
+              "id": "cam15_t3_r_q5",
+              "type": "tfng",
+              "question": "Moore preferred bronze over all other materials.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            },
+            {
+              "id": "cam15_t3_r_q6",
+              "type": "tfng",
+              "question": "Moore's sculptures were never displayed indoors.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "FALSE"
+            },
+            {
+              "id": "cam15_t3_r_q7",
+              "type": "tfng",
+              "question": "The Henry Moore Foundation continues to support sculptors.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "TRUE"
+            },
+            {
+              "id": "cam15_t3_r_q8",
+              "type": "notes_completion",
+              "question": "Moore submitted his 8. _____ from his teaching position at the Royal College",
+              "options": [],
+              "correctAnswer": "resignation"
+            },
+            {
+              "id": "cam15_t3_r_q9",
+              "type": "notes_completion",
+              "question": "He experimented with a wide range of 9. _____",
+              "options": [],
+              "correctAnswer": "materials"
+            },
+            {
+              "id": "cam15_t3_r_q10",
+              "type": "notes_completion",
+              "question": "His working-class background was reflected in his depictions of 10. _____",
+              "options": [],
+              "correctAnswer": "miners"
+            },
+            {
+              "id": "cam15_t3_r_q11",
+              "type": "notes_completion",
+              "question": "Moore came from a large 11. _____",
+              "options": [],
+              "correctAnswer": "family"
+            },
+            {
+              "id": "cam15_t3_r_q12",
+              "type": "notes_completion",
+              "question": "His works were purchased by wealthy 12. _____",
+              "options": [],
+              "correctAnswer": "collectors"
+            },
+            {
+              "id": "cam15_t3_r_q13",
+              "type": "notes_completion",
+              "question": "Teaching provided a steady 13. _____ while he developed his art",
+              "options": [],
+              "correctAnswer": "income"
+            }
+          ]
+        },
+        {
+          "id": "cam15_t3_p2",
+          "title": "The Desolenator: Producing Clean Water",
+          "text": "The Desolenator is an innovative solar-powered device designed to address one of the world's most pressing problems: the lack of access to clean drinking water. Developed by a team of engineers and entrepreneurs, the device uses solar thermal energy to distil water from virtually any source, including seawater, brackish water, and contaminated freshwater. Unlike conventional desalination technologies such as reverse osmosis, which require significant electrical power and complex infrastructure, the Desolenator operates entirely on solar energy, making it suitable for off-grid communities in developing countries and disaster-stricken areas.\n\nThe technology behind the Desolenator involves capturing solar heat to evaporate water, which is then condensed to produce pure, drinkable water. This process effectively removes salts, heavy metals, bacteria, viruses, and other contaminants. The device is designed to be durable, low-maintenance, and scalable, with the capacity to produce a meaningful quantity of clean water per day. The developers have focused on making the technology affordable and accessible, with a business model that balances commercial viability with social impact. The passage describes the inspiration behind the invention and the journey from initial concept to working prototype.\n\nThe potential impact of the Desolenator is significant. An estimated two billion people worldwide lack access to safely managed drinking water, and climate change is expected to exacerbate water scarcity in many regions. The device could provide a sustainable solution for communities that currently rely on bottled water, untreated sources, or energy-intensive purification methods. The passage also discusses the challenges faced in bringing the technology to scale, including manufacturing costs, distribution logistics, and competition from established water treatment technologies. Despite these challenges, the Desolenator represents an innovative approach to using renewable energy to meet a fundamental human need.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam15_t3_r_q14",
+              "type": "matching_headings",
+              "question": "Paragraph A",
+              "options": [
+                "i. Getting the finance for production",
+                "ii. How existing water purification technologies compare",
+                "iii. From initial inspiration to new product",
+                "iv. The range of potential customers for the device",
+                "v. What makes the device different from alternatives",
+                "vi. Cleaning water from a range of sources",
+                "vii. The environmental impact of desalination",
+                "viii. Profit not the primary goal",
+                "ix. The challenge of scaling up",
+                "x. The number of people affected by water shortages"
+              ],
+              "correctAnswer": "iii"
+            },
+            {
+              "id": "cam15_t3_r_q15",
+              "type": "matching_headings",
+              "question": "Paragraph B",
+              "options": [
+                "i. Getting the finance for production",
+                "ii. How existing water purification technologies compare",
+                "iii. From initial inspiration to new product",
+                "iv. The range of potential customers for the device",
+                "v. What makes the device different from alternatives",
+                "vi. Cleaning water from a range of sources",
+                "vii. The environmental impact of desalination",
+                "viii. Profit not the primary goal",
+                "ix. The challenge of scaling up",
+                "x. The number of people affected by water shortages"
+              ],
+              "correctAnswer": "vi"
+            },
+            {
+              "id": "cam15_t3_r_q16",
+              "type": "matching_headings",
+              "question": "Paragraph C",
+              "options": [
+                "i. Getting the finance for production",
+                "ii. How existing water purification technologies compare",
+                "iii. From initial inspiration to new product",
+                "iv. The range of potential customers for the device",
+                "v. What makes the device different from alternatives",
+                "vi. Cleaning water from a range of sources",
+                "vii. The environmental impact of desalination",
+                "viii. Profit not the primary goal",
+                "ix. The challenge of scaling up",
+                "x. The number of people affected by water shortages"
+              ],
+              "correctAnswer": "v"
+            },
+            {
+              "id": "cam15_t3_r_q17",
+              "type": "matching_headings",
+              "question": "Paragraph D",
+              "options": [
+                "i. Getting the finance for production",
+                "ii. How existing water purification technologies compare",
+                "iii. From initial inspiration to new product",
+                "iv. The range of potential customers for the device",
+                "v. What makes the device different from alternatives",
+                "vi. Cleaning water from a range of sources",
+                "vii. The environmental impact of desalination",
+                "viii. Profit not the primary goal",
+                "ix. The challenge of scaling up",
+                "x. The number of people affected by water shortages"
+              ],
+              "correctAnswer": "x"
+            },
+            {
+              "id": "cam15_t3_r_q18",
+              "type": "matching_headings",
+              "question": "Paragraph E",
+              "options": [
+                "i. Getting the finance for production",
+                "ii. How existing water purification technologies compare",
+                "iii. From initial inspiration to new product",
+                "iv. The range of potential customers for the device",
+                "v. What makes the device different from alternatives",
+                "vi. Cleaning water from a range of sources",
+                "vii. The environmental impact of desalination",
+                "viii. Profit not the primary goal",
+                "ix. The challenge of scaling up",
+                "x. The number of people affected by water shortages"
+              ],
+              "correctAnswer": "iv"
+            },
+            {
+              "id": "cam15_t3_r_q19",
+              "type": "matching_headings",
+              "question": "Paragraph F",
+              "options": [
+                "i. Getting the finance for production",
+                "ii. How existing water purification technologies compare",
+                "iii. From initial inspiration to new product",
+                "iv. The range of potential customers for the device",
+                "v. What makes the device different from alternatives",
+                "vi. Cleaning water from a range of sources",
+                "vii. The environmental impact of desalination",
+                "viii. Profit not the primary goal",
+                "ix. The challenge of scaling up",
+                "x. The number of people affected by water shortages"
+              ],
+              "correctAnswer": "viii"
+            },
+            {
+              "id": "cam15_t3_r_q20",
+              "type": "matching_headings",
+              "question": "Paragraph G",
+              "options": [
+                "i. Getting the finance for production",
+                "ii. How existing water purification technologies compare",
+                "iii. From initial inspiration to new product",
+                "iv. The range of potential customers for the device",
+                "v. What makes the device different from alternatives",
+                "vi. Cleaning water from a range of sources",
+                "vii. The environmental impact of desalination",
+                "viii. Profit not the primary goal",
+                "ix. The challenge of scaling up",
+                "x. The number of people affected by water shortages"
+              ],
+              "correctAnswer": "i"
+            },
+            {
+              "id": "cam15_t3_r_q21",
+              "type": "summary_completion",
+              "question": "The device uses 21. _____ to move across the water surface",
+              "options": [],
+              "correctAnswer": "wheels"
+            },
+            {
+              "id": "cam15_t3_r_q22",
+              "type": "summary_completion",
+              "question": "A protective 22. _____ prevents salt from damaging internal components",
+              "options": [],
+              "correctAnswer": "film"
+            },
+            {
+              "id": "cam15_t3_r_q23",
+              "type": "summary_completion",
+              "question": "Water passes through a 23. _____ to remove particles before distillation",
+              "options": [],
+              "correctAnswer": "filter"
+            },
+            {
+              "id": "cam15_t3_r_q24",
+              "type": "summary_completion",
+              "question": "The system produces very little 24. _____ material",
+              "options": [],
+              "correctAnswer": "waste"
+            },
+            {
+              "id": "cam15_t3_r_q25",
+              "type": "summary_completion",
+              "question": "Solar intensity directly affects the device's 25. _____",
+              "options": [],
+              "correctAnswer": "performance"
+            },
+            {
+              "id": "cam15_t3_r_q26",
+              "type": "summary_completion",
+              "question": "The company provides training for ongoing 26. _____ of the equipment",
+              "options": [],
+              "correctAnswer": "servicing"
+            }
+          ]
+        },
+        {
+          "id": "cam15_t3_p3",
+          "title": "Why Fairy Tales are Really Scary Tales",
+          "text": "Fairy tales are among the most enduring stories in human culture, passed down through generations in various forms. The passage examines the dark origins of these tales and the reasons why they contain such frightening elements. Contrary to the sanitised, Disneyfied versions that many people are familiar with today, the original versions of stories such as Little Red Riding Hood, Cinderella, and Snow White were considerably darker, featuring violence, cruelty, and disturbing themes. The passage explores why these elements were present and what functions they served in the societies that first told these stories.\n\nScholars have proposed various theories to explain the enduring appeal and purpose of fairy tales. Some argue that the frightening elements served as cautionary warnings, teaching children about real dangers in the world. Others suggest that fairy tales provided a way for communities to process collective anxieties and social tensions. The passage discusses the work of folklorists such as the Brothers Grimm, who collected and published traditional stories from oral sources, often adapting them for a reading audience. The transition from oral tradition to written text fundamentally changed many tales, as did later adaptations for children's literature and film.\n\nThe passage also considers the cultural and psychological significance of fairy tales. Despite their scary content - or perhaps because of it - these stories have proven remarkably resilient across cultures and historical periods. Researchers have found that fairy tales from different parts of the world share common themes and structures, suggesting that they speak to universal human concerns. The text discusses how modern research in fields such as evolutionary psychology and literary studies has shed light on why these ancient stories continue to captivate audiences, and why their dark elements may be essential to their power and longevity.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam15_t3_r_q27",
+              "type": "sentence_completion",
+              "question": "Fairy tales from different cultures tend to 27. _____",
+              "options": [
+                "A. may be provided through methods used in biological research",
+                "B. are the reason for their survival",
+                "C. show considerable global variation",
+                "D. are more popular among adults than children",
+                "E. were originally spoken rather than written",
+                "F. have been developed without factual basis"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam15_t3_r_q28",
+              "type": "sentence_completion",
+              "question": "The frightening elements in traditional fairy tales 28. _____",
+              "options": [
+                "A. may be provided through methods used in biological research",
+                "B. are the reason for their survival",
+                "C. show considerable global variation",
+                "D. are more popular among adults than children",
+                "E. were originally spoken rather than written",
+                "F. have been developed without factual basis"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam15_t3_r_q29",
+              "type": "sentence_completion",
+              "question": "The modern, sanitised versions of fairy tales 29. _____",
+              "options": [
+                "A. may be provided through methods used in biological research",
+                "B. are the reason for their survival",
+                "C. show considerable global variation",
+                "D. are more popular among adults than children",
+                "E. were originally spoken rather than written",
+                "F. have been developed without factual basis"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam15_t3_r_q30",
+              "type": "sentence_completion",
+              "question": "Insights into the origins of fairy tales 30. _____",
+              "options": [
+                "A. may be provided through methods used in biological research",
+                "B. are the reason for their survival",
+                "C. show considerable global variation",
+                "D. are more popular among adults than children",
+                "E. were originally spoken rather than written",
+                "F. have been developed without factual basis"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam15_t3_r_q31",
+              "type": "sentence_completion",
+              "question": "The earliest versions of many fairy tales 31. _____",
+              "options": [
+                "A. may be provided through methods used in biological research",
+                "B. are the reason for their survival",
+                "C. show considerable global variation",
+                "D. are more popular among adults than children",
+                "E. were originally spoken rather than written",
+                "F. have been developed without factual basis"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam15_t3_r_q32",
+              "type": "summary_completion",
+              "question": "Scholars have studied the 32. _____ between different versions of the same tale",
+              "options": [
+                "A. characters",
+                "B. events",
+                "C. warning",
+                "D. links",
+                "E. animals",
+                "F. variations",
+                "G. horror",
+                "H. tradition",
+                "I. morality"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam15_t3_r_q33",
+              "type": "summary_completion",
+              "question": "Regional 33. _____ in the telling of fairy tales reveal cultural differences",
+              "options": [
+                "A. characters",
+                "B. events",
+                "C. warning",
+                "D. links",
+                "E. animals",
+                "F. variations",
+                "G. horror",
+                "H. tradition",
+                "I. morality"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam15_t3_r_q34",
+              "type": "summary_completion",
+              "question": "The 34. _____ described in fairy tales often reflect real historical concerns",
+              "options": [
+                "A. characters",
+                "B. events",
+                "C. warning",
+                "D. links",
+                "E. animals",
+                "F. variations",
+                "G. horror",
+                "H. tradition",
+                "I. morality"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam15_t3_r_q35",
+              "type": "summary_completion",
+              "question": "Many tales served as a 35. _____ about genuine dangers children might face",
+              "options": [
+                "A. characters",
+                "B. events",
+                "C. warning",
+                "D. links",
+                "E. animals",
+                "F. variations",
+                "G. horror",
+                "H. tradition",
+                "I. morality"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam15_t3_r_q36",
+              "type": "summary_completion",
+              "question": "The element of 36. _____ in these stories ensured children remained attentive",
+              "options": [
+                "A. characters",
+                "B. events",
+                "C. warning",
+                "D. links",
+                "E. animals",
+                "F. variations",
+                "G. horror",
+                "H. tradition",
+                "I. morality"
+              ],
+              "correctAnswer": "G"
+            },
+            {
+              "id": "cam15_t3_r_q37",
+              "type": "multiple_choice",
+              "question": "Question 37: Choose the correct letter, A, B, C or D.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam15_t3_r_q38",
+              "type": "multiple_choice",
+              "question": "Question 38: Choose the correct letter, A, B, C or D.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam15_t3_r_q39",
+              "type": "multiple_choice",
+              "question": "Question 39: Choose the correct letter, A, B, C or D.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam15_t3_r_q40",
+              "type": "multiple_choice",
+              "question": "Question 40: Choose the correct letter, A, B, C or D.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cam15_test4",
+      "testNumber": 4,
+      "passages": [
+        {
+          "id": "cam15_t4_p1",
+          "title": "The Return of the Huarango",
+          "text": "The huarango tree once formed vast, dense forests in the coastal deserts of Peru, particularly in the Ica Valley region. This remarkable tree species is superbly adapted to extreme arid conditions, with roots that can extend deep into the ground to access groundwater, and a canopy that provides shade and helps retain moisture. The huarango played a crucial ecological role: it prevented soil erosion, improved soil fertility by fixing nitrogen, and supported a diverse range of plant and animal species. For centuries, the tree was a keystone species in one of the world's most fragile ecosystems, creating patches of green in an otherwise barren landscape.\n\nHowever, centuries of human activity, particularly the clearing of land for agriculture, led to the dramatic decline of the huarango forests. The introduction of intensive farming, especially cotton cultivation, required vast areas of land and large quantities of water, which depleted the water table and made it difficult for huarango trees to survive. By the time scientists and conservationists recognised the scale of the problem, the huarango forests had been reduced to a tiny fraction of their original extent. The loss of the trees had severe environmental consequences, including accelerated desertification, loss of biodiversity, and increased vulnerability to drought.\n\nThe passage describes the concerted efforts of scientists, local communities, and conservation organisations to restore the huarango. These efforts involve collecting seeds from surviving trees, growing saplings in nurseries, and planting them in carefully selected locations. Local farmers have been enlisted as partners in the restoration effort, learning about the ecological benefits of the huarango and how to integrate the trees into their agricultural systems. The passage highlights the importance of combining scientific knowledge with traditional local practices, and the challenges of restoring a keystone species in an environment that has been fundamentally altered by human activity.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam15_t4_r_q1",
+              "type": "notes_completion",
+              "question": "The huarango tree is adapted to thrive with very little 1. _____",
+              "options": [],
+              "correctAnswer": "water"
+            },
+            {
+              "id": "cam15_t4_r_q2",
+              "type": "notes_completion",
+              "question": "The tree provided an important part of the local 2. _____",
+              "options": [],
+              "correctAnswer": "diet"
+            },
+            {
+              "id": "cam15_t4_r_q3",
+              "type": "notes_completion",
+              "question": "Loss of the huarango increased the severity of 3. _____",
+              "options": [],
+              "correctAnswer": "drought"
+            },
+            {
+              "id": "cam15_t4_r_q4",
+              "type": "notes_completion",
+              "question": "The tree's roots helped prevent soil 4. _____",
+              "options": [],
+              "correctAnswer": "erosion"
+            },
+            {
+              "id": "cam15_t4_r_q5",
+              "type": "notes_completion",
+              "question": "Without the huarango, the land turned into 5. _____",
+              "options": [],
+              "correctAnswer": "desert"
+            },
+            {
+              "id": "cam15_t4_r_q6",
+              "type": "notes_completion",
+              "question": "The huarango's long roots could reach far below 6. _____",
+              "options": [],
+              "correctAnswer": "(its) branches"
+            },
+            {
+              "id": "cam15_t4_r_q7",
+              "type": "notes_completion",
+              "question": "The tree provided 7. _____ that enriched the soil",
+              "options": [],
+              "correctAnswer": "leaves (and) bark"
+            },
+            {
+              "id": "cam15_t4_r_q8",
+              "type": "notes_completion",
+              "question": "Moisture was stored in 8. _____ of the tree",
+              "options": [],
+              "correctAnswer": "(its) trunk"
+            },
+            {
+              "id": "cam15_t4_r_q9",
+              "type": "tfng",
+              "question": "The huarango tree was once found throughout South America.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            },
+            {
+              "id": "cam15_t4_r_q10",
+              "type": "tfng",
+              "question": "Cotton farming had little effect on the huarango population.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "FALSE"
+            },
+            {
+              "id": "cam15_t4_r_q11",
+              "type": "tfng",
+              "question": "Local farmers have participated in the huarango restoration project.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "TRUE"
+            },
+            {
+              "id": "cam15_t4_r_q12",
+              "type": "tfng",
+              "question": "The huarango has been successfully reintroduced to all of its former range.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "FALSE"
+            },
+            {
+              "id": "cam15_t4_r_q13",
+              "type": "tfng",
+              "question": "Traditional farming methods are always compatible with huarango conservation.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            }
+          ]
+        },
+        {
+          "id": "cam15_t4_p2",
+          "title": "Silbo Gomero - the Whistle 'Language' of the Canary Islands",
+          "text": "Silbo Gomero is a unique whistled language used on the island of La Gomera in the Canary Islands. The language works by replacing the vowels and consonants of spoken Spanish with whistled tones, creating a system of communication that can be heard over distances of up to several kilometres. This remarkable adaptation was developed by the island's early inhabitants as a practical solution to the island's challenging geography, which features steep ravines, deep valleys, and narrow paths that make travel difficult. The whistled language allowed people to communicate across these obstacles, conveying complex messages including news, warnings, and greetings, without the need to travel.\n\nThe passage explains how Silbo Gomero functions as a linguistic system. Despite being based on whistles rather than spoken sounds, it preserves the essential phonetic structure of Spanish, allowing skilled whistlers to communicate virtually any message. Two distinct whistled tones represent the five Spanish vowels, while the consonants are indicated by variations in pitch and rhythm. Mastery of Silbo Gomero requires considerable practice; experienced whistlers can hold conversations at a remarkable speed, and the language can be understood even when the speakers are not visible to each other. The passage describes how the language was traditionally learned within families and communities.\n\nSilbo Gomero faced decline in the twentieth century as modern communication technologies such as telephones and mobile phones reduced the practical need for whistled communication. However, recognition of its unique cultural value led to efforts to preserve and revitalise it. In 2009, UNESCO designated Silbo Gomero as a Masterpiece of the Oral and Intangible Heritage of Humanity. The language is now taught in local schools, and there are initiatives to promote its use in cultural events and tourism. The passage discusses the challenges of preserving an oral tradition in the modern world and the importance of maintaining linguistic diversity.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam15_t4_r_q14",
+              "type": "tfng",
+              "question": "Silbo Gomero is easier to learn for children than for adults.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            },
+            {
+              "id": "cam15_t4_r_q15",
+              "type": "tfng",
+              "question": "Silbo Gomero can only be used to communicate simple messages.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "FALSE"
+            },
+            {
+              "id": "cam15_t4_r_q16",
+              "type": "tfng",
+              "question": "The geography of La Gomera was a factor in the development of Silbo Gomero.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "TRUE"
+            },
+            {
+              "id": "cam15_t4_r_q17",
+              "type": "tfng",
+              "question": "Silbo Gomero is based on the indigenous language of the Canary Islands.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "FALSE"
+            },
+            {
+              "id": "cam15_t4_r_q18",
+              "type": "tfng",
+              "question": "The invention of the telephone made Silbo Gomero completely obsolete.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "FALSE"
+            },
+            {
+              "id": "cam15_t4_r_q19",
+              "type": "tfng",
+              "question": "Silbo Gomero is now taught in schools on La Gomera.",
+              "options": [
+                "TRUE",
+                "FALSE",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "TRUE"
+            },
+            {
+              "id": "cam15_t4_r_q20",
+              "type": "notes_completion",
+              "question": "The whistled language is used to represent spoken Spanish 20. _____",
+              "options": [],
+              "correctAnswer": "words"
+            },
+            {
+              "id": "cam15_t4_r_q21",
+              "type": "notes_completion",
+              "question": "The whistler uses one 21. _____ to produce different tones",
+              "options": [],
+              "correctAnswer": "finger"
+            },
+            {
+              "id": "cam15_t4_r_q22",
+              "type": "notes_completion",
+              "question": "The 22. _____ of the whistle can indicate the meaning of the message",
+              "options": [],
+              "correctAnswer": "direction"
+            },
+            {
+              "id": "cam15_t4_r_q23",
+              "type": "notes_completion",
+              "question": "Silbo Gomero was traditionally used to convey simple 23. _____",
+              "options": [],
+              "correctAnswer": "commands"
+            },
+            {
+              "id": "cam15_t4_r_q24",
+              "type": "notes_completion",
+              "question": "It was particularly useful for warning of approaching 24. _____",
+              "options": [],
+              "correctAnswer": "fires"
+            },
+            {
+              "id": "cam15_t4_r_q25",
+              "type": "notes_completion",
+              "question": "Modern 25. _____ has reduced the practical need for the whistled language",
+              "options": [],
+              "correctAnswer": "technology"
+            },
+            {
+              "id": "cam15_t4_r_q26",
+              "type": "notes_completion",
+              "question": "UNESCO gave the language an important cultural 26. _____",
+              "options": [],
+              "correctAnswer": "award"
+            }
+          ]
+        },
+        {
+          "id": "cam15_t4_p3",
+          "title": "Environmental Practices of Big Businesses",
+          "text": "This passage critically examines the environmental practices of large corporations, exploring the gap between their public statements about sustainability and their actual behaviour. Many major companies have adopted environmental policies, published sustainability reports, and made public commitments to reducing their carbon footprint. However, researchers have found significant discrepancies between what companies say and what they do. The passage discusses various factors that influence corporate environmental behaviour, including government regulation, consumer pressure, shareholder activism, and economic incentives.\n\nThe text distinguishes between different levels of corporate environmental engagement. Some companies genuinely integrate environmental considerations into their core business strategy, investing in clean technologies, improving resource efficiency, and developing sustainable products. Others engage primarily in 'greenwashing' - using marketing and public relations to create a misleading impression of environmental responsibility without making substantial changes to their operations. The passage examines case studies of both approaches and discusses how to distinguish genuine commitment from superficial gestures. The role of third-party certifications, environmental audits, and NGO monitoring is also explored.\n\nThe passage concludes by considering what meaningful corporate environmental responsibility looks like and what conditions are necessary for it to flourish. It discusses the tension between short-term profitability and long-term sustainability, and the role of different stakeholders in holding corporations accountable. The author argues that without strong regulation and effective enforcement, voluntary corporate initiatives are unlikely to produce the scale of change needed to address environmental challenges. However, companies that do embrace genuine environmental responsibility may find competitive advantages through innovation, cost savings, and enhanced reputation.",
+          "timeRecommended": 20,
+          "questions": [
+            {
+              "id": "cam15_t4_r_q27",
+              "type": "summary_completion",
+              "question": "Some corporations have genuinely adopted higher 27. _____ in their operations",
+              "options": [
+                "A. regulations",
+                "B. trees",
+                "C. transparency",
+                "D. moral standards",
+                "E. control",
+                "F. involvement",
+                "G. reporting",
+                "H. overfishing",
+                "I. innovation"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam15_t4_r_q28",
+              "type": "summary_completion",
+              "question": "However, others resist external 28. _____ over their environmental impact",
+              "options": [
+                "A. regulations",
+                "B. trees",
+                "C. transparency",
+                "D. moral standards",
+                "E. control",
+                "F. involvement",
+                "G. reporting",
+                "H. overfishing",
+                "I. innovation"
+              ],
+              "correctAnswer": "E"
+            },
+            {
+              "id": "cam15_t4_r_q29",
+              "type": "summary_completion",
+              "question": "Meaningful environmental 29. _____ requires commitment from senior management",
+              "options": [
+                "A. regulations",
+                "B. trees",
+                "C. transparency",
+                "D. moral standards",
+                "E. control",
+                "F. involvement",
+                "G. reporting",
+                "H. overfishing",
+                "I. innovation"
+              ],
+              "correctAnswer": "F"
+            },
+            {
+              "id": "cam15_t4_r_q30",
+              "type": "summary_completion",
+              "question": "One industry particularly criticised for its practices is 30. _____",
+              "options": [
+                "A. regulations",
+                "B. trees",
+                "C. transparency",
+                "D. moral standards",
+                "E. control",
+                "F. involvement",
+                "G. reporting",
+                "H. overfishing",
+                "I. innovation"
+              ],
+              "correctAnswer": "H"
+            },
+            {
+              "id": "cam15_t4_r_q31",
+              "type": "summary_completion",
+              "question": "Companies that plant 31. _____ to offset emissions may still cause environmental harm",
+              "options": [
+                "A. regulations",
+                "B. trees",
+                "C. transparency",
+                "D. moral standards",
+                "E. control",
+                "F. involvement",
+                "G. reporting",
+                "H. overfishing",
+                "I. innovation"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam15_t4_r_q32",
+              "type": "multiple_choice",
+              "question": "Question 32: Choose the correct letter, A, B, C or D.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam15_t4_r_q33",
+              "type": "multiple_choice",
+              "question": "Question 33: Choose the correct letter, A, B, C or D.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "D"
+            },
+            {
+              "id": "cam15_t4_r_q34",
+              "type": "multiple_choice",
+              "question": "Question 34: Choose the correct letter, A, B, C or D.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "correctAnswer": "B"
+            },
+            {
+              "id": "cam15_t4_r_q35",
+              "type": "ynng",
+              "question": "Companies that voluntarily adopt environmental policies are more successful than those that do not.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "YES"
+            },
+            {
+              "id": "cam15_t4_r_q36",
+              "type": "ynng",
+              "question": "Most consumers are willing to pay more for environmentally friendly products.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            },
+            {
+              "id": "cam15_t4_r_q37",
+              "type": "ynng",
+              "question": "Government regulation is sufficient to ensure good environmental practices in business.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NO"
+            },
+            {
+              "id": "cam15_t4_r_q38",
+              "type": "ynng",
+              "question": "Companies that genuinely commit to sustainability can benefit financially.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "YES"
+            },
+            {
+              "id": "cam15_t4_r_q39",
+              "type": "ynng",
+              "question": "Small businesses are generally more environmentally responsible than large corporations.",
+              "options": [
+                "YES",
+                "NO",
+                "NOT GIVEN"
+              ],
+              "correctAnswer": "NOT GIVEN"
+            },
+            {
+              "id": "cam15_t4_r_q40",
+              "type": "multiple_choice",
+              "question": "Which of the following is the best subheading for the passage?",
+              "options": [
+                "A. The limits of corporate sustainability",
+                "B. How to make businesses greener",
+                "C. Why consumers should boycott unethical companies",
+                "D. Measuring corporate environmental commitment"
+              ],
+              "correctAnswer": "D"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

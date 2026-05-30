@@ -62,10 +62,18 @@ function computeTypeStats(items) {
 function getTypeLabel(type) {
   const labels = {
     'multiple_choice': 'Multiple Choice',
+    'multiple_choice_multi': 'Multiple Choice (Multi)',
     'tfng': 'True/False/Not Given',
+    'ynng': 'YES/NO/NOT GIVEN',
     'matching_headings': 'Matching Headings',
+    'matching_info': 'Matching Information',
+    'matching_sentence': 'Matching Sentence Endings',
+    'matching_names': 'Matching Names',
+    'matching': 'Matching',
     'sentence_completion': 'Sentence Completion',
     'summary_completion': 'Summary Completion',
+    'notes_completion': 'Notes Completion',
+    'form_completion': 'Form Completion',
     'short_answer': 'Short Answer'
   };
   return labels[type] || type;
@@ -244,10 +252,19 @@ let _practiceIndex = 0;
 let _practiceItems = [];
 
 function startWrongRedo(testId, questionNumber, module) {
-  const prefix = module === 'listening' ? 'listening/' : '';
   _practiceMode = false;
 
-  fetch(`data/${prefix}${testId}.json`).then(r => r.json()).then(testData => {
+  let loadPromise;
+  if (testId.startsWith('cam')) {
+    loadPromise = module === 'listening'
+      ? App.loadCambridgeListeningTest(testId)
+      : App.loadCambridgeReadingTest(testId);
+  } else {
+    const prefix = module === 'listening' ? 'listening/' : '';
+    loadPromise = fetch(`data/${prefix}${testId}.json`).then(r => r.json());
+  }
+
+  loadPromise.then(testData => {
     // Find the question
     const allQs = [];
     if (module === 'listening') {
@@ -323,14 +340,23 @@ function renderRedoPanel(q, module) {
   `;
 
   // Render based on question type
-  if (q.type === 'multiple_choice' || q.type === 'tfng') {
-    const options = q.options || (q.type === 'tfng' ? ['True', 'False', 'Not Given'] : []);
+  if (q.type === 'multiple_choice' || q.type === 'tfng' || q.type === 'ynng') {
+    let options;
+    if (q.type === 'tfng') options = ['True', 'False', 'Not Given'];
+    else if (q.type === 'ynng') options = ['YES', 'NO', 'NOT GIVEN'];
+    else options = q.options || [];
     html += '<div class="options" id="redoOptions">';
     options.forEach(opt => {
       html += `<label class="option-label"><input type="radio" name="redo_answer" value="${escapeHtml(opt)}">${escapeHtml(opt)}</label>`;
     });
     html += '</div>';
-  } else if (q.type === 'matching_headings') {
+  } else if (q.type === 'multiple_choice_multi') {
+    html += '<div class="options" id="redoOptions">';
+    (q.options || []).forEach(opt => {
+      html += `<label class="option-label checkbox-label"><input type="checkbox" name="redo_answer" value="${escapeHtml(opt)}">${escapeHtml(opt)}</label>`;
+    });
+    html += '</div>';
+  } else if (q.type === 'matching_headings' || q.type === 'matching_info' || q.type === 'matching_sentence' || q.type === 'matching_names' || q.type === 'matching') {
     html += '<div class="options">';
     html += `<select id="redoSelect" style="padding:6px;border:1px solid #ccc;border-radius:4px;width:100%;">`;
     html += `<option value="">${t('selectAll')}</option>`;
@@ -362,19 +388,34 @@ function submitRedoAnswer() {
 
   // Get user answer
   let userAnswer = '';
-  const radioChecked = document.querySelector('#redoOptions input[name="redo_answer"]:checked');
-  if (radioChecked) {
-    userAnswer = radioChecked.value;
+  const checkboxes = document.querySelectorAll('#redoOptions input[name="redo_answer"]:checked');
+  if (checkboxes.length > 0) {
+    // Checkbox (multiple_choice_multi)
+    const values = [];
+    checkboxes.forEach(cb => values.push(cb.value));
+    userAnswer = values.join(', ');
   } else {
-    const selectEl = document.getElementById('redoSelect');
-    if (selectEl) userAnswer = selectEl.value;
-    else {
-      const textEl = document.getElementById('redoTextInput');
-      if (textEl) userAnswer = textEl.value;
+    const radioChecked = document.querySelector('#redoOptions input[name="redo_answer"]:checked');
+    if (radioChecked) {
+      userAnswer = radioChecked.value;
+    } else {
+      const selectEl = document.getElementById('redoSelect');
+      if (selectEl) userAnswer = selectEl.value;
+      else {
+        const textEl = document.getElementById('redoTextInput');
+        if (textEl) userAnswer = textEl.value;
+      }
     }
   }
 
-  const isCorrect = userAnswer.trim().toLowerCase() === (_redoQuestion.correctAnswer || '').trim().toLowerCase();
+  let isCorrect;
+  if (_redoQuestion.type === 'multiple_choice_multi') {
+    const userParts = userAnswer.toLowerCase().split(',').map(s => s.trim()).filter(Boolean).sort();
+    const correctParts = (_redoQuestion.correctAnswer || '').toLowerCase().split(',').map(s => s.trim()).filter(Boolean).sort();
+    isCorrect = userParts.length === correctParts.length && userParts.every((v, i) => v === correctParts[i]);
+  } else {
+    isCorrect = userAnswer.trim().toLowerCase() === (_redoQuestion.correctAnswer || '').trim().toLowerCase();
+  }
 
   resultEl.innerHTML = `
     <div class="redo-result ${isCorrect ? 'correct' : 'wrong'}">

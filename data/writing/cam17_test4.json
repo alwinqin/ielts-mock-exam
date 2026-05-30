@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Line Graph: Average Daily Commuting Times (1980-2020)",
+    "prompt": "The graph below shows the average daily time spent commuting by workers in four different cities between 1980 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "wordLimit": 150,
+    "modelAnswer": ""
+  },
+  "task2": {
+    "title": "Opinion: Alternative Medicines and Treatments",
+    "prompt": "Nowadays a growing number of people with health problems are trying alternative medicines and treatments instead of visiting their usual doctor.\n\nDo you think this is a positive or a negative development?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordLimit": 250,
+    "modelAnswer": ""
+  },
+  "id": "cam17_test4"
+}

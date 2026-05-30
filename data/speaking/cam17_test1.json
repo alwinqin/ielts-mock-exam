@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "Do you work or are you a student?",
+      "followUp": "What do you enjoy most about your daily routine?"
+    },
+    {
+      "question": "Do you like to plan things in advance?",
+      "followUp": "What kinds of things do you usually plan?"
+    },
+    {
+      "question": "How do you usually spend your weekends?",
+      "followUp": "Would you prefer to have more free time or more money?"
+    },
+    {
+      "question": "Do you enjoy cooking?",
+      "followUp": "What is your favourite dish to prepare?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a time when you had to make a difficult decision.",
+    "bulletPoints": [
+      "what the decision was",
+      "why it was difficult to make",
+      "what the result of your decision was",
+      "and explain how you felt after making this decision"
+    ],
+    "followUpQuestions": [
+      "Do you think young people find it harder to make decisions than older people?",
+      "How can parents help their children learn to make good decisions?",
+      "Should important decisions be made alone or with the help of others?",
+      "Do you think technology helps people make better decisions?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam17_test1"
+}

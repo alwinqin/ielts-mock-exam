@@ -1,6 +1,22 @@
 const isFileProtocol = window.location.protocol === 'file:';
 
 async function loadTestData(path) {
+  // Cambridge path detection on path like "data/cambridge/cam17/reading.json"
+  const camInfo = parseCambridgePath(path);
+  if (camInfo) {
+    let bookData;
+    if (isFileProtocol && window.__DATA_BUNDLE__) {
+      const books = window.__DATA_BUNDLE__.cambridge || {};
+      bookData = books[camInfo.bookId]?.[camInfo.type];
+    } else {
+      const response = await fetch(path);
+      if (!response.ok) throw new Error('HTTP ' + response.status);
+      bookData = await response.json();
+    }
+    if (!bookData || !bookData.tests) throw new Error('Invalid Cambridge data');
+    return { _cambridgeBook: true, bookData: bookData, type: camInfo.type, bookId: camInfo.bookId };
+  }
+
   if (isFileProtocol && window.__DATA_BUNDLE__) {
     const parts = path.replace('.json', '').split('/');
     if (parts[0] === 'data' && parts.length === 2) {
@@ -20,6 +36,10 @@ async function loadTestData(path) {
 const App = {
   currentTest: null,
   tests: [],
+  cambridgeBooks: [],
+  cambridgeListeningBooks: [],
+  cambridgeWritingBooks: [],
+  cambridgeSpeakingBooks: [],
   activeTab: localStorage.getItem('ielts_active_tab') || 'reading',
 
   async init() {
@@ -30,14 +50,102 @@ const App = {
   },
 
   async loadTestList() {
-    const testList = [];
+    // Legacy tests
+    const legacyTests = [];
     const maxTests = (isFileProtocol && window.__DATA_BUNDLE__)
-      ? Object.keys(window.__DATA_BUNDLE__.reading).length
-      : 10;
+      ? Object.keys(window.__DATA_BUNDLE__.reading || {}).length
+      : 20;
     for (let i = 1; i <= maxTests; i++) {
-      testList.push({ id: `test${i}`, title: `Test ${i}`, file: `data/test${i}.json` });
+      legacyTests.push({ id: `test${i}`, title: `Test ${i}`, file: `data/test${i}.json`, source: 'legacy' });
     }
-    this.tests = testList;
+
+    // Cambridge tests
+    const cambridgeBooks = [];
+    const cambridgeListeningBooks = [];
+    // Try bundle first (works in both file:// and HTTP modes)
+    const camData = window.__DATA_BUNDLE__?.cambridge || {};
+    for (const bookId of Object.keys(camData)) {
+      const reading = camData[bookId]?.reading;
+      const listening = camData[bookId]?.listening;
+      if (reading && reading.tests) {
+        const tests = getCambridgeReadingTests(reading);
+        cambridgeBooks.push({ bookId, bookTitle: reading.title, tests, source: 'cambridge' });
+      }
+      if (listening && listening.tests) {
+        const tests = getCambridgeListeningTests(listening);
+        cambridgeListeningBooks.push({ bookId, bookTitle: listening.title, tests, source: 'cambridge' });
+      }
+    }
+    // Fallback: if bundle doesn't have Cambridge data, try HTTP fetch
+    if (cambridgeBooks.length === 0 && !isFileProtocol) {
+      const bookIds = ['cam14', 'cam15', 'cam16', 'cam17', 'cam18', 'cam19', 'cam20'];
+      for (const bookId of bookIds) {
+        try {
+          const resp = await fetch(`data/cambridge/${bookId}/reading.json`);
+          if (resp.ok) {
+            const data = await resp.json();
+            if (data.tests) {
+              const tests = getCambridgeReadingTests(data);
+              cambridgeBooks.push({ bookId, bookTitle: data.title, tests, source: 'cambridge' });
+            }
+          }
+        } catch (e) { /* not available */ }
+        try {
+          const resp = await fetch(`data/cambridge/${bookId}/listening.json`);
+          if (resp.ok) {
+            const data = await resp.json();
+            if (data.tests) {
+              const tests = getCambridgeListeningTests(data);
+              cambridgeListeningBooks.push({ bookId, bookTitle: data.title, tests, source: 'cambridge' });
+            }
+          }
+        } catch (e) { /* not available */ }
+      }
+    }
+
+    // Cambridge writing tests — scan bundle for cam*_test* keys
+    const cambridgeWritingBooks = [];
+    const writingData = window.__DATA_BUNDLE__?.writing || {};
+    for (const key of Object.keys(writingData)) {
+      const m = key.match(/^(cam\d+)_test(\d+)$/);
+      if (m) {
+        const bookId = m[1];
+        const testNum = parseInt(m[2]);
+        let book = cambridgeWritingBooks.find(b => b.bookId === bookId);
+        if (!book) {
+          book = { bookId, bookTitle: `Cambridge IELTS ${bookId.replace('cam', '')}`, tests: [], source: 'cambridge' };
+          cambridgeWritingBooks.push(book);
+        }
+        book.tests.push({ id: key, title: `Test ${testNum}`, bookId, testNumber: testNum });
+      }
+    }
+    cambridgeWritingBooks.forEach(b => b.tests.sort((a, b) => a.testNumber - b.testNumber));
+    cambridgeWritingBooks.sort((a, b) => a.bookId.localeCompare(b.bookId));
+
+    // Cambridge speaking tests — scan bundle for cam*_test* keys
+    const cambridgeSpeakingBooks = [];
+    const speakingData = window.__DATA_BUNDLE__?.speaking || {};
+    for (const key of Object.keys(speakingData)) {
+      const m = key.match(/^(cam\d+)_test(\d+)$/);
+      if (m) {
+        const bookId = m[1];
+        const testNum = parseInt(m[2]);
+        let book = cambridgeSpeakingBooks.find(b => b.bookId === bookId);
+        if (!book) {
+          book = { bookId, bookTitle: `Cambridge IELTS ${bookId.replace('cam', '')}`, tests: [], source: 'cambridge' };
+          cambridgeSpeakingBooks.push(book);
+        }
+        book.tests.push({ id: key, title: `Test ${testNum}`, bookId, testNumber: testNum });
+      }
+    }
+    cambridgeSpeakingBooks.forEach(b => b.tests.sort((a, b) => a.testNumber - b.testNumber));
+    cambridgeSpeakingBooks.sort((a, b) => a.bookId.localeCompare(b.bookId));
+
+    this.tests = legacyTests;
+    this.cambridgeBooks = cambridgeBooks;
+    this.cambridgeListeningBooks = cambridgeListeningBooks;
+    this.cambridgeWritingBooks = cambridgeWritingBooks;
+    this.cambridgeSpeakingBooks = cambridgeSpeakingBooks;
   },
 
   getTestStatus(testId) {
@@ -144,6 +252,49 @@ const App = {
   },
 
   renderReadingGrid(grid) {
+    // Cambridge book groups first
+    const books = this.cambridgeBooks || [];
+    books.forEach(book => {
+      const bookDiv = document.createElement('div');
+      bookDiv.className = 'book-group';
+      bookDiv.innerHTML = `
+        <div class="book-group-header" onclick="this.parentElement.classList.toggle('collapsed')">
+          <span class="book-group-title">${book.bookTitle}</span>
+          <span class="book-group-toggle">&#9660;</span>
+        </div>
+        <div class="book-group-tests"></div>
+      `;
+      const testsDiv = bookDiv.querySelector('.book-group-tests');
+      book.tests.forEach(test => {
+        const { status, bestScore } = this.getTestStatus(test.id);
+        const statusLabel = t(status === 'in_progress' ? 'inProgress' : status === 'completed' ? 'completed' : 'newTest');
+        const bestScoreHtml = bestScore !== null ? `<span class="best-score">${t('bestScore')}: ${bestScore}/40</span>` : '';
+        const actionText = status === 'in_progress' ? t('resumeExam') : t('startExam');
+        const actionLink = `#/exam/${test.id}`;
+        const reviewLink = status === 'completed' ? `#/review/${test.id}` : null;
+
+        testsDiv.innerHTML += `
+          <div class="test-card ${status}">
+            <div class="test-card-header">
+              <h3>${test.title}</h3>
+              <span class="status-badge ${status}">${statusLabel}</span>
+            </div>
+            <div class="test-card-body">${bestScoreHtml}</div>
+            <div class="test-card-actions">
+              <a href="${actionLink}" class="btn btn-primary">${actionText}</a>
+              ${reviewLink ? `<a href="${reviewLink}" class="btn btn-secondary" style="margin-left:6px;">${t('review')}</a>` : ''}
+              ${status !== 'new' ? `<a href="${actionLink}" class="btn btn-secondary" style="margin-left:6px;" onclick="event.preventDefault(); App.confirmRedo('${test.id}', 'reading')">${t('redoExam')}</a>` : ''}
+            </div>
+          </div>
+        `;
+      });
+      grid.appendChild(bookDiv);
+    });
+
+    // Legacy tests
+    if (this.tests.length > 0 && books.length > 0) {
+      grid.innerHTML += `<div class="section-header">${t('moreTests')}</div>`;
+    }
     this.tests.forEach(test => {
       const { status, bestScore } = this.getTestStatus(test.id);
       const statusLabel = t(status === 'in_progress' ? 'inProgress' : status === 'completed' ? 'completed' : 'newTest');
@@ -172,6 +323,49 @@ const App = {
   },
 
   renderListeningGrid(grid) {
+    // Cambridge book groups first
+    const listeningBooks = this.cambridgeListeningBooks || [];
+    listeningBooks.forEach(book => {
+      const bookDiv = document.createElement('div');
+      bookDiv.className = 'book-group';
+      bookDiv.innerHTML = `
+        <div class="book-group-header" onclick="this.parentElement.classList.toggle('collapsed')">
+          <span class="book-group-title">${book.bookTitle}</span>
+          <span class="book-group-toggle">&#9660;</span>
+        </div>
+        <div class="book-group-tests"></div>
+      `;
+      const testsDiv = bookDiv.querySelector('.book-group-tests');
+      book.tests.forEach(test => {
+        const { status, bestScore } = this.getListeningStatus(test.id);
+        const statusLabel = t(status === 'in_progress' ? 'inProgress' : status === 'completed' ? 'completed' : 'newTest');
+        const bestScoreHtml = bestScore !== null ? `<span class="best-score">${t('bestScore')}: ${bestScore}/40</span>` : '';
+        const actionText = status === 'in_progress' ? t('resumeExam') : t('startExam');
+        const actionLink = `#/listening-exam/${test.id}`;
+        const reviewLink = status === 'completed' ? `#/listening-review/${test.id}` : null;
+
+        testsDiv.innerHTML += `
+          <div class="test-card ${status}">
+            <div class="test-card-header">
+              <h3>${test.title}</h3>
+              <span class="status-badge ${status}">${statusLabel}</span>
+            </div>
+            <div class="test-card-body">${bestScoreHtml}</div>
+            <div class="test-card-actions">
+              <a href="${actionLink}" class="btn btn-primary">${actionText}</a>
+              ${reviewLink ? `<a href="${reviewLink}" class="btn btn-secondary" style="margin-left:6px;">${t('review')}</a>` : ''}
+              ${status !== 'new' ? `<a href="${actionLink}" class="btn btn-secondary" style="margin-left:6px;" onclick="event.preventDefault(); App.confirmRedo('${test.id}', 'listening')">${t('redoExam')}</a>` : ''}
+            </div>
+          </div>
+        `;
+      });
+      grid.appendChild(bookDiv);
+    });
+
+    // Legacy listening tests
+    if (this.cambridgeListeningBooks.length > 0) {
+      grid.innerHTML += `<div class="section-header">${t('moreTests')}</div>`;
+    }
     for (let i = 1; i <= 10; i++) {
       const id = `test${i}`;
       const { status, bestScore } = this.getListeningStatus(id);
@@ -205,7 +399,11 @@ const App = {
     container.innerHTML = `<div class="loading">${t('loading')}</div>`;
 
     try {
-      this.currentTest = await loadTestData(`data/${testId}.json`);
+      if (testId.startsWith('cam')) {
+        this.currentTest = await this.loadCambridgeReadingTest(testId);
+      } else {
+        this.currentTest = await loadTestData(`data/${testId}.json`);
+      }
       if (!this.currentTest || !this.currentTest.passages) throw new Error('Invalid data format');
       renderExam(this.currentTest);
     } catch (e) {
@@ -214,12 +412,42 @@ const App = {
     }
   },
 
+  async loadCambridgeReadingTest(testId) {
+    const parts = testId.split('_');
+    const bookId = parts[0]; // e.g., "cam17"
+    const path = `data/cambridge/${bookId}/reading.json`;
+    const result = await loadTestData(path);
+    if (result._cambridgeBook) {
+      return getCambridgeReadingTest(result.bookData, testId);
+    }
+    // In bundle mode, the result might already be the test data
+    if (result.passages) return result;
+    throw new Error('Cambridge test not found');
+  },
+
+  async loadCambridgeListeningTest(testId) {
+    const parts = testId.split('_');
+    const bookId = parts[0];
+    const path = `data/cambridge/${bookId}/listening.json`;
+    const result = await loadTestData(path);
+    if (result._cambridgeBook) {
+      return getCambridgeListeningTest(result.bookData, testId);
+    }
+    if (result.sections) return result;
+    throw new Error('Cambridge listening test not found');
+  },
+
   async showListeningExam(testId) {
     const container = document.getElementById('mainContent');
     container.innerHTML = `<div class="loading">${t('loading')}</div>`;
 
     try {
-      const testData = await loadTestData(`data/listening/${testId}.json`);
+      let testData;
+      if (testId.startsWith('cam')) {
+        testData = await this.loadCambridgeListeningTest(testId);
+      } else {
+        testData = await loadTestData(`data/listening/${testId}.json`);
+      }
       if (!testData || !testData.sections) throw new Error('Invalid data format');
       renderListeningExam(testData);
     } catch (e) {
@@ -246,7 +474,11 @@ const App = {
       return;
     }
 
-    loadTestData(`data/${testId}.json`).then(testData => {
+    const loadPromise = testId.startsWith('cam')
+      ? this.loadCambridgeReadingTest(testId)
+      : loadTestData(`data/${testId}.json`);
+
+    loadPromise.then(testData => {
       if (attempt) {
         renderReview(testData, attempt, container);
       } else {
@@ -285,7 +517,11 @@ const App = {
       return;
     }
 
-    loadTestData(`data/listening/${testId}.json`).then(testData => {
+    const loadPromise = testId.startsWith('cam')
+      ? this.loadCambridgeListeningTest(testId)
+      : loadTestData(`data/listening/${testId}.json`);
+
+    loadPromise.then(testData => {
       renderListeningReview(testData, attempt, container);
     }).catch(() => {
       container.innerHTML = `<div class="error">${t('errorLoadData')}</div>`;
@@ -305,15 +541,50 @@ const App = {
   },
 
   renderWritingGrid(grid) {
+    // Cambridge book groups first
+    const books = this.cambridgeWritingBooks || [];
+    books.forEach(book => {
+      const bookDiv = document.createElement('div');
+      bookDiv.className = 'book-group';
+      bookDiv.innerHTML = `
+        <div class="book-group-header" onclick="this.parentElement.classList.toggle('collapsed')">
+          <span class="book-group-title">${book.bookTitle}</span>
+          <span class="book-group-toggle">&#9660;</span>
+        </div>
+        <div class="book-group-tests"></div>
+      `;
+      const testsDiv = bookDiv.querySelector('.book-group-tests');
+      book.tests.forEach(test => {
+        testsDiv.innerHTML += `
+          <div class="test-card">
+            <div class="test-card-header">
+              <h3>${test.title}</h3>
+              <span class="status-badge new">${t('newTest')}</span>
+            </div>
+            <div class="test-card-body" style="font-size:0.8rem;color:#888;">
+              ${t('task1')}: 150 ${t('words')} (20 min)<br>
+              ${t('task2')}: 250 ${t('words')} (40 min)
+            </div>
+            <div class="test-card-actions">
+              <a href="#/writing-exam/${test.id}" class="btn btn-primary">${t('startExam')}</a>
+            </div>
+          </div>
+        `;
+      });
+      grid.appendChild(bookDiv);
+    });
+
+    // Legacy tests
+    if (books.length > 0) {
+      grid.innerHTML += `<div class="section-header">${t('moreTests')}</div>`;
+    }
     for (let i = 1; i <= 10; i++) {
       const id = `test${i}`;
-      const status = 'new';
-      const statusLabel = t('newTest');
       grid.innerHTML += `
         <div class="test-card">
           <div class="test-card-header">
             <h3>${t('writing')} ${i}</h3>
-            <span class="status-badge new">${statusLabel}</span>
+            <span class="status-badge new">${t('newTest')}</span>
           </div>
           <div class="test-card-body" style="font-size:0.8rem;color:#888;">
             ${t('task1')}: 150 ${t('words')} (20 min)<br>
@@ -349,6 +620,44 @@ const App = {
   },
 
   renderSpeakingGrid(grid) {
+    // Cambridge book groups first
+    const books = this.cambridgeSpeakingBooks || [];
+    books.forEach(book => {
+      const bookDiv = document.createElement('div');
+      bookDiv.className = 'book-group';
+      bookDiv.innerHTML = `
+        <div class="book-group-header" onclick="this.parentElement.classList.toggle('collapsed')">
+          <span class="book-group-title">${book.bookTitle}</span>
+          <span class="book-group-toggle">&#9660;</span>
+        </div>
+        <div class="book-group-tests"></div>
+      `;
+      const testsDiv = bookDiv.querySelector('.book-group-tests');
+      book.tests.forEach(test => {
+        testsDiv.innerHTML += `
+          <div class="test-card">
+            <div class="test-card-header">
+              <h3>${test.title}</h3>
+              <span class="status-badge new">${t('newTest')}</span>
+            </div>
+            <div class="test-card-body" style="font-size:0.8rem;color:#888;">
+              ${t('part1')} (4-5 min)<br>
+              ${t('part2')} (3-4 min)<br>
+              ${t('part3')} (4-5 min)
+            </div>
+            <div class="test-card-actions">
+              <a href="#/speaking-exam/${test.id}" class="btn btn-primary">${t('startExam')}</a>
+            </div>
+          </div>
+        `;
+      });
+      grid.appendChild(bookDiv);
+    });
+
+    // Legacy tests
+    if (books.length > 0) {
+      grid.innerHTML += `<div class="section-header">${t('moreTests')}</div>`;
+    }
     for (let i = 1; i <= 10; i++) {
       const id = `test${i}`;
       grid.innerHTML += `

@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Bar Chart: Visitors to Five Museums in London",
+    "prompt": "The chart below shows the number of visitors to five different museums in London between 2007 and 2012.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "wordLimit": 150,
+    "modelAnswer": ""
+  },
+  "task2": {
+    "title": "Opinion: Environmental Problems - Individual vs Government",
+    "prompt": "Some people say that the main environmental problem of our time is the loss of particular species of plants and animals. Others say that there are more important environmental problems.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordLimit": 250,
+    "modelAnswer": ""
+  },
+  "id": "cam14_test2"
+}

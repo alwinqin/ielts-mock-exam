@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Bar Chart: Waste Disposal Methods - Landfill, Recycling, Incineration",
+    "prompt": "The chart below shows the amounts of waste disposed of by three different methods (landfill, recycling and incineration) in one European country between 2000 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "wordLimit": 150,
+    "modelAnswer": ""
+  },
+  "task2": {
+    "title": "Opinion: Students Learning to Manage Money",
+    "prompt": "In many countries, students do not learn how to manage their money at school.\n\nWhy is this a problem? What can be done to help students learn how to manage money?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordLimit": 250,
+    "modelAnswer": ""
+  },
+  "id": "cam19_test2"
+}

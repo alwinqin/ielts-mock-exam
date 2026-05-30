@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Map: University Campus (Current vs Proposed Development)",
+    "prompt": "The maps below show the current layout of a university campus and a proposed plan for its future development.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "wordLimit": 150,
+    "modelAnswer": ""
+  },
+  "task2": {
+    "title": "Opinion: Government Investment in Science Education",
+    "prompt": "Some people think that the government should invest more money in teaching science than in other subjects in order for a country to develop and progress.\n\nTo what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordLimit": 250,
+    "modelAnswer": ""
+  },
+  "id": "cam18_test2"
+}

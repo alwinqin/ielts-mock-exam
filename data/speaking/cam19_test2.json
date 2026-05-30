@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "Do you work or are you a student?",
+      "followUp": "How do you balance work/study and personal life?"
+    },
+    {
+      "question": "What do you like to do to relax?",
+      "followUp": "How important is it to take breaks during the day?"
+    },
+    {
+      "question": "Do you have any hobbies?",
+      "followUp": "How did you get interested in your hobby?"
+    },
+    {
+      "question": "How do you usually spend your free time on weekdays?",
+      "followUp": "Do you wish you had more free time?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a hobby or activity that helps you relax.",
+    "bulletPoints": [
+      "what the hobby or activity is",
+      "how often you do it",
+      "where and when you do it",
+      "and explain why you find it relaxing"
+    ],
+    "followUpQuestions": [
+      "Why is it important for people to have hobbies?",
+      "How have people's leisure activities changed in the digital age?",
+      "Do you think people work too much and relax too little?",
+      "Should employers provide more leisure facilities for workers?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam19_test2"
+}

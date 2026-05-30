@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "Do you like to keep fit?",
+      "followUp": "What do you do to stay healthy?"
+    },
+    {
+      "question": "How important is a healthy diet to you?",
+      "followUp": "Have your eating habits changed over time?"
+    },
+    {
+      "question": "Do you cook your own meals?",
+      "followUp": "Where do you usually buy your food?"
+    },
+    {
+      "question": "What kind of food is popular in your country?",
+      "followUp": "Do you think traditional food is being replaced by fast food?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a healthy habit that you have developed.",
+    "bulletPoints": [
+      "what the habit is",
+      "when you started doing it",
+      "why you decided to develop this habit",
+      "and explain how this habit has benefited your life"
+    ],
+    "followUpQuestions": [
+      "Why do many people find it difficult to maintain healthy habits?",
+      "What role should the government play in promoting public health?",
+      "How has the health and fitness industry changed in recent years?",
+      "Do you think people in the future will be healthier than people today?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam18_test2"
+}

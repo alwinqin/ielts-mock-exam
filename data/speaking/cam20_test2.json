@@ -1,0 +1,37 @@
+{
+  "part1": [
+    {
+      "question": "What kind of weather do you like best?",
+      "followUp": "How does the weather affect your mood?"
+    },
+    {
+      "question": "Do you prefer hot or cold climates?",
+      "followUp": "Would you like to live in a country with a different climate?"
+    },
+    {
+      "question": "What do you usually do on rainy days?",
+      "followUp": "Do you think the climate in your country is changing?"
+    },
+    {
+      "question": "Are there any outdoor activities you enjoy in good weather?",
+      "followUp": "How do the seasons affect daily life in your country?"
+    }
+  ],
+  "part2": {
+    "cueCard": "Describe a place you know that has been affected by weather or climate.",
+    "bulletPoints": [
+      "what place it is",
+      "how the weather or climate affects it",
+      "what changes you have noticed there",
+      "and explain how people in this place deal with the weather conditions"
+    ],
+    "followUpQuestions": [
+      "How serious is climate change in your opinion?",
+      "What should governments do to address climate change?",
+      "How can individuals reduce their impact on the environment?",
+      "Do you think international cooperation on climate change is effective?"
+    ],
+    "preparationTime": 60
+  },
+  "id": "cam20_test2"
+}

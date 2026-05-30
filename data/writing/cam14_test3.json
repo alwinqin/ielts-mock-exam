@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Diagram: Hydroelectric Power Station Process",
+    "prompt": "The diagram below shows how electricity is generated in a hydroelectric power station.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "wordLimit": 150,
+    "modelAnswer": ""
+  },
+  "task2": {
+    "title": "Opinion: Music Brings People of Different Cultures Together",
+    "prompt": "Some people say that music is a good way of bringing people of different cultures and ages together.\n\nTo what extent do you agree or disagree with this opinion?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordLimit": 250,
+    "modelAnswer": ""
+  },
+  "id": "cam14_test3"
+}

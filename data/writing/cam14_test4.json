@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Maps: Changes to a Public Park (1920 to Present)",
+    "prompt": "The plans below show a public park when it first opened in 1920 and the same park today.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "wordLimit": 150,
+    "modelAnswer": ""
+  },
+  "task2": {
+    "title": "Opinion: Self-Employment vs Working for an Employer",
+    "prompt": "Nowadays many people choose to be self-employed, rather than to work for a company or organisation.\n\nWhy might this be the case? What could be the disadvantages of being self-employed?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordLimit": 250,
+    "modelAnswer": ""
+  },
+  "id": "cam14_test4"
+}
