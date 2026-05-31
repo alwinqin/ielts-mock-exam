@@ -9,7 +9,7 @@
         {
           "id": "cam19_lt1_p1",
           "title": "Hinchingbrooke Country Park",
-          "audioFile": "cam19_test1_part1.mp3",
+          "audioFile": "cam19_s1.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -88,7 +88,7 @@
         {
           "id": "cam19_lt1_p2",
           "title": "Stanthorpe Twinning Association (Farley House)",
-          "audioFile": "cam19_test1_part2.mp3",
+          "audioFile": "cam19_s2.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -227,7 +227,7 @@
         {
           "id": "cam19_lt1_p3",
           "title": "Food Trends Discussion",
-          "audioFile": "cam19_test1_part3.mp3",
+          "audioFile": "cam19_s3.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -380,7 +380,7 @@
         {
           "id": "cam19_lt1_p4",
           "title": "Ceide Fields",
-          "audioFile": "cam19_test1_part4.mp3",
+          "audioFile": "cam19_s4.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -465,7 +465,7 @@
         {
           "id": "cam19_lt2_p1",
           "title": "Guitar Group",
-          "audioFile": "cam19_test2_part1.mp3",
+          "audioFile": "cam19_s5.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -544,7 +544,7 @@
         {
           "id": "cam19_lt2_p2",
           "title": "Working as a Lifeboat Volunteer",
-          "audioFile": "cam19_test2_part2.mp3",
+          "audioFile": "cam19_s6.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -671,7 +671,7 @@
         {
           "id": "cam19_lt2_p3",
           "title": "Recycling Footwear",
-          "audioFile": "cam19_test2_part3.mp3",
+          "audioFile": "cam19_s7.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -798,7 +798,7 @@
         {
           "id": "cam19_lt2_p4",
           "title": "Tardigrades",
-          "audioFile": "cam19_test2_part4.mp3",
+          "audioFile": "cam19_s8.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -883,7 +883,7 @@
         {
           "id": "cam19_lt3_p1",
           "title": "Local Food Shops",
-          "audioFile": "cam19_test3_part1.mp3",
+          "audioFile": "cam19_s9.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -962,7 +962,7 @@
         {
           "id": "cam19_lt3_p2",
           "title": "Festival Workshops",
-          "audioFile": "cam19_test3_part2.mp3",
+          "audioFile": "cam19_s10.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1115,7 +1115,7 @@
         {
           "id": "cam19_lt3_p3",
           "title": "Science Experiment for Year 12 Students",
-          "audioFile": "cam19_test3_part3.mp3",
+          "audioFile": "cam19_s11.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1259,7 +1259,7 @@
         {
           "id": "cam19_lt3_p4",
           "title": "Microplastics",
-          "audioFile": "cam19_test3_part4.mp3",
+          "audioFile": "cam19_s12.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1344,7 +1344,7 @@
         {
           "id": "cam19_lt4_p1",
           "title": "First Day at Work",
-          "audioFile": "cam19_test4_part1.mp3",
+          "audioFile": "cam19_s13.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1423,7 +1423,7 @@
         {
           "id": "cam19_lt4_p2",
           "title": "Compton Park Runners Club",
-          "audioFile": "cam19_test4_part2.mp3",
+          "audioFile": "cam19_s14.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1554,7 +1554,7 @@
         {
           "id": "cam19_lt4_p3",
           "title": "Jane's Grandfather's Bookshop",
-          "audioFile": "cam19_test4_part3.mp3",
+          "audioFile": "cam19_s15.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1693,7 +1693,7 @@
         {
           "id": "cam19_lt4_p4",
           "title": "Tree Planting",
-          "audioFile": "cam19_test4_part4.mp3",
+          "audioFile": "cam19_s16.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [

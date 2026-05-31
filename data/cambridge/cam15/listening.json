@@ -9,7 +9,7 @@
         {
           "id": "cam15_lt1_p1",
           "title": "Bankside Recruitment Agency",
-          "audioFile": "cam15_test1_part1.mp3",
+          "audioFile": "cam15_s1.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -88,7 +88,7 @@
         {
           "id": "cam15_lt1_p2",
           "title": "Matthews Island Holidays",
-          "audioFile": "cam15_test1_part2.mp3",
+          "audioFile": "cam15_s2.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -183,7 +183,7 @@
         {
           "id": "cam15_lt1_p3",
           "title": "Birth Order and Personality",
-          "audioFile": "cam15_test1_part3.mp3",
+          "audioFile": "cam15_s3.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -330,7 +330,7 @@
         {
           "id": "cam15_lt1_p4",
           "title": "Eucalyptus Trees",
-          "audioFile": "cam15_test1_part4.mp3",
+          "audioFile": "cam15_s4.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -415,7 +415,7 @@
         {
           "id": "cam15_lt2_p1",
           "title": "Festival Information",
-          "audioFile": "cam15_test2_part1.mp3",
+          "audioFile": "cam15_s5.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -494,7 +494,7 @@
         {
           "id": "cam15_lt2_p2",
           "title": "Minster Park",
-          "audioFile": "cam15_test2_part2.mp3",
+          "audioFile": "cam15_s6.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -643,7 +643,7 @@
         {
           "id": "cam15_lt2_p3",
           "title": "Dickens Display",
-          "audioFile": "cam15_test2_part3.mp3",
+          "audioFile": "cam15_s7.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -800,7 +800,7 @@
         {
           "id": "cam15_lt2_p4",
           "title": "Agricultural Programme in Mozambique",
-          "audioFile": "cam15_test2_part4.mp3",
+          "audioFile": "cam15_s8.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -885,7 +885,7 @@
         {
           "id": "cam15_lt3_p1",
           "title": "Employment Agency (Possible Jobs)",
-          "audioFile": "cam15_test3_part1.mp3",
+          "audioFile": "cam15_s9.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -964,7 +964,7 @@
         {
           "id": "cam15_lt3_p2",
           "title": "Street Play Scheme",
-          "audioFile": "cam15_test3_part2.mp3",
+          "audioFile": "cam15_s10.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1091,7 +1091,7 @@
         {
           "id": "cam15_lt3_p3",
           "title": "Media Studies Assignment",
-          "audioFile": "cam15_test3_part3.mp3",
+          "audioFile": "cam15_s11.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1190,7 +1190,7 @@
         {
           "id": "cam15_lt3_p4",
           "title": "Early History of Keeping Clean",
-          "audioFile": "cam15_test3_part4.mp3",
+          "audioFile": "cam15_s12.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1275,7 +1275,7 @@
         {
           "id": "cam15_lt4_p1",
           "title": "Customer Satisfaction Survey",
-          "audioFile": "cam15_test4_part1.mp3",
+          "audioFile": "cam15_s13.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1354,7 +1354,7 @@
         {
           "id": "cam15_lt4_p2",
           "title": "Croft Valley Park",
-          "audioFile": "cam15_test4_part2.mp3",
+          "audioFile": "cam15_s14.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1511,7 +1511,7 @@
         {
           "id": "cam15_lt4_p3",
           "title": "Presentation about Refrigeration",
-          "audioFile": "cam15_test4_part3.mp3",
+          "audioFile": "cam15_s15.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1630,7 +1630,7 @@
         {
           "id": "cam15_lt4_p4",
           "title": "Industrial Revolution in Britain",
-          "audioFile": "cam15_test4_part4.mp3",
+          "audioFile": "cam15_s16.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [

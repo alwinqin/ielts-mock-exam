@@ -9,7 +9,7 @@
         {
           "id": "cam14_lt1_p1",
           "title": "Crime Report Form",
-          "audioFile": "cam14_test1_part1.mp3",
+          "audioFile": "cam14_s1.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -88,7 +88,7 @@
         {
           "id": "cam14_lt1_p2",
           "title": "Induction Talk for New Apprentices",
-          "audioFile": "cam14_test1_part2.mp3",
+          "audioFile": "cam14_s2.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -215,7 +215,7 @@
         {
           "id": "cam14_lt1_p3",
           "title": "Cities Built by the Sea",
-          "audioFile": "cam14_test1_part3.mp3",
+          "audioFile": "cam14_s3.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -359,7 +359,7 @@
         {
           "id": "cam14_lt1_p4",
           "title": "Marine Renewable Energy",
-          "audioFile": "cam14_test1_part4.mp3",
+          "audioFile": "cam14_s4.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -444,7 +444,7 @@
         {
           "id": "cam14_lt2_p1",
           "title": "Total Health Clinic",
-          "audioFile": "cam14_test2_part1.mp3",
+          "audioFile": "cam14_s5.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -523,7 +523,7 @@
         {
           "id": "cam14_lt2_p2",
           "title": "Visit to Branley Castle",
-          "audioFile": "cam14_test2_part2.mp3",
+          "audioFile": "cam14_s6.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -667,7 +667,7 @@
         {
           "id": "cam14_lt2_p3",
           "title": "Woolly Mammoths on St Paul's Island",
-          "audioFile": "cam14_test2_part3.mp3",
+          "audioFile": "cam14_s7.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -820,7 +820,7 @@
         {
           "id": "cam14_lt2_p4",
           "title": "The History of Weather Forecasting",
-          "audioFile": "cam14_test2_part4.mp3",
+          "audioFile": "cam14_s8.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -905,7 +905,7 @@
         {
           "id": "cam14_lt3_p1",
           "title": "Flanders Conference Hotel",
-          "audioFile": "cam14_test3_part1.mp3",
+          "audioFile": "cam14_s9.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -984,7 +984,7 @@
         {
           "id": "cam14_lt3_p2",
           "title": "Volunteering",
-          "audioFile": "cam14_test3_part2.mp3",
+          "audioFile": "cam14_s10.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1135,7 +1135,7 @@
         {
           "id": "cam14_lt3_p3",
           "title": "School Marching Band",
-          "audioFile": "cam14_test3_part3.mp3",
+          "audioFile": "cam14_s11.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1242,7 +1242,7 @@
         {
           "id": "cam14_lt3_p4",
           "title": "Concerts in University Arts Festival",
-          "audioFile": "cam14_test3_part4.mp3",
+          "audioFile": "cam14_s12.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1327,7 +1327,7 @@
         {
           "id": "cam14_lt4_p1",
           "title": "Enquiry about booking hotel room for event",
-          "audioFile": "cam14_test4_part1.mp3",
+          "audioFile": "cam14_s13.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1418,7 +1418,7 @@
         {
           "id": "cam14_lt4_p2",
           "title": "Excursions & Evening Entertainment",
-          "audioFile": "cam14_test4_part2.mp3",
+          "audioFile": "cam14_s14.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1569,7 +1569,7 @@
         {
           "id": "cam14_lt4_p3",
           "title": "Children's Literature",
-          "audioFile": "cam14_test4_part3.mp3",
+          "audioFile": "cam14_s15.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1713,7 +1713,7 @@
         {
           "id": "cam14_lt4_p4",
           "title": "Marine Archaeology",
-          "audioFile": "cam14_test4_part4.mp3",
+          "audioFile": "cam14_s16.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [

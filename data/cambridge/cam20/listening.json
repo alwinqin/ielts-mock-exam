@@ -9,7 +9,7 @@
         {
           "id": "cam20_lt1_p1",
           "title": "Restaurant Recommendations",
-          "audioFile": "cam20_test1_part1.mp3",
+          "audioFile": "cam20_s1.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -88,7 +88,7 @@
         {
           "id": "cam20_lt1_p2",
           "title": "Heather and Pottery",
-          "audioFile": "cam20_test1_part2.mp3",
+          "audioFile": "cam20_s2.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -215,7 +215,7 @@
         {
           "id": "cam20_lt1_p3",
           "title": "Loneliness",
-          "audioFile": "cam20_test1_part3.mp3",
+          "audioFile": "cam20_s3.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -346,7 +346,7 @@
         {
           "id": "cam20_lt1_p4",
           "title": "Reclaiming Urban Rivers",
-          "audioFile": "cam20_test1_part4.mp3",
+          "audioFile": "cam20_s4.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -431,7 +431,7 @@
         {
           "id": "cam20_lt2_p1",
           "title": "Help for Carers",
-          "audioFile": "cam20_test2_part1.mp3",
+          "audioFile": "cam20_s5.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -510,7 +510,7 @@
         {
           "id": "cam20_lt2_p2",
           "title": "Community Volunteering",
-          "audioFile": "cam20_test2_part2.mp3",
+          "audioFile": "cam20_s6.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -665,7 +665,7 @@
         {
           "id": "cam20_lt2_p3",
           "title": "Human Geography Discussion",
-          "audioFile": "cam20_test2_part3.mp3",
+          "audioFile": "cam20_s7.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -808,7 +808,7 @@
         {
           "id": "cam20_lt2_p4",
           "title": "Developing Food Trends",
-          "audioFile": "cam20_test2_part4.mp3",
+          "audioFile": "cam20_s8.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -893,7 +893,7 @@
         {
           "id": "cam20_lt3_p1",
           "title": "Furniture Rental Companies",
-          "audioFile": "cam20_test3_part1.mp3",
+          "audioFile": "cam20_s9.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -972,7 +972,7 @@
         {
           "id": "cam20_lt3_p2",
           "title": "Archaeology at Bidcaster Castle (Community Project)",
-          "audioFile": "cam20_test3_part2.mp3",
+          "audioFile": "cam20_s10.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1111,7 +1111,7 @@
         {
           "id": "cam20_lt3_p3",
           "title": "Theatre Programmes (Playbills) Research",
-          "audioFile": "cam20_test3_part3.mp3",
+          "audioFile": "cam20_s11.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1242,7 +1242,7 @@
         {
           "id": "cam20_lt3_p4",
           "title": "Inclusive Design",
-          "audioFile": "cam20_test3_part4.mp3",
+          "audioFile": "cam20_s12.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1327,7 +1327,7 @@
         {
           "id": "cam20_lt4_p1",
           "title": "Travel Information (Kings Hotel)",
-          "audioFile": "cam20_test4_part1.mp3",
+          "audioFile": "cam20_s13.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1406,7 +1406,7 @@
         {
           "id": "cam20_lt4_p2",
           "title": "Football Stadium Tour",
-          "audioFile": "cam20_test4_part2.mp3",
+          "audioFile": "cam20_s14.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1555,7 +1555,7 @@
         {
           "id": "cam20_lt4_p3",
           "title": "Handwriting and Learning",
-          "audioFile": "cam20_test4_part3.mp3",
+          "audioFile": "cam20_s15.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1682,7 +1682,7 @@
         {
           "id": "cam20_lt4_p4",
           "title": "Birds of Prey (conservation)",
-          "audioFile": "cam20_test4_part4.mp3",
+          "audioFile": "cam20_s16.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [

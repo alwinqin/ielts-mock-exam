@@ -9,7 +9,7 @@
         {
           "id": "cam16_lt1_p1",
           "title": "Children's Engineering Workshops",
-          "audioFile": "cam16_test1_part1.mp3",
+          "audioFile": "cam16_s1.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -88,7 +88,7 @@
         {
           "id": "cam16_lt1_p2",
           "title": "Stevenson's (Company Tour)",
-          "audioFile": "cam16_test1_part2.mp3",
+          "audioFile": "cam16_s2.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -243,7 +243,7 @@
         {
           "id": "cam16_lt1_p3",
           "title": "Art Projects (Jess and Tom)",
-          "audioFile": "cam16_test1_part3.mp3",
+          "audioFile": "cam16_s3.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -400,7 +400,7 @@
         {
           "id": "cam16_lt1_p4",
           "title": "Stoicism",
-          "audioFile": "cam16_test1_part4.mp3",
+          "audioFile": "cam16_s4.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -485,7 +485,7 @@
         {
           "id": "cam16_lt2_p1",
           "title": "Copying Photos to Digital Format",
-          "audioFile": "cam16_test2_part1.mp3",
+          "audioFile": "cam16_s5.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -564,7 +564,7 @@
         {
           "id": "cam16_lt2_p2",
           "title": "Dartfield House School",
-          "audioFile": "cam16_test2_part2.mp3",
+          "audioFile": "cam16_s6.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -693,7 +693,7 @@
         {
           "id": "cam16_lt2_p3",
           "title": "Assignment on Sleep and Dreams",
-          "audioFile": "cam16_test2_part3.mp3",
+          "audioFile": "cam16_s7.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -788,7 +788,7 @@
         {
           "id": "cam16_lt2_p4",
           "title": "Health Benefits of Dance",
-          "audioFile": "cam16_test2_part4.mp3",
+          "audioFile": "cam16_s8.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -873,7 +873,7 @@
         {
           "id": "cam16_lt3_p1",
           "title": "Junior Cycle Camp",
-          "audioFile": "cam16_test3_part1.mp3",
+          "audioFile": "cam16_s9.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -952,7 +952,7 @@
         {
           "id": "cam16_lt3_p2",
           "title": "Agriculture & Horticulture Jobs",
-          "audioFile": "cam16_test3_part2.mp3",
+          "audioFile": "cam16_s10.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1109,7 +1109,7 @@
         {
           "id": "cam16_lt3_p3",
           "title": "Diet & Obesity Presentation",
-          "audioFile": "cam16_test3_part3.mp3",
+          "audioFile": "cam16_s11.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1236,7 +1236,7 @@
         {
           "id": "cam16_lt3_p4",
           "title": "Hand Knitting",
-          "audioFile": "cam16_test3_part4.mp3",
+          "audioFile": "cam16_s12.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1321,7 +1321,7 @@
         {
           "id": "cam16_lt4_p1",
           "title": "Holiday Rental",
-          "audioFile": "cam16_test4_part1.mp3",
+          "audioFile": "cam16_s13.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1400,7 +1400,7 @@
         {
           "id": "cam16_lt4_p2",
           "title": "Local Council Report on Traffic and Highways",
-          "audioFile": "cam16_test4_part2.mp3",
+          "audioFile": "cam16_s14.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1555,7 +1555,7 @@
         {
           "id": "cam16_lt4_p3",
           "title": "Bike-Sharing Schemes",
-          "audioFile": "cam16_test4_part3.mp3",
+          "audioFile": "cam16_s15.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
@@ -1706,7 +1706,7 @@
         {
           "id": "cam16_lt4_p4",
           "title": "Extinction of the Dodo Bird",
-          "audioFile": "cam16_test4_part4.mp3",
+          "audioFile": "cam16_s16.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
