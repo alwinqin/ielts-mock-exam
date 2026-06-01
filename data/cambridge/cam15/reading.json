@@ -14,36 +14,36 @@
           "questions": [
             {
               "id": "cam15_t1_r_q1",
-              "type": "notes_completion",
-              "question": "The fruit of the nutmeg tree is 1. _____ in shape",
+              "type": "form_completion",
+              "question": "The nutmeg tree and fruit | the leaves of the tree are 1",
               "options": [],
               "correctAnswer": "oval"
             },
             {
               "id": "cam15_t1_r_q2",
-              "type": "notes_completion",
-              "question": "The outer covering of the fruit is called the 2. _____",
+              "type": "form_completion",
+              "question": "The nutmeg tree and fruit | the 2 _____ surrounds the fruit and breaks open when the fruit is ripe",
               "options": [],
               "correctAnswer": "husk"
             },
             {
               "id": "cam15_t1_r_q3",
-              "type": "notes_completion",
-              "question": "The 3. _____ of the fruit produces nutmeg",
+              "type": "form_completion",
+              "question": "The nutmeg tree and fruit | the 3 _____ is used to produce the spice nutmeg",
               "options": [],
               "correctAnswer": "seed"
             },
             {
               "id": "cam15_t1_r_q4",
-              "type": "notes_completion",
-              "question": "The spice 4. _____ comes from the covering of the nutmeg seed",
+              "type": "form_completion",
+              "question": "The nutmeg tree and fruit | the covering known as the aril is used to produce 4",
               "options": [],
               "correctAnswer": "mace"
             },
             {
               "id": "cam15_t1_r_q5",
               "type": "tfng",
-              "question": "The Portuguese were the first Europeans to control the nutmeg trade.",
+              "question": "In the Middle Ages, most Europeans knew where nutmeg was grown.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -54,7 +54,7 @@
             {
               "id": "cam15_t1_r_q6",
               "type": "tfng",
-              "question": "Nutmeg was believed to be effective against certain diseases.",
+              "question": "The VOC was the world's first major trading company.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -65,7 +65,7 @@
             {
               "id": "cam15_t1_r_q7",
               "type": "tfng",
-              "question": "The Dutch destroyed nutmeg trees on islands they did not control.",
+              "question": "Following the Treaty of Breda, the Dutch had control of all the islands where nutmeg grew.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -76,42 +76,42 @@
             {
               "id": "cam15_t1_r_q8",
               "type": "table_completion",
-              "question": "8. _____ traders controlled the supply of nutmeg in the 17th century",
+              "question": "| :| :| | | Middle Ages | Nutmeg was brought to Europe by the 8",
               "options": [],
               "correctAnswer": "Arabs"
             },
             {
               "id": "cam15_t1_r_q9",
               "type": "table_completion",
-              "question": "Nutmeg was believed to be a cure for the 9. _____",
+              "question": "| 16th century | European nations took control of the nutmeg trade | | | 17th century | Demand for nutmeg grew, as it was believed to be effective against the disease known as the 9",
               "options": [],
               "correctAnswer": "plague"
             },
             {
               "id": "cam15_t1_r_q10",
               "type": "table_completion",
-              "question": "The Dutch used 10. _____ to treat the nutmeg seed before export",
+              "question": "| | restricted nutmeg production to a few areas | | | | put 10",
               "options": [],
               "correctAnswer": "lime"
             },
             {
               "id": "cam15_t1_r_q11",
               "type": "table_completion",
-              "question": "The ship '11. _____' carried nutmeg trees from the Banda Islands",
+              "question": "| | restricted nutmeg production to a few areas | | | | finally obtained the island of 11",
               "options": [],
               "correctAnswer": "Run"
             },
             {
               "id": "cam15_t1_r_q12",
               "type": "table_completion",
-              "question": "Nutmeg trees were successfully grown on the island of 12. _____",
+              "question": "| | restricted nutmeg production to a few areas | | | Late 18th century | 1770 nutmeg plants were secretly taken to 12",
               "options": [],
               "correctAnswer": "Mauritius"
             },
             {
               "id": "cam15_t1_r_q13",
               "type": "table_completion",
-              "question": "The decline in nutmeg's value was accelerated by a 13. _____",
+              "question": "| | restricted nutmeg production to a few areas | | | | 1778 half the Banda Islands’ nutmeg plantations were destroyed by a 13",
               "options": [],
               "correctAnswer": "tsunami"
             }
@@ -126,7 +126,7 @@
             {
               "id": "cam15_t1_r_q14",
               "type": "matching_info",
-              "question": "how autonomous vehicles could help those who cannot drive",
+              "question": "reference to the amount of time when a car is not in use",
               "options": [
                 "A",
                 "B",
@@ -141,7 +141,7 @@
             {
               "id": "cam15_t1_r_q15",
               "type": "matching_info",
-              "question": "a reference to the challenge of sharing roads with human drivers",
+              "question": "mention of several advantages of driverless vehicles for individual road-users",
               "options": [
                 "A",
                 "B",
@@ -156,7 +156,7 @@
             {
               "id": "cam15_t1_r_q16",
               "type": "matching_info",
-              "question": "the potential financial benefits of autonomous vehicles",
+              "question": "reference to the opportunity of choosing the most appropriate vehicle for each trip",
               "options": [
                 "A",
                 "B",
@@ -171,7 +171,7 @@
             {
               "id": "cam15_t1_r_q17",
               "type": "matching_info",
-              "question": "the variety of technologies that work together in driverless cars",
+              "question": "an estimate of how long it will take to overcome a number of problems",
               "options": [
                 "A",
                 "B",
@@ -186,7 +186,7 @@
             {
               "id": "cam15_t1_r_q18",
               "type": "matching_info",
-              "question": "the need for new laws to govern autonomous vehicles",
+              "question": "a suggestion that the use of driverless cars may have no effect on the number of vehicles manufactured",
               "options": [
                 "A",
                 "B",
@@ -201,14 +201,14 @@
             {
               "id": "cam15_t1_r_q19",
               "type": "summary_completion",
-              "question": "The most significant benefit of driverless cars is the reduction of 19. _____",
+              "question": "Figures from the Transport Research Laboratory indicate that most motor accidents are partly due to 19",
               "options": [],
               "correctAnswer": "human error"
             },
             {
               "id": "cam15_t1_r_q20",
               "type": "summary_completion",
-              "question": "People may choose services based on 20. _____ rather than owning vehicles",
+              "question": "The impact of driverless cars | Figures from the Transport Research Laboratory indicate that most motor accidents are partly due to 19 ......................................., so the introduction of driverless vehicles will result in greater safety. In addition to the direct benefits of automation, it may bring other advantages. For example, schemes for 20",
               "options": [],
               "correctAnswer": "car-sharing"
             },
@@ -289,7 +289,7 @@
             {
               "id": "cam15_t1_r_q27",
               "type": "multiple_choice",
-              "question": "Question 27: Choose the correct letter, A, B, C or D.",
+              "question": "The writer refers to visitors to New York to illustrate the point that",
               "options": [
                 "A",
                 "B",
@@ -301,7 +301,7 @@
             {
               "id": "cam15_t1_r_q28",
               "type": "multiple_choice",
-              "question": "Question 28: Choose the correct letter, A, B, C or D.",
+              "question": "According to the second paragraph, what is the writer's view of explorers?",
               "options": [
                 "A",
                 "B",
@@ -313,7 +313,7 @@
             {
               "id": "cam15_t1_r_q29",
               "type": "multiple_choice",
-              "question": "Question 29: Choose the correct letter, A, B, C or D.",
+              "question": "The writer refers to a description of Egdon Heath to suggest that",
               "options": [
                 "A",
                 "B",
@@ -325,7 +325,7 @@
             {
               "id": "cam15_t1_r_q30",
               "type": "multiple_choice",
-              "question": "Question 30: Choose the correct letter, A, B, C or D.",
+              "question": "In the fourth paragraph, the writer refers to 'a golden age' to suggest that",
               "options": [
                 "A",
                 "B",
@@ -337,7 +337,7 @@
             {
               "id": "cam15_t1_r_q31",
               "type": "multiple_choice",
-              "question": "Question 31: Choose the correct letter, A, B, C or D.",
+              "question": "In the sixth paragraph, when discussing the definition of exploration, the writer argues that",
               "options": [
                 "A",
                 "B",
@@ -349,7 +349,7 @@
             {
               "id": "cam15_t1_r_q32",
               "type": "multiple_choice",
-              "question": "Question 32: Choose the correct letter, A, B, C or D.",
+              "question": "In the last paragraph, the writer explains that he is interested in",
               "options": [
                 "A",
                 "B",
@@ -361,72 +361,68 @@
             {
               "id": "cam15_t1_r_q33",
               "type": "matching_names",
-              "question": "who believed exploration involves immersing oneself in a foreign culture",
+              "question": "He referred to the relevance of the form of transport used.",
               "options": [
-                "A. Peter Fleming",
-                "B. Ran Fiennes",
-                "C. Sara Wheeler",
-                "D. Robin Hanbury-Tenison",
-                "E. Wilfred Thesiger"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "E"
             },
             {
               "id": "cam15_t1_r_q34",
               "type": "matching_names",
-              "question": "who warned against mistaking travel for genuine exploration",
+              "question": "He described feelings on coming back home after a long journey.",
               "options": [
-                "A. Peter Fleming",
-                "B. Ran Fiennes",
-                "C. Sara Wheeler",
-                "D. Robin Hanbury-Tenison",
-                "E. Wilfred Thesiger"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam15_t1_r_q35",
               "type": "matching_names",
-              "question": "who argued that exploration requires purpose and planning",
+              "question": "He worked for the benefit of specific groups of people.",
               "options": [
-                "A. Peter Fleming",
-                "B. Ran Fiennes",
-                "C. Sara Wheeler",
-                "D. Robin Hanbury-Tenison",
-                "E. Wilfred Thesiger"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam15_t1_r_q36",
               "type": "matching_names",
-              "question": "whose exploration was driven by a desire to document disappearing ways of life",
+              "question": "He did not consider learning about oneself an essential part of exploration.",
               "options": [
-                "A. Peter Fleming",
-                "B. Ran Fiennes",
-                "C. Sara Wheeler",
-                "D. Robin Hanbury-Tenison",
-                "E. Wilfred Thesiger"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "E"
             },
             {
               "id": "cam15_t1_r_q37",
               "type": "matching_names",
-              "question": "who thought exploration was primarily about personal challenge",
+              "question": "He defined exploration as being both unique and of value to others. List of Explorers",
               "options": [
-                "A. Peter Fleming",
-                "B. Ran Fiennes",
-                "C. Sara Wheeler",
-                "D. Robin Hanbury-Tenison",
-                "E. Wilfred Thesiger"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam15_t1_r_q38",
               "type": "summary_completion",
-              "question": "Some believe that undertaking 38. _____ to remote places qualifies as exploration",
+              "question": "The writer has experience of a large number of 38",
               "options": [],
               "correctAnswer": "expeditions"
             },
@@ -440,7 +436,7 @@
             {
               "id": "cam15_t1_r_q40",
               "type": "summary_completion",
-              "question": "Others argue that you cannot call something exploration when the entire 40. _____ has already been mapped",
+              "question": "The writer's own bias | The writer has experience of a large number of 38 ........................., and was the first stranger that certain previously 39 ......................... people had encountered. He believes there is no need for further exploration of Earth's 40",
               "options": [],
               "correctAnswer": "(land) surface"
             }
@@ -461,7 +457,7 @@
             {
               "id": "cam15_t2_r_q1",
               "type": "matching_info",
-              "question": "a description of how dance movements relate to urban planning concepts",
+              "question": "reference to an appealing way of using dance that the writer is not proposing",
               "options": [
                 "A",
                 "B",
@@ -476,7 +472,7 @@
             {
               "id": "cam15_t2_r_q2",
               "type": "matching_info",
-              "question": "how the idea of ensemble performance could improve intersection design",
+              "question": "an example of a contrast between past and present approaches to building",
               "options": [
                 "A",
                 "B",
@@ -491,7 +487,7 @@
             {
               "id": "cam15_t2_r_q3",
               "type": "matching_info",
-              "question": "the limitations of applying dance principles to engineering problems",
+              "question": "mention of an objective of both dance and engineering",
               "options": [
                 "A",
                 "B",
@@ -506,7 +502,7 @@
             {
               "id": "cam15_t2_r_q4",
               "type": "matching_info",
-              "question": "an example of a dance company that inspired an architectural project",
+              "question": "reference to an unforeseen problem arising from ignoring the climate",
               "options": [
                 "A",
                 "B",
@@ -521,7 +517,7 @@
             {
               "id": "cam15_t2_r_q5",
               "type": "matching_info",
-              "question": "how studying dance can change engineers' thinking about city spaces",
+              "question": "why some measures intended to help people are being reversed",
               "options": [
                 "A",
                 "B",
@@ -536,7 +532,7 @@
             {
               "id": "cam15_t2_r_q6",
               "type": "matching_info",
-              "question": "the suggestion that current approaches to urban design are too rigid",
+              "question": "reference to how transport has an impact on human lives",
               "options": [
                 "A",
                 "B",
@@ -551,49 +547,49 @@
             {
               "id": "cam15_t2_r_q7",
               "type": "sentence_completion",
-              "question": "One benefit of applying dance principles to urban design is improved pedestrian 7. _____",
+              "question": "Guard rails were introduced on British roads to improve the 7",
               "options": [],
               "correctAnswer": "Safety"
             },
             {
               "id": "cam15_t2_r_q8",
               "type": "sentence_completion",
-              "question": "Dance concepts could help reduce 8. _____ congestion in city centres",
+              "question": "Guard rails | of pedestrians, while ensuring that the movement of 8",
               "options": [],
               "correctAnswer": "Traffic"
             },
             {
               "id": "cam15_t2_r_q9",
               "type": "sentence_completion",
-              "question": "The design of the 9. _____ should consider how people naturally move through a space",
+              "question": "Guard rails | not disrupted. Pedestrians are led to access points, and encouraged to cross one | 9 _____ at a time.",
               "options": [],
               "correctAnswer": "Carriageway"
             },
             {
               "id": "cam15_t2_r_q10",
               "type": "sentence_completion",
-              "question": "Dancers adjust their movements in response to each other - a concept that relates to 10. _____ phone use while walking",
+              "question": "Guard rails | An unintended effect is to create psychological difficulties in crossing the road, | particularly for less 10",
               "options": [],
               "correctAnswer": "Mobile"
             },
             {
               "id": "cam15_t2_r_q11",
               "type": "sentence_completion",
-              "question": "Without careful design, certain urban spaces can become 11. _____ for pedestrians",
+              "question": "Guard rails | An unintended effect is to create psychological difficulties in crossing the road, | people cross the road in a 11",
               "options": [],
               "correctAnswer": "Dangerous"
             },
             {
               "id": "cam15_t2_r_q12",
               "type": "sentence_completion",
-              "question": "Dance-inspired design could help strengthen local 12. _____",
+              "question": "Guard rails | An unintended effect is to create psychological difficulties in crossing the road, | 12 _____ , and make it more difficult to introduce forms of transport",
               "options": [],
               "correctAnswer": "Communities"
             },
             {
               "id": "cam15_t2_r_q13",
               "type": "sentence_completion",
-              "question": "Urban planners should aim to create environments that are both functional and 13. _____",
+              "question": "Guard rails | An unintended effect is to create psychological difficulties in crossing the road, | that are 13",
               "options": [],
               "correctAnswer": "Healthy"
             }
@@ -608,147 +604,135 @@
             {
               "id": "cam15_t2_r_q14",
               "type": "matching_info",
-              "question": "the argument that de-extinction technology could help endangered species",
+              "question": "a reference to how further disappearance of multiple species could be avoided",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
                 "E",
-                "F",
-                "G"
+                "F"
               ],
               "correctAnswer": "F"
             },
             {
               "id": "cam15_t2_r_q15",
               "type": "matching_info",
-              "question": "the view that the money spent on de-extinction could be used more productively elsewhere",
+              "question": "explanation of a way of reproducing an extinct animal using the DNA of only that species",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
                 "E",
-                "F",
-                "G"
+                "F"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam15_t2_r_q16",
               "type": "matching_info",
-              "question": "the idea that resurrected animals might struggle in today's environment",
+              "question": "reference to a habitat which has suffered following the extinction of a species",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
                 "E",
-                "F",
-                "G"
+                "F"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam15_t2_r_q17",
               "type": "matching_info",
-              "question": "an example of genetic rescue already being used successfully",
+              "question": "mention of the exact point at which a particular species became extinct",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
                 "E",
-                "F",
-                "G"
+                "F"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam15_t2_r_q18",
               "type": "summary_completion",
-              "question": "the animal's distinctive 18. _____",
+              "question": "The woolly mammoth revival project | Professor George Church and his team are trying to identify the | 18 _____ which enabled mammoths to live in the tundra. The findings",
               "options": [],
               "correctAnswer": "genetic traits"
             },
             {
               "id": "cam15_t2_r_q19",
               "type": "summary_completion",
-              "question": "adaptations that helped minimise 19. _____",
+              "question": "The woolly mammoth revival project | According to Church, introducing Asian elephants to the tundra would involve certain | physical adaptations to minimise 19",
               "options": [],
               "correctAnswer": "heat loss"
             },
             {
               "id": "cam15_t2_r_q20",
               "type": "summary_completion",
-              "question": "the size and shape of their 20. _____",
+              "question": "............................................................ of a reduced size and more 21",
               "options": [],
               "correctAnswer": "ears"
             },
             {
               "id": "cam15_t2_r_q21",
               "type": "summary_completion",
-              "question": "the presence of 21. _____ beneath the skin",
+              "question": "The woolly mammoth revival project | the species would need to have the mammothlike features of thicker hair, | 20 ............................................................ of a reduced size and more 21",
               "options": [],
               "correctAnswer": "insulating fat"
             },
             {
               "id": "cam15_t2_r_q22",
               "type": "summary_completion",
-              "question": "reducing 22. _____ through improved digestion",
+              "question": "also have an impact on the environment, which could help to reduce temperatures and | decrease 22",
               "options": [],
               "correctAnswer": "emissions"
             },
             {
               "id": "cam15_t2_r_q23",
               "type": "matching_names",
-              "question": "emphasised the importance of public engagement in de-extinction projects",
+              "question": "Reintroducing an extinct species to its original habitat could improve the health of a particular species living there.",
               "options": [
-                "A. Ben Novak",
-                "B. Michael Archer",
-                "C. Beth Shapiro",
-                "D. George Church",
-                "E. Svante Paabo"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam15_t2_r_q24",
               "type": "matching_names",
-              "question": "expressed concern about the ecological risks of reintroducing extinct species",
+              "question": "It is important to concentrate on the causes of an animal's extinction.",
               "options": [
-                "A. Ben Novak",
-                "B. Michael Archer",
-                "C. Beth Shapiro",
-                "D. George Church",
-                "E. Svante Paabo"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam15_t2_r_q25",
               "type": "matching_names",
-              "question": "highlighted the technological breakthroughs that have made de-extinction possible",
+              "question": "A species brought back from extinction could have an important beneficial impact on the vegetation of its habitat.",
               "options": [
-                "A. Ben Novak",
-                "B. Michael Archer",
-                "C. Beth Shapiro",
-                "D. George Church",
-                "E. Svante Paabo"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam15_t2_r_q26",
               "type": "matching_names",
-              "question": "argued that de-extinction should not distract from current conservation needs",
+              "question": "Our current efforts at preserving biodiversity are insufficient. List of People",
               "options": [
-                "A. Ben Novak",
-                "B. Michael Archer",
-                "C. Beth Shapiro",
-                "D. George Church",
-                "E. Svante Paabo"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "C"
             }
@@ -763,7 +747,7 @@
             {
               "id": "cam15_t2_r_q27",
               "type": "multiple_choice",
-              "question": "Question 27: Choose the correct letter, A, B, C or D.",
+              "question": "When referring to laughter in the first paragraph, the writer emphasises",
               "options": [
                 "A",
                 "B",
@@ -775,7 +759,7 @@
             {
               "id": "cam15_t2_r_q28",
               "type": "multiple_choice",
-              "question": "Question 28: Choose the correct letter, A, B, C or D.",
+              "question": "What does the writer suggest about Charley Douglass?",
               "options": [
                 "A",
                 "B",
@@ -787,7 +771,7 @@
             {
               "id": "cam15_t2_r_q29",
               "type": "multiple_choice",
-              "question": "Question 29: Choose the correct letter, A, B, C or D.",
+              "question": "What makes the Santa Cruz study particularly significant?",
               "options": [
                 "A",
                 "B",
@@ -799,7 +783,7 @@
             {
               "id": "cam15_t2_r_q30",
               "type": "multiple_choice",
-              "question": "Question 30: Choose the correct letter, A, B, C or D.",
+              "question": "Which of the following happened in the San Diego study?",
               "options": [
                 "A",
                 "B",
@@ -811,7 +795,7 @@
             {
               "id": "cam15_t2_r_q31",
               "type": "multiple_choice",
-              "question": "Question 31: Choose the correct letter, A, B, C or D.",
+              "question": "In the fifth paragraph, what did the results of the San Diego study suggest?",
               "options": [
                 "A",
                 "B",
@@ -823,7 +807,7 @@
             {
               "id": "cam15_t2_r_q32",
               "type": "summary_completion",
-              "question": "Laughter is often linked to the experience of 32. _____",
+              "question": "................................... When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the 33 ................................... video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.",
               "options": [
                 "A. unexpected",
                 "B. emotional",
@@ -840,7 +824,7 @@
             {
               "id": "cam15_t2_r_q33",
               "type": "summary_completion",
-              "question": "The quality of being 33. _____ is what makes humour effective",
+              "question": "The benefits of humour | In one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of | 32 ................................... When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the 33",
               "options": [
                 "A. unexpected",
                 "B. emotional",
@@ -857,7 +841,7 @@
             {
               "id": "cam15_t2_r_q34",
               "type": "summary_completion",
-              "question": "Some researchers argue that a 34. _____ joke cannot be truly funny",
+              "question": "................................... task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces",
               "options": [
                 "A. unexpected",
                 "B. emotional",
@@ -874,7 +858,7 @@
             {
               "id": "cam15_t2_r_q35",
               "type": "summary_completion",
-              "question": "Humour can serve as a way to cope with feelings of 35. _____",
+              "question": "The benefits of humour | A second study in which participants were asked to perform a particularly | 35 _____ and helps build social connections but it may also have a",
               "options": [
                 "A. unexpected",
                 "B. emotional",
@@ -891,7 +875,7 @@
             {
               "id": "cam15_t2_r_q36",
               "type": "summary_completion",
-              "question": "People often find 36. _____ situations to be the most humorous",
+              "question": "The benefits of humour | A second study in which participants were asked to perform a particularly | 36 _____ effect on the body and mind.",
               "options": [
                 "A. unexpected",
                 "B. emotional",
@@ -908,10 +892,10 @@
             {
               "id": "cam15_t2_r_q37",
               "type": "ynng",
-              "question": "Laughter is primarily a response to jokes and humour.",
+              "question": "Participants in the Santa Cruz study were more accurate at identifying the laughs of friends than those of strangers.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NOT GIVEN"
@@ -919,10 +903,10 @@
             {
               "id": "cam15_t2_r_q38",
               "type": "ynng",
-              "question": "The ability to laugh evolved from social play behaviour in animals.",
+              "question": "The researchers in the San Diego study were correct in their predictions regarding the behaviour of the high-status individuals.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "YES"
@@ -930,10 +914,10 @@
             {
               "id": "cam15_t2_r_q39",
               "type": "ynng",
-              "question": "People who laugh frequently tend to have more friends.",
+              "question": "The participants in the Australian National University study were given a fixed amount of time to complete the task focusing on employee profiles.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NO"
@@ -941,10 +925,10 @@
             {
               "id": "cam15_t2_r_q40",
               "type": "ynng",
-              "question": "Laughter has measurable physiological benefits.",
+              "question": "Cheng and Wang's conclusions were in line with established notions regarding task performance.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NO"
@@ -966,7 +950,7 @@
             {
               "id": "cam15_t3_r_q1",
               "type": "tfng",
-              "question": "Henry Moore's father worked as a coal miner.",
+              "question": "On leaving school, Moore did what his father wanted him to do.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -977,7 +961,7 @@
             {
               "id": "cam15_t3_r_q2",
               "type": "tfng",
-              "question": "Moore was influenced by ancient Greek sculpture.",
+              "question": "Moore began studying sculpture in his first term at the Leeds School of Art.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -988,7 +972,7 @@
             {
               "id": "cam15_t3_r_q3",
               "type": "tfng",
-              "question": "Moore's 'Shelter Drawings' were commissioned by the government.",
+              "question": "When Moore started at the Royal College of Art, its reputation for teaching sculpture was excellent.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -999,7 +983,7 @@
             {
               "id": "cam15_t3_r_q4",
               "type": "tfng",
-              "question": "Moore is known for including empty spaces in his sculptures.",
+              "question": "Moore became aware of ancient sculpture as a result of visiting London museums.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1010,7 +994,7 @@
             {
               "id": "cam15_t3_r_q5",
               "type": "tfng",
-              "question": "Moore preferred bronze over all other materials.",
+              "question": "The Trocadero Museum's Mayan sculpture attracted a lot of public interest.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1021,7 +1005,7 @@
             {
               "id": "cam15_t3_r_q6",
               "type": "tfng",
-              "question": "Moore's sculptures were never displayed indoors.",
+              "question": "Moore thought the Mayan sculpture was similar in certain respects to other stone sculptures.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1032,7 +1016,7 @@
             {
               "id": "cam15_t3_r_q7",
               "type": "tfng",
-              "question": "The Henry Moore Foundation continues to support sculptors.",
+              "question": "The artists who belonged to Unit One wanted to make modern art and architecture more popular.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1042,43 +1026,43 @@
             },
             {
               "id": "cam15_t3_r_q8",
-              "type": "notes_completion",
-              "question": "Moore submitted his 8. _____ from his teaching position at the Royal College",
+              "type": "form_completion",
+              "question": "Moore's career as an artist | 1930s | Moore is urged to offer his 8",
               "options": [],
               "correctAnswer": "resignation"
             },
             {
               "id": "cam15_t3_r_q9",
-              "type": "notes_completion",
-              "question": "He experimented with a wide range of 9. _____",
+              "type": "form_completion",
+              "question": "Moore's career as an artist | 1940s | Moore turns to drawing because 9",
               "options": [],
               "correctAnswer": "materials"
             },
             {
               "id": "cam15_t3_r_q10",
-              "type": "notes_completion",
-              "question": "His working-class background was reflected in his depictions of 10. _____",
+              "type": "form_completion",
+              "question": "Moore's career as an artist | 1940s | While visiting his hometown, Moore does some drawings of 10",
               "options": [],
               "correctAnswer": "miners"
             },
             {
               "id": "cam15_t3_r_q11",
-              "type": "notes_completion",
-              "question": "Moore came from a large 11. _____",
+              "type": "form_completion",
+              "question": "Moore's career as an artist | 1940s | Moore is employed to produce a sculpture of a 11",
               "options": [],
               "correctAnswer": "family"
             },
             {
               "id": "cam15_t3_r_q12",
-              "type": "notes_completion",
-              "question": "His works were purchased by wealthy 12. _____",
+              "type": "form_completion",
+              "question": "Moore's career as an artist | 1940s | 12 _____ start to buy Moore's work",
               "options": [],
               "correctAnswer": "collectors"
             },
             {
               "id": "cam15_t3_r_q13",
-              "type": "notes_completion",
-              "question": "Teaching provided a steady 13. _____ while he developed his art",
+              "type": "form_completion",
+              "question": "Moore's career as an artist | 1940s | Moore's increased 13",
               "options": [],
               "correctAnswer": "income"
             }
@@ -1093,17 +1077,17 @@
             {
               "id": "cam15_t3_r_q14",
               "type": "matching_headings",
-              "question": "Paragraph A",
+              "question": "Section A",
               "options": [
                 "i. Getting the finance for production",
-                "ii. How existing water purification technologies compare",
+                "ii. An unexpected benefit",
                 "iii. From initial inspiration to new product",
                 "iv. The range of potential customers for the device",
                 "v. What makes the device different from alternatives",
                 "vi. Cleaning water from a range of sources",
-                "vii. The environmental impact of desalination",
+                "vii. Overcoming production difficulties",
                 "viii. Profit not the primary goal",
-                "ix. The challenge of scaling up",
+                "ix. A warm welcome for the device",
                 "x. The number of people affected by water shortages"
               ],
               "correctAnswer": "iii"
@@ -1111,17 +1095,17 @@
             {
               "id": "cam15_t3_r_q15",
               "type": "matching_headings",
-              "question": "Paragraph B",
+              "question": "Section B",
               "options": [
                 "i. Getting the finance for production",
-                "ii. How existing water purification technologies compare",
+                "ii. An unexpected benefit",
                 "iii. From initial inspiration to new product",
                 "iv. The range of potential customers for the device",
                 "v. What makes the device different from alternatives",
                 "vi. Cleaning water from a range of sources",
-                "vii. The environmental impact of desalination",
+                "vii. Overcoming production difficulties",
                 "viii. Profit not the primary goal",
-                "ix. The challenge of scaling up",
+                "ix. A warm welcome for the device",
                 "x. The number of people affected by water shortages"
               ],
               "correctAnswer": "vi"
@@ -1129,17 +1113,17 @@
             {
               "id": "cam15_t3_r_q16",
               "type": "matching_headings",
-              "question": "Paragraph C",
+              "question": "Section C",
               "options": [
                 "i. Getting the finance for production",
-                "ii. How existing water purification technologies compare",
+                "ii. An unexpected benefit",
                 "iii. From initial inspiration to new product",
                 "iv. The range of potential customers for the device",
                 "v. What makes the device different from alternatives",
                 "vi. Cleaning water from a range of sources",
-                "vii. The environmental impact of desalination",
+                "vii. Overcoming production difficulties",
                 "viii. Profit not the primary goal",
-                "ix. The challenge of scaling up",
+                "ix. A warm welcome for the device",
                 "x. The number of people affected by water shortages"
               ],
               "correctAnswer": "v"
@@ -1147,17 +1131,17 @@
             {
               "id": "cam15_t3_r_q17",
               "type": "matching_headings",
-              "question": "Paragraph D",
+              "question": "Section D",
               "options": [
                 "i. Getting the finance for production",
-                "ii. How existing water purification technologies compare",
+                "ii. An unexpected benefit",
                 "iii. From initial inspiration to new product",
                 "iv. The range of potential customers for the device",
                 "v. What makes the device different from alternatives",
                 "vi. Cleaning water from a range of sources",
-                "vii. The environmental impact of desalination",
+                "vii. Overcoming production difficulties",
                 "viii. Profit not the primary goal",
-                "ix. The challenge of scaling up",
+                "ix. A warm welcome for the device",
                 "x. The number of people affected by water shortages"
               ],
               "correctAnswer": "x"
@@ -1165,17 +1149,17 @@
             {
               "id": "cam15_t3_r_q18",
               "type": "matching_headings",
-              "question": "Paragraph E",
+              "question": "Section E",
               "options": [
                 "i. Getting the finance for production",
-                "ii. How existing water purification technologies compare",
+                "ii. An unexpected benefit",
                 "iii. From initial inspiration to new product",
                 "iv. The range of potential customers for the device",
                 "v. What makes the device different from alternatives",
                 "vi. Cleaning water from a range of sources",
-                "vii. The environmental impact of desalination",
+                "vii. Overcoming production difficulties",
                 "viii. Profit not the primary goal",
-                "ix. The challenge of scaling up",
+                "ix. A warm welcome for the device",
                 "x. The number of people affected by water shortages"
               ],
               "correctAnswer": "iv"
@@ -1183,17 +1167,17 @@
             {
               "id": "cam15_t3_r_q19",
               "type": "matching_headings",
-              "question": "Paragraph F",
+              "question": "Section F",
               "options": [
                 "i. Getting the finance for production",
-                "ii. How existing water purification technologies compare",
+                "ii. An unexpected benefit",
                 "iii. From initial inspiration to new product",
                 "iv. The range of potential customers for the device",
                 "v. What makes the device different from alternatives",
                 "vi. Cleaning water from a range of sources",
-                "vii. The environmental impact of desalination",
+                "vii. Overcoming production difficulties",
                 "viii. Profit not the primary goal",
-                "ix. The challenge of scaling up",
+                "ix. A warm welcome for the device",
                 "x. The number of people affected by water shortages"
               ],
               "correctAnswer": "viii"
@@ -1201,60 +1185,57 @@
             {
               "id": "cam15_t3_r_q20",
               "type": "matching_headings",
-              "question": "Paragraph G",
+              "question": "Section G 62 ## Page 64 Reading The Desolenator: producing clean water",
               "options": [
-                "i. Getting the finance for production",
-                "ii. How existing water purification technologies compare",
-                "iii. From initial inspiration to new product",
-                "iv. The range of potential customers for the device",
-                "v. What makes the device different from alternatives",
-                "vi. Cleaning water from a range of sources",
-                "vii. The environmental impact of desalination",
-                "viii. Profit not the primary goal",
-                "ix. The challenge of scaling up",
-                "x. The number of people affected by water shortages"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
               ],
               "correctAnswer": "i"
             },
             {
               "id": "cam15_t3_r_q21",
               "type": "summary_completion",
-              "question": "The device uses 21. _____ to move across the water surface",
+              "question": "How the Desolenator works | The energy required to operate the Desolenator comes from sunlight. The device can | be used in different locations, as it has 21",
               "options": [],
               "correctAnswer": "wheels"
             },
             {
               "id": "cam15_t3_r_q22",
               "type": "summary_completion",
-              "question": "A protective 22. _____ prevents salt from damaging internal components",
+              "question": "How the Desolenator works | The energy required to operate the Desolenator comes from sunlight. The device can | a pipe, and a 22",
               "options": [],
               "correctAnswer": "film"
             },
             {
               "id": "cam15_t3_r_q23",
               "type": "summary_completion",
-              "question": "Water passes through a 23. _____ to remove particles before distillation",
+              "question": "How the Desolenator works | then enters a boiler, where it turns into steam. Any particles in the water are caught in | a 23 _____ . The purified water comes out through one tube, and all",
               "options": [],
               "correctAnswer": "filter"
             },
             {
               "id": "cam15_t3_r_q24",
               "type": "summary_completion",
-              "question": "The system produces very little 24. _____ material",
+              "question": "How the Desolenator works | then enters a boiler, where it turns into steam. Any particles in the water are caught in | types of 24",
               "options": [],
               "correctAnswer": "waste"
             },
             {
               "id": "cam15_t3_r_q25",
               "type": "summary_completion",
-              "question": "Solar intensity directly affects the device's 25. _____",
+              "question": "How the Desolenator works | then enters a boiler, where it turns into steam. Any particles in the water are caught in | 25 _____ of the device, and transmits the information to the company",
               "options": [],
               "correctAnswer": "performance"
             },
             {
               "id": "cam15_t3_r_q26",
               "type": "summary_completion",
-              "question": "The company provides training for ongoing 26. _____ of the equipment",
+              "question": "How the Desolenator works | then enters a boiler, where it turns into steam. Any particles in the water are caught in | so that they know when the Desolenator requires 26",
               "options": [],
               "correctAnswer": "servicing"
             }
@@ -1269,7 +1250,7 @@
             {
               "id": "cam15_t3_r_q27",
               "type": "sentence_completion",
-              "question": "Fairy tales from different cultures tend to 27. _____",
+              "question": "In fairy tales, details of the plot",
               "options": [
                 "A. may be provided through methods used in biological research",
                 "B. are the reason for their survival",
@@ -1283,7 +1264,7 @@
             {
               "id": "cam15_t3_r_q28",
               "type": "sentence_completion",
-              "question": "The frightening elements in traditional fairy tales 28. _____",
+              "question": "Tehrani rejects the idea that the useful lessons for life in fairy tales",
               "options": [
                 "A. may be provided through methods used in biological research",
                 "B. are the reason for their survival",
@@ -1297,7 +1278,7 @@
             {
               "id": "cam15_t3_r_q29",
               "type": "sentence_completion",
-              "question": "The modern, sanitised versions of fairy tales 29. _____",
+              "question": "Various theories about the social significance of fairy tales",
               "options": [
                 "A. may be provided through methods used in biological research",
                 "B. are the reason for their survival",
@@ -1311,7 +1292,7 @@
             {
               "id": "cam15_t3_r_q30",
               "type": "sentence_completion",
-              "question": "Insights into the origins of fairy tales 30. _____",
+              "question": "Insights into the development of fairy tales",
               "options": [
                 "A. may be provided through methods used in biological research",
                 "B. are the reason for their survival",
@@ -1325,7 +1306,7 @@
             {
               "id": "cam15_t3_r_q31",
               "type": "sentence_completion",
-              "question": "The earliest versions of many fairy tales 31. _____",
+              "question": "All the fairy tales analysed by Tehrani | | | |---|---| | A | may be provided through methods used in biological research. | | B | are the reason for their survival. | | C | show considerable global variation. | | D | contain animals which transform to become humans. | | E | were originally spoken rather than written. | | F | have been developed without factual basis. | 68 ## Page 70 Reading",
               "options": [
                 "A. may be provided through methods used in biological research",
                 "B. are the reason for their survival",
@@ -1339,7 +1320,7 @@
             {
               "id": "cam15_t3_r_q32",
               "type": "summary_completion",
-              "question": "Scholars have studied the 32. _____ between different versions of the same tale",
+              "question": "Phylogenetic analysis of Little Red Riding Hood | Tehrani used techniques from evolutionary biology to find out if 32",
               "options": [
                 "A. characters",
                 "B. events",
@@ -1356,7 +1337,7 @@
             {
               "id": "cam15_t3_r_q33",
               "type": "summary_completion",
-              "question": "Regional 33. _____ in the telling of fairy tales reveal cultural differences",
+              "question": "Phylogenetic analysis of Little Red Riding Hood | existed among 58 stories from around the world. He also wanted to know which | aspects of the stories had fewest 33",
               "options": [
                 "A. characters",
                 "B. events",
@@ -1373,7 +1354,7 @@
             {
               "id": "cam15_t3_r_q34",
               "type": "summary_completion",
-              "question": "The 34. _____ described in fairy tales often reflect real historical concerns",
+              "question": "Phylogenetic analysis of Little Red Riding Hood | would be the most important ones. Contrary to other beliefs, he found that some | 34 _____ that were included in a story tended to change over time,",
               "options": [
                 "A. characters",
                 "B. events",
@@ -1390,7 +1371,7 @@
             {
               "id": "cam15_t3_r_q35",
               "type": "summary_completion",
-              "question": "Many tales served as a 35. _____ about genuine dangers children might face",
+              "question": "Phylogenetic analysis of Little Red Riding Hood | He was also surprised that parts of a story which seemed to provide some sort of | 35 _____ were unimportant. The aspect that he found most important in a",
               "options": [
                 "A. characters",
                 "B. events",
@@ -1407,7 +1388,7 @@
             {
               "id": "cam15_t3_r_q36",
               "type": "summary_completion",
-              "question": "The element of 36. _____ in these stories ensured children remained attentive",
+              "question": "Phylogenetic analysis of Little Red Riding Hood | He was also surprised that parts of a story which seemed to provide some sort of | story's survival was 36",
               "options": [
                 "A. characters",
                 "B. events",
@@ -1424,7 +1405,7 @@
             {
               "id": "cam15_t3_r_q37",
               "type": "multiple_choice",
-              "question": "Question 37: Choose the correct letter, A, B, C or D.",
+              "question": "What method did Jamie Tehrani use to test his ideas about fairy tales?",
               "options": [
                 "A",
                 "B",
@@ -1436,7 +1417,7 @@
             {
               "id": "cam15_t3_r_q38",
               "type": "multiple_choice",
-              "question": "Question 38: Choose the correct letter, A, B, C or D.",
+              "question": "When discussing Tehrani's views, Jack Zipes suggests that",
               "options": [
                 "A",
                 "B",
@@ -1448,7 +1429,7 @@
             {
               "id": "cam15_t3_r_q39",
               "type": "multiple_choice",
-              "question": "Question 39: Choose the correct letter, A, B, C or D.",
+              "question": "Why does Tehrani refer to Chinese and Japanese fairy tales?",
               "options": [
                 "A",
                 "B",
@@ -1460,7 +1441,7 @@
             {
               "id": "cam15_t3_r_q40",
               "type": "multiple_choice",
-              "question": "Question 40: Choose the correct letter, A, B, C or D.",
+              "question": "What does Mathias Clasen believe about fairy tales?",
               "options": [
                 "A",
                 "B",
@@ -1485,64 +1466,64 @@
           "questions": [
             {
               "id": "cam15_t4_r_q1",
-              "type": "notes_completion",
-              "question": "The huarango tree is adapted to thrive with very little 1. _____",
+              "type": "form_completion",
+              "question": "The importance of the huarango tree | can access 1",
               "options": [],
               "correctAnswer": "water"
             },
             {
               "id": "cam15_t4_r_q2",
-              "type": "notes_completion",
-              "question": "The tree provided an important part of the local 2. _____",
+              "type": "form_completion",
+              "question": "The importance of the huarango tree | was a crucial part of local inhabitants' 2",
               "options": [],
               "correctAnswer": "diet"
             },
             {
               "id": "cam15_t4_r_q3",
-              "type": "notes_completion",
-              "question": "Loss of the huarango increased the severity of 3. _____",
+              "type": "form_completion",
+              "question": "The importance of the huarango tree | helped people to survive periods of 3",
               "options": [],
               "correctAnswer": "drought"
             },
             {
               "id": "cam15_t4_r_q4",
-              "type": "notes_completion",
-              "question": "The tree's roots helped prevent soil 4. _____",
+              "type": "form_completion",
+              "question": "The importance of the huarango tree | prevents 4",
               "options": [],
               "correctAnswer": "erosion"
             },
             {
               "id": "cam15_t4_r_q5",
-              "type": "notes_completion",
-              "question": "Without the huarango, the land turned into 5. _____",
+              "type": "form_completion",
+              "question": "The importance of the huarango tree | prevents land from becoming a 5",
               "options": [],
               "correctAnswer": "desert"
             },
             {
               "id": "cam15_t4_r_q6",
-              "type": "notes_completion",
-              "question": "The huarango's long roots could reach far below 6. _____",
+              "type": "form_completion",
+              "question": "6 _____ | fuel",
               "options": [],
               "correctAnswer": "(its) branches"
             },
             {
               "id": "cam15_t4_r_q7",
-              "type": "notes_completion",
-              "question": "The tree provided 7. _____ that enriched the soil",
+              "type": "form_completion",
+              "question": "7 _____ and ........................................ | medicine",
               "options": [],
               "correctAnswer": "leaves (and) bark"
             },
             {
               "id": "cam15_t4_r_q8",
-              "type": "notes_completion",
-              "question": "Moisture was stored in 8. _____ of the tree",
+              "type": "form_completion",
+              "question": "8 _____ | construction",
               "options": [],
               "correctAnswer": "(its) trunk"
             },
             {
               "id": "cam15_t4_r_q9",
               "type": "tfng",
-              "question": "The huarango tree was once found throughout South America.",
+              "question": "Local families have told Whaley about some traditional uses of huarango products.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1553,7 +1534,7 @@
             {
               "id": "cam15_t4_r_q10",
               "type": "tfng",
-              "question": "Cotton farming had little effect on the huarango population.",
+              "question": "Farmer Alberto Benevides is now making a good profit from growing huarangos.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1564,7 +1545,7 @@
             {
               "id": "cam15_t4_r_q11",
               "type": "tfng",
-              "question": "Local farmers have participated in the huarango restoration project.",
+              "question": "Whaley needs the co-operation of farmers to help preserve the area's wildlife.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1575,7 +1556,7 @@
             {
               "id": "cam15_t4_r_q12",
               "type": "tfng",
-              "question": "The huarango has been successfully reintroduced to all of its former range.",
+              "question": "For Whaley's project to succeed, it needs to be extended over a very large area.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1586,7 +1567,7 @@
             {
               "id": "cam15_t4_r_q13",
               "type": "tfng",
-              "question": "Traditional farming methods are always compatible with huarango conservation.",
+              "question": "Whaley has plans to go to Africa to set up a similar project.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1605,7 +1586,7 @@
             {
               "id": "cam15_t4_r_q14",
               "type": "tfng",
-              "question": "Silbo Gomero is easier to learn for children than for adults.",
+              "question": "La Gomera is the most mountainous of all the Canary Islands.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1616,7 +1597,7 @@
             {
               "id": "cam15_t4_r_q15",
               "type": "tfng",
-              "question": "Silbo Gomero can only be used to communicate simple messages.",
+              "question": "Silbo is only appropriate for short and simple messages.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1627,7 +1608,7 @@
             {
               "id": "cam15_t4_r_q16",
               "type": "tfng",
-              "question": "The geography of La Gomera was a factor in the development of Silbo Gomero.",
+              "question": "In the brain–activity study, silbadores and non-whistlers produced different results.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1638,7 +1619,7 @@
             {
               "id": "cam15_t4_r_q17",
               "type": "tfng",
-              "question": "Silbo Gomero is based on the indigenous language of the Canary Islands.",
+              "question": "The Spanish introduced Silbo to the islands in the 15th century.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1649,7 +1630,7 @@
             {
               "id": "cam15_t4_r_q18",
               "type": "tfng",
-              "question": "The invention of the telephone made Silbo Gomero completely obsolete.",
+              "question": "There is precise data available regarding all of the whistle languages in existence today.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1660,7 +1641,7 @@
             {
               "id": "cam15_t4_r_q19",
               "type": "tfng",
-              "question": "Silbo Gomero is now taught in schools on La Gomera.",
+              "question": "The children of Gomera now learn Silbo.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1670,50 +1651,50 @@
             },
             {
               "id": "cam15_t4_r_q20",
-              "type": "notes_completion",
-              "question": "The whistled language is used to represent spoken Spanish 20. _____",
+              "type": "form_completion",
+              "question": "How Silbo is produced | 20",
               "options": [],
               "correctAnswer": "words"
             },
             {
               "id": "cam15_t4_r_q21",
-              "type": "notes_completion",
-              "question": "The whistler uses one 21. _____ to produce different tones",
+              "type": "form_completion",
+              "question": "How Silbo is produced | pitch of whistle is controlled using silbador's 21",
               "options": [],
               "correctAnswer": "finger"
             },
             {
               "id": "cam15_t4_r_q22",
-              "type": "notes_completion",
-              "question": "The 22. _____ of the whistle can indicate the meaning of the message",
+              "type": "form_completion",
+              "question": "How Silbo is produced | 22 _____ is changed with a cupped hand",
               "options": [],
               "correctAnswer": "direction"
             },
             {
               "id": "cam15_t4_r_q23",
-              "type": "notes_completion",
-              "question": "Silbo Gomero was traditionally used to convey simple 23. _____",
+              "type": "form_completion",
+              "question": "How Silbo is used | in everyday use for the transmission of brief 23",
               "options": [],
               "correctAnswer": "commands"
             },
             {
               "id": "cam15_t4_r_q24",
-              "type": "notes_completion",
-              "question": "It was particularly useful for warning of approaching 24. _____",
+              "type": "form_completion",
+              "question": "How Silbo is used | 24",
               "options": [],
               "correctAnswer": "fires"
             },
             {
               "id": "cam15_t4_r_q25",
-              "type": "notes_completion",
-              "question": "Modern 25. _____ has reduced the practical need for the whistled language",
+              "type": "form_completion",
+              "question": "The future of Silbo | future under threat because of new 25",
               "options": [],
               "correctAnswer": "technology"
             },
             {
               "id": "cam15_t4_r_q26",
-              "type": "notes_completion",
-              "question": "UNESCO gave the language an important cultural 26. _____",
+              "type": "form_completion",
+              "question": "The future of Silbo | Canaries' authorities hoping to receive a UNESCO 26",
               "options": [],
               "correctAnswer": "award"
             }
@@ -1728,7 +1709,7 @@
             {
               "id": "cam15_t4_r_q27",
               "type": "summary_completion",
-              "question": "Some corporations have genuinely adopted higher 27. _____ in their operations",
+              "question": "Many big businesses today are prepared to harm people and the environment in order to make money, and they appear to have no 27",
               "options": [
                 "A. regulations",
                 "B. trees",
@@ -1796,7 +1777,7 @@
             {
               "id": "cam15_t4_r_q31",
               "type": "summary_completion",
-              "question": "Companies that plant 31. _____ to offset emissions may still cause environmental harm",
+              "question": "Big businesses | Many big businesses today are prepared to harm people and the environment in order to make money, and they appear to have no 27 ............................ . Lack of 28 ............................ by governments and lack of public 29 ............................ can lead to environmental problems such as 30 ............................ or the destruction of 31",
               "options": [
                 "A. regulations",
                 "B. trees",
@@ -1813,7 +1794,7 @@
             {
               "id": "cam15_t4_r_q32",
               "type": "multiple_choice",
-              "question": "Question 32: Choose the correct letter, A, B, C or D.",
+              "question": "The main idea of the third paragraph is that environmental damage",
               "options": [
                 "A",
                 "B",
@@ -1825,7 +1806,7 @@
             {
               "id": "cam15_t4_r_q33",
               "type": "multiple_choice",
-              "question": "Question 33: Choose the correct letter, A, B, C or D.",
+              "question": "In the fourth paragraph, the writer describes ways in which the public can",
               "options": [
                 "A",
                 "B",
@@ -1837,7 +1818,7 @@
             {
               "id": "cam15_t4_r_q34",
               "type": "multiple_choice",
-              "question": "Question 34: Choose the correct letter, A, B, C or D.",
+              "question": "What pressure was exerted by big business in the case of the disease BSE?",
               "options": [
                 "A",
                 "B",
@@ -1849,10 +1830,10 @@
             {
               "id": "cam15_t4_r_q35",
               "type": "ynng",
-              "question": "Companies that voluntarily adopt environmental policies are more successful than those that do not.",
+              "question": "The public should be prepared to fund good environmental practices.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "YES"
@@ -1860,10 +1841,10 @@
             {
               "id": "cam15_t4_r_q36",
               "type": "ynng",
-              "question": "Most consumers are willing to pay more for environmentally friendly products.",
+              "question": "There is a contrast between the moral principles of different businesses.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NOT GIVEN"
@@ -1871,10 +1852,10 @@
             {
               "id": "cam15_t4_r_q37",
               "type": "ynng",
-              "question": "Government regulation is sufficient to ensure good environmental practices in business.",
+              "question": "It is important to make a clear distinction between acceptable and unacceptable behaviour.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NO"
@@ -1882,10 +1863,10 @@
             {
               "id": "cam15_t4_r_q38",
               "type": "ynng",
-              "question": "Companies that genuinely commit to sustainability can benefit financially.",
+              "question": "The public have successfully influenced businesses in the past.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "YES"
@@ -1893,10 +1874,10 @@
             {
               "id": "cam15_t4_r_q39",
               "type": "ynng",
-              "question": "Small businesses are generally more environmentally responsible than large corporations.",
+              "question": "In the future, businesses will show more concern for the environment.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NOT GIVEN"
@@ -1904,12 +1885,12 @@
             {
               "id": "cam15_t4_r_q40",
               "type": "multiple_choice",
-              "question": "Which of the following is the best subheading for the passage?",
+              "question": "What would be the best subheading for this passage?",
               "options": [
-                "A. The limits of corporate sustainability",
-                "B. How to make businesses greener",
-                "C. Why consumers should boycott unethical companies",
-                "D. Measuring corporate environmental commitment"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "D"
             }

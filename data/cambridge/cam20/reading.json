@@ -80,49 +80,49 @@
             },
             {
               "id": "cam20_t1_r_q7",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "The kakapo's diet includes fruit, seeds, roots and 7. _____",
               "options": [],
               "correctAnswer": "bulbs"
             },
             {
               "id": "cam20_t1_r_q8",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "Kakapos build their nests in burrows or under rocks on the 8. _____",
               "options": [],
               "correctAnswer": "soil"
             },
             {
               "id": "cam20_t1_r_q9",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "The kakapo's soft, green and brown 9. _____ help camouflage it.",
               "options": [],
               "correctAnswer": "feathers"
             },
             {
               "id": "cam20_t1_r_q10",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "Introduced predators include stoats, cats and 10. _____",
               "options": [],
               "correctAnswer": "deer"
             },
             {
               "id": "cam20_t1_r_q11",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "The Kakapo Recovery Programme was formally established in 11. _____",
               "options": [],
               "correctAnswer": "1980"
             },
             {
               "id": "cam20_t1_r_q12",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "The programme has persistently struggled to obtain adequate 12. _____",
               "options": [],
               "correctAnswer": "funding"
             },
             {
               "id": "cam20_t1_r_q13",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "The programme depends on collaboration with a wide range of 13. _____",
               "options": [],
               "correctAnswer": "stakeholders"
@@ -268,21 +268,21 @@
             {
               "id": "cam20_t1_r_q24",
               "type": "summary_completion",
-              "question": "The new trees are being planted in former 24. _____ woodlands.",
+              "question": "Uses of a popular tree | For hundreds of years, the only tree that was more popular in Britain than elm was | .................................................. 24 .................................................. . Starting in the Bronze Age, many tools were made from elm and",
               "options": [],
               "correctAnswer": "oak"
             },
             {
               "id": "cam20_t1_r_q25",
               "type": "summary_completion",
-              "question": "Some of the timber from the new trees may be used for 25. _____",
+              "question": "Uses of a popular tree | people also used it to make weapons. In the 18th century, it was grown to provide wood for | boxes and .................................................. 25 .................................................. . Due to its strength, elm was often used for mining",
               "options": [],
               "correctAnswer": "flooring"
             },
             {
               "id": "cam20_t1_r_q26",
               "type": "summary_completion",
-              "question": "The project aims to develop elms that can withstand the disease known as 26. _____",
+              "question": "Uses of a popular tree | people also used it to make weapons. In the 18th century, it was grown to provide wood for | equipment and the Cutty Sark's .................................................. 26 .................................................. was also constructed from elm.",
               "options": [],
               "correctAnswer": "keel"
             }
@@ -500,42 +500,42 @@
           "questions": [
             {
               "id": "cam20_t2_r_q1",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "Manatees propel themselves through the water using their 1. _____",
               "options": [],
               "correctAnswer": "tail"
             },
             {
               "id": "cam20_t2_r_q2",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "They steer and manoeuvre using their 2. _____",
               "options": [],
               "correctAnswer": "flippers"
             },
             {
               "id": "cam20_t2_r_q3",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "Manatees have sensitive 3. _____ on their bodies that can detect vibrations.",
               "options": [],
               "correctAnswer": "hair"
             },
             {
               "id": "cam20_t2_r_q4",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "Their diet consists mainly of 4. _____ and other aquatic plants.",
               "options": [],
               "correctAnswer": "seagrasses"
             },
             {
               "id": "cam20_t2_r_q5",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "They grasp vegetation using their flexible upper 5. _____",
               "options": [],
               "correctAnswer": "lips"
             },
             {
               "id": "cam20_t2_r_q6",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "Manatees control their position in the water through 6. _____",
               "options": [],
               "correctAnswer": "buoyancy"
@@ -669,56 +669,55 @@
             },
             {
               "id": "cam20_t2_r_q17",
-              "type": "notes_completion",
-              "question": "Procrastination is often wrongly assumed to be a sign of 17. _____",
+              "type": "form_completion",
+              "question": "What makes us procrastinate? | Many people think that procrastination is the result of ...... 17 ...... .",
               "options": [],
               "correctAnswer": "laziness"
             },
             {
               "id": "cam20_t2_r_q18",
-              "type": "notes_completion",
-              "question": "Delaying tasks can trigger feelings of being overwhelmed and 18. _____",
+              "type": "form_completion",
+              "question": "What makes us procrastinate? | management. The tasks we are most likely to put off are those that could damage | our selfesteem or cause us to feel ...... 18 ...... when we think about",
               "options": [],
               "correctAnswer": "anxious"
             },
             {
               "id": "cam20_t2_r_q19",
-              "type": "notes_completion",
-              "question": "Many procrastinators worry about being unable to cope with certain 19. _____",
+              "type": "form_completion",
+              "question": "What makes us procrastinate? | differences in the brain regions associated with regulating emotions and identifying | ...... 19 ...... .",
               "options": [],
               "correctAnswer": "threats"
             },
             {
               "id": "cam20_t2_r_q20",
-              "type": "notes_completion",
-              "question": "Academic procrastination is commonly associated with studying for 20. _____",
+              "type": "form_completion",
+              "question": "Emotionally loaded and difficult tasks often cause us to procrastinate. Getting ready | to take ...... 20 ...... might be a typical example of one such task.",
               "options": [],
               "correctAnswer": "exams"
             },
             {
               "id": "cam20_t2_r_q21",
-              "type": "notes_completion",
-              "question": "Procrastination affects people who describe themselves as 21. _____",
+              "type": "form_completion",
+              "question": "Emotionally loaded and difficult tasks often cause us to procrastinate. Getting ready | People who are likely to procrastinate tend to be either ...... 21 ...... or",
               "options": [],
               "correctAnswer": "perfectionists"
             },
             {
               "id": "cam20_t2_r_q22",
-              "type": "notes_completion",
-              "question": "The emotional consequence of putting things off often includes 22. _____",
+              "type": "form_completion",
+              "question": "Procrastination is only a shortterm measure for managing emotions. It's often | followed by a feeling of ...... 22 ...... , which worsens our mood and",
               "options": [],
               "correctAnswer": "guilt"
             },
             {
               "id": "cam20_t2_r_q23",
               "type": "matching_names",
-              "question": "those who tend to procrastinate generally earn less",
+              "question": "- 24 Which TWO comparisons between employees who often procrastinate and those who do not are mentioned in the text?",
               "options": [
                 "A",
                 "B",
                 "C",
-                "D",
-                "E"
+                "D"
               ],
               "correctAnswer": "A"
             },
@@ -738,13 +737,12 @@
             {
               "id": "cam20_t2_r_q25",
               "type": "matching_names",
-              "question": "advises people to forgive themselves for procrastinating",
+              "question": "- 26 Which TWO recommendations for getting out of a cycle of procrastination does the writer give? A.not judging ourselves harshly B.setting ourselves manageable aims C.rewarding ourselves for tasks achieved D.prioritising tasks according to their importance E.avoiding things that stop us concentrating on our tasks",
               "options": [
                 "A",
                 "B",
                 "C",
-                "D",
-                "E"
+                "D"
               ],
               "correctAnswer": "A"
             },
@@ -967,49 +965,49 @@
           "questions": [
             {
               "id": "cam20_t3_r_q1",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "The first products to be frozen included peas and 1. _____",
               "options": [],
               "correctAnswer": "potatoes"
             },
             {
               "id": "cam20_t3_r_q2",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "Birdseye used 2. _____ to prevent the formation of large ice crystals.",
               "options": [],
               "correctAnswer": "butter"
             },
             {
               "id": "cam20_t3_r_q3",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "Frozen 3. _____ was also an early commercially available product.",
               "options": [],
               "correctAnswer": "meat"
             },
             {
               "id": "cam20_t3_r_q4",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "The quick-freezing process prevented the formation of large ice 4. _____",
               "options": [],
               "correctAnswer": "crystals"
             },
             {
               "id": "cam20_t3_r_q5",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "Early packaging materials included waxed paper and 5. _____",
               "options": [],
               "correctAnswer": "cellophane"
             },
             {
               "id": "cam20_t3_r_q6",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "Frozen products were also stored in 6. _____ containers.",
               "options": [],
               "correctAnswer": "tin"
             },
             {
               "id": "cam20_t3_r_q7",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "The development of the home 7. _____ was crucial for the frozen food industry.",
               "options": [],
               "correctAnswer": "refrigerator"
@@ -1181,14 +1179,13 @@
             {
               "id": "cam20_t3_r_q20",
               "type": "matching_info",
-              "question": "contamination of the sea from waste",
+              "question": "- 21",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
-                "E",
-                "F"
+                "E"
               ],
               "correctAnswer": "C"
             },
@@ -1209,14 +1206,13 @@
             {
               "id": "cam20_t3_r_q22",
               "type": "matching_info",
-              "question": "identify corals that can cope with changed conditions",
+              "question": "- 23",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
-                "E",
-                "F"
+                "E"
               ],
               "correctAnswer": "B"
             },
@@ -1236,22 +1232,22 @@
             },
             {
               "id": "cam20_t3_r_q24",
-              "type": "notes_completion",
-              "question": "Coral polyps have stinging 24. _____ that they use to capture food.",
+              "type": "form_completion",
+              "question": "Corals have a number of ...... 24 ...... which they use to collect their food.",
               "options": [],
               "correctAnswer": "tentacles"
             },
             {
               "id": "cam20_t3_r_q25",
-              "type": "notes_completion",
-              "question": "The algae living in coral tissues provide them with 25. _____",
+              "type": "form_completion",
+              "question": "Algae gain ...... 25 ...... from being inside the coral.",
               "options": [],
               "correctAnswer": "protection"
             },
             {
               "id": "cam20_t3_r_q26",
-              "type": "notes_completion",
-              "question": "When corals bleach, they lose their 26. _____",
+              "type": "form_completion",
+              "question": "Increases in the warmth of the sea water can remove the ...... 26 ...... from coral. ## Page 17",
               "options": [],
               "correctAnswer": "colour"
             }
@@ -1443,49 +1439,49 @@
           "questions": [
             {
               "id": "cam20_t4_r_q1",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "O'Keeffe began her professional life as a 1. _____",
               "options": [],
               "correctAnswer": "teacher"
             },
             {
               "id": "cam20_t4_r_q2",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "Her early work was executed primarily in 2. _____",
               "options": [],
               "correctAnswer": "charcoal"
             },
             {
               "id": "cam20_t4_r_q3",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "While living in New York, she painted a series of 3. _____",
               "options": [],
               "correctAnswer": "skyscrapers"
             },
             {
               "id": "cam20_t4_r_q4",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "She is best known for her large-scale paintings of 4. _____",
               "options": [],
               "correctAnswer": "flowers"
             },
             {
               "id": "cam20_t4_r_q5",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "In New Mexico, she painted images of animal 5. _____",
               "options": [],
               "correctAnswer": "bones"
             },
             {
               "id": "cam20_t4_r_q6",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "Her work was deeply influenced by the Southwestern 6. _____",
               "options": [],
               "correctAnswer": "landscape"
             },
             {
               "id": "cam20_t4_r_q7",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "Her paintings of the region included images of 7. _____",
               "options": [],
               "correctAnswer": "rivers"
@@ -1622,36 +1618,36 @@
             },
             {
               "id": "cam20_t4_r_q18",
-              "type": "notes_completion",
-              "question": "In coastal cities, 18. _____ are being installed to improve drainage.",
+              "type": "form_completion",
+              "question": "The stormwater-management programme in Miami Beach has involved the installation of efficient ...... 18 ......",
               "options": [],
               "correctAnswer": "pumps"
             },
             {
               "id": "cam20_t4_r_q19",
-              "type": "notes_completion",
-              "question": "Some regions are building 19. _____ to manage water resources.",
+              "type": "form_completion",
+              "question": "The construction of ...... 19 ...... was the first stage of a project to ensure the success of mangroves in Indonesia.",
               "options": [],
               "correctAnswer": "dams"
             },
             {
               "id": "cam20_t4_r_q20",
-              "type": "notes_completion",
-              "question": "New homes designed to 20. _____ on water are being developed.",
+              "type": "form_completion",
+              "question": "As a response to rising floodwaters in the Mekong Delta, a not-for-profit organisation has been building houses that can ...... 20 ......",
               "options": [],
               "correctAnswer": "float"
             },
             {
               "id": "cam20_t4_r_q21",
-              "type": "notes_completion",
-              "question": "Drought-resistant 21. _____ are being developed for agriculture.",
+              "type": "form_completion",
+              "question": "Rising sea levels in Bangladesh have made it necessary to introduce various ...... 21 ...... that are suitable for areas of high salt content.",
               "options": [],
               "correctAnswer": "crops"
             },
             {
               "id": "cam20_t4_r_q22",
-              "type": "notes_completion",
-              "question": "Flood-resistant 22. _____ are also being planted.",
+              "type": "form_completion",
+              "question": "A project in LA has increased the number of ...... 22 ...... on the city's streets.",
               "options": [],
               "correctAnswer": "trees"
             },
@@ -1859,28 +1855,28 @@
             },
             {
               "id": "cam20_t4_r_q37",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "Guard dogs protect livestock from predators such as wolves, coyotes and 37. _____",
               "options": [],
               "correctAnswer": "jackals"
             },
             {
               "id": "cam20_t4_r_q38",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "Their presence can reduce the spread of 38. _____ among livestock.",
               "options": [],
               "correctAnswer": "diseases"
             },
             {
               "id": "cam20_t4_r_q39",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "The dogs help ensure a more reliable supply of 39. _____",
               "options": [],
               "correctAnswer": "food"
             },
             {
               "id": "cam20_t4_r_q40",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "They have also been shown to deter 40. _____ from the area.",
               "options": [],
               "correctAnswer": "foxes"

@@ -7,78 +7,78 @@
       "testNumber": 1,
       "parts": [
         {
-          "id": "cam20_lt1_p1",
+          "id": "cam20_t1_l_p1",
           "title": "Restaurant Recommendations",
           "audioFile": "cam20_s1.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam20_lt1_q1",
-              "type": "notes_completion",
+              "id": "cam20_t1_l_q1",
+              "type": "form_completion",
               "question": "1. Type of food: _____",
               "options": [],
               "correctAnswer": "fish"
             },
             {
-              "id": "cam20_lt1_q2",
-              "type": "notes_completion",
+              "id": "cam20_t1_l_q2",
+              "type": "form_completion",
               "question": "2. Atmosphere: _____ restaurant",
               "options": [],
               "correctAnswer": "roof"
             },
             {
-              "id": "cam20_lt1_q3",
-              "type": "notes_completion",
+              "id": "cam20_t1_l_q3",
+              "type": "form_completion",
               "question": "3. Cuisine: _____",
               "options": [],
               "correctAnswer": "Spanish"
             },
             {
-              "id": "cam20_lt1_q4",
-              "type": "notes_completion",
+              "id": "cam20_t1_l_q4",
+              "type": "form_completion",
               "question": "4. Dietary option: _____",
               "options": [],
               "correctAnswer": "vegetarian"
             },
             {
-              "id": "cam20_lt1_q5",
-              "type": "notes_completion",
+              "id": "cam20_t1_l_q5",
+              "type": "form_completion",
               "question": "5. Name of restaurant: _____",
               "options": [],
               "correctAnswer": "Audley"
             },
             {
-              "id": "cam20_lt1_q6",
-              "type": "notes_completion",
+              "id": "cam20_t1_l_q6",
+              "type": "form_completion",
               "question": "6. Location: inside a _____",
               "options": [],
               "correctAnswer": "hotel"
             },
             {
-              "id": "cam20_lt1_q7",
-              "type": "notes_completion",
+              "id": "cam20_t1_l_q7",
+              "type": "form_completion",
               "question": "7. Check online _____",
               "options": [],
               "correctAnswer": "reviews"
             },
             {
-              "id": "cam20_lt1_q8",
-              "type": "notes_completion",
+              "id": "cam20_t1_l_q8",
+              "type": "form_completion",
               "question": "8. Ingredients: _____ produce",
               "options": [],
               "correctAnswer": "local"
             },
             {
-              "id": "cam20_lt1_q9",
-              "type": "notes_completion",
+              "id": "cam20_t1_l_q9",
+              "type": "form_completion",
               "question": "9. Price range: under £_____",
               "options": [],
               "correctAnswer": "30"
             },
             {
-              "id": "cam20_lt1_q10",
-              "type": "notes_completion",
+              "id": "cam20_t1_l_q10",
+              "type": "form_completion",
               "question": "10. Rating: _____",
               "options": [],
               "correctAnswer": "average"
@@ -86,80 +86,105 @@
           ]
         },
         {
-          "id": "cam20_lt1_p2",
+          "id": "cam20_t1_l_p2",
           "title": "Heather and Pottery",
           "audioFile": "cam20_s2.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam20_lt1_q11",
+              "id": "cam20_t1_l_q11",
               "type": "multiple_choice",
-              "question": "Heather chose to work with clay because",
+              "question": "Heather says pottery differs from other art forms because",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. it lasts longer in the ground.",
+                "B. it is practised by more people.",
+                "C. it can be repaired more easily."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. it lasts longer in the ground."
             },
             {
-              "id": "cam20_lt1_q12",
+              "id": "cam20_t1_l_q12",
               "type": "multiple_choice",
-              "question": "What does Heather say about the identification marks on her pots?",
+              "question": "Archaeologists sometimes identify the use of ancient pottery from",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. the clay it was made with.",
+                "B. the marks that are on it.",
+                "C. the basic shape of it."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. the marks that are on it."
             },
             {
-              "id": "cam20_lt1_q13",
+              "id": "cam20_t1_l_q13",
               "type": "multiple_choice",
-              "question": "Heather says that what she values most about her work is the opportunity to",
+              "question": "Some people join Heather’s pottery class because they want to",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. create an item that looks very old.",
+                "B. find something that they are good at.",
+                "C. make something that will outlive them."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. make something that will outlive them."
             },
             {
-              "id": "cam20_lt1_q14",
+              "id": "cam20_t1_l_q14",
               "type": "multiple_choice",
-              "question": "What does Heather say about the effect of working with clay?",
+              "question": "What does Heather value most about being a potter?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. its calming effect",
+                "B. its messy nature",
+                "C. its physical benefits"
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. its calming effect"
             },
             {
-              "id": "cam20_lt1_q15",
+              "id": "cam20_t1_l_q15",
               "type": "multiple_choice",
-              "question": "Most people who attend Heather's classes",
+              "question": "Most of the visitors to Edelman Pottery",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. bring friends to join courses.",
+                "B. have never made a pot before.",
+                "C. try to learn techniques too quickly."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. have never made a pot before."
             },
             {
-              "id": "cam20_lt1_q16",
+              "id": "cam20_t1_l_q16",
               "type": "multiple_choice",
-              "question": "What does Heather recommend that participants do before a class?",
+              "question": "Heather reminds her visitors that they should",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. put on their aprons.",
+                "B. change their clothes.",
+                "C. take off their jewellery.",
+                "A. what their function is",
+                "B. when they were invented",
+                "C. ways of keeping them safe",
+                "D. where to put one in your home",
+                "E. what some people use instead of one",
+                "A. Some are hard to hold.",
+                "B. Some are worth buying.",
+                "C. Some are essential items.",
+                "D. Some have memorable names.",
+                "E. Some are available for use by participants.",
+                "A. social media",
+                "B. smaller nuclear families",
+                "C. urban design",
+                "D. longer lifespans",
+                "E. a mobile workforce",
+                "A. a weakened immune system",
+                "B. dementia",
+                "C. cancer",
+                "D. obesity",
+                "E. cardiovascular disease",
+                "A. It has little practical relevance.",
+                "B. It needs further investigation.",
+                "C. It is misleading.",
+                "D. It should be more widely accepted.",
+                "E. It is difficult to understand."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. take off their jewellery."
             },
             {
-              "id": "cam20_lt1_q17",
+              "id": "cam20_t1_l_q17",
               "type": "matching",
               "question": "Choose the correct letter: What does Heather say about each item?",
               "options": [
@@ -172,7 +197,7 @@
               "correctAnswer": "A"
             },
             {
-              "id": "cam20_lt1_q18",
+              "id": "cam20_t1_l_q18",
               "type": "matching",
               "question": "Choose the correct letter: What does Heather say about each item?",
               "options": [
@@ -185,7 +210,7 @@
               "correctAnswer": "E"
             },
             {
-              "id": "cam20_lt1_q19",
+              "id": "cam20_t1_l_q19",
               "type": "matching",
               "question": "Choose the correct letter: What does Heather say about each item?",
               "options": [
@@ -198,7 +223,7 @@
               "correctAnswer": "C"
             },
             {
-              "id": "cam20_lt1_q20",
+              "id": "cam20_t1_l_q20",
               "type": "matching",
               "question": "Choose the correct letter: What does Heather say about each item?",
               "options": [
@@ -213,14 +238,14 @@
           ]
         },
         {
-          "id": "cam20_lt1_p3",
+          "id": "cam20_t1_l_p3",
           "title": "Loneliness",
           "audioFile": "cam20_s3.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam20_lt1_q21",
+              "id": "cam20_t1_l_q21",
               "type": "matching",
               "question": "Factor that may cause loneliness: urban design",
               "options": [
@@ -233,7 +258,7 @@
               "correctAnswer": "C"
             },
             {
-              "id": "cam20_lt1_q22",
+              "id": "cam20_t1_l_q22",
               "type": "matching",
               "question": "Factor that may cause loneliness: a mobile workforce",
               "options": [
@@ -246,7 +271,7 @@
               "correctAnswer": "E"
             },
             {
-              "id": "cam20_lt1_q23",
+              "id": "cam20_t1_l_q23",
               "type": "matching",
               "question": "Possible consequence of loneliness: a weakened immune system",
               "options": [
@@ -259,7 +284,7 @@
               "correctAnswer": "A"
             },
             {
-              "id": "cam20_lt1_q24",
+              "id": "cam20_t1_l_q24",
               "type": "matching",
               "question": "Possible consequence of loneliness: cancer",
               "options": [
@@ -272,7 +297,7 @@
               "correctAnswer": "C"
             },
             {
-              "id": "cam20_lt1_q25",
+              "id": "cam20_t1_l_q25",
               "type": "matching",
               "question": "Previous research on loneliness: has little practical relevance",
               "options": [
@@ -285,7 +310,7 @@
               "correctAnswer": "A"
             },
             {
-              "id": "cam20_lt1_q26",
+              "id": "cam20_t1_l_q26",
               "type": "matching",
               "question": "Previous research on loneliness: needs further investigation",
               "options": [
@@ -298,125 +323,125 @@
               "correctAnswer": "B"
             },
             {
-              "id": "cam20_lt1_q27",
+              "id": "cam20_t1_l_q27",
               "type": "multiple_choice",
-              "question": "Question 27: Choose the correct letter.",
+              "question": "When comparing loneliness to depression, the students",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. doubt that there will be a medical cure for loneliness.",
+                "B. claim that the link between loneliness and mental health is overstated.",
+                "C. express frustration that loneliness is not taken more seriously."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. doubt that there will be a medical cure for loneliness."
             },
             {
-              "id": "cam20_lt1_q28",
+              "id": "cam20_t1_l_q28",
               "type": "multiple_choice",
-              "question": "Question 28: Choose the correct letter.",
+              "question": "Why do the students decide to start their presentation with an example from their own experience?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. to explain how difficult loneliness can be",
+                "B. to highlight a situation that most students will recognise",
+                "C. to emphasise that feeling lonely is more common for men than women"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. to highlight a situation that most students will recognise"
             },
             {
-              "id": "cam20_lt1_q29",
+              "id": "cam20_t1_l_q29",
               "type": "multiple_choice",
-              "question": "Question 29: Choose the correct letter.",
+              "question": "The students agree that talking to strangers is a good strategy for dealing with loneliness because",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. it creates a sense of belonging.",
+                "B. it builds self-confidence.",
+                "C. it makes people feel more positive."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. it creates a sense of belonging."
             },
             {
-              "id": "cam20_lt1_q30",
+              "id": "cam20_t1_l_q30",
               "type": "multiple_choice",
-              "question": "Question 30: Choose the correct letter.",
+              "question": "The students find it difficult to understand why solitude is considered to be",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. similar to loneliness.",
+                "B. necessary for mental health.",
+                "C. an enjoyable experience."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. an enjoyable experience."
             }
           ]
         },
         {
-          "id": "cam20_lt1_p4",
+          "id": "cam20_t1_l_p4",
           "title": "Reclaiming Urban Rivers",
           "audioFile": "cam20_s4.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam20_lt1_q31",
-              "type": "notes_completion",
-              "question": "Question 31: ONE WORD ONLY.",
+              "id": "cam20_t1_l_q31",
+              "type": "form_completion",
+              "question": "Industrial development and rising populations later led to: | pollution from ................................................................... 31 ................................................................... on the river bank.",
               "options": [],
               "correctAnswer": "factories"
             },
             {
-              "id": "cam20_lt1_q32",
-              "type": "notes_completion",
-              "question": "Question 32: ONE WORD ONLY.",
+              "id": "cam20_t1_l_q32",
+              "type": "form_completion",
+              "question": "Industrial development and rising populations later led to: | In 1957, the River Thames in London was declared biologically ................................................................... 32 ...................................................................",
               "options": [],
               "correctAnswer": "dead"
             },
             {
-              "id": "cam20_lt1_q33",
-              "type": "notes_completion",
-              "question": "Question 33: ONE WORD ONLY.",
+              "id": "cam20_t1_l_q33",
+              "type": "form_completion",
+              "question": "Recent improvements | Seals and even a ................................................................... 33 ................................................................... have been seen in the River Thames.",
               "options": [],
               "correctAnswer": "whale"
             },
             {
-              "id": "cam20_lt1_q34",
-              "type": "notes_completion",
-              "question": "Question 34: ONE WORD ONLY.",
+              "id": "cam20_t1_l_q34",
+              "type": "form_completion",
+              "question": "Recent improvements | Riverside warehouses are converted to restaurants and ................................................................... 34 ...................................................................",
               "options": [],
               "correctAnswer": "apartments"
             },
             {
-              "id": "cam20_lt1_q35",
-              "type": "notes_completion",
-              "question": "Question 35: ONE WORD ONLY.",
+              "id": "cam20_t1_l_q35",
+              "type": "form_completion",
+              "question": "Recent improvements | build a riverside ................................................................... 35 ...................................................................",
               "options": [],
               "correctAnswer": "park"
             },
             {
-              "id": "cam20_lt1_q36",
-              "type": "notes_completion",
-              "question": "Question 36: ONE WORD ONLY.",
+              "id": "cam20_t1_l_q36",
+              "type": "form_completion",
+              "question": "Recent improvements | display 36",
               "options": [],
               "correctAnswer": "art"
             },
             {
-              "id": "cam20_lt1_q37",
-              "type": "notes_completion",
-              "question": "Question 37: ONE WORD ONLY.",
+              "id": "cam20_t1_l_q37",
+              "type": "form_completion",
+              "question": "In Paris, ................................................................... 37 ................................................................... are created on the sides of the river every summer.",
               "options": [],
               "correctAnswer": "beaches"
             },
             {
-              "id": "cam20_lt1_q38",
-              "type": "notes_completion",
-              "question": "Question 38: ONE WORD ONLY.",
+              "id": "cam20_t1_l_q38",
+              "type": "form_completion",
+              "question": "Transport possibilities | Over 2 billion passengers already travel by ................................................................... 38 ................................................................... in cities round the world.",
               "options": [],
               "correctAnswer": "ferry"
             },
             {
-              "id": "cam20_lt1_q39",
-              "type": "notes_completion",
-              "question": "Question 39: ONE WORD ONLY.",
+              "id": "cam20_t1_l_q39",
+              "type": "form_completion",
+              "question": "Transport possibilities | Instead of road transport, goods could be transported by large freight barges and electric ................................................................... 39 ..................................................................., or, in future, by ................................................................... 40 ...................................................................",
               "options": [],
               "correctAnswer": "bikes"
             },
             {
-              "id": "cam20_lt1_q40",
-              "type": "notes_completion",
-              "question": "Question 40: ONE WORD ONLY.",
+              "id": "cam20_t1_l_q40",
+              "type": "form_completion",
+              "question": "Instead of road transport, goods could be transported by large freight barges and electric ........................ 39 ........................ , or, in future, by _____ . _____",
               "options": [],
               "correctAnswer": "drone"
             }
@@ -429,78 +454,78 @@
       "testNumber": 2,
       "parts": [
         {
-          "id": "cam20_lt2_p1",
+          "id": "cam20_t2_l_p1",
           "title": "Help for Carers",
           "audioFile": "cam20_s5.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam20_lt2_q1",
-              "type": "notes_completion",
+              "id": "cam20_t2_l_q1",
+              "type": "form_completion",
               "question": "1. Need a _____ from caring duties",
               "options": [],
               "correctAnswer": "break"
             },
             {
-              "id": "cam20_lt2_q2",
-              "type": "notes_completion",
+              "id": "cam20_t2_l_q2",
+              "type": "form_completion",
               "question": "2. Help with managing _____",
               "options": [],
               "correctAnswer": "time"
             },
             {
-              "id": "cam20_lt2_q3",
-              "type": "notes_completion",
+              "id": "cam20_t2_l_q3",
+              "type": "form_completion",
               "question": "3. Need help with taking a _____",
               "options": [],
               "correctAnswer": "shower"
             },
             {
-              "id": "cam20_lt2_q4",
-              "type": "notes_completion",
+              "id": "cam20_t2_l_q4",
+              "type": "form_completion",
               "question": "4. Financial advice about _____",
               "options": [],
               "correctAnswer": "money"
             },
             {
-              "id": "cam20_lt2_q5",
-              "type": "notes_completion",
+              "id": "cam20_t2_l_q5",
+              "type": "form_completion",
               "question": "5. Support for problems with _____",
               "options": [],
               "correctAnswer": "memory"
             },
             {
-              "id": "cam20_lt2_q6",
-              "type": "notes_completion",
+              "id": "cam20_t2_l_q6",
+              "type": "form_completion",
               "question": "6. Help with _____ heavy items",
               "options": [],
               "correctAnswer": "lifting"
             },
             {
-              "id": "cam20_lt2_q7",
-              "type": "notes_completion",
+              "id": "cam20_t2_l_q7",
+              "type": "form_completion",
               "question": "7. Risk of _____",
               "options": [],
               "correctAnswer": "fall"
             },
             {
-              "id": "cam20_lt2_q8",
-              "type": "notes_completion",
+              "id": "cam20_t2_l_q8",
+              "type": "form_completion",
               "question": "8. Transport: _____ service",
               "options": [],
               "correctAnswer": "taxi"
             },
             {
-              "id": "cam20_lt2_q9",
-              "type": "notes_completion",
+              "id": "cam20_t2_l_q9",
+              "type": "form_completion",
               "question": "9. Advice about _____",
               "options": [],
               "correctAnswer": "insurance"
             },
             {
-              "id": "cam20_lt2_q10",
-              "type": "notes_completion",
+              "id": "cam20_t2_l_q10",
+              "type": "form_completion",
               "question": "10. Help dealing with _____",
               "options": [],
               "correctAnswer": "stress"
@@ -508,14 +533,14 @@
           ]
         },
         {
-          "id": "cam20_lt2_p2",
+          "id": "cam20_t2_l_p2",
           "title": "Community Volunteering",
           "audioFile": "cam20_s6.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam20_lt2_q11",
+              "id": "cam20_t2_l_q11",
               "type": "matching",
               "question": "Volunteer role: giving advice to visitors",
               "options": [
@@ -532,7 +557,7 @@
               "correctAnswer": "D"
             },
             {
-              "id": "cam20_lt2_q12",
+              "id": "cam20_t2_l_q12",
               "type": "matching",
               "question": "Volunteer role: helping people find their seats",
               "options": [
@@ -549,7 +574,7 @@
               "correctAnswer": "I"
             },
             {
-              "id": "cam20_lt2_q13",
+              "id": "cam20_t2_l_q13",
               "type": "matching",
               "question": "Volunteer role: encouraging cooperation between local organisations",
               "options": [
@@ -566,7 +591,7 @@
               "correctAnswer": "H"
             },
             {
-              "id": "cam20_lt2_q14",
+              "id": "cam20_t2_l_q14",
               "type": "matching",
               "question": "Volunteer role: collecting feedback on events",
               "options": [
@@ -583,7 +608,7 @@
               "correctAnswer": "E"
             },
             {
-              "id": "cam20_lt2_q15",
+              "id": "cam20_t2_l_q15",
               "type": "matching",
               "question": "Volunteer role: providing entertainment",
               "options": [
@@ -600,7 +625,7 @@
               "correctAnswer": "A"
             },
             {
-              "id": "cam20_lt2_q16",
+              "id": "cam20_t2_l_q16",
               "type": "matching",
               "question": "Volunteer role: providing publicity about a council service",
               "options": [
@@ -617,60 +642,80 @@
               "correctAnswer": "B"
             },
             {
-              "id": "cam20_lt2_q17",
+              "id": "cam20_t2_l_q17",
               "type": "multiple_choice",
-              "question": "Which event is the speaker recommending?",
+              "question": "Which event requires the largest number of volunteers? A.the music festival B.the science festival C.the book festival",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. providing entertainment",
+                "B. providing publicity about a council service",
+                "C. contacting local businesses",
+                "D. giving advice to visitors",
+                "E. collecting feedback on events",
+                "F. selling tickets",
+                "G. introducing guest speakers at an event",
+                "H. encouraging cooperation between local organisations"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. the science festival"
             },
             {
-              "id": "cam20_lt2_q18",
+              "id": "cam20_t2_l_q18",
               "type": "multiple_choice",
-              "question": "What skill is most needed for volunteering?",
+              "question": "What is the most important requirement for volunteers at the festivals? A.interpersonal skills B.personal interest in the event C.flexibility",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. providing entertainment",
+                "B. providing publicity about a council service",
+                "C. contacting local businesses",
+                "D. giving advice to visitors",
+                "E. collecting feedback on events",
+                "F. selling tickets",
+                "G. introducing guest speakers at an event",
+                "H. encouraging cooperation between local organisations"
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. interpersonal skills"
             },
             {
-              "id": "cam20_lt2_q19",
+              "id": "cam20_t2_l_q19",
               "type": "multiple_choice",
-              "question": "When is the volunteer training session?",
+              "question": "New volunteers will start working in the week beginning A.2 September. B.9 September. C.23 September.",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. providing entertainment",
+                "B. providing publicity about a council service",
+                "C. contacting local businesses",
+                "D. giving advice to visitors",
+                "E. collecting feedback on events",
+                "F. selling tickets",
+                "G. introducing guest speakers at an event",
+                "H. encouraging cooperation between local organisations"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. 9 September."
             },
             {
-              "id": "cam20_lt2_q20",
+              "id": "cam20_t2_l_q20",
               "type": "multiple_choice",
-              "question": "What does the volunteer package include?",
+              "question": "What is the next annual event for volunteers? A.a boat trip B.a barbecue C.a party",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. providing entertainment",
+                "B. providing publicity about a council service",
+                "C. contacting local businesses",
+                "D. giving advice to visitors",
+                "E. collecting feedback on events",
+                "F. selling tickets",
+                "G. introducing guest speakers at an event",
+                "H. encouraging cooperation between local organisations"
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. a boat trip"
             }
           ]
         },
         {
-          "id": "cam20_lt2_p3",
+          "id": "cam20_t2_l_p3",
           "title": "Human Geography Discussion",
           "audioFile": "cam20_s7.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam20_lt2_q21",
+              "id": "cam20_t2_l_q21",
               "type": "matching",
               "question": "Matching question 21",
               "options": [
@@ -685,7 +730,7 @@
               "correctAnswer": "D"
             },
             {
-              "id": "cam20_lt2_q22",
+              "id": "cam20_t2_l_q22",
               "type": "matching",
               "question": "Matching question 22",
               "options": [
@@ -700,7 +745,7 @@
               "correctAnswer": "G"
             },
             {
-              "id": "cam20_lt2_q23",
+              "id": "cam20_t2_l_q23",
               "type": "matching",
               "question": "Matching question 23",
               "options": [
@@ -715,7 +760,7 @@
               "correctAnswer": "B"
             },
             {
-              "id": "cam20_lt2_q24",
+              "id": "cam20_t2_l_q24",
               "type": "matching",
               "question": "Matching question 24",
               "options": [
@@ -730,7 +775,7 @@
               "correctAnswer": "A"
             },
             {
-              "id": "cam20_lt2_q25",
+              "id": "cam20_t2_l_q25",
               "type": "matching",
               "question": "Matching question 25",
               "options": [
@@ -745,140 +790,126 @@
               "correctAnswer": "E"
             },
             {
-              "id": "cam20_lt2_q26",
+              "id": "cam20_t2_l_q26",
               "type": "matching",
-              "question": "Matching question 26: unemployment",
+              "question": "Rosie says that in her own city the main problem is A.crime. B.housing. C.unemployment.",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G"
+                "G. The information provided about this was interesting."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam20_lt2_q27",
+              "id": "cam20_t2_l_q27",
               "type": "multiple_choice",
-              "question": "What does the student say about conference centres?",
+              "question": "What recent additions to the outskirts of their cities are both students happy about? A.conference centres B.sports centres C.retail centres",
               "options": [
-                "A",
-                "B",
-                "C"
+                "G. The information provided about this was interesting."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. conference centres"
             },
             {
-              "id": "cam20_lt2_q28",
+              "id": "cam20_t2_l_q28",
               "type": "multiple_choice",
-              "question": "What problem do new developments face?",
+              "question": "The students agree that developing disused industrial sites may A.have unexpected costs. B.damage the urban environment. C.destroy valuable historical buildings.",
               "options": [
-                "A",
-                "B",
-                "C"
+                "G. The information provided about this was interesting."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. have unexpected costs."
             },
             {
-              "id": "cam20_lt2_q29",
+              "id": "cam20_t2_l_q29",
               "type": "multiple_choice",
-              "question": "What aspect of the development is the student most interested in?",
+              "question": "The students will mention Masdar City as an example of an attempt to achieve A.daily collections for waste recycling. B.sustainable energy use. C.free transport for everyone.",
               "options": [
-                "A",
-                "B",
-                "C"
+                "G. The information provided about this was interesting."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. sustainable energy use."
             },
             {
-              "id": "cam20_lt2_q30",
+              "id": "cam20_t2_l_q30",
               "type": "multiple_choice",
-              "question": "What does the tutor say about the student's research?",
+              "question": "When discussing the ecotown of Greenhill Abbots, Colin is uncertain about A.what its objectives were. B.why there was opposition to it. C.how much of it has actually been built.",
               "options": [
-                "A",
-                "B",
-                "C"
+                "G. The information provided about this was interesting."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. how much of it has actually been built."
             }
           ]
         },
         {
-          "id": "cam20_lt2_p4",
+          "id": "cam20_t2_l_p4",
           "title": "Developing Food Trends",
           "audioFile": "cam20_s8.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam20_lt2_q31",
-              "type": "notes_completion",
-              "question": "31. Sharing _____ of food online",
+              "id": "cam20_t2_l_q31",
+              "type": "form_completion",
+              "question": "Developing food trends | The growth in interest in food fashions started with ...... 31 ...... of food being shared on social media.",
               "options": [],
               "correctAnswer": "photos"
             },
             {
-              "id": "cam20_lt2_q32",
-              "type": "notes_completion",
-              "question": "32. Rise of _____ diet",
+              "id": "cam20_t2_l_q32",
+              "type": "form_completion",
+              "question": "Developing food trends | Sales of ...... 32 ...... food brands have grown rapidly this way.",
               "options": [],
               "correctAnswer": "vegan"
             },
             {
-              "id": "cam20_lt2_q33",
-              "type": "notes_completion",
-              "question": "33. Influence of famous _____",
+              "id": "cam20_t2_l_q33",
+              "type": "form_completion",
+              "question": "Famous ...... 33 ...... are influential.",
               "options": [],
               "correctAnswer": "chefs"
             },
             {
-              "id": "cam20_lt2_q34",
-              "type": "notes_completion",
-              "question": "34. Coverage by food _____",
+              "id": "cam20_t2_l_q34",
+              "type": "form_completion",
+              "question": "Marketing campaigns | ...... 34 ...... were invited to visit growers in South Africa.",
               "options": [],
               "correctAnswer": "journalists"
             },
             {
-              "id": "cam20_lt2_q35",
-              "type": "notes_completion",
-              "question": "35. Focus on _____ benefits",
+              "id": "cam20_t2_l_q35",
+              "type": "form_completion",
+              "question": "Marketing campaigns | Advertising focused on its ...... 35 ...... benefits.",
               "options": [],
               "correctAnswer": "health"
             },
             {
-              "id": "cam20_lt2_q36",
-              "type": "notes_completion",
-              "question": "36. Popularity of speciality _____",
+              "id": "cam20_t2_l_q36",
+              "type": "form_completion",
+              "question": "Promotion in the USA through ...... 36 ...... shops reduced the need for advertising.",
               "options": [],
               "correctAnswer": "coffee"
             },
             {
-              "id": "cam20_lt2_q37",
-              "type": "notes_completion",
-              "question": "37. Concern about the _____",
+              "id": "cam20_t2_l_q37",
+              "type": "form_completion",
+              "question": "It appealed to consumers who are concerned about the ...... 37 ......",
               "options": [],
               "correctAnswer": "environment"
             },
             {
-              "id": "cam20_lt2_q38",
-              "type": "notes_completion",
-              "question": "38. Importance of brand _____",
+              "id": "cam20_t2_l_q38",
+              "type": "form_completion",
+              "question": "has helped strengthen the ...... 38 ...... of Norwegian seafood.",
               "options": [],
               "correctAnswer": "reputation"
             },
             {
-              "id": "cam20_lt2_q39",
-              "type": "notes_completion",
-              "question": "39. Sensitivity to _____",
+              "id": "cam20_t2_l_q39",
+              "type": "form_completion",
+              "question": "Ethical concerns: | Its success led to an increase in its ...... 39 ......",
               "options": [],
               "correctAnswer": "price"
             },
             {
-              "id": "cam20_lt2_q40",
-              "type": "notes_completion",
-              "question": "40. Condition of the _____",
+              "id": "cam20_t2_l_q40",
+              "type": "form_completion",
+              "question": "Ethical concerns: | Overuse of resources resulted in poor quality ...... 40 ......",
               "options": [],
               "correctAnswer": "soil"
             }
@@ -891,78 +922,78 @@
       "testNumber": 3,
       "parts": [
         {
-          "id": "cam20_lt3_p1",
+          "id": "cam20_t3_l_p1",
           "title": "Furniture Rental Companies",
           "audioFile": "cam20_s9.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam20_lt3_q1",
-              "type": "notes_completion",
+              "id": "cam20_t3_l_q1",
+              "type": "form_completion",
               "question": "1. Customer reference: _____",
               "options": [],
               "correctAnswer": "239"
             },
             {
-              "id": "cam20_lt3_q2",
-              "type": "notes_completion",
+              "id": "cam20_t3_l_q2",
+              "type": "form_completion",
               "question": "2. Style required: _____",
               "options": [],
               "correctAnswer": "modern"
             },
             {
-              "id": "cam20_lt3_q3",
-              "type": "notes_completion",
+              "id": "cam20_t3_l_q3",
+              "type": "form_completion",
               "question": "3. Item needed: _____",
               "options": [],
               "correctAnswer": "lamp"
             },
             {
-              "id": "cam20_lt3_q4",
-              "type": "notes_completion",
+              "id": "cam20_t3_l_q4",
+              "type": "form_completion",
               "question": "4. Contact person: _____",
               "options": [],
               "correctAnswer": "Aaron"
             },
             {
-              "id": "cam20_lt3_q5",
-              "type": "notes_completion",
+              "id": "cam20_t3_l_q5",
+              "type": "form_completion",
               "question": "5. Concern about: _____",
               "options": [],
               "correctAnswer": "damage"
             },
             {
-              "id": "cam20_lt3_q6",
-              "type": "notes_completion",
+              "id": "cam20_t3_l_q6",
+              "type": "form_completion",
               "question": "6. Need for _____ equipment",
               "options": [],
               "correctAnswer": "electronic"
             },
             {
-              "id": "cam20_lt3_q7",
-              "type": "notes_completion",
+              "id": "cam20_t3_l_q7",
+              "type": "form_completion",
               "question": "7. Take out _____",
               "options": [],
               "correctAnswer": "insurance"
             },
             {
-              "id": "cam20_lt3_q8",
-              "type": "notes_completion",
+              "id": "cam20_t3_l_q8",
+              "type": "form_completion",
               "question": "8. Company name: _____",
               "options": [],
               "correctAnswer": "Space"
             },
             {
-              "id": "cam20_lt3_q9",
-              "type": "notes_completion",
+              "id": "cam20_t3_l_q9",
+              "type": "form_completion",
               "question": "9. Use their _____ to browse items",
               "options": [],
               "correctAnswer": "app"
             },
             {
-              "id": "cam20_lt3_q10",
-              "type": "notes_completion",
+              "id": "cam20_t3_l_q10",
+              "type": "form_completion",
               "question": "10. Option for _____",
               "options": [],
               "correctAnswer": "exchanges"
@@ -970,80 +1001,80 @@
           ]
         },
         {
-          "id": "cam20_lt3_p2",
+          "id": "cam20_t3_l_p2",
           "title": "Archaeology at Bidcaster Castle (Community Project)",
           "audioFile": "cam20_s10.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam20_lt3_q11",
+              "id": "cam20_t3_l_q11",
               "type": "multiple_choice",
-              "question": "The archaeological project is run by",
+              "question": "Who was responsible for starting the community project?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. the castle owners",
+                "B. a national charity",
+                "C. the local council"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. a national charity"
             },
             {
-              "id": "cam20_lt3_q12",
+              "id": "cam20_t3_l_q12",
               "type": "multiple_choice",
-              "question": "What initially exposed the archaeological site?",
+              "question": "How was the gold coin found?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. Heavy rain had removed some of the soil.",
+                "B. The ground was dug up by wild rabbits.",
+                "C. A person with a metal detector searched the area."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. Heavy rain had removed some of the soil."
             },
             {
-              "id": "cam20_lt3_q13",
+              "id": "cam20_t3_l_q13",
               "type": "multiple_choice",
-              "question": "What helped the archaeologists identify the site?",
+              "question": "What led the archaeologists to believe there was an ancient village on this site?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. the lucky discovery of old records",
+                "B. the bases of several structures visible in the grass",
+                "C. the unusual stones found near the castle"
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. the lucky discovery of old records"
             },
             {
-              "id": "cam20_lt3_q14",
+              "id": "cam20_t3_l_q14",
               "type": "multiple_choice",
-              "question": "What was the most surprising find?",
+              "question": "What are the team still hoping to find?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. everyday pottery",
+                "B. animal bones",
+                "C. pieces of jewellery"
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. pieces of jewellery"
             },
             {
-              "id": "cam20_lt3_q15",
+              "id": "cam20_t3_l_q15",
               "type": "multiple_choice",
-              "question": "What did the geophysical survey reveal?",
+              "question": "What was found on the other side of the river to the castle?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. the remains of a large palace",
+                "B. the outline of fields",
+                "C. a number of small huts"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. the outline of fields"
             },
             {
-              "id": "cam20_lt3_q16",
+              "id": "cam20_t3_l_q16",
               "type": "multiple_choice",
-              "question": "What is the project's main educational aim?",
+              "question": "What do the team plan to do after work ends this summer?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. prepare a display for a museum",
+                "B. take part in a television programme",
+                "C. start to organise school visits"
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. start to organise school visits"
             },
             {
-              "id": "cam20_lt3_q17",
+              "id": "cam20_t3_l_q17",
               "type": "matching",
               "question": "bridge foundations",
               "options": [
@@ -1059,7 +1090,7 @@
               "correctAnswer": "B"
             },
             {
-              "id": "cam20_lt3_q18",
+              "id": "cam20_t3_l_q18",
               "type": "matching",
               "question": "rubbish pit - near castle walls NW corner",
               "options": [
@@ -1075,7 +1106,7 @@
               "correctAnswer": "A"
             },
             {
-              "id": "cam20_lt3_q19",
+              "id": "cam20_t3_l_q19",
               "type": "matching",
               "question": "meeting hall - central area next to excavation",
               "options": [
@@ -1091,7 +1122,7 @@
               "correctAnswer": "G"
             },
             {
-              "id": "cam20_lt3_q20",
+              "id": "cam20_t3_l_q20",
               "type": "matching",
               "question": "fish pond - turn right at first info board, into trees",
               "options": [
@@ -1109,80 +1140,84 @@
           ]
         },
         {
-          "id": "cam20_lt3_p3",
+          "id": "cam20_t3_l_p3",
           "title": "Theatre Programmes (Playbills) Research",
           "audioFile": "cam20_s11.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam20_lt3_q21",
+              "id": "cam20_t3_l_q21",
               "type": "multiple_choice",
-              "question": "Question 21: Choose the correct letter.",
+              "question": "Finn was pleased to discover that their topic",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. was not familiar to their module leader.",
+                "B. had not been chosen by other students.",
+                "C. did not prove to be difficult to research.",
+                "A. theatres pay companies to produce them.",
+                "B. few theatre-goers buy them nowadays.",
+                "C. they contain far more adverts than previously."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. had not been chosen by other students."
             },
             {
-              "id": "cam20_lt3_q22",
+              "id": "cam20_t3_l_q22",
               "type": "multiple_choice",
-              "question": "Question 22: Choose the correct letter.",
+              "question": "Maya says a mistaken belief about theatre programmes is that",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. theatres pay companies to produce them.",
+                "B. few theatre-goers buy them nowadays.",
+                "C. they contain far more adverts than previously."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. theatres pay companies to produce them."
             },
             {
-              "id": "cam20_lt3_q23",
+              "id": "cam20_t3_l_q23",
               "type": "multiple_choice",
-              "question": "Question 23: Choose the correct letter.",
+              "question": "Finn was surprised that, in early British theatre, programmes",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. were difficult for audiences to obtain.",
+                "B. were given out free of charge.",
+                "C. were seen as a kind of contract."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. were seen as a kind of contract."
             },
             {
-              "id": "cam20_lt3_q24",
+              "id": "cam20_t3_l_q24",
               "type": "multiple_choice",
-              "question": "Question 24: Choose the correct letter.",
+              "question": "Maya feels their project should include an explanation of why companies of actors",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. promoted their own plays.",
+                "B. performed plays outdoors.",
+                "C. had to tour with their plays."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. promoted their own plays."
             },
             {
-              "id": "cam20_lt3_q25",
+              "id": "cam20_t3_l_q25",
               "type": "multiple_choice",
-              "question": "Question 25: Choose the correct letter.",
+              "question": "Finn and Maya both think that, compared to nineteenth-century programmes, those from the eighteenth century",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. were more original.",
+                "B. were more colourful.",
+                "C. were more informative."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. were more informative."
             },
             {
-              "id": "cam20_lt3_q26",
+              "id": "cam20_t3_l_q26",
               "type": "multiple_choice",
-              "question": "Question 26: Choose the correct letter.",
+              "question": "Maya doesn't fully understand why, in the twentieth century,",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. very few theatre programmes were printed in the USA.",
+                "B. British theatre programmes failed to develop for so long.",
+                "C. theatre programmes in Britain copied fashions from the USA.",
+                "A. Its origin is somewhat controversial."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. British theatre programmes failed to develop for so long."
             },
             {
-              "id": "cam20_lt3_q27",
+              "id": "cam20_t3_l_q27",
               "type": "matching",
               "question": "Ruy Blas - resembles an artwork",
               "options": [
@@ -1196,7 +1231,7 @@
               "correctAnswer": "F"
             },
             {
-              "id": "cam20_lt3_q28",
+              "id": "cam20_t3_l_q28",
               "type": "matching",
               "question": "Man of La Mancha - contains insights into the show",
               "options": [
@@ -1210,7 +1245,7 @@
               "correctAnswer": "E"
             },
             {
-              "id": "cam20_lt3_q29",
+              "id": "cam20_t3_l_q29",
               "type": "matching",
               "question": "The Tragedy of Jane Shore - historically significant for Australia",
               "options": [
@@ -1224,7 +1259,7 @@
               "correctAnswer": "B"
             },
             {
-              "id": "cam20_lt3_q30",
+              "id": "cam20_t3_l_q30",
               "type": "matching",
               "question": "The Sailors' Festival - included in recent British Library project",
               "options": [
@@ -1240,79 +1275,79 @@
           ]
         },
         {
-          "id": "cam20_lt3_p4",
+          "id": "cam20_t3_l_p4",
           "title": "Inclusive Design",
           "audioFile": "cam20_s12.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam20_lt3_q31",
-              "type": "notes_completion",
-              "question": "Question 31: ONE WORD ONLY.",
+              "id": "cam20_t3_l_q31",
+              "type": "form_completion",
+              "question": "Definition | Designing products that can be accessed by a diverse range of people without the need for any ...... 31 ......",
               "options": [],
               "correctAnswer": "adaptation"
             },
             {
-              "id": "cam20_lt3_q32",
-              "type": "notes_completion",
-              "question": "Question 32: ONE WORD ONLY.",
+              "id": "cam20_t3_l_q32",
+              "type": "form_completion",
+              "question": "Definition | Not the same as universal design: that is design for everyone, including catering for people with ...... 32 ...... problems.",
               "options": [],
               "correctAnswer": "cognitive"
             },
             {
-              "id": "cam20_lt3_q33",
-              "type": "notes_completion",
-              "question": "Question 33: ONE WORD ONLY.",
+              "id": "cam20_t3_l_q33",
+              "type": "form_completion",
+              "question": "Examples of inclusive design | ...... 33 ...... which are adjustable, avoiding back or neck problems",
               "options": [],
               "correctAnswer": "desks"
             },
             {
-              "id": "cam20_lt3_q34",
-              "type": "notes_completion",
-              "question": "Question 34: ONE WORD ONLY.",
+              "id": "cam20_t3_l_q34",
+              "type": "form_completion",
+              "question": "Examples of inclusive design | ...... 34 ...... in public toilets which are easier to use",
               "options": [],
               "correctAnswer": "taps"
             },
             {
-              "id": "cam20_lt3_q35",
-              "type": "notes_completion",
-              "question": "Question 35: ONE WORD ONLY.",
+              "id": "cam20_t3_l_q35",
+              "type": "form_completion",
+              "question": "Examples of inclusive design | designers avoid using ...... 35 ...... in interfaces",
               "options": [],
               "correctAnswer": "blue"
             },
             {
-              "id": "cam20_lt3_q36",
-              "type": "notes_completion",
-              "question": "Question 36: ONE WORD ONLY.",
+              "id": "cam20_t3_l_q36",
+              "type": "form_completion",
+              "question": "Examples of inclusive design | people can make commands using a mouse, keyboard or their ...... 36 ......",
               "options": [],
               "correctAnswer": "voice"
             },
             {
-              "id": "cam20_lt3_q37",
-              "type": "notes_completion",
-              "question": "Question 37: ONE WORD ONLY.",
+              "id": "cam20_t3_l_q37",
+              "type": "form_completion",
+              "question": "Impact of noninclusive designs | Seatbelts are especially problematic for ...... 37 ...... women.",
               "options": [],
               "correctAnswer": "pregnant"
             },
             {
-              "id": "cam20_lt3_q38",
-              "type": "notes_completion",
-              "question": "Question 38: ONE WORD ONLY.",
+              "id": "cam20_t3_l_q38",
+              "type": "form_completion",
+              "question": "Impact of noninclusive designs | PPE jackets are often unsuitable because of the size of women's ...... 38 ......",
               "options": [],
               "correctAnswer": "shoulders"
             },
             {
-              "id": "cam20_lt3_q39",
-              "type": "notes_completion",
-              "question": "Question 39: ONE WORD ONLY.",
+              "id": "cam20_t3_l_q39",
+              "type": "form_completion",
+              "question": "Impact of noninclusive designs | PPE for female ...... 39 ...... officers dealing with emergencies is the worst.",
               "options": [],
               "correctAnswer": "police"
             },
             {
-              "id": "cam20_lt3_q40",
-              "type": "notes_completion",
-              "question": "Question 40: ONE WORD ONLY.",
+              "id": "cam20_t3_l_q40",
+              "type": "form_completion",
+              "question": "Impact of noninclusive designs | The ...... 40 ...... in offices is often too low for women.",
               "options": [],
               "correctAnswer": "temperature"
             }
@@ -1325,78 +1360,78 @@
       "testNumber": 4,
       "parts": [
         {
-          "id": "cam20_lt4_p1",
+          "id": "cam20_t4_l_p1",
           "title": "Travel Information (Kings Hotel)",
           "audioFile": "cam20_s13.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam20_lt4_q1",
-              "type": "notes_completion",
+              "id": "cam20_t4_l_q1",
+              "type": "form_completion",
               "question": "1. Name of hotel: _____",
               "options": [],
               "correctAnswer": "Kings"
             },
             {
-              "id": "cam20_lt4_q2",
-              "type": "notes_completion",
+              "id": "cam20_t4_l_q2",
+              "type": "form_completion",
               "question": "2. Room cost: £_____",
               "options": [],
               "correctAnswer": "125"
             },
             {
-              "id": "cam20_lt4_q3",
-              "type": "notes_completion",
+              "id": "cam20_t4_l_q3",
+              "type": "form_completion",
               "question": "3. Activity: _____ tour",
               "options": [],
               "correctAnswer": "walking"
             },
             {
-              "id": "cam20_lt4_q4",
-              "type": "notes_completion",
+              "id": "cam20_t4_l_q4",
+              "type": "form_completion",
               "question": "4. Travel by _____ to the old fort",
               "options": [],
               "correctAnswer": "boat"
             },
             {
-              "id": "cam20_lt4_q5",
-              "type": "notes_completion",
+              "id": "cam20_t4_l_q5",
+              "type": "form_completion",
               "question": "5. Best day to visit Science Museum: _____",
               "options": [],
               "correctAnswer": "Tuesday"
             },
             {
-              "id": "cam20_lt4_q6",
-              "type": "notes_completion",
+              "id": "cam20_t4_l_q6",
+              "type": "form_completion",
               "question": "6. Exhibition about _____",
               "options": [],
               "correctAnswer": "space"
             },
             {
-              "id": "cam20_lt4_q7",
-              "type": "notes_completion",
+              "id": "cam20_t4_l_q7",
+              "type": "form_completion",
               "question": "7. Food type at Clacton Market: _____",
               "options": [],
               "correctAnswer": "vegetarian"
             },
             {
-              "id": "cam20_lt4_q8",
-              "type": "notes_completion",
+              "id": "cam20_t4_l_q8",
+              "type": "form_completion",
               "question": "8. Lunch deadline: _____",
               "options": [],
               "correctAnswer": "2.30"
             },
             {
-              "id": "cam20_lt4_q9",
-              "type": "notes_completion",
+              "id": "cam20_t4_l_q9",
+              "type": "form_completion",
               "question": "9. Discount on theatre tickets: _____%",
               "options": [],
               "correctAnswer": "75"
             },
             {
-              "id": "cam20_lt4_q10",
-              "type": "notes_completion",
+              "id": "cam20_t4_l_q10",
+              "type": "form_completion",
               "question": "10. View from Telegraph Hill: _____",
               "options": [],
               "correctAnswer": "port"
@@ -1404,58 +1439,66 @@
           ]
         },
         {
-          "id": "cam20_lt4_p2",
+          "id": "cam20_t4_l_p2",
           "title": "Football Stadium Tour",
           "audioFile": "cam20_s14.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam20_lt4_q11",
-              "type": "multiple_choice",
-              "question": "What can children do during the stadium tour?",
+              "id": "cam20_t4_l_q11",
+              "type": "multiple_choice_multi",
+              "question": "11 - 12 Which TWO things does the speaker say about visiting the football stadium with children?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. Children can get their photo taken with a football player.",
+                "B. There is a competition for children today.",
+                "C. Parents must stay with their children at all times.",
+                "D. Children will need sunhats and drinks.",
+                "E. The café has a special offer on meals for children."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. Children can get their photo taken with a football player."
             },
             {
-              "id": "cam20_lt4_q12",
-              "type": "multiple_choice",
-              "question": "What is available for children to take part in today?",
+              "id": "cam20_t4_l_q12",
+              "type": "multiple_choice_multi",
+              "question": "11 - 12 Which TWO things does the speaker say about visiting the football stadium with children?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. Children can get their photo taken with a football player.",
+                "B. There is a competition for children today.",
+                "C. Parents must stay with their children at all times.",
+                "D. Children will need sunhats and drinks.",
+                "E. The café has a special offer on meals for children."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. There is a competition for children today."
             },
             {
-              "id": "cam20_lt4_q13",
+              "id": "cam20_t4_l_q13",
               "type": "multiple_choice",
-              "question": "Which tour option does the speaker recommend?",
+              "question": "- 14 Which TWO features of the stadium tour are new this year?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. VIP tour",
+                "B. 360 cinema experience",
+                "B. audio guide",
+                "C. dressing room tour",
+                "E. tours in other languages"
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. VIP tour"
             },
             {
-              "id": "cam20_lt4_q14",
+              "id": "cam20_t4_l_q14",
               "type": "multiple_choice",
-              "question": "What is included with the audio guide?",
+              "question": "13 - 14 Which TWO features of the stadium tour are new this year?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. VIP tour",
+                "B. 360 cinema experience",
+                "B. audio guide",
+                "C. dressing room tour",
+                "E. tours in other languages"
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. dressing room tour"
             },
             {
-              "id": "cam20_lt4_q15",
+              "id": "cam20_t4_l_q15",
               "type": "matching",
               "question": "1870 - introduction of goalkeepers",
               "options": [
@@ -1471,7 +1514,7 @@
               "correctAnswer": "D"
             },
             {
-              "id": "cam20_lt4_q16",
+              "id": "cam20_t4_l_q16",
               "type": "matching",
               "question": "1874 - two changes to the rules",
               "options": [
@@ -1487,7 +1530,7 @@
               "correctAnswer": "F"
             },
             {
-              "id": "cam20_lt4_q17",
+              "id": "cam20_t4_l_q17",
               "type": "matching",
               "question": "1875 - change to design of the goal",
               "options": [
@@ -1503,7 +1546,7 @@
               "correctAnswer": "B"
             },
             {
-              "id": "cam20_lt4_q18",
+              "id": "cam20_t4_l_q18",
               "type": "matching",
               "question": "1877 - agreement on length of game",
               "options": [
@@ -1519,7 +1562,7 @@
               "correctAnswer": "H"
             },
             {
-              "id": "cam20_lt4_q19",
+              "id": "cam20_t4_l_q19",
               "type": "matching",
               "question": "1878 - first use of lights for matches",
               "options": [
@@ -1535,7 +1578,7 @@
               "correctAnswer": "C"
             },
             {
-              "id": "cam20_lt4_q20",
+              "id": "cam20_t4_l_q20",
               "type": "matching",
               "question": "1880 - introduction of fee for spectators",
               "options": [
@@ -1553,206 +1596,206 @@
           ]
         },
         {
-          "id": "cam20_lt4_p3",
+          "id": "cam20_t4_l_p3",
           "title": "Handwriting and Learning",
           "audioFile": "cam20_s15.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam20_lt4_q21",
+              "id": "cam20_t4_l_q21",
               "type": "matching",
-              "question": "improved concentration",
+              "question": "- 22 Which TWO benefits for children of learning to write did both students find surprising?",
               "options": [
-                "A. not spacing letters correctly",
-                "B",
+                "A. improved fine motor skills",
+                "B. improved memory",
                 "C. improved concentration",
-                "D",
-                "E. improved spatial awareness"
+                "D. improved imagination"
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam20_lt4_q22",
+              "id": "cam20_t4_l_q22",
               "type": "matching",
-              "question": "improved spatial awareness",
+              "question": "21 - 22 Which TWO benefits for children of learning to write did both students find surprising?",
               "options": [
-                "A. not spacing letters correctly",
-                "B",
+                "A. improved fine motor skills",
+                "B. improved memory",
                 "C. improved concentration",
-                "D",
-                "E. improved spatial awareness"
+                "D. improved imagination"
               ],
               "correctAnswer": "E"
             },
             {
-              "id": "cam20_lt4_q23",
+              "id": "cam20_t4_l_q23",
               "type": "matching",
-              "question": "not spacing letters correctly",
+              "question": "- 24 For children with dyspraxia, which TWO problems with handwriting do the students think are easiest to correct?",
               "options": [
                 "A. not spacing letters correctly",
-                "B",
-                "C. improved concentration",
-                "D",
-                "E. improved spatial awareness"
+                "B. not writing in a straight line",
+                "C. applying too much pressure when writing"
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam20_lt4_q24",
+              "id": "cam20_t4_l_q24",
               "type": "matching",
-              "question": "applying too much pressure when writing",
+              "question": "23 - 24 For children with dyspraxia, which TWO problems with handwriting do the students think are easiest to correct?",
               "options": [
                 "A. not spacing letters correctly",
-                "B",
+                "B. not writing in a straight line",
+                "C. applying too much pressure when writing"
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam20_t4_l_q25",
+              "type": "multiple_choice",
+              "question": "What does the woman say about using laptops to teach writing to children with dyslexia? A.Children often lack motivation to learn that way. B.Children become fluent relatively quickly. C.Children react more positively if they make a mistake. ## Page 5",
+              "options": [
+                "A. improved fine motor skills",
+                "B. improved memory",
                 "C. improved concentration",
-                "D",
-                "E. improved spatial awareness"
+                "D. improved imagination"
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. Children react more positively if they make a mistake."
             },
             {
-              "id": "cam20_lt4_q25",
+              "id": "cam20_t4_l_q26",
               "type": "multiple_choice",
-              "question": "Question 25: Choose the correct letter.",
+              "question": "When discussing whether to teach cursive or print writing, the woman thinks that A.cursive writing disadvantages a certain group of children. B.print writing is associated with lower academic performance. C.most teachers in the UK prefer a traditional approach to handwriting.",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. improved fine motor skills",
+                "B. improved memory",
+                "C. improved concentration",
+                "D. improved imagination"
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "A. cursive writing disadvantages a certain group of children."
             },
             {
-              "id": "cam20_lt4_q26",
+              "id": "cam20_t4_l_q27",
               "type": "multiple_choice",
-              "question": "Question 26: Choose the correct letter.",
+              "question": "According to the students, what impact does poor handwriting have on exam performance? A.There is evidence to suggest grades are affected by poor handwriting. B.Neat handwriting is less important now than it used to be. C.Candidates write more slowly and produce shorter answers.",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. improved fine motor skills",
+                "B. improved memory",
+                "C. improved concentration",
+                "D. improved imagination"
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. There is evidence to suggest grades are affected by poor handwriting."
             },
             {
-              "id": "cam20_lt4_q27",
+              "id": "cam20_t4_l_q28",
               "type": "multiple_choice",
-              "question": "Question 27: Choose the correct letter.",
+              "question": "What prediction does the man make about the future of handwriting? A.Touch typing will be taught before writing by hand. B.Children will continue to learn to write by hand. C.People will dislike handwriting on digital devices.",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. improved fine motor skills",
+                "B. improved memory",
+                "C. improved concentration",
+                "D. improved imagination"
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "B. Children will continue to learn to write by hand."
             },
             {
-              "id": "cam20_lt4_q28",
+              "id": "cam20_t4_l_q29",
               "type": "multiple_choice",
-              "question": "Question 28: Choose the correct letter.",
+              "question": "The woman is concerned that relying on digital devices has made it difficult for her to A.take detailed notes. B.spell and punctuate. C.read old documents.",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. improved fine motor skills",
+                "B. improved memory",
+                "C. improved concentration",
+                "D. improved imagination"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. spell and punctuate."
             },
             {
-              "id": "cam20_lt4_q29",
+              "id": "cam20_t4_l_q30",
               "type": "multiple_choice",
-              "question": "Question 29: Choose the correct letter.",
+              "question": "How do the students feel about their own handwriting? A.concerned they are unable to write quickly B.embarrassed by comments made about it C.regretful that they have lost the habit",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. improved fine motor skills",
+                "B. improved memory",
+                "C. improved concentration",
+                "D. improved imagination"
               ],
-              "correctAnswer": "B"
-            },
-            {
-              "id": "cam20_lt4_q30",
-              "type": "multiple_choice",
-              "question": "Question 30: Choose the correct letter.",
-              "options": [
-                "A",
-                "B",
-                "C"
-              ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. regretful that they have lost the habit"
             }
           ]
         },
         {
-          "id": "cam20_lt4_p4",
+          "id": "cam20_t4_l_p4",
           "title": "Birds of Prey (conservation)",
           "audioFile": "cam20_s16.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam20_lt4_q31",
-              "type": "notes_completion",
-              "question": "31. Threat from: _____",
+              "id": "cam20_t4_l_q31",
+              "type": "form_completion",
+              "question": "The importance of birds of prey to the local communities | They destroy ........................ 31 ........................ and other rodents.",
               "options": [],
               "correctAnswer": "rats"
             },
             {
-              "id": "cam20_lt4_q32",
-              "type": "notes_completion",
-              "question": "32. Threat from: _____",
+              "id": "cam20_t4_l_q32",
+              "type": "form_completion",
+              "question": "The importance of birds of prey to the local communities | They help to prevent farmers from being bitten by ........................ 32 ........................",
               "options": [],
               "correctAnswer": "snakes"
             },
             {
-              "id": "cam20_lt4_q33",
-              "type": "notes_completion",
-              "question": "33. Impact of _____ on habitats",
+              "id": "cam20_t4_l_q33",
+              "type": "form_completion",
+              "question": "The importance of birds of prey to the local communities | They now support the economy by encouraging ........................ 33 ........................ in the area.",
               "options": [],
               "correctAnswer": "tourism"
             },
             {
-              "id": "cam20_lt4_q34",
-              "type": "notes_completion",
-              "question": "34. Danger from _____",
+              "id": "cam20_t4_l_q34",
+              "type": "form_completion",
+              "question": "Falling numbers of birds of prey | by ........................ 34 ........................ when they are hunting or sleeping",
               "options": [],
               "correctAnswer": "traffic"
             },
             {
-              "id": "cam20_lt4_q35",
-              "type": "notes_completion",
-              "question": "35. Problem with _____",
+              "id": "cam20_t4_l_q35",
+              "type": "form_completion",
+              "question": "Falling numbers of birds of prey | by electrocution from contact with power lines, especially at times when there is a lot of ........................ 35 ........................",
               "options": [],
               "correctAnswer": "rain"
             },
             {
-              "id": "cam20_lt4_q36",
-              "type": "notes_completion",
-              "question": "36. Use of _____ by farmers",
+              "id": "cam20_t4_l_q36",
+              "type": "form_completion",
+              "question": "Falling numbers of birds of prey | Local farmers may illegally shoot them or ........................ 36 ........................ them.",
               "options": [],
               "correctAnswer": "poison"
             },
             {
-              "id": "cam20_lt4_q37",
-              "type": "notes_completion",
-              "question": "37. Loss of _____ sites",
+              "id": "cam20_t4_l_q37",
+              "type": "form_completion",
+              "question": "Ways of protecting chickens from birds of prey | providing a ........................ 37 ........................ for chickens (expensive)",
               "options": [],
               "correctAnswer": "building"
             },
             {
-              "id": "cam20_lt4_q38",
-              "type": "notes_completion",
-              "question": "38. Attacks by _____",
+              "id": "cam20_t4_l_q38",
+              "type": "form_completion",
+              "question": "Ways of protecting chickens from birds of prey | keeping a ........................ 38 ........................",
               "options": [],
               "correctAnswer": "dog"
             },
             {
-              "id": "cam20_lt4_q39",
-              "type": "notes_completion",
-              "question": "39. Disturbance from _____",
+              "id": "cam20_t4_l_q39",
+              "type": "form_completion",
+              "question": "Ways of protecting chickens from birds of prey | making a ........................ 39 ........................ e.g. with metal objects",
               "options": [],
               "correctAnswer": "noise"
             },
             {
-              "id": "cam20_lt4_q40",
-              "type": "notes_completion",
-              "question": "40. The main threat is a _____ of factors",
+              "id": "cam20_t4_l_q40",
+              "type": "form_completion",
+              "question": "A ........................ 40 ........................ of methods is usually most effective.",
               "options": [],
               "correctAnswer": "combination"
             }

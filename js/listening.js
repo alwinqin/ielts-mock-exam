@@ -12,17 +12,44 @@ let listeningPhaseTimer = null;
 const PREVIEW_SECONDS = 30;
 
 function createAudioElement() {
-  if (listeningAudioEl) return;
-  listeningAudioEl = document.createElement('audio');
-  listeningAudioEl.preload = 'auto';
-  document.body.appendChild(listeningAudioEl);
-  listeningAudioEl.addEventListener('ended', () => {
-    // Audio finished: stay in 'playing' mode, user can click Next Section
-    updateAudioBar();
-  });
-  listeningAudioEl.addEventListener('error', () => {
-    console.warn('Audio error on section', listeningCurrentSection);
-  });
+  if (!listeningAudioEl) {
+    listeningAudioEl = document.createElement('audio');
+    listeningAudioEl.preload = 'auto';
+    listeningAudioEl.controls = true;
+    listeningAudioEl.style.cssText = 'display:none;width:100%;max-width:100%;border-radius:4px;';
+    listeningAudioEl.addEventListener('ended', () => {
+      updateAudioBar();
+    });
+    listeningAudioEl.addEventListener('error', () => {
+      console.warn('Audio error on section', listeningCurrentSection);
+      const el = document.getElementById('audioErrorMsg');
+      if (el) el.style.display = 'block';
+    });
+    listeningAudioEl.addEventListener('loadedmetadata', () => {
+      updateAudioBar();
+      const el = document.getElementById('audioErrorMsg');
+      if (el) el.style.display = 'none';
+    });
+    listeningAudioEl.addEventListener('timeupdate', () => {
+      updateAudioTimeDisplay();
+    });
+  }
+  // Ensure audio element is in the inline container (handles re-renders)
+  var container = document.getElementById('audioPlayerContainer');
+  if (container && listeningAudioEl.parentNode !== container) {
+    container.appendChild(listeningAudioEl);
+  }
+}
+
+function showAudioPlayer() {
+  if (listeningAudioEl) listeningAudioEl.style.display = 'block';
+  var container = document.getElementById('audioPlayerContainer');
+  if (container) container.style.display = 'flex';
+}
+function hideAudioPlayer() {
+  if (listeningAudioEl) { listeningAudioEl.pause(); listeningAudioEl.src = ''; listeningAudioEl.style.display = 'none'; }
+  var container = document.getElementById('audioPlayerContainer');
+  if (container) container.style.display = 'none';
 }
 
 function startSectionPreview(sectionIndex) {
@@ -92,13 +119,26 @@ function playAudioForSection(sectionIndex) {
   listeningAudioEl.currentTime = 0;
   listeningAudioEl.play().catch(e => {
     console.warn('Audio play error:', e.message);
-    // Still let user proceed even without audio
+    const el = document.getElementById('audioErrorMsg');
+    if (el) el.style.display = 'block';
   });
+
+  // Show audio player
+  showAudioPlayer();
 
   saveListeningState(listeningTestData.id, {
     phase: 'playing', subPhase: 'playing',
     currentSection: sectionIndex, completedSections: listeningCompletedSections
   });
+}
+
+function updateAudioTimeDisplay() {
+  const el = document.getElementById('audioTimeDisplay');
+  if (!el || !listeningAudioEl) return;
+  const cur = formatTime(Math.floor(listeningAudioEl.currentTime));
+  const dur = listeningAudioEl.duration ? formatTime(Math.floor(listeningAudioEl.duration)) : '--:--';
+  const pct = listeningAudioEl.duration ? Math.round((listeningAudioEl.currentTime / listeningAudioEl.duration) * 100) : 0;
+  el.innerHTML = `<span>${cur} / ${dur}</span><div class="mini-progress"><div class="mini-progress-fill" style="width:${pct}%"></div></div>`;
 }
 
 function completeSection() {
@@ -108,7 +148,7 @@ function completeSection() {
   }
 
   // Stop audio
-  if (listeningAudioEl) { listeningAudioEl.pause(); listeningAudioEl.src = ''; }
+  hideAudioPlayer();
 
   listeningSubPhase = 'section_end';
   updateAudioBar();
@@ -153,6 +193,7 @@ function nextSection() {
 }
 
 function renderListeningExam(testData) {
+  if (listeningPhaseTimer) { clearInterval(listeningPhaseTimer); listeningPhaseTimer = null; }
   listeningTestData = testData;
   listeningAnswers = loadListeningAnswers(testData.id);
   listeningFlagged = loadListeningFlagged(testData.id);
@@ -186,8 +227,6 @@ function renderListeningExam(testData) {
     }
   }
 
-  createAudioElement();
-
   const container = document.getElementById('mainContent');
 
   container.innerHTML = `
@@ -203,6 +242,8 @@ function renderListeningExam(testData) {
             t('playbackPhase')}
         </span>
         ${listeningPhase === 'transfer' || listeningPhase === 'ended' ? `<div class="timer" id="listeningTimerDisplay">10:00</div>` : ''}
+        <span id="audioTimeDisplay" style="font-size:0.8rem;color:#888;"></span>
+        <span id="audioErrorMsg" style="display:none;color:#e65100;font-size:0.8rem;">Audio file not found</span>
         <span class="progress-text">
           <strong id="listeningAnswered">${Object.keys(listeningAnswers).length}</strong>/40 ${t('answered')}
           | <strong id="listeningFlagged">${listeningFlagged.length}</strong> ${t('flagged')}
@@ -212,6 +253,8 @@ function renderListeningExam(testData) {
 
       <div class="listening-progress-bar" id="listeningProgressBar"></div>
 
+      <div id="audioPlayerContainer" class="audio-bar" style="display:none;"></div>
+
       <div class="listening-main">
         <div class="listening-passage" id="listeningPassagePanel"></div>
         <div class="listening-questions" id="listeningQuestionsPanel"></div>
@@ -219,6 +262,9 @@ function renderListeningExam(testData) {
       <div class="listening-footer-bar" id="listeningFooter"></div>
     </div>
   `;
+
+  // Must be called after DOM is created so #audioPlayerContainer exists
+  createAudioElement();
 
   renderSectionTabs();
 
@@ -250,7 +296,9 @@ function renderListeningExam(testData) {
     renderListeningFooter();
 
     if (listeningSubPhase === 'preview' && listeningPhaseTimer === null) {
-      // Resume preview countdown logic handled in startSectionPreview
+      startSectionPreview(listeningCurrentSection);
+    } else if (listeningSubPhase === 'playing') {
+      playAudioForSection(listeningCurrentSection);
     }
   } else if (listeningPhase === 'transfer') {
     renderSectionTabs();
@@ -290,11 +338,33 @@ function renderSectionTabs() {
       <div class="section-content ${isCurrent ? 'active' : ''}" data-section="${i}">
         <h2>${t('section')} ${i + 1}: ${s.title || ''}</h2>
         <div class="section-subtitle">${s.subtitle || ''}</div>
+        ${renderSectionContext(s)}
       </div>
     `;
   });
   tabsHtml += '</div>';
   panel.innerHTML = tabsHtml + contentHtml;
+}
+
+function renderSectionContext(section) {
+  if (!section || !section.questions || section.questions.length === 0) return '';
+  const qTypes = new Set(section.questions.map(q => q.type));
+  const formTypes = ['notes_completion', 'form_completion', 'summary_completion', 'sentence_completion'];
+  const hasFormContent = section.questions.some(q => formTypes.includes(q.type));
+  if (!hasFormContent) return '';
+
+  let html = '<div class="listening-context-box">';
+  html += '<div class="listening-context-text">';
+  section.questions.forEach((q, idx) => {
+    let displayText = q.question.replace(/^\\d+\\.\\s*/, '');
+    // Fallback for placeholder questions
+    if (/^Question\s+\d+/.test(displayText) || displayText === 'ONE WORD ONLY.' || displayText === 'ONE WORD AND/OR A NUMBER.') {
+      displayText = 'Question ' + (idx + 1) + ' - refer to the original question paper';
+    }
+    html += `<span class="context-line"><span class="context-num">${idx + 1}</span> ${escapeHtml(displayText)}</span>`;
+  });
+  html += '</div></div>';
+  return html;
 }
 
 function renderProgressBar() {
@@ -316,12 +386,13 @@ function renderProgressBar() {
 }
 
 function switchListeningSection(index) {
+  var prevSection = listeningCurrentSection;
   listeningCurrentSection = index;
   document.querySelectorAll('.section-tab').forEach((tab, i) => tab.classList.toggle('active', i === index));
   document.querySelectorAll('.section-content').forEach((el, i) => el.classList.toggle('active', i === index));
 
   // Only render questions for sections that have been reached
-  if (listeningPhase === 'transfer' || listeningCompletedSections.includes(index) || index <= listeningCurrentSection) {
+  if (listeningPhase === 'transfer' || listeningCompletedSections.includes(index) || index <= prevSection) {
     const disabled = listeningCompletedSections.includes(index) && listeningPhase !== 'transfer';
     renderListeningQuestions(index, disabled);
   } else {
@@ -368,10 +439,16 @@ function renderListeningQuestionInput(q, qid, userAnswer, disabled) {
   switch (q.type) {
     case 'multiple_choice':
       let mcHtml = '<div class="options">';
+      // Detect if options are just letter labels (missing full text)
+      const areLabels = (q.options || []).every(opt => opt.length <= 2);
       (q.options || []).forEach(opt => {
         const sel = userAnswer === opt;
-        mcHtml += `<label class="option-label ${sel ? 'selected' : ''}"><input type="radio" name="lq_${qid}" value="${escapeHtml(opt)}" ${sel ? 'checked' : ''} onchange="saveListeningAnswer('${qid}', this.value)" ${ds}>${escapeHtml(opt)}</label>`;
+        const label = areLabels ? 'Option ' + opt : opt;
+        mcHtml += `<label class="option-label ${sel ? 'selected' : ''}"><input type="radio" name="lq_${qid}" value="${escapeHtml(opt)}" ${sel ? 'checked' : ''} onchange="saveListeningAnswer('${qid}', this.value)" ${ds}>${escapeHtml(label)}</label>`;
       });
+      if (areLabels && (q.options || []).length > 0) {
+        mcHtml += '<div class="option-hint">Refer to the original question paper for full option text</div>';
+      }
       mcHtml += '</div>';
       return mcHtml;
     case 'multiple_choice_multi':
@@ -466,7 +543,10 @@ function saveListeningAnswer(qid, value) {
   listeningAnswers[qid] = value;
   saveListeningAnswers(listeningTestData.id, listeningAnswers);
   const qi = document.getElementById(`lq-${qid}`);
-  if (qi) qi.classList.add('answered');
+  if (qi) {
+    if (value) qi.classList.add('answered');
+    else qi.classList.remove('answered');
+  }
   updateListeningProgress();
 }
 
@@ -564,7 +644,7 @@ function enterTransferPhase() {
   listeningSubPhase = null;
 
   if (listeningPhaseTimer) { clearInterval(listeningPhaseTimer); listeningPhaseTimer = null; }
-  if (listeningAudioEl) { listeningAudioEl.pause(); listeningAudioEl.src = ''; }
+  hideAudioPlayer();
 
   // Change UI
   const topbar = document.querySelector('.listening-topbar');
@@ -600,7 +680,8 @@ function enterTransferPhase() {
 
 function startTransferTimer() {
   if (listeningPhaseTimer) { clearInterval(listeningPhaseTimer); }
-  let remaining = 600;
+  var st = loadListeningState(listeningTestData.id) || {};
+  var remaining = st.transferRemaining || 600;
 
   listeningPhaseTimer = setInterval(() => {
     remaining--;
@@ -642,7 +723,7 @@ function showListeningSubmitModal() {
 
 function listeningSubmitExam(isAuto) {
   if (listeningPhaseTimer) { clearInterval(listeningPhaseTimer); listeningPhaseTimer = null; }
-  if (listeningAudioEl) { listeningAudioEl.pause(); listeningAudioEl.src = ''; }
+  hideAudioPlayer();
 
   let correct = 0;
   const wrongItems = [];

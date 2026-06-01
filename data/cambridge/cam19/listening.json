@@ -7,450 +7,416 @@
       "testNumber": 1,
       "parts": [
         {
-          "id": "cam19_lt1_p1",
+          "id": "cam19_t1_l_p1",
           "title": "Hinchingbrooke Country Park",
           "audioFile": "cam19_s1.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam19_lt1_q1",
-              "type": "notes_completion",
-              "question": "1. Entry fee: £_____",
+              "id": "cam19_t1_l_q1",
+              "type": "form_completion",
+              "question": "The park | Area: 1 _____ hectares",
               "options": [],
               "correctAnswer": "69"
             },
             {
-              "id": "cam19_lt1_q2",
-              "type": "notes_completion",
-              "question": "2. Feature: _____",
+              "id": "cam19_t1_l_q2",
+              "type": "form_completion",
+              "question": "Habitats: wetland, grassland and woodland | Wetland: lakes, ponds and a 2",
               "options": [],
               "correctAnswer": "Stream"
             },
             {
-              "id": "cam19_lt1_q3",
-              "type": "notes_completion",
-              "question": "3. Information about wildlife: _____ Centre",
+              "id": "cam19_t1_l_q3",
+              "type": "form_completion",
+              "question": "Subjects studied in educational visits include | Science: Children look at 3",
               "options": [],
               "correctAnswer": "Data"
             },
             {
-              "id": "cam19_lt1_q4",
-              "type": "notes_completion",
-              "question": "4. Free: _____ of the park",
+              "id": "cam19_t1_l_q4",
+              "type": "form_completion",
+              "question": "Subjects studied in educational visits include | Geography: includes learning to use a 4",
               "options": [],
               "correctAnswer": "Map"
             },
             {
-              "id": "cam19_lt1_q5",
-              "type": "notes_completion",
-              "question": "5. Car park for: _____",
+              "id": "cam19_t1_l_q5",
+              "type": "form_completion",
+              "question": "History: changes in land use | Leisure and tourism: mostly concentrates on the park's 5",
               "options": [],
               "correctAnswer": "Visitors"
             },
             {
-              "id": "cam19_lt1_q6",
-              "type": "notes_completion",
-              "question": "6. Audio guide for: _____ of nature",
+              "id": "cam19_t1_l_q6",
+              "type": "form_completion",
+              "question": "History: changes in land use | Music: Children make 6",
               "options": [],
               "correctAnswer": "Sounds"
             },
             {
-              "id": "cam19_lt1_q7",
-              "type": "notes_completion",
-              "question": "7. Main attraction: _____ Trail",
+              "id": "cam19_t1_l_q7",
+              "type": "form_completion",
+              "question": "Benefits of outdoor educational visits | They give children a feeling of 7",
               "options": [],
               "correctAnswer": "Freedom"
             },
             {
-              "id": "cam19_lt1_q8",
-              "type": "notes_completion",
-              "question": "8. Children's activity: _____ Workshop",
+              "id": "cam19_t1_l_q8",
+              "type": "form_completion",
+              "question": "Benefits of outdoor educational visits | Children learn new 8",
               "options": [],
               "correctAnswer": "Skills"
             },
             {
-              "id": "cam19_lt1_q9",
-              "type": "notes_completion",
-              "question": "9. Guide book price: £_____",
+              "id": "cam19_t1_l_q9",
+              "type": "form_completion",
+              "question": "Practical issues | Cost per child: 9 £",
               "options": [],
               "correctAnswer": "4.95"
             },
             {
-              "id": "cam19_lt1_q10",
-              "type": "notes_completion",
-              "question": "10. Event for: _____",
+              "id": "cam19_t1_l_q10",
+              "type": "form_completion",
+              "question": "Practical issues | Adults, such as 10",
               "options": [],
               "correctAnswer": "Leaders"
             }
           ]
         },
         {
-          "id": "cam19_lt1_p2",
+          "id": "cam19_t1_l_p2",
           "title": "Stanthorpe Twinning Association (Farley House)",
           "audioFile": "cam19_s2.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam19_lt1_q11",
+              "id": "cam19_t1_l_q11",
               "type": "multiple_choice",
-              "question": "Question 11: Choose the correct letter, A, B or C.",
+              "question": "During the visit to Malatte, in France, members especially enjoyed",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. going to a theme park.",
+                "B. experiencing a river trip.",
+                "C. visiting a cheese factory."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam19_lt1_q12",
+              "id": "cam19_t1_l_q12",
               "type": "multiple_choice",
-              "question": "Question 12: Choose the correct letter, A, B or C.",
+              "question": "What will happen in Stanthorpe to mark the 25th anniversary of the Twinning Association?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A tree will be planted.",
+                "B. A garden seat will be bought.",
+                "C. A footbridge will be built."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam19_lt1_q13",
+              "id": "cam19_t1_l_q13",
               "type": "multiple_choice",
-              "question": "Question 13: Choose the correct letter, A, B or C.",
+              "question": "Which event raised most funds this year?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. the film show",
+                "B. the pancake evening",
+                "C. the cookery demonstration"
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam19_lt1_q14",
+              "id": "cam19_t1_l_q14",
               "type": "multiple_choice",
-              "question": "Question 14: Choose the correct letter, A, B or C.",
+              "question": "For the first evening with the French visitors host families are advised to",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. take them for a walk round the town.",
+                "B. go to a local restaurant.",
+                "C. have a meal at home."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam19_lt1_q15",
+              "id": "cam19_t1_l_q15",
               "type": "multiple_choice",
-              "question": "Question 15: Choose the correct letter, A, B or C.",
+              "question": "On Saturday evening there will be the chance to",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. listen to a concert.",
+                "B. watch a match.",
+                "C. take part in a competition."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. __ take them for a walk round the town."
             },
             {
-              "id": "cam19_lt1_q16",
+              "id": "cam19_t1_l_q16",
               "type": "matching",
-              "question": "Match the location to the correct letter on the map.",
+              "question": "Farm shop",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G"
+                "A. going to a theme park.",
+                "B. experiencing a river trip.",
+                "C. visiting a cheese factory."
               ],
               "correctAnswer": "G"
             },
             {
-              "id": "cam19_lt1_q17",
+              "id": "cam19_t1_l_q17",
               "type": "matching",
-              "question": "Match the location to the correct letter on the map.",
+              "question": "Disabled entry",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G"
+                "A. going to a theme park.",
+                "B. experiencing a river trip.",
+                "C. visiting a cheese factory."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam19_lt1_q18",
+              "id": "cam19_t1_l_q18",
               "type": "matching",
-              "question": "Match the location to the correct letter on the map.",
+              "question": "Adventure playground",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G"
+                "A. going to a theme park.",
+                "B. experiencing a river trip.",
+                "C. visiting a cheese factory."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam19_lt1_q19",
+              "id": "cam19_t1_l_q19",
               "type": "matching",
-              "question": "Match the location to the correct letter on the map.",
+              "question": "Kitchen gardens",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G"
+                "A. going to a theme park.",
+                "B. experiencing a river trip.",
+                "C. visiting a cheese factory."
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam19_lt1_q20",
+              "id": "cam19_t1_l_q20",
               "type": "matching",
-              "question": "Match the location to the correct letter on the map.",
+              "question": "The Temple of the Four Winds",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G"
+                "A. going to a theme park.",
+                "B. experiencing a river trip.",
+                "C. visiting a cheese factory."
               ],
               "correctAnswer": "A"
             }
           ]
         },
         {
-          "id": "cam19_lt1_p3",
+          "id": "cam19_t1_l_p3",
           "title": "Food Trends Discussion",
           "audioFile": "cam19_s3.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam19_lt1_q21",
-              "type": "multiple_choice",
-              "question": "Question 21: Choose the correct letter, A, B, C or D.",
+              "id": "cam19_t1_l_q21",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO things did Colin find most satisfying about his bread reuse project?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. receiving support from local restaurants",
+                "B. finding a good way to prevent waste",
+                "C. overcoming problems in a basic process",
+                "D. experimenting with designs and colours",
+                "E. learning how to apply 3-D printing"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. finding a good way to prevent waste"
             },
             {
-              "id": "cam19_lt1_q22",
-              "type": "multiple_choice",
-              "question": "Question 22: Choose the correct letter, A, B, C or D.",
+              "id": "cam19_t1_l_q22",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO things did Colin find most satisfying about his bread reuse project?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. receiving support from local restaurants",
+                "B. finding a good way to prevent waste",
+                "C. overcoming problems in a basic process",
+                "D. experimenting with designs and colours",
+                "E. learning how to apply 3-D printing"
+              ],
+              "correctAnswer": "D. experimenting with designs and colours"
+            },
+            {
+              "id": "cam19_t1_l_q23",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO ways do the students agree that touch-sensitive sensors for food labels could be developed in future?",
+              "options": [
+                "A. for use on medical products",
+                "B. to show that food is no longer fit to eat",
+                "C. for use with drinks as well as foods",
+                "D. to provide applications for blind people",
+                "E. to indicate the weight of certain foods"
+              ],
+              "correctAnswer": "A. for use on medical products"
+            },
+            {
+              "id": "cam19_t1_l_q24",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO ways do the students agree that touch-sensitive sensors for food labels could be developed in future?",
+              "options": [
+                "A. for use on medical products",
+                "B. to show that food is no longer fit to eat",
+                "C. for use with drinks as well as foods",
+                "D. to provide applications for blind people",
+                "E. to indicate the weight of certain foods"
+              ],
+              "correctAnswer": "E. to indicate the weight of certain foods"
+            },
+            {
+              "id": "cam19_t1_l_q25",
+              "type": "matching",
+              "question": "Use of local products",
+              "options": [
+                "A. receiving support from local restaurants",
+                "B. finding a good way to prevent waste",
+                "C. overcoming problems in a basic process",
+                "D. experimenting with designs and colours",
+                "E. learning how to apply 3-D printing"
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam19_lt1_q23",
-              "type": "multiple_choice",
-              "question": "Question 23: Choose the correct letter, A, B, C or D.",
-              "options": [
-                "A",
-                "B",
-                "C",
-                "D"
-              ],
-              "correctAnswer": "A"
-            },
-            {
-              "id": "cam19_lt1_q24",
-              "type": "multiple_choice",
-              "question": "Question 24: Choose the correct letter, A, B, C or D.",
-              "options": [
-                "A",
-                "B",
-                "C",
-                "D"
-              ],
-              "correctAnswer": "E"
-            },
-            {
-              "id": "cam19_lt1_q25",
+              "id": "cam19_t1_l_q26",
               "type": "matching",
-              "question": "25. Reducing food packaging: _____",
+              "question": "Reduction in unnecessary packaging",
               "options": [
-                "A. Consumers should be given clearer guidance",
-                "B. This may have disappointing results",
-                "C. This already seems to be widespread",
-                "D. Retailers should do more to encourage this",
-                "E. Manufacturers should be required to label this",
-                "F. Most people know little about this",
-                "G. There should be stricter regulations",
-                "H. This could be dangerous"
-              ],
-              "correctAnswer": "D"
-            },
-            {
-              "id": "cam19_lt1_q26",
-              "type": "matching",
-              "question": "26. Using sustainable farming methods: _____",
-              "options": [
-                "A. Consumers should be given clearer guidance",
-                "B. This may have disappointing results",
-                "C. This already seems to be widespread",
-                "D. Retailers should do more to encourage this",
-                "E. Manufacturers should be required to label this",
-                "F. Most people know little about this",
-                "G. There should be stricter regulations",
-                "H. This could be dangerous"
+                "A. receiving support from local restaurants",
+                "B. finding a good way to prevent waste",
+                "C. overcoming problems in a basic process",
+                "D. experimenting with designs and colours",
+                "E. learning how to apply 3-D printing"
               ],
               "correctAnswer": "G"
             },
             {
-              "id": "cam19_lt1_q27",
+              "id": "cam19_t1_l_q27",
               "type": "matching",
-              "question": "27. Cutting down on meat consumption: _____",
+              "question": "Gluten-free and lactose-free food",
               "options": [
-                "A. Consumers should be given clearer guidance",
-                "B. This may have disappointing results",
-                "C. This already seems to be widespread",
-                "D. Retailers should do more to encourage this",
-                "E. Manufacturers should be required to label this",
-                "F. Most people know little about this",
-                "G. There should be stricter regulations",
-                "H. This could be dangerous"
+                "A. receiving support from local restaurants",
+                "B. finding a good way to prevent waste",
+                "C. overcoming problems in a basic process",
+                "D. experimenting with designs and colours",
+                "E. learning how to apply 3-D printing"
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam19_lt1_q28",
+              "id": "cam19_t1_l_q28",
               "type": "matching",
-              "question": "28. Eating locally sourced food: _____",
+              "question": "Use of branded products related to celebrity chefs",
               "options": [
-                "A. Consumers should be given clearer guidance",
-                "B. This may have disappointing results",
-                "C. This already seems to be widespread",
-                "D. Retailers should do more to encourage this",
-                "E. Manufacturers should be required to label this",
-                "F. Most people know little about this",
-                "G. There should be stricter regulations",
-                "H. This could be dangerous"
+                "A. receiving support from local restaurants",
+                "B. finding a good way to prevent waste",
+                "C. overcoming problems in a basic process",
+                "D. experimenting with designs and colours",
+                "E. learning how to apply 3-D printing"
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam19_lt1_q29",
+              "id": "cam19_t1_l_q29",
               "type": "matching",
-              "question": "29. Understanding food supply chains: _____",
+              "question": "Development of 'ghost kitchens' for takeaway food",
               "options": [
-                "A. Consumers should be given clearer guidance",
-                "B. This may have disappointing results",
-                "C. This already seems to be widespread",
-                "D. Retailers should do more to encourage this",
-                "E. Manufacturers should be required to label this",
-                "F. Most people know little about this",
-                "G. There should be stricter regulations",
-                "H. This could be dangerous"
+                "A. receiving support from local restaurants",
+                "B. finding a good way to prevent waste",
+                "C. overcoming problems in a basic process",
+                "D. experimenting with designs and colours",
+                "E. learning how to apply 3-D printing"
               ],
               "correctAnswer": "F"
             },
             {
-              "id": "cam19_lt1_q30",
+              "id": "cam19_t1_l_q30",
               "type": "matching",
-              "question": "30. Artificial additives in processed food: _____",
+              "question": "Use of mushrooms for common health concerns",
               "options": [
-                "A. Consumers should be given clearer guidance",
-                "B. This may have disappointing results",
-                "C. This already seems to be widespread",
-                "D. Retailers should do more to encourage this",
-                "E. Manufacturers should be required to label this",
-                "F. Most people know little about this",
-                "G. There should be stricter regulations",
-                "H. This could be dangerous"
+                "A. receiving support from local restaurants",
+                "B. finding a good way to prevent waste",
+                "C. overcoming problems in a basic process",
+                "D. experimenting with designs and colours",
+                "E. learning how to apply 3-D printing"
               ],
               "correctAnswer": "H"
             }
           ]
         },
         {
-          "id": "cam19_lt1_p4",
+          "id": "cam19_t1_l_p4",
           "title": "Ceide Fields",
           "audioFile": "cam19_s4.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam19_lt1_q31",
-              "type": "notes_completion",
-              "question": "Question 31: ONE WORD ONLY.",
+              "id": "cam19_t1_l_q31",
+              "type": "form_completion",
+              "question": "|  In the 1930s, a local teacher realised that stones beneath the bog surface          | | |         were once 31",
               "options": [],
               "correctAnswer": "Walls"
             },
             {
-              "id": "cam19_lt1_q32",
-              "type": "notes_completion",
-              "question": "Question 32: ONE WORD ONLY.",
+              "id": "cam19_t1_l_q32",
+              "type": "form_completion",
+              "question": "|  In the 1930s, a local teacher realised that stones beneath the bog surface          | | |  His 32 _____ became an archaeologist and undertook an |",
               "options": [],
               "correctAnswer": "Son"
             },
             {
-              "id": "cam19_lt1_q33",
-              "type": "notes_completion",
-              "question": "Question 33: ONE WORD ONLY.",
+              "id": "cam19_t1_l_q33",
+              "type": "form_completion",
+              "question": "|         investigation of the site:                                                            | | |         a traditional method used by local people to dig for 33",
               "options": [],
               "correctAnswer": "Fuel"
             },
             {
-              "id": "cam19_lt1_q34",
-              "type": "notes_completion",
-              "question": "Question 34: ONE WORD ONLY.",
+              "id": "cam19_t1_l_q34",
+              "type": "form_completion",
+              "question": "|         carbon dating later proved the site was Neolithic.                                  | | |  Items are well preserved in the bog because of a lack of 34",
               "options": [],
               "correctAnswer": "Oxygen"
             },
             {
-              "id": "cam19_lt1_q35",
-              "type": "notes_completion",
-              "question": "Question 35: ONE WORD ONLY.",
+              "id": "cam19_t1_l_q35",
+              "type": "form_completion",
+              "question": "Neolithic farmers | Houses were 35",
               "options": [],
               "correctAnswer": "Rectangular"
             },
             {
-              "id": "cam19_lt1_q36",
-              "type": "notes_completion",
-              "question": "Question 36: ONE WORD ONLY.",
+              "id": "cam19_t1_l_q36",
+              "type": "form_completion",
+              "question": "Neolithic farmers | pots used for storage and to make 36",
               "options": [],
               "correctAnswer": "Lamps"
             },
             {
-              "id": "cam19_lt1_q37",
-              "type": "notes_completion",
-              "question": "Question 37: ONE WORD ONLY.",
+              "id": "cam19_t1_l_q37",
+              "type": "form_completion",
+              "question": "Neolithic farmers | Each field at Céide was large enough to support a big 37",
               "options": [],
               "correctAnswer": "Family"
             },
             {
-              "id": "cam19_lt1_q38",
-              "type": "notes_completion",
-              "question": "Question 38: ONE WORD ONLY.",
+              "id": "cam19_t1_l_q38",
+              "type": "form_completion",
+              "question": "Neolithic farmers | evidence of structures to house them during 38",
               "options": [],
               "correctAnswer": "Winter"
             },
             {
-              "id": "cam19_lt1_q39",
-              "type": "notes_completion",
-              "question": "Question 39: ONE WORD ONLY.",
+              "id": "cam19_t1_l_q39",
+              "type": "form_completion",
+              "question": "Reasons for the decline in farming | a decline in 39",
               "options": [],
               "correctAnswer": "Soil"
             },
             {
-              "id": "cam19_lt1_q40",
-              "type": "notes_completion",
-              "question": "Question 40: ONE WORD ONLY.",
+              "id": "cam19_t1_l_q40",
+              "type": "form_completion",
+              "question": "Reasons for the decline in farming | an increase in 40",
               "options": [],
               "correctAnswer": "Rain"
             }
@@ -463,412 +429,404 @@
       "testNumber": 2,
       "parts": [
         {
-          "id": "cam19_lt2_p1",
+          "id": "cam19_t2_l_p1",
           "title": "Guitar Group",
           "audioFile": "cam19_s5.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam19_lt2_q1",
-              "type": "notes_completion",
-              "question": "1. Surname of contact person: _____",
+              "id": "cam19_t2_l_q1",
+              "type": "form_completion",
+              "question": "|                                                                         | | | Coordinator:           Gary 1",
               "options": [],
               "correctAnswer": "Mathieson"
             },
             {
-              "id": "cam19_lt2_q2",
-              "type": "notes_completion",
-              "question": "2. Level of ability: _____",
+              "id": "cam19_t2_l_q2",
+              "type": "form_completion",
+              "question": "|                                                                         | | | Level:                 2",
               "options": [],
               "correctAnswer": "Beginners"
             },
             {
-              "id": "cam19_lt2_q3",
-              "type": "notes_completion",
-              "question": "3. Meeting place: _____",
+              "id": "cam19_t2_l_q3",
+              "type": "form_completion",
+              "question": "|                                                                         | | | Place:                 the 3",
               "options": [],
               "correctAnswer": "College"
             },
             {
-              "id": "cam19_lt2_q4",
-              "type": "notes_completion",
-              "question": "4. Address: _____ Street",
+              "id": "cam19_t2_l_q4",
+              "type": "form_completion",
+              "question": "|                                                                         | | |                        4",
               "options": [],
               "correctAnswer": "New"
             },
             {
-              "id": "cam19_lt2_q5",
-              "type": "notes_completion",
-              "question": "5. Meeting time: _____",
+              "id": "cam19_t2_l_q5",
+              "type": "form_completion",
+              "question": "|                                                                         | | | Time:                  Thursday morning at 5",
               "options": [],
               "correctAnswer": "11"
             },
             {
-              "id": "cam19_lt2_q6",
-              "type": "notes_completion",
-              "question": "6. Bring your own: _____",
+              "id": "cam19_t2_l_q6",
+              "type": "form_completion",
+              "question": "|                                                                         | | | Recommended website:   'The perfect 6",
               "options": [],
               "correctAnswer": "Instrument"
             },
             {
-              "id": "cam19_lt2_q7",
-              "type": "notes_completion",
-              "question": "7. Music by: _____",
+              "id": "cam19_t2_l_q7",
+              "type": "form_completion",
+              "question": "A typical 45minute guitar lesson | | :| :| :| | | 5 minutes | tuning guitars | using an app or by 7",
               "options": [],
               "correctAnswer": "Ear"
             },
             {
-              "id": "cam19_lt2_q8",
-              "type": "notes_completion",
-              "question": "8. Style of music: _____ and folk",
+              "id": "cam19_t2_l_q8",
+              "type": "form_completion",
+              "question": "A typical 45minute guitar lesson | | :| :| :| | | 10 minutes | strumming chords using our thumbs | keeping time while the teacher is 8",
               "options": [],
               "correctAnswer": "Clapping"
             },
             {
-              "id": "cam19_lt2_q9",
-              "type": "notes_completion",
-              "question": "9. Optional: make a _____",
+              "id": "cam19_t2_l_q9",
+              "type": "form_completion",
+              "question": "A typical 45minute guitar lesson | | :| :| :| | | 15 minutes | playing songs | often listening to a 9",
               "options": [],
               "correctAnswer": "Recording"
             },
             {
-              "id": "cam19_lt2_q10",
-              "type": "notes_completion",
-              "question": "10. Cost per session: £5 / £3.50 if you come _____",
+              "id": "cam19_t2_l_q10",
+              "type": "form_completion",
+              "question": "A typical 45minute guitar lesson | | :| :| :| | | 10 minutes | playing single notes and simple tunes | playing together, then 10",
               "options": [],
               "correctAnswer": "Alone"
             }
           ]
         },
         {
-          "id": "cam19_lt2_p2",
+          "id": "cam19_t2_l_p2",
           "title": "Working as a Lifeboat Volunteer",
           "audioFile": "cam19_s6.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam19_lt2_q11",
+              "id": "cam19_t2_l_q11",
               "type": "multiple_choice",
-              "question": "Question 11: Choose the correct letter, A, B or C.",
+              "question": "What made David leave London and move to Northsea?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. He was eager to develop a hobby.",
+                "B. He wanted to work shorter hours.",
+                "C. He found his job in website design unsatisfying."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. He was eager to develop a hobby."
             },
             {
-              "id": "cam19_lt2_q12",
+              "id": "cam19_t2_l_q12",
               "type": "multiple_choice",
-              "question": "Question 12: Choose the correct letter, A, B or C.",
+              "question": "The Lifeboat Institution in Northsea was built with money provided by",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. a local organisation.",
+                "B. a local resident.",
+                "C. the local council."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam19_lt2_q13",
+              "id": "cam19_t2_l_q13",
               "type": "multiple_choice",
-              "question": "Question 13: Choose the correct letter, A, B or C.",
+              "question": "In his health assessment, the doctor was concerned about the fact that David",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. might be colour blind.",
+                "B. was rather short-sighted.",
+                "C. had undergone eye surgery."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam19_lt2_q14",
+              "id": "cam19_t2_l_q14",
               "type": "multiple_choice",
-              "question": "Question 14: Choose the correct letter, A, B or C.",
+              "question": "After arriving at the lifeboat station, they aim to launch the boat within",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. five minutes.",
+                "B. six to eight minutes.",
+                "C. eight and a half minutes."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam19_lt2_q15",
+              "id": "cam19_t2_l_q15",
               "type": "multiple_choice",
-              "question": "Question 15: Choose the correct letter, A, B or C.",
+              "question": "As a ‘helmsman’, David has the responsibility of deciding",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. who will be the members of his crew.",
+                "B. what equipment it will be necessary to take.",
+                "C. if the lifeboat should be launched."
+              ],
+              "correctAnswer": "C. had undergone eye surgery."
+            },
+            {
+              "id": "cam19_t2_l_q16",
+              "type": "multiple_choice",
+              "question": "As well as going out on the lifeboat, David",
+              "options": [
+                "A. gives talks on safety at sea.",
+                "B. helps with fundraising.",
+                "C. recruits new volunteers."
+              ],
+              "correctAnswer": "A. _ five minutes."
+            },
+            {
+              "id": "cam19_t2_l_q17",
+              "type": "matching",
+              "question": "Which TWO things does David say about the lifeboat volunteer training?",
+              "options": [
+                "A. The residential course developed his leadership skills.",
+                "B. The training in use of ropes and knots was quite brief.",
+                "C. The training exercises have built up his mental strength.",
+                "D. The casualty care activities were particularly challenging for him.",
+                "E. The wave tank activities provided practice in survival techniques."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam19_lt2_q16",
-              "type": "multiple_choice",
-              "question": "Question 16: Choose the correct letter, A, B or C.",
-              "options": [
-                "A",
-                "B",
-                "C"
-              ],
-              "correctAnswer": "A"
-            },
-            {
-              "id": "cam19_lt2_q17",
+              "id": "cam19_t2_l_q18",
               "type": "matching",
-              "question": "17. what volunteers found most challenging: _____",
+              "question": "Which TWO things does David say about the lifeboat volunteer training?",
               "options": [
-                "A. working as part of a team",
-                "B. experiences when working in winter",
-                "C. training exercises built mental strength",
-                "D. learning navigation skills",
-                "E. wave tank activities provided survival techniques practice"
-              ],
-              "correctAnswer": "C"
-            },
-            {
-              "id": "cam19_lt2_q18",
-              "type": "matching",
-              "question": "18. what helped volunteers prepare for emergencies: _____",
-              "options": [
-                "A. working as part of a team",
-                "B. experiences when working in winter",
-                "C. training exercises built mental strength",
-                "D. learning navigation skills",
-                "E. wave tank activities provided survival techniques practice"
+                "A. The residential course developed his leadership skills.",
+                "B. The training in use of ropes and knots was quite brief.",
+                "C. The training exercises have built up his mental strength.",
+                "D. The casualty care activities were particularly challenging for him.",
+                "E. The wave tank activities provided practice in survival techniques."
               ],
               "correctAnswer": "E"
             },
             {
-              "id": "cam19_lt2_q19",
+              "id": "cam19_t2_l_q19",
               "type": "matching",
-              "question": "19. what volunteers valued most: _____",
+              "question": "Which TWO things does David find most motivating about the work he does?",
               "options": [
                 "A. working as part of a team",
                 "B. experiences when working in winter",
-                "C. training exercises built mental strength",
-                "D. learning navigation skills",
-                "E. wave tank activities provided survival techniques practice"
+                "C. being thanked by those he has helped",
+                "D. the fact that it keeps him fit",
+                "E. the chance to develop new equipment"
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam19_lt2_q20",
+              "id": "cam19_t2_l_q20",
               "type": "matching",
-              "question": "20. what volunteers remember most vividly: _____",
+              "question": "Which TWO things does David find most motivating about the work he does?",
               "options": [
                 "A. working as part of a team",
                 "B. experiences when working in winter",
-                "C. training exercises built mental strength",
-                "D. learning navigation skills",
-                "E. wave tank activities provided survival techniques practice"
+                "C. being thanked by those he has helped",
+                "D. the fact that it keeps him fit",
+                "E. the chance to develop new equipment"
               ],
               "correctAnswer": "B"
             }
           ]
         },
         {
-          "id": "cam19_lt2_p3",
+          "id": "cam19_t2_l_p3",
           "title": "Recycling Footwear",
           "audioFile": "cam19_s7.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam19_lt2_q21",
+              "id": "cam19_t2_l_q21",
               "type": "multiple_choice",
-              "question": "Question 21: Choose the correct letter, A, B or C.",
+              "question": "At first, Don thought the topic of recycling footwear might be too",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. limited in scope.",
+                "B. hard to research.",
+                "C. boring for listeners."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. limited in scope."
             },
             {
-              "id": "cam19_lt2_q22",
+              "id": "cam19_t2_l_q22",
               "type": "multiple_choice",
-              "question": "Question 22: Choose the correct letter, A, B or C.",
+              "question": "When discussing trainers, Bella and Don disagree about",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. how popular they are among young people.",
+                "B. how suitable they are for school.",
+                "C. how quickly they wear out."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. how suitable they are for school."
             },
             {
-              "id": "cam19_lt2_q23",
+              "id": "cam19_t2_l_q23",
               "type": "multiple_choice",
-              "question": "Question 23: Choose the correct letter, A, B or C.",
+              "question": "Bella says that she sometimes recycles shoes because",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. they no longer fit.",
+                "B. she no longer likes them.",
+                "C. they are no longer in fashion."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. she no longer likes them."
             },
             {
-              "id": "cam19_lt2_q24",
+              "id": "cam19_t2_l_q24",
               "type": "multiple_choice",
-              "question": "Question 24: Choose the correct letter, A, B or C.",
+              "question": "What did the article say that confused Don?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. Public consumption of footwear has risen.",
+                "B. Less footwear is recycled now than in the past.",
+                "C. People dispose of more footwear than they used to."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. Less footwear is recycled now than in the past."
             },
             {
-              "id": "cam19_lt2_q25",
+              "id": "cam19_t2_l_q25",
               "type": "matching",
-              "question": "25. Problem type 1: _____",
+              "question": "the high-heeled shoes",
               "options": [
-                "A. baby shoes - one missing",
-                "B. ankle boots - colour faded",
-                "C. trainers - hole",
-                "D. sandals - broken strap",
-                "E. high-heeled shoes - too dirty"
+                "A. limited in scope.",
+                "B. hard to research.",
+                "C. boring for listeners."
               ],
               "correctAnswer": "E"
             },
             {
-              "id": "cam19_lt2_q26",
+              "id": "cam19_t2_l_q26",
               "type": "matching",
-              "question": "26. Problem type 2: _____",
+              "question": "the ankle boots",
               "options": [
-                "A. baby shoes - one missing",
-                "B. ankle boots - colour faded",
-                "C. trainers - hole",
-                "D. sandals - broken strap",
-                "E. high-heeled shoes - too dirty"
+                "A. limited in scope.",
+                "B. hard to research.",
+                "C. boring for listeners."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam19_lt2_q27",
+              "id": "cam19_t2_l_q27",
               "type": "matching",
-              "question": "27. Problem type 3: _____",
+              "question": "the baby shoes",
               "options": [
-                "A. baby shoes - one missing",
-                "B. ankle boots - colour faded",
-                "C. trainers - hole",
-                "D. sandals - broken strap",
-                "E. high-heeled shoes - too dirty"
+                "A. limited in scope.",
+                "B. hard to research.",
+                "C. boring for listeners."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam19_lt2_q28",
+              "id": "cam19_t2_l_q28",
               "type": "matching",
-              "question": "28. Problem type 4: _____",
+              "question": "the trainers",
               "options": [
-                "A. baby shoes - one missing",
-                "B. ankle boots - colour faded",
-                "C. trainers - hole",
-                "D. sandals - broken strap",
-                "E. high-heeled shoes - too dirty"
+                "A. limited in scope.",
+                "B. hard to research.",
+                "C. boring for listeners."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam19_lt2_q29",
+              "id": "cam19_t2_l_q29",
               "type": "multiple_choice",
-              "question": "Question 29: Choose the correct letter, A, B or C.",
+              "question": "Why did the project to make 'new' shoes out of old shoes fail?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. People believed the 'new' pairs of shoes were unhygienic.",
+                "B. There were not enough good parts to use in the old shoes.",
+                "C. The shoes in the 'new' pairs were not completely alike."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam19_lt2_q30",
+              "id": "cam19_t2_l_q30",
               "type": "multiple_choice",
-              "question": "Question 30: Choose the correct letter, A, B or C.",
+              "question": "Bella and Don agree that they can present their topic",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. from a new angle.",
+                "B. with relevant images.",
+                "C. in a straightforward way."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. from a new angle. B_ with relevant images."
             }
           ]
         },
         {
-          "id": "cam19_lt2_p4",
+          "id": "cam19_t2_l_p4",
           "title": "Tardigrades",
           "audioFile": "cam19_s8.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam19_lt2_q31",
-              "type": "notes_completion",
-              "question": "Question 31: ONE WORD ONLY.",
+              "id": "cam19_t2_l_q31",
+              "type": "form_completion",
+              "question": "Tardigrades | also known as water ‘bears’ (due to how they 31",
               "options": [],
               "correctAnswer": "Move"
             },
             {
-              "id": "cam19_lt2_q32",
-              "type": "notes_completion",
-              "question": "Question 32: ONE WORD ONLY.",
+              "id": "cam19_t2_l_q32",
+              "type": "form_completion",
+              "question": "Physical appearance | a 32 _____ round body and four pairs of legs",
               "options": [],
               "correctAnswer": "Short"
             },
             {
-              "id": "cam19_lt2_q33",
-              "type": "notes_completion",
-              "question": "Question 33: ONE WORD ONLY.",
+              "id": "cam19_t2_l_q33",
+              "type": "form_completion",
+              "question": "Physical appearance | claws or 33",
               "options": [],
               "correctAnswer": "Discs"
             },
             {
-              "id": "cam19_lt2_q34",
-              "type": "notes_completion",
-              "question": "Question 34: ONE WORD ONLY.",
+              "id": "cam19_t2_l_q34",
+              "type": "form_completion",
+              "question": "Physical appearance | body filled with a liquid that carries both 34",
               "options": [],
               "correctAnswer": "Oxygen"
             },
             {
-              "id": "cam19_lt2_q35",
-              "type": "notes_completion",
-              "question": "Question 35: ONE WORD ONLY.",
+              "id": "cam19_t2_l_q35",
+              "type": "form_completion",
+              "question": "Physical appearance | mouth shaped like a 35",
               "options": [],
               "correctAnswer": "Tube"
             },
             {
-              "id": "cam19_lt2_q36",
-              "type": "notes_completion",
-              "question": "Question 36: ONE WORD ONLY.",
+              "id": "cam19_t2_l_q36",
+              "type": "form_completion",
+              "question": "Habitat | very resilient and can exist in very low or high 36",
               "options": [],
               "correctAnswer": "Temperatures"
             },
             {
-              "id": "cam19_lt2_q37",
-              "type": "notes_completion",
-              "question": "Question 37: ONE WORD ONLY.",
+              "id": "cam19_t2_l_q37",
+              "type": "form_completion",
+              "question": "Cryptobiosis | A type of 37",
               "options": [],
               "correctAnswer": "Protein"
             },
             {
-              "id": "cam19_lt2_q38",
-              "type": "notes_completion",
-              "question": "Question 38: ONE WORD ONLY.",
+              "id": "cam19_t2_l_q38",
+              "type": "form_completion",
+              "question": "Cryptobiosis | Research is underway to find out how many days they can stay alive in 38",
               "options": [],
               "correctAnswer": "Space"
             },
             {
-              "id": "cam19_lt2_q39",
-              "type": "notes_completion",
-              "question": "Question 39: ONE WORD ONLY.",
+              "id": "cam19_t2_l_q39",
+              "type": "form_completion",
+              "question": "Feeding | consume liquids, e.g., those found in moss or 39",
               "options": [],
               "correctAnswer": "Seaweed"
             },
             {
-              "id": "cam19_lt2_q40",
-              "type": "notes_completion",
-              "question": "Question 40: ONE WORD ONLY.",
+              "id": "cam19_t2_l_q40",
+              "type": "form_completion",
+              "question": "Conservation status | They are not considered to be 40",
               "options": [],
               "correctAnswer": "Endangered"
             }
@@ -881,301 +839,305 @@
       "testNumber": 3,
       "parts": [
         {
-          "id": "cam19_lt3_p1",
+          "id": "cam19_t3_l_p1",
           "title": "Local Food Shops",
           "audioFile": "cam19_s9.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam19_lt3_q1",
-              "type": "notes_completion",
-              "question": "1. First shop location: near the _____",
+              "id": "cam19_t3_l_q1",
+              "type": "form_completion",
+              "question": "Where to go | Kite Place near the 1",
               "options": [],
               "correctAnswer": "harbour"
             },
             {
-              "id": "cam19_lt3_q2",
-              "type": "notes_completion",
-              "question": "2. Second shop location: opposite the _____",
+              "id": "cam19_t3_l_q2",
+              "type": "form_completion",
+              "question": "Fish market | cross the 2",
               "options": [],
               "correctAnswer": "bridge"
             },
             {
-              "id": "cam19_lt3_q3",
-              "type": "notes_completion",
-              "question": "3. Market opening time: _____",
+              "id": "cam19_t3_l_q3",
+              "type": "form_completion",
+              "question": "Fish market | best to go before 3",
               "options": [],
               "correctAnswer": "3.30"
             },
             {
-              "id": "cam19_lt3_q4",
-              "type": "notes_completion",
-              "question": "4. Baker's name: _____",
+              "id": "cam19_t3_l_q4",
+              "type": "form_completion",
+              "question": "Organic shop | called 4 '",
               "options": [],
               "correctAnswer": "Rose"
             },
             {
-              "id": "cam19_lt3_q5",
-              "type": "notes_completion",
-              "question": "5. Look for a _____ outside the shop",
+              "id": "cam19_t3_l_q5",
+              "type": "form_completion",
+              "question": "Organic shop | look for the large 5",
               "options": [],
               "correctAnswer": "sign"
             },
             {
-              "id": "cam19_lt3_q6",
-              "type": "notes_completion",
-              "question": "6. Colour of the building: _____",
+              "id": "cam19_t3_l_q6",
+              "type": "form_completion",
+              "question": "Supermarket | take a 6 _____ minibus, number 289",
               "options": [],
               "correctAnswer": "purple"
             },
             {
-              "id": "cam19_lt3_q7",
-              "type": "notes_completion",
-              "question": "7. Special product: _____",
+              "id": "cam19_t3_l_q7",
+              "type": "form_completion",
+              "question": "| | To buy | Other ideas | | | Fish market | a dozen prawns | a handful of 7",
               "options": [],
               "correctAnswer": "samphire"
             },
             {
-              "id": "cam19_lt3_q8",
-              "type": "notes_completion",
-              "question": "8. Fruit: _____",
+              "id": "cam19_t3_l_q8",
+              "type": "form_completion",
+              "question": "| Organic shop | beans and a 8",
               "options": [],
               "correctAnswer": "melon"
             },
             {
-              "id": "cam19_lt3_q9",
-              "type": "notes_completion",
-              "question": "9. Drink: _____",
+              "id": "cam19_t3_l_q9",
+              "type": "form_completion",
+              "question": "| | To buy | Other ideas | | | Organic shop | beans and a 8 ............................ for dessert | spices and 9",
               "options": [],
               "correctAnswer": "coconut"
             },
             {
-              "id": "cam19_lt3_q10",
-              "type": "notes_completion",
-              "question": "10. Dessert flavour: _____",
+              "id": "cam19_t3_l_q10",
+              "type": "form_completion",
+              "question": "| | To buy | Other ideas | | | Bakery | a brown loaf | a 10",
               "options": [],
               "correctAnswer": "strawberry"
             }
           ]
         },
         {
-          "id": "cam19_lt3_p2",
+          "id": "cam19_t3_l_p2",
           "title": "Festival Workshops",
           "audioFile": "cam19_s10.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam19_lt3_q11",
+              "id": "cam19_t3_l_q11",
               "type": "matching",
-              "question": "11. Workshop 1: _____",
+              "question": "Superheroes",
               "options": [
-                "A. involves learning a craft skill",
-                "B. led by prize-winning author",
-                "C. Superheroes - aimed at children with disability",
-                "D. Just do it - involves drama activity",
-                "E. focuses on local history",
-                "F. Count on me - aimed at specific age group",
-                "G. Speak up - explores an unhappy feeling",
-                "H. Sticks and stones - raises awareness of culture"
+                "A. involves painting and drawing",
+                "B. will be led by a prize-winning author",
+                "C. is aimed at children with a disability",
+                "D. involves a drama activity",
+                "E. focuses on new relationships",
+                "F. is aimed at a specific age group",
+                "G. explores an unhappy feeling",
+                "H. raises awareness of a particular culture"
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam19_lt3_q12",
+              "id": "cam19_t3_l_q12",
               "type": "matching",
-              "question": "12. Workshop 2: _____",
+              "question": "Just do it",
               "options": [
-                "A. involves learning a craft skill",
-                "B. led by prize-winning author",
-                "C. Superheroes - aimed at children with disability",
-                "D. Just do it - involves drama activity",
-                "E. focuses on local history",
-                "F. Count on me - aimed at specific age group",
-                "G. Speak up - explores an unhappy feeling",
-                "H. Sticks and stones - raises awareness of culture"
+                "A. involves painting and drawing",
+                "B. will be led by a prize-winning author",
+                "C. is aimed at children with a disability",
+                "D. involves a drama activity",
+                "E. focuses on new relationships",
+                "F. is aimed at a specific age group",
+                "G. explores an unhappy feeling",
+                "H. raises awareness of a particular culture"
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam19_lt3_q13",
+              "id": "cam19_t3_l_q13",
               "type": "matching",
-              "question": "13. Workshop 3: _____",
+              "question": "Count on me",
               "options": [
-                "A. involves learning a craft skill",
-                "B. led by prize-winning author",
-                "C. Superheroes - aimed at children with disability",
-                "D. Just do it - involves drama activity",
-                "E. focuses on local history",
-                "F. Count on me - aimed at specific age group",
-                "G. Speak up - explores an unhappy feeling",
-                "H. Sticks and stones - raises awareness of culture"
+                "A. involves painting and drawing",
+                "B. will be led by a prize-winning author",
+                "C. is aimed at children with a disability",
+                "D. involves a drama activity",
+                "E. focuses on new relationships",
+                "F. is aimed at a specific age group",
+                "G. explores an unhappy feeling",
+                "H. raises awareness of a particular culture"
               ],
               "correctAnswer": "F"
             },
             {
-              "id": "cam19_lt3_q14",
+              "id": "cam19_t3_l_q14",
               "type": "matching",
-              "question": "14. Workshop 4: _____",
+              "question": "Speak up",
               "options": [
-                "A. involves learning a craft skill",
-                "B. led by prize-winning author",
-                "C. Superheroes - aimed at children with disability",
-                "D. Just do it - involves drama activity",
-                "E. focuses on local history",
-                "F. Count on me - aimed at specific age group",
-                "G. Speak up - explores an unhappy feeling",
-                "H. Sticks and stones - raises awareness of culture"
+                "A. involves painting and drawing",
+                "B. will be led by a prize-winning author",
+                "C. is aimed at children with a disability",
+                "D. involves a drama activity",
+                "E. focuses on new relationships",
+                "F. is aimed at a specific age group",
+                "G. explores an unhappy feeling",
+                "H. raises awareness of a particular culture"
               ],
               "correctAnswer": "G"
             },
             {
-              "id": "cam19_lt3_q15",
+              "id": "cam19_t3_l_q15",
               "type": "matching",
-              "question": "15. Workshop 5: _____",
+              "question": "Jump for joy",
               "options": [
-                "A. involves learning a craft skill",
-                "B. led by prize-winning author",
-                "C. Superheroes - aimed at children with disability",
-                "D. Just do it - involves drama activity",
-                "E. focuses on local history",
-                "F. Count on me - aimed at specific age group",
-                "G. Speak up - explores an unhappy feeling",
-                "H. Sticks and stones - raises awareness of culture"
+                "A. involves painting and drawing",
+                "B. will be led by a prize-winning author",
+                "C. is aimed at children with a disability",
+                "D. involves a drama activity",
+                "E. focuses on new relationships",
+                "F. is aimed at a specific age group",
+                "G. explores an unhappy feeling",
+                "H. raises awareness of a particular culture"
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam19_lt3_q16",
+              "id": "cam19_t3_l_q16",
               "type": "matching",
-              "question": "16. Workshop 6: _____",
+              "question": "Sticks and stones",
               "options": [
-                "A. involves learning a craft skill",
-                "B. led by prize-winning author",
-                "C. Superheroes - aimed at children with disability",
-                "D. Just do it - involves drama activity",
-                "E. focuses on local history",
-                "F. Count on me - aimed at specific age group",
-                "G. Speak up - explores an unhappy feeling",
-                "H. Sticks and stones - raises awareness of culture"
+                "A. involves painting and drawing",
+                "B. will be led by a prize-winning author",
+                "C. is aimed at children with a disability",
+                "D. involves a drama activity",
+                "E. focuses on new relationships",
+                "F. is aimed at a specific age group",
+                "G. explores an unhappy feeling",
+                "H. raises awareness of a particular culture"
               ],
               "correctAnswer": "H"
             },
             {
-              "id": "cam19_lt3_q17",
-              "type": "multiple_choice",
-              "question": "Question 17: Choose the correct letter, A, B, C or D.",
+              "id": "cam19_t3_l_q17",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO reasons does the speaker give for recommending Alive and Kicking?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. It will appeal to both boys and girls.",
+                "B. The author is well known.",
+                "C. It has colourful illustrations.",
+                "D. It is funny.",
+                "E. It deals with an important topic."
               ],
-              "correctAnswer": "D"
+              "correctAnswer": "D. It is funny."
             },
             {
-              "id": "cam19_lt3_q18",
-              "type": "multiple_choice",
-              "question": "Question 18: Choose the correct letter, A, B, C or D.",
+              "id": "cam19_t3_l_q18",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO reasons does the speaker give for recommending Alive and Kicking?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. It will appeal to both boys and girls.",
+                "B. The author is well known.",
+                "C. It has colourful illustrations.",
+                "D. It is funny.",
+                "E. It deals with an important topic."
               ],
-              "correctAnswer": "E"
+              "correctAnswer": "E. It deals with an important topic."
             },
             {
-              "id": "cam19_lt3_q19",
-              "type": "multiple_choice",
-              "question": "Question 19: Choose the correct letter, A, B, C or D.",
+              "id": "cam19_t3_l_q19",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO pieces of advice does the speaker give to parents about reading?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. Encourage children to write down new vocabulary.",
+                "B. Allow children to listen to audio books.",
+                "C. Get recommendations from librarians.",
+                "D. Give children a choice about what they read.",
+                "E. Only read aloud to children until they can read independently."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. Allow children to listen to audio books."
             },
             {
-              "id": "cam19_lt3_q20",
-              "type": "multiple_choice",
-              "question": "Question 20: Choose the correct letter, A, B, C or D.",
+              "id": "cam19_t3_l_q20",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO pieces of advice does the speaker give to parents about reading?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. Encourage children to write down new vocabulary.",
+                "B. Allow children to listen to audio books.",
+                "C. Get recommendations from librarians.",
+                "D. Give children a choice about what they read.",
+                "E. Only read aloud to children until they can read independently."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. Get recommendations from librarians."
             }
           ]
         },
         {
-          "id": "cam19_lt3_p3",
+          "id": "cam19_t3_l_p3",
           "title": "Science Experiment for Year 12 Students",
           "audioFile": "cam19_s11.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam19_lt3_q21",
+              "id": "cam19_t3_l_q21",
               "type": "multiple_choice",
-              "question": "Question 21: Choose the correct letter, A, B or C.",
+              "question": "How does Clare feel about the students in her Year 12 science class?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. worried that they are not making progress",
+                "B. challenged by their poor behaviour in class",
+                "C. frustrated at their lack of interest in the subject"
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. frustrated at their lack of interest in the subject"
             },
             {
-              "id": "cam19_lt3_q22",
+              "id": "cam19_t3_l_q22",
               "type": "multiple_choice",
-              "question": "Question 22: Choose the correct letter, A, B or C.",
+              "question": "How does Jake react to Clare's suggestion about an experiment based on children's diet?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. He is concerned that the results might not be meaningful.",
+                "B. He feels some of the data might be difficult to obtain.",
+                "C. He suspects that the conclusions might be upsetting."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam19_lt3_q23",
+              "id": "cam19_t3_l_q23",
               "type": "multiple_choice",
-              "question": "Question 23: Choose the correct letter, A, B or C.",
+              "question": "What problem do they agree may be involved in an experiment involving animals?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. Any results may not apply to humans.",
+                "B. It may be complicated to get permission.",
+                "C. Students may not be happy about animal experiments."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam19_lt3_q24",
+              "id": "cam19_t3_l_q24",
               "type": "multiple_choice",
-              "question": "Question 24: Choose the correct letter, A, B or C.",
+              "question": "What question do they decide the experiment should address?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. Are mice capable of controlling their food intake?",
+                "B. Does an increase in sugar lead to health problems?",
+                "C. How much do supplements of different kinds affect health?"
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam19_lt3_q25",
+              "id": "cam19_t3_l_q25",
               "type": "multiple_choice",
-              "question": "Question 25: Choose the correct letter, A, B or C.",
+              "question": "Clare might also consider doing another experiment involving",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. other types of food supplement.",
+                "B. different genetic strains of mice.",
+                "C. varying amounts of exercise."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam19_lt3_q26",
+              "id": "cam19_t3_l_q26",
               "type": "matching",
               "question": "26. Variable 1: _____",
               "options": [
@@ -1191,7 +1153,7 @@
               "correctAnswer": "C"
             },
             {
-              "id": "cam19_lt3_q27",
+              "id": "cam19_t3_l_q27",
               "type": "matching",
               "question": "27. Variable 2: _____",
               "options": [
@@ -1207,7 +1169,7 @@
               "correctAnswer": "H"
             },
             {
-              "id": "cam19_lt3_q28",
+              "id": "cam19_t3_l_q28",
               "type": "matching",
               "question": "28. Variable 3: _____",
               "options": [
@@ -1223,7 +1185,7 @@
               "correctAnswer": "E"
             },
             {
-              "id": "cam19_lt3_q29",
+              "id": "cam19_t3_l_q29",
               "type": "matching",
               "question": "29. Variable 4: _____",
               "options": [
@@ -1239,7 +1201,7 @@
               "correctAnswer": "B"
             },
             {
-              "id": "cam19_lt3_q30",
+              "id": "cam19_t3_l_q30",
               "type": "matching",
               "question": "30. Factor to control: _____",
               "options": [
@@ -1257,79 +1219,79 @@
           ]
         },
         {
-          "id": "cam19_lt3_p4",
+          "id": "cam19_t3_l_p4",
           "title": "Microplastics",
           "audioFile": "cam19_s12.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam19_lt3_q31",
-              "type": "notes_completion",
-              "question": "Question 31: ONE WORD ONLY.",
+              "id": "cam19_t3_l_q31",
+              "type": "form_completion",
+              "question": "Where microplastics come from | fibres from some 31",
               "options": [],
               "correctAnswer": "clothing"
             },
             {
-              "id": "cam19_lt3_q32",
-              "type": "notes_completion",
-              "question": "Question 32: ONE WORD ONLY.",
+              "id": "cam19_t3_l_q32",
+              "type": "form_completion",
+              "question": "Effects of microplastics | They cause injuries to the 32",
               "options": [],
               "correctAnswer": "mouths"
             },
             {
-              "id": "cam19_lt3_q33",
-              "type": "notes_completion",
-              "question": "Question 33: ONE WORD ONLY.",
+              "id": "cam19_t3_l_q33",
+              "type": "form_completion",
+              "question": "Effects of microplastics | They enter the food chain, e.g., in bottled and tap water, 33",
               "options": [],
               "correctAnswer": "salt"
             },
             {
-              "id": "cam19_lt3_q34",
-              "type": "notes_completion",
-              "question": "Question 34: ONE WORD ONLY.",
+              "id": "cam19_t3_l_q34",
+              "type": "form_completion",
+              "question": "Effects of microplastics | They may not affect human health, but they are already banned in skin cleaning products and 34",
               "options": [],
               "correctAnswer": "toothpaste"
             },
             {
-              "id": "cam19_lt3_q35",
-              "type": "notes_completion",
-              "question": "Question 35: ONE WORD ONLY.",
+              "id": "cam19_t3_l_q35",
+              "type": "form_completion",
+              "question": "Effects of microplastics | Microplastics enter the soil through the air, rain and 35",
               "options": [],
               "correctAnswer": "fertilisers"
             },
             {
-              "id": "cam19_lt3_q36",
-              "type": "notes_completion",
-              "question": "Question 36: ONE WORD ONLY.",
+              "id": "cam19_t3_l_q36",
+              "type": "form_completion",
+              "question": "Effects of microplastics | Microplastics in the soil a study by Anglia Ruskin University | Earthworms are important because they add 36",
               "options": [],
               "correctAnswer": "nutrients"
             },
             {
-              "id": "cam19_lt3_q37",
-              "type": "notes_completion",
-              "question": "Question 37: ONE WORD ONLY.",
+              "id": "cam19_t3_l_q37",
+              "type": "form_completion",
+              "question": "Effects of microplastics | Microplastics in the soil a study by Anglia Ruskin University | The study aimed to find whether microplastics in earthworms affect the 37",
               "options": [],
               "correctAnswer": "growth"
             },
             {
-              "id": "cam19_lt3_q38",
-              "type": "notes_completion",
-              "question": "Question 38: ONE WORD ONLY.",
+              "id": "cam19_t3_l_q38",
+              "type": "form_completion",
+              "question": "Effects of microplastics | Microplastics in the soil a study by Anglia Ruskin University | 38 _____ loss in earthworms",
               "options": [],
               "correctAnswer": "weight"
             },
             {
-              "id": "cam19_lt3_q39",
-              "type": "notes_completion",
-              "question": "Question 39: ONE WORD ONLY.",
+              "id": "cam19_t3_l_q39",
+              "type": "form_completion",
+              "question": "Microplastics in the soil a study by Anglia Ruskin University | a rise in the level of 39",
               "options": [],
               "correctAnswer": "acid"
             },
             {
-              "id": "cam19_lt3_q40",
-              "type": "notes_completion",
-              "question": "Question 40: ONE WORD ONLY.",
+              "id": "cam19_t3_l_q40",
+              "type": "form_completion",
+              "question": "The study concluded: | changes to soil damage both ecosystems and 40",
               "options": [],
               "correctAnswer": "society"
             }
@@ -1342,428 +1304,412 @@
       "testNumber": 4,
       "parts": [
         {
-          "id": "cam19_lt4_p1",
+          "id": "cam19_t4_l_p1",
           "title": "First Day at Work",
           "audioFile": "cam19_s13.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam19_lt4_q1",
-              "type": "notes_completion",
-              "question": "1. Employee name: _____",
+              "id": "cam19_t4_l_q1",
+              "type": "form_completion",
+              "question": "First day at work | Name of supervisor: 1",
               "options": [],
               "correctAnswer": "Kaeden"
             },
             {
-              "id": "cam19_lt4_q2",
-              "type": "notes_completion",
-              "question": "2. Store room: get _____ from there",
+              "id": "cam19_t4_l_q2",
+              "type": "form_completion",
+              "question": "First day at work | Where to leave coat and bag: use 2",
               "options": [],
               "correctAnswer": "locker"
             },
             {
-              "id": "cam19_lt4_q3",
-              "type": "notes_completion",
-              "question": "3. Must bring: _____",
+              "id": "cam19_t4_l_q3",
+              "type": "form_completion",
+              "question": "First day at work | See Tiffany in HR: to give 3",
               "options": [],
               "correctAnswer": "passport"
             },
             {
-              "id": "cam19_lt4_q4",
-              "type": "notes_completion",
-              "question": "4. Need to order: _____",
+              "id": "cam19_t4_l_q4",
+              "type": "form_completion",
+              "question": "First day at work | to collect 4",
               "options": [],
               "correctAnswer": "uniform"
             },
             {
-              "id": "cam19_lt4_q5",
-              "type": "notes_completion",
-              "question": "5. Which floor staff room is on: _____",
+              "id": "cam19_t4_l_q5",
+              "type": "form_completion",
+              "question": "First day at work | Location of HR office: on 5",
               "options": [],
               "correctAnswer": "3rd"
             },
             {
-              "id": "cam19_lt4_q6",
-              "type": "notes_completion",
-              "question": "6. Phone number: _____",
+              "id": "cam19_t4_l_q6",
+              "type": "form_completion",
+              "question": "First day at work | Supervisor's mobile number: 6",
               "options": [],
               "correctAnswer": "0412665903"
             },
             {
-              "id": "cam19_lt4_q7",
-              "type": "notes_completion",
-              "question": "7. Colour of safety area: _____",
+              "id": "cam19_t4_l_q7",
+              "type": "form_completion",
+              "question": "Responsibilities | | :| :| :| :| | | Bakery section | Check sellby dates | Change price labels | Use 7",
               "options": [],
               "correctAnswer": "yellow"
             },
             {
-              "id": "cam19_lt4_q8",
-              "type": "notes_completion",
-              "question": "8. Material of gloves: _____",
+              "id": "cam19_t4_l_q8",
+              "type": "form_completion",
+              "question": "Responsibilities | | :| :| :| :| | | Sushi takeaway counter | Restock with 8",
               "options": [],
               "correctAnswer": "plastic"
             },
             {
-              "id": "cam19_lt4_q9",
-              "type": "notes_completion",
-              "question": "9. Emergency: press button under _____",
+              "id": "cam19_t4_l_q9",
+              "type": "form_completion",
+              "question": "| Meat and fish counters | Clean the serving area, including the weighing scales | Collect 9",
               "options": [],
               "correctAnswer": "ice"
             },
             {
-              "id": "cam19_lt4_q10",
-              "type": "notes_completion",
-              "question": "10. Also need: safety _____",
+              "id": "cam19_t4_l_q10",
+              "type": "form_completion",
+              "question": "Responsibilities | | :| :| :| :| | | Meat and fish counters | Clean the serving area, including the weighing scales | Collect 9 ........................ for the fish from the coldroom | Must wear special 10",
               "options": [],
               "correctAnswer": "gloves"
             }
           ]
         },
         {
-          "id": "cam19_lt4_p2",
+          "id": "cam19_t4_l_p2",
           "title": "Compton Park Runners Club",
           "audioFile": "cam19_s14.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam19_lt4_q11",
-              "type": "multiple_choice",
-              "question": "Question 11: Choose the correct letter, A, B, C or D.",
+              "id": "cam19_t4_l_q11",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO problems with some training programmes for new runners does Liz mention?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. There is a risk of serious injury.",
+                "B. They are unsuitable for certain age groups.",
+                "C. They are unsuitable for people with health issues.",
+                "D. It is difficult to stay motivated.",
+                "E. There is a lack of individual support."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. They are unsuitable for people with health issues."
             },
             {
-              "id": "cam19_lt4_q12",
-              "type": "multiple_choice",
-              "question": "Question 12: Choose the correct letter, A, B, C or D.",
+              "id": "cam19_t4_l_q12",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO problems with some training programmes for new runners does Liz mention?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. There is a risk of serious injury.",
+                "B. They are unsuitable for certain age groups.",
+                "C. They are unsuitable for people with health issues.",
+                "D. It is difficult to stay motivated.",
+                "E. There is a lack of individual support."
               ],
-              "correctAnswer": "E"
+              "correctAnswer": "E. There is a lack of individual support."
             },
             {
-              "id": "cam19_lt4_q13",
-              "type": "multiple_choice",
-              "question": "Question 13: Choose the correct letter, A, B, C or D.",
+              "id": "cam19_t4_l_q13",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO tips does Liz recommend for new runners?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. doing two runs a week",
+                "B. running in the evening",
+                "C. going on runs with a friend",
+                "D. listening to music during runs",
+                "E. running very slowly"
+              ],
+              "correctAnswer": "A. doing two runs a week"
+            },
+            {
+              "id": "cam19_t4_l_q14",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO tips does Liz recommend for new runners?",
+              "options": [
+                "A. doing two runs a week",
+                "B. running in the evening",
+                "C. going on runs with a friend",
+                "D. listening to music during runs",
+                "E. running very slowly"
+              ],
+              "correctAnswer": "D. listening to music during runs"
+            },
+            {
+              "id": "cam19_t4_l_q15",
+              "type": "matching",
+              "question": "Ceri",
+              "options": [
+                "A. There is a risk of serious injury.",
+                "B. They are unsuitable for certain age groups.",
+                "C. They are unsuitable for people with health issues.",
+                "D. It is difficult to stay motivated.",
+                "E. There is a lack of individual support."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam19_lt4_q14",
-              "type": "multiple_choice",
-              "question": "Question 14: Choose the correct letter, A, B, C or D.",
-              "options": [
-                "A",
-                "B",
-                "C",
-                "D"
-              ],
-              "correctAnswer": "D"
-            },
-            {
-              "id": "cam19_lt4_q15",
+              "id": "cam19_t4_l_q16",
               "type": "matching",
-              "question": "15. Ceri: _____",
+              "question": "James",
               "options": [
-                "A. lack of confidence",
-                "B. dislike of running",
-                "C. lack of time",
-                "D. difficulty with motivation",
-                "E. health concerns"
-              ],
-              "correctAnswer": "A"
-            },
-            {
-              "id": "cam19_lt4_q16",
-              "type": "matching",
-              "question": "16. James: _____",
-              "options": [
-                "A. lack of confidence",
-                "B. dislike of running",
-                "C. lack of time",
-                "D. difficulty with motivation",
-                "E. health concerns"
+                "A. There is a risk of serious injury.",
+                "B. They are unsuitable for certain age groups.",
+                "C. They are unsuitable for people with health issues.",
+                "D. It is difficult to stay motivated.",
+                "E. There is a lack of individual support."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam19_lt4_q17",
+              "id": "cam19_t4_l_q17",
               "type": "matching",
-              "question": "17. Leo: _____",
+              "question": "Leo",
               "options": [
-                "A. lack of confidence",
-                "B. dislike of running",
-                "C. lack of time",
-                "D. difficulty with motivation",
-                "E. health concerns"
+                "A. There is a risk of serious injury.",
+                "B. They are unsuitable for certain age groups.",
+                "C. They are unsuitable for people with health issues.",
+                "D. It is difficult to stay motivated.",
+                "E. There is a lack of individual support."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam19_lt4_q18",
+              "id": "cam19_t4_l_q18",
               "type": "matching",
-              "question": "18. Mark: _____",
+              "question": "Mark",
               "options": [
-                "A. lack of confidence",
-                "B. dislike of running",
-                "C. lack of time",
-                "D. difficulty with motivation",
-                "E. health concerns"
+                "A. There is a risk of serious injury.",
+                "B. They are unsuitable for certain age groups.",
+                "C. They are unsuitable for people with health issues.",
+                "D. It is difficult to stay motivated.",
+                "E. There is a lack of individual support."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam19_lt4_q19",
+              "id": "cam19_t4_l_q19",
               "type": "multiple_choice",
-              "question": "Question 19: Choose the correct letter, A, B or C.",
+              "question": "What does Liz say about running her first marathon?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. It had always been her ambition.",
+                "B. Her husband persuaded her to do it.",
+                "C. She nearly gave up before the end."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. She nearly gave up before the end."
             },
             {
-              "id": "cam19_lt4_q20",
+              "id": "cam19_t4_l_q20",
               "type": "multiple_choice",
-              "question": "Question 20: Choose the correct letter, A, B or C.",
+              "question": "Liz says new runners should sign up for a race",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. every six months.",
+                "B. within a few weeks of taking up running.",
+                "C. after completing several practice runs."
               ],
               "correctAnswer": "B"
             }
           ]
         },
         {
-          "id": "cam19_lt4_p3",
+          "id": "cam19_t4_l_p3",
           "title": "Jane's Grandfather's Bookshop",
           "audioFile": "cam19_s15.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam19_lt4_q21",
+              "id": "cam19_t4_l_q21",
               "type": "multiple_choice",
-              "question": "Question 21: Choose the correct letter, A, B or C.",
+              "question": "Kieran thinks the packing advice given by Jane's grandfather is",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. common sense.",
+                "B. hard to follow.",
+                "C. over-protective."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. common sense."
             },
             {
-              "id": "cam19_lt4_q22",
+              "id": "cam19_t4_l_q22",
               "type": "multiple_choice",
-              "question": "Question 22: Choose the correct letter, A, B or C.",
+              "question": "How does Jane feel about the books her grandfather has given her?",
               "options": [
-                "A",
-                "B",
-                "C"
-              ],
-              "correctAnswer": "C"
-            },
-            {
-              "id": "cam19_lt4_q23",
-              "type": "multiple_choice",
-              "question": "Question 23: Choose the correct letter, A, B or C.",
-              "options": [
-                "A",
-                "B",
-                "C"
-              ],
-              "correctAnswer": "A"
-            },
-            {
-              "id": "cam19_lt4_q24",
-              "type": "multiple_choice",
-              "question": "Question 24: Choose the correct letter, A, B or C.",
-              "options": [
-                "A",
-                "B",
-                "C"
-              ],
-              "correctAnswer": "B"
-            },
-            {
-              "id": "cam19_lt4_q25",
-              "type": "multiple_choice",
-              "question": "Question 25: Choose the correct letter, A, B or C.",
-              "options": [
-                "A",
-                "B",
-                "C"
+                "A. They are not worth keeping.",
+                "B. They should go to a collector.",
+                "C. They have sentimental value for her."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam19_lt4_q26",
+              "id": "cam19_t4_l_q23",
+              "type": "multiple_choice",
+              "question": "Jane and Kieran agree that hardback books should be",
+              "options": [
+                "A. put out on display.",
+                "B. given as gifts to visitors.",
+                "C. more attractively designed."
+              ],
+              "correctAnswer": "A"
+            },
+            {
+              "id": "cam19_t4_l_q24",
+              "type": "multiple_choice",
+              "question": "While talking about taking a book from a shelf, Jane",
+              "options": [
+                "A. describes the mistakes other people make doing it.",
+                "B. reflects on a significant childhood experience.",
+                "C. explains why some books are easier to remove than others."
+              ],
+              "correctAnswer": "B. given as gifts to visitors."
+            },
+            {
+              "id": "cam19_t4_l_q25",
+              "type": "multiple_choice",
+              "question": "What do Jane and Kieran suggest about new books?",
+              "options": [
+                "A. Their parents liked buying them as presents.",
+                "B. They would like to buy more of them.",
+                "C. Not everyone can afford them."
+              ],
+              "correctAnswer": "C"
+            },
+            {
+              "id": "cam19_t4_l_q26",
               "type": "matching",
-              "question": "26. Section 1: _____",
+              "question": "rare books",
               "options": [
-                "A. unwanted books - near the entrance",
-                "B. rare books - kept behind the counter",
-                "C. requested books - at the back of the shop",
-                "D. rare books - on a high shelf",
-                "E. second-hand books - in boxes on the floor",
-                "F. children's books - specially designed space",
-                "G. coursebooks - within the cafe"
+                "A. common sense.",
+                "B. hard to follow.",
+                "C. over-protective."
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam19_lt4_q27",
+              "id": "cam19_t4_l_q27",
               "type": "matching",
-              "question": "27. Section 2: _____",
+              "question": "children's books",
               "options": [
-                "A. unwanted books - near the entrance",
-                "B. rare books - kept behind the counter",
-                "C. requested books - at the back of the shop",
-                "D. rare books - on a high shelf",
-                "E. second-hand books - in boxes on the floor",
-                "F. children's books - specially designed space",
-                "G. coursebooks - within the cafe"
+                "A. common sense.",
+                "B. hard to follow.",
+                "C. over-protective."
               ],
               "correctAnswer": "F"
             },
             {
-              "id": "cam19_lt4_q28",
+              "id": "cam19_t4_l_q28",
               "type": "matching",
-              "question": "28. Section 3: _____",
+              "question": "unwanted books",
               "options": [
-                "A. unwanted books - near the entrance",
-                "B. rare books - kept behind the counter",
-                "C. requested books - at the back of the shop",
-                "D. rare books - on a high shelf",
-                "E. second-hand books - in boxes on the floor",
-                "F. children's books - specially designed space",
-                "G. coursebooks - within the cafe"
+                "A. common sense.",
+                "B. hard to follow.",
+                "C. over-protective."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam19_lt4_q29",
+              "id": "cam19_t4_l_q29",
               "type": "matching",
-              "question": "29. Section 4: _____",
+              "question": "requested books",
               "options": [
-                "A. unwanted books - near the entrance",
-                "B. rare books - kept behind the counter",
-                "C. requested books - at the back of the shop",
-                "D. rare books - on a high shelf",
-                "E. second-hand books - in boxes on the floor",
-                "F. children's books - specially designed space",
-                "G. coursebooks - within the cafe"
+                "A. common sense.",
+                "B. hard to follow.",
+                "C. over-protective."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam19_lt4_q30",
+              "id": "cam19_t4_l_q30",
               "type": "matching",
-              "question": "30. Section 5: _____",
+              "question": "coursebooks",
               "options": [
-                "A. unwanted books - near the entrance",
-                "B. rare books - kept behind the counter",
-                "C. requested books - at the back of the shop",
-                "D. rare books - on a high shelf",
-                "E. second-hand books - in boxes on the floor",
-                "F. children's books - specially designed space",
-                "G. coursebooks - within the cafe"
+                "A. common sense.",
+                "B. hard to follow.",
+                "C. over-protective."
               ],
               "correctAnswer": "G"
             }
           ]
         },
         {
-          "id": "cam19_lt4_p4",
+          "id": "cam19_t4_l_p4",
           "title": "Tree Planting",
           "audioFile": "cam19_s16.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam19_lt4_q31",
-              "type": "notes_completion",
-              "question": "Question 31: ONE WORD ONLY.",
+              "id": "cam19_t4_l_q31",
+              "type": "form_completion",
+              "question": "Reforestation projects should: | not include invasive species because of possible 31",
               "options": [],
               "correctAnswer": "competition"
             },
             {
-              "id": "cam19_lt4_q32",
-              "type": "notes_completion",
-              "question": "Question 32: ONE WORD ONLY.",
+              "id": "cam19_t4_l_q32",
+              "type": "form_completion",
+              "question": "Reforestation projects should: | aim to capture carbon, protect the environment and provide sustainable sources of 32",
               "options": [],
               "correctAnswer": "food"
             },
             {
-              "id": "cam19_lt4_q33",
-              "type": "notes_completion",
-              "question": "Question 33: ONE WORD ONLY.",
+              "id": "cam19_t4_l_q33",
+              "type": "form_completion",
+              "question": "Reforestation projects should: | use tree seeds with a high genetic diversity to increase resistance to 33",
               "options": [],
               "correctAnswer": "disease"
             },
             {
-              "id": "cam19_lt4_q34",
-              "type": "notes_completion",
-              "question": "Question 34: ONE WORD ONLY.",
+              "id": "cam19_t4_l_q34",
+              "type": "form_completion",
+              "question": "Reforestation projects should: | plant trees on previously forested land which is in a bad condition, not select land which is being used for 34",
               "options": [],
               "correctAnswer": "agriculture"
             },
             {
-              "id": "cam19_lt4_q35",
-              "type": "notes_completion",
-              "question": "Question 35: ONE WORD ONLY.",
+              "id": "cam19_t4_l_q35",
+              "type": "form_completion",
+              "question": "Largescale reforestation projects | Base planning decisions on information from accurate 35",
               "options": [],
               "correctAnswer": "maps"
             },
             {
-              "id": "cam19_lt4_q36",
-              "type": "notes_completion",
-              "question": "Question 36: ONE WORD ONLY.",
+              "id": "cam19_t4_l_q36",
+              "type": "form_completion",
+              "question": "Largescale reforestation projects | Drones are useful for identifying areas in Brazil which are endangered by keeping 36",
               "options": [],
               "correctAnswer": "cattle"
             },
             {
-              "id": "cam19_lt4_q37",
-              "type": "notes_completion",
-              "question": "Question 37: ONE WORD ONLY.",
+              "id": "cam19_t4_l_q37",
+              "type": "form_completion",
+              "question": "increasing the 37",
               "options": [],
               "correctAnswer": "speed"
             },
             {
-              "id": "cam19_lt4_q38",
-              "type": "notes_completion",
-              "question": "Question 38: ONE WORD ONLY.",
+              "id": "cam19_t4_l_q38",
+              "type": "form_completion",
+              "question": "Lampang Province, Northern Thailand | increasing the 37 ............................ of recovery by attracting animals and birds, e.g., 38",
               "options": [],
               "correctAnswer": "monkeys"
             },
             {
-              "id": "cam19_lt4_q39",
-              "type": "notes_completion",
-              "question": "Question 39: ONE WORD ONLY.",
+              "id": "cam19_t4_l_q39",
+              "type": "form_completion",
+              "question": "Involving local communities | Destruction of mangrove forests in Madagascar made it difficult for people to make a living from 39",
               "options": [],
               "correctAnswer": "fishing"
             },
             {
-              "id": "cam19_lt4_q40",
-              "type": "notes_completion",
-              "question": "Question 40: ONE WORD ONLY.",
+              "id": "cam19_t4_l_q40",
+              "type": "form_completion",
+              "question": "Involving local communities | protects against the higher risk of 40",
               "options": [],
               "correctAnswer": "flooding"
             }

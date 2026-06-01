@@ -14,57 +14,57 @@
           "questions": [
             {
               "id": "cam14_t1_r_q1",
-              "type": "notes_completion",
-              "question": "building a 'magical kingdom' may help develop 1. _____",
+              "type": "form_completion",
+              "question": "Uses of children^ play | 6 building a 'magical kingdom, may help develop _____",
               "options": [],
               "correctAnswer": "creativity"
             },
             {
               "id": "cam14_t1_r_q2",
-              "type": "notes_completion",
-              "question": "board games involve 2. _____ and turn-taking",
+              "type": "form_completion",
+              "question": "Uses of children^ play | board games involve _____ and turntaking",
               "options": [],
               "correctAnswer": "rules"
             },
             {
               "id": "cam14_t1_r_q3",
-              "type": "notes_completion",
-              "question": "populations of 3. _____ have grown",
+              "type": "form_completion",
+              "question": "Recent changes affecting children^ play | populations of _____ have grown",
               "options": [],
               "correctAnswer": "cities"
             },
             {
               "id": "cam14_t1_r_q4",
-              "type": "notes_completion",
-              "question": "fear of 4. _____",
+              "type": "form_completion",
+              "question": "Recent changes affecting children^ play | opportunities for free play are limited due to | fear of _____",
               "options": [],
               "correctAnswer": "traffic"
             },
             {
               "id": "cam14_t1_r_q5",
-              "type": "notes_completion",
-              "question": "fear of 5. _____",
+              "type": "form_completion",
+              "question": "Recent changes affecting children^ play | opportunities for free play are limited due to | fear of _____",
               "options": [],
               "correctAnswer": "crime"
             },
             {
               "id": "cam14_t1_r_q6",
-              "type": "notes_completion",
-              "question": "increased 6. _____ in schools",
+              "type": "form_completion",
+              "question": "Recent changes affecting children^ play | opportunities for free play are limited due to | in creased _____ in schools",
               "options": [],
               "correctAnswer": "competition"
             },
             {
               "id": "cam14_t1_r_q7",
-              "type": "notes_completion",
-              "question": "it is difficult to find 7. _____ to support new policies",
+              "type": "form_completion",
+              "question": "International policies on children^ play | it is difficult to find _____ to support new policies",
               "options": [],
               "correctAnswer": "evidence"
             },
             {
               "id": "cam14_t1_r_q8",
-              "type": "notes_completion",
-              "question": "research needs to study the impact of play on the rest of the child's 8. _____",
+              "type": "form_completion",
+              "question": "International policies on children^ play | research needs to study the impact of play on the rest of the child's | _____",
               "options": [],
               "correctAnswer": "life"
             },
@@ -270,14 +270,14 @@
             {
               "id": "cam14_t1_r_q25",
               "type": "summary_completion",
-              "question": "they handed out 25. _____ that condemned the use of cars",
+              "question": "The first urban bikesharing scheme | scheme would draw attention to these issues. As well as painting some bikes white, they | handed out _____ that condemned the use of cars.",
               "options": [],
               "correctAnswer": "leaflets"
             },
             {
               "id": "cam14_t1_r_q26",
               "type": "summary_completion",
-              "question": "the 26. _____ took them away",
+              "question": "The first urban bikesharing scheme | However, the scheme was not a great success: almost as quickly as Provo left | the bikes around the city, the _____ took them away. According to",
               "options": [],
               "correctAnswer": "police"
             }
@@ -294,12 +294,7 @@
               "type": "matching_names",
               "question": "Hotel managers need to know what would encourage good staff to remain.",
               "options": [
-                "A. Pfeffer",
-                "B. Lucas",
-                "C. Maroudas et al.",
-                "D. Ng and Sorensen",
-                "E. Enz and Siguaw",
-                "F. Deery"
+                "A"
               ],
               "correctAnswer": "E"
             },
@@ -308,12 +303,7 @@
               "type": "matching_names",
               "question": "The actions of managers may make staff feel they shouldn't move to a different employer.",
               "options": [
-                "A. Pfeffer",
-                "B. Lucas",
-                "C. Maroudas et al.",
-                "D. Ng and Sorensen",
-                "E. Enz and Siguaw",
-                "F. Deery"
+                "A"
               ],
               "correctAnswer": "D"
             },
@@ -322,12 +312,7 @@
               "type": "matching_names",
               "question": "Little is done in the hospitality industry to help workers improve their skills.",
               "options": [
-                "A. Pfeffer",
-                "B. Lucas",
-                "C. Maroudas et al.",
-                "D. Ng and Sorensen",
-                "E. Enz and Siguaw",
-                "F. Deery"
+                "A"
               ],
               "correctAnswer": "B"
             },
@@ -336,26 +321,20 @@
               "type": "matching_names",
               "question": "Staff are less likely to change jobs if cooperation is encouraged.",
               "options": [
-                "A. Pfeffer",
-                "B. Lucas",
-                "C. Maroudas et al.",
-                "D. Ng and Sorensen",
-                "E. Enz and Siguaw",
-                "F. Deery"
+                "A"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam14_t1_r_q31",
               "type": "matching_names",
-              "question": "Dissatisfaction with pay is not the only reason why hospitality workers change jobs.",
+              "question": "Dissatisfaction with pay is not the only reason why hospitality workers change jobs. List of Researchers",
               "options": [
-                "A. Pfeffer",
-                "B. Lucas",
-                "C. Maroudas et al.",
-                "D. Ng and Sorensen",
-                "E. Enz and Siguaw",
-                "F. Deery"
+                "A",
+                "B",
+                "C",
+                "E",
+                "F"
               ],
               "correctAnswer": "C"
             },
@@ -364,9 +343,7 @@
               "type": "ynng",
               "question": "One reason for high staff turnover in the hospitality industry is poor morale.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A"
               ],
               "correctAnswer": "YES"
             },
@@ -375,9 +352,7 @@
               "type": "ynng",
               "question": "Research has shown that staff have a tendency to dislike their workplace.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A"
               ],
               "correctAnswer": "NO"
             },
@@ -386,9 +361,7 @@
               "type": "ynng",
               "question": "An improvement in working conditions and job security makes staff satisfied with their jobs.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A"
               ],
               "correctAnswer": "NO"
             },
@@ -397,44 +370,42 @@
               "type": "ynng",
               "question": "Staff should be allowed to choose when they take breaks during the working day.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A"
               ],
               "correctAnswer": "NOT GIVEN"
             },
             {
               "id": "cam14_t1_r_q36",
               "type": "summary_completion",
-              "question": "Tews, Michel and Stafford carried out research on staff in an American chain of 36. _____",
+              "question": "Fun at work | lews, Michel and Stafford carried out research on staff in an American chain of | _____ They discovered that activities designed for staff to have fun",
               "options": [],
               "correctAnswer": "restaurants"
             },
             {
               "id": "cam14_t1_r_q37",
               "type": "summary_completion",
-              "question": "activities designed for staff to have fun improved their 37. _____",
+              "question": "Fun at work | lews, Michel and Stafford carried out research on staff in an American chain of | improved their _____ , and that management involvement led to lower",
               "options": [],
               "correctAnswer": "performance"
             },
             {
               "id": "cam14_t1_r_q38",
               "type": "summary_completion",
-              "question": "management involvement led to lower staff 38. _____",
+              "question": "Fun at work | lews, Michel and Stafford carried out research on staff in an American chain of | staff _____ They also found that the activities needed to fit with both the",
               "options": [],
               "correctAnswer": "turnover"
             },
             {
               "id": "cam14_t1_r_q39",
               "type": "summary_completion",
-              "question": "the activities needed to fit with both the company's 39. _____",
+              "question": "company's 39",
               "options": [],
               "correctAnswer": "goals"
             },
             {
               "id": "cam14_t1_r_q40",
               "type": "summary_completion",
-              "question": "and the 40. _____ of the staff",
+              "question": "Fun at work | lews, Michel and Stafford carried out research on staff in an American chain of | company's 39................................and the _____ of the staff. A balanee was",
               "options": [],
               "correctAnswer": "characteristics"
             }
@@ -542,36 +513,36 @@
             },
             {
               "id": "cam14_t2_r_q9",
-              "type": "notes_completion",
-              "question": "father was a 9. _____",
+              "type": "form_completion",
+              "question": "Alexander Hende『son | ◎ was born in Scotia nd in 1831 father was a _____",
               "options": [],
               "correctAnswer": "merchant"
             },
             {
               "id": "cam14_t2_r_q10",
-              "type": "notes_completion",
-              "question": "photography took up considerable time and the 10. _____ was heavy",
+              "type": "form_completion",
+              "question": "Start ©f a photographic career | considerable time and the _____ was heavy",
               "options": [],
               "correctAnswer": "equipment"
             },
             {
               "id": "cam14_t2_r_q11",
-              "type": "notes_completion",
-              "question": "the photographs Henderson sold were 11. _____ or souvenirs",
+              "type": "form_completion",
+              "question": "Start ©f a photographic career | the photographs Henderson sold were _____ or souvenirs",
               "options": [],
               "correctAnswer": "gifts"
             },
             {
               "id": "cam14_t2_r_q12",
-              "type": "notes_completion",
-              "question": "took many trips along eastern rivers in a 12. _____",
+              "type": "form_completion",
+              "question": "Travellmg as a professional photographer | took many trips along eastern rivers in a _____",
               "options": [],
               "correctAnswer": "canoe"
             },
             {
               "id": "cam14_t2_r_q13",
-              "type": "notes_completion",
-              "question": "photographed the 13. _____ and the railway at Rogers Pass",
+              "type": "form_completion",
+              "question": "Travellmg as a professional photographer | worked for CPR in 1885 and photographed the _____",
               "options": [],
               "correctAnswer": "mountains"
             }
@@ -588,15 +559,7 @@
               "type": "matching_info",
               "question": "why some people avoided hospitals in the 19th century",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I"
+                "A"
               ],
               "correctAnswer": "F"
             },
@@ -605,15 +568,7 @@
               "type": "matching_info",
               "question": "a suggestion that the popularity of tall buildings is linked to prestige",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I"
+                "A"
               ],
               "correctAnswer": "C"
             },
@@ -622,15 +577,7 @@
               "type": "matching_info",
               "question": "a comparison between the circulation of air in a 19th-century building and modern standards",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I"
+                "A"
               ],
               "correctAnswer": "E"
             },
@@ -639,88 +586,72 @@
               "type": "matching_info",
               "question": "how Short tested the circulation of air in a 19th-century building",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I"
+                "A"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam14_t2_r_q18",
               "type": "matching_info",
-              "question": "an implication that advertising led to the large increase in the use of air conditioning",
+              "question": "an implication that advertising led to the large increase in the use of air conditioning 44 ## Page 45 Reading",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I"
+                "A"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam14_t2_r_q19",
               "type": "summary_completion",
-              "question": "John Shaw Billings influenced the architectural 19. _____ of hospitals",
+              "question": "Ventilation in 19thcentury hospital wards | Professor Alan Short examined the work of John Shaw Billings, who influenced the | architectural _____ of hospitals to ensure they had good ventilation.",
               "options": [],
               "correctAnswer": "design"
             },
             {
               "id": "cam14_t2_r_q20",
               "type": "summary_completion",
-              "question": "He calculated that 20. _____ in the air coming from patients",
+              "question": "Ventilation in 19thcentury hospital wards | Professor Alan Short examined the work of John Shaw Billings, who influenced the | He calculated that _____ in the air comi ng from patie nts sufferi ng from",
               "options": [],
               "correctAnswer": "pathogens"
             },
             {
               "id": "cam14_t2_r_q21",
               "type": "summary_completion",
-              "question": "suffering from 21. _____ would not have harmed other patients",
+              "question": "Ventilation in 19thcentury hospital wards | Professor Alan Short examined the work of John Shaw Billings, who influenced the | _____ would not have harmed other patients. He also found that the air",
               "options": [],
               "correctAnswer": "tuberculosis"
             },
             {
               "id": "cam14_t2_r_q22",
               "type": "summary_completion",
-              "question": "the air in 22. _____ in hospitals could change as often as in a modern operating theatre",
+              "question": "Ventilation in 19thcentury hospital wards | Professor Alan Short examined the work of John Shaw Billings, who influenced the | in _____ in hospitals could change as often as in a modern operating",
               "options": [],
               "correctAnswer": "wards"
             },
             {
               "id": "cam14_t2_r_q23",
               "type": "summary_completion",
-              "question": "energy use could be reduced by locating more patients in 23. _____ areas",
+              "question": "Ventilation in 19thcentury hospital wards | theatre. He suggests that energy use could be reduced by locating more patients in | _____ areas.",
               "options": [],
               "correctAnswer": "communal"
             },
             {
               "id": "cam14_t2_r_q24",
               "type": "summary_completion",
-              "question": "the demand from the 24. _____ for protection against bad air",
+              "question": "the 24 _____ for protection against bad air, known as 25..................................",
               "options": [],
               "correctAnswer": "public"
             },
             {
               "id": "cam14_t2_r_q25",
               "type": "summary_completion",
-              "question": "known as 25. _____",
+              "question": "Ventilation in 19thcentury hospital wards | A major reason for improving ventilation in 19thcentury hospitals was the demand from | the 24............................... for protection against bad air, known as _____",
               "options": [],
               "correctAnswer": "miasmas"
             },
             {
               "id": "cam14_t2_r_q26",
               "type": "summary_completion",
-              "question": "including epidemics of 26. _____ in London and Paris",
+              "question": "Ventilation in 19thcentury hospital wards | These were blamed for the spread of disease for hundreds of years, including epidemics | of _____ in London and Paris in the middle of the 19th century.",
               "options": [],
               "correctAnswer": "cholera"
             }
@@ -871,21 +802,21 @@
             {
               "id": "cam14_t2_r_q35",
               "type": "sentence_completion",
-              "question": "Numerous training sessions are aimed at people who feel they are not 35. _____ enough.",
+              "question": "Numerous training sessions are aimed at people who feel they are not enough.",
               "options": [],
               "correctAnswer": "productive"
             },
             {
               "id": "cam14_t2_r_q36",
               "type": "sentence_completion",
-              "question": "Being organised appeals to people who regard themselves as 36. _____.",
+              "question": "Being organised appeals to people who regard themselves as..............................",
               "options": [],
               "correctAnswer": "perfectionists"
             },
             {
               "id": "cam14_t2_r_q37",
               "type": "sentence_completion",
-              "question": "Many people feel 37. _____ with aspects of their work.",
+              "question": "Many people feel...............................with aspects of their work.",
               "options": [],
               "correctAnswer": "dissatisfied"
             },
@@ -894,31 +825,37 @@
               "type": "tfng",
               "question": "Both businesses and people aim at order without really considering its value.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
               ],
               "correctAnswer": "TRUE"
             },
             {
               "id": "cam14_t2_r_q39",
               "type": "tfng",
-              "question": "Innovation is most successful if the people involved have distinct roles.",
+              "question": "Innovation is most successful if the people invoIved have distinct roles.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
               ],
               "correctAnswer": "FALSE"
             },
             {
               "id": "cam14_t2_r_q40",
               "type": "tfng",
-              "question": "Google was inspired to adopt flexibility by the success of General Electric.",
+              "question": "Google was in spired to adopt flexibility by the success of Gen eral Electric. 49",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
               ],
               "correctAnswer": "NOT GIVEN"
             }
@@ -939,36 +876,22 @@
             {
               "id": "cam14_t3_r_q1",
               "type": "matching_info",
-              "question": "information about how non-scientists' assumptions about intelligence influence their behaviour towards others",
+              "question": "information about how non-scientists, assumptions about intelligence influence their behaviour towards others",
               "options": [
                 "A",
                 "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I",
-                "J"
+                "C"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam14_t3_r_q2",
               "type": "matching_info",
-              "question": "a reference to lack of clarity over the definition of intelligence",
+              "question": "a reference to lack of clarity over the definition of intelligenee",
               "options": [
                 "A",
                 "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I",
-                "J"
+                "C"
               ],
               "correctAnswer": "A"
             },
@@ -979,25 +902,18 @@
               "options": [
                 "A",
                 "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I",
-                "J"
+                "C"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam14_t3_r_q4",
               "type": "ynng",
-              "question": "Slow language development in children is likely to prove disappointing to their parents.",
+              "question": "Slow language developme nt in chi Id re n is likely to prove disappoi nting to their pare nts.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "NOT GIVEN"
             },
@@ -1006,31 +922,31 @@
               "type": "ynng",
               "question": "People's expectations of what children should gain from education are universal.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "NO"
             },
             {
               "id": "cam14_t3_r_q6",
               "type": "ynng",
-              "question": "Scholars may discuss theories without fully understanding each other.",
+              "question": "Scholars may discuss theories without fully understanding each other. 61 ## Page 62 Test 3",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "YES"
             },
             {
               "id": "cam14_t3_r_q7",
               "type": "matching",
-              "question": "It is desirable for the same possibilities to be open to everyone.",
+              "question": "It is desirable for the same possibilities to be ope n to every one.",
               "options": [
-                "A (Hamiltonian)",
-                "B (Jeffersonian)",
-                "C (Jacksonian)"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "B"
             },
@@ -1039,9 +955,9 @@
               "type": "matching",
               "question": "No section of society should have preferential treatment at the expense of another.",
               "options": [
-                "A (Hamiltonian)",
-                "B (Jeffersonian)",
-                "C (Jacksonian)"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "C"
             },
@@ -1050,20 +966,20 @@
               "type": "matching",
               "question": "People should only gain benefits on the basis of what they actually achieve.",
               "options": [
-                "A (Hamiltonian)",
-                "B (Jeffersonian)",
-                "C (Jacksonian)"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam14_t3_r_q10",
               "type": "matching",
-              "question": "Variation in intelligence begins at birth.",
+              "question": "Variation in intelligenee begins at birth.",
               "options": [
-                "A (Hamiltonian)",
-                "B (Jeffersonian)",
-                "C (Jacksonian)"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "A"
             },
@@ -1072,20 +988,20 @@
               "type": "matching",
               "question": "The more intelligent people should be in positions of power.",
               "options": [
-                "A (Hamiltonian)",
-                "B (Jeffersonian)",
-                "C (Jacksonian)"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam14_t3_r_q12",
               "type": "matching",
-              "question": "Everyone can develop the same abilities.",
+              "question": "Every one can develop the same abilities.",
               "options": [
-                "A (Hamiltonian)",
-                "B (Jeffersonian)",
-                "C (Jacksonian)"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "C"
             },
@@ -1117,28 +1033,20 @@
                 "B",
                 "C",
                 "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I"
+                "E"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam14_t3_r_q15",
               "type": "matching_info",
-              "question": "how recent technological advances have made insect research easier",
+              "question": "how recent tech no logical adva nces have made insect research easier",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I"
+                "E"
               ],
               "correctAnswer": "H"
             },
@@ -1151,45 +1059,33 @@
                 "B",
                 "C",
                 "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I"
+                "E"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam14_t3_r_q17",
               "type": "matching_info",
-              "question": "reasons why it is challenging to use insects in drug research",
+              "question": "reasons why it is challe nging to use in sects in drug research",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I"
+                "E"
               ],
               "correctAnswer": "F"
             },
             {
               "id": "cam14_t3_r_q18",
               "type": "matching_info",
-              "question": "reference to how interest in drug research may benefit wildlife",
+              "question": "reference to how interest in drug research may ben efit wildlife",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I"
+                "E"
               ],
               "correctAnswer": "I"
             },
@@ -1202,11 +1098,7 @@
                 "B",
                 "C",
                 "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I"
+                "E"
               ],
               "correctAnswer": "B"
             },
@@ -1219,11 +1111,7 @@
                 "B",
                 "C",
                 "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I"
+                "E"
               ],
               "correctAnswer": "E"
             },
@@ -1256,28 +1144,28 @@
             {
               "id": "cam14_t3_r_q23",
               "type": "summary_completion",
-              "question": "Ross Piper and fellow zoologists are using their expertise in 23. _____",
+              "question": "Research at Aberystwyth University | Ross Piper and fellow zoologists at Aberystwyth University are using their expertise | in _____ when undertaking bioprospecting with insects. They are",
               "options": [],
               "correctAnswer": "ecology"
             },
             {
               "id": "cam14_t3_r_q24",
               "type": "summary_completion",
-              "question": "the compounds that insects produce to overpower and preserve their 24. _____",
+              "question": "Research at Aberystwyth University | especially in terested in the compounds that in sects produce to overpower and | preserve their _____ They are also interested in compounds which",
               "options": [],
               "correctAnswer": "prey"
             },
             {
               "id": "cam14_t3_r_q25",
               "type": "summary_completion",
-              "question": "compounds which insects use to protect themselves from pathogenic bacteria and fungi found in their 25. _____",
+              "question": "Research at Aberystwyth University | insects use to protect themselves from pathogenic bacteria and fungi found in their | _____ Piper hopes that these substances will be useful in the",
               "options": [],
               "correctAnswer": "habitats"
             },
             {
               "id": "cam14_t3_r_q26",
               "type": "summary_completion",
-              "question": "Piper hopes these substances will be useful in the development of drugs such as 26. _____",
+              "question": "Research at Aberystwyth University | insects use to protect themselves from pathogenic bacteria and fungi found in their | development of drugs such as _____",
               "options": [],
               "correctAnswer": "antibiotics"
             }
@@ -1463,79 +1351,79 @@
           "questions": [
             {
               "id": "cam14_t4_r_q1",
-              "type": "notes_completion",
-              "question": "Focused on a total of 1. _____ different age groups of ants",
+              "type": "form_completion",
+              "question": "YsabeS Gira5do3s research | Focused on a total of _____ different age groups of ants, analysing",
               "options": [],
               "correctAnswer": "four"
             },
             {
               "id": "cam14_t4_r_q2",
-              "type": "notes_completion",
-              "question": "how well ants looked after their 2. _____",
+              "type": "form_completion",
+              "question": "Behaviour: | how well ants looked after their _____",
               "options": [],
               "correctAnswer": "young"
             },
             {
               "id": "cam14_t4_r_q3",
-              "type": "notes_completion",
-              "question": "their ability to locate 3. _____ using a scent trail",
+              "type": "form_completion",
+              "question": "Behaviour: | their ability to locate _____ using a see nt trail",
               "options": [],
               "correctAnswer": "food"
             },
             {
               "id": "cam14_t4_r_q4",
-              "type": "notes_completion",
-              "question": "the effect that 4. _____ had on them",
+              "type": "form_completion",
+              "question": "Behaviour: | the effect that _____ had on them",
               "options": [],
               "correctAnswer": "light"
             },
             {
               "id": "cam14_t4_r_q5",
-              "type": "notes_completion",
-              "question": "how 5. _____ they attacked prey",
+              "type": "form_completion",
+              "question": "Behaviour: | how _____ they attacked prey",
               "options": [],
               "correctAnswer": "aggressively"
             },
             {
               "id": "cam14_t4_r_q6",
-              "type": "notes_completion",
-              "question": "comparison between age and the 6. _____ of dying cells",
+              "type": "form_completion",
+              "question": "Brains: | comparison between age and the _____ of dying cells in the",
               "options": [],
               "correctAnswer": "location"
             },
             {
               "id": "cam14_t4_r_q7",
-              "type": "notes_completion",
-              "question": "condition of synaptic complexes where 7. _____ meet",
+              "type": "form_completion",
+              "question": "Brains: | brains of ants | condition of synaptic complexes (areas in which _____ meet) in",
               "options": [],
               "correctAnswer": "neurons"
             },
             {
               "id": "cam14_t4_r_q8",
-              "type": "notes_completion",
-              "question": "level of two 8. _____ in the brain associated with ageing",
+              "type": "form_completion",
+              "question": "Brains: | the brain's 'mushroom bodies5 | level of two _____ in the brain associated with ageing",
               "options": [],
               "correctAnswer": "chemicals"
             },
             {
               "id": "cam14_t4_r_q9",
               "type": "tfng",
-              "question": "Pheidole dentata ants are the only known animals which remain active for almost their whole lives.",
+              "question": "comparison between age and the 6.................................of dying cells in the brains of ants ® condition of synaptic complexes (areas in which 7.................................meet) in the brain's 'mushroom bodies5 level of two 8................................ in the brain associated with ageing 84 ## Page 85 Reading",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "FALSE"
             },
             {
               "id": "cam14_t4_r_q10",
               "type": "tfng",
-              "question": "Ysabel Giraldo was the first person to study Pheidole dentata ants using precise data about the insects' ages.",
+              "question": "Ysabel Giraldo was the first person to study Pheidole dentata ants using precise data about the in sects5 ages.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "TRUE"
             },
@@ -1544,31 +1432,31 @@
               "type": "tfng",
               "question": "The ants in Giraldo's experiments behaved as she had predicted that they would.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "FALSE"
             },
             {
               "id": "cam14_t4_r_q12",
               "type": "tfng",
-              "question": "The recent studies of bees used different methods of measuring age-related decline.",
+              "question": "The recent studies of bees used different methods of measuring age- related decli ne.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "NOT GIVEN"
             },
             {
               "id": "cam14_t4_r_q13",
               "type": "tfng",
-              "question": "Pheidole dentata ants kept in laboratory conditions tend to live longer lives.",
+              "question": "Pheidole dentata ants kept in laboratory conditions tend to live Ion ger lives. 85 ## Page 86 Test 4 READ8NG PASSAGE 2 You should spend about 20 minutes on Questions 14-26, which are based on Reading Passage 2 below. Why zoos are good Scientist David Hone makes the case for zoos",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "TRUE"
             }
@@ -1589,8 +1477,7 @@
                 "B",
                 "C",
                 "D",
-                "E",
-                "F"
+                "E"
               ],
               "correctAnswer": "B"
             },
@@ -1603,8 +1490,7 @@
                 "B",
                 "C",
                 "D",
-                "E",
-                "F"
+                "E"
               ],
               "correctAnswer": "D"
             },
@@ -1617,8 +1503,7 @@
                 "B",
                 "C",
                 "D",
-                "E",
-                "F"
+                "E"
               ],
               "correctAnswer": "C"
             },
@@ -1631,8 +1516,7 @@
                 "B",
                 "C",
                 "D",
-                "E",
-                "F"
+                "E"
               ],
               "correctAnswer": "A"
             },
@@ -1641,53 +1525,63 @@
               "type": "tfng",
               "question": "An animal is likely to live longer in a zoo than in the wild.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
               ],
               "correctAnswer": "TRUE"
             },
             {
               "id": "cam14_t4_r_q19",
               "type": "tfng",
-              "question": "There are some species in zoos which can no longer be found in the wild.",
+              "question": "There are some species in zoos which can no Ion ger be found in the wild.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
               ],
               "correctAnswer": "TRUE"
             },
             {
               "id": "cam14_t4_r_q20",
               "type": "tfng",
-              "question": "Improvements in the quality of TV wildlife documentaries have resulted in increased numbers of zoo visitors.",
+              "question": "Improveme nts in the quality of TV wildlife docume ntaries have resulted in in creased numbers of zoo visitors.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
               ],
               "correctAnswer": "NOT GIVEN"
             },
             {
               "id": "cam14_t4_r_q21",
               "type": "tfng",
-              "question": "Zoos have always excelled at transmitting information about animals to the public.",
+              "question": "Zoos have always excelled at transmitti ng in formation about animals to the public.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
               ],
               "correctAnswer": "FALSE"
             },
             {
               "id": "cam14_t4_r_q22",
               "type": "tfng",
-              "question": "Studying animals in zoos is less stressful for the animals than studying them in the wild.",
+              "question": "Studying animals in zoos is less stressful for the animals than studying them in the wild. 88 ## Page 89 Reading",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
               ],
               "correctAnswer": "NOT GIVEN"
             },
@@ -1756,9 +1650,7 @@
               "type": "tfng",
               "question": "Rochman and her colleagues were the first people to research the problem of marine debris.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A"
               ],
               "correctAnswer": "FALSE"
             },
@@ -1767,9 +1659,7 @@
               "type": "tfng",
               "question": "The creatures most in danger from ocean trash are certain seabirds.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A"
               ],
               "correctAnswer": "NOT GIVEN"
             },
@@ -1778,31 +1668,25 @@
               "type": "tfng",
               "question": "The studies Rochman has reviewed have already proved that populations of some birds will soon become extinct.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A"
               ],
               "correctAnswer": "FALSE"
             },
             {
               "id": "cam14_t4_r_q30",
               "type": "tfng",
-              "question": "Rochman analysed papers on the different kinds of danger caused by ocean trash.",
+              "question": "Rochma n analysed papers on the different kinds of dan ger caused by ocea n trash.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A"
               ],
               "correctAnswer": "TRUE"
             },
             {
               "id": "cam14_t4_r_q31",
               "type": "tfng",
-              "question": "Most of the research analysed by Rochman and her colleagues was badly designed.",
+              "question": "Most of the research analysed by Rochman and her colleagues was badly desig ned.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A"
               ],
               "correctAnswer": "FALSE"
             },
@@ -1811,62 +1695,58 @@
               "type": "tfng",
               "question": "One study examined by Rochman was expecting to find that mussels were harmed by eating plastic.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A"
               ],
               "correctAnswer": "TRUE"
             },
             {
               "id": "cam14_t4_r_q33",
               "type": "tfng",
-              "question": "Some mussels choose to eat plastic in preference to their natural diet.",
+              "question": "Some mussels choose to eat plastic in preferenee to their natural diet. 92 ## Page 93 Reading",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A"
               ],
               "correctAnswer": "NOT GIVEN"
             },
             {
               "id": "cam14_t4_r_q34",
-              "type": "notes_completion",
-              "question": "bits of debris that were 34. _____ (harmful to animals)",
+              "type": "form_completion",
+              "question": "Studies of marine debris f©ond the biggest threats were | bits of debris that were _____ (harmful to animals)",
               "options": [],
               "correctAnswer": "large"
             },
             {
               "id": "cam14_t4_r_q35",
-              "type": "notes_completion",
-              "question": "There was little research into 35. _____ e.g. from synthetic fibres",
+              "type": "form_completion",
+              "question": "Studies of marine debris f©ond the biggest threats were | There was little research into _____ e.g. from synthetic fibres.",
               "options": [],
               "correctAnswer": "microplastic"
             },
             {
               "id": "cam14_t4_r_q36",
-              "type": "notes_completion",
-              "question": "most of them focused on individual animals, not entire 36. _____",
+              "type": "form_completion",
+              "question": "Drawbacks of the studies examined | most of them focused on in dividual a nirnmls, not entire _____",
               "options": [],
               "correctAnswer": "populations"
             },
             {
               "id": "cam14_t4_r_q37",
-              "type": "notes_completion",
-              "question": "the 37. _____ of plastic used in the lab did not always reflect those in the ocean",
+              "type": "form_completion",
+              "question": "Drawbacks of the studies examined | the _____ of plastic used in the lab did not always reflect those",
               "options": [],
               "correctAnswer": "concentrations"
             },
             {
               "id": "cam14_t4_r_q38",
-              "type": "notes_completion",
-              "question": "the impact of a reduction in numbers on the 38. _____ of that species",
+              "type": "form_completion",
+              "question": "Drawbacks of the studies examined | numbers of animals which could be affected | the impact of a reduction in numbers on the _____ of that",
               "options": [],
               "correctAnswer": "predators"
             },
             {
               "id": "cam14_t4_r_q39",
-              "type": "notes_completion",
-              "question": "Rochman says more information is needed on the possible impact of future 39. _____ (e.g. involving oil)",
+              "type": "form_completion",
+              "question": "Rochman says more information is needed on the possible impact of future | _____ (e.g. involving oil).",
               "options": [],
               "correctAnswer": "disasters"
             },

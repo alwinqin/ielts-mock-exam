@@ -710,6 +710,10 @@ const App = {
 
   _doRedo(testId, type) {
     if (type === 'listening') {
+      if (typeof listeningPhaseTimer !== 'undefined' && listeningPhaseTimer) {
+        clearInterval(listeningPhaseTimer);
+        listeningPhaseTimer = null;
+      }
       clearListeningData(testId);
       window.location.hash = `#/listening-exam/${testId}`;
     } else {

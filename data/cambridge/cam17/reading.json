@@ -14,42 +14,42 @@
           "questions": [
             {
               "id": "cam17_t1_r_q1",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "The 1. _____ of London increased rapidly between 1800 and 1850",
               "options": [],
               "correctAnswer": "population"
             },
             {
               "id": "cam17_t1_r_q2",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "Building the railway would make it possible to move people to better housing in the 2. _____",
               "options": [],
               "correctAnswer": "suburbs"
             },
             {
               "id": "cam17_t1_r_q3",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "A number of 3. _____ agreed with Pearson's idea",
               "options": [],
               "correctAnswer": "businessmen"
             },
             {
               "id": "cam17_t1_r_q4",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "The company initially had problems getting the 4. _____ needed for the project",
               "options": [],
               "correctAnswer": "funding"
             },
             {
               "id": "cam17_t1_r_q5",
-              "type": "notes_completion",
-              "question": "Negative articles about the project appeared in the 5. _____",
+              "type": "form_completion",
+              "question": "km. The organisation had difficulty in raising the funding for such a radical and expensive scheme, not least because of the critical articles printed by the press. Objectors argued that the tunnels would collapse under the weight of traffic overhead, buildings would be shaken and passengers would be poisoned by the emissions from the train engines. However, Pearson and his",
               "options": [],
               "correctAnswer": "press"
             },
             {
               "id": "cam17_t1_r_q6",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "With the completion of the brick arch, the tunnel was covered with 6. _____",
               "options": [],
               "correctAnswer": "soil"
@@ -57,11 +57,9 @@
             {
               "id": "cam17_t1_r_q7",
               "type": "tfng",
-              "question": "Other countries had built underground railways before the Metropolitan line opened.",
+              "question": "\u0007Other countries had built underground railways before the Metropolitan line opened.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A"
               ],
               "correctAnswer": "FALSE"
             },
@@ -70,9 +68,7 @@
               "type": "tfng",
               "question": "More people than predicted travelled on the Metropolitan line on the first day.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A"
               ],
               "correctAnswer": "NOT GIVEN"
             },
@@ -81,16 +77,14 @@
               "type": "tfng",
               "question": "The use of ventilation shafts failed to prevent pollution in the tunnels.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A"
               ],
               "correctAnswer": "TRUE"
             },
             {
               "id": "cam17_t1_r_q10",
               "type": "tfng",
-              "question": "A different approach from the 'cut and cover' technique was required in London's central area.",
+              "question": "A different approach from the ‘cut and cover’ technique was required in London’s",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -103,9 +97,7 @@
               "type": "tfng",
               "question": "The windows on City & South London trains were at eye level.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A"
               ],
               "correctAnswer": "FALSE"
             },
@@ -123,7 +115,7 @@
             {
               "id": "cam17_t1_r_q13",
               "type": "tfng",
-              "question": "Trains on the 'Tuppenny Tube' nearly always ran on time.",
+              "question": "Trains on the ‘Tuppenny Tube’ nearly always ran on time.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -142,7 +134,7 @@
             {
               "id": "cam17_t1_r_q14",
               "type": "matching_info",
-              "question": "a mention of negative attitudes towards stadium building projects (Section)",
+              "question": "a mention of negative attitudes towards stadium building projects",
               "options": [
                 "A",
                 "B",
@@ -157,7 +149,7 @@
             {
               "id": "cam17_t1_r_q15",
               "type": "matching_info",
-              "question": "figures demonstrating the environmental benefits of a certain stadium (Section)",
+              "question": "figures demonstrating the environmental benefits of a certain stadium",
               "options": [
                 "A",
                 "B",
@@ -172,7 +164,7 @@
             {
               "id": "cam17_t1_r_q16",
               "type": "matching_info",
-              "question": "examples of the wide range of facilities available at some new stadiums (Section)",
+              "question": "examples of the wide range of facilities available at some new stadiums",
               "options": [
                 "A",
                 "B",
@@ -187,7 +179,7 @@
             {
               "id": "cam17_t1_r_q17",
               "type": "matching_info",
-              "question": "reference to the disadvantages of the stadiums built during a certain era (Section)",
+              "question": "reference to the disadvantages of the stadiums built during a certain era",
               "options": [
                 "A",
                 "B",
@@ -387,68 +379,88 @@
             {
               "id": "cam17_t1_r_q32",
               "type": "ynng",
-              "question": "Charles chose Pepys for the task because he considered him to be trustworthy.",
+              "question": "\u0007Charles chose Pepys for the task because he considered him to be trustworthy.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
               ],
               "correctAnswer": "NOT GIVEN"
             },
             {
               "id": "cam17_t1_r_q33",
               "type": "ynng",
-              "question": "Charles's personal recollection of the escape lacked sufficient detail.",
+              "question": "Charles’s personal recollection of the escape lacked sufficient detail.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
               ],
               "correctAnswer": "NO"
             },
             {
               "id": "cam17_t1_r_q34",
               "type": "ynng",
-              "question": "Charles indicated to Pepys that he had planned his escape before the battle.",
+              "question": "\u0007Charles indicated to Pepys that he had planned his escape before the battle.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
               ],
               "correctAnswer": "NO"
             },
             {
               "id": "cam17_t1_r_q35",
               "type": "ynng",
-              "question": "The inclusion of Charles's account is a positive aspect of the book.",
+              "question": "The inclusion of Charles’s account is a positive aspect of the book. ## Page 27 Reading",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
               ],
               "correctAnswer": "YES"
             },
             {
               "id": "cam17_t1_r_q36",
               "type": "multiple_choice",
-              "question": "What is the reviewer's main purpose in the first paragraph?",
+              "question": "What is the reviewer’s main purpose in the first paragraph?",
               "options": [
-                "A. to describe the Battle of Worcester",
-                "B. to give an account of circumstances leading to Charles II's escape",
-                "C. to provide details of Parliamentarians' political views",
-                "D. to compare Charles II's beliefs with those of his father"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam17_t1_r_q37",
               "type": "multiple_choice",
-              "question": "Why does the reviewer include examples of the fugitives' behaviour in the third paragraph?",
+              "question": "\u0007Why does the reviewer include examples of the fugitives’ behaviour in the third paragraph?",
               "options": [
-                "A. to explain how close Charles came to losing his life",
-                "B. to suggest supporters were badly prepared",
-                "C. to illustrate how events of the six weeks are brought to life",
-                "D. to argue certain aspects are not as well known"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "C"
             },
@@ -457,10 +469,10 @@
               "type": "multiple_choice",
               "question": "What point does the reviewer make about Charles II in the fourth paragraph?",
               "options": [
-                "A. He chose to celebrate what was essentially a defeat.",
-                "B. He misunderstood the motives of his opponents.",
-                "C. He aimed to restore people's faith in the monarchy.",
-                "D. He was driven by a desire to be popular."
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "A"
             },
@@ -469,22 +481,22 @@
               "type": "multiple_choice",
               "question": "What does the reviewer say about Charles Spencer in the fifth paragraph?",
               "options": [
-                "A. His decision to write the book is a surprise.",
-                "B. He takes an unbiased approach to the subject matter.",
-                "C. His descriptions would be better with more detail.",
-                "D. He chooses language suitable for a 21st-century audience."
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam17_t1_r_q40",
               "type": "multiple_choice",
-              "question": "When the reviewer says the book 'doesn't quite hit the mark', she is making the point that",
+              "question": "\u0007When the reviewer says the book ‘doesn’t quite hit the mark’, she is making the point that",
               "options": [
-                "A. it overlooks the impact on ordinary people.",
-                "B. it lacks analysis of prevalent views on monarchy.",
-                "C. it omits references to Charles II's deceit in hiding.",
-                "D. it fails to address whether Charles II's experiences had a lasting influence."
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "D"
             }
@@ -504,35 +516,35 @@
           "questions": [
             {
               "id": "cam17_t2_r_q1",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "heard a noise of breaking when one teenager threw a 1. _____",
               "options": [],
               "correctAnswer": "rock"
             },
             {
               "id": "cam17_t2_r_q2",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "teenagers went into the 2. _____ and found containers",
               "options": [],
               "correctAnswer": "cave"
             },
             {
               "id": "cam17_t2_r_q3",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "made of 3. _____",
               "options": [],
               "correctAnswer": "clay"
             },
             {
               "id": "cam17_t2_r_q4",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "thought to have been written by group known as the 4. _____",
               "options": [],
               "correctAnswer": "Essenes"
             },
             {
               "id": "cam17_t2_r_q5",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "written mainly in the 5. _____ language",
               "options": [],
               "correctAnswer": "Hebrew"
@@ -606,7 +618,7 @@
             {
               "id": "cam17_t2_r_q12",
               "type": "tfng",
-              "question": "The scroll pieced together in 2017 contains information about annual occasions in the Qumran area 2,000 years ago.",
+              "question": "The scroll that was pieced together in 2017 contains information about annual",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -617,7 +629,7 @@
             {
               "id": "cam17_t2_r_q13",
               "type": "tfng",
-              "question": "Academics at the University of Haifa are currently researching how to decipher the final scroll.",
+              "question": "Academics at the University of Haifa are currently researching how to decipher the",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -636,7 +648,7 @@
             {
               "id": "cam17_t2_r_q14",
               "type": "matching_info",
-              "question": "a reference to a type of tomato that can resist a dangerous infection (Section)",
+              "question": "a reference to a type of tomato that can resist a dangerous infection",
               "options": [
                 "A",
                 "B",
@@ -649,7 +661,7 @@
             {
               "id": "cam17_t2_r_q15",
               "type": "matching_info",
-              "question": "an explanation of how problems can arise from focusing only on a certain type of tomato plant (Section)",
+              "question": "an explanation of how problems can arise from focusing only on a certain type of",
               "options": [
                 "A",
                 "B",
@@ -662,39 +674,36 @@
             {
               "id": "cam17_t2_r_q16",
               "type": "matching_info",
-              "question": "a number of examples of plants that are not cultivated at present but could be useful as food sources (Section)",
+              "question": "a number of examples of plants that are not cultivated at present but could be useful as food sources",
               "options": [
                 "A",
                 "B",
                 "C",
-                "D",
-                "E"
+                "D"
               ],
               "correctAnswer": "E"
             },
             {
               "id": "cam17_t2_r_q17",
               "type": "matching_info",
-              "question": "a comparison between the early domestication of the tomato and more recent research (Section)",
+              "question": "a comparison between the early domestication of the tomato and more recent research",
               "options": [
                 "A",
                 "B",
                 "C",
-                "D",
-                "E"
+                "D"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam17_t2_r_q18",
               "type": "matching_info",
-              "question": "a personal reaction to the flavour of a tomato that has been genetically edited (Section)",
+              "question": "a personal reaction to the flavour of a tomato that has been genetically edited",
               "options": [
                 "A",
                 "B",
                 "C",
-                "D",
-                "E"
+                "D"
               ],
               "correctAnswer": "C"
             },
@@ -703,10 +712,10 @@
               "type": "matching_names",
               "question": "Domestication of certain plants could allow them to adapt to future environmental challenges.",
               "options": [
-                "A. Jorg Kudla",
-                "B. Caixia Gao",
-                "C. Joyce Van Eck",
-                "D. Jonathan Jones"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "B"
             },
@@ -715,10 +724,10 @@
               "type": "matching_names",
               "question": "The idea of growing and eating unusual plants may not be accepted on a large scale.",
               "options": [
-                "A. Jorg Kudla",
-                "B. Caixia Gao",
-                "C. Joyce Van Eck",
-                "D. Jonathan Jones"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "D"
             },
@@ -727,10 +736,10 @@
               "type": "matching_names",
               "question": "It is not advisable for the future direction of certain research to be made public.",
               "options": [
-                "A. Jorg Kudla",
-                "B. Caixia Gao",
-                "C. Joyce Van Eck",
-                "D. Jonathan Jones"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "A"
             },
@@ -739,43 +748,43 @@
               "type": "matching_names",
               "question": "Present efforts to domesticate one wild fruit are limited by the costs involved.",
               "options": [
-                "A. Jorg Kudla",
-                "B. Caixia Gao",
-                "C. Joyce Van Eck",
-                "D. Jonathan Jones"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam17_t2_r_q23",
               "type": "matching_names",
-              "question": "Humans only make use of a small proportion of the plant food available on Earth.",
+              "question": "Humans only make use of a small proportion of the plant food available on Earth. List of Researchers",
               "options": [
-                "A. Jorg Kudla",
-                "B. Caixia Gao",
-                "C. Joyce Van Eck",
-                "D. Jonathan Jones"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam17_t2_r_q24",
               "type": "sentence_completion",
-              "question": "An undesirable trait such as loss of 24. _____ may be caused by a mutation in a tomato gene.",
+              "question": "An undesirable trait such as loss of may be caused by a mutation in a tomato gene.",
               "options": [],
               "correctAnswer": "flavour / flavor"
             },
             {
               "id": "cam17_t2_r_q25",
               "type": "sentence_completion",
-              "question": "By modifying one gene, researchers made the tomato three times its original 25. _____",
+              "question": "By modifying one gene in a tomato plant, researchers made the tomato three times its original .",
               "options": [],
               "correctAnswer": "size"
             },
             {
               "id": "cam17_t2_r_q26",
               "type": "sentence_completion",
-              "question": "A type of tomato which was not badly affected by 26. _____, and was rich in vitamin C.",
+              "question": "A type of tomato which was not badly affected by , and was rich in vitamin C, was produced by a team of researchers in China. 44 p. 122 ## Page 45 Reading 45",
               "options": [],
               "correctAnswer": "salt"
             }
@@ -792,10 +801,10 @@
               "type": "multiple_choice",
               "question": "The purpose of the first paragraph is to",
               "options": [
-                "A. defend particular ideas.",
-                "B. compare certain beliefs.",
-                "C. disprove a widely held view.",
-                "D. outline a common assumption."
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "D"
             },
@@ -804,10 +813,10 @@
               "type": "multiple_choice",
               "question": "What are the writers doing in the second paragraph?",
               "options": [
-                "A. criticising an opinion",
-                "B. justifying a standpoint",
-                "C. explaining an approach",
-                "D. supporting an argument"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "A"
             },
@@ -816,10 +825,10 @@
               "type": "multiple_choice",
               "question": "In the third paragraph, what do the writers suggest about Darwin and Einstein?",
               "options": [
-                "A. They represent an exception to a general rule.",
-                "B. Their way of working has been misunderstood.",
-                "C. They are an ideal which others should aspire to.",
-                "D. Their achievements deserve greater recognition."
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "A"
             },
@@ -828,22 +837,22 @@
               "type": "multiple_choice",
               "question": "John Nicholson is an example of a person whose idea",
               "options": [
-                "A. established his reputation as an influential scientist.",
-                "B. was only fully understood at a later point in history.",
-                "C. laid the foundations for someone else's breakthrough.",
-                "D. initially met with scepticism from the scientific community."
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam17_t2_r_q31",
               "type": "multiple_choice",
-              "question": "What is the key point of interest about the 'acey-deucy' stirrup placement?",
+              "question": "What is the key point of interest about the ‘acey-deucy’ stirrup placement?",
               "options": [
-                "A. the simple reason why it was invented",
-                "B. the enthusiasm with which it was adopted",
-                "C. the research that went into its development",
-                "D. the cleverness of the person who first used it"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "A"
             },
@@ -852,9 +861,10 @@
               "type": "ynng",
               "question": "Acknowledging people such as Plato or da Vinci as geniuses will help us understand the process by which great minds create new ideas.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NO"
             },
@@ -863,9 +873,10 @@
               "type": "ynng",
               "question": "The Law of Effect was discovered at a time when psychologists were seeking a scientific reason why creativity occurs.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NOT GIVEN"
             },
@@ -874,9 +885,10 @@
               "type": "ynng",
               "question": "The Law of Effect states that no planning is involved in the behaviour of organisms.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "YES"
             },
@@ -885,20 +897,22 @@
               "type": "ynng",
               "question": "The Law of Effect sets out clear explanations about the sources of new ideas and behaviours.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NO"
             },
             {
               "id": "cam17_t2_r_q36",
               "type": "ynng",
-              "question": "Many scientists are now turning away from the notion of intelligent design and genius.",
+              "question": "Many scientists are now turning away from the notion of intelligent design and genius. ## Page 49 Reading",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NOT GIVEN"
             },
@@ -978,35 +992,35 @@
           "questions": [
             {
               "id": "cam17_t3_r_q1",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "ate an entirely 1. _____ diet",
               "options": [],
               "correctAnswer": "carnivorous"
             },
             {
               "id": "cam17_t3_r_q2",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "probably depended mainly on 2. _____ when hunting",
               "options": [],
               "correctAnswer": "scent"
             },
             {
               "id": "cam17_t3_r_q3",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "young spent first months of life inside its mother's 3. _____",
               "options": [],
               "correctAnswer": "pouch"
             },
             {
               "id": "cam17_t3_r_q4",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "last evidence in mainland Australia is a 3,100-year-old 4. _____",
               "options": [],
               "correctAnswer": "fossil"
             },
             {
               "id": "cam17_t3_r_q5",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "reduction in 5. _____ and available sources of food were partly responsible for decline in Tasmania",
               "options": [],
               "correctAnswer": "habitat"
@@ -1058,7 +1072,7 @@
             {
               "id": "cam17_t3_r_q10",
               "type": "tfng",
-              "question": "T. T. Flynn's proposal to rehome captive thylacines on an island proved to be impractical.",
+              "question": "T. T. Flynn’s proposal to rehome captive thylacines on an island proved to be",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1110,7 +1124,7 @@
             {
               "id": "cam17_t3_r_q14",
               "type": "matching_info",
-              "question": "examples of a range of potential environmental advantages of oil palm tree cultivation (Section)",
+              "question": "examples of a range of potential environmental advantages of oil palm tree",
               "options": [
                 "A",
                 "B",
@@ -1126,96 +1140,78 @@
             {
               "id": "cam17_t3_r_q15",
               "type": "matching_info",
-              "question": "description of an organisation which controls the environmental impact of palm oil production (Section)",
+              "question": "description of an organisation which controls the environmental impact of palm oil production",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "E"
               ],
               "correctAnswer": "G"
             },
             {
               "id": "cam17_t3_r_q16",
               "type": "matching_info",
-              "question": "examples of the widespread global use of palm oil (Section)",
+              "question": "examples of the widespread global use of palm oil",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "E"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam17_t3_r_q17",
               "type": "matching_info",
-              "question": "reference to a particular species which could benefit the ecosystem of oil palm plantations (Section)",
+              "question": "reference to a particular species which could benefit the ecosystem of oil palm plantations",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "E"
               ],
               "correctAnswer": "H"
             },
             {
               "id": "cam17_t3_r_q18",
               "type": "matching_info",
-              "question": "figures illustrating the rapid expansion of the palm oil industry (Section)",
+              "question": "figures illustrating the rapid expansion of the palm oil industry",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "E"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam17_t3_r_q19",
               "type": "matching_info",
-              "question": "an economic justification for not opposing the palm oil industry (Section)",
+              "question": "an economic justification for not opposing the palm oil industry",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "E"
               ],
               "correctAnswer": "E"
             },
             {
               "id": "cam17_t3_r_q20",
               "type": "matching_info",
-              "question": "examples of creatures badly affected by the establishment of oil palm plantations (Section)",
+              "question": "examples of creatures badly affected by the establishment of oil palm plantations",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "E"
               ],
               "correctAnswer": "C"
             },
@@ -1248,28 +1244,28 @@
             {
               "id": "cam17_t3_r_q23",
               "type": "sentence_completion",
-              "question": "One advantage of palm oil for manufacturers is that it stays 23. _____ even when not refrigerated.",
+              "question": "One advantage of palm oil for manufacturers is that it stays even when not refrigerated.",
               "options": [],
               "correctAnswer": "solid"
             },
             {
               "id": "cam17_t3_r_q24",
               "type": "sentence_completion",
-              "question": "The 24. _____ is the best known of the animals suffering habitat loss as a result of the spread of oil palm plantations.",
+              "question": "The is the best known of the animals suffering habitat loss as a result of the spread of oil palm plantations.",
               "options": [],
               "correctAnswer": "Sumatran orangutan"
             },
             {
               "id": "cam17_t3_r_q25",
               "type": "sentence_completion",
-              "question": "As one of its criteria, the RSPO insists that growers check 25. _____ on a routine basis.",
+              "question": "As one of its criteria for the certification of sustainable palm oil, the RSPO insists that growers check on a routine basis.",
               "options": [],
               "correctAnswer": "carbon stocks"
             },
             {
               "id": "cam17_t3_r_q26",
               "type": "sentence_completion",
-              "question": "Ellwood and his researchers are looking into whether the bird's nest fern could restore 26. _____ in areas where oil palm trees are grown.",
+              "question": "Ellwood and his researchers are looking into whether the bird’s nest fern could restore in areas where oil palm trees are grown. 66 p. 124 ## Page 67 Reading 67",
               "options": [],
               "correctAnswer": "biodiversity"
             }
@@ -1284,12 +1280,12 @@
             {
               "id": "cam17_t3_r_q27",
               "type": "multiple_choice",
-              "question": "What point does Shester make about Barr's book in the first paragraph?",
+              "question": "What point does Shester make about Barr’s book in the first paragraph?",
               "options": [
-                "A. It gives a highly original explanation for urban development.",
-                "B. Elements of Barr's research papers are incorporated throughout the book.",
-                "C. Other books on the subject have taken a different approach.",
-                "D. It covers a range of factors that affected the development of New York."
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "D"
             },
@@ -1298,10 +1294,10 @@
               "type": "multiple_choice",
               "question": "How does Shester respond to the information in the book about tenements?",
               "options": [
-                "A. She describes the reasons for Barr's interest.",
-                "B. She indicates a potential problem with Barr's analysis.",
-                "C. She compares Barr's conclusion with that of other writers.",
-                "D. She provides details about the sources Barr used for his research."
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "B"
             },
@@ -1310,10 +1306,10 @@
               "type": "multiple_choice",
               "question": "What does Shester say about chapter six of the book?",
               "options": [
-                "A. It contains conflicting data.",
-                "B. It focuses too much on possible trends.",
-                "C. It is too specialised for most readers.",
-                "D. It draws on research that is out of date."
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "C"
             },
@@ -1322,10 +1318,10 @@
               "type": "multiple_choice",
               "question": "What does Shester suggest about the chapters focusing on the 1920s building boom?",
               "options": [
-                "A. The information should have been organised differently.",
-                "B. More facts are needed about the way construction was financed.",
-                "C. The explanation that is given for the building boom is unlikely.",
-                "D. Some parts will have limited appeal to certain people."
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "D"
             },
@@ -1334,10 +1330,10 @@
               "type": "multiple_choice",
               "question": "What impresses Shester the most about the chapter on land values?",
               "options": [
-                "A. the broad time period that is covered",
-                "B. the interesting questions that Barr asks",
-                "C. the nature of the research into the topic",
-                "D. the recommendations Barr makes for the future"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "C"
             },
@@ -1346,9 +1342,10 @@
               "type": "ynng",
               "question": "The description in the first chapter of how New York probably looked from the air in the early 1600s lacks interest.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NO"
             },
@@ -1357,9 +1354,10 @@
               "type": "ynng",
               "question": "Chapters two and three prepare the reader well for material yet to come.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "YES"
             },
@@ -1368,20 +1366,22 @@
               "type": "ynng",
               "question": "The biggest problem for many nineteenth-century New York immigrant neighbourhoods was a lack of amenities.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NOT GIVEN"
             },
             {
               "id": "cam17_t3_r_q35",
               "type": "ynng",
-              "question": "In the nineteenth century, New York's immigrant neighbourhoods tended to concentrate around the harbour.",
+              "question": "In the nineteenth century, New York’s immigrant neighbourhoods tended to concentrate around the harbour. ## Page 71 Reading",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NO"
             },
@@ -1557,49 +1557,49 @@
             },
             {
               "id": "cam17_t4_r_q7",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "DNA analysis of bat 7. _____",
               "options": [],
               "correctAnswer": "droppings"
             },
             {
               "id": "cam17_t4_r_q8",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "ate pests of rice, 8. _____, sugarcane, nuts and fruit",
               "options": [],
               "correctAnswer": "coffee"
             },
             {
               "id": "cam17_t4_r_q9",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "prevent the spread of disease by eating 9. _____ and blackflies",
               "options": [],
               "correctAnswer": "mosquitoes"
             },
             {
               "id": "cam17_t4_r_q10",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "they provide food rich in 10. _____",
               "options": [],
               "correctAnswer": "protein"
             },
             {
               "id": "cam17_t4_r_q11",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "the buildings where they roost become 11. _____",
               "options": [],
               "correctAnswer": "unclean"
             },
             {
               "id": "cam17_t4_r_q12",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "they play an important role in local 12. _____",
               "options": [],
               "correctAnswer": "culture"
             },
             {
               "id": "cam17_t4_r_q13",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "farmers should provide special 13. _____ to support the bat population",
               "options": [],
               "correctAnswer": "houses"
@@ -1615,7 +1615,7 @@
             {
               "id": "cam17_t4_r_q14",
               "type": "matching_info",
-              "question": "an explanation of the need for research to focus on individuals with a fairly consistent income (Section)",
+              "question": "an explanation of the need for research to focus on individuals with a fairly",
               "options": [
                 "A",
                 "B",
@@ -1773,7 +1773,7 @@
             {
               "id": "cam17_t4_r_q27",
               "type": "matching_info",
-              "question": "a reference to earlier examples of blindfold chess (Paragraph)",
+              "question": "a reference to earlier examples of blindfold chess",
               "options": [
                 "A",
                 "B",
@@ -1789,7 +1789,7 @@
             {
               "id": "cam17_t4_r_q28",
               "type": "matching_info",
-              "question": "an outline of what blindfold chess involves (Paragraph)",
+              "question": "an outline of what blindfold chess involves",
               "options": [
                 "A",
                 "B",
@@ -1805,7 +1805,7 @@
             {
               "id": "cam17_t4_r_q29",
               "type": "matching_info",
-              "question": "a claim that Gareyev's skill is limited to chess (Paragraph)",
+              "question": "a claim that Gareyev’s skill is limited to chess",
               "options": [
                 "A",
                 "B",
@@ -1821,7 +1821,7 @@
             {
               "id": "cam17_t4_r_q30",
               "type": "matching_info",
-              "question": "why Gareyev's skill is of interest to scientists (Paragraph)",
+              "question": "why Gareyev’s skill is of interest to scientists",
               "options": [
                 "A",
                 "B",
@@ -1837,7 +1837,7 @@
             {
               "id": "cam17_t4_r_q31",
               "type": "matching_info",
-              "question": "an outline of Gareyev's priorities (Paragraph)",
+              "question": "an outline of Gareyev’s priorities",
               "options": [
                 "A",
                 "B",
@@ -1853,7 +1853,7 @@
             {
               "id": "cam17_t4_r_q32",
               "type": "matching_info",
-              "question": "a reason why the last part of a game may be difficult (Paragraph)",
+              "question": "a reason why the last part of a game may be difficult",
               "options": [
                 "A",
                 "B",
@@ -1927,7 +1927,7 @@
             {
               "id": "cam17_t4_r_q39",
               "type": "summary_completion",
-              "question": "scans showed an unusual amount of 39. _____ within the areas concerned with directing attention",
+              "question": "within the areas of Gareyev’s brain that are concerned with directing attention. In addition, the scans raised the possibility of unusual strength in the parts of his brain that deal with 40 input. 92 p. 126 ## Page 93 WRITING WRITING TASK 1 You should spend about 20 minutes on this task. The graph below shows the number of shops that closed and the number of new shops that opened in one country between 2011 and 2018. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words. Number of shop closures and openings 2011– 2018 0 1,000 2,000 3,000 4,000 5,000 6,000 7,000 8,000 9,000 Openings 2011 2012 2013 2014 2015 2016 2017 2018 Closures p. 137         93 ## Page 94 Test 4 WRITING TASK 2 You should spend about 40 minutes on this task. Write about the following topic: Nowadays, a growing number of people with health problems are trying alternative medicines and treatments instead of visiting their usual doctor. Do you think this is a positive or a negative development? Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words. 94 p. 138 ## Page 95 95 SPEAKING",
               "options": [],
               "correctAnswer": "communication"
             },
@@ -1953,42 +1953,42 @@
       "questions": [
         {
           "id": "cam17_t1_r_q1",
-          "type": "notes_completion",
+          "type": "form_completion",
           "question": "The 1. _____ of London increased rapidly between 1800 and 1850",
           "options": [],
           "correctAnswer": "population"
         },
         {
           "id": "cam17_t1_r_q2",
-          "type": "notes_completion",
+          "type": "form_completion",
           "question": "Building the railway would make it possible to move people to better housing in the 2. _____",
           "options": [],
           "correctAnswer": "suburbs"
         },
         {
           "id": "cam17_t1_r_q3",
-          "type": "notes_completion",
+          "type": "form_completion",
           "question": "A number of 3. _____ agreed with Pearson's idea",
           "options": [],
           "correctAnswer": "businessmen"
         },
         {
           "id": "cam17_t1_r_q4",
-          "type": "notes_completion",
+          "type": "form_completion",
           "question": "The company initially had problems getting the 4. _____ needed for the project",
           "options": [],
           "correctAnswer": "funding"
         },
         {
           "id": "cam17_t1_r_q5",
-          "type": "notes_completion",
+          "type": "form_completion",
           "question": "Negative articles about the project appeared in the 5. _____",
           "options": [],
           "correctAnswer": "press"
         },
         {
           "id": "cam17_t1_r_q6",
-          "type": "notes_completion",
+          "type": "form_completion",
           "question": "With the completion of the brick arch, the tunnel was covered with 6. _____",
           "options": [],
           "correctAnswer": "soil"

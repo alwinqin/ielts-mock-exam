@@ -32,6 +32,12 @@ data/cambridge/*/writing.json
 # Intermediate per-test files (cam17)
 data/cambridge/cam17/*_test*.json
 
+# Backup files
+*.bak
+
+# Extraction cache
+.extraction_cache/
+
 # Temp/one-off scripts
 analyze_ielts.ps1
 cam15_page11.png

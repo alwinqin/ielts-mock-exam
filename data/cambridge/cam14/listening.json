@@ -7,429 +7,396 @@
       "testNumber": 1,
       "parts": [
         {
-          "id": "cam14_lt1_p1",
+          "id": "cam14_t1_l_p1",
           "title": "Crime Report Form",
           "audioFile": "cam14_s1.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam14_lt1_q1",
-              "type": "notes_completion",
-              "question": "1. Nationality: _____",
+              "id": "cam14_t1_l_q1",
+              "type": "form_completion",
+              "question": "Natio nality | _____",
               "options": [],
               "correctAnswer": "Canadian"
             },
             {
-              "id": "cam14_lt1_q2",
-              "type": "notes_completion",
-              "question": "2. Stolen item: _____",
+              "id": "cam14_t1_l_q2",
+              "type": "form_completion",
+              "question": "Reas on for visit | business (to buy antique _____ )",
               "options": [],
               "correctAnswer": "furniture"
             },
             {
-              "id": "cam14_lt1_q3",
-              "type": "notes_completion",
-              "question": "3. Street name: _____ Road",
+              "id": "cam14_t1_l_q3",
+              "type": "form_completion",
+              "question": "Current address | _____ Apartments (No 15)",
               "options": [],
               "correctAnswer": "Park"
             },
             {
-              "id": "cam14_lt1_q4",
-              "type": "notes_completion",
-              "question": "4. Value: £_____",
+              "id": "cam14_t1_l_q4",
+              "type": "form_completion",
+              "question": "Items stolen | a wallet containing approximately _____ £",
               "options": [],
               "correctAnswer": "250"
             },
             {
-              "id": "cam14_lt1_q5",
-              "type": "notes_completion",
+              "id": "cam14_t1_l_q5",
+              "type": "form_completion",
               "question": "5. Contact: _____ number",
               "options": [],
               "correctAnswer": "phone"
             },
             {
-              "id": "cam14_lt1_q6",
-              "type": "notes_completion",
-              "question": "6. Date: _____",
+              "id": "cam14_t1_l_q6",
+              "type": "form_completion",
+              "question": "Date of theft | _____",
               "options": [],
               "correctAnswer": "10(th) September"
             },
             {
-              "id": "cam14_lt1_q7",
-              "type": "notes_completion",
+              "id": "cam14_t1_l_q7",
+              "type": "form_completion",
               "question": "7. Location: opposite the _____",
               "options": [],
               "correctAnswer": "museum"
             },
             {
-              "id": "cam14_lt1_q8",
-              "type": "notes_completion",
-              "question": "8. Need to confirm the _____",
+              "id": "cam14_t1_l_q8",
+              "type": "form_completion",
+              "question": "Location | Details of suspect some boys asked for the _____ then ran off",
               "options": [],
               "correctAnswer": "time"
             },
             {
-              "id": "cam14_lt1_q9",
-              "type": "notes_completion",
-              "question": "9. Hair colour: _____",
+              "id": "cam14_t1_l_q9",
+              "type": "form_completion",
+              "question": "Location | he was about 12, slim build with _____ hair",
               "options": [],
               "correctAnswer": "blond(e)"
             },
             {
-              "id": "cam14_lt1_q10",
-              "type": "notes_completion",
-              "question": "10. Phone number: _____",
+              "id": "cam14_t1_l_q10",
+              "type": "form_completion",
+              "question": "Csime reference number aSiocated | _____",
               "options": [],
               "correctAnswer": "87954 82361"
             }
           ]
         },
         {
-          "id": "cam14_lt1_p2",
+          "id": "cam14_t1_l_p2",
           "title": "Induction Talk for New Apprentices",
           "audioFile": "cam14_s2.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam14_lt1_q11",
+              "id": "cam14_t1_l_q11",
               "type": "multiple_choice",
-              "question": "Which TWO pieces of advice does the speaker give to new apprentices?\nA. ask lots of questions\nB. get to know colleagues\nC. arrive early to work\nD. attend all training sessions\nE. follow the dress code",
+              "question": "## Page 12 Test 1",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. It is encouraged.",
+                "B. There are some restrictions.",
+                "C. It is against the rules."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. ask lots of questions"
             },
             {
-              "id": "cam14_lt1_q12",
+              "id": "cam14_t1_l_q12",
               "type": "multiple_choice",
-              "question": "Which TWO pieces of advice does the speaker give to new apprentices?\nA. ask lots of questions\nB. get to know colleagues\nC. arrive early to work\nD. attend all training sessions\nE. follow the dress code",
+              "question": "## Page 13 Listening",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. It is encouraged.",
+                "B. There are some restrictions.",
+                "C. It is against the rules."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. get to know colleagues"
             },
             {
-              "id": "cam14_lt1_q13",
-              "type": "multiple_choice",
-              "question": "Which TWO topics does the mentor discuss regularly?\nA. health and safety\nB. reviewing progress\nC. salary expectations\nD. career plans\nE. holiday requests",
+              "id": "cam14_t1_l_q13",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO things does the manager say mentors can help with? con fide nce-buildi ng making career plans completing difficult tasks making a weekly timetable reviewing progress a b o d e 11 ## Page 12 Test 1 Questions 15-20 What does the manager say about each of the following aspects of the company policy for appre ntices? Write the correct letter, A, B or C, next to Questions 15-20.",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. It is encouraged.",
+                "B. There are some restrictions.",
+                "C. It is against the rules."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. reviewing progress"
             },
             {
-              "id": "cam14_lt1_q14",
-              "type": "multiple_choice",
-              "question": "Which TWO topics does the mentor discuss regularly?\nA. health and safety\nB. reviewing progress\nC. salary expectations\nD. career plans\nE. holiday requests",
+              "id": "cam14_t1_l_q14",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO things does the manager say mentors can help with? con fide nce-buildi ng making career plans completing difficult tasks making a weekly timetable reviewing progress a b o d e 11 ## Page 12 Test 1 Questions 15-20 What does the manager say about each of the following aspects of the company policy for appre ntices? Write the correct letter, A, B or C, next to Questions 15-20.",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. It is encouraged.",
+                "B. There are some restrictions.",
+                "C. It is against the rules."
               ],
-              "correctAnswer": "D"
+              "correctAnswer": "D. career plans"
             },
             {
-              "id": "cam14_lt1_q15",
+              "id": "cam14_t1_l_q15",
               "type": "multiple_choice",
-              "question": "Using the internet: _____",
+              "question": "Using the internet ...............",
               "options": [
-                "A. encouraged",
-                "B. some restrictions",
-                "C. against rules"
+                "A. It is encouraged.",
+                "B. There are some restrictions.",
+                "C. It is against the rules."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam14_lt1_q16",
+              "id": "cam14_t1_l_q16",
               "type": "multiple_choice",
-              "question": "Flexible working: _____",
+              "question": "Flexible worki ng ...............",
               "options": [
-                "A. encouraged",
-                "B. some restrictions",
-                "C. against rules"
+                "A. It is encouraged.",
+                "B. There are some restrictions.",
+                "C. It is against the rules."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam14_lt1_q17",
+              "id": "cam14_t1_l_q17",
               "type": "multiple_choice",
-              "question": "Booking holidays: _____",
+              "question": "Booking holidays ...............",
               "options": [
-                "A. encouraged",
-                "B. some restrictions",
-                "C. against rules"
+                "A. It is encouraged.",
+                "B. There are some restrictions.",
+                "C. It is against the rules."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam14_lt1_q18",
+              "id": "cam14_t1_l_q18",
               "type": "multiple_choice",
-              "question": "Working overtime: _____",
+              "question": "Working overtime ...............",
               "options": [
-                "A. encouraged",
-                "B. some restrictions",
-                "C. against rules"
+                "A. It is encouraged.",
+                "B. There are some restrictions.",
+                "C. It is against the rules."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam14_lt1_q19",
+              "id": "cam14_t1_l_q19",
               "type": "multiple_choice",
-              "question": "Wearing trainers: _____",
+              "question": "Wearingtrainers ...............",
               "options": [
-                "A. encouraged",
-                "B. some restrictions",
-                "C. against rules"
+                "A. It is encouraged.",
+                "B. There are some restrictions.",
+                "C. It is against the rules."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam14_lt1_q20",
+              "id": "cam14_t1_l_q20",
               "type": "multiple_choice",
-              "question": "Bringing food: _____",
+              "question": "Bringing food to work ...............",
               "options": [
-                "A. encouraged",
-                "B. some restrictions",
-                "C. against rules"
+                "A. It is encouraged.",
+                "B. There are some restrictions.",
+                "C. It is against the rules."
               ],
               "correctAnswer": "C"
             }
           ]
         },
         {
-          "id": "cam14_lt1_p3",
+          "id": "cam14_t1_l_p3",
           "title": "Cities Built by the Sea",
           "audioFile": "cam14_s3.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam14_lt1_q21",
+              "id": "cam14_t1_l_q21",
               "type": "multiple_choice",
-              "question": "Question 21: Choose the correct letter.",
+              "question": "Carla and Rob were surprised to learn that coastal cities",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. contain nearly half the world's population.",
+                "B. in elude most of the world's largest cities.",
+                "C. are growing twice as fast as other cities."
+              ],
+              "correctAnswer": "B. in elude most of the world's largest cities."
+            },
+            {
+              "id": "cam14_t1_l_q22",
+              "type": "multiple_choice",
+              "question": "According to Rob, building coastal cities near to rivers",
+              "options": [
+                "A. may bring pollution to the cities.",
+                "B. may reduce the land available for agriculture.",
+                "C. may mean the countryside is spoiled by industry."
+              ],
+              "correctAnswer": "A. may bring pollution to the cities."
+            },
+            {
+              "id": "cam14_t1_l_q23",
+              "type": "multiple_choice",
+              "question": "What mistake was made when buildi ng water drain age cha nnels in Miami in the 1950s?",
+              "options": [
+                "A. There were not eno ugh of them.",
+                "B. They were made of unsuitable materials.",
+                "C. They did not allow for the effects of climate change."
+              ],
+              "correctAnswer": "C. They did not allow for the effects of climate change."
+            },
+            {
+              "id": "cam14_t1_l_q24",
+              "type": "multiple_choice",
+              "question": "What do Rob and Carla think that the authorities in Miami should do immediately?",
+              "options": [
+                "A. take measures to restore ecosystems",
+                "B. pay for a new flood prevention system",
+                "C. stop disposing of waste materials into the ocean"
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam14_lt1_q22",
+              "id": "cam14_t1_l_q25",
               "type": "multiple_choice",
-              "question": "Question 22: Choose the correct letter.",
+              "question": "What do they agree should be the priority for international action?",
               "options": [
-                "A",
-                "B",
-                "C"
-              ],
-              "correctAnswer": "A"
-            },
-            {
-              "id": "cam14_lt1_q23",
-              "type": "multiple_choice",
-              "question": "Question 23: Choose the correct letter.",
-              "options": [
-                "A",
-                "B",
-                "C"
+                "A. greater coordination of activities",
+                "B. more sharing of information",
+                "C. agreement on shared policies"
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam14_lt1_q24",
-              "type": "multiple_choice",
-              "question": "Question 24: Choose the correct letter.",
+              "id": "cam14_t1_l_q26",
+              "type": "matching",
+              "question": "Historical background",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. contain nearly half the world's population.",
+                "B. in elude most of the world's largest cities.",
+                "C. are growing twice as fast as other cities."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam14_lt1_q25",
-              "type": "multiple_choice",
-              "question": "Question 25: Choose the correct letter.",
-              "options": [
-                "A",
-                "B",
-                "C"
-              ],
-              "correctAnswer": "C"
-            },
-            {
-              "id": "cam14_lt1_q26",
+              "id": "cam14_t1_l_q27",
               "type": "matching",
-              "question": "Historical background: _____",
+              "question": "Geographical factors",
               "options": [
-                "A. use visuals",
-                "B. keep it short",
-                "C. involve other students",
-                "D. change the order",
-                "E. add a case study",
-                "F. focus on one example",
-                "G. do online research",
-                "H. check the statistics"
-              ],
-              "correctAnswer": "B"
-            },
-            {
-              "id": "cam14_lt1_q27",
-              "type": "matching",
-              "question": "Geographical factors: _____",
-              "options": [
-                "A. use visuals",
-                "B. keep it short",
-                "C. involve other students",
-                "D. change the order",
-                "E. add a case study",
-                "F. focus on one example",
-                "G. do online research",
-                "H. check the statistics"
+                "A. contain nearly half the world's population.",
+                "B. in elude most of the world's largest cities.",
+                "C. are growing twice as fast as other cities."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam14_lt1_q28",
+              "id": "cam14_t1_l_q28",
               "type": "matching",
-              "question": "Past mistakes: _____",
+              "question": "Past mistakes",
               "options": [
-                "A. use visuals",
-                "B. keep it short",
-                "C. involve other students",
-                "D. change the order",
-                "E. add a case study",
-                "F. focus on one example",
-                "G. do online research",
-                "H. check the statistics"
+                "A. contain nearly half the world's population.",
+                "B. in elude most of the world's largest cities.",
+                "C. are growing twice as fast as other cities."
               ],
               "correctAnswer": "F"
             },
             {
-              "id": "cam14_lt1_q29",
+              "id": "cam14_t1_l_q29",
               "type": "matching",
-              "question": "Future risks: _____",
+              "question": "Future risks",
               "options": [
-                "A. use visuals",
-                "B. keep it short",
-                "C. involve other students",
-                "D. change the order",
-                "E. add a case study",
-                "F. focus on one example",
-                "G. do online research",
-                "H. check the statistics"
+                "A. contain nearly half the world's population.",
+                "B. in elude most of the world's largest cities.",
+                "C. are growing twice as fast as other cities."
               ],
               "correctAnswer": "G"
             },
             {
-              "id": "cam14_lt1_q30",
+              "id": "cam14_t1_l_q30",
               "type": "matching",
-              "question": "International implications: _____",
+              "question": "International implications",
               "options": [
-                "A. use visuals",
-                "B. keep it short",
-                "C. involve other students",
-                "D. change the order",
-                "E. add a case study",
-                "F. focus on one example",
-                "G. do online research",
-                "H. check the statistics"
+                "A. contain nearly half the world's population.",
+                "B. in elude most of the world's largest cities.",
+                "C. are growing twice as fast as other cities."
               ],
               "correctAnswer": "C"
             }
           ]
         },
         {
-          "id": "cam14_lt1_p4",
+          "id": "cam14_t1_l_p4",
           "title": "Marine Renewable Energy",
           "audioFile": "cam14_s4.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam14_lt1_q31",
-              "type": "notes_completion",
-              "question": "Question 31: ONE WORD ONLY.",
+              "id": "cam14_t1_l_q31",
+              "type": "form_completion",
+              "question": "Introduction | More energy required because of growth in population and _____",
               "options": [],
               "correctAnswer": "industry"
             },
             {
-              "id": "cam14_lt1_q32",
-              "type": "notes_completion",
-              "question": "Question 32: ONE WORD ONLY.",
+              "id": "cam14_t1_l_q32",
+              "type": "form_completion",
+              "question": "Wave energy | Advantage: waves provide a _____ source of renewable energy",
               "options": [],
               "correctAnswer": "constant"
             },
             {
-              "id": "cam14_lt1_q33",
-              "type": "notes_completion",
-              "question": "Question 33: ONE WORD ONLY.",
+              "id": "cam14_t1_l_q33",
+              "type": "form_completion",
+              "question": "Problems: | waves can move in any _____",
               "options": [],
               "correctAnswer": "direction"
             },
             {
-              "id": "cam14_lt1_q34",
-              "type": "notes_completion",
-              "question": "Question 34: ONE WORD ONLY.",
+              "id": "cam14_t1_l_q34",
+              "type": "form_completion",
+              "question": "Problems: | movement of sand, etc. on the _____ of the ocean may be affected",
               "options": [],
               "correctAnswer": "floor"
             },
             {
-              "id": "cam14_lt1_q35",
-              "type": "notes_completion",
-              "question": "Question 35: ONE WORD ONLY.",
+              "id": "cam14_t1_l_q35",
+              "type": "form_completion",
+              "question": "Tidal energy | Tides are more _____ than waves",
               "options": [],
               "correctAnswer": "predictable"
             },
             {
-              "id": "cam14_lt1_q36",
-              "type": "notes_completion",
-              "question": "Question 36: ONE WORD ONLY.",
+              "id": "cam14_t1_l_q36",
+              "type": "form_completion",
+              "question": "Planned tidal Iago on in Wales: | will be created in a _____ at Swan sea",
               "options": [],
               "correctAnswer": "bay"
             },
             {
-              "id": "cam14_lt1_q37",
-              "type": "notes_completion",
-              "question": "Question 37: ONE WORD ONLY.",
+              "id": "cam14_t1_l_q37",
+              "type": "form_completion",
+              "question": "Planned tidal Iago on in Wales: | stored water is released through _____ driving the turbines in",
               "options": [],
               "correctAnswer": "gates"
             },
             {
-              "id": "cam14_lt1_q38",
-              "type": "notes_completion",
-              "question": "Question 38: ONE WORD ONLY.",
+              "id": "cam14_t1_l_q38",
+              "type": "form_completion",
+              "question": "Adva ntages: | not dependent on weather | no _____ is required to make it work",
               "options": [],
               "correctAnswer": "fuel"
             },
             {
-              "id": "cam14_lt1_q39",
-              "type": "notes_completion",
-              "question": "Question 39: ONE WORD ONLY.",
+              "id": "cam14_t1_l_q39",
+              "type": "form_completion",
+              "question": "Adva ntages: | not dependent on weather | likely to create a number of _____",
               "options": [],
               "correctAnswer": "jobs"
             },
             {
-              "id": "cam14_lt1_q40",
-              "type": "notes_completion",
-              "question": "Question 40: ONE WORD ONLY.",
+              "id": "cam14_t1_l_q40",
+              "type": "form_completion",
+              "question": "Problem: | may harm fish and birds, e.g. by affecting _____ and building up silt",
               "options": [],
               "correctAnswer": "migration"
             }
@@ -442,455 +409,396 @@
       "testNumber": 2,
       "parts": [
         {
-          "id": "cam14_lt2_p1",
+          "id": "cam14_t2_l_p1",
           "title": "Total Health Clinic",
           "audioFile": "cam14_s5.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam14_lt2_q1",
-              "type": "notes_completion",
-              "question": "1. Phone: _____",
+              "id": "cam14_t2_l_q1",
+              "type": "form_completion",
+              "question": "Contact phone | _____",
               "options": [],
               "correctAnswer": "219 442 9785"
             },
             {
-              "id": "cam14_lt2_q2",
-              "type": "notes_completion",
-              "question": "2. Date: _____",
+              "id": "cam14_t2_l_q2",
+              "type": "form_completion",
+              "question": "Date of birth | _____",
               "options": [],
               "correctAnswer": "10(th) October"
             },
             {
-              "id": "cam14_lt2_q3",
-              "type": "notes_completion",
-              "question": "3. Occupation: _____",
+              "id": "cam14_t2_l_q3",
+              "type": "form_completion",
+              "question": "Occupation | works as a _____",
               "options": [],
               "correctAnswer": "manager"
             },
             {
-              "id": "cam14_lt2_q4",
-              "type": "notes_completion",
-              "question": "4. Surname: _____",
+              "id": "cam14_t2_l_q4",
+              "type": "form_completion",
+              "question": "Insura nee company | _____",
               "options": [],
               "correctAnswer": "Cawley"
             },
             {
-              "id": "cam14_lt2_q5",
-              "type": "notes_completion",
-              "question": "5. Pain location: _____",
+              "id": "cam14_t2_l_q5",
+              "type": "form_completion",
+              "question": "Type of problem | psiin in her left _____",
               "options": [],
               "correctAnswer": "knee"
             },
             {
-              "id": "cam14_lt2_q6",
-              "type": "notes_completion",
+              "id": "cam14_t2_l_q6",
+              "type": "form_completion",
               "question": "6. Duration: _____",
               "options": [],
               "correctAnswer": "3 weeks"
             },
             {
-              "id": "cam14_lt2_q7",
-              "type": "notes_completion",
+              "id": "cam14_t2_l_q7",
+              "type": "form_completion",
               "question": "7. Sports: _____",
               "options": [],
               "correctAnswer": "tennis"
             },
             {
-              "id": "cam14_lt2_q8",
-              "type": "notes_completion",
-              "question": "8. Other sports: _____",
+              "id": "cam14_t2_l_q8",
+              "type": "form_completion",
+              "question": "Sports played | .......................... club | goes _____ .............regularly",
               "options": [],
               "correctAnswer": "running"
             },
             {
-              "id": "cam14_lt2_q9",
-              "type": "notes_completion",
-              "question": "9. Previous injury: _____",
+              "id": "cam14_t2_l_q9",
+              "type": "form_completion",
+              "question": "Medical history | injured her _____ ....................... last year",
               "options": [],
               "correctAnswer": "shoulder"
             },
             {
-              "id": "cam14_lt2_q10",
-              "type": "notes_completion",
-              "question": "10. Currently taking: _____",
+              "id": "cam14_t2_l_q10",
+              "type": "form_completion",
+              "question": "Medical history | no allergies | no regular medication apart from _____",
               "options": [],
               "correctAnswer": "vitamins"
             }
           ]
         },
         {
-          "id": "cam14_lt2_p2",
+          "id": "cam14_t2_l_p2",
           "title": "Visit to Branley Castle",
           "audioFile": "cam14_s6.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam14_lt2_q11",
+              "id": "cam14_t2_l_q11",
               "type": "multiple_choice",
-              "question": "Question 11: Choose the correct letter.",
+              "question": "Before Queen Elizabeth I visited the castle in 1576,",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. repairs were carried out to the guest rooms.",
+                "B. a new building was constructed for her.",
+                "C. a fire damaged part of the main hall."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. a new building was constructed for her."
             },
             {
-              "id": "cam14_lt2_q12",
+              "id": "cam14_t2_l_q12",
               "type": "multiple_choice",
-              "question": "Question 12: Choose the correct letter.",
+              "question": "In 1982, the castle was sold to",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. the govemment.",
+                "B. the Fenys family.",
+                "C. an entertainment company."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. an entertainment company."
             },
             {
-              "id": "cam14_lt2_q13",
+              "id": "cam14_t2_l_q13",
               "type": "multiple_choice",
-              "question": "Question 13: Choose the correct letter.",
+              "question": "In some of the rooms, visitors can",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. speak to experts on the history of the castle.",
+                "B. in teract with actors dressed as famous characters.",
+                "C. see models of historical figures moving and talking."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. see models of historical figures moving and talking."
             },
             {
-              "id": "cam14_lt2_q14",
+              "id": "cam14_t2_l_q14",
               "type": "multiple_choice",
-              "question": "Question 14: Choose the correct letter.",
+              "question": "In the castle park, visitors can",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. see an 800-year-old tree.",
+                "B. go to an art exhibition.",
+                "C. visit a small zoo."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. go to an art exhibition."
             },
             {
-              "id": "cam14_lt2_q15",
+              "id": "cam14_t2_l_q15",
               "type": "multiple_choice",
-              "question": "Question 15: Choose the correct letter.",
+              "question": "At the end of the visit, the group will have",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. after noon tea in the con servatory.",
+                "B. the chanee to meet the castle's owners.",
+                "C. a photograph together on the Great Staircase."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam14_lt2_q16",
+              "id": "cam14_t2_l_q16",
               "type": "matching",
-              "question": "Match the location to the letter on the map.",
+              "question": "Starting point for walking the walls ...............",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. repairs were carried out to the guest rooms.",
+                "B. a new building was constructed for her.",
+                "C. a fire damaged part of the main hall."
               ],
               "correctAnswer": "H"
             },
             {
-              "id": "cam14_lt2_q17",
+              "id": "cam14_t2_l_q17",
               "type": "matching",
-              "question": "Match the location to the letter on the map.",
+              "question": "Bow and arrow display ...............",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. repairs were carried out to the guest rooms.",
+                "B. a new building was constructed for her.",
+                "C. a fire damaged part of the main hall."
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam14_lt2_q18",
+              "id": "cam14_t2_l_q18",
               "type": "matching",
-              "question": "Match the location to the letter on the map.",
+              "question": "Hunting birds display ...............",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. repairs were carried out to the guest rooms.",
+                "B. a new building was constructed for her.",
+                "C. a fire damaged part of the main hall."
               ],
               "correctAnswer": "F"
             },
             {
-              "id": "cam14_lt2_q19",
+              "id": "cam14_t2_l_q19",
               "type": "matching",
-              "question": "Match the location to the letter on the map.",
+              "question": "Traditional dancing ...............",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. repairs were carried out to the guest rooms.",
+                "B. a new building was constructed for her.",
+                "C. a fire damaged part of the main hall."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam14_lt2_q20",
+              "id": "cam14_t2_l_q20",
               "type": "matching",
-              "question": "Match the location to the letter on the map.",
+              "question": "Shop ...............",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. repairs were carried out to the guest rooms.",
+                "B. a new building was constructed for her.",
+                "C. a fire damaged part of the main hall."
               ],
               "correctAnswer": "E"
             }
           ]
         },
         {
-          "id": "cam14_lt2_p3",
+          "id": "cam14_t2_l_p3",
           "title": "Woolly Mammoths on St Paul's Island",
           "audioFile": "cam14_s7.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam14_lt2_q21",
+              "id": "cam14_t2_l_q21",
               "type": "multiple_choice",
-              "question": "Question 21: Choose the correct letter.",
+              "question": "How will Rosie and Martin introduce their presentation?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. with a drawing of woolly mammoths in their natural habitat",
+                "B. with a timeline showing when woolly mammoths lived",
+                "C. with a video clip about woolly mammoths"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. with a timeline showing when woolly mammoths lived"
             },
             {
-              "id": "cam14_lt2_q22",
+              "id": "cam14_t2_l_q22",
               "type": "multiple_choice",
-              "question": "Question 22: Choose the correct letter.",
+              "question": "What was surprising about the mammoth tooth found by Russell Graham?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. It was still embedded in the mammoth's jawbone.",
+                "B. It was from an unknown species of mammoth.",
+                "C. It was not as old as mammoth remains from elsewhere."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. It was not as old as mammoth remains from elsewhere."
             },
             {
-              "id": "cam14_lt2_q23",
+              "id": "cam14_t2_l_q23",
               "type": "multiple_choice",
-              "question": "Question 23: Choose the correct letter.",
+              "question": "The students will use an animated diagram to demonstrate how the mammoths",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. became isolated on the island.",
+                "B. spread from the island to other areas.",
+                "C. coexisted with other animals on the island・"
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. became isolated on the island."
             },
             {
-              "id": "cam14_lt2_q24",
+              "id": "cam14_t2_l_q24",
               "type": "multiple_choice",
-              "question": "Question 24: Choose the correct letter.",
+              "question": "According to Martin, what is unusual about the date of the mammoths, extinction on the island?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. how exact it is",
+                "B. how early it is",
+                "C. how it was established"
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. how exact it is"
             },
             {
-              "id": "cam14_lt2_q25",
+              "id": "cam14_t2_l_q25",
               "type": "matching",
-              "question": "Match the statement.",
+              "question": "Introduction",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. with a drawing of woolly mammoths in their natural habitat",
+                "B. with a timeline showing when woolly mammoths lived",
+                "C. with a video clip about woolly mammoths"
               ],
               "correctAnswer": "E"
             },
             {
-              "id": "cam14_lt2_q26",
+              "id": "cam14_t2_l_q26",
               "type": "matching",
-              "question": "Match the statement.",
+              "question": "Discovery of the mammoth tooth",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. with a drawing of woolly mammoths in their natural habitat",
+                "B. with a timeline showing when woolly mammoths lived",
+                "C. with a video clip about woolly mammoths"
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam14_lt2_q27",
+              "id": "cam14_t2_l_q27",
               "type": "matching",
-              "question": "Match the statement.",
+              "question": "Initial questions asked by the researchers",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. with a drawing of woolly mammoths in their natural habitat",
+                "B. with a timeline showing when woolly mammoths lived",
+                "C. with a video clip about woolly mammoths"
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam14_lt2_q28",
+              "id": "cam14_t2_l_q28",
               "type": "matching",
-              "question": "Match the statement.",
+              "question": "Further research carried out on the island",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. with a drawing of woolly mammoths in their natural habitat",
+                "B. with a timeline showing when woolly mammoths lived",
+                "C. with a video clip about woolly mammoths"
               ],
               "correctAnswer": "H"
             },
             {
-              "id": "cam14_lt2_q29",
+              "id": "cam14_t2_l_q29",
               "type": "matching",
-              "question": "Match the statement.",
+              "question": "Findings and possible explanations",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. with a drawing of woolly mammoths in their natural habitat",
+                "B. with a timeline showing when woolly mammoths lived",
+                "C. with a video clip about woolly mammoths"
               ],
               "correctAnswer": "G"
             },
             {
-              "id": "cam14_lt2_q30",
+              "id": "cam14_t2_l_q30",
               "type": "matching",
-              "question": "Match the statement.",
+              "question": "Releva nee to the present day",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. with a drawing of woolly mammoths in their natural habitat",
+                "B. with a timeline showing when woolly mammoths lived",
+                "C. with a video clip about woolly mammoths"
               ],
               "correctAnswer": "C"
             }
           ]
         },
         {
-          "id": "cam14_lt2_p4",
+          "id": "cam14_t2_l_p4",
           "title": "The History of Weather Forecasting",
           "audioFile": "cam14_s8.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam14_lt2_q31",
-              "type": "notes_completion",
-              "question": "Question 31: ONE WORD ONLY.",
+              "id": "cam14_t2_l_q31",
+              "type": "form_completion",
+              "question": "Ancient cuitures | creation of the world | many cultures invented _____ and other ceremonies to make the",
               "options": [],
               "correctAnswer": "dances"
             },
             {
-              "id": "cam14_lt2_q32",
-              "type": "notes_completion",
-              "question": "Question 32: ONE WORD ONLY.",
+              "id": "cam14_t2_l_q32",
+              "type": "form_completion",
+              "question": "Ancient cuitures | weather gods friendly | people needed to observe and interpret the sky to ensure their _____",
               "options": [],
               "correctAnswer": "survival"
             },
             {
-              "id": "cam14_lt2_q33",
-              "type": "notes_completion",
-              "question": "Question 33: ONE WORD ONLY.",
+              "id": "cam14_t2_l_q33",
+              "type": "form_completion",
+              "question": "Ancient cuitures | around 650 BC, Babylonians started forecasting, using weather phenomena | such as _____",
               "options": [],
               "correctAnswer": "clouds"
             },
             {
-              "id": "cam14_lt2_q34",
-              "type": "notes_completion",
-              "question": "Question 34: ONE WORD ONLY.",
+              "id": "cam14_t2_l_q34",
+              "type": "form_completion",
+              "question": "by 300 BC, the Chinese had a calendar made up of a number of | _____ connected with the weather",
               "options": [],
               "correctAnswer": "festivals"
             },
             {
-              "id": "cam14_lt2_q35",
-              "type": "notes_completion",
-              "question": "Question 35: ONE WORD ONLY.",
+              "id": "cam14_t2_l_q35",
+              "type": "form_completion",
+              "question": "Ancient Greeks | Aristotle tried to explain the formation of various weather phenomena | Aristotle also described haloes and _____",
               "options": [],
               "correctAnswer": "comets"
             },
             {
-              "id": "cam14_lt2_q36",
-              "type": "notes_completion",
-              "question": "Question 36: ONE WORD ONLY.",
+              "id": "cam14_t2_l_q36",
+              "type": "form_completion",
+              "question": "Aristotle's work considered accurate | _____ passed on accurate information.",
               "options": [],
               "correctAnswer": "sky"
             },
             {
-              "id": "cam14_lt2_q37",
-              "type": "notes_completion",
-              "question": "Question 37: ONE WORD ONLY.",
+              "id": "cam14_t2_l_q37",
+              "type": "form_completion",
+              "question": "Aristotle's work considered accurate | *15th佃th centuries | 15th century: scientists recognised value of _____ for the first time",
               "options": [],
               "correctAnswer": "instruments"
             },
             {
-              "id": "cam14_lt2_q38",
-              "type": "notes_completion",
-              "question": "Question 38: ONE WORD ONLY.",
+              "id": "cam14_t2_l_q38",
+              "type": "form_completion",
+              "question": "Aristotle's work considered accurate | *15th佃th centuries | Galileo invented the _____",
               "options": [],
               "correctAnswer": "thermometer"
             },
             {
-              "id": "cam14_lt2_q39",
-              "type": "notes_completion",
-              "question": "Question 39: ONE WORD ONLY.",
+              "id": "cam14_t2_l_q39",
+              "type": "form_completion",
+              "question": "temperature | 18th century: Franklin identified the movement of _____",
               "options": [],
               "correctAnswer": "storms"
             },
             {
-              "id": "cam14_lt2_q40",
-              "type": "notes_completion",
-              "question": "Question 40: ONE WORD ONLY.",
+              "id": "cam14_t2_l_q40",
+              "type": "form_completion",
+              "question": "19th century: data from different locations could be sent to the same | place by _____",
               "options": [],
               "correctAnswer": "telegraph"
             }
@@ -903,416 +811,390 @@
       "testNumber": 3,
       "parts": [
         {
-          "id": "cam14_lt3_p1",
+          "id": "cam14_t3_l_p1",
           "title": "Flanders Conference Hotel",
           "audioFile": "cam14_s9.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam14_lt3_q1",
-              "type": "notes_completion",
-              "question": "1. Surname: _____",
+              "id": "cam14_t3_l_q1",
+              "type": "form_completion",
+              "question": "Conference facilities | the _____ room for talks",
               "options": [],
               "correctAnswer": "Tesla"
             },
             {
-              "id": "cam14_lt3_q2",
-              "type": "notes_completion",
-              "question": "2. Equipment needed: _____",
+              "id": "cam14_t3_l_q2",
+              "type": "form_completion",
+              "question": "Conference facilities | (projector and _____ available)",
               "options": [],
               "correctAnswer": "microphone"
             },
             {
-              "id": "cam14_lt3_q3",
-              "type": "notes_completion",
-              "question": "3. Room type: _____",
+              "id": "cam14_t3_l_q3",
+              "type": "form_completion",
+              "question": "Conference facilities | area for coffee and an _____",
               "options": [],
               "correctAnswer": "exhibition"
             },
             {
-              "id": "cam14_lt3_q4",
-              "type": "notes_completion",
-              "question": "4. Internet: _____",
+              "id": "cam14_t3_l_q4",
+              "type": "form_completion",
+              "question": "Conference facilities | free _____ throughout",
               "options": [],
               "correctAnswer": "wifi"
             },
             {
-              "id": "cam14_lt3_q5",
-              "type": "notes_completion",
-              "question": "5. Number of people: _____",
+              "id": "cam14_t3_l_q5",
+              "type": "form_completion",
+              "question": "Conference facilities | a standard buffet lunch costs _____ $ per head",
               "options": [],
               "correctAnswer": "45"
             },
             {
-              "id": "cam14_lt3_q6",
-              "type": "notes_completion",
-              "question": "6. Cost per person: £_____",
+              "id": "cam14_t3_l_q6",
+              "type": "form_completion",
+              "question": "Conference facilities | Rooms will cost _____ $ in eluding breakfast.",
               "options": [],
               "correctAnswer": "135"
             },
             {
-              "id": "cam14_lt3_q7",
-              "type": "notes_completion",
-              "question": "7. Facility: _____",
+              "id": "cam14_t3_l_q7",
+              "type": "form_completion",
+              "question": "Other facilities | The hotel also has a spa and rooftop _____",
               "options": [],
               "correctAnswer": "pool"
             },
             {
-              "id": "cam14_lt3_q8",
-              "type": "notes_completion",
-              "question": "8. Transport: _____",
+              "id": "cam14_t3_l_q8",
+              "type": "form_completion",
+              "question": "Other facilities | There's a free shuttle service to the _____",
               "options": [],
               "correctAnswer": "airport"
             },
             {
-              "id": "cam14_lt3_q9",
-              "type": "notes_completion",
-              "question": "9. View: _____",
+              "id": "cam14_t3_l_q9",
+              "type": "form_completion",
+              "question": "Location | Wilby Street (quite near the _____ )",
               "options": [],
               "correctAnswer": "sea"
             },
             {
-              "id": "cam14_lt3_q10",
-              "type": "notes_completion",
-              "question": "10. Nearby: _____",
+              "id": "cam14_t3_l_q10",
+              "type": "form_completion",
+              "question": "Location | near to restaurants and many _____",
               "options": [],
               "correctAnswer": "clubs"
             }
           ]
         },
         {
-          "id": "cam14_lt3_p2",
+          "id": "cam14_t3_l_p2",
           "title": "Volunteering",
           "audioFile": "cam14_s10.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam14_lt3_q11",
-              "type": "multiple_choice",
-              "question": "Which TWO activities can volunteers do?\nA. decorating\nB. driving\nC. cooking\nD. gardening\nE. childcare",
+              "id": "cam14_t3_l_q11",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO activities that volunteers do are mentioned?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "D. shopping",
+                "E. childcare"
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. decorating"
             },
             {
-              "id": "cam14_lt3_q12",
-              "type": "multiple_choice",
-              "question": "Which TWO activities can volunteers do?\nA. decorating\nB. driving\nC. cooking\nD. gardening\nE. childcare",
+              "id": "cam14_t3_l_q12",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO activities that volunteers do are mentioned?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "D. shopping",
+                "E. childcare"
               ],
-              "correctAnswer": "E"
+              "correctAnswer": "E. childcare"
             },
             {
-              "id": "cam14_lt3_q13",
-              "type": "multiple_choice",
-              "question": "Which TWO benefits of volunteering are mentioned?\nA. financial benefits\nB. sense of purpose\nC. improved health\nD. free training\nE. employment prospects",
+              "id": "cam14_t3_l_q13",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO ways that volun teers can ben efit from volunteeri ng are mentio ned? learning how to be part of a team having a sense of purpose realising how lucky they are improved ability at time management boosting their employment prospects",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. B c D E"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. sense of purpose"
             },
             {
-              "id": "cam14_lt3_q14",
-              "type": "multiple_choice",
-              "question": "Which TWO benefits of volunteering are mentioned?\nA. financial benefits\nB. sense of purpose\nC. improved health\nD. free training\nE. employment prospects",
+              "id": "cam14_t3_l_q14",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO ways that volun teers can ben efit from volunteeri ng are mentio ned? learning how to be part of a team having a sense of purpose realising how lucky they are improved ability at time management boosting their employment prospects",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. B c D E"
               ],
-              "correctAnswer": "E"
+              "correctAnswer": "E. employment prospects"
             },
             {
-              "id": "cam14_lt3_q15",
+              "id": "cam14_t3_l_q15",
               "type": "matching",
-              "question": "Match the person to what they gained from volunteering.",
+              "question": "Habib",
               "options": [
-                "A. overcome physical difficulties",
-                "B. gain a qualification",
-                "C. improve communication skills",
-                "D. solve problems independently",
-                "E. escape isolation",
-                "F. remember past times",
-                "G. start a new hobby"
+                "A. decorati ng",
+                "B. clea ning",
+                "C. delivering meals",
+                "D. shopping",
+                "E. childcare"
               ],
               "correctAnswer": "F"
             },
             {
-              "id": "cam14_lt3_q16",
+              "id": "cam14_t3_l_q16",
               "type": "matching",
-              "question": "Match the person to what they gained from volunteering.",
+              "question": "Consuela",
               "options": [
-                "A. overcome physical difficulties",
-                "B. gain a qualification",
-                "C. improve communication skills",
-                "D. solve problems independently",
-                "E. escape isolation",
-                "F. remember past times",
-                "G. start a new hobby"
+                "A. decorati ng",
+                "B. clea ning",
+                "C. delivering meals",
+                "D. shopping",
+                "E. childcare"
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam14_lt3_q17",
+              "id": "cam14_t3_l_q17",
               "type": "matching",
-              "question": "Match the person to what they gained from volunteering.",
+              "question": "Minh",
               "options": [
-                "A. overcome physical difficulties",
-                "B. gain a qualification",
-                "C. improve communication skills",
-                "D. solve problems independently",
-                "E. escape isolation",
-                "F. remember past times",
-                "G. start a new hobby"
+                "A. decorati ng",
+                "B. clea ning",
+                "C. delivering meals",
+                "D. shopping",
+                "E. childcare"
               ],
               "correctAnswer": "E"
             },
             {
-              "id": "cam14_lt3_q18",
+              "id": "cam14_t3_l_q18",
               "type": "matching",
-              "question": "Match the person to what they gained from volunteering.",
+              "question": "Tanya",
               "options": [
-                "A. overcome physical difficulties",
-                "B. gain a qualification",
-                "C. improve communication skills",
-                "D. solve problems independently",
-                "E. escape isolation",
-                "F. remember past times",
-                "G. start a new hobby"
+                "A. decorati ng",
+                "B. clea ning",
+                "C. delivering meals",
+                "D. shopping",
+                "E. childcare"
               ],
               "correctAnswer": "G"
             },
             {
-              "id": "cam14_lt3_q19",
+              "id": "cam14_t3_l_q19",
               "type": "matching",
-              "question": "Match the person to what they gained from volunteering.",
+              "question": "Alexei",
               "options": [
-                "A. overcome physical difficulties",
-                "B. gain a qualification",
-                "C. improve communication skills",
-                "D. solve problems independently",
-                "E. escape isolation",
-                "F. remember past times",
-                "G. start a new hobby"
+                "A. decorati ng",
+                "B. clea ning",
+                "C. delivering meals",
+                "D. shopping",
+                "E. childcare"
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam14_lt3_q20",
+              "id": "cam14_t3_l_q20",
               "type": "matching",
-              "question": "Match the person to what they gained from volunteering.",
+              "question": "Juba 55 ## Page 56 Test 3",
               "options": [
-                "A. overcome physical difficulties",
-                "B. gain a qualification",
-                "C. improve communication skills",
-                "D. solve problems independently",
-                "E. escape isolation",
-                "F. remember past times",
-                "G. start a new hobby"
+                "A. decorati ng",
+                "B. clea ning",
+                "C. delivering meals",
+                "D. shopping",
+                "E. childcare"
               ],
               "correctAnswer": "C"
             }
           ]
         },
         {
-          "id": "cam14_lt3_p3",
+          "id": "cam14_t3_l_p3",
           "title": "School Marching Band",
           "audioFile": "cam14_s11.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam14_lt3_q21",
-              "type": "notes_completion",
-              "question": "Question 21: ONE WORD ONLY.",
+              "id": "cam14_t3_l_q21",
+              "type": "form_completion",
+              "question": "Background on school marching band | It consists of around _____ students.",
               "options": [],
               "correctAnswer": "50"
             },
             {
-              "id": "cam14_lt3_q22",
-              "type": "notes_completion",
-              "question": "Question 22: ONE WORD ONLY.",
+              "id": "cam14_t3_l_q22",
+              "type": "form_completion",
+              "question": "Background on school marching band | It is due to play in a _____ band competition.",
               "options": [],
               "correctAnswer": "regional"
             },
             {
-              "id": "cam14_lt3_q23",
-              "type": "notes_completion",
-              "question": "Question 23: ONE WORD ONLY.",
+              "id": "cam14_t3_l_q23",
+              "type": "form_completion",
+              "question": "Background on school marching band | It has been invited to play in the town's _____",
               "options": [],
               "correctAnswer": "carnival"
             },
             {
-              "id": "cam14_lt3_q24",
-              "type": "notes_completion",
-              "question": "Question 24: ONE WORD ONLY.",
+              "id": "cam14_t3_l_q24",
+              "type": "form_completion",
+              "question": "Background on school marching band | They have listened to a talk by a _____",
               "options": [],
               "correctAnswer": "drummer"
             },
             {
-              "id": "cam14_lt3_q25",
-              "type": "notes_completion",
-              "question": "Question 25: ONE WORD ONLY.",
+              "id": "cam14_t3_l_q25",
+              "type": "form_completion",
+              "question": "Background on school marching band | Joe will discuss a _____ with the band.",
               "options": [],
               "correctAnswer": "film"
             },
             {
-              "id": "cam14_lt3_q26",
-              "type": "notes_completion",
-              "question": "Question 26: ONE WORD ONLY.",
+              "id": "cam14_t3_l_q26",
+              "type": "form_completion",
+              "question": "Background on school marching band | Joe hopes the band will attend a _____ next month.",
               "options": [],
               "correctAnswer": "parade"
             },
             {
-              "id": "cam14_lt3_q27",
+              "id": "cam14_t3_l_q27",
               "type": "matching",
-              "question": "Match the band member to the problem.",
+              "question": "flautist",
               "options": [
-                "A. is often late",
-                "B. makes unhelpful suggestions",
-                "C. argues with the band leader",
+                "A. makes a lot of mistakes in rehearsals",
+                "B. keeps making unhelpful suggestions",
+                "C. has difficulty with rhythm",
                 "D. misses too many rehearsals",
                 "E. has a health problem",
-                "F. doesn't mix with other students"
+                "F. does n't mix with other stude nts"
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam14_lt3_q28",
+              "id": "cam14_t3_l_q28",
               "type": "matching",
-              "question": "Match the band member to the problem.",
+              "question": "trumpeter",
               "options": [
-                "A. is often late",
-                "B. makes unhelpful suggestions",
-                "C. argues with the band leader",
+                "A. makes a lot of mistakes in rehearsals",
+                "B. keeps making unhelpful suggestions",
+                "C. has difficulty with rhythm",
                 "D. misses too many rehearsals",
                 "E. has a health problem",
-                "F. doesn't mix with other students"
+                "F. does n't mix with other stude nts"
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam14_lt3_q29",
+              "id": "cam14_t3_l_q29",
               "type": "matching",
-              "question": "Match the band member to the problem.",
+              "question": "trombonist",
               "options": [
-                "A. is often late",
-                "B. makes unhelpful suggestions",
-                "C. argues with the band leader",
+                "A. makes a lot of mistakes in rehearsals",
+                "B. keeps making unhelpful suggestions",
+                "C. has difficulty with rhythm",
                 "D. misses too many rehearsals",
                 "E. has a health problem",
-                "F. doesn't mix with other students"
+                "F. does n't mix with other stude nts"
               ],
               "correctAnswer": "E"
             },
             {
-              "id": "cam14_lt3_q30",
+              "id": "cam14_t3_l_q30",
               "type": "matching",
-              "question": "Match the band member to the problem.",
+              "question": "percussi onist 57 ## Page 58 Test 3",
               "options": [
-                "A. is often late",
-                "B. makes unhelpful suggestions",
-                "C. argues with the band leader",
+                "A. makes a lot of mistakes in rehearsals",
+                "B. keeps making unhelpful suggestions",
+                "C. has difficulty with rhythm",
                 "D. misses too many rehearsals",
                 "E. has a health problem",
-                "F. doesn't mix with other students"
+                "F. does n't mix with other stude nts"
               ],
               "correctAnswer": "F"
             }
           ]
         },
         {
-          "id": "cam14_lt3_p4",
+          "id": "cam14_t3_l_p4",
           "title": "Concerts in University Arts Festival",
           "audioFile": "cam14_s12.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam14_lt3_q31",
-              "type": "notes_completion",
-              "question": "Question 31: ONE WORD ONLY.",
+              "id": "cam14_t3_l_q31",
+              "type": "form_completion",
+              "question": "Australian composer: Liza Lim | studied piano and _____ before turning to composition",
               "options": [],
               "correctAnswer": "violin"
             },
             {
-              "id": "cam14_lt3_q32",
-              "type": "notes_completion",
-              "question": "Question 32: ONE WORD ONLY.",
+              "id": "cam14_t3_l_q32",
+              "type": "form_completion",
+              "question": "Australian composer: Liza Lim | performers and festivals around the world have given her a lot of commissions | compositions show a great deal of _____ and are drawn from",
               "options": [],
               "correctAnswer": "energy"
             },
             {
-              "id": "cam14_lt3_q33",
-              "type": "notes_completion",
-              "question": "Question 33: ONE WORD ONLY.",
+              "id": "cam14_t3_l_q33",
+              "type": "form_completion",
+              "question": "Australian composer: Liza Lim | various cultural sources | her music is very expressive and also _____",
               "options": [],
               "correctAnswer": "complex"
             },
             {
-              "id": "cam14_lt3_q34",
-              "type": "notes_completion",
-              "question": "Question 34: ONE WORD ONLY.",
+              "id": "cam14_t3_l_q34",
+              "type": "form_completion",
+              "question": "Australian composer: Liza Lim | various cultural sources | festival will in elude her _____ called The Oresteia",
               "options": [],
               "correctAnswer": "opera"
             },
             {
-              "id": "cam14_lt3_q35",
-              "type": "notes_completion",
-              "question": "Question 35: ONE WORD ONLY.",
+              "id": "cam14_t3_l_q35",
+              "type": "form_completion",
+              "question": "Australian composer: Liza Lim | various cultural sources | Lim described the sounds in The Oresteia as _____",
               "options": [],
               "correctAnswer": "disturbing"
             },
             {
-              "id": "cam14_lt3_q36",
-              "type": "notes_completion",
-              "question": "Question 36: ONE WORD ONLY.",
+              "id": "cam14_t3_l_q36",
+              "type": "form_completion",
+              "question": "Concert 2 | The Tower of Remoteness is performed by piano and _____",
               "options": [],
               "correctAnswer": "clarinet"
             },
             {
-              "id": "cam14_lt3_q37",
-              "type": "notes_completion",
-              "question": "Question 37: ONE WORD ONLY.",
+              "id": "cam14_t3_l_q37",
+              "type": "form_completion",
+              "question": "Concert 2 | compositions in elude music for childre n | celebrates Australia's cultural _____",
               "options": [],
               "correctAnswer": "diversity"
             },
             {
-              "id": "cam14_lt3_q38",
-              "type": "notes_completion",
-              "question": "Question 38: ONE WORD ONLY.",
+              "id": "cam14_t3_l_q38",
+              "type": "form_completion",
+              "question": "Concert 3 | studied _____ before studying music",
               "options": [],
               "correctAnswer": "physics"
             },
             {
-              "id": "cam14_lt3_q39",
-              "type": "notes_completion",
-              "question": "Question 39: ONE WORD ONLY.",
+              "id": "cam14_t3_l_q39",
+              "type": "form_completion",
+              "question": "Concert 3 | worked in Sydney as a pianist and composer | became well known as composer of music for _____",
               "options": [],
               "correctAnswer": "dance"
             },
             {
-              "id": "cam14_lt3_q40",
-              "type": "notes_completion",
-              "question": "Question 40: ONE WORD ONLY.",
+              "id": "cam14_t3_l_q40",
+              "type": "form_completion",
+              "question": "Concert 3 | worked in Sydney as a pianist and composer | festival will in elude his music for the 1996 _____",
               "options": [],
               "correctAnswer": "Olympics"
             }
@@ -1325,89 +1207,89 @@
       "testNumber": 4,
       "parts": [
         {
-          "id": "cam14_lt4_p1",
+          "id": "cam14_t4_l_p1",
           "title": "Enquiry about booking hotel room for event",
           "audioFile": "cam14_s13.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam14_lt4_q1",
-              "type": "notes_completion",
-              "question": "1. Number of guests: _____",
+              "id": "cam14_t4_l_q1",
+              "type": "form_completion",
+              "question": "Adelphi Room | number of people who can sit down to eat: _____",
               "options": [],
               "correctAnswer": "85"
             },
             {
-              "id": "cam14_lt4_q2",
-              "type": "notes_completion",
-              "question": "2. Flowers: _____",
+              "id": "cam14_t4_l_q2",
+              "type": "form_completion",
+              "question": "Adelphi Room | has a gallery suitable for musicians | can go out and see the _____ in pots on the terrace",
               "options": [],
               "correctAnswer": "roses"
             },
             {
-              "id": "cam14_lt4_q3",
-              "type": "notes_completion",
-              "question": "3. Decoration: _____",
+              "id": "cam14_t4_l_q3",
+              "type": "form_completion",
+              "question": "Adelphi Room | has a gallery suitable for musicians | terrace has a view of a group of _____",
               "options": [],
               "correctAnswer": "trees"
             },
             {
-              "id": "cam14_lt4_q4",
-              "type": "notes_completion",
-              "question": "4. Equipment needed: _____",
+              "id": "cam14_t4_l_q4",
+              "type": "form_completion",
+              "question": "Carlton Room | number of people who can sit down to eat: 110 | has a _____ ..............",
               "options": [],
               "correctAnswer": "stage"
             },
             {
-              "id": "cam14_lt4_q5",
-              "type": "notes_completion",
-              "question": "5. Length of _____",
+              "id": "cam14_t4_l_q5",
+              "type": "form_completion",
+              "question": "Master of Ceremonies: | can give a _____ while people are eating",
               "options": [],
               "correctAnswer": "speech"
             },
             {
-              "id": "cam14_lt4_q6",
-              "type": "notes_completion",
-              "question": "6. Need extra _____",
+              "id": "cam14_t4_l_q6",
+              "type": "form_completion",
+              "question": "Master of Ceremonies: | will provide _____ if there are any problems",
               "options": [],
               "correctAnswer": "support"
             },
             {
-              "id": "cam14_lt4_q7",
-              "type": "notes_completion",
-              "question": "7. Accommodation type: _____",
+              "id": "cam14_t4_l_q7",
+              "type": "form_completion",
+              "question": "Accommodation: | in hotel rooms or _____",
               "options": [],
               "correctAnswer": "cabins"
             },
             {
-              "id": "cam14_lt4_q8",
+              "id": "cam14_t4_l_q8",
               "type": "multiple_choice",
-              "question": "Question 8:",
+              "question": "outdoor swimming pool ...............",
               "options": [
-                "A. included in cost",
+                "A. in eluded in cost of hiring room",
                 "B. available at extra charge",
                 "C. not available"
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam14_lt4_q9",
+              "id": "cam14_t4_l_q9",
               "type": "multiple_choice",
-              "question": "Question 9:",
+              "question": "gym ...............",
               "options": [
-                "A. included in cost",
+                "A. in eluded in cost of hiring room",
                 "B. available at extra charge",
                 "C. not available"
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam14_lt4_q10",
+              "id": "cam14_t4_l_q10",
               "type": "multiple_choice",
-              "question": "Question 10:",
+              "question": "terin is courts ............... 76 ## Page 77 Listening",
               "options": [
-                "A. included in cost",
+                "A. in eluded in cost of hiring room",
                 "B. available at extra charge",
                 "C. not available"
               ],
@@ -1416,374 +1298,347 @@
           ]
         },
         {
-          "id": "cam14_lt4_p2",
+          "id": "cam14_t4_l_p2",
           "title": "Excursions & Evening Entertainment",
           "audioFile": "cam14_s14.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam14_lt4_q11",
+              "id": "cam14_t4_l_q11",
               "type": "matching",
-              "question": "Match the excursion.",
+              "question": "dolphin watching",
               "options": [
                 "A. all downhill",
                 "B. suitable for beginners",
-                "C. includes lunch",
-                "D. food included",
+                "C. only in good weather",
+                "D. food in eluded",
                 "E. no charge",
                 "F. swimming possible",
-                "G. fully booked"
+                "G. fully booked today",
+                "H. transport not included"
               ],
               "correctAnswer": "G"
             },
             {
-              "id": "cam14_lt4_q12",
+              "id": "cam14_t4_l_q12",
               "type": "matching",
-              "question": "Match the excursion.",
+              "question": "forest walk",
               "options": [
                 "A. all downhill",
                 "B. suitable for beginners",
-                "C. includes lunch",
-                "D. food included",
+                "C. only in good weather",
+                "D. food in eluded",
                 "E. no charge",
                 "F. swimming possible",
-                "G. fully booked"
+                "G. fully booked today",
+                "H. transport not included"
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam14_lt4_q13",
+              "id": "cam14_t4_l_q13",
               "type": "matching",
-              "question": "Match the excursion.",
+              "question": "cycle trip",
               "options": [
                 "A. all downhill",
                 "B. suitable for beginners",
-                "C. includes lunch",
-                "D. food included",
+                "C. only in good weather",
+                "D. food in eluded",
                 "E. no charge",
                 "F. swimming possible",
-                "G. fully booked"
+                "G. fully booked today",
+                "H. transport not included"
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam14_lt4_q14",
+              "id": "cam14_t4_l_q14",
               "type": "matching",
-              "question": "Match the excursion.",
+              "question": "local craft tour",
               "options": [
                 "A. all downhill",
                 "B. suitable for beginners",
-                "C. includes lunch",
-                "D. food included",
+                "C. only in good weather",
+                "D. food in eluded",
                 "E. no charge",
                 "F. swimming possible",
-                "G. fully booked"
+                "G. fully booked today",
+                "H. transport not included"
               ],
               "correctAnswer": "E"
             },
             {
-              "id": "cam14_lt4_q15",
+              "id": "cam14_t4_l_q15",
               "type": "matching",
-              "question": "Match the excursion.",
+              "question": "observatory trip",
               "options": [
                 "A. all downhill",
                 "B. suitable for beginners",
-                "C. includes lunch",
-                "D. food included",
+                "C. only in good weather",
+                "D. food in eluded",
                 "E. no charge",
                 "F. swimming possible",
-                "G. fully booked"
+                "G. fully booked today",
+                "H. transport not included"
               ],
               "correctAnswer": "F"
             },
             {
-              "id": "cam14_lt4_q16",
+              "id": "cam14_t4_l_q16",
               "type": "matching",
-              "question": "Match the excursion.",
+              "question": "horse riding 77 ## Page 78 Test 4",
               "options": [
                 "A. all downhill",
                 "B. suitable for beginners",
-                "C. includes lunch",
-                "D. food included",
+                "C. only in good weather",
+                "D. food in eluded",
                 "E. no charge",
                 "F. swimming possible",
-                "G. fully booked"
+                "G. fully booked today",
+                "H. transport not included"
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam14_lt4_q17",
-              "type": "multiple_choice",
-              "question": "Which TWO features of Musical Favourites are mentioned?\nA. includes a meal\nB. book in advance\nC. lasts two hours\nD. meet performers\nE. free admission",
+              "id": "cam14_t4_l_q17",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO things does the speaker say about the attraction called Musical Favourites?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. You pay extra for drinks.",
+                "B. You must book it in advanee.",
+                "C. You get a reduction if you buy two tickets.",
+                "D. You can meet the performers.",
+                "E. You can take part in the show."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. book in advance"
             },
             {
-              "id": "cam14_lt4_q18",
-              "type": "multiple_choice",
-              "question": "Which TWO features of Musical Favourites are mentioned?\nA. includes a meal\nB. book in advance\nC. lasts two hours\nD. meet performers\nE. free admission",
+              "id": "cam14_t4_l_q18",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO things does the speaker say about the attraction called Musical Favourites?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. You pay extra for drinks.",
+                "B. You must book it in advanee.",
+                "C. You get a reduction if you buy two tickets.",
+                "D. You can meet the performers.",
+                "E. You can take part in the show."
               ],
-              "correctAnswer": "D"
+              "correctAnswer": "D. meet performers"
             },
             {
-              "id": "cam14_lt4_q19",
-              "type": "multiple_choice",
-              "question": "Which TWO features of Castle Feast are mentioned?\nA. dance after meal\nB. free drinks\nC. vegetarian options\nD. no knives/forks\nE. children welcome",
+              "id": "cam14_t4_l_q19",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO things does the speaker say about the Castle Feast? Visitors can dance after the meal. There is a choice of food. Visitors wear historical costume. Knives and forks are not used. The en tertai nment in eludes horse races.",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. B c D E"
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. dance after meal"
             },
             {
-              "id": "cam14_lt4_q20",
-              "type": "multiple_choice",
-              "question": "Which TWO features of Castle Feast are mentioned?\nA. dance after meal\nB. free drinks\nC. vegetarian options\nD. no knives/forks\nE. children welcome",
+              "id": "cam14_t4_l_q20",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO things does the speaker say about the Castle Feast? Visitors can dance after the meal. There is a choice of food. Visitors wear historical costume. Knives and forks are not used. The en tertai nment in eludes horse races.",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. B c D E"
               ],
-              "correctAnswer": "D"
+              "correctAnswer": "D. no knives/forks"
             }
           ]
         },
         {
-          "id": "cam14_lt4_p3",
+          "id": "cam14_t4_l_p3",
           "title": "Children's Literature",
           "audioFile": "cam14_s15.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam14_lt4_q21",
+              "id": "cam14_t4_l_q21",
               "type": "multiple_choice",
-              "question": "Question 21:",
+              "question": "What does Trevor find interesting about the purpose of children's literature?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. the fact that authors may no t realise what values they're teachi ng",
+                "B. the fact that literature can be entertaining and educational at the same time",
+                "C. the fact that adults expect children to imitate characters in literature"
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. the fact that authors may no t realise what values they're teachi ng"
             },
             {
-              "id": "cam14_lt4_q22",
+              "id": "cam14_t4_l_q22",
               "type": "multiple_choice",
-              "question": "Question 22:",
+              "question": "Trevor says the module about the purpose of children's literature made him",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. analyse some of the stories that his niece reads.",
+                "B. wonder how far popularity reflects good quality.",
+                "C. decide to start writing some children's stories."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. decide to start writing some children's stories."
             },
             {
-              "id": "cam14_lt4_q23",
+              "id": "cam14_t4_l_q23",
               "type": "multiple_choice",
-              "question": "Question 23:",
+              "question": "Stephanie is interested in the Pictures module because",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. she intends to become an illustrator.",
+                "B. she can remember beautiful illustrations from her childhood.",
+                "C. she believes illustrations are more important than words."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. she intends to become an illustrator."
             },
             {
-              "id": "cam14_lt4_q24",
+              "id": "cam14_t4_l_q24",
               "type": "multiple_choice",
-              "question": "Question 24:",
+              "question": "Trevor and Stephanie agree that comics",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. are inferior to books.",
+                "B. have the potential for being useful.",
+                "C. discourage children from using their imagination."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. have the potential for being useful."
             },
             {
-              "id": "cam14_lt4_q25",
+              "id": "cam14_t4_l_q25",
               "type": "multiple_choice",
-              "question": "Question 25:",
+              "question": "With regard to books aimed at only boys or only girls, Trevor was surprised",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. how long the distinction had gone unquestioned.",
+                "B. how few books were aimed at both girls and boys.",
+                "C. how many children enjoyed books intended for the opposite sex."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. how few books were aimed at both girls and boys."
             },
             {
-              "id": "cam14_lt4_q26",
+              "id": "cam14_t4_l_q26",
               "type": "matching",
-              "question": "Match the book.",
+              "question": "Perraults fairy tales ...............",
               "options": [
-                "A. became a film",
-                "B. hard to read",
-                "C. inspired work in different area of art",
-                "D. based on a true story",
-                "E. title refers to another book",
-                "F. started a new genre",
-                "G. unlikely topic"
+                "A. the fact that authors may no t realise what values they're teachi ng",
+                "B. the fact that literature can be entertaining and educational at the same time",
+                "C. the fact that adults expect children to imitate characters in literature"
               ],
               "correctAnswer": "F"
             },
             {
-              "id": "cam14_lt4_q27",
+              "id": "cam14_t4_l_q27",
               "type": "matching",
-              "question": "Match the book.",
+              "question": "The Swiss Family Robinson ...............",
               "options": [
-                "A. became a film",
-                "B. hard to read",
-                "C. inspired work in different area of art",
-                "D. based on a true story",
-                "E. title refers to another book",
-                "F. started a new genre",
-                "G. unlikely topic"
+                "A. the fact that authors may no t realise what values they're teachi ng",
+                "B. the fact that literature can be entertaining and educational at the same time",
+                "C. the fact that adults expect children to imitate characters in literature"
               ],
               "correctAnswer": "E"
             },
             {
-              "id": "cam14_lt4_q28",
+              "id": "cam14_t4_l_q28",
               "type": "matching",
-              "question": "Match the book.",
+              "question": "The Nutcracker and The Mouse King ...............",
               "options": [
-                "A. became a film",
-                "B. hard to read",
-                "C. inspired work in different area of art",
-                "D. based on a true story",
-                "E. title refers to another book",
-                "F. started a new genre",
-                "G. unlikely topic"
+                "A. the fact that authors may no t realise what values they're teachi ng",
+                "B. the fact that literature can be entertaining and educational at the same time",
+                "C. the fact that adults expect children to imitate characters in literature"
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam14_lt4_q29",
+              "id": "cam14_t4_l_q29",
               "type": "matching",
-              "question": "Match the book.",
+              "question": "The Lord of the Rings ...............",
               "options": [
-                "A. became a film",
-                "B. hard to read",
-                "C. inspired work in different area of art",
-                "D. based on a true story",
-                "E. title refers to another book",
-                "F. started a new genre",
-                "G. unlikely topic"
+                "A. the fact that authors may no t realise what values they're teachi ng",
+                "B. the fact that literature can be entertaining and educational at the same time",
+                "C. the fact that adults expect children to imitate characters in literature"
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam14_lt4_q30",
+              "id": "cam14_t4_l_q30",
               "type": "matching",
-              "question": "Match the book.",
+              "question": "War Horse ............... 80 ## Page 81 Listening",
               "options": [
-                "A. became a film",
-                "B. hard to read",
-                "C. inspired work in different area of art",
-                "D. based on a true story",
-                "E. title refers to another book",
-                "F. started a new genre",
-                "G. unlikely topic"
+                "A. the fact that authors may no t realise what values they're teachi ng",
+                "B. the fact that literature can be entertaining and educational at the same time",
+                "C. the fact that adults expect children to imitate characters in literature"
               ],
               "correctAnswer": "G"
             }
           ]
         },
         {
-          "id": "cam14_lt4_p4",
+          "id": "cam14_t4_l_p4",
           "title": "Marine Archaeology",
           "audioFile": "cam14_s16.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam14_lt4_q31",
-              "type": "notes_completion",
-              "question": "Question 31: ONE WORD ONLY.",
+              "id": "cam14_t4_l_q31",
+              "type": "form_completion",
+              "question": "had a semicircle of large stones round a _____",
               "options": [],
               "correctAnswer": "spring"
             },
             {
-              "id": "cam14_lt4_q32",
-              "type": "notes_completion",
-              "question": "Question 32: ONE WORD ONLY.",
+              "id": "cam14_t4_l_q32",
+              "type": "form_completion",
+              "question": "ATLITYAM | biggest settlement from the prehistoric period found on the seabed | research carried out into structures, _____ and human remains",
               "options": [],
               "correctAnswer": "tools"
             },
             {
-              "id": "cam14_lt4_q33",
-              "type": "notes_completion",
-              "question": "Question 33: ONE WORD ONLY.",
+              "id": "cam14_t4_l_q33",
+              "type": "form_completion",
+              "question": "TRADITIONAL AUTONOMOUS UNDERWATER VEHICLES (AUVs) | used in the oil industry, e.g. to make _____",
               "options": [],
               "correctAnswer": "maps"
             },
             {
-              "id": "cam14_lt4_q34",
-              "type": "notes_completion",
-              "question": "Question 34: ONE WORD ONLY.",
+              "id": "cam14_t4_l_q34",
+              "type": "form_completion",
+              "question": "TRADITIONAL AUTONOMOUS UNDERWATER VEHICLES (AUVs) | problems: they were expensive and _____",
               "options": [],
               "correctAnswer": "heavy"
             },
             {
-              "id": "cam14_lt4_q35",
-              "type": "notes_completion",
-              "question": "Question 35: ONE WORD ONLY.",
+              "id": "cam14_t4_l_q35",
+              "type": "form_completion",
+              "question": "Tests: | elements made of _____",
               "options": [],
               "correctAnswer": "marble"
             },
             {
-              "id": "cam14_lt4_q36",
-              "type": "notes_completion",
-              "question": "Question 36: ONE WORD ONLY.",
+              "id": "cam14_t4_l_q36",
+              "type": "form_completion",
+              "question": "Underwate r internet: | _____ is used for short distance communication, acoustic",
               "options": [],
               "correctAnswer": "light"
             },
             {
-              "id": "cam14_lt4_q37",
-              "type": "notes_completion",
-              "question": "Question 37: ONE WORD ONLY.",
+              "id": "cam14_t4_l_q37",
+              "type": "form_completion",
+              "question": "Underwate r internet: | plans for communication with researchers by satellite | AUV can send data to another AUV that has better _____ .",
               "options": [],
               "correctAnswer": "cameras"
             },
             {
-              "id": "cam14_lt4_q38",
-              "type": "notes_completion",
-              "question": "Question 38: ONE WORD ONLY.",
+              "id": "cam14_t4_l_q38",
+              "type": "form_completion",
+              "question": "Planned research in Gulf of Baratti: | one carrying _____ supplies; tablets may have been used",
               "options": [],
               "correctAnswer": "medical"
             },
             {
-              "id": "cam14_lt4_q39",
-              "type": "notes_completion",
-              "question": "Question 39: ONE WORD ONLY.",
+              "id": "cam14_t4_l_q39",
+              "type": "form_completion",
+              "question": "Planned research in Gulf of Baratti: | for clea ning the _____",
               "options": [],
               "correctAnswer": "eyes"
             },
             {
-              "id": "cam14_lt4_q40",
-              "type": "notes_completion",
-              "question": "Question 40: ONE WORD ONLY.",
+              "id": "cam14_t4_l_q40",
+              "type": "form_completion",
+              "question": "Planned research in Gulf of Baratti: | others carrying containers of olive oil or _____",
               "options": [],
               "correctAnswer": "wine"
             }

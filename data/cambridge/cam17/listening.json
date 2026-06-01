@@ -91,11 +91,9 @@
             {
               "id": "cam17_t1_l_q11",
               "type": "multiple_choice",
-              "question": "What is the maximum number of people who can stand on each side of the boat?",
+              "question": "What is the maximum number of people who can stand on each side of the boat? A",
               "options": [
-                "A. 9",
-                "B. 15",
-                "C. 18"
+                "A. 9"
               ],
               "correctAnswer": "A"
             },
@@ -113,7 +111,7 @@
             {
               "id": "cam17_t1_l_q13",
               "type": "multiple_choice",
-              "question": "Which lunchbox is suitable for someone who doesn't eat meat or fish?",
+              "question": "Which lunchbox is suitable for someone who doesn’t eat meat or fish?",
               "options": [
                 "A. Lunchbox 1",
                 "B. Lunchbox 2",
@@ -148,7 +146,7 @@
             {
               "id": "cam17_t1_l_q16",
               "type": "multiple_choice_multi",
-              "question": "Q15 second option",
+              "question": "Which TWO features of the lighthouse does Lou mention?",
               "options": [
                 "A. why it was built",
                 "B. who built it",
@@ -174,7 +172,7 @@
             {
               "id": "cam17_t1_l_q18",
               "type": "multiple_choice_multi",
-              "question": "Q17 second option",
+              "question": "Which TWO types of creature might come close to the boat?",
               "options": [
                 "A. sea eagles",
                 "B. fur seals",
@@ -200,7 +198,7 @@
             {
               "id": "cam17_t1_l_q20",
               "type": "multiple_choice_multi",
-              "question": "Q19 second option",
+              "question": "Which TWO points does Lou make about the caves?",
               "options": [
                 "A. Only large tourist boats can visit them.",
                 "B. The entrances are often blocked.",
@@ -286,56 +284,56 @@
             {
               "id": "cam17_t1_l_q27",
               "type": "matching",
-              "question": "Medical terminology — what opinion?",
+              "question": "Medical terminology",
               "options": [
                 "A. Tim found this easier than expected.",
                 "B. Tim thought this was not very clearly organised.",
                 "C. Diana may do some further study on this.",
-                "D. They both found the reading difficult.",
-                "E. Tim was shocked at something he learned.",
-                "F. They were both surprised how little is known."
+                "D. They both found the reading required for this was difficult.",
+                "E. Tim was shocked at something he learned on this module.",
+                "F. They were both surprised how little is known about some aspects of this. Modules on Veterinary Science course"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam17_t1_l_q28",
               "type": "matching",
-              "question": "Diet and nutrition — what opinion?",
+              "question": "Diet and nutrition",
               "options": [
                 "A. Tim found this easier than expected.",
                 "B. Tim thought this was not very clearly organised.",
                 "C. Diana may do some further study on this.",
-                "D. They both found the reading difficult.",
-                "E. Tim was shocked at something he learned.",
-                "F. They were both surprised how little is known."
+                "D. They both found the reading required for this was difficult.",
+                "E. Tim was shocked at something he learned on this module.",
+                "F. They were both surprised how little is known about some aspects of this. Modules on Veterinary Science course"
               ],
               "correctAnswer": "E"
             },
             {
               "id": "cam17_t1_l_q29",
               "type": "matching",
-              "question": "Animal disease — what opinion?",
+              "question": "Animal disease",
               "options": [
                 "A. Tim found this easier than expected.",
                 "B. Tim thought this was not very clearly organised.",
                 "C. Diana may do some further study on this.",
-                "D. They both found the reading difficult.",
-                "E. Tim was shocked at something he learned.",
-                "F. They were both surprised how little is known."
+                "D. They both found the reading required for this was difficult.",
+                "E. Tim was shocked at something he learned on this module.",
+                "F. They were both surprised how little is known about some aspects of this. Modules on Veterinary Science course"
               ],
               "correctAnswer": "F"
             },
             {
               "id": "cam17_t1_l_q30",
               "type": "matching",
-              "question": "Wildlife medication — what opinion?",
+              "question": "Wildlife medication",
               "options": [
                 "A. Tim found this easier than expected.",
                 "B. Tim thought this was not very clearly organised.",
                 "C. Diana may do some further study on this.",
-                "D. They both found the reading difficult.",
-                "E. Tim was shocked at something he learned.",
-                "F. They were both surprised how little is known."
+                "D. They both found the reading required for this was difficult.",
+                "E. Tim was shocked at something he learned on this module.",
+                "F. They were both surprised how little is known about some aspects of this. Modules on Veterinary Science course"
               ],
               "correctAnswer": "C"
             }
@@ -531,7 +529,7 @@
             {
               "id": "cam17_t2_l_q13",
               "type": "multiple_choice",
-              "question": "Visitors can learn about the work of servants from",
+              "question": "Visitors can learn about the work of servants in the past from",
               "options": [
                 "A. audio guides.",
                 "B. photographs.",
@@ -553,7 +551,7 @@
             {
               "id": "cam17_t2_l_q15",
               "type": "matching",
-              "question": "dairy — which activity?",
+              "question": "dairy",
               "options": [
                 "A. shopping",
                 "B. watching cows being milked",
@@ -562,14 +560,14 @@
                 "E. starting a trip",
                 "F. seeing rare breeds of animals",
                 "G. helping to look after animals",
-                "H. using farming tools"
+                "H. using farming tools Locations on the farm"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam17_t2_l_q16",
               "type": "matching",
-              "question": "large barn — which activity?",
+              "question": "large barn",
               "options": [
                 "A. shopping",
                 "B. watching cows being milked",
@@ -578,14 +576,14 @@
                 "E. starting a trip",
                 "F. seeing rare breeds of animals",
                 "G. helping to look after animals",
-                "H. using farming tools"
+                "H. using farming tools Locations on the farm"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam17_t2_l_q17",
               "type": "matching",
-              "question": "small barn — which activity?",
+              "question": "small barn",
               "options": [
                 "A. shopping",
                 "B. watching cows being milked",
@@ -594,14 +592,14 @@
                 "E. starting a trip",
                 "F. seeing rare breeds of animals",
                 "G. helping to look after animals",
-                "H. using farming tools"
+                "H. using farming tools Locations on the farm"
               ],
               "correctAnswer": "G"
             },
             {
               "id": "cam17_t2_l_q18",
               "type": "matching",
-              "question": "stables — which activity?",
+              "question": "stables",
               "options": [
                 "A. shopping",
                 "B. watching cows being milked",
@@ -610,14 +608,14 @@
                 "E. starting a trip",
                 "F. seeing rare breeds of animals",
                 "G. helping to look after animals",
-                "H. using farming tools"
+                "H. using farming tools Locations on the farm"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam17_t2_l_q19",
               "type": "matching",
-              "question": "shed — which activity?",
+              "question": "shed",
               "options": [
                 "A. shopping",
                 "B. watching cows being milked",
@@ -626,14 +624,14 @@
                 "E. starting a trip",
                 "F. seeing rare breeds of animals",
                 "G. helping to look after animals",
-                "H. using farming tools"
+                "H. using farming tools Locations on the farm"
               ],
               "correctAnswer": "E"
             },
             {
               "id": "cam17_t2_l_q20",
               "type": "matching",
-              "question": "parkland — which activity?",
+              "question": "parkland p. 121        p. 102      33 ## Page 34 Test 2",
               "options": [
                 "A. shopping",
                 "B. watching cows being milked",
@@ -642,7 +640,7 @@
                 "E. starting a trip",
                 "F. seeing rare breeds of animals",
                 "G. helping to look after animals",
-                "H. using farming tools"
+                "H. using farming tools Locations on the farm"
               ],
               "correctAnswer": "F"
             }
@@ -669,7 +667,7 @@
             {
               "id": "cam17_t2_l_q22",
               "type": "multiple_choice_multi",
-              "question": "Q21 second option",
+              "question": "Which TWO things do the students agree they need to include in their reviews?",
               "options": [
                 "A. analysis of the text",
                 "B. a summary of the plot",
@@ -757,7 +755,7 @@
             {
               "id": "cam17_t2_l_q28",
               "type": "multiple_choice",
-              "question": "The students think Romeo and Juliet is still relevant for young people because",
+              "question": "The students think the story of Romeo and Juliet is still relevant for young people today because",
               "options": [
                 "A. it illustrates how easily conflict can start.",
                 "B. it deals with problems that families experience.",
@@ -779,7 +777,7 @@
             {
               "id": "cam17_t2_l_q30",
               "type": "multiple_choice",
-              "question": "Why do the students think Shakespeare's plays have such international appeal?",
+              "question": "Why do the students think Shakespeare’s plays have such international appeal?",
               "options": [
                 "A. The stories are exciting.",
                 "B. There are recognisable characters.",
@@ -970,7 +968,7 @@
             {
               "id": "cam17_t3_l_q12",
               "type": "multiple_choice_multi",
-              "question": "Q11 second option",
+              "question": "Which TWO facts are given about the school's extended hours childcare service?",
               "options": [
                 "A. It started recently.",
                 "B. More children attend after school than before school.",
@@ -1016,7 +1014,7 @@
             {
               "id": "cam17_t3_l_q16",
               "type": "matching",
-              "question": "Spanish — what information?",
+              "question": "Questions 11 and 12 Which TWO facts are given about the school’s extended hours childcare service? A It started recently. B More children attend after school than before school. C An average of 50 children attend in the mornings. D",
               "options": [
                 "A. has limited availability",
                 "B. is no longer available",
@@ -1024,14 +1022,14 @@
                 "D. requires help from parents",
                 "E. involves an additional fee",
                 "F. is a new activity",
-                "G. was requested by children"
+                "G. was requested by children Activities"
               ],
               "correctAnswer": "E"
             },
             {
               "id": "cam17_t3_l_q17",
               "type": "matching",
-              "question": "Music — what information?",
+              "question": "Questions 11 and 12 Which TWO facts are given about the school’s extended hours childcare service? A It started recently. B More children attend after school than before school. C An average of 50 children attend in the mornings. D",
               "options": [
                 "A. has limited availability",
                 "B. is no longer available",
@@ -1039,14 +1037,14 @@
                 "D. requires help from parents",
                 "E. involves an additional fee",
                 "F. is a new activity",
-                "G. was requested by children"
+                "G. was requested by children Activities"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam17_t3_l_q18",
               "type": "matching",
-              "question": "Painting — what information?",
+              "question": "Questions 11 and 12 Which TWO facts are given about the school’s extended hours childcare service? A It started recently. B More children attend after school than before school. C An average of 50 children attend in the mornings. D",
               "options": [
                 "A. has limited availability",
                 "B. is no longer available",
@@ -1054,14 +1052,14 @@
                 "D. requires help from parents",
                 "E. involves an additional fee",
                 "F. is a new activity",
-                "G. was requested by children"
+                "G. was requested by children Activities"
               ],
               "correctAnswer": "G"
             },
             {
               "id": "cam17_t3_l_q19",
               "type": "matching",
-              "question": "Yoga — what information?",
+              "question": "Questions 11 and 12 Which TWO facts are given about the school’s extended hours childcare service? A It started recently. B More children attend after school than before school. C An average of 50 children attend in the mornings. D",
               "options": [
                 "A. has limited availability",
                 "B. is no longer available",
@@ -1069,14 +1067,14 @@
                 "D. requires help from parents",
                 "E. involves an additional fee",
                 "F. is a new activity",
-                "G. was requested by children"
+                "G. was requested by children Activities"
               ],
               "correctAnswer": "F"
             },
             {
               "id": "cam17_t3_l_q20",
               "type": "matching",
-              "question": "Cooking — what information?",
+              "question": "Questions 11 and 12 Which TWO facts are given about the school’s extended hours childcare service? A It started recently. B More children attend after school than before school. C An average of 50 children attend in the mornings. D",
               "options": [
                 "A. has limited availability",
                 "B. is no longer available",
@@ -1084,7 +1082,7 @@
                 "D. requires help from parents",
                 "E. involves an additional fee",
                 "F. is a new activity",
-                "G. was requested by children"
+                "G. was requested by children Activities"
               ],
               "correctAnswer": "C"
             }
@@ -1124,7 +1122,7 @@
               "options": [
                 "A. They can be hard to manage.",
                 "B. They make useful volunteers.",
-                "C. They shouldn't take photographs."
+                "C. They shouldn’t take photographs."
               ],
               "correctAnswer": "A"
             },
@@ -1142,7 +1140,7 @@
             {
               "id": "cam17_t3_l_q25",
               "type": "matching",
-              "question": "Communication — important aspect?",
+              "question": "Communication",
               "options": [
                 "A. being flexible",
                 "B. focusing on details",
@@ -1151,14 +1149,14 @@
                 "E. relying on experts",
                 "F. trusting your own views",
                 "G. doing one thing at a time",
-                "H. thinking of the future"
+                "H. thinking of the future Events management skills"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam17_t3_l_q26",
               "type": "matching",
-              "question": "Organisation — important aspect?",
+              "question": "Organisation",
               "options": [
                 "A. being flexible",
                 "B. focusing on details",
@@ -1167,14 +1165,14 @@
                 "E. relying on experts",
                 "F. trusting your own views",
                 "G. doing one thing at a time",
-                "H. thinking of the future"
+                "H. thinking of the future Events management skills"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam17_t3_l_q27",
               "type": "matching",
-              "question": "Time management — important aspect?",
+              "question": "Time management",
               "options": [
                 "A. being flexible",
                 "B. focusing on details",
@@ -1183,14 +1181,14 @@
                 "E. relying on experts",
                 "F. trusting your own views",
                 "G. doing one thing at a time",
-                "H. thinking of the future"
+                "H. thinking of the future Events management skills"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam17_t3_l_q28",
               "type": "matching",
-              "question": "Creativity — important aspect?",
+              "question": "Creativity",
               "options": [
                 "A. being flexible",
                 "B. focusing on details",
@@ -1199,14 +1197,14 @@
                 "E. relying on experts",
                 "F. trusting your own views",
                 "G. doing one thing at a time",
-                "H. thinking of the future"
+                "H. thinking of the future Events management skills"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam17_t3_l_q29",
               "type": "matching",
-              "question": "Leadership — important aspect?",
+              "question": "Leadership",
               "options": [
                 "A. being flexible",
                 "B. focusing on details",
@@ -1215,14 +1213,14 @@
                 "E. relying on experts",
                 "F. trusting your own views",
                 "G. doing one thing at a time",
-                "H. thinking of the future"
+                "H. thinking of the future Events management skills"
               ],
               "correctAnswer": "F"
             },
             {
               "id": "cam17_t3_l_q30",
               "type": "matching",
-              "question": "Networking — important aspect?",
+              "question": "Networking p. 123        p. 109      57 ## Page 58 Test 3",
               "options": [
                 "A. being flexible",
                 "B. focusing on details",
@@ -1231,7 +1229,7 @@
                 "E. relying on experts",
                 "F. trusting your own views",
                 "G. doing one thing at a time",
-                "H. thinking of the future"
+                "H. thinking of the future Events management skills"
               ],
               "correctAnswer": "H"
             }
@@ -1449,66 +1447,66 @@
             {
               "id": "cam17_t4_l_q15",
               "type": "matching",
-              "question": "The Sun Club — which way of reducing staff turnover?",
+              "question": "The Sun Club",
               "options": [
-                "A. improving relationships and teamwork",
-                "B. offering incentives and financial benefits",
-                "C. providing career opportunities"
+                "A. a lack of training.",
+                "B. long hours.",
+                "C. low pay."
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam17_t4_l_q16",
               "type": "matching",
-              "question": "The Portland — which way?",
+              "question": "The Portland",
               "options": [
-                "A. improving relationships and teamwork",
-                "B. offering incentives and financial benefits",
-                "C. providing career opportunities"
+                "A. a lack of training.",
+                "B. long hours.",
+                "C. low pay."
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam17_t4_l_q17",
               "type": "matching",
-              "question": "Bluewater Hotels — which way?",
+              "question": "Bluewater Hotels",
               "options": [
-                "A. improving relationships and teamwork",
-                "B. offering incentives and financial benefits",
-                "C. providing career opportunities"
+                "A. a lack of training.",
+                "B. long hours.",
+                "C. low pay."
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam17_t4_l_q18",
               "type": "matching",
-              "question": "Pentlow Hotels — which way?",
+              "question": "Pentlow Hotels",
               "options": [
-                "A. improving relationships and teamwork",
-                "B. offering incentives and financial benefits",
-                "C. providing career opportunities"
+                "A. a lack of training.",
+                "B. long hours.",
+                "C. low pay."
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam17_t4_l_q19",
               "type": "matching",
-              "question": "Green Planet — which way?",
+              "question": "Green Planet",
               "options": [
-                "A. improving relationships and teamwork",
-                "B. offering incentives and financial benefits",
-                "C. providing career opportunities"
+                "A. a lack of training.",
+                "B. long hours.",
+                "C. low pay."
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam17_t4_l_q20",
               "type": "matching",
-              "question": "The Amesbury — which way?",
+              "question": "The Amesbury p. 125        p. 114      77 ## Page 78 Test 4 78",
               "options": [
-                "A. improving relationships and teamwork",
-                "B. offering incentives and financial benefits",
-                "C. providing career opportunities"
+                "A. a lack of training.",
+                "B. long hours.",
+                "C. low pay."
               ],
               "correctAnswer": "A"
             }
@@ -1535,7 +1533,7 @@
             {
               "id": "cam17_t4_l_q22",
               "type": "multiple_choice_multi",
-              "question": "Q21 second option",
+              "question": "Which TWO points do Thomas and Jeanne make about Thomas's sporting activities at school?",
               "options": [
                 "A. He should have felt more positive.",
                 "B. The training was too challenging.",
@@ -1561,7 +1559,7 @@
             {
               "id": "cam17_t4_l_q24",
               "type": "multiple_choice_multi",
-              "question": "Q23 second option",
+              "question": "Which TWO feelings did Thomas experience when he was in Kenya?",
               "options": [
                 "A. disbelief",
                 "B. relief",

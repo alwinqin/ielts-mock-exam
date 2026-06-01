@@ -15,7 +15,7 @@
             {
               "id": "cam16_t1_r_q1",
               "type": "tfng",
-              "question": "The plight of the polar bear is used to illustrate the impact of climate change on biodiversity.",
+              "question": "Polar bears suffer from various health problems due to the build-up of fat under their skin.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -26,7 +26,7 @@
             {
               "id": "cam16_t1_r_q2",
               "type": "tfng",
-              "question": "Polar bears are likely to survive only in zoos if climate change continues.",
+              "question": "The study done by Liu and his colleagues compared different groups of polar bears.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -37,7 +37,7 @@
             {
               "id": "cam16_t1_r_q3",
               "type": "tfng",
-              "question": "Polar bears have always had to adapt to changes in their environment.",
+              "question": "Liu and colleagues were the first researchers to compare polar bears and brown bears genetically.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -48,7 +48,7 @@
             {
               "id": "cam16_t1_r_q4",
               "type": "tfng",
-              "question": "Polar bears are an endangered species according to the IUCN.",
+              "question": "Polar bears are able to control their levels of 'bad' cholesterol by genetic means.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -59,7 +59,7 @@
             {
               "id": "cam16_t1_r_q5",
               "type": "tfng",
-              "question": "The melting of sea ice is the biggest threat to polar bear survival.",
+              "question": "Female polar bears are able to survive for about six months without food.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -70,7 +70,7 @@
             {
               "id": "cam16_t1_r_q6",
               "type": "tfng",
-              "question": "Polar bears spend most of their time hunting on land.",
+              "question": "It was found that the bones of female polar bears were very weak when they came out of their dens in spring.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -81,7 +81,7 @@
             {
               "id": "cam16_t1_r_q7",
               "type": "tfng",
-              "question": "Protecting polar bears could have benefits for other species as well.",
+              "question": "The polar bear's mechanism for increasing bone density could also be used by people one day.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -91,43 +91,43 @@
             },
             {
               "id": "cam16_t1_r_q8",
-              "type": "notes_completion",
-              "question": "8. Behaviour: becoming more _____",
+              "type": "form_completion",
+              "question": "Reasons why polar bears should be protected | People think of bears as unintelligent and 8",
               "options": [],
               "correctAnswer": "violent"
             },
             {
               "id": "cam16_t1_r_q9",
-              "type": "notes_completion",
-              "question": "9. Survival skill: using ice as a _____",
+              "type": "form_completion",
+              "question": "However, this may not be correct. For example: | In Tennoji Zoo, a bear has been seen using a branch as a 9",
               "options": [],
               "correctAnswer": "tool"
             },
             {
               "id": "cam16_t1_r_q10",
-              "type": "notes_completion",
-              "question": "10. Diet: mainly _____, especially seal fat",
+              "type": "form_completion",
+              "question": "However, this may not be correct. For example: | This allowed him to knock down some 10",
               "options": [],
               "correctAnswer": "meat"
             },
             {
               "id": "cam16_t1_r_q11",
-              "type": "notes_completion",
-              "question": "11. Threat to polar bears: _____",
+              "type": "form_completion",
+              "question": "centimetres of fat underneath their skin. Humans with comparative levels of adipose tissue would be considered obese and would be likely to suffer from diabetes and heart disease. Yet the polar bear experiences no such consequences.",
               "options": [],
               "correctAnswer": "photographer"
             },
             {
               "id": "cam16_t1_r_q12",
-              "type": "notes_completion",
-              "question": "12. Polar bears' food source: _____",
+              "type": "form_completion",
+              "question": "However, this may not be correct. For example: | Polar bears have displayed behaviour such as conscious manipulation of objects and activity similar to a 12",
               "options": [],
               "correctAnswer": "game"
             },
             {
               "id": "cam16_t1_r_q13",
-              "type": "notes_completion",
-              "question": "13. Researchers feel: _____ at the lack of public awareness",
+              "type": "form_completion",
+              "question": "Bears may also display emotions. For example: | They may make movements suggesting 13",
               "options": [],
               "correctAnswer": "frustration"
             }
@@ -142,140 +142,142 @@
             {
               "id": "cam16_t1_r_q14",
               "type": "matching_headings",
-              "question": "A single certainty among other less definite facts",
+              "question": "Paragraph A",
               "options": [
                 "i. The areas and artefacts within the pyramid itself",
                 "ii. A difficult task for those involved",
-                "iii. The reasons for the pyramid's survival through the ages",
+                "iii. A king who saved his people",
                 "iv. A single certainty among other less definite facts",
                 "v. An overview of the external buildings and areas",
                 "vi. A pyramid design that others copied",
                 "vii. An idea for changing the design of burial structures",
-                "viii. An incredible experience despite the few remains"
+                "viii. An incredible experience despite the few remains",
+                "ix. The answers to some unexpected questions"
               ],
               "correctAnswer": "iv"
             },
             {
               "id": "cam16_t1_r_q15",
               "type": "matching_headings",
-              "question": "An idea for changing the design of burial structures",
+              "question": "Paragraph B",
               "options": [
                 "i. The areas and artefacts within the pyramid itself",
                 "ii. A difficult task for those involved",
-                "iii. The reasons for the pyramid's survival through the ages",
+                "iii. A king who saved his people",
                 "iv. A single certainty among other less definite facts",
                 "v. An overview of the external buildings and areas",
                 "vi. A pyramid design that others copied",
                 "vii. An idea for changing the design of burial structures",
-                "viii. An incredible experience despite the few remains"
+                "viii. An incredible experience despite the few remains",
+                "ix. The answers to some unexpected questions"
               ],
               "correctAnswer": "vii"
             },
             {
               "id": "cam16_t1_r_q16",
               "type": "matching_headings",
-              "question": "A difficult task for those involved",
+              "question": "Paragraph C",
               "options": [
                 "i. The areas and artefacts within the pyramid itself",
                 "ii. A difficult task for those involved",
-                "iii. The reasons for the pyramid's survival through the ages",
+                "iii. A king who saved his people",
                 "iv. A single certainty among other less definite facts",
                 "v. An overview of the external buildings and areas",
                 "vi. A pyramid design that others copied",
                 "vii. An idea for changing the design of burial structures",
-                "viii. An incredible experience despite the few remains"
+                "viii. An incredible experience despite the few remains",
+                "ix. The answers to some unexpected questions"
               ],
               "correctAnswer": "ii"
             },
             {
               "id": "cam16_t1_r_q17",
               "type": "matching_headings",
-              "question": "An overview of the external buildings and areas",
+              "question": "Paragraph D",
               "options": [
                 "i. The areas and artefacts within the pyramid itself",
                 "ii. A difficult task for those involved",
-                "iii. The reasons for the pyramid's survival through the ages",
+                "iii. A king who saved his people",
                 "iv. A single certainty among other less definite facts",
                 "v. An overview of the external buildings and areas",
                 "vi. A pyramid design that others copied",
                 "vii. An idea for changing the design of burial structures",
-                "viii. An incredible experience despite the few remains"
+                "viii. An incredible experience despite the few remains",
+                "ix. The answers to some unexpected questions"
               ],
               "correctAnswer": "v"
             },
             {
               "id": "cam16_t1_r_q18",
               "type": "matching_headings",
-              "question": "The areas and artefacts within the pyramid itself",
+              "question": "Paragraph E",
               "options": [
                 "i. The areas and artefacts within the pyramid itself",
                 "ii. A difficult task for those involved",
-                "iii. The reasons for the pyramid's survival through the ages",
+                "iii. A king who saved his people",
                 "iv. A single certainty among other less definite facts",
                 "v. An overview of the external buildings and areas",
                 "vi. A pyramid design that others copied",
                 "vii. An idea for changing the design of burial structures",
-                "viii. An incredible experience despite the few remains"
+                "viii. An incredible experience despite the few remains",
+                "ix. The answers to some unexpected questions"
               ],
               "correctAnswer": "i"
             },
             {
               "id": "cam16_t1_r_q19",
               "type": "matching_headings",
-              "question": "An incredible experience despite the few remains",
+              "question": "Paragraph F",
               "options": [
                 "i. The areas and artefacts within the pyramid itself",
                 "ii. A difficult task for those involved",
-                "iii. The reasons for the pyramid's survival through the ages",
+                "iii. A king who saved his people",
                 "iv. A single certainty among other less definite facts",
                 "v. An overview of the external buildings and areas",
                 "vi. A pyramid design that others copied",
                 "vii. An idea for changing the design of burial structures",
-                "viii. An incredible experience despite the few remains"
+                "viii. An incredible experience despite the few remains",
+                "ix. The answers to some unexpected questions"
               ],
               "correctAnswer": "viii"
             },
             {
               "id": "cam16_t1_r_q20",
               "type": "matching_headings",
-              "question": "A pyramid design that others copied",
+              "question": "## Page 21 Reading The Step Pyramid of Djoser",
               "options": [
-                "i. The areas and artefacts within the pyramid itself",
-                "ii. A difficult task for those involved",
-                "iii. The reasons for the pyramid's survival through the ages",
-                "iv. A single certainty among other less definite facts",
-                "v. An overview of the external buildings and areas",
-                "vi. A pyramid design that others copied",
-                "vii. An idea for changing the design of burial structures",
-                "viii. An incredible experience despite the few remains"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "vi"
             },
             {
               "id": "cam16_t1_r_q21",
-              "type": "notes_completion",
-              "question": "21. Ancient Egyptian _____ was a holy site",
+              "type": "form_completion",
+              "question": "The complex that includes the Step Pyramid and its surroundings is considered to be as big as an Egyptian 21",
               "options": [],
               "correctAnswer": "city"
             },
             {
               "id": "cam16_t1_r_q22",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "22. The complex was used by _____ for ceremonies",
               "options": [],
               "correctAnswer": "priests"
             },
             {
               "id": "cam16_t1_r_q23",
-              "type": "notes_completion",
-              "question": "23. The pyramid was surrounded by a _____",
+              "type": "form_completion",
+              "question": "A wall ran around the outside of the complex and a number of false entrances were built into this. In addition, a long 23",
               "options": [],
               "correctAnswer": "trench"
             },
             {
               "id": "cam16_t1_r_q24",
-              "type": "notes_completion",
-              "question": "24. The _____ of the burial chamber was kept secret",
+              "type": "form_completion",
+              "question": "The Step Pyramid of Djoser | A wall ran around the outside of the complex and a number of false entrances were built into this. In addition, a long 23 ............................ encircled the wall. As a result, any visitors who had not been invited were cleverly prevented from entering the pyramid grounds unless they knew the 24",
               "options": [],
               "correctAnswer": "location"
             },
@@ -316,7 +318,7 @@
             {
               "id": "cam16_t1_r_q27",
               "type": "multiple_choice",
-              "question": "Question 27: Choose the correct letter.",
+              "question": "The first paragraph tells us about",
               "options": [
                 "A",
                 "B",
@@ -328,7 +330,7 @@
             {
               "id": "cam16_t1_r_q28",
               "type": "multiple_choice",
-              "question": "Question 28: Choose the correct letter.",
+              "question": "According to the second paragraph, what is Stella Pachidi's view of the 'knowledge economy'?",
               "options": [
                 "A",
                 "B",
@@ -340,7 +342,7 @@
             {
               "id": "cam16_t1_r_q29",
               "type": "multiple_choice",
-              "question": "Question 29: Choose the correct letter.",
+              "question": "What did Pachidi observe at the telecommunications company?",
               "options": [
                 "A",
                 "B",
@@ -352,7 +354,7 @@
             {
               "id": "cam16_t1_r_q30",
               "type": "multiple_choice",
-              "question": "Question 30: Choose the correct letter.",
+              "question": "In his recently published research, Ewan McGaughey",
               "options": [
                 "A",
                 "B",
@@ -364,90 +366,94 @@
             {
               "id": "cam16_t1_r_q31",
               "type": "summary_completion",
-              "question": "31. Algorithms and AI are changing the nature of work, but the most valuable resource may still be human _____",
+              "question": "The ‘algorithmisation’ of jobs | Stella Pachidi of Cambridge Judge Business School has been focusing on the ‘algorithmisation’ of jobs which rely not only on production but on 31",
               "options": [],
               "correctAnswer": "data"
             },
             {
               "id": "cam16_t1_r_q32",
               "type": "summary_completion",
-              "question": "32. Some argue that our _____ on technology is weakening essential workplace skills",
+              "question": "While monitoring a telecommunications company, Pachidi observed a growing 32",
               "options": [],
               "correctAnswer": "reliance"
             },
             {
               "id": "cam16_t1_r_q33",
               "type": "summary_completion",
-              "question": "33. Others warn against relying too heavily on _____ rather than evidence",
+              "question": "The ‘algorithmisation’ of jobs | While monitoring a telecommunications company, Pachidi observed a growing 32 ............................ on the recommendations made by AI, as workers begin to learn through the ‘algorithm’s eyes’. Meanwhile, staff are deterred from experimenting and using their own 33",
               "options": [],
               "correctAnswer": "intuition"
             },
             {
               "id": "cam16_t1_r_q34",
               "type": "summary_completion",
-              "question": "34. Maintaining _____ in one's own abilities is important for career progression",
+              "question": "The ‘algorithmisation’ of jobs | To avoid the kind of situations which Pachidi observed, researchers are trying to make AI’s decisionmaking process easier to comprehend, and to increase users’ 34",
               "options": [],
               "correctAnswer": "confidence"
             },
             {
               "id": "cam16_t1_r_q35",
               "type": "summary_completion",
-              "question": "35. One prediction about the future labour market is that _____",
+              "question": "Greater levels of automation will not result in lower employment.",
               "options": [],
               "correctAnswer": "The number of jobs will increase"
             },
             {
               "id": "cam16_t1_r_q36",
               "type": "matching_names",
-              "question": "Technology may reduce workers' ability to think for themselves.",
+              "question": "There are several reasons why AI is appealing to businesses.",
               "options": [
-                "A. Stella Pachidi",
-                "B. Hamish Low",
-                "C. Ewan McGaughey"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam16_t1_r_q37",
               "type": "matching_names",
-              "question": "New types of jobs are being created by technological advances.",
+              "question": "AI's potential to transform people's lives has parallels with major cultural shifts which occurred in previous eras.",
               "options": [
-                "A. Stella Pachidi",
-                "B. Hamish Low",
-                "C. Ewan McGaughey"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam16_t1_r_q38",
               "type": "matching_names",
-              "question": "Changes to employment law are needed to protect workers' rights.",
+              "question": "It is important to be aware of the range of problems that AI causes.",
               "options": [
-                "A. Stella Pachidi",
-                "B. Hamish Low",
-                "C. Ewan McGaughey"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam16_t1_r_q39",
               "type": "matching_names",
-              "question": "The benefits of automation are not equally distributed across society.",
+              "question": "People are going to follow a less conventional career path than in the past.",
               "options": [
-                "A. Stella Pachidi",
-                "B. Hamish Low",
-                "C. Ewan McGaughey"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam16_t1_r_q40",
               "type": "matching_names",
-              "question": "Greater regulation of the gig economy is required.",
+              "question": "Authorities should take measures to ensure that there will be adequately paid work for everyone. List of people",
               "options": [
-                "A. Stella Pachidi",
-                "B. Hamish Low",
-                "C. Ewan McGaughey"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "C"
             }
@@ -468,7 +474,7 @@
             {
               "id": "cam16_t2_r_q1",
               "type": "tfng",
-              "question": "The White Horse of Uffington is the only prehistoric hill figure in Britain.",
+              "question": "Most geoglyphs in England are located in a particular area of the country.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -479,7 +485,7 @@
             {
               "id": "cam16_t2_r_q2",
               "type": "tfng",
-              "question": "The figure was originally built as a monument to a Celtic king.",
+              "question": "There are more geoglyphs in the shape of a horse than any other creature.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -490,7 +496,7 @@
             {
               "id": "cam16_t2_r_q3",
               "type": "tfng",
-              "question": "The Uffington Horse has been maintained by local communities over centuries.",
+              "question": "A recent dating of the Uffington White Horse indicates that people were mistaken about its age.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -501,7 +507,7 @@
             {
               "id": "cam16_t2_r_q4",
               "type": "tfng",
-              "question": "The horse is clearly visible from a distance of several miles.",
+              "question": "Historians have come to an agreement about the origins of the Long Man of Wilmington.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -512,7 +518,7 @@
             {
               "id": "cam16_t2_r_q5",
               "type": "tfng",
-              "question": "All other white horses in Britain are from the last 300 years.",
+              "question": "Geoglyphs were created by people placing white chalk on the hillside.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -523,7 +529,7 @@
             {
               "id": "cam16_t2_r_q6",
               "type": "tfng",
-              "question": "The horse's shape is unique compared to other ancient hill figures.",
+              "question": "Many geoglyphs in England are no longer visible.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -534,7 +540,7 @@
             {
               "id": "cam16_t2_r_q7",
               "type": "tfng",
-              "question": "Archaeological methods have confirmed the ancient origins of the figure.",
+              "question": "The shape of some geoglyphs has been altered over time.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -545,7 +551,7 @@
             {
               "id": "cam16_t2_r_q8",
               "type": "tfng",
-              "question": "The figure was associated with a specific Celtic goddess.",
+              "question": "The fame of the Uffington White Horse is due to its size.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -555,36 +561,36 @@
             },
             {
               "id": "cam16_t2_r_q9",
-              "type": "notes_completion",
-              "question": "9. The horse lies near an ancient track known as the _____",
+              "type": "form_completion",
+              "question": "The location of the Uffington White Horse: | near an ancient road known as the 9",
               "options": [],
               "correctAnswer": "Ridgeway"
             },
             {
               "id": "cam16_t2_r_q10",
-              "type": "notes_completion",
-              "question": "10. The earliest written records referring to the horse date from medieval _____",
+              "type": "form_completion",
+              "question": "Dating the Uffington White Horse: | first reference to White Horse Hill appears in 10",
               "options": [],
               "correctAnswer": "documents"
             },
             {
               "id": "cam16_t2_r_q11",
-              "type": "notes_completion",
-              "question": "11. The figure was created by cutting through turf to reveal the white _____ beneath",
+              "type": "form_completion",
+              "question": "Dating the Uffington White Horse: | according to analysis of the surrounding 11",
               "options": [],
               "correctAnswer": "soil"
             },
             {
               "id": "cam16_t2_r_q12",
-              "type": "notes_completion",
-              "question": "12. One theory links the horse to beliefs about _____ and new life",
+              "type": "form_completion",
+              "question": "Possible reasons for creation of the Uffington White Horse: | was a representation of goddess Epona associated with protection of horses and 12",
               "options": [],
               "correctAnswer": "fertility"
             },
             {
               "id": "cam16_t2_r_q13",
-              "type": "notes_completion",
-              "question": "13. In Celtic mythology, _____ was associated with horses",
+              "type": "form_completion",
+              "question": "Possible reasons for creation of the Uffington White Horse: | was a representation of a Welsh goddess called 13",
               "options": [],
               "correctAnswer": "Rhiannon"
             }
@@ -599,7 +605,7 @@
             {
               "id": "cam16_t2_r_q14",
               "type": "multiple_choice",
-              "question": "Question 14: Choose the correct letter.",
+              "question": "What point does the writer make about microbes in the first paragraph?",
               "options": [
                 "A",
                 "B",
@@ -611,7 +617,7 @@
             {
               "id": "cam16_t2_r_q15",
               "type": "multiple_choice",
-              "question": "Question 15: Choose the correct letter.",
+              "question": "In the second paragraph, the writer is impressed by the fact that",
               "options": [
                 "A",
                 "B",
@@ -623,7 +629,7 @@
             {
               "id": "cam16_t2_r_q16",
               "type": "multiple_choice",
-              "question": "Question 16: Choose the correct letter.",
+              "question": "What is the writer doing in the fifth paragraph?",
               "options": [
                 "A",
                 "B",
@@ -635,94 +641,100 @@
             {
               "id": "cam16_t2_r_q17",
               "type": "summary_completion",
-              "question": "17. The microbiome helps protect us from _____",
+              "question": "We should be more tolerant of microbes | Yong's book argues that we should be more tolerant of microbes. Many have a | beneficial effect, and only a relatively small number lead to 17",
               "options": [],
               "correctAnswer": "disease"
             },
             {
               "id": "cam16_t2_r_q18",
               "type": "summary_completion",
-              "question": "18. The relationship between humans and microbes is best described as a _____",
+              "question": "We should be more tolerant of microbes | them as the enemy. In fact, we should accept that our relationship with microbes is one | based on 18",
               "options": [],
               "correctAnswer": "partnership"
             },
             {
               "id": "cam16_t2_r_q19",
               "type": "summary_completion",
-              "question": "19. Our diet directly affects our _____",
+              "question": "We should be more tolerant of microbes | things, they aid digestion, remove poisons, produce vitamins and may even help reduce | obesity. However, there is a growing problem. Our poor 19",
               "options": [],
               "correctAnswer": "nutrition"
             },
             {
               "id": "cam16_t2_r_q20",
               "type": "summary_completion",
-              "question": "20. A key factor in maintaining good health is _____",
+              "question": "We should be more tolerant of microbes | things, they aid digestion, remove poisons, produce vitamins and may even help reduce | overuse of antibiotics, and our excessive focus on 20",
               "options": [],
               "correctAnswer": "cleanliness"
             },
             {
               "id": "cam16_t2_r_q21",
               "type": "ynng",
-              "question": "The author believes that human beings are fundamentally individual organisms.",
+              "question": "It is possible that using antibacterial products in the home fails to have the desired effect.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "YES"
             },
             {
               "id": "cam16_t2_r_q22",
               "type": "ynng",
-              "question": "The microbiome has a greater effect on our health than our genes do.",
+              "question": "It is a good idea to ensure that children come into contact with as few bacteria as possible.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NO"
             },
             {
               "id": "cam16_t2_r_q23",
               "type": "ynng",
-              "question": "Antibiotics should be used more sparingly to protect the microbiome.",
+              "question": "Yong's book contains more case studies than are necessary.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NOT GIVEN"
             },
             {
               "id": "cam16_t2_r_q24",
               "type": "ynng",
-              "question": "Faecal transplants are a promising treatment for certain conditions.",
+              "question": "The case study about bacteria that prevent squid from being attacked may have limited appeal.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "YES"
             },
             {
               "id": "cam16_t2_r_q25",
               "type": "ynng",
-              "question": "The microbiome can be permanently altered by a single course of antibiotics.",
+              "question": "Efforts to control dengue fever have been surprisingly successful.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NOT GIVEN"
             },
             {
               "id": "cam16_t2_r_q26",
               "type": "ynng",
-              "question": "The author thinks that viewing humans as ecosystems is merely metaphorical.",
+              "question": "Microbes that reduce the risk of infection have already been put inside the walls of some hospital wards.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NO"
             }
@@ -737,7 +749,7 @@
             {
               "id": "cam16_t2_r_q27",
               "type": "multiple_choice",
-              "question": "Question 27: Choose the correct letter.",
+              "question": "What point does the writer make in the first paragraph?",
               "options": [
                 "A",
                 "B",
@@ -749,7 +761,7 @@
             {
               "id": "cam16_t2_r_q28",
               "type": "multiple_choice",
-              "question": "Question 28: Choose the correct letter.",
+              "question": "What does Igor Grossmann suggest about the ability to make wise decisions?",
               "options": [
                 "A",
                 "B",
@@ -761,7 +773,7 @@
             {
               "id": "cam16_t2_r_q29",
               "type": "multiple_choice",
-              "question": "Question 29: Choose the correct letter.",
+              "question": "According to the third paragraph, Grossmann claims that the level of wisdom an individual shows",
               "options": [
                 "A",
                 "B",
@@ -773,7 +785,7 @@
             {
               "id": "cam16_t2_r_q30",
               "type": "multiple_choice",
-              "question": "Question 30: Choose the correct letter.",
+              "question": "What is described in the fifth paragraph?",
               "options": [
                 "A",
                 "B",
@@ -785,7 +797,7 @@
             {
               "id": "cam16_t2_r_q31",
               "type": "summary_completion",
-              "question": "31. Wise decision-makers tend to display intellectual _____",
+              "question": "Igor Grossmann and colleagues have established four characteristics which enable us to make wise decisions. It is important to have a certain degree of 31",
               "options": [],
               "correctAnswer": "modesty"
             },
@@ -799,76 +811,81 @@
             {
               "id": "cam16_t2_r_q33",
               "type": "summary_completion",
-              "question": "33. It is important to consider events from an outside _____",
+              "question": "The characteristics of wise reasoning | Igor Grossmann and colleagues have established four characteristics which enable us to make wise decisions. It is important to have a certain degree of 31 ................................................. regarding the extent of our knowledge, and to take into account 32 ................................................. which may not be the same as our own. We should also be able to take a broad 33",
               "options": [],
               "correctAnswer": "view"
             },
             {
               "id": "cam16_t2_r_q34",
               "type": "summary_completion",
-              "question": "34. Emotional regulation contributes to _____ in judgment",
+              "question": "Grossmann also believes that it is better to regard scenarios with 34",
               "options": [],
               "correctAnswer": "objectivity"
             },
             {
               "id": "cam16_t2_r_q35",
               "type": "summary_completion",
-              "question": "35. Practising dialectical thinking helps achieve _____ in complex decisions",
+              "question": "The characteristics of wise reasoning | Grossmann also believes that it is better to regard scenarios with 34 ................................................. . By avoiding the firstperson perspective, we focus more on 35",
               "options": [],
               "correctAnswer": "fairness"
             },
             {
               "id": "cam16_t2_r_q36",
               "type": "tfng",
-              "question": "Intelligence alone is sufficient for making wise decisions.",
+              "question": "Students participating in the job prospects experiment could choose one of two perspectives to take.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "FALSE"
             },
             {
               "id": "cam16_t2_r_q37",
               "type": "tfng",
-              "question": "Overconfidence is more common in men than in women.",
+              "question": "Participants in the couples experiment were aware that they were taking part in a study about wise reasoning.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NOT GIVEN"
             },
             {
               "id": "cam16_t2_r_q38",
               "type": "tfng",
-              "question": "Group decision-making always produces better outcomes than individual decisions.",
+              "question": "In the couples experiments, the length of the couples' relationships had an impact on the results.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NOT GIVEN"
             },
             {
               "id": "cam16_t2_r_q39",
               "type": "tfng",
-              "question": "Seeking out dissenting opinions can improve decision-making.",
+              "question": "In both experiments, the participants who looked at the situation from a more detached viewpoint tended to make wiser decisions.",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "TRUE"
             },
             {
               "id": "cam16_t2_r_q40",
               "type": "tfng",
-              "question": "Emotional factors should be disregarded when making important decisions.",
+              "question": "Grossmann believes that a person's wisdom is determined by their intelligence to only a very limited extent. p. 124 51 ## Page 52 WRITING WRITING TASK 1 You should spend about 20 minutes on this task. The diagram below shows the manufacturing process for making sugar from sugar cane. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words. How sugar is produced from sugar cane [Diagram Description: A flow diagram illustrating the 7-step process of sugar production from sugar cane. 1. Growing (12-18 months): An illustration of sugar canes growing in a field. 2. Harvesting: An illustration of a tractor/machinery harvesting the sugar canes, followed by a person manually cutting canes. 3. Crushing: An illustration of sugar canes being fed into a crushing machine to extract juice. The output is labeled \"Juice\". 4. Purifying juice: The juice flows into a funnel-shaped vessel labeled \"Limestone filter\". 5. Evaporator: The purified juice flows into a vessel where it is heated (labeled \"Heat\") to turn the juice into syrup (labeled \"(juice becomes syrup)\"). 6. Centrifuge: The syrup is placed into a centrifuge machine (labeled \"(separates sugar crystals from syrup)\"). 7. Drying and cooling: The resulting sugar is placed into a large cylindrical container (labeled \"Sugar\") for drying and cooling.]",
               "options": [
-                "TRUE",
-                "FALSE",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "TRUE"
             }
@@ -889,7 +906,7 @@
             {
               "id": "cam16_t3_r_q1",
               "type": "tfng",
-              "question": "The Romans were the first civilisation to build large cargo ships.",
+              "question": "The Romans' shipbuilding skills were passed on to the Greeks and the Egyptians.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -900,7 +917,7 @@
             {
               "id": "cam16_t3_r_q2",
               "type": "tfng",
-              "question": "Roman warships were faster than Greek triremes.",
+              "question": "Skilled craftsmen were needed for the mortise and tenon method of fixing planks.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -911,7 +928,7 @@
             {
               "id": "cam16_t3_r_q3",
               "type": "tfng",
-              "question": "Roman ships used only square sails.",
+              "question": "The later practice used by Mediterranean shipbuilders involved building the hull before the frame.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -922,7 +939,7 @@
             {
               "id": "cam16_t3_r_q4",
               "type": "tfng",
-              "question": "Mortise-and-tenon joinery made Roman ship hulls stronger.",
+              "question": "The Romans called the Mediterranean Sea Mare Nostrum because they dominated its use.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -933,7 +950,7 @@
             {
               "id": "cam16_t3_r_q5",
               "type": "tfng",
-              "question": "Lead sheathing was used to protect ships from marine organisms.",
+              "question": "Most rowers on ships were people from the Roman army.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -943,57 +960,57 @@
             },
             {
               "id": "cam16_t3_r_q6",
-              "type": "notes_completion",
-              "question": "6. Ship hulls were made _____ to improve speed",
+              "type": "form_completion",
+              "question": "Warships and merchant ships | Warships were designed so that they were 6",
               "options": [],
               "correctAnswer": "lightweight"
             },
             {
               "id": "cam16_t3_r_q7",
-              "type": "notes_completion",
-              "question": "7. Ram prows were made of _____",
+              "type": "form_completion",
+              "question": "Warships and merchant ships | quickly. They often remained afloat after battles and were able to sail close to land as | they lacked any additional weight. A battering ram made of 7",
               "options": [],
               "correctAnswer": "bronze"
             },
             {
               "id": "cam16_t3_r_q8",
-              "type": "notes_completion",
-              "question": "8. Water _____ in the hold affected stability",
+              "type": "form_completion",
+              "question": "Warships and merchant ships | enemy ships. Warships, such as the 'trireme', had rowers on three different | 8 _____ .",
               "options": [],
               "correctAnswer": "levels"
             },
             {
               "id": "cam16_t3_r_q9",
-              "type": "notes_completion",
-              "question": "9. The _____ was the main structural component of the ship",
+              "type": "form_completion",
+              "question": "Warships and merchant ships | enemy ships. Warships, such as the 'trireme', had rowers on three different | Unlike warships, merchant ships had a broad 9",
               "options": [],
               "correctAnswer": "hull"
             },
             {
               "id": "cam16_t3_r_q10",
-              "type": "notes_completion",
-              "question": "10. A _____ sail was an innovation in Roman ship design",
+              "type": "form_completion",
+              "question": "Warships and merchant ships | below the surface of the sea. Merchant ships were steered through the water with | the help of large rudders and a tiller bar. They had both square and 10",
               "options": [],
               "correctAnswer": "triangular"
             },
             {
               "id": "cam16_t3_r_q11",
-              "type": "notes_completion",
-              "question": "11. Oars were often timed by the rhythm of _____",
+              "type": "form_completion",
+              "question": "below the surface of the sea. Merchant ships were steered through the water with | sails. On merchant ships and warships, 11",
               "options": [],
               "correctAnswer": "music"
             },
             {
               "id": "cam16_t3_r_q12",
-              "type": "notes_completion",
-              "question": "12. Ships transported large quantities of _____ from Egypt to Rome",
+              "type": "form_completion",
+              "question": "ensure rowers moved their oars in and out of the water at the same time. | Quantities of agricultural goods such as 12",
               "options": [],
               "correctAnswer": "grain"
             },
             {
               "id": "cam16_t3_r_q13",
-              "type": "notes_completion",
-              "question": "13. Heavy cargo was moved using _____",
+              "type": "form_completion",
+              "question": "by merchant ships to two main ports in Italy. The ships were pulled to the shore by | 13 _____ . When the weather was clear and they could see islands",
               "options": [],
               "correctAnswer": "towboats"
             }
@@ -1008,7 +1025,7 @@
             {
               "id": "cam16_t3_r_q14",
               "type": "matching_info",
-              "question": "the need for a targeted approach to artefact recovery",
+              "question": "an explanation for weapons being left behind in the mountains",
               "options": [
                 "A",
                 "B",
@@ -1024,7 +1041,7 @@
             {
               "id": "cam16_t3_r_q15",
               "type": "matching_info",
-              "question": "examples of the types of items that have been discovered",
+              "question": "a reference to the physical difficulties involved in an archaeological expedition",
               "options": [
                 "A",
                 "B",
@@ -1040,7 +1057,7 @@
             {
               "id": "cam16_t3_r_q16",
               "type": "matching_info",
-              "question": "the rate at which glacial melt is occurring",
+              "question": "an explanation of why less food may have been available",
               "options": [
                 "A",
                 "B",
@@ -1056,7 +1073,7 @@
             {
               "id": "cam16_t3_r_q17",
               "type": "matching_info",
-              "question": "the difficulty of preserving organic materials once exposed",
+              "question": "a reference to the possibility of future archaeological discoveries",
               "options": [
                 "A",
                 "B",
@@ -1072,7 +1089,7 @@
             {
               "id": "cam16_t3_r_q18",
               "type": "matching_info",
-              "question": "the range of scientific disciplines involved in the research",
+              "question": "examples of items that would have been traded",
               "options": [
                 "A",
                 "B",
@@ -1088,7 +1105,7 @@
             {
               "id": "cam16_t3_r_q19",
               "type": "matching_info",
-              "question": "a reason why ancient peoples travelled through these mountain regions",
+              "question": "a reference to the pressure archaeologists are under to work quickly",
               "options": [
                 "A",
                 "B",
@@ -1104,21 +1121,21 @@
             {
               "id": "cam16_t3_r_q20",
               "type": "summary_completion",
-              "question": "20. The objects found include ancient _____ that were frozen for millennia",
+              "question": "Interesting finds at an archaeological site | Organic materials such as animal skins and textiles are not discovered very often at archaeological sites. They have little protection against 20",
               "options": [],
               "correctAnswer": "microorganisms"
             },
             {
               "id": "cam16_t3_r_q21",
               "type": "summary_completion",
-              "question": "21. Hunters tracked _____ across the ice for thousands of years",
+              "question": "A team of archaeologists have been working in the mountains in Oppland in Norway to recover artefacts revealed by shrinking ice cover. In the past, there were trade routes through these mountains and 21",
               "options": [],
               "correctAnswer": "reindeer"
             },
             {
               "id": "cam16_t3_r_q22",
               "type": "summary_completion",
-              "question": "22. Some artefacts show that _____ were collected as food",
+              "question": "Interesting finds at an archaeological site | A team of archaeologists have been working in the mountains in Oppland in Norway to recover artefacts revealed by shrinking ice cover. In the past, there were trade routes through these mountains and 21 ......................................................... gathered there in the summer months to avoid being attacked by 22",
               "options": [],
               "correctAnswer": "insects"
             },
@@ -1251,7 +1268,7 @@
             {
               "id": "cam16_t3_r_q33",
               "type": "matching_info",
-              "question": "the specific protein that acts as a temperature sensor",
+              "question": "mention of specialists who can make use of the research findings",
               "options": [
                 "A",
                 "B",
@@ -1267,7 +1284,7 @@
             {
               "id": "cam16_t3_r_q34",
               "type": "matching_info",
-              "question": "how warmer winters affect plant pollination cycles",
+              "question": "a reference to a potential benefit of the research findings",
               "options": [
                 "A",
                 "B",
@@ -1283,7 +1300,7 @@
             {
               "id": "cam16_t3_r_q35",
               "type": "matching_info",
-              "question": "the risk of frost damage to early-flowering plants",
+              "question": "scientific support for a traditional saying",
               "options": [
                 "A",
                 "B",
@@ -1299,7 +1316,7 @@
             {
               "id": "cam16_t3_r_q36",
               "type": "matching_info",
-              "question": "the role of a particular signalling pathway in growth regulation",
+              "question": "a reference to people traditionally making plans based on plant behaviour",
               "options": [
                 "A",
                 "B",
@@ -1315,7 +1332,7 @@
             {
               "id": "cam16_t3_r_q37",
               "type": "matching_info",
-              "question": "the impact of temperature on the shape of a key molecule",
+              "question": "a reference to where the research has been reported",
               "options": [
                 "A",
                 "B",
@@ -1331,21 +1348,21 @@
             {
               "id": "cam16_t3_r_q38",
               "type": "summary_completion",
-              "question": "38. The mechanism can be described as a plant 'thermometer' that detects _____ conditions",
+              "question": "38  Daffodils are likely to flower early in response to",
               "options": [],
               "correctAnswer": "warm"
             },
             {
               "id": "cam16_t3_r_q39",
               "type": "summary_completion",
-              "question": "39. Earlier spring growth may disrupt the timing of _____ activities such as pollination",
+              "question": "39  If ash trees come into leaf before oak trees, the weather in",
               "options": [],
               "correctAnswer": "summer"
             },
             {
               "id": "cam16_t3_r_q40",
               "type": "summary_completion",
-              "question": "40. The study used _____ as a model organism for the experiments",
+              "question": "40  The research was carried out using a particular species of",
               "options": [],
               "correctAnswer": "mustard plant"
             }
@@ -1365,50 +1382,50 @@
           "questions": [
             {
               "id": "cam16_t4_r_q1",
-              "type": "notes_completion",
-              "question": "1. Vertical _____ were dug at intervals along the tunnel route",
+              "type": "form_completion",
+              "question": "The Persian Qanat Method | 1 _____ to direct",
               "options": [],
               "correctAnswer": "posts"
             },
             {
               "id": "cam16_t4_r_q2",
-              "type": "notes_completion",
-              "question": "2. Water was channelled into a _____",
+              "type": "form_completion",
+              "question": "The Persian Qanat Method | the tunnelling                                     water runs into a 2",
               "options": [],
               "correctAnswer": "canal"
             },
             {
               "id": "cam16_t4_r_q3",
-              "type": "notes_completion",
-              "question": "3. Shafts were used for _____",
+              "type": "form_completion",
+              "question": "The Persian Qanat Method | [Diagram: A crosssection profile of a sloping underground tunnel system. The tunnel starts at a higher elevation on the left and slopes downwards to the right. Several vertical shafts connect the surface to the tunnel at regular intervals. A dashed line labeled \"water table\" is shown below the surface, with the tunnel passing through it. Arrows point from labels to specific parts of the diagram.] | vertical shafts to remove earth and for 3",
               "options": [],
               "correctAnswer": "ventilation"
             },
             {
               "id": "cam16_t4_r_q4",
-              "type": "notes_completion",
-              "question": "4. A _____ covered the entrance to the tunnel",
+              "type": "form_completion",
+              "question": "Crosssection of a Roman Qanat Shaft | 4 _____ made of wood or stone",
               "options": [],
               "correctAnswer": "lid"
             },
             {
               "id": "cam16_t4_r_q5",
-              "type": "notes_completion",
-              "question": "5. The _____ of the rock was used to break it apart",
+              "type": "form_completion",
+              "question": "Crosssection of a Roman Qanat Shaft | [Diagram: A vertical crosssection of a single shaft. The shaft is a rectangular opening in the ground. At the top, there is a circular cover. Inside the shaft, there is a central vertical line labeled \"rod\" with a weight at the bottom. On the side walls of the shaft, there are small rectangular protrusions representing steps or grips. Arrows point from labels to the cover, the rod, and the side wall protrusions.] | 5 _____ attached to the plumb line",
               "options": [],
               "correctAnswer": "weight"
             },
             {
               "id": "cam16_t4_r_q6",
-              "type": "notes_completion",
-              "question": "6. Workers used _____ techniques to move through the rock",
+              "type": "form_completion",
+              "question": "Crosssection of a Roman Qanat Shaft | [Diagram: A vertical crosssection of a single shaft. The shaft is a rectangular opening in the ground. At the top, there is a circular cover. Inside the shaft, there is a central vertical line labeled \"rod\" with a weight at the bottom. On the side walls of the shaft, there are small rectangular protrusions representing steps or grips. Arrows point from labels to the cover, the rod, and the side wall protrusions.] | handholds and footholds used for 6",
               "options": [],
               "correctAnswer": "climbing"
             },
             {
               "id": "cam16_t4_r_q7",
               "type": "tfng",
-              "question": "The Romans used tunnels primarily for military purposes.",
+              "question": "The counter-excavation method completely replaced the qanat method in the 6th century BCE.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1419,7 +1436,7 @@
             {
               "id": "cam16_t4_r_q8",
               "type": "tfng",
-              "question": "Roman tunnelling techniques were adopted from the Greeks.",
+              "question": "Only experienced builders were employed to construct a tunnel using the counter-excavation method.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1430,7 +1447,7 @@
             {
               "id": "cam16_t4_r_q9",
               "type": "tfng",
-              "question": "The fire-setting technique involved heating the rock face with torches.",
+              "question": "The information about a problem that occurred during the construction of the Saldae aqueduct system was found in an ancient book.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1441,7 +1458,7 @@
             {
               "id": "cam16_t4_r_q10",
               "type": "tfng",
-              "question": "Roman tunnel builders used surveying techniques to ensure tunnels met accurately.",
+              "question": "The mistake made by the builders of the Saldae aqueduct system was that the two parts of the tunnel failed to meet.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1481,7 +1498,7 @@
             {
               "id": "cam16_t4_r_q14",
               "type": "multiple_choice",
-              "question": "Question 14: Choose the correct letter.",
+              "question": "What is the writer's main point in the first paragraph?",
               "options": [
                 "A",
                 "B",
@@ -1493,7 +1510,7 @@
             {
               "id": "cam16_t4_r_q15",
               "type": "multiple_choice",
-              "question": "Question 15: Choose the correct letter.",
+              "question": "What main point does Sherry Turkle make about innovation?",
               "options": [
                 "A",
                 "B",
@@ -1505,7 +1522,7 @@
             {
               "id": "cam16_t4_r_q16",
               "type": "multiple_choice",
-              "question": "Question 16: Choose the correct letter.",
+              "question": "What point is the writer making in the fourth paragraph?",
               "options": [
                 "A",
                 "B",
@@ -1517,7 +1534,7 @@
             {
               "id": "cam16_t4_r_q17",
               "type": "multiple_choice",
-              "question": "Question 17: Choose the correct letter.",
+              "question": "According to Mark Edmundson, the attitude of college students",
               "options": [
                 "A",
                 "B",
@@ -1529,7 +1546,7 @@
             {
               "id": "cam16_t4_r_q18",
               "type": "summary_completion",
-              "question": "18. Many educators find the decline in deep reading _____",
+              "question": "There have been many studies on digital screen use, showing some 18",
               "options": [],
               "correctAnswer": "worrying"
             },
@@ -1543,65 +1560,69 @@
             {
               "id": "cam16_t4_r_q20",
               "type": "summary_completion",
-              "question": "20. Readers find it _____ to concentrate on long digital texts",
+              "question": "Studies on digital screen use | There have been many studies on digital screen use, showing some 18 ............................ trends. Psychologist Anne Mangen gave highschool students a short story to read, half using digital and half using print mediums. Her team then used a questionandanswer technique to find out how 19 ............................ each group's understanding of the plot was. The findings showed a clear pattern in the responses, with those who read screens finding the order of information 20",
               "options": [],
               "correctAnswer": "hard"
             },
             {
               "id": "cam16_t4_r_q21",
               "type": "summary_completion",
-              "question": "21. Digital reading can be a more _____ experience than reading print",
+              "question": "Studies by Ziming Liu show that students are tending to read 21",
               "options": [],
               "correctAnswer": "isolated"
             },
             {
               "id": "cam16_t4_r_q22",
               "type": "summary_completion",
-              "question": "22. The shift to digital may lead to a less _____ connection with the text",
+              "question": "Studies on digital screen use | Studies by Ziming Liu show that students are tending to read 21 ............................ words and phrases in a text to save time. This approach, she says, gives the reader a superficial understanding of the 22",
               "options": [],
               "correctAnswer": "emotional"
             },
             {
               "id": "cam16_t4_r_q23",
               "type": "ynng",
-              "question": "Reading on screens has been proven to reduce comprehension compared to reading on paper.",
+              "question": "The medium we use to read can affect our choice of reading content.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "YES"
             },
             {
               "id": "cam16_t4_r_q24",
               "type": "ynng",
-              "question": "The physical properties of printed books aid in mental mapping of the text.",
+              "question": "Some age groups are more likely to lose their complex reading skills than others.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NO"
             },
             {
               "id": "cam16_t4_r_q25",
               "type": "ynng",
-              "question": "Younger readers prefer digital texts over printed ones.",
+              "question": "False information has become more widespread in today's digital era.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NOT GIVEN"
             },
             {
               "id": "cam16_t4_r_q26",
               "type": "ynng",
-              "question": "The author believes that reading habits are changing in ways that may affect cognitive development.",
+              "question": "We still have opportunities to rectify the problems that technology is presenting. ➔ p. 128          89 ## Page 90 Test 4",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "YES"
             }
@@ -1616,103 +1637,76 @@
             {
               "id": "cam16_t4_r_q27",
               "type": "matching_headings",
-              "question": "The superiority of AI projections",
+              "question": "Section A",
               "options": [
-                "i. An increasing divergence of attitudes towards AI",
-                "ii. Reasons why we have more faith in human judgement",
-                "iii. The superiority of AI projections",
-                "iv. The importance of maintaining human control over AI",
-                "v. The advantages of involving users in AI processes",
-                "vi. Widespread distrust of an AI innovation",
-                "vii. Encouraging openness about how AI functions",
-                "viii. A call for a cautious approach to AI development"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "iii"
             },
             {
               "id": "cam16_t4_r_q28",
               "type": "matching_headings",
-              "question": "Widespread distrust of an AI innovation",
+              "question": "Section B",
               "options": [
-                "i. An increasing divergence of attitudes towards AI",
-                "ii. Reasons why we have more faith in human judgement",
-                "iii. The superiority of AI projections",
-                "iv. The importance of maintaining human control over AI",
-                "v. The advantages of involving users in AI processes",
-                "vi. Widespread distrust of an AI innovation",
-                "vii. Encouraging openness about how AI functions",
-                "viii. A call for a cautious approach to AI development"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "vi"
             },
             {
               "id": "cam16_t4_r_q29",
               "type": "matching_headings",
-              "question": "Reasons why we have more faith in human judgement",
+              "question": "Section C",
               "options": [
-                "i. An increasing divergence of attitudes towards AI",
-                "ii. Reasons why we have more faith in human judgement",
-                "iii. The superiority of AI projections",
-                "iv. The importance of maintaining human control over AI",
-                "v. The advantages of involving users in AI processes",
-                "vi. Widespread distrust of an AI innovation",
-                "vii. Encouraging openness about how AI functions",
-                "viii. A call for a cautious approach to AI development"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "ii"
             },
             {
               "id": "cam16_t4_r_q30",
               "type": "matching_headings",
-              "question": "An increasing divergence of attitudes towards AI",
+              "question": "Section D",
               "options": [
-                "i. An increasing divergence of attitudes towards AI",
-                "ii. Reasons why we have more faith in human judgement",
-                "iii. The superiority of AI projections",
-                "iv. The importance of maintaining human control over AI",
-                "v. The advantages of involving users in AI processes",
-                "vi. Widespread distrust of an AI innovation",
-                "vii. Encouraging openness about how AI functions",
-                "viii. A call for a cautious approach to AI development"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "i"
             },
             {
               "id": "cam16_t4_r_q31",
               "type": "matching_headings",
-              "question": "Encouraging openness about how AI functions",
+              "question": "Section E",
               "options": [
-                "i. An increasing divergence of attitudes towards AI",
-                "ii. Reasons why we have more faith in human judgement",
-                "iii. The superiority of AI projections",
-                "iv. The importance of maintaining human control over AI",
-                "v. The advantages of involving users in AI processes",
-                "vi. Widespread distrust of an AI innovation",
-                "vii. Encouraging openness about how AI functions",
-                "viii. A call for a cautious approach to AI development"
+                "A",
+                "B",
+                "C"
               ],
               "correctAnswer": "vii"
             },
             {
               "id": "cam16_t4_r_q32",
               "type": "matching_headings",
-              "question": "The advantages of involving users in AI processes",
+              "question": "Section F 90 ## Page 91 Reading Attitudes towards Artificial Intelligence",
               "options": [
-                "i. An increasing divergence of attitudes towards AI",
-                "ii. Reasons why we have more faith in human judgement",
-                "iii. The superiority of AI projections",
-                "iv. The importance of maintaining human control over AI",
-                "v. The advantages of involving users in AI processes",
-                "vi. Widespread distrust of an AI innovation",
-                "vii. Encouraging openness about how AI functions",
-                "viii. A call for a cautious approach to AI development"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
               ],
               "correctAnswer": "v"
             },
             {
               "id": "cam16_t4_r_q33",
               "type": "multiple_choice",
-              "question": "Question 33: Choose the correct letter.",
+              "question": "What is the writer doing in Section A?",
               "options": [
                 "A",
                 "B",
@@ -1724,7 +1718,7 @@
             {
               "id": "cam16_t4_r_q34",
               "type": "multiple_choice",
-              "question": "Question 34: Choose the correct letter.",
+              "question": "According to Section C, why might some people be reluctant to accept AI?",
               "options": [
                 "A",
                 "B",
@@ -1736,7 +1730,7 @@
             {
               "id": "cam16_t4_r_q35",
               "type": "multiple_choice",
-              "question": "Question 35: Choose the correct letter.",
+              "question": "What does the writer say about the media in Section C of the text?",
               "options": [
                 "A",
                 "B",
@@ -1748,10 +1742,10 @@
             {
               "id": "cam16_t4_r_q36",
               "type": "ynng",
-              "question": "People are more trusting of AI in areas that require subjective human judgment.",
+              "question": "Subjective depictions of AI in sci-fi films make people change their opinions about automation.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NO"
@@ -1759,10 +1753,10 @@
             {
               "id": "cam16_t4_r_q37",
               "type": "ynng",
-              "question": "The majority of people are aware of how often they use AI-powered services.",
+              "question": "Portrayals of AI in media and entertainment are likely to become more positive.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NOT GIVEN"
@@ -1770,10 +1764,10 @@
             {
               "id": "cam16_t4_r_q38",
               "type": "ynng",
-              "question": "Transparency in AI decision-making can help build public trust.",
+              "question": "Rejection of the possibilities of AI may have a negative effect on many people's lives.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "YES"
@@ -1781,10 +1775,10 @@
             {
               "id": "cam16_t4_r_q39",
               "type": "ynng",
-              "question": "Expert optimism about AI is matched by equivalent public enthusiasm.",
+              "question": "Familiarity with AI has very little impact on people's attitudes to the technology.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NO"
@@ -1792,10 +1786,10 @@
             {
               "id": "cam16_t4_r_q40",
               "type": "ynng",
-              "question": "User involvement in AI development is beneficial.",
+              "question": "AI applications which users are able to modify are more likely to gain consumer approval.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "YES"

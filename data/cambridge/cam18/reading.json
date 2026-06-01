@@ -14,57 +14,57 @@
           "questions": [
             {
               "id": "cam18_t1_r_q1",
-              "type": "notes_completion",
-              "question": "growing plants such as 1. _____ in cities",
+              "type": "form_completion",
+              "question": "Urban farming in Paris | 1 Vertical tubes are used to grow strawberries,",
               "options": [],
               "correctAnswer": "lettuces"
             },
             {
               "id": "cam18_t1_r_q2",
-              "type": "notes_completion",
-              "question": "a farm on a London train station roof produces 2. _____ of food per year",
+              "type": "form_completion",
+              "question": "Urban farming in Paris | 2 There will eventually be a daily harvest of as much as",
               "options": [],
               "correctAnswer": "1000 kg"
             },
             {
               "id": "cam18_t1_r_q3",
-              "type": "notes_completion",
-              "question": "the amount of 3. _____ is a key factor",
+              "type": "form_completion",
+              "question": "3 It may be possible that the farm's produce will account for as much as 10% of the city's",
               "options": [],
               "correctAnswer": "(food) consumption"
             },
             {
               "id": "cam18_t1_r_q4",
-              "type": "notes_completion",
-              "question": "urban soil may contain harmful 4. _____",
+              "type": "form_completion",
+              "question": "| Intensive farming | wide range of 4",
               "options": [],
               "correctAnswer": "pesticides"
             },
             {
               "id": "cam18_t1_r_q5",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "the 5. _____ that food travels from farm to city",
               "options": [],
               "correctAnswer": "journeys"
             },
             {
               "id": "cam18_t1_r_q6",
-              "type": "notes_completion",
-              "question": "urban farms need to be efficient 6. _____",
+              "type": "form_completion",
+              "question": "| | Growth | Selection | Sale | | | Intensive farming | wide range of 4 ........................................ used<br>techniques pollute air | quality not good<br>varieties of fruit and vegetables chosen that can survive long 5 ........................................ | 6",
               "options": [],
               "correctAnswer": "producers"
             },
             {
               "id": "cam18_t1_r_q7",
-              "type": "notes_completion",
-              "question": "a short time between harvesting and eating improves 7. _____",
+              "type": "form_completion",
+              "question": "| | Growth | Selection | Sale | | | Aeroponic urban farming | no soil used<br>nutrients added to water, which is recycled | produce chosen because of its 7",
               "options": [],
               "correctAnswer": "flavour"
             },
             {
               "id": "cam18_t1_r_q8",
               "type": "tfng",
-              "question": "Urban farming is only possible in cities with mild climates.",
+              "question": "Urban farming can take place above or below ground.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -75,7 +75,7 @@
             {
               "id": "cam18_t1_r_q9",
               "type": "tfng",
-              "question": "Some large supermarkets in the UK have begun selling produce from city farms.",
+              "question": "Some of the equipment used in aeroponic farming can be made by hand.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -86,7 +86,7 @@
             {
               "id": "cam18_t1_r_q10",
               "type": "tfng",
-              "question": "The amount of land available for urban farming is likely to increase.",
+              "question": "Urban farming relies more on electricity than some other types of farming.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -97,7 +97,7 @@
             {
               "id": "cam18_t1_r_q11",
               "type": "tfng",
-              "question": "People living in cities value the social aspect of urban farming.",
+              "question": "Fruit and vegetables grown on an aeroponic urban farm are cheaper than traditionally grown organic produce.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -108,7 +108,7 @@
             {
               "id": "cam18_t1_r_q12",
               "type": "tfng",
-              "question": "Urban farming can contribute to crime reduction in cities.",
+              "question": "Most produce can be grown on an aeroponic urban farm at any time of the year.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -119,7 +119,7 @@
             {
               "id": "cam18_t1_r_q13",
               "type": "tfng",
-              "question": "Rooftop gardens are the most common form of urban farming.",
+              "question": "Beans take longer to grow on an urban farm than other vegetables.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -138,7 +138,7 @@
             {
               "id": "cam18_t1_r_q14",
               "type": "matching_info",
-              "question": "a reference to changes in tree species across the state",
+              "question": "bad outcomes for a forest when people focus only on its financial reward",
               "options": [
                 "A",
                 "B",
@@ -146,15 +146,14 @@
                 "D",
                 "E",
                 "F",
-                "G",
-                "H"
+                "G"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam18_t1_r_q15",
               "type": "matching_info",
-              "question": "the role of natural events in forest development",
+              "question": "reference to the aspects of any tree that contribute to its worth",
               "options": [
                 "A",
                 "B",
@@ -162,15 +161,14 @@
                 "D",
                 "E",
                 "F",
-                "G",
-                "H"
+                "G"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam18_t1_r_q16",
               "type": "matching_info",
-              "question": "a description of how some forest areas are designated for particular purposes",
+              "question": "mention of the potential use of wood to help run vehicles",
               "options": [
                 "A",
                 "B",
@@ -178,15 +176,14 @@
                 "D",
                 "E",
                 "F",
-                "G",
-                "H"
+                "G"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam18_t1_r_q17",
               "type": "matching_info",
-              "question": "a proposal to involve local people in decision-making",
+              "question": "examples of insects that attack trees",
               "options": [
                 "A",
                 "B",
@@ -194,15 +191,14 @@
                 "D",
                 "E",
                 "F",
-                "G",
-                "H"
+                "G"
               ],
               "correctAnswer": "E"
             },
             {
               "id": "cam18_t1_r_q18",
               "type": "matching_info",
-              "question": "an account of how forests in Pennsylvania were used in the past",
+              "question": "an alternative name for trees that produce low-use wood",
               "options": [
                 "A",
                 "B",
@@ -210,79 +206,75 @@
                 "D",
                 "E",
                 "F",
-                "G",
-                "H"
+                "G"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam18_t1_r_q19",
               "type": "multiple_choice",
-              "question": "Question 19: Choose the correct letter A, B, C or D.",
+              "question": "to remove trees that are diseased",
               "options": [
                 "A",
                 "B",
-                "C",
-                "D"
+                "C"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam18_t1_r_q20",
               "type": "multiple_choice",
-              "question": "Question 20: Choose the correct letter A, B, C or D.",
+              "question": "to generate income across a number of years",
               "options": [
                 "A",
                 "B",
-                "C",
-                "D"
+                "C"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam18_t1_r_q21",
               "type": "multiple_choice",
-              "question": "Question 21: Choose the correct letter A, B, C or D.",
+              "question": "to create a forest whose trees are close in age List of Timber Cuts",
               "options": [
                 "A",
                 "B",
-                "C",
-                "D"
+                "C"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam18_t1_r_q22",
               "type": "summary_completion",
-              "question": "If a wildfire occurs, it can stimulate the growth of pines whose seeds need 22. _____ to open",
+              "question": "22 Some dead wood is removed to avoid the possibility of",
               "options": [],
               "correctAnswer": "fire"
             },
             {
               "id": "cam18_t1_r_q23",
               "type": "summary_completion",
-              "question": "dead wood left on the forest floor provides 23. _____ for the soil",
+              "question": "23 The _____ from the tops of cut trees can help improve soil quality.",
               "options": [],
               "correctAnswer": "nutrients"
             },
             {
               "id": "cam18_t1_r_q24",
               "type": "summary_completion",
-              "question": "The trunks of trees also provide 24. _____ where animals can live",
+              "question": "Some damaged trees should be left, as their ............ provide habitats for a range of creatures.",
               "options": [],
               "correctAnswer": "cavities"
             },
             {
               "id": "cam18_t1_r_q25",
               "type": "summary_completion",
-              "question": "One tree species that benefits from this approach is the 25. _____",
+              "question": "Some trees that are small, such as ............ , are a source of food for animals and insects.",
               "options": [],
               "correctAnswer": "hawthorn"
             },
             {
               "id": "cam18_t1_r_q26",
               "type": "summary_completion",
-              "question": "Some tree species in Pennsylvania have become 26. _____",
+              "question": "Any trees that are ............ should be left to grow, as they add to the variety of species in the forest.",
               "options": [],
               "correctAnswer": "rare"
             }
@@ -297,7 +289,7 @@
             {
               "id": "cam18_t1_r_q27",
               "type": "matching_info",
-              "question": "a reference to the financial implications of space debris",
+              "question": "a reference to the cooperation that takes place to try and minimise risk",
               "options": [
                 "A",
                 "B",
@@ -311,7 +303,7 @@
             {
               "id": "cam18_t1_r_q28",
               "type": "matching_info",
-              "question": "a comparison between two possible approaches to tackling debris",
+              "question": "an explanation of a person's aims",
               "options": [
                 "A",
                 "B",
@@ -325,7 +317,7 @@
             {
               "id": "cam18_t1_r_q29",
               "type": "matching_info",
-              "question": "an explanation of how debris travels at very high speed",
+              "question": "a description of a major collision that occurred in space",
               "options": [
                 "A",
                 "B",
@@ -339,7 +331,7 @@
             {
               "id": "cam18_t1_r_q30",
               "type": "matching_info",
-              "question": "a description of how objects in space are monitored",
+              "question": "a comparison between tracking objects in space and the efficiency of a transportation system",
               "options": [
                 "A",
                 "B",
@@ -353,7 +345,7 @@
             {
               "id": "cam18_t1_r_q31",
               "type": "matching_info",
-              "question": "a mention of the fact that some satellites are abandoned after failure",
+              "question": "a reference to efforts to classify space junk",
               "options": [
                 "A",
                 "B",
@@ -366,36 +358,36 @@
             },
             {
               "id": "cam18_t1_r_q32",
-              "type": "notes_completion",
-              "question": "One important goal is 32. _____",
+              "type": "form_completion",
+              "question": "The committee gives advice on how the 32",
               "options": [],
               "correctAnswer": "sustainability"
             },
             {
               "id": "cam18_t1_r_q33",
-              "type": "notes_completion",
+              "type": "form_completion",
               "question": "a new type of satellite engine that does not require 33. _____",
               "options": [],
               "correctAnswer": "fuel"
             },
             {
               "id": "cam18_t1_r_q34",
-              "type": "notes_completion",
-              "question": "threat of collisions which could cause 34. _____",
+              "type": "form_completion",
+              "question": "The InterAgency Space Debris Coordination Committee | The committee gives advice on how the 32 ........................................ of space can be achieved. The committee advises that when satellites are no longer active, any unused 33 ........................................ or pressurised material that could cause 34",
               "options": [],
               "correctAnswer": "explosions"
             },
             {
               "id": "cam18_t1_r_q35",
-              "type": "notes_completion",
-              "question": "some organisations could become 35. _____ if they do not change practices",
+              "type": "form_completion",
+              "question": "The InterAgency Space Debris Coordination Committee | Although operators of large satellite constellations accept that they have obligations as stewards of space, Holger Krag points out that the operators that become 35",
               "options": [],
               "correctAnswer": "bankrupt"
             },
             {
               "id": "cam18_t1_r_q36",
               "type": "multiple_choice",
-              "question": "Question 36: Choose the correct letter A, B, C or D.",
+              "question": "Knowing the exact location of space junk would help prevent any possible danger.",
               "options": [
                 "A",
                 "B",
@@ -407,7 +399,7 @@
             {
               "id": "cam18_t1_r_q37",
               "type": "multiple_choice",
-              "question": "Question 37: Choose the correct letter A, B, C or D.",
+              "question": "Space should be available to everyone and should be preserved for the future.",
               "options": [
                 "A",
                 "B",
@@ -419,7 +411,7 @@
             {
               "id": "cam18_t1_r_q38",
               "type": "multiple_choice",
-              "question": "Question 38: Choose the correct letter A, B, C or D.",
+              "question": "A recommendation regarding satellites is widely ignored.",
               "options": [
                 "A",
                 "B",
@@ -431,7 +423,7 @@
             {
               "id": "cam18_t1_r_q39",
               "type": "multiple_choice",
-              "question": "Question 39: Choose the correct letter A, B, C or D.",
+              "question": "There is conflicting information about where some satellites are in space.",
               "options": [
                 "A",
                 "B",
@@ -443,7 +435,7 @@
             {
               "id": "cam18_t1_r_q40",
               "type": "multiple_choice",
-              "question": "Question 40: Choose the correct letter A, B, C or D.",
+              "question": "There is a risk we will not be able to undo the damage that occurs in space. List of People",
               "options": [
                 "A",
                 "B",
@@ -468,64 +460,64 @@
           "questions": [
             {
               "id": "cam18_t2_r_q1",
-              "type": "notes_completion",
-              "question": "tools made from 1. _____",
+              "type": "form_completion",
+              "question": "Stage 1: | the ditch and henge were dug, possibly using tools made from 1",
               "options": [],
               "correctAnswer": "(deer) antlers"
             },
             {
               "id": "cam18_t2_r_q2",
-              "type": "notes_completion",
-              "question": "holes used for 2. _____",
+              "type": "form_completion",
+              "question": "Stage 1: | 2 _____ may have been arranged in deep pits inside the circle",
               "options": [],
               "correctAnswer": "(timber) posts"
             },
             {
               "id": "cam18_t2_r_q3",
-              "type": "notes_completion",
-              "question": "enormous sledges pulled on 3. _____",
+              "type": "form_completion",
+              "question": "Stage 2: | o builders used 3",
               "options": [],
               "correctAnswer": "tree trunks"
             },
             {
               "id": "cam18_t2_r_q4",
-              "type": "notes_completion",
-              "question": "using 4. _____ to drag them into place",
+              "type": "form_completion",
+              "question": "Stage 2: | o 4 _____ pulled them on giant baskets",
               "options": [],
               "correctAnswer": "oxen"
             },
             {
               "id": "cam18_t2_r_q5",
-              "type": "notes_completion",
-              "question": "presence of 5. _____ in the area which left large rocks",
+              "type": "form_completion",
+              "question": "o they were brought from Wales by 5",
               "options": [],
               "correctAnswer": "glaciers"
             },
             {
               "id": "cam18_t2_r_q6",
-              "type": "notes_completion",
-              "question": "people known as 6. _____, but this connection is incorrect",
+              "type": "form_completion",
+              "question": "Builders | a theory arose in the 17th century that its builders were Celtic 6",
               "options": [],
               "correctAnswer": "druids"
             },
             {
               "id": "cam18_t2_r_q7",
-              "type": "notes_completion",
-              "question": "Stonehenge was used as a 7. _____ site",
+              "type": "form_completion",
+              "question": "Purpose | many experts agree it has been used as a 7",
               "options": [],
               "correctAnswer": "burial"
             },
             {
               "id": "cam18_t2_r_q8",
-              "type": "notes_completion",
-              "question": "a form of 8. _____ aligned with the sun",
+              "type": "form_completion",
+              "question": "Purpose | in the 1960s, it was suggested that it worked as a kind of 8",
               "options": [],
               "correctAnswer": "calendar"
             },
             {
               "id": "cam18_t2_r_q9",
               "type": "tfng",
-              "question": "Preseli Hills in Wales are approximately 150 miles from Stonehenge.",
+              "question": "During the third phase of construction, sandstone slabs were placed in both the outer areas and the middle of the Stonehenge site.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -536,7 +528,7 @@
             {
               "id": "cam18_t2_r_q10",
               "type": "tfng",
-              "question": "The bluestones at Stonehenge were transported by river.",
+              "question": "There is scientific proof that the bluestones stood in the same spot until approximately 1600 BCE.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -547,7 +539,7 @@
             {
               "id": "cam18_t2_r_q11",
               "type": "tfng",
-              "question": "Stonehenge was built in a single continuous construction phase.",
+              "question": "John Aubrey's claim about Stonehenge was supported by 20th-century findings.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -558,7 +550,7 @@
             {
               "id": "cam18_t2_r_q12",
               "type": "tfng",
-              "question": "Excavations have revealed evidence of burial sites near Stonehenge.",
+              "question": "Objects discovered at Stonehenge seem to indicate that it was constructed by a number of different groups of people.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -569,7 +561,7 @@
             {
               "id": "cam18_t2_r_q13",
               "type": "tfng",
-              "question": "The builders of Stonehenge came from mainland Europe.",
+              "question": "Criticism of Gerald Hawkins' theory about Stonehenge has come mainly from other astronomers.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -588,135 +580,127 @@
             {
               "id": "cam18_t2_r_q14",
               "type": "matching_info",
-              "question": "the idea that AI can help humans do their jobs better rather than replace them",
+              "question": "What point does the writer make about AI in the first paragraph?",
               "options": [
                 "A",
                 "B",
                 "C",
-                "D",
-                "E",
-                "F"
+                "D"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam18_t2_r_q15",
               "type": "matching_info",
-              "question": "the suggestion that AI will create new types of employment",
+              "question": "What is the writer doing in the second paragraph?",
               "options": [
                 "A",
                 "B",
                 "C",
-                "D",
-                "E",
-                "F"
+                "D"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam18_t2_r_q16",
               "type": "matching_info",
-              "question": "a comparison between the potential impact of AI and earlier technological changes",
+              "question": "Why does the writer mention the story of King Midas?",
               "options": [
                 "A",
                 "B",
                 "C",
-                "D",
-                "E",
-                "F"
+                "D"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam18_t2_r_q17",
               "type": "matching_info",
-              "question": "a description of how AI can perform tasks that require subjective judgement",
+              "question": "What challenge does the writer refer to in the fourth paragraph?",
               "options": [
                 "A",
                 "B",
                 "C",
-                "D",
-                "E",
-                "F"
+                "D"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam18_t2_r_q18",
               "type": "matching_info",
-              "question": "the view that AI may cause some people to lose their jobs",
+              "question": "What does the writer suggest about the future of AI in the fifth paragraph?",
               "options": [
                 "A",
                 "B",
                 "C",
-                "D",
-                "E",
-                "F"
+                "D"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam18_t2_r_q19",
               "type": "matching_info",
-              "question": "a reference to AI being used to analyse medical data",
+              "question": "Which of the following best summarises the writer's argument in the sixth paragraph?",
               "options": [
                 "A",
                 "B",
                 "C",
-                "D",
-                "E",
-                "F"
+                "D"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam18_t2_r_q20",
               "type": "ynng",
-              "question": "The author believes that AI poses an immediate existential threat to humanity.",
+              "question": "Machines with the ability to make moral decisions may prevent us from promoting the interests of our communities.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "YES"
             },
             {
               "id": "cam18_t2_r_q21",
               "type": "ynng",
-              "question": "Most AI researchers agree on the timeline for achieving superintelligence.",
+              "question": "Silicon police would need to exist in large numbers in order to be effective.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NOT GIVEN"
             },
             {
               "id": "cam18_t2_r_q22",
               "type": "ynng",
-              "question": "Governments currently have adequate regulations in place for AI development.",
+              "question": "Many people are comfortable with the prospect of their independence being restricted by machines.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NO"
             },
             {
               "id": "cam18_t2_r_q23",
               "type": "ynng",
-              "question": "The impact of AI will depend on collective social and political choices.",
+              "question": "If we want to ensure that machines act in our best interests, we all need to work together. 46 ## Page 49 Reading",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "YES"
             },
             {
               "id": "cam18_t2_r_q24",
               "type": "matching",
-              "question": "ensuring AI systems are not unfairly biased towards particular groups",
+              "question": "AI currently has a limited role in the way 24",
               "options": [
                 "A. medical practitioners",
                 "B. corporate leaders",
@@ -744,7 +728,7 @@
             {
               "id": "cam18_t2_r_q26",
               "type": "matching",
-              "question": "the question of who should have power over the development of AI",
+              "question": "Using AI in the UK health system | AI currently has a limited role in the way 24 ........................................ are allocated in the health service. The positive aspect of AI having a bigger role is that it would be more efficient and lead to patient benefits. However, such a change would result, for example, in certain 25 ........................................ not having their current level of 26",
               "options": [
                 "A. medical practitioners",
                 "B. corporate leaders",
@@ -766,7 +750,7 @@
             {
               "id": "cam18_t2_r_q27",
               "type": "tfng",
-              "question": "The author believes the ideal city can be achieved through a single master plan.",
+              "question": "People first referred to Leonardo da Vinci as a genius 500 years ago.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -777,7 +761,7 @@
             {
               "id": "cam18_t2_r_q28",
               "type": "tfng",
-              "question": "Ancient Greek cities were the first to use grid-based street patterns.",
+              "question": "The current climate crisis is predicted to cause more deaths than the plague.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -788,7 +772,7 @@
             {
               "id": "cam18_t2_r_q29",
               "type": "tfng",
-              "question": "The '15-minute city' concept aims to reduce dependency on cars.",
+              "question": "Some of the challenges we face today can be compared to those of earlier times.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -799,7 +783,7 @@
             {
               "id": "cam18_t2_r_q30",
               "type": "tfng",
-              "question": "Housing in the ideal city should be uniform in design and size.",
+              "question": "Leonardo da Vinci's 'ideal city' was constructed in the 15th century.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -810,7 +794,7 @@
             {
               "id": "cam18_t2_r_q31",
               "type": "tfng",
-              "question": "Public parks and squares are important for social interaction in cities.",
+              "question": "Poor town planning is a major contributor to climate change.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -821,7 +805,7 @@
             {
               "id": "cam18_t2_r_q32",
               "type": "tfng",
-              "question": "The author suggests that city residents should grow their own food.",
+              "question": "In Renaissance times, local people fought against the changes to Pienza and Ferrara.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -832,7 +816,7 @@
             {
               "id": "cam18_t2_r_q33",
               "type": "tfng",
-              "question": "High-density development and green space are fundamentally incompatible.",
+              "question": "Leonardo da Vinci kept a neat, organised record of his designs.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -843,49 +827,49 @@
             {
               "id": "cam18_t2_r_q34",
               "type": "table_completion",
-              "question": "City feature: Efficient public 34. _____",
+              "question": "Leonardo da Vinci's ideal city | A collection of Leonardo da Vinci's paperwork reveals his design of a new city | beside the Ticino River. This was to provide better 34",
               "options": [],
               "correctAnswer": "transport"
             },
             {
               "id": "cam18_t2_r_q35",
               "type": "table_completion",
-              "question": "City feature: Safe and attractive 35. _____",
+              "question": "Leonardo da Vinci's ideal city | their design. They included features that can be seen in some tower blocks today, | such as 35",
               "options": [],
               "correctAnswer": "staircases"
             },
             {
               "id": "cam18_t2_r_q36",
               "type": "table_completion",
-              "question": "City feature: Innovative 36. _____ solutions",
+              "question": "Leonardo da Vinci's ideal city | their design. They included features that can be seen in some tower blocks today, | Leonardo da Vinci wasn't only an architect. His expertise in 36",
               "options": [],
               "correctAnswer": "engineering"
             },
             {
               "id": "cam18_t2_r_q37",
               "type": "table_completion",
-              "question": "City principle: The 15-minute 37. _____",
+              "question": "that the height of houses should relate to the width of streets in case earthquakes | occurred. The design of many cities in Italy today follows this 37",
               "options": [],
               "correctAnswer": "rule"
             },
             {
               "id": "cam18_t2_r_q38",
               "type": "table_completion",
-              "question": "Historical example: Ancient 38. _____ roads",
+              "question": "that the height of houses should relate to the width of streets in case earthquakes | While some cities from 38",
               "options": [],
               "correctAnswer": "Roman"
             },
             {
               "id": "cam18_t2_r_q39",
               "type": "table_completion",
-              "question": "Historical example: Wide boulevards of 39. _____",
+              "question": "found in Leonardo's designs, his ideas weren't put into practice until long after his | death. 39 _____ is one example of a city that was redesigned in the",
               "options": [],
               "correctAnswer": "Paris"
             },
             {
               "id": "cam18_t2_r_q40",
               "type": "table_completion",
-              "question": "Principle: Building 40. _____ rather than up only",
+              "question": "19th century in the way that Leonardo had envisaged. His ideas are also relevant to | today's world, where building 40",
               "options": [],
               "correctAnswer": "outwards"
             }
@@ -906,7 +890,7 @@
             {
               "id": "cam18_t3_r_q1",
               "type": "matching_info",
-              "question": "a description of the extent to which concrete is used globally",
+              "question": "an explanation of the industrial processes that create potential raw materials for",
               "options": [
                 "A",
                 "B",
@@ -922,136 +906,124 @@
             {
               "id": "cam18_t3_r_q2",
               "type": "matching_info",
-              "question": "an explanation of how one alternative material is produced",
+              "question": "a reference to the various locations where high-rise wooden buildings can be found",
               "options": [
                 "A",
                 "B",
                 "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "D"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam18_t3_r_q3",
               "type": "matching_info",
-              "question": "the claim that concrete production can be made cleaner",
+              "question": "an indication of how widely available the raw materials of concrete are",
               "options": [
                 "A",
                 "B",
                 "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "D"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam18_t3_r_q4",
               "type": "matching_info",
-              "question": "a reference to the amount of CO2 produced by the cement industry",
+              "question": "the belief that more high-rise wooden buildings are needed before wood can be regarded as a viable construction material",
               "options": [
                 "A",
                 "B",
                 "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "D"
               ],
               "correctAnswer": "F"
             },
             {
               "id": "cam18_t3_r_q5",
-              "type": "notes_completion",
-              "question": "Profession: 5. _____ and engineers",
+              "type": "form_completion",
+              "question": "Making buildings with wood | Wood is a traditional building material, but current environmental concerns are | encouraging 5",
               "options": [],
               "correctAnswer": "architects"
             },
             {
               "id": "cam18_t3_r_q6",
-              "type": "notes_completion",
-              "question": "Requirement: resistance to 6. _____",
+              "type": "form_completion",
+              "question": "Making buildings with wood | Wood is a traditional building material, but current environmental concerns are | Using wood, however, has its challenges. For example, as 6",
               "options": [],
               "correctAnswer": "moisture"
             },
             {
               "id": "cam18_t3_r_q7",
-              "type": "notes_completion",
-              "question": "Material structure: multiple 7. _____",
+              "type": "form_completion",
+              "question": "Making buildings with wood | material if it is treated and combined with other materials. In one process, | 7 _____ of solid wood are glued together to create building blocks. These",
               "options": [],
               "correctAnswer": "layers"
             },
             {
               "id": "cam18_t3_r_q8",
-              "type": "notes_completion",
-              "question": "Advantage: 8. _____ of construction",
+              "type": "form_completion",
+              "question": "Making buildings with wood | that wooden buildings are an improvement on those made of concrete and steel in | terms of the 8",
               "options": [],
               "correctAnswer": "speed"
             },
             {
               "id": "cam18_t3_r_q9",
               "type": "matching_names",
-              "question": "warns against raising expectations too quickly about new materials",
+              "question": "The environmental advantage of cement alternatives may not be as great as initially assumed.",
               "options": [
-                "A. Chris Cheeseman",
-                "B. Markus Mannstrom",
-                "C. Anna Surgenor",
-                "D. Felix Preston and Johanna Lehne"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam18_t3_r_q10",
               "type": "matching_names",
-              "question": "believes that reducing emissions from concrete is achievable with current technology",
+              "question": "It would be hard to create a construction alternative to concrete that offers so many comparable benefits.",
               "options": [
-                "A. Chris Cheeseman",
-                "B. Markus Mannstrom",
-                "C. Anna Surgenor",
-                "D. Felix Preston and Johanna Lehne"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam18_t3_r_q11",
               "type": "matching_names",
-              "question": "suggests that the main barrier is the attitude of the construction industry",
+              "question": "Worries about the environment have led to increased interest in wood as a construction material.",
               "options": [
-                "A. Chris Cheeseman",
-                "B. Markus Mannstrom",
-                "C. Anna Surgenor",
-                "D. Felix Preston and Johanna Lehne"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam18_t3_r_q12",
               "type": "matching_names",
-              "question": "points out that concrete is cheap compared to possible alternatives",
+              "question": "Expense has been a factor in the negative response to the development of new cements.",
               "options": [
-                "A. Chris Cheeseman",
-                "B. Markus Mannstrom",
-                "C. Anna Surgenor",
-                "D. Felix Preston and Johanna Lehne"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam18_t3_r_q13",
               "type": "matching_names",
-              "question": "argues that carbon pricing would help sustainable materials compete",
+              "question": "The environmental damage caused by concrete is due to it being produced in large quantities. List of People",
               "options": [
-                "A. Chris Cheeseman",
-                "B. Markus Mannstrom",
-                "C. Anna Surgenor",
-                "D. Felix Preston and Johanna Lehne"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "A"
             }
@@ -1066,119 +1038,94 @@
             {
               "id": "cam18_t3_r_q14",
               "type": "matching_headings",
-              "question": "Section A",
+              "question": "Paragraph A",
               "options": [
-                "i. A period of renewed interest in steam technology",
-                "ii. The environmental advantages of steam power",
-                "iii. The early success and popularity of steam cars",
-                "iv. The legacy of steam technology in modern vehicles",
-                "v. The practical limitations of steam cars",
-                "vi. Comparison between steam and petrol engine efficiency",
-                "vii. The technical principles of how steam cars work",
-                "viii. Why steam cars lost out to petrol-powered vehicles"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "iii"
             },
             {
               "id": "cam18_t3_r_q15",
               "type": "matching_headings",
-              "question": "Section B",
+              "question": "Paragraph B",
               "options": [
-                "i. A period of renewed interest in steam technology",
-                "ii. The environmental advantages of steam power",
-                "iii. The early success and popularity of steam cars",
-                "iv. The legacy of steam technology in modern vehicles",
-                "v. The practical limitations of steam cars",
-                "vi. Comparison between steam and petrol engine efficiency",
-                "vii. The technical principles of how steam cars work",
-                "viii. Why steam cars lost out to petrol-powered vehicles"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "viii"
             },
             {
               "id": "cam18_t3_r_q16",
               "type": "matching_headings",
-              "question": "Section C",
+              "question": "Paragraph C",
               "options": [
-                "i. A period of renewed interest in steam technology",
-                "ii. The environmental advantages of steam power",
-                "iii. The early success and popularity of steam cars",
-                "iv. The legacy of steam technology in modern vehicles",
-                "v. The practical limitations of steam cars",
-                "vi. Comparison between steam and petrol engine efficiency",
-                "vii. The technical principles of how steam cars work",
-                "viii. Why steam cars lost out to petrol-powered vehicles"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "vi"
             },
             {
               "id": "cam18_t3_r_q17",
               "type": "matching_headings",
-              "question": "Section D",
+              "question": "Paragraph D",
               "options": [
-                "i. A period of renewed interest in steam technology",
-                "ii. The environmental advantages of steam power",
-                "iii. The early success and popularity of steam cars",
-                "iv. The legacy of steam technology in modern vehicles",
-                "v. The practical limitations of steam cars",
-                "vi. Comparison between steam and petrol engine efficiency",
-                "vii. The technical principles of how steam cars work",
-                "viii. Why steam cars lost out to petrol-powered vehicles"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "v"
             },
             {
               "id": "cam18_t3_r_q18",
               "type": "matching_headings",
-              "question": "Section E",
+              "question": "Paragraph E",
               "options": [
-                "i. A period of renewed interest in steam technology",
-                "ii. The environmental advantages of steam power",
-                "iii. The early success and popularity of steam cars",
-                "iv. The legacy of steam technology in modern vehicles",
-                "v. The practical limitations of steam cars",
-                "vi. Comparison between steam and petrol engine efficiency",
-                "vii. The technical principles of how steam cars work",
-                "viii. Why steam cars lost out to petrol-powered vehicles"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "vii"
             },
             {
               "id": "cam18_t3_r_q19",
               "type": "matching_headings",
-              "question": "Section F",
+              "question": "Paragraph F",
               "options": [
-                "i. A period of renewed interest in steam technology",
-                "ii. The environmental advantages of steam power",
-                "iii. The early success and popularity of steam cars",
-                "iv. The legacy of steam technology in modern vehicles",
-                "v. The practical limitations of steam cars",
-                "vi. Comparison between steam and petrol engine efficiency",
-                "vii. The technical principles of how steam cars work",
-                "viii. Why steam cars lost out to petrol-powered vehicles"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "i"
             },
             {
               "id": "cam18_t3_r_q20",
               "type": "matching_headings",
-              "question": "Section G",
+              "question": "Paragraph G 65 ## Page 68 Test 3 The steam car The successes and failures of the Doble brothers and their steam cars",
               "options": [
-                "i. A period of renewed interest in steam technology",
-                "ii. The environmental advantages of steam power",
-                "iii. The early success and popularity of steam cars",
-                "iv. The legacy of steam technology in modern vehicles",
-                "v. The practical limitations of steam cars",
-                "vi. Comparison between steam and petrol engine efficiency",
-                "vii. The technical principles of how steam cars work",
-                "viii. Why steam cars lost out to petrol-powered vehicles"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
               ],
               "correctAnswer": "iv"
             },
             {
               "id": "cam18_t3_r_q21",
               "type": "multiple_choice",
-              "question": "Question 21: Choose the correct letter A, B, C or D.",
+              "question": "What point does the writer make about the steam car in Paragraph B?",
               "options": [
                 "A",
                 "B",
@@ -1190,7 +1137,7 @@
             {
               "id": "cam18_t3_r_q22",
               "type": "multiple_choice",
-              "question": "Question 22: Choose the correct letter A, B, C or D.",
+              "question": "When building their first steam car, the Doble brothers",
               "options": [
                 "A",
                 "B",
@@ -1202,7 +1149,7 @@
             {
               "id": "cam18_t3_r_q23",
               "type": "multiple_choice",
-              "question": "Question 23: Choose the correct letter A, B, C or D.",
+              "question": "In order to produce the Model C, the Doble brothers",
               "options": [
                 "A",
                 "B",
@@ -1213,22 +1160,22 @@
             },
             {
               "id": "cam18_t3_r_q24",
-              "type": "notes_completion",
-              "question": "Steam cars could reach high 24. _____",
+              "type": "form_completion",
+              "question": "The Model E was roadtested in 1924 by the Automobile Club of America. They found it easy to drive, despite its weight, and it impressed the spectators. A later version of the Model E raised its 24",
               "options": [],
               "correctAnswer": "speed"
             },
             {
               "id": "cam18_t3_r_q25",
-              "type": "notes_completion",
-              "question": "Steam car drivers needed to stop every 25. _____ miles",
+              "type": "form_completion",
+              "question": "The steam car was too expensive for many people and its design was constantly being altered. Under 25",
               "options": [],
               "correctAnswer": "fifty"
             },
             {
               "id": "cam18_t3_r_q26",
-              "type": "notes_completion",
-              "question": "Safety regulations for steam cars were very 26. _____",
+              "type": "form_completion",
+              "question": "The Model E | The steam car was too expensive for many people and its design was constantly being altered. Under 25 ....................................... cars were produced before the company went out of business. However, even today, there are Model Es on the road in the US. They are straightforward to maintain, and they satisfy California's 26",
               "options": [],
               "correctAnswer": "strict"
             }
@@ -1243,7 +1190,7 @@
             {
               "id": "cam18_t3_r_q27",
               "type": "multiple_choice",
-              "question": "Question 27: Choose the correct letter A, B, C or D.",
+              "question": "The writer describes the Romeo and Juliet lesson in order to demonstrate",
               "options": [
                 "A",
                 "B",
@@ -1255,7 +1202,7 @@
             {
               "id": "cam18_t3_r_q28",
               "type": "multiple_choice",
-              "question": "Question 28: Choose the correct letter A, B, C or D.",
+              "question": "What does the writer say about streaming in the third paragraph?",
               "options": [
                 "A",
                 "B",
@@ -1267,7 +1214,7 @@
             {
               "id": "cam18_t3_r_q29",
               "type": "multiple_choice",
-              "question": "Question 29: Choose the correct letter A, B, C or D.",
+              "question": "What idea is suggested by the reference to Mount Qomolangma in the fifth paragraph?",
               "options": [
                 "A",
                 "B",
@@ -1279,7 +1226,7 @@
             {
               "id": "cam18_t3_r_q30",
               "type": "multiple_choice",
-              "question": "Question 30: Choose the correct letter A, B, C or D.",
+              "question": "What does the word 'scaffolding' in the sixth paragraph refer to?",
               "options": [
                 "A",
                 "B",
@@ -1291,7 +1238,7 @@
             {
               "id": "cam18_t3_r_q31",
               "type": "matching",
-              "question": "students placed in higher groups may achieve more",
+              "question": "According to Professor John Hattie of the Melbourne Education Research Institute, there is very little indication that streaming leads to 31",
               "options": [
                 "A. lack of resources",
                 "B. lower expectations",
@@ -1355,7 +1302,7 @@
             {
               "id": "cam18_t3_r_q35",
               "type": "matching",
-              "question": "teachers may not expect as much from some students",
+              "question": "Is streaming effective? | According to Professor John Hattie of the Melbourne Education Research Institute, there is very little indication that streaming leads to 31 ............................ . He points out that, in schools which use streaming, the most significant impact is on those students placed in the 32 ............................ , especially where a large proportion of them have 33 ............................ . Meanwhile, for the 34 ............................ , there appears to be only minimal advantage. A further issue is that teachers tend to have 35",
               "options": [
                 "A. lack of resources",
                 "B. lower expectations",
@@ -1371,55 +1318,60 @@
             {
               "id": "cam18_t3_r_q36",
               "type": "ynng",
-              "question": "The academic performance of lower-attaining students improves in mixed-ability classes.",
+              "question": "The Vygotsky model of education supports the concept of a mixed-ability class.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NO"
             },
             {
               "id": "cam18_t3_r_q37",
               "type": "ynng",
-              "question": "Mixed-ability teaching requires less preparation time for teachers.",
+              "question": "Some teachers are uncertain about allowing students to take on MKO roles in the classroom.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NOT GIVEN"
             },
             {
               "id": "cam18_t3_r_q38",
               "type": "ynng",
-              "question": "The way schools group students affects social attitudes later in life.",
+              "question": "It can be rewarding to teach knowledge which you have only recently acquired.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "YES"
             },
             {
               "id": "cam18_t3_r_q39",
               "type": "ynng",
-              "question": "Students prefer to be in classes with others of similar ability.",
+              "question": "The priority should be to ensure that the highest-achieving students attain their goals.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NO"
             },
             {
               "id": "cam18_t3_r_q40",
               "type": "ynng",
-              "question": "The benefits of mixed-ability classes are now widely accepted by educators.",
+              "question": "Taking part in collaborative outdoor activities with teachers and classmates can improve student outcomes in the classroom.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NOT GIVEN"
             }
@@ -1440,103 +1392,93 @@
             {
               "id": "cam18_t4_r_q1",
               "type": "matching_info",
-              "question": "the amount of rainwater that green roofs can absorb",
+              "question": "mention of several challenges to be overcome before a green roof can be installed",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
-                "E",
-                "F",
-                "G"
+                "E"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam18_t4_r_q2",
               "type": "matching_info",
-              "question": "the way that green roofs can keep noise out",
+              "question": "reference to a city where green roofs have been promoted for many years",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
-                "E",
-                "F",
-                "G"
+                "E"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam18_t4_r_q3",
               "type": "matching_info",
-              "question": "the fact that green roofs reduce the need for heating",
+              "question": "a belief that existing green roofs should be used as a model for new ones",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
-                "E",
-                "F",
-                "G"
+                "E"
               ],
               "correctAnswer": "E"
             },
             {
               "id": "cam18_t4_r_q4",
               "type": "matching_info",
-              "question": "how green roofs can increase property value",
+              "question": "examples of how green roofs can work in combination with other green urban initiatives",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
-                "E",
-                "F",
-                "G"
+                "E"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam18_t4_r_q5",
               "type": "matching_info",
-              "question": "the fact that green roofs can provide fire resistance",
+              "question": "the need to make a persuasive argument for the financial benefits of green roofs",
               "options": [
                 "A",
                 "B",
                 "C",
                 "D",
-                "E",
-                "F",
-                "G"
+                "E"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam18_t4_r_q6",
-              "type": "notes_completion",
-              "question": "green roofs can reduce 6. _____ consumption in buildings",
+              "type": "form_completion",
+              "question": "City rooftops covered with greenery have many advantages. These include lessening the likelihood that floods will occur, reducing how much money is spent on 6",
               "options": [],
               "correctAnswer": "energy"
             },
             {
               "id": "cam18_t4_r_q7",
-              "type": "notes_completion",
-              "question": "city residents can grow their own 7. _____ on green roofs",
+              "type": "form_completion",
+              "question": "Advantages of green roofs | City rooftops covered with greenery have many advantages. These include lessening the likelihood that floods will occur, reducing how much money is spent on 6 ......................... and creating environments that are suitable for wildlife. In many cases, they can also be used for producing 7",
               "options": [],
               "correctAnswer": "food"
             },
             {
               "id": "cam18_t4_r_q8",
-              "type": "notes_completion",
-              "question": "green roofs can provide opportunities for 8. _____",
+              "type": "form_completion",
+              "question": "There are also social benefits of green roofs. For example, the medical profession recommends 8",
               "options": [],
               "correctAnswer": "gardening"
             },
             {
               "id": "cam18_t4_r_q9",
-              "type": "notes_completion",
-              "question": "green roofs may help reduce 9. _____ rates in urban populations",
+              "type": "form_completion",
+              "question": "Advantages of green roofs | There are also social benefits of green roofs. For example, the medical profession recommends 8 ......................... as an activity to help people cope with mental health issues. Studies have also shown that the availability of green spaces can prevent physical problems such as 9",
               "options": [],
               "correctAnswer": "obesity"
             },
@@ -1599,136 +1541,124 @@
             {
               "id": "cam18_t4_r_q14",
               "type": "matching_info",
-              "question": "reference to the way growth mindset is sometimes misunderstood",
+              "question": "What can we learn from the first paragraph?",
               "options": [
                 "A",
                 "B",
                 "C",
-                "D",
-                "E",
-                "F"
+                "D"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam18_t4_r_q15",
               "type": "matching_info",
-              "question": "the finding that growth mindset interventions can reduce achievement gaps",
+              "question": "The second paragraph describes how schools encourage students to",
               "options": [
                 "A",
                 "B",
                 "C",
-                "D",
-                "E",
-                "F"
+                "D"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam18_t4_r_q16",
               "type": "matching_info",
-              "question": "the argument that growth mindset should not be oversimplified",
+              "question": "In the third paragraph, the writer suggests that students with a fixed mindset",
               "options": [
                 "A",
                 "B",
                 "C",
-                "D",
-                "E",
-                "F"
+                "D"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam18_t4_r_q17",
               "type": "matching_names",
-              "question": "found that growth mindset did not affect academic results",
+              "question": "The methodology behind the growth mindset studies was not strict enough.",
               "options": [
                 "A. Alfred Binet",
                 "B. Carol Dweck",
                 "C. Andrew Gelman",
                 "D. Timothy Bates",
-                "E. David Yeager & Gregory Walton",
-                "F. John Hattie"
+                "E. David Yeager and Gregory Walton"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam18_t4_r_q18",
               "type": "matching_names",
-              "question": "originated the concept of growth and fixed mindsets",
+              "question": "The idea of the growth mindset has been incorrectly interpreted.",
               "options": [
                 "A. Alfred Binet",
                 "B. Carol Dweck",
                 "C. Andrew Gelman",
                 "D. Timothy Bates",
-                "E. David Yeager & Gregory Walton",
-                "F. John Hattie"
+                "E. David Yeager and Gregory Walton"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam18_t4_r_q19",
               "type": "matching_names",
-              "question": "believed that intelligence could be developed through effort",
+              "question": "Intellectual ability is an unchangeable feature of each individual.",
               "options": [
                 "A. Alfred Binet",
                 "B. Carol Dweck",
                 "C. Andrew Gelman",
                 "D. Timothy Bates",
-                "E. David Yeager & Gregory Walton",
-                "F. John Hattie"
+                "E. David Yeager and Gregory Walton"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam18_t4_r_q20",
               "type": "matching_names",
-              "question": "researched how to make mindset interventions more effective",
+              "question": "The growth mindset should be promoted without students being aware of it.",
               "options": [
                 "A. Alfred Binet",
                 "B. Carol Dweck",
                 "C. Andrew Gelman",
                 "D. Timothy Bates",
-                "E. David Yeager & Gregory Walton",
-                "F. John Hattie"
+                "E. David Yeager and Gregory Walton"
               ],
               "correctAnswer": "E"
             },
             {
               "id": "cam18_t4_r_q21",
               "type": "matching_names",
-              "question": "found that praising effort can backfire if done incorrectly",
+              "question": "The growth mindset is not simply about boosting students' morale.",
               "options": [
                 "A. Alfred Binet",
                 "B. Carol Dweck",
                 "C. Andrew Gelman",
                 "D. Timothy Bates",
-                "E. David Yeager & Gregory Walton",
-                "F. John Hattie"
+                "E. David Yeager and Gregory Walton"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam18_t4_r_q22",
               "type": "matching_names",
-              "question": "questioned whether growth mindset effects have been overstated",
+              "question": "Research shows that the growth mindset has no effect on academic achievement. List of People",
               "options": [
-                "A. Alfred Binet",
-                "B. Carol Dweck",
-                "C. Andrew Gelman",
-                "D. Timothy Bates",
-                "E. David Yeager & Gregory Walton",
-                "F. John Hattie"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam18_t4_r_q23",
               "type": "ynng",
-              "question": "Growth mindset has been shown to have a greater effect on some groups of students than others.",
+              "question": "Dweck has handled criticisms of her work in an admirable way.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "YES"
@@ -1736,10 +1666,10 @@
             {
               "id": "cam18_t4_r_q24",
               "type": "ynng",
-              "question": "All researchers agree that growth mindset interventions are effective.",
+              "question": "Students' self-perception is a more effective driver of self-confidence than actual achievement is.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NO"
@@ -1747,10 +1677,10 @@
             {
               "id": "cam18_t4_r_q25",
               "type": "ynng",
-              "question": "The concept of growth mindset is used in some business organisations.",
+              "question": "Recent evidence about growth mindset interventions has attracted unfair coverage in the media.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NOT GIVEN"
@@ -1758,10 +1688,10 @@
             {
               "id": "cam18_t4_r_q26",
               "type": "ynng",
-              "question": "Developing a growth mindset requires ongoing effort and the right environment.",
+              "question": "Deliberate attempts to encourage students to strive for high achievement may have a negative effect.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "YES"
@@ -1777,10 +1707,10 @@
             {
               "id": "cam18_t4_r_q27",
               "type": "ynng",
-              "question": "Wegener's theory of continental drift was immediately accepted by other scientists.",
+              "question": "Wegener's ideas about continental drift were widely disputed while he was alive.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "YES"
@@ -1788,10 +1718,10 @@
             {
               "id": "cam18_t4_r_q28",
               "type": "ynng",
-              "question": "Wegener's ideas were influenced by his work in meteorology.",
+              "question": "The idea that the continents remained fixed in place was defended in a number of respected scientific publications.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NOT GIVEN"
@@ -1799,10 +1729,10 @@
             {
               "id": "cam18_t4_r_q29",
               "type": "ynng",
-              "question": "Wegener was able to explain the mechanism by which continents move.",
+              "question": "Wegener relied on a limited range of scientific fields to support his theory of continental drift.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NO"
@@ -1810,10 +1740,10 @@
             {
               "id": "cam18_t4_r_q30",
               "type": "ynng",
-              "question": "Plate tectonic theory was developed before Wegener's death.",
+              "question": "The similarities between Wegener's theory of continental drift and modern-day plate tectonics are enormous.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NO"
@@ -1821,7 +1751,7 @@
             {
               "id": "cam18_t4_r_q31",
               "type": "matching",
-              "question": "explores Wegener's personal qualities as a scientist",
+              "question": "One of the remarkable things about Wegener from a 31",
               "options": [
                 "A. modest fame",
                 "B. theoretical limitations",
@@ -1906,7 +1836,7 @@
             {
               "id": "cam18_t4_r_q36",
               "type": "matching",
-              "question": "identifies the small number of scientists who supported Wegener's ideas",
+              "question": "Wegener's life and work | One of the remarkable things about Wegener from a 31 ................................................... is that although he proposed a theory of continental drift, he was not a geologist. His 32 ................................................... were limited to atmospheric physics. However, at the time he proposed his theory of continental drift in 1912, he was already a person of 33 ................................................... . Six years previously, there had been 34 ................................................... of 52 hours in a hotair balloon, followed by his wellpublicised but 35 ................................................... of Greenland's coast. With the publication of his textbook on thermodynamics, he had also come to the attention of a 36",
               "options": [
                 "A. modest fame",
                 "B. theoretical limitations",
@@ -1923,7 +1853,7 @@
             {
               "id": "cam18_t4_r_q37",
               "type": "multiple_choice",
-              "question": "Question 37: Choose the correct letter A, B, C or D.",
+              "question": "What is Matt T Greene doing in the fifth paragraph?",
               "options": [
                 "A",
                 "B",
@@ -1935,7 +1865,7 @@
             {
               "id": "cam18_t4_r_q38",
               "type": "multiple_choice",
-              "question": "Question 38: Choose the correct letter A, B, C or D.",
+              "question": "What is said about Wegener in the sixth paragraph?",
               "options": [
                 "A",
                 "B",
@@ -1947,7 +1877,7 @@
             {
               "id": "cam18_t4_r_q39",
               "type": "multiple_choice",
-              "question": "Question 39: Choose the correct letter A, B, C or D.",
+              "question": "What does Greene say about some other famous scientists?",
               "options": [
                 "A",
                 "B",
@@ -1959,7 +1889,7 @@
             {
               "id": "cam18_t4_r_q40",
               "type": "multiple_choice",
-              "question": "Question 40: Choose the correct letter A, B, C or D.",
+              "question": "What is Greene's main point in the final paragraph?",
               "options": [
                 "A",
                 "B",

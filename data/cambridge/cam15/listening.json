@@ -7,400 +7,403 @@
       "testNumber": 1,
       "parts": [
         {
-          "id": "cam15_lt1_p1",
+          "id": "cam15_t1_l_p1",
           "title": "Bankside Recruitment Agency",
           "audioFile": "cam15_s1.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam15_lt1_q1",
-              "type": "notes_completion",
-              "question": "1. Surname: _____",
+              "id": "cam15_t1_l_q1",
+              "type": "form_completion",
+              "question": "Bankside Recruitment Agency | Name of agent: Becky 1",
               "options": [],
               "correctAnswer": "Jamieson"
             },
             {
-              "id": "cam15_lt1_q2",
-              "type": "notes_completion",
-              "question": "2. Preferred time: _____",
+              "id": "cam15_t1_l_q2",
+              "type": "form_completion",
+              "question": "Bankside Recruitment Agency | Best to call her in the 2",
               "options": [],
               "correctAnswer": "afternoon"
             },
             {
-              "id": "cam15_lt1_q3",
-              "type": "notes_completion",
-              "question": "3. Good at: _____",
+              "id": "cam15_t1_l_q3",
+              "type": "form_completion",
+              "question": "Typical jobs | Must have good 3",
               "options": [],
               "correctAnswer": "communication"
             },
             {
-              "id": "cam15_lt1_q4",
-              "type": "notes_completion",
-              "question": "4. Available from: next _____",
+              "id": "cam15_t1_l_q4",
+              "type": "form_completion",
+              "question": "Typical jobs | Jobs are usually for at least one 4",
               "options": [],
               "correctAnswer": "week"
             },
             {
-              "id": "cam15_lt1_q5",
-              "type": "notes_completion",
-              "question": "5. Experience: _____ years",
+              "id": "cam15_t1_l_q5",
+              "type": "form_completion",
+              "question": "Typical jobs | Pay is usually 5 £",
               "options": [],
               "correctAnswer": "10"
             },
             {
-              "id": "cam15_lt1_q6",
-              "type": "notes_completion",
-              "question": "6. Need to have a _____",
+              "id": "cam15_t1_l_q6",
+              "type": "form_completion",
+              "question": "Registration process | Wear a 6 _____ to the interview",
               "options": [],
               "correctAnswer": "suit"
             },
             {
-              "id": "cam15_lt1_q7",
-              "type": "notes_completion",
-              "question": "7. Must bring: _____",
+              "id": "cam15_t1_l_q7",
+              "type": "form_completion",
+              "question": "Registration process | Must bring your 7",
               "options": [],
               "correctAnswer": "passport"
             },
             {
-              "id": "cam15_lt1_q8",
-              "type": "notes_completion",
-              "question": "8. Important quality: _____",
+              "id": "cam15_t1_l_q8",
+              "type": "form_completion",
+              "question": "Registration process | They will ask questions about each applicant's 8",
               "options": [],
               "correctAnswer": "personality"
             },
             {
-              "id": "cam15_lt1_q9",
-              "type": "notes_completion",
-              "question": "9. They will provide: _____",
+              "id": "cam15_t1_l_q9",
+              "type": "form_completion",
+              "question": "Advantages of using an agency | The 9 _____ you receive at interview will benefit you",
               "options": [],
               "correctAnswer": "feedback"
             },
             {
-              "id": "cam15_lt1_q10",
-              "type": "notes_completion",
-              "question": "10. Interview duration: one hour and the candidate arrived on _____",
+              "id": "cam15_t1_l_q10",
+              "type": "form_completion",
+              "question": "Advantages of using an agency | Less 10 _____ is involved in applying for jobs",
               "options": [],
               "correctAnswer": "time"
             }
           ]
         },
         {
-          "id": "cam15_lt1_p2",
+          "id": "cam15_t1_l_p2",
           "title": "Matthews Island Holidays",
           "audioFile": "cam15_s2.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam15_lt1_q11",
+              "id": "cam15_t1_l_q11",
               "type": "multiple_choice",
-              "question": "Question 11: Choose the correct letter, A, B or C.",
+              "question": "According to the speaker, the company",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. has been in business for longer than most of its competitors.",
+                "B. arranges holidays to more destinations than its competitors.",
+                "C. has more customers than its competitors."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. _ has been in business for longer than most of its competitors."
             },
             {
-              "id": "cam15_lt1_q12",
+              "id": "cam15_t1_l_q12",
               "type": "multiple_choice",
-              "question": "Question 12: Choose the correct letter, A, B or C.",
+              "question": "Where can customers meet the tour manager before travelling to the Isle of Man?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. Liverpool",
+                "B. Heysham",
+                "C. Luton"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. Heysham"
             },
             {
-              "id": "cam15_lt1_q13",
+              "id": "cam15_t1_l_q13",
               "type": "multiple_choice",
-              "question": "Question 13: Choose the correct letter, A, B or C.",
+              "question": "How many lunches are included in the price of the holiday?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. three",
+                "B. four",
+                "C. five"
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. three"
             },
             {
-              "id": "cam15_lt1_q14",
+              "id": "cam15_t1_l_q14",
               "type": "multiple_choice",
-              "question": "Question 14: Choose the correct letter, A, B or C.",
+              "question": "Customers have to pay extra for",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. guaranteeing themselves a larger room.",
+                "B. booking at short notice.",
+                "C. transferring to another date."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. transferring to another date."
             },
             {
-              "id": "cam15_lt1_q15",
-              "type": "notes_completion",
-              "question": "15. The holiday company recommends taking a trip along the _____",
+              "id": "cam15_t1_l_q15",
+              "type": "form_completion",
+              "question": "Timetable for Isle of Man holiday | | :| :| :| | | Day 1 | Arrive | Introduction by manager<br>Hotel dining room has view of the 15",
               "options": [],
               "correctAnswer": "river"
             },
             {
-              "id": "cam15_lt1_q16",
-              "type": "notes_completion",
-              "question": "16. The hotel room number is _____",
+              "id": "cam15_t1_l_q16",
+              "type": "form_completion",
+              "question": "Timetable for Isle of Man holiday | | :| :| :| | | Day 2 | Tynwald Exhibition and Peel | Tynwald may have been founded in 16",
               "options": [],
               "correctAnswer": "1422"
             },
             {
-              "id": "cam15_lt1_q17",
-              "type": "notes_completion",
-              "question": "17. Guests should meet at the _____ of the hotel for excursions",
+              "id": "cam15_t1_l_q17",
+              "type": "form_completion",
+              "question": "Timetable for Isle of Man holiday | | :| :| :| | | Day 3 | Trip to Snaefell | Travel along promenade in a tram; train to Laxey; train to the 17",
               "options": [],
               "correctAnswer": "top"
             },
             {
-              "id": "cam15_lt1_q18",
-              "type": "notes_completion",
-              "question": "18. Visitors need to show their _____ to get discounts on boat trips",
+              "id": "cam15_t1_l_q18",
+              "type": "form_completion",
+              "question": "Timetable for Isle of Man holiday | | :| :| :| | | Day 4 | Free day | Company provides a 18",
               "options": [],
               "correctAnswer": "pass"
             },
             {
-              "id": "cam15_lt1_q19",
-              "type": "notes_completion",
+              "id": "cam15_t1_l_q19",
+              "type": "form_completion",
               "question": "19. The island's transport includes a _____ railway",
               "options": [],
               "correctAnswer": "steam"
             },
             {
-              "id": "cam15_lt1_q20",
-              "type": "notes_completion",
-              "question": "20. The tour includes a visit to the _____ city",
+              "id": "cam15_t1_l_q20",
+              "type": "form_completion",
+              "question": "Timetable for Isle of Man holiday | | :| :| :| | | Day 5 | Take the 19 ............................................................ railway train from Douglas to Port Erin | Free time, then coach to Castletown former 20",
               "options": [],
               "correctAnswer": "capital"
             }
           ]
         },
         {
-          "id": "cam15_lt1_p3",
+          "id": "cam15_t1_l_p3",
           "title": "Birth Order and Personality",
           "audioFile": "cam15_s3.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam15_lt1_q21",
+              "id": "cam15_t1_l_q21",
               "type": "matching",
-              "question": "21. the oldest children",
+              "question": "the eldest child",
               "options": [
-                "A. tend to be creative and attention-seeking",
-                "B. often behave like adults from an early age",
-                "C. may feel overshadowed by their siblings",
-                "D. are usually very organised and responsible",
-                "E. develop strong negotiation skills",
-                "F. are often mediators in family conflicts",
-                "G. are typically confident and achievement-oriented"
+                "A. outgoing",
+                "B. selfish",
+                "C. independent",
+                "D. attention-seeking",
+                "E. introverted",
+                "F. co-operative",
+                "G. caring",
+                "H. competitive"
               ],
               "correctAnswer": "G"
             },
             {
-              "id": "cam15_lt1_q22",
+              "id": "cam15_t1_l_q22",
               "type": "matching",
-              "question": "22. the middle children",
+              "question": "a middle child",
               "options": [
-                "A. tend to be creative and attention-seeking",
-                "B. often behave like adults from an early age",
-                "C. may feel overshadowed by their siblings",
-                "D. are usually very organised and responsible",
-                "E. develop strong negotiation skills",
-                "F. are often mediators in family conflicts",
-                "G. are typically confident and achievement-oriented"
+                "A. outgoing",
+                "B. selfish",
+                "C. independent",
+                "D. attention-seeking",
+                "E. introverted",
+                "F. co-operative",
+                "G. caring",
+                "H. competitive"
               ],
               "correctAnswer": "F"
             },
             {
-              "id": "cam15_lt1_q23",
+              "id": "cam15_t1_l_q23",
               "type": "matching",
-              "question": "23. the youngest children",
+              "question": "the youngest child",
               "options": [
-                "A. tend to be creative and attention-seeking",
-                "B. often behave like adults from an early age",
-                "C. may feel overshadowed by their siblings",
-                "D. are usually very organised and responsible",
-                "E. develop strong negotiation skills",
-                "F. are often mediators in family conflicts",
-                "G. are typically confident and achievement-oriented"
+                "A. outgoing",
+                "B. selfish",
+                "C. independent",
+                "D. attention-seeking",
+                "E. introverted",
+                "F. co-operative",
+                "G. caring",
+                "H. competitive"
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam15_lt1_q24",
+              "id": "cam15_t1_l_q24",
               "type": "matching",
-              "question": "24. twins",
+              "question": "a twin",
               "options": [
-                "A. tend to be creative and attention-seeking",
-                "B. often behave like adults from an early age",
-                "C. may feel overshadowed by their siblings",
-                "D. are usually very organised and responsible",
-                "E. develop strong negotiation skills",
-                "F. are often mediators in family conflicts",
-                "G. are typically confident and achievement-oriented"
+                "A. outgoing",
+                "B. selfish",
+                "C. independent",
+                "D. attention-seeking",
+                "E. introverted",
+                "F. co-operative",
+                "G. caring",
+                "H. competitive"
               ],
               "correctAnswer": "E"
             },
             {
-              "id": "cam15_lt1_q25",
+              "id": "cam15_t1_l_q25",
               "type": "matching",
-              "question": "25. only children",
+              "question": "an only child",
               "options": [
-                "A. tend to be creative and attention-seeking",
-                "B. often behave like adults from an early age",
-                "C. may feel overshadowed by their siblings",
-                "D. are usually very organised and responsible",
-                "E. develop strong negotiation skills",
-                "F. are often mediators in family conflicts",
-                "G. are typically confident and achievement-oriented"
+                "A. outgoing",
+                "B. selfish",
+                "C. independent",
+                "D. attention-seeking",
+                "E. introverted",
+                "F. co-operative",
+                "G. caring",
+                "H. competitive"
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam15_lt1_q26",
+              "id": "cam15_t1_l_q26",
               "type": "matching",
-              "question": "26. children with much older siblings",
+              "question": "a child with much older siblings",
               "options": [
-                "A. tend to be creative and attention-seeking",
-                "B. often behave like adults from an early age",
-                "C. may feel overshadowed by their siblings",
-                "D. are usually very organised and responsible",
-                "E. develop strong negotiation skills",
-                "F. are often mediators in family conflicts",
-                "G. are typically confident and achievement-oriented"
+                "A. outgoing",
+                "B. selfish",
+                "C. independent",
+                "D. attention-seeking",
+                "E. introverted",
+                "F. co-operative",
+                "G. caring",
+                "H. competitive"
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam15_lt1_q27",
+              "id": "cam15_t1_l_q27",
               "type": "multiple_choice",
-              "question": "Question 27: Choose the correct letter, A, B, C or D.",
+              "question": "What do the speakers say about the evidence relating to birth order and academic",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. __ There is conflicting evidence about whether oldest children perform best in intelligence tests. B_ There is little doubt that birth order has less influence on academic achievement than socio-economic status.",
+                "C. Some studies have neglected to include important factors such as family size."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. Some studies have neglected to include important factors such as family size."
             },
             {
-              "id": "cam15_lt1_q28",
+              "id": "cam15_t1_l_q28",
               "type": "multiple_choice",
-              "question": "Question 28: Choose the correct letter, A, B, C or D.",
+              "question": "What does Ruth think is surprising about the difference in oldest children’s",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. __ Itis mainly thanks to their roles as teachers for their younger siblings. B_ The advantages they have only lead to a slightly higher level of achievement. C_ The extra parental attention they receive at a young age makes little difference."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. __ Itis mainly thanks to their roles as teachers for their younger siblings. B_ The advantages they have only lead to a slightly higher level of achievement. C_ The extra parental attention they receive at a young age makes little difference."
             },
             {
-              "id": "cam15_lt1_q29",
-              "type": "multiple_choice",
-              "question": "Question 29: Choose the correct letter, A, B, C or D.",
+              "id": "cam15_t1_l_q29",
+              "type": "multiple_choice_multi",
+              "question": "for them?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. learning to share",
+                "B. learning to stand up for oneself",
+                "C. learning to be a good loser",
+                "D. learning to be tolerant",
+                "E. learning to say sorry"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. learning to stand up for oneself"
             },
             {
-              "id": "cam15_lt1_q30",
-              "type": "multiple_choice",
-              "question": "Question 30: Choose the correct letter, A, B, C or D.",
+              "id": "cam15_t1_l_q30",
+              "type": "multiple_choice_multi",
+              "question": "for them?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. learning to share",
+                "B. learning to stand up for oneself",
+                "C. learning to be a good loser",
+                "D. learning to be tolerant",
+                "E. learning to say sorry"
               ],
-              "correctAnswer": "D"
+              "correctAnswer": "D. learning to be tolerant"
             }
           ]
         },
         {
-          "id": "cam15_lt1_p4",
+          "id": "cam15_t1_l_p4",
           "title": "Eucalyptus Trees",
           "audioFile": "cam15_s4.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam15_lt1_q31",
-              "type": "notes_completion",
-              "question": "Question 31: ONE WORD ONLY.",
+              "id": "cam15_t1_l_q31",
+              "type": "form_completion",
+              "question": "e it provides _____",
               "options": [],
               "correctAnswer": "shelter"
             },
             {
-              "id": "cam15_lt1_q32",
-              "type": "notes_completion",
-              "question": "Question 32: ONE WORD ONLY.",
+              "id": "cam15_t1_l_q32",
+              "type": "form_completion",
+              "question": "e its leaves provide _____",
               "options": [],
               "correctAnswer": "oil"
             },
             {
-              "id": "cam15_lt1_q33",
-              "type": "notes_completion",
-              "question": "Question 33: ONE WORD ONLY.",
+              "id": "cam15_t1_l_q33",
+              "type": "form_completion",
+              "question": "Cause – lime used for making _____",
               "options": [],
               "correctAnswer": "roads"
             },
             {
-              "id": "cam15_lt1_q34",
-              "type": "notes_completion",
-              "question": "Question 34: ONE WORD ONLY.",
+              "id": "cam15_t1_l_q34",
+              "type": "form_completion",
+              "question": "Cause – _____",
               "options": [],
               "correctAnswer": "insects"
             },
             {
-              "id": "cam15_lt1_q35",
-              "type": "notes_completion",
-              "question": "Question 35: ONE WORD ONLY.",
+              "id": "cam15_t1_l_q35",
+              "type": "form_completion",
+              "question": "highfrequency bushfires have impact on vegetation, resulting in the growth of _____",
               "options": [],
               "correctAnswer": "grass"
             },
             {
-              "id": "cam15_lt1_q36",
-              "type": "notes_completion",
-              "question": "Question 36: ONE WORD ONLY.",
+              "id": "cam15_t1_l_q36",
+              "type": "form_completion",
+              "question": "make more _____",
               "options": [],
               "correctAnswer": "water"
             },
             {
-              "id": "cam15_lt1_q37",
-              "type": "notes_completion",
-              "question": "Question 37: ONE WORD ONLY.",
+              "id": "cam15_t1_l_q37",
+              "type": "form_completion",
+              "question": "maintain the quality of the _____",
               "options": [],
               "correctAnswer": "nutrients"
             },
             {
-              "id": "cam15_lt1_q38",
-              "type": "notes_completion",
-              "question": "Question 38: ONE WORD ONLY.",
+              "id": "cam15_t1_l_q38",
+              "type": "form_completion",
+              "question": "lowfrequency bushfires result in the growth of 38 ‘ _____",
               "options": [],
               "correctAnswer": "dry"
             },
             {
-              "id": "cam15_lt1_q39",
-              "type": "notes_completion",
-              "question": "Question 39: ONE WORD ONLY.",
+              "id": "cam15_t1_l_q39",
+              "type": "form_completion",
+              "question": "– a 39 _____",
               "options": [],
               "correctAnswer": "simple"
             },
             {
-              "id": "cam15_lt1_q40",
-              "type": "notes_completion",
-              "question": "Question 40: ONE WORD ONLY.",
+              "id": "cam15_t1_l_q40",
+              "type": "form_completion",
+              "question": "an ideal environment for the _____",
               "options": [],
               "correctAnswer": "nests"
             }
@@ -413,294 +416,264 @@
       "testNumber": 2,
       "parts": [
         {
-          "id": "cam15_lt2_p1",
+          "id": "cam15_t2_l_p1",
           "title": "Festival Information",
           "audioFile": "cam15_s5.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam15_lt2_q1",
-              "type": "notes_completion",
-              "question": "1. Name of the festival: _____",
+              "id": "cam15_t2_l_q1",
+              "type": "form_completion",
+              "question": "Festival information | | 17th | a concert | performers from Canada | | | 18th | a ballet | company called 1",
               "options": [],
               "correctAnswer": "Eustatis"
             },
             {
-              "id": "cam15_lt2_q2",
-              "type": "notes_completion",
+              "id": "cam15_t2_l_q2",
+              "type": "form_completion",
               "question": "2. The organiser asks for a _____ of the event",
               "options": [],
               "correctAnswer": "review"
             },
             {
-              "id": "cam15_lt2_q3",
-              "type": "notes_completion",
-              "question": "3. Type of performance: _____",
+              "id": "cam15_t2_l_q3",
+              "type": "form_completion",
+              "question": "| 20th (evening) | a 3",
               "options": [],
               "correctAnswer": "dance"
             },
             {
-              "id": "cam15_lt2_q4",
-              "type": "notes_completion",
-              "question": "4. Communication platform: _____",
+              "id": "cam15_t2_l_q4",
+              "type": "form_completion",
+              "question": "Festival information | | 19th20th (afternoon) | a play | type of play: a comedy called Jemima | | | 20th (evening) | a 3 ........................ show | has had a good 2 ........................ show is called 4",
               "options": [],
               "correctAnswer": "Chat"
             },
             {
-              "id": "cam15_lt2_q5",
-              "type": "notes_completion",
-              "question": "5. Food available: _____ options",
+              "id": "cam15_t2_l_q5",
+              "type": "form_completion",
+              "question": "Workshops | Making 5 _____ food",
               "options": [],
               "correctAnswer": "healthy"
             },
             {
-              "id": "cam15_lt2_q6",
-              "type": "notes_completion",
-              "question": "6. They need to put up _____",
+              "id": "cam15_t2_l_q6",
+              "type": "form_completion",
+              "question": "Workshops | (children only) Making 6",
               "options": [],
               "correctAnswer": "posters"
             },
             {
-              "id": "cam15_lt2_q7",
-              "type": "notes_completion",
-              "question": "7. Stage material: _____",
+              "id": "cam15_t2_l_q7",
+              "type": "form_completion",
+              "question": "Workshops | (adults only) Making toys from 7",
               "options": [],
               "correctAnswer": "wood"
             },
             {
-              "id": "cam15_lt2_q8",
-              "type": "notes_completion",
-              "question": "8. Activities near the _____",
+              "id": "cam15_t2_l_q8",
+              "type": "form_completion",
+              "question": "Outdoor activities | Swimming in the 8",
               "options": [],
               "correctAnswer": "lake"
             },
             {
-              "id": "cam15_lt2_q9",
-              "type": "notes_completion",
-              "question": "9. Problem with: _____",
+              "id": "cam15_t2_l_q9",
+              "type": "form_completion",
+              "question": "Outdoor activities | Walking in the woods, led by an expert on 9",
               "options": [],
               "correctAnswer": "insects"
             },
             {
-              "id": "cam15_lt2_q10",
-              "type": "notes_completion",
-              "question": "10. More details on the _____",
+              "id": "cam15_t2_l_q10",
+              "type": "form_completion",
+              "question": "Outdoor activities | See the festival organiser's 10",
               "options": [],
               "correctAnswer": "blog"
             }
           ]
         },
         {
-          "id": "cam15_lt2_p2",
+          "id": "cam15_t2_l_p2",
           "title": "Minster Park",
           "audioFile": "cam15_s6.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam15_lt2_q11",
+              "id": "cam15_t2_l_q11",
               "type": "multiple_choice",
-              "question": "Question 11: Choose the correct letter, A, B or C.",
+              "question": "The park was originally established",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. as an amenity provided by the city council,",
+                "B. as land belonging to a private house.",
+                "C. as a shared area set up by the local community."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam15_lt2_q12",
+              "id": "cam15_t2_l_q12",
               "type": "multiple_choice",
-              "question": "Question 12: Choose the correct letter, A, B or C.",
+              "question": "Why is there a statue of Diane Gosforth in the park?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. She was a resident who helped to lead a campaign.",
+                "B. She was a council member responsible for giving the public access.",
+                "C. She was a senior worker at the park for many years."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. She was a resident who helped to lead a campaign."
             },
             {
-              "id": "cam15_lt2_q13",
+              "id": "cam15_t2_l_q13",
               "type": "multiple_choice",
-              "question": "Question 13: Choose the correct letter, A, B or C.",
+              "question": "During the First World War, the park was mainly used for",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. exercises by troops.",
+                "B. growing vegetables.",
+                "C. public meetings."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. growing vegetables."
             },
             {
-              "id": "cam15_lt2_q14",
+              "id": "cam15_t2_l_q14",
               "type": "multiple_choice",
-              "question": "Question 14: Choose the correct letter, A, B or C.",
+              "question": "When did the physical transformation of the park begin?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. 2013",
+                "B. 2015",
+                "C. 2016"
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. 2016"
             },
             {
-              "id": "cam15_lt2_q15",
+              "id": "cam15_t2_l_q15",
               "type": "matching",
-              "question": "Match the location on the map (items 15-20) to the correct letter.",
+              "question": "statue of Diane Gosforth",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. as an amenity provided by the city council,",
+                "B. as land belonging to a private house.",
+                "C. as a shared area set up by the local community."
               ],
               "correctAnswer": "E"
             },
             {
-              "id": "cam15_lt2_q16",
+              "id": "cam15_t2_l_q16",
               "type": "matching",
-              "question": "Match the location on the map (items 15-20) to the correct letter.",
+              "question": "wooden sculptures",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. as an amenity provided by the city council,",
+                "B. as land belonging to a private house.",
+                "C. as a shared area set up by the local community."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam15_lt2_q17",
+              "id": "cam15_t2_l_q17",
               "type": "matching",
-              "question": "Match the location on the map (items 15-20) to the correct letter.",
+              "question": "playground",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. as an amenity provided by the city council,",
+                "B. as land belonging to a private house.",
+                "C. as a shared area set up by the local community."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam15_lt2_q18",
+              "id": "cam15_t2_l_q18",
               "type": "matching",
-              "question": "Match the location on the map (items 15-20) to the correct letter.",
+              "question": "maze",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. as an amenity provided by the city council,",
+                "B. as land belonging to a private house.",
+                "C. as a shared area set up by the local community."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam15_lt2_q19",
+              "id": "cam15_t2_l_q19",
               "type": "matching",
-              "question": "Match the location on the map (items 15-20) to the correct letter.",
+              "question": "tennis courts",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. as an amenity provided by the city council,",
+                "B. as land belonging to a private house.",
+                "C. as a shared area set up by the local community."
               ],
               "correctAnswer": "G"
             },
             {
-              "id": "cam15_lt2_q20",
+              "id": "cam15_t2_l_q20",
               "type": "matching",
-              "question": "Match the location on the map (items 15-20) to the correct letter.",
+              "question": "fitness area",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. as an amenity provided by the city council,",
+                "B. as land belonging to a private house.",
+                "C. as a shared area set up by the local community."
               ],
               "correctAnswer": "D"
             }
           ]
         },
         {
-          "id": "cam15_lt2_p3",
+          "id": "cam15_t2_l_p3",
           "title": "Dickens Display",
           "audioFile": "cam15_s7.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam15_lt2_q21",
-              "type": "multiple_choice",
-              "question": "Which TWO groups of people is the Dickens display aimed at?\nA. school children\nB. local residents\nC. overseas tourists\nD. potential new students\nE. academic researchers",
+              "id": "cam15_t2_l_q21",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO groups of people is the display primarily intended for?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. students from the English department",
+                "B. residents of the local area",
+                "C. the university's teaching staff",
+                "D. potential new students",
+                "E. students from other departments"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. local residents"
             },
             {
-              "id": "cam15_lt2_q22",
-              "type": "multiple_choice",
-              "question": "Which TWO groups of people is the Dickens display aimed at?\nA. school children\nB. local residents\nC. overseas tourists\nD. potential new students\nE. academic researchers",
+              "id": "cam15_t2_l_q22",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO groups of people is the display primarily intended for?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. students from the English department",
+                "B. residents of the local area",
+                "C. the university's teaching staff",
+                "D. potential new students",
+                "E. students from other departments"
               ],
-              "correctAnswer": "D"
+              "correctAnswer": "D. potential new students"
             },
             {
-              "id": "cam15_lt2_q23",
-              "type": "multiple_choice",
-              "question": "Which TWO types of items are included in the display?\nA. original letters\nB. social problems publications\nC. well-known novels\nD. personal photographs\nE. film adaptations",
+              "id": "cam15_t2_l_q23",
+              "type": "multiple_choice_multi",
+              "question": "What are Cathy and Graham's TWO reasons for choosing the novelist Charles Dickens?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. His speeches inspired others to try to improve society.",
+                "B. He used his publications to draw attention to social problems.",
+                "C. His novels are well-known now.",
+                "D. He was consulted on a number of social issues.",
+                "E. His reputation has changed in recent times."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. social problems publications"
             },
             {
-              "id": "cam15_lt2_q24",
-              "type": "multiple_choice",
-              "question": "Which TWO types of items are included in the display?\nA. original letters\nB. social problems publications\nC. well-known novels\nD. personal photographs\nE. film adaptations",
+              "id": "cam15_t2_l_q24",
+              "type": "multiple_choice_multi",
+              "question": "What are Cathy and Graham's TWO reasons for choosing the novelist Charles Dickens?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. His speeches inspired others to try to improve society.",
+                "B. He used his publications to draw attention to social problems.",
+                "C. His novels are well-known now.",
+                "D. He was consulted on a number of social issues.",
+                "E. His reputation has changed in recent times."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. well-known novels"
             },
             {
-              "id": "cam15_lt2_q25",
+              "id": "cam15_t2_l_q25",
               "type": "matching",
               "question": "25. Pickwick Papers",
               "options": [
@@ -716,7 +689,7 @@
               "correctAnswer": "G"
             },
             {
-              "id": "cam15_lt2_q26",
+              "id": "cam15_t2_l_q26",
               "type": "matching",
               "question": "26. Oliver Twist",
               "options": [
@@ -732,7 +705,7 @@
               "correctAnswer": "B"
             },
             {
-              "id": "cam15_lt2_q27",
+              "id": "cam15_t2_l_q27",
               "type": "matching",
               "question": "27. Nicholas Nickleby",
               "options": [
@@ -748,7 +721,7 @@
               "correctAnswer": "D"
             },
             {
-              "id": "cam15_lt2_q28",
+              "id": "cam15_t2_l_q28",
               "type": "matching",
               "question": "28. Martin Chuzzlewit",
               "options": [
@@ -764,7 +737,7 @@
               "correctAnswer": "C"
             },
             {
-              "id": "cam15_lt2_q29",
+              "id": "cam15_t2_l_q29",
               "type": "matching",
               "question": "29. Bleak House",
               "options": [
@@ -780,7 +753,7 @@
               "correctAnswer": "H"
             },
             {
-              "id": "cam15_lt2_q30",
+              "id": "cam15_t2_l_q30",
               "type": "matching",
               "question": "30. Little Dorrit",
               "options": [
@@ -798,79 +771,79 @@
           ]
         },
         {
-          "id": "cam15_lt2_p4",
+          "id": "cam15_t2_l_p4",
           "title": "Agricultural Programme in Mozambique",
           "audioFile": "cam15_s8.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam15_lt2_q31",
-              "type": "notes_completion",
-              "question": "Question 31: ONE WORD ONLY.",
+              "id": "cam15_t2_l_q31",
+              "type": "form_completion",
+              "question": "People depended on the forest to provide charcoal as a source of income. _____",
               "options": [],
               "correctAnswer": "Irrigation"
             },
             {
-              "id": "cam15_lt2_q32",
-              "type": "notes_completion",
-              "question": "Question 32: ONE WORD ONLY.",
+              "id": "cam15_t2_l_q32",
+              "type": "form_completion",
+              "question": "Most of the work organised by farmers’ associations was done by _____",
               "options": [],
               "correctAnswer": "women"
             },
             {
-              "id": "cam15_lt2_q33",
-              "type": "notes_completion",
-              "question": "Question 33: ONE WORD ONLY.",
+              "id": "cam15_t2_l_q33",
+              "type": "form_completion",
+              "question": "– 33 _____",
               "options": [],
               "correctAnswer": "wire(s)"
             },
             {
-              "id": "cam15_lt2_q34",
-              "type": "notes_completion",
-              "question": "Question 34: ONE WORD ONLY.",
+              "id": "cam15_t2_l_q34",
+              "type": "form_completion",
+              "question": "– 34 _____",
               "options": [],
               "correctAnswer": "seed(s)"
             },
             {
-              "id": "cam15_lt2_q35",
-              "type": "notes_completion",
-              "question": "Question 35: ONE WORD ONLY.",
+              "id": "cam15_t2_l_q35",
+              "type": "form_completion",
+              "question": "– 35 _____",
               "options": [],
               "correctAnswer": "posts"
             },
             {
-              "id": "cam15_lt2_q36",
-              "type": "notes_completion",
-              "question": "Question 36: ONE WORD ONLY.",
+              "id": "cam15_t2_l_q36",
+              "type": "form_completion",
+              "question": "The marketing of produce was sometimes difficult due to lack of _____",
               "options": [],
               "correctAnswer": "transport"
             },
             {
-              "id": "cam15_lt2_q37",
-              "type": "notes_completion",
-              "question": "Question 37: ONE WORD ONLY.",
+              "id": "cam15_t2_l_q37",
+              "type": "form_completion",
+              "question": "Training was therefore provided in methods of food _____",
               "options": [],
               "correctAnswer": "preservation"
             },
             {
-              "id": "cam15_lt2_q38",
-              "type": "notes_completion",
-              "question": "Question 38: ONE WORD ONLY.",
+              "id": "cam15_t2_l_q38",
+              "type": "form_completion",
+              "question": "Farmers made special places where _____",
               "options": [],
               "correctAnswer": "fish(es)"
             },
             {
-              "id": "cam15_lt2_q39",
-              "type": "notes_completion",
-              "question": "Question 39: ONE WORD ONLY.",
+              "id": "cam15_t2_l_q39",
+              "type": "form_completion",
+              "question": "Local people later suggested keeping _____",
               "options": [],
               "correctAnswer": "bees"
             },
             {
-              "id": "cam15_lt2_q40",
-              "type": "notes_completion",
-              "question": "Question 40: ONE WORD ONLY.",
+              "id": "cam15_t2_l_q40",
+              "type": "form_completion",
+              "question": "PART 4 Questions 31 _____",
               "options": [],
               "correctAnswer": "design"
             }
@@ -883,262 +856,262 @@
       "testNumber": 3,
       "parts": [
         {
-          "id": "cam15_lt3_p1",
+          "id": "cam15_t3_l_p1",
           "title": "Employment Agency (Possible Jobs)",
           "audioFile": "cam15_s9.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam15_lt3_q1",
-              "type": "notes_completion",
-              "question": "1. First job involves moving _____",
+              "id": "cam15_t3_l_q1",
+              "type": "form_completion",
+              "question": "| First Job                                                                    | | | Administrative assistant in a company that produces 1",
               "options": [],
               "correctAnswer": "furniture"
             },
             {
-              "id": "cam15_lt3_q2",
-              "type": "notes_completion",
-              "question": "2. Must be good at organising _____",
+              "id": "cam15_t3_l_q2",
+              "type": "form_completion",
+              "question": "| data entry                                                                 | | | go to 2 _____ and take notes            |",
               "options": [],
               "correctAnswer": "meetings"
             },
             {
-              "id": "cam15_lt3_q3",
-              "type": "notes_completion",
-              "question": "3. Must keep a _____",
+              "id": "cam15_t3_l_q3",
+              "type": "form_completion",
+              "question": "| general admin                                                              | | | management of 3",
               "options": [],
               "correctAnswer": "diary"
             },
             {
-              "id": "cam15_lt3_q4",
-              "type": "notes_completion",
-              "question": "4. Must pay attention to _____",
+              "id": "cam15_t3_l_q4",
+              "type": "form_completion",
+              "question": "| good interpersonal skills                                                 | | | attention to 4",
               "options": [],
               "correctAnswer": "detail"
             },
             {
-              "id": "cam15_lt3_q5",
-              "type": "notes_completion",
-              "question": "5. Length of contract: _____",
+              "id": "cam15_t3_l_q5",
+              "type": "form_completion",
+              "question": "| Experience                                                                    | | | need a minimum of 5",
               "options": [],
               "correctAnswer": "1 year"
             },
             {
-              "id": "cam15_lt3_q6",
-              "type": "notes_completion",
-              "question": "6. Job involves helping with _____",
+              "id": "cam15_t3_l_q6",
+              "type": "form_completion",
+              "question": "Responsibilities | managing 6",
               "options": [],
               "correctAnswer": "deliveries"
             },
             {
-              "id": "cam15_lt3_q7",
-              "type": "notes_completion",
-              "question": "7. Must keep the office _____",
+              "id": "cam15_t3_l_q7",
+              "type": "form_completion",
+              "question": "Requirements | very organised and 7",
               "options": [],
               "correctAnswer": "tidy"
             },
             {
-              "id": "cam15_lt3_q8",
-              "type": "notes_completion",
-              "question": "8. Must be able to work in a _____",
+              "id": "cam15_t3_l_q8",
+              "type": "form_completion",
+              "question": "Requirements | used to working in a 8",
               "options": [],
               "correctAnswer": "team"
             },
             {
-              "id": "cam15_lt3_q9",
-              "type": "notes_completion",
-              "question": "9. Must be able to lift _____ items",
+              "id": "cam15_t3_l_q9",
+              "type": "form_completion",
+              "question": "Requirements | able to cope with items that are 9",
               "options": [],
               "correctAnswer": "heavy"
             },
             {
-              "id": "cam15_lt3_q10",
-              "type": "notes_completion",
-              "question": "10. Must enjoy dealing with the _____",
+              "id": "cam15_t3_l_q10",
+              "type": "form_completion",
+              "question": "Need experience of | 10 _____ service",
               "options": [],
               "correctAnswer": "customer"
             }
           ]
         },
         {
-          "id": "cam15_lt3_p2",
+          "id": "cam15_t3_l_p2",
           "title": "Street Play Scheme",
           "audioFile": "cam15_s10.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam15_lt3_q11",
+              "id": "cam15_t3_l_q11",
               "type": "multiple_choice",
-              "question": "Question 11: Choose the correct letter, A, B or C.",
+              "question": "When did the Street Play Scheme first take place?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. two years ago",
+                "B. three years ago",
+                "C. six years ago"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. three years ago"
             },
             {
-              "id": "cam15_lt3_q12",
+              "id": "cam15_t3_l_q12",
               "type": "multiple_choice",
-              "question": "Question 12: Choose the correct letter, A, B or C.",
+              "question": "How often is Beechwood Road closed to traffic now?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. once a week",
+                "B. on Saturdays and Sundays",
+                "C. once a month"
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. once a week"
             },
             {
-              "id": "cam15_lt3_q13",
+              "id": "cam15_t3_l_q13",
               "type": "multiple_choice",
-              "question": "Question 13: Choose the correct letter, A, B or C.",
+              "question": "Who is responsible for closing the road?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. a council official",
+                "B. the police",
+                "C. local wardens"
+              ],
+              "correctAnswer": "C. once amonth"
+            },
+            {
+              "id": "cam15_t3_l_q14",
+              "type": "multiple_choice",
+              "question": "Residents who want to use their cars",
+              "options": [
+                "A. have to park in another street.",
+                "B. must drive very slowly.",
+                "C. need permission from a warden."
+              ],
+              "correctAnswer": "B. _ the police"
+            },
+            {
+              "id": "cam15_t3_l_q15",
+              "type": "multiple_choice",
+              "question": "Alice says that Street Play Schemes are most needed in",
+              "options": [
+                "A. wealthy areas.",
+                "B. quiet suburban areas.",
+                "C. areas with heavy traffic."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam15_lt3_q14",
+              "id": "cam15_t3_l_q16",
               "type": "multiple_choice",
-              "question": "Question 14: Choose the correct letter, A, B or C.",
+              "question": "What has been the reaction of residents who are not parents?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. Many of them were unhappy at first.",
+                "B. They like seeing children play in the street.",
+                "C. They are surprised by the lack of noise."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam15_lt3_q15",
-              "type": "multiple_choice",
-              "question": "Question 15: Choose the correct letter, A, B or C.",
+              "id": "cam15_t3_l_q17",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO benefits for children does Alice think are the most important?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. increased physical activity",
+                "B. increased sense of independence",
+                "C. opportunity to learn new games",
+                "D. opportunity to be part of a community",
+                "E. opportunity to make new friends"
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "B. independence"
             },
             {
-              "id": "cam15_lt3_q16",
-              "type": "multiple_choice",
-              "question": "Question 16: Choose the correct letter, A, B or C.",
+              "id": "cam15_t3_l_q18",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO benefits for children does Alice think are the most important?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. increased physical activity",
+                "B. increased sense of independence",
+                "C. opportunity to learn new games",
+                "D. opportunity to be part of a community",
+                "E. opportunity to make new friends"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "D. part of a community"
             },
             {
-              "id": "cam15_lt3_q17",
-              "type": "multiple_choice",
-              "question": "Which TWO benefits of the Street Play scheme for children are mentioned?\nA. better physical fitness\nB. independence\nC. improved social skills\nD. part of a community\nE. less screen time",
+              "id": "cam15_t3_l_q19",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO results of the King Street experiment surprised Alice?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. more shoppers",
+                "B. improved safety",
+                "C. less air pollution",
+                "D. more relaxed atmosphere",
+                "E. less noise pollution"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "A. more shoppers"
             },
             {
-              "id": "cam15_lt3_q18",
-              "type": "multiple_choice",
-              "question": "Which TWO benefits of the Street Play scheme for children are mentioned?\nA. better physical fitness\nB. independence\nC. improved social skills\nD. part of a community\nE. less screen time",
+              "id": "cam15_t3_l_q20",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO results of the King Street experiment surprised Alice?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. more shoppers",
+                "B. improved safety",
+                "C. less air pollution",
+                "D. more relaxed atmosphere",
+                "E. less noise pollution"
               ],
-              "correctAnswer": "D"
-            },
-            {
-              "id": "cam15_lt3_q19",
-              "type": "multiple_choice",
-              "question": "Which TWO benefits of the Street Play scheme for the local area are mentioned?\nA. more shoppers\nB. lower crime rates\nC. better air quality\nD. stronger community spirit\nE. less noise pollution",
-              "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
-              ],
-              "correctAnswer": "A"
-            },
-            {
-              "id": "cam15_lt3_q20",
-              "type": "multiple_choice",
-              "question": "Which TWO benefits of the Street Play scheme for the local area are mentioned?\nA. more shoppers\nB. lower crime rates\nC. better air quality\nD. stronger community spirit\nE. less noise pollution",
-              "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
-              ],
-              "correctAnswer": "E"
+              "correctAnswer": "E. less noise pollution"
             }
           ]
         },
         {
-          "id": "cam15_lt3_p3",
+          "id": "cam15_t3_l_p3",
           "title": "Media Studies Assignment",
           "audioFile": "cam15_s11.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam15_lt3_q21",
-              "type": "notes_completion",
+              "id": "cam15_t3_l_q21",
+              "type": "form_completion",
               "question": "21. The design of the magazine _____",
               "options": [],
               "correctAnswer": "page"
             },
             {
-              "id": "cam15_lt3_q22",
-              "type": "notes_completion",
+              "id": "cam15_t3_l_q22",
+              "type": "form_completion",
               "question": "22. The _____ of the publication",
               "options": [],
               "correctAnswer": "size"
             },
             {
-              "id": "cam15_lt3_q23",
-              "type": "notes_completion",
+              "id": "cam15_t3_l_q23",
+              "type": "form_completion",
               "question": "23. Use of _____ in the layout",
               "options": [],
               "correctAnswer": "graphics"
             },
             {
-              "id": "cam15_lt3_q24",
-              "type": "notes_completion",
+              "id": "cam15_t3_l_q24",
+              "type": "form_completion",
               "question": "24. The _____ of the articles",
               "options": [],
               "correctAnswer": "structure"
             },
             {
-              "id": "cam15_lt3_q25",
-              "type": "notes_completion",
+              "id": "cam15_t3_l_q25",
+              "type": "form_completion",
               "question": "25. The _____ of the writing",
               "options": [],
               "correctAnswer": "purpose"
             },
             {
-              "id": "cam15_lt3_q26",
-              "type": "notes_completion",
+              "id": "cam15_t3_l_q26",
+              "type": "form_completion",
               "question": "26. The _____ the author makes",
               "options": [],
               "correctAnswer": "assumptions"
             },
             {
-              "id": "cam15_lt3_q27",
+              "id": "cam15_t3_l_q27",
               "type": "matching",
               "question": "27. national news: the student will definitely look at this",
               "options": [
@@ -1150,7 +1123,7 @@
               "correctAnswer": "A"
             },
             {
-              "id": "cam15_lt3_q28",
+              "id": "cam15_t3_l_q28",
               "type": "matching",
               "question": "28. editorial: the student will not bother with this",
               "options": [
@@ -1162,7 +1135,7 @@
               "correctAnswer": "C"
             },
             {
-              "id": "cam15_lt3_q29",
+              "id": "cam15_t3_l_q29",
               "type": "matching",
               "question": "29. human interest: the student will avoid this",
               "options": [
@@ -1174,7 +1147,7 @@
               "correctAnswer": "C"
             },
             {
-              "id": "cam15_lt3_q30",
+              "id": "cam15_t3_l_q30",
               "type": "matching",
               "question": "30. arts: the student may choose this",
               "options": [
@@ -1188,79 +1161,79 @@
           ]
         },
         {
-          "id": "cam15_lt3_p4",
+          "id": "cam15_t3_l_p4",
           "title": "Early History of Keeping Clean",
           "audioFile": "cam15_s12.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam15_lt3_q31",
-              "type": "notes_completion",
-              "question": "Question 31: ONE WORD ONLY.",
+              "id": "cam15_t3_l_q31",
+              "type": "form_completion",
+              "question": "e water was used to wash off _____",
               "options": [],
               "correctAnswer": "mud"
             },
             {
-              "id": "cam15_lt3_q32",
-              "type": "notes_completion",
-              "question": "Question 32: ONE WORD ONLY.",
+              "id": "cam15_t3_l_q32",
+              "type": "form_completion",
+              "question": "soaplike material found in 32 _____",
               "options": [],
               "correctAnswer": "clay"
             },
             {
-              "id": "cam15_lt3_q33",
-              "type": "notes_completion",
-              "question": "Question 33: ONE WORD ONLY.",
+              "id": "cam15_t3_l_q33",
+              "type": "form_completion",
+              "question": "e __used a strigil scraper made of _____",
               "options": [],
               "correctAnswer": "metal"
             },
             {
-              "id": "cam15_lt3_q34",
-              "type": "notes_completion",
-              "question": "Question 34: ONE WORD ONLY.",
+              "id": "cam15_t3_l_q34",
+              "type": "form_completion",
+              "question": "e used soap to colour their _____",
               "options": [],
               "correctAnswer": "hair"
             },
             {
-              "id": "cam15_lt3_q35",
-              "type": "notes_completion",
-              "question": "Question 35: ONE WORD ONLY.",
+              "id": "cam15_t3_l_q35",
+              "type": "form_completion",
+              "question": "e from about 312 BC, water carried to Roman _____",
               "options": [],
               "correctAnswer": "baths"
             },
             {
-              "id": "cam15_lt3_q36",
-              "type": "notes_completion",
-              "question": "Question 36: ONE WORD ONLY.",
+              "id": "cam15_t3_l_q36",
+              "type": "form_completion",
+              "question": "e decline in bathing contributed to occurrence of _____",
               "options": [],
               "correctAnswer": "disease(s)"
             },
             {
-              "id": "cam15_lt3_q37",
-              "type": "notes_completion",
-              "question": "Question 37: ONE WORD ONLY.",
+              "id": "cam15_t3_l_q37",
+              "type": "form_completion",
+              "question": "37 _____ began to be added to soap _____",
               "options": [],
               "correctAnswer": "perfume"
             },
             {
-              "id": "cam15_lt3_q38",
-              "type": "notes_completion",
-              "question": "Question 38: ONE WORD ONLY.",
+              "id": "cam15_t3_l_q38",
+              "type": "form_completion",
+              "question": "1791: Leblanc invented a way of making soda ash from _____",
               "options": [],
               "correctAnswer": "salt"
             },
             {
-              "id": "cam15_lt3_q39",
-              "type": "notes_completion",
-              "question": "Question 39: ONE WORD ONLY.",
+              "id": "cam15_t3_l_q39",
+              "type": "form_completion",
+              "question": "early 1800s: Chevreul turned soapmaking into a _____",
               "options": [],
               "correctAnswer": "science"
             },
             {
-              "id": "cam15_lt3_q40",
-              "type": "notes_completion",
-              "question": "Question 40: ONE WORD ONLY.",
+              "id": "cam15_t3_l_q40",
+              "type": "form_completion",
+              "question": "from 1800s, there was no longer a _____",
               "options": [],
               "correctAnswer": "tax"
             }
@@ -1273,294 +1246,276 @@
       "testNumber": 4,
       "parts": [
         {
-          "id": "cam15_lt4_p1",
+          "id": "cam15_t4_l_p1",
           "title": "Customer Satisfaction Survey",
           "audioFile": "cam15_s13.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam15_lt4_q1",
-              "type": "notes_completion",
-              "question": "1. Occupation: _____",
+              "id": "cam15_t4_l_q1",
+              "type": "form_completion",
+              "question": "Name:                      Sophie Bird | Occupation:                1",
               "options": [],
               "correctAnswer": "journalist"
             },
             {
-              "id": "cam15_lt4_q2",
-              "type": "notes_completion",
-              "question": "2. Reason for visit: _____",
+              "id": "cam15_t4_l_q2",
+              "type": "form_completion",
+              "question": "Name:                      Sophie Bird | Reason for travel today:    2",
               "options": [],
               "correctAnswer": "shopping"
             },
             {
-              "id": "cam15_lt4_q3",
-              "type": "notes_completion",
-              "question": "3. Name of store: _____",
+              "id": "cam15_t4_l_q3",
+              "type": "form_completion",
+              "question": "Journey information | Name of station returning to: 3",
               "options": [],
               "correctAnswer": "Staunfirth"
             },
             {
-              "id": "cam15_lt4_q4",
-              "type": "notes_completion",
-              "question": "4. Willing to _____",
+              "id": "cam15_t4_l_q4",
+              "type": "form_completion",
+              "question": "Journey information | Type of ticket purchased:   standard 4",
               "options": [],
               "correctAnswer": "return"
             },
             {
-              "id": "cam15_lt4_q5",
-              "type": "notes_completion",
-              "question": "5. Total spent: £_____",
+              "id": "cam15_t4_l_q5",
+              "type": "form_completion",
+              "question": "Journey information | Cost of ticket:             5 £",
               "options": [],
               "correctAnswer": "23.70"
             },
             {
-              "id": "cam15_lt4_q6",
-              "type": "notes_completion",
-              "question": "6. Preferred shopping method: _____",
+              "id": "cam15_t4_l_q6",
+              "type": "form_completion",
+              "question": "When ticket was purchased:  yesterday | Where ticket was bought:    6",
               "options": [],
               "correctAnswer": "online"
             },
             {
-              "id": "cam15_lt4_q7",
-              "type": "notes_completion",
-              "question": "7. Complaint about: _____",
+              "id": "cam15_t4_l_q7",
+              "type": "form_completion",
+              "question": "Most satisfied with:        the wifi | Least satisfied with:       the 7",
               "options": [],
               "correctAnswer": "delay"
             },
             {
-              "id": "cam15_lt4_q8",
-              "type": "notes_completion",
-              "question": "8. Need more: _____",
+              "id": "cam15_t4_l_q8",
+              "type": "form_completion",
+              "question": "Satisfaction with station facilities | Most satisfied with:        how much 8",
               "options": [],
               "correctAnswer": "information"
             },
             {
-              "id": "cam15_lt4_q9",
-              "type": "notes_completion",
-              "question": "9. Suggestion about _____",
+              "id": "cam15_t4_l_q9",
+              "type": "form_completion",
+              "question": "Satisfaction with station facilities | Least satisfied with:       lack of seats, particularly on the | 9",
               "options": [],
               "correctAnswer": "platforms"
             },
             {
-              "id": "cam15_lt4_q10",
-              "type": "notes_completion",
-              "question": "10. Problem with: _____",
+              "id": "cam15_t4_l_q10",
+              "type": "form_completion",
+              "question": "Satisfaction with station facilities | Least satisfied with:       lack of seats, particularly on the | Neither satisfied nor dissatisfied with: the 10",
               "options": [],
               "correctAnswer": "parking"
             }
           ]
         },
         {
-          "id": "cam15_lt4_p2",
+          "id": "cam15_t4_l_p2",
           "title": "Croft Valley Park",
           "audioFile": "cam15_s14.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam15_lt4_q11",
+              "id": "cam15_t4_l_q11",
               "type": "matching",
-              "question": "Match the location on the park map (items 11-16) to the correct letter.",
+              "question": "café",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. Children must be supervised.",
+                "B. It costs more in winter.",
+                "C. Some activities are only for younger children.",
+                "D. No payment is required.",
+                "E. It was recently expanded."
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam15_lt4_q12",
+              "id": "cam15_t4_l_q12",
               "type": "matching",
-              "question": "Match the location on the park map (items 11-16) to the correct letter.",
+              "question": "toilets",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. Children must be supervised.",
+                "B. It costs more in winter.",
+                "C. Some activities are only for younger children.",
+                "D. No payment is required.",
+                "E. It was recently expanded."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam15_lt4_q13",
+              "id": "cam15_t4_l_q13",
               "type": "matching",
-              "question": "Match the location on the park map (items 11-16) to the correct letter.",
+              "question": "formal gardens",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. Children must be supervised.",
+                "B. It costs more in winter.",
+                "C. Some activities are only for younger children.",
+                "D. No payment is required.",
+                "E. It was recently expanded."
               ],
               "correctAnswer": "G"
             },
             {
-              "id": "cam15_lt4_q14",
+              "id": "cam15_t4_l_q14",
               "type": "matching",
-              "question": "Match the location on the park map (items 11-16) to the correct letter.",
+              "question": "outdoor gym",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. Children must be supervised.",
+                "B. It costs more in winter.",
+                "C. Some activities are only for younger children.",
+                "D. No payment is required.",
+                "E. It was recently expanded."
               ],
               "correctAnswer": "H"
             },
             {
-              "id": "cam15_lt4_q15",
+              "id": "cam15_t4_l_q15",
               "type": "matching",
-              "question": "Match the location on the park map (items 11-16) to the correct letter.",
+              "question": "skateboard ramp",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. Children must be supervised.",
+                "B. It costs more in winter.",
+                "C. Some activities are only for younger children.",
+                "D. No payment is required.",
+                "E. It was recently expanded."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam15_lt4_q16",
+              "id": "cam15_t4_l_q16",
               "type": "matching",
-              "question": "Match the location on the park map (items 11-16) to the correct letter.",
+              "question": "wild flowers",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. Children must be supervised.",
+                "B. It costs more in winter.",
+                "C. Some activities are only for younger children.",
+                "D. No payment is required.",
+                "E. It was recently expanded."
               ],
               "correctAnswer": "E"
             },
             {
-              "id": "cam15_lt4_q17",
-              "type": "multiple_choice",
-              "question": "Which TWO features of the adventure playground are mentioned?\nA. supervised at all times\nB. suitable for all ages\nC. has a separate toddler area\nD. free to use\nE. booking required",
+              "id": "cam15_t4_l_q17",
+              "type": "multiple_choice_multi",
+              "question": "What does the speaker say about the adventure playground?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. Children must be supervised.",
+                "B. It costs more in winter.",
+                "C. Some activities are only for younger children.",
+                "D. No payment is required.",
+                "E. It was recently expanded."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. supervised at all times"
             },
             {
-              "id": "cam15_lt4_q18",
-              "type": "multiple_choice",
-              "question": "Which TWO features of the adventure playground are mentioned?\nA. supervised at all times\nB. suitable for all ages\nC. has a separate toddler area\nD. free to use\nE. booking required",
+              "id": "cam15_t4_l_q18",
+              "type": "multiple_choice_multi",
+              "question": "What does the speaker say about the adventure playground?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. Children must be supervised.",
+                "B. It costs more in winter.",
+                "C. Some activities are only for younger children.",
+                "D. No payment is required.",
+                "E. It was recently expanded."
               ],
-              "correctAnswer": "D"
+              "correctAnswer": "D. free to use"
             },
             {
-              "id": "cam15_lt4_q19",
-              "type": "multiple_choice",
-              "question": "Which TWO facts are given about the glass houses?\nA. closed at weekends\nB. admission charge\nC. damaged by fire\nD. originally used for growing fruit\nE. built in the 19th century",
+              "id": "cam15_t4_l_q19",
+              "type": "multiple_choice_multi",
+              "question": "What does the speaker say about the glass houses?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. They are closed at weekends.",
+                "B. Volunteers are needed to work there.",
+                "C. They were badly damaged by fire.",
+                "D. More money is needed to repair some of the glass.",
+                "E. Visitors can see palm trees from tropical regions."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. closed at weekends"
             },
             {
-              "id": "cam15_lt4_q20",
-              "type": "multiple_choice",
-              "question": "Which TWO facts are given about the glass houses?\nA. closed at weekends\nB. admission charge\nC. damaged by fire\nD. originally used for growing fruit\nE. built in the 19th century",
+              "id": "cam15_t4_l_q20",
+              "type": "multiple_choice_multi",
+              "question": "What does the speaker say about the glass houses?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. They are closed at weekends.",
+                "B. Volunteers are needed to work there.",
+                "C. They were badly damaged by fire.",
+                "D. More money is needed to repair some of the glass.",
+                "E. Visitors can see palm trees from tropical regions."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. damaged by fire"
             }
           ]
         },
         {
-          "id": "cam15_lt4_p3",
+          "id": "cam15_t4_l_p3",
           "title": "Presentation about Refrigeration",
           "audioFile": "cam15_s15.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam15_lt4_q21",
+              "id": "cam15_t4_l_q21",
               "type": "multiple_choice",
-              "question": "Question 21: Choose the correct letter, A, B or C.",
+              "question": "What did Annie discover from reading about icehouses?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. why they were first created",
+                "B. how the ice was kept frozen",
+                "C. where they were located"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. how the ice was kept frozen"
             },
             {
-              "id": "cam15_lt4_q22",
+              "id": "cam15_t4_l_q22",
               "type": "multiple_choice",
-              "question": "Question 22: Choose the correct letter, A, B or C.",
+              "question": "What point does Annie make about refrigeration in ancient Rome?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. It became a commercial business.",
+                "B. It used snow from nearby.",
+                "C. It took a long time to become popular."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. __ It became a commercial business."
             },
             {
-              "id": "cam15_lt4_q23",
+              "id": "cam15_t4_l_q23",
               "type": "multiple_choice",
-              "question": "Question 23: Choose the correct letter, A, B or C.",
+              "question": "In connection with modern refrigerators, both Annie and Jack are worried about",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. the complexity of the technology.",
+                "B. the fact that some are disposed of irresponsibly.",
+                "C. the large number that quickly break down."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. the fact that some are disposed of irresponsibly."
             },
             {
-              "id": "cam15_lt4_q24",
+              "id": "cam15_t4_l_q24",
               "type": "multiple_choice",
-              "question": "Question 24: Choose the correct letter, A, B or C.",
+              "question": "What do Jack and Annie agree regarding domestic fridges?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. They are generally good value for money.",
+                "B. There are plenty of useful variations.",
+                "C. They are more useful than other domestic appliances."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. _ They are generally good value for money."
             },
             {
-              "id": "cam15_lt4_q25",
+              "id": "cam15_t4_l_q25",
               "type": "matching",
               "question": "25. goods that are refrigerated",
               "options": [
@@ -1571,7 +1526,7 @@
               "correctAnswer": "A"
             },
             {
-              "id": "cam15_lt4_q26",
+              "id": "cam15_t4_l_q26",
               "type": "matching",
               "question": "26. effects on health",
               "options": [
@@ -1582,7 +1537,7 @@
               "correctAnswer": "A"
             },
             {
-              "id": "cam15_lt4_q27",
+              "id": "cam15_t4_l_q27",
               "type": "matching",
               "question": "27. impact on food producers",
               "options": [
@@ -1593,7 +1548,7 @@
               "correctAnswer": "B"
             },
             {
-              "id": "cam15_lt4_q28",
+              "id": "cam15_t4_l_q28",
               "type": "matching",
               "question": "28. impact on cities",
               "options": [
@@ -1604,7 +1559,7 @@
               "correctAnswer": "B"
             },
             {
-              "id": "cam15_lt4_q29",
+              "id": "cam15_t4_l_q29",
               "type": "matching",
               "question": "29. refrigerated transport",
               "options": [
@@ -1615,7 +1570,7 @@
               "correctAnswer": "A"
             },
             {
-              "id": "cam15_lt4_q30",
+              "id": "cam15_t4_l_q30",
               "type": "matching",
               "question": "30. domestic fridges",
               "options": [
@@ -1628,79 +1583,79 @@
           ]
         },
         {
-          "id": "cam15_lt4_p4",
+          "id": "cam15_t4_l_p4",
           "title": "Industrial Revolution in Britain",
           "audioFile": "cam15_s16.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam15_lt4_q31",
-              "type": "notes_completion",
-              "question": "Question 31: ONE WORD ONLY.",
+              "id": "cam15_t4_l_q31",
+              "type": "form_completion",
+              "question": "For the first time, people’s possessions were used to measure Britain’s _____",
               "options": [],
               "correctAnswer": "wealth"
             },
             {
-              "id": "cam15_lt4_q32",
-              "type": "notes_completion",
-              "question": "Question 32: ONE WORD ONLY.",
+              "id": "cam15_t4_l_q32",
+              "type": "form_completion",
+              "question": "e Developments in Brihucion of goods and in _____",
               "options": [],
               "correctAnswer": "technology"
             },
             {
-              "id": "cam15_lt4_q33",
-              "type": "notes_completion",
-              "question": "Question 33: ONE WORD ONLY.",
+              "id": "cam15_t4_l_q33",
+              "type": "form_completion",
+              "question": "The Industrial Revolution would not have happened without the new types of _____",
               "options": [],
               "correctAnswer": "power"
             },
             {
-              "id": "cam15_lt4_q34",
-              "type": "notes_completion",
-              "question": "Question 34: ONE WORD ONLY.",
+              "id": "cam15_t4_l_q34",
+              "type": "form_completion",
+              "question": "The leading industry was _____",
               "options": [],
               "correctAnswer": "textile(s)"
             },
             {
-              "id": "cam15_lt4_q35",
-              "type": "notes_completion",
-              "question": "Question 35: ONE WORD ONLY.",
+              "id": "cam15_t4_l_q35",
+              "type": "form_completion",
+              "question": "New _____",
               "options": [],
               "correctAnswer": "machines"
             },
             {
-              "id": "cam15_lt4_q36",
-              "type": "notes_completion",
-              "question": "Question 36: ONE WORD ONLY.",
+              "id": "cam15_t4_l_q36",
+              "type": "form_completion",
+              "question": "— greater access to _____",
               "options": [],
               "correctAnswer": "newspapers"
             },
             {
-              "id": "cam15_lt4_q37",
-              "type": "notes_completion",
-              "question": "Question 37: ONE WORD ONLY.",
+              "id": "cam15_t4_l_q37",
+              "type": "form_completion",
+              "question": "when shopping, people were not limited to buying _____",
               "options": [],
               "correctAnswer": "local"
             },
             {
-              "id": "cam15_lt4_q38",
-              "type": "notes_completion",
-              "question": "Question 38: ONE WORD ONLY.",
+              "id": "cam15_t4_l_q38",
+              "type": "form_completion",
+              "question": "inside stores because of better _____",
               "options": [],
               "correctAnswer": "lighting"
             },
             {
-              "id": "cam15_lt4_q39",
-              "type": "notes_completion",
-              "question": "Question 39: ONE WORD ONLY.",
+              "id": "cam15_t4_l_q39",
+              "type": "form_completion",
+              "question": "— outside stores, because 3 _____",
               "options": [],
               "correctAnswer": "windows"
             },
             {
-              "id": "cam15_lt4_q40",
-              "type": "notes_completion",
-              "question": "Question 40: ONE WORD ONLY.",
+              "id": "cam15_t4_l_q40",
+              "type": "form_completion",
+              "question": "PART 4 Questions 31 _____",
               "options": [],
               "correctAnswer": "advertising"
             }

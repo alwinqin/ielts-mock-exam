@@ -7,437 +7,427 @@
       "testNumber": 1,
       "parts": [
         {
-          "id": "cam18_lt1_p1",
+          "id": "cam18_t1_l_p1",
           "title": "Transport Survey",
           "audioFile": "cam18_s1.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam18_lt1_q1",
-              "type": "notes_completion",
-              "question": "1. Postcode: _____",
+              "id": "cam18_t1_l_q1",
+              "type": "form_completion",
+              "question": "Year of birth: 1991 | Postcode: 1",
               "options": [],
               "correctAnswer": "DW30 7YZ"
             },
             {
-              "id": "cam18_lt1_q2",
-              "type": "notes_completion",
-              "question": "2. Date of survey: _____",
+              "id": "cam18_t1_l_q2",
+              "type": "form_completion",
+              "question": "Travelling by bus | Date of bus journey: 2",
               "options": [],
               "correctAnswer": "24(th) April"
             },
             {
-              "id": "cam18_lt1_q3",
-              "type": "notes_completion",
-              "question": "3. Occupation: _____",
+              "id": "cam18_t1_l_q3",
+              "type": "form_completion",
+              "question": "Travelling by bus | Reason for trip: shopping and visit to the 3",
               "options": [],
               "correctAnswer": "dentist"
             },
             {
-              "id": "cam18_lt1_q4",
-              "type": "notes_completion",
-              "question": "4. Reason for travelling: _____",
+              "id": "cam18_t1_l_q4",
+              "type": "form_completion",
+              "question": "Travelling by bus | Travelled by bus because cost of 4",
               "options": [],
               "correctAnswer": "parking"
             },
             {
-              "id": "cam18_lt1_q5",
-              "type": "notes_completion",
-              "question": "5. Street name: _____",
+              "id": "cam18_t1_l_q5",
+              "type": "form_completion",
+              "question": "Travelling by bus | Got on bus at 5",
               "options": [],
               "correctAnswer": "Claxby"
             },
             {
-              "id": "cam18_lt1_q6",
-              "type": "notes_completion",
-              "question": "6. Time of day: _____",
+              "id": "cam18_t1_l_q6",
+              "type": "form_completion",
+              "question": "Complaints about bus service: | bus today was 6",
               "options": [],
               "correctAnswer": "late"
             },
             {
-              "id": "cam18_lt1_q7",
-              "type": "notes_completion",
-              "question": "7. Time of journey: _____",
+              "id": "cam18_t1_l_q7",
+              "type": "form_completion",
+              "question": "Complaints about bus service: | frequency of buses in the 7",
               "options": [],
               "correctAnswer": "evening"
             },
             {
-              "id": "cam18_lt1_q8",
-              "type": "notes_completion",
-              "question": "8. Travelling to: _____",
+              "id": "cam18_t1_l_q8",
+              "type": "form_completion",
+              "question": "Travelling by car | Goes to the 8",
               "options": [],
               "correctAnswer": "supermarket"
             },
             {
-              "id": "cam18_lt1_q9",
-              "type": "notes_completion",
-              "question": "9. Main concern: _____",
+              "id": "cam18_t1_l_q9",
+              "type": "form_completion",
+              "question": "Travelling by bicycle | Dislikes travelling by bike in the city centre because of the 9",
               "options": [],
               "correctAnswer": "pollution"
             },
             {
-              "id": "cam18_lt1_q10",
-              "type": "notes_completion",
-              "question": "10. Suggestion for improvement: _____",
+              "id": "cam18_t1_l_q10",
+              "type": "form_completion",
+              "question": "Travelling by bicycle | Doesn't own a bike because of a lack of 10",
               "options": [],
               "correctAnswer": "storage"
             }
           ]
         },
         {
-          "id": "cam18_lt1_p2",
+          "id": "cam18_t1_l_p2",
           "title": "Becoming a Volunteer for ACE",
           "audioFile": "cam18_s2.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam18_lt1_q11",
+              "id": "cam18_t1_l_q11",
               "type": "multiple_choice",
-              "question": "Question 11: Choose the correct letter.",
+              "question": "Why does the speaker apologise about the seats?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. They are too small.",
+                "B. There are not enough of them.",
+                "C. Some of them are very close together."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. Some of them are very close together."
             },
             {
-              "id": "cam18_lt1_q12",
+              "id": "cam18_t1_l_q12",
               "type": "multiple_choice",
-              "question": "Question 12: Choose the correct letter.",
+              "question": "What does the speaker say about the age of volunteers?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. The age of volunteers is less important than other factors.",
+                "B. Young volunteers are less reliable than older ones.",
+                "C. Most volunteers are about 60 years old."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. The age of volunteers is less important than other factors."
             },
             {
-              "id": "cam18_lt1_q13",
+              "id": "cam18_t1_l_q13",
               "type": "multiple_choice",
-              "question": "Question 13: Choose the correct letter.",
+              "question": "What does the speaker say about training?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. It is continuous.",
+                "B. It is conducted by a manager.",
+                "C. It takes place online."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. __ ltis continuous. B__ Itis conducted by a manager."
             },
             {
-              "id": "cam18_lt1_q14",
-              "type": "multiple_choice",
-              "question": "Question 14: Choose the correct letter.",
+              "id": "cam18_t1_l_q14",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO issues does the speaker ask the audience to consider before they apply to be volunteers?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. their financial situation",
+                "B. their level of commitment",
+                "C. their work experience",
+                "D. their ambition",
+                "E. their availability"
+              ],
+              "correctAnswer": "B. their level of commitment"
+            },
+            {
+              "id": "cam18_t1_l_q15",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO issues does the speaker ask the audience to consider before they apply to be volunteers?",
+              "options": [
+                "A. their financial situation",
+                "B. their level of commitment",
+                "C. their work experience",
+                "D. their ambition",
+                "E. their availability"
+              ],
+              "correctAnswer": "E. their availability"
+            },
+            {
+              "id": "cam18_t1_l_q16",
+              "type": "matching",
+              "question": "Fundraising",
+              "options": [
+                "A. experience on stage",
+                "B. original, new ideas",
+                "C. parenting skills",
+                "D. an understanding of food and diet",
+                "E. retail experience",
+                "F. a good memory",
+                "G. a good level of fitness"
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam18_lt1_q15",
-              "type": "multiple_choice",
-              "question": "Question 15: Choose the correct letter.",
-              "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
-              ],
-              "correctAnswer": "E"
-            },
-            {
-              "id": "cam18_lt1_q16",
+              "id": "cam18_t1_l_q17",
               "type": "matching",
-              "question": "Question 16: Match the person to the statement.",
+              "question": "Litter collection",
               "options": [
                 "A. experience on stage",
                 "B. original, new ideas",
-                "C. knowledge of local history",
+                "C. parenting skills",
                 "D. an understanding of food and diet",
-                "E. ability to work with children",
+                "E. retail experience",
                 "F. a good memory",
-                "G. a good level of fitness",
-                "H. experience of public speaking"
-              ],
-              "correctAnswer": "B"
-            },
-            {
-              "id": "cam18_lt1_q17",
-              "type": "matching",
-              "question": "Question 17: Match the person to the statement.",
-              "options": [
-                "A. experience on stage",
-                "B. original, new ideas",
-                "C. knowledge of local history",
-                "D. an understanding of food and diet",
-                "E. ability to work with children",
-                "F. a good memory",
-                "G. a good level of fitness",
-                "H. experience of public speaking"
+                "G. a good level of fitness"
               ],
               "correctAnswer": "G"
             },
             {
-              "id": "cam18_lt1_q18",
+              "id": "cam18_t1_l_q18",
               "type": "matching",
-              "question": "Question 18: Match the person to the statement.",
+              "question": "'Playmates'",
               "options": [
                 "A. experience on stage",
                 "B. original, new ideas",
-                "C. knowledge of local history",
+                "C. parenting skills",
                 "D. an understanding of food and diet",
-                "E. ability to work with children",
+                "E. retail experience",
                 "F. a good memory",
-                "G. a good level of fitness",
-                "H. experience of public speaking"
+                "G. a good level of fitness"
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam18_lt1_q19",
+              "id": "cam18_t1_l_q19",
               "type": "matching",
-              "question": "Question 19: Match the person to the statement.",
+              "question": "Story club",
               "options": [
                 "A. experience on stage",
                 "B. original, new ideas",
-                "C. knowledge of local history",
+                "C. parenting skills",
                 "D. an understanding of food and diet",
-                "E. ability to work with children",
+                "E. retail experience",
                 "F. a good memory",
-                "G. a good level of fitness",
-                "H. experience of public speaking"
+                "G. a good level of fitness"
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam18_lt1_q20",
+              "id": "cam18_t1_l_q20",
               "type": "matching",
-              "question": "Question 20: Match the person to the statement.",
+              "question": "First aid",
               "options": [
                 "A. experience on stage",
                 "B. original, new ideas",
-                "C. knowledge of local history",
+                "C. parenting skills",
                 "D. an understanding of food and diet",
-                "E. ability to work with children",
+                "E. retail experience",
                 "F. a good memory",
-                "G. a good level of fitness",
-                "H. experience of public speaking"
+                "G. a good level of fitness"
               ],
               "correctAnswer": "F"
             }
           ]
         },
         {
-          "id": "cam18_lt1_p3",
+          "id": "cam18_t1_l_p3",
           "title": "Talk on Jobs in Fashion Design",
           "audioFile": "cam18_s3.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam18_lt1_q21",
+              "id": "cam18_t1_l_q21",
               "type": "multiple_choice",
-              "question": "Question 21: Choose the correct letter.",
+              "question": "What problem did Chantal have at the start of the talk?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. Her view of the speaker was blocked.",
+                "B. She was unable to find an empty seat.",
+                "C. The students next to her were talking."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. _ Her view of the speaker was blocked."
             },
             {
-              "id": "cam18_lt1_q22",
+              "id": "cam18_t1_l_q22",
               "type": "multiple_choice",
-              "question": "Question 22: Choose the correct letter.",
+              "question": "What were Hugo and Chantal surprised to hear about the job market?",
               "options": [
-                "A",
-                "B",
-                "C"
-              ],
-              "correctAnswer": "B"
-            },
-            {
-              "id": "cam18_lt1_q23",
-              "type": "multiple_choice",
-              "question": "Question 23: Choose the correct letter.",
-              "options": [
-                "A",
-                "B",
-                "C"
-              ],
-              "correctAnswer": "A"
-            },
-            {
-              "id": "cam18_lt1_q24",
-              "type": "multiple_choice",
-              "question": "Question 24: Choose the correct letter.",
-              "options": [
-                "A",
-                "B",
-                "C"
-              ],
-              "correctAnswer": "C"
-            },
-            {
-              "id": "cam18_lt1_q25",
-              "type": "multiple_choice",
-              "question": "Question 25: Choose the correct letter.",
-              "options": [
-                "A",
-                "B",
-                "C"
+                "A. It has become more competitive than it used to be.",
+                "B. There is more variety in it than they had realised.",
+                "C. Some areas of it are more exciting than others."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam18_lt1_q26",
+              "id": "cam18_t1_l_q23",
               "type": "multiple_choice",
-              "question": "Question 26: Choose the correct letter.",
+              "question": "Hugo and Chantal agree that the speaker's message was",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. unfair to them at times.",
+                "B. hard for them to follow.",
+                "C. critical of the industry."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam18_lt1_q27",
+              "id": "cam18_t1_l_q24",
               "type": "multiple_choice",
-              "question": "Question 27: Choose the correct letter.",
+              "question": "What do Hugo and Chantal criticise about their school careers advice?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. when they received the advice",
+                "B. how much advice was given",
+                "C. who gave the advice"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "C. critical of the industry."
             },
             {
-              "id": "cam18_lt1_q28",
+              "id": "cam18_t1_l_q25",
+              "type": "multiple_choice",
+              "question": "When discussing their future, Hugo and Chantal disagree on",
+              "options": [
+                "A. which is the best career in fashion.",
+                "B. when to choose a career in fashion.",
+                "C. why they would like a career in fashion."
+              ],
+              "correctAnswer": "B. how much advice was given"
+            },
+            {
+              "id": "cam18_t1_l_q26",
+              "type": "multiple_choice",
+              "question": "How does Hugo feel about being an unpaid assistant?",
+              "options": [
+                "A. He is realistic about the practice.",
+                "B. He feels the practice is dishonest.",
+                "C. He thinks others want to change the practice."
+              ],
+              "correctAnswer": "A. which is the best career in fashion."
+            },
+            {
+              "id": "cam18_t1_l_q27",
+              "type": "multiple_choice",
+              "question": "Which TWO mistakes did the speaker admit she made in her first job?",
+              "options": [
+                "A. being dishonest to her employer",
+                "B. paying too much attention to how she looked",
+                "C. expecting to become well known",
+                "D. trying to earn a lot of money",
+                "E. openly disliking her client"
+              ],
+              "correctAnswer": "B. paying too much attention to how she looked"
+            },
+            {
+              "id": "cam18_t1_l_q28",
               "type": "matching",
-              "question": "Question 28: Match the statement.",
+              "question": "Which TWO mistakes did the speaker admit she made in her first job?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. being dishonest to her employer",
+                "B. paying too much attention to how she looked",
+                "C. expecting to become well known",
+                "D. trying to earn a lot of money",
+                "E. openly disliking her client"
               ],
               "correctAnswer": "E"
             },
             {
-              "id": "cam18_lt1_q29",
+              "id": "cam18_t1_l_q29",
               "type": "matching",
-              "question": "Question 29: Match the statement.",
+              "question": "Which TWO pieces of retail information do Hugo and Chantal agree would be useful?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. the reasons people return fashion items",
+                "B. how much time people have to shop for clothes",
+                "C. fashion designs people want but can't find",
+                "D. the best time of year for fashion buying",
+                "E. the most popular fashion sizes"
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam18_lt1_q30",
+              "id": "cam18_t1_l_q30",
               "type": "matching",
-              "question": "Question 30: Match the statement.",
+              "question": "Which TWO pieces of retail information do Hugo and Chantal agree would be useful?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. the reasons people return fashion items",
+                "B. how much time people have to shop for clothes",
+                "C. fashion designs people want but can't find",
+                "D. the best time of year for fashion buying",
+                "E. the most popular fashion sizes"
               ],
               "correctAnswer": "C"
             }
           ]
         },
         {
-          "id": "cam18_lt1_p4",
+          "id": "cam18_t1_l_p4",
           "title": "Elephant Translocation",
           "audioFile": "cam18_s4.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam18_lt1_q31",
-              "type": "notes_completion",
+              "id": "cam18_t1_l_q31",
+              "type": "form_completion",
               "question": "31. To protect crops, farmers build _____",
               "options": [],
               "correctAnswer": "fences"
             },
             {
-              "id": "cam18_lt1_q32",
-              "type": "notes_completion",
+              "id": "cam18_t1_l_q32",
+              "type": "form_completion",
               "question": "32. Elephants live in a _____ group",
               "options": [],
               "correctAnswer": "family"
             },
             {
-              "id": "cam18_lt1_q33",
-              "type": "notes_completion",
+              "id": "cam18_t1_l_q33",
+              "type": "form_completion",
               "question": "33. The capture team uses _____",
               "options": [],
               "correctAnswer": "helicopters"
             },
             {
-              "id": "cam18_lt1_q34",
-              "type": "notes_completion",
+              "id": "cam18_t1_l_q34",
+              "type": "form_completion",
               "question": "34. Scientists measure hormone levels to monitor _____",
               "options": [],
               "correctAnswer": "stress"
             },
             {
-              "id": "cam18_lt1_q35",
-              "type": "notes_completion",
+              "id": "cam18_t1_l_q35",
+              "type": "form_completion",
               "question": "35. The elephant is released on its _____",
               "options": [],
               "correctAnswer": "sides"
             },
             {
-              "id": "cam18_lt1_q36",
-              "type": "notes_completion",
+              "id": "cam18_t1_l_q36",
+              "type": "form_completion",
               "question": "36. The team checks the elephant's _____",
               "options": [],
               "correctAnswer": "breathing"
             },
             {
-              "id": "cam18_lt1_q37",
-              "type": "notes_completion",
+              "id": "cam18_t1_l_q37",
+              "type": "form_completion",
               "question": "37. The condition of its _____",
               "options": [],
               "correctAnswer": "feet"
             },
             {
-              "id": "cam18_lt1_q38",
-              "type": "notes_completion",
+              "id": "cam18_t1_l_q38",
+              "type": "form_completion",
               "question": "38. Local people benefit from increased _____",
               "options": [],
               "correctAnswer": "employment"
             },
             {
-              "id": "cam18_lt1_q39",
-              "type": "notes_completion",
+              "id": "cam18_t1_l_q39",
+              "type": "form_completion",
               "question": "39. Risk of _____ being used against elephants",
               "options": [],
               "correctAnswer": "weapons"
             },
             {
-              "id": "cam18_lt1_q40",
-              "type": "notes_completion",
+              "id": "cam18_t1_l_q40",
+              "type": "form_completion",
               "question": "40. Elephants can help to promote _____",
               "options": [],
               "correctAnswer": "tourism"
@@ -451,308 +441,302 @@
       "testNumber": 2,
       "parts": [
         {
-          "id": "cam18_lt2_p1",
+          "id": "cam18_t2_l_p1",
           "title": "Working at Milo's Restaurants",
           "audioFile": "cam18_s5.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam18_lt2_q1",
-              "type": "notes_completion",
-              "question": "1. Staff receive _____ before starting work",
+              "id": "cam18_t2_l_q1",
+              "type": "form_completion",
+              "question": "Benefits | 1 _____ provided for all staff",
               "options": [],
               "correctAnswer": "training"
             },
             {
-              "id": "cam18_lt2_q2",
-              "type": "notes_completion",
-              "question": "2. Employees get a 50% _____ on meals",
+              "id": "cam18_t2_l_q2",
+              "type": "form_completion",
+              "question": "Benefits | 2 _____ during weekdays at all Milo's Restaurants",
               "options": [],
               "correctAnswer": "discount"
             },
             {
-              "id": "cam18_lt2_q3",
-              "type": "notes_completion",
-              "question": "3. Free _____ home after late shifts",
+              "id": "cam18_t2_l_q3",
+              "type": "form_completion",
+              "question": "Benefits | 3 _____ provided after midnight",
               "options": [],
               "correctAnswer": "taxi"
             },
             {
-              "id": "cam18_lt2_q4",
-              "type": "notes_completion",
-              "question": "4. Important to give good customer _____",
+              "id": "cam18_t2_l_q4",
+              "type": "form_completion",
+              "question": "Person specification | must care about maintaining a high standard of 4",
               "options": [],
               "correctAnswer": "service"
             },
             {
-              "id": "cam18_lt2_q5",
-              "type": "notes_completion",
-              "question": "5. Must speak good _____",
+              "id": "cam18_t2_l_q5",
+              "type": "form_completion",
+              "question": "Person specification | must have a qualification in 5",
               "options": [],
               "correctAnswer": "English"
             },
             {
-              "id": "cam18_lt2_q6",
-              "type": "notes_completion",
-              "question": "6. Branch location: _____",
+              "id": "cam18_t2_l_q6",
+              "type": "form_completion",
+              "question": "| 6 _____ Street | Breakfast supervisor | Checking portions, etc. are correct | Starting salary 8 £ ................. per hour |",
               "options": [],
               "correctAnswer": "Wivenhoe"
             },
             {
-              "id": "cam18_lt2_q7",
-              "type": "notes_completion",
-              "question": "7. Uniform includes safety shoes and _____",
+              "id": "cam18_t2_l_q7",
+              "type": "form_completion",
+              "question": "| :| :| :| :| | | | | 7 _____ is clean | Start work at 5.30 a.m. |",
               "options": [],
               "correctAnswer": "equipment"
             },
             {
-              "id": "cam18_lt2_q8",
-              "type": "notes_completion",
-              "question": "8. Hourly pay: £_____",
+              "id": "cam18_t2_l_q8",
+              "type": "form_completion",
+              "question": "| :| :| :| :| | | 6 ................. Street | Breakfast supervisor | Checking portions, etc. are correct | Starting salary 8 £",
               "options": [],
               "correctAnswer": "9.75"
             },
             {
-              "id": "cam18_lt2_q9",
-              "type": "notes_completion",
-              "question": "9. Also responsible for _____",
+              "id": "cam18_t2_l_q9",
+              "type": "form_completion",
+              "question": "| | | Maintaining stock and organising 9",
               "options": [],
               "correctAnswer": "deliveries"
             },
             {
-              "id": "cam18_lt2_q10",
-              "type": "notes_completion",
-              "question": "10. Day off: _____",
+              "id": "cam18_t2_l_q10",
+              "type": "form_completion",
+              "question": "| City Road | Junior chef | Supporting senior chefs | Annual salary £23,000 | | | | | Maintaining stock and organising 9 ................. | No work on a 10",
               "options": [],
               "correctAnswer": "Sunday"
             }
           ]
         },
         {
-          "id": "cam18_lt2_p2",
+          "id": "cam18_t2_l_p2",
           "title": "The New Housing Development",
           "audioFile": "cam18_s6.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam18_lt2_q11",
-              "type": "multiple_choice",
-              "question": "Question 11: Choose the correct letter.",
+              "id": "cam18_t2_l_q11",
+              "type": "multiple_choice_multi",
+              "question": "What are the TWO main reasons why this site has been chosen for the housing development?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. It has suitable geographical features.",
+                "B. There is easy access to local facilities.",
+                "C. It has good connections with the airport.",
+                "D. The land is of little agricultural value.",
+                "E. It will be convenient for workers."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. There is easy access to local facilities."
             },
             {
-              "id": "cam18_lt2_q12",
-              "type": "multiple_choice",
-              "question": "Question 12: Choose the correct letter.",
+              "id": "cam18_t2_l_q12",
+              "type": "multiple_choice_multi",
+              "question": "What are the TWO main reasons why this site has been chosen for the housing development?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. It has suitable geographical features.",
+                "B. There is easy access to local facilities.",
+                "C. It has good connections with the airport.",
+                "D. The land is of little agricultural value.",
+                "E. It will be convenient for workers."
               ],
-              "correctAnswer": "E"
+              "correctAnswer": "E. It will be convenient for workers."
             },
             {
-              "id": "cam18_lt2_q13",
-              "type": "multiple_choice",
-              "question": "Question 13: Choose the correct letter.",
+              "id": "cam18_t2_l_q13",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO aspects of the planned housing development have people given positive feedback about?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. the facilities for cyclists",
+                "B. the impact on the environment",
+                "C. the encouragement of good relations between residents",
+                "D. the low cost of all the accommodation",
+                "E. the rural location"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. the impact on the environment"
             },
             {
-              "id": "cam18_lt2_q14",
-              "type": "multiple_choice",
-              "question": "Question 14: Choose the correct letter.",
+              "id": "cam18_t2_l_q14",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO aspects of the planned housing development have people given positive feedback about?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. the facilities for cyclists",
+                "B. the impact on the environment",
+                "C. the encouragement of good relations between residents",
+                "D. the low cost of all the accommodation",
+                "E. the rural location"
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. the encouragement of good relations between residents"
             },
             {
-              "id": "cam18_lt2_q15",
+              "id": "cam18_t2_l_q15",
               "type": "matching",
-              "question": "15. School: _____",
+              "question": "School",
               "options": [
-                "A. Playground",
-                "B. Community centre",
-                "C. Sports Centre",
-                "D. Clinic",
-                "E. Car park",
-                "F. Bus stop",
-                "G. School",
-                "H. Supermarket"
+                "A. It has suitable geographical features.",
+                "B. There is easy access to local facilities.",
+                "C. It has good connections with the airport.",
+                "D. The land is of little agricultural value.",
+                "E. It will be convenient for workers."
               ],
               "correctAnswer": "G"
             },
             {
-              "id": "cam18_lt2_q16",
+              "id": "cam18_t2_l_q16",
               "type": "matching",
-              "question": "16. Sports Centre: _____",
+              "question": "Sports centre",
               "options": [
-                "A. Playground",
-                "B. Community centre",
-                "C. Sports Centre",
-                "D. Clinic",
-                "E. Car park",
-                "F. Bus stop",
-                "G. School",
-                "H. Supermarket"
+                "A. It has suitable geographical features.",
+                "B. There is easy access to local facilities.",
+                "C. It has good connections with the airport.",
+                "D. The land is of little agricultural value.",
+                "E. It will be convenient for workers."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam18_lt2_q17",
+              "id": "cam18_t2_l_q17",
               "type": "matching",
-              "question": "17. Clinic: _____",
+              "question": "Clinic",
               "options": [
-                "A. Playground",
-                "B. Community centre",
-                "C. Sports Centre",
-                "D. Clinic",
-                "E. Car park",
-                "F. Bus stop",
-                "G. School",
-                "H. Supermarket"
+                "A. It has suitable geographical features.",
+                "B. There is easy access to local facilities.",
+                "C. It has good connections with the airport.",
+                "D. The land is of little agricultural value.",
+                "E. It will be convenient for workers."
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam18_lt2_q18",
+              "id": "cam18_t2_l_q18",
               "type": "matching",
-              "question": "18. Community centre: _____",
+              "question": "Community centre",
               "options": [
-                "A. Playground",
-                "B. Community centre",
-                "C. Sports Centre",
-                "D. Clinic",
-                "E. Car park",
-                "F. Bus stop",
-                "G. School",
-                "H. Supermarket"
+                "A. It has suitable geographical features.",
+                "B. There is easy access to local facilities.",
+                "C. It has good connections with the airport.",
+                "D. The land is of little agricultural value.",
+                "E. It will be convenient for workers."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam18_lt2_q19",
+              "id": "cam18_t2_l_q19",
               "type": "matching",
-              "question": "19. Supermarket: _____",
+              "question": "Supermarket",
               "options": [
-                "A. Playground",
-                "B. Community centre",
-                "C. Sports Centre",
-                "D. Clinic",
-                "E. Car park",
-                "F. Bus stop",
-                "G. School",
-                "H. Supermarket"
+                "A. It has suitable geographical features.",
+                "B. There is easy access to local facilities.",
+                "C. It has good connections with the airport.",
+                "D. The land is of little agricultural value.",
+                "E. It will be convenient for workers."
               ],
               "correctAnswer": "H"
             },
             {
-              "id": "cam18_lt2_q20",
+              "id": "cam18_t2_l_q20",
               "type": "matching",
-              "question": "20. Playground: _____",
+              "question": "Playground",
               "options": [
-                "A. Playground",
-                "B. Community centre",
-                "C. Sports Centre",
-                "D. Clinic",
-                "E. Car park",
-                "F. Bus stop",
-                "G. School",
-                "H. Supermarket"
+                "A. It has suitable geographical features.",
+                "B. There is easy access to local facilities.",
+                "C. It has good connections with the airport.",
+                "D. The land is of little agricultural value.",
+                "E. It will be convenient for workers."
               ],
               "correctAnswer": "A"
             }
           ]
         },
         {
-          "id": "cam18_lt2_p3",
+          "id": "cam18_t2_l_p3",
           "title": "The Laki Eruption",
           "audioFile": "cam18_s7.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam18_lt2_q21",
+              "id": "cam18_t2_l_q21",
               "type": "multiple_choice",
-              "question": "Question 21: Choose the correct letter.",
+              "question": "Why do the students think the Laki eruption of 1783 is so important?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. It was the most severe eruption in modern times.",
+                "B. It led to the formal study of volcanoes.",
+                "C. It had a profound effect on society."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam18_lt2_q22",
+              "id": "cam18_t2_l_q22",
               "type": "multiple_choice",
-              "question": "Question 22: Choose the correct letter.",
+              "question": "What surprised Adam about observations made at the time?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. the number of places producing them",
+                "B. the contradictions in them",
+                "C. the lack of scientific data to support them"
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. __ the number of places producing them"
             },
             {
-              "id": "cam18_lt2_q23",
+              "id": "cam18_t2_l_q23",
               "type": "multiple_choice",
-              "question": "Question 23: Choose the correct letter.",
+              "question": "According to Michelle, what did the contemporary sources say about the Laki haze?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. People thought it was similar to ordinary fog.",
+                "B. It was associated with health issues.",
+                "C. It completely blocked out the sun for weeks."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. It was associated with health issues."
             },
             {
-              "id": "cam18_lt2_q24",
+              "id": "cam18_t2_l_q24",
               "type": "multiple_choice",
-              "question": "Question 24: Choose the correct letter.",
+              "question": "Adam corrects Michelle when she claims that Benjamin Franklin",
               "options": [
-                "A",
-                "B",
-                "C"
-              ],
-              "correctAnswer": "B"
-            },
-            {
-              "id": "cam18_lt2_q25",
-              "type": "multiple_choice",
-              "question": "Question 25: Choose the correct letter.",
-              "options": [
-                "A",
-                "B",
-                "C"
-              ],
-              "correctAnswer": "A"
-            },
-            {
-              "id": "cam18_lt2_q26",
-              "type": "multiple_choice",
-              "question": "Question 26: Choose the correct letter.",
-              "options": [
-                "A",
-                "B",
-                "C"
+                "A. came to the wrong conclusion about the cause of the haze.",
+                "B. was the first to identify the reason for the haze.",
+                "C. supported the opinions of other observers about the haze."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam18_lt2_q27",
+              "id": "cam18_t2_l_q25",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO issues following the Laki eruption surprised the students?",
+              "options": [
+                "A. how widespread the effects were",
+                "B. how long-lasting the effects were",
+                "C. the number of deaths it caused",
+                "D. the speed at which the volcanic ash cloud spread",
+                "E. how people ignored the warning signs"
+              ],
+              "correctAnswer": "A. how widespread the effects were"
+            },
+            {
+              "id": "cam18_t2_l_q26",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO issues following the Laki eruption surprised the students?",
+              "options": [
+                "A. how widespread the effects were",
+                "B. how long-lasting the effects were",
+                "C. the number of deaths it caused",
+                "D. the speed at which the volcanic ash cloud spread",
+                "E. how people ignored the warning signs"
+              ],
+              "correctAnswer": "B. how long-lasting the effects were"
+            },
+            {
+              "id": "cam18_t2_l_q27",
               "type": "matching",
               "question": "27. Iceland: _____",
               "options": [
@@ -768,7 +752,7 @@
               "correctAnswer": "D"
             },
             {
-              "id": "cam18_lt2_q28",
+              "id": "cam18_t2_l_q28",
               "type": "matching",
               "question": "28. Egypt: _____",
               "options": [
@@ -784,7 +768,7 @@
               "correctAnswer": "A"
             },
             {
-              "id": "cam18_lt2_q29",
+              "id": "cam18_t2_l_q29",
               "type": "matching",
               "question": "29. UK: _____",
               "options": [
@@ -800,7 +784,7 @@
               "correctAnswer": "C"
             },
             {
-              "id": "cam18_lt2_q30",
+              "id": "cam18_t2_l_q30",
               "type": "matching",
               "question": "30. USA: _____",
               "options": [
@@ -818,78 +802,78 @@
           ]
         },
         {
-          "id": "cam18_lt2_p4",
+          "id": "cam18_t2_l_p4",
           "title": "Pockets",
           "audioFile": "cam18_s8.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam18_lt2_q31",
-              "type": "notes_completion",
+              "id": "cam18_t2_l_q31",
+              "type": "form_completion",
               "question": "31. Pockets are very _____",
               "options": [],
               "correctAnswer": "convenient"
             },
             {
-              "id": "cam18_lt2_q32",
-              "type": "notes_completion",
+              "id": "cam18_t2_l_q32",
+              "type": "form_completion",
               "question": "32. In the 17th century, pockets were separate from _____",
               "options": [],
               "correctAnswer": "suits"
             },
             {
-              "id": "cam18_lt2_q33",
-              "type": "notes_completion",
+              "id": "cam18_t2_l_q33",
+              "type": "form_completion",
               "question": "33. Pocket-makers were a separate _____",
               "options": [],
               "correctAnswer": "tailor"
             },
             {
-              "id": "cam18_lt2_q34",
-              "type": "notes_completion",
+              "id": "cam18_t2_l_q34",
+              "type": "form_completion",
               "question": "34. It was a specialised _____",
               "options": [],
               "correctAnswer": "profession"
             },
             {
-              "id": "cam18_lt2_q35",
-              "type": "notes_completion",
+              "id": "cam18_t2_l_q35",
+              "type": "form_completion",
               "question": "35. In the 19th century, pockets became less _____",
               "options": [],
               "correctAnswer": "visible"
             },
             {
-              "id": "cam18_lt2_q36",
-              "type": "notes_completion",
+              "id": "cam18_t2_l_q36",
+              "type": "form_completion",
               "question": "36. Held closed with _____",
               "options": [],
               "correctAnswer": "string(s)"
             },
             {
-              "id": "cam18_lt2_q37",
-              "type": "notes_completion",
+              "id": "cam18_t2_l_q37",
+              "type": "form_completion",
               "question": "37. They were tied around the _____",
               "options": [],
               "correctAnswer": "waist(s)"
             },
             {
-              "id": "cam18_lt2_q38",
-              "type": "notes_completion",
+              "id": "cam18_t2_l_q38",
+              "type": "form_completion",
               "question": "38. People kept smelling salts and _____ in pockets",
               "options": [],
               "correctAnswer": "perfume"
             },
             {
-              "id": "cam18_lt2_q39",
-              "type": "notes_completion",
+              "id": "cam18_t2_l_q39",
+              "type": "form_completion",
               "question": "39. Pockets reflected social _____",
               "options": [],
               "correctAnswer": "image"
             },
             {
-              "id": "cam18_lt2_q40",
-              "type": "notes_completion",
+              "id": "cam18_t2_l_q40",
+              "type": "form_completion",
               "question": "40. Modern women often carry a _____ rather than using pockets",
               "options": [],
               "correctAnswer": "handbag"
@@ -903,443 +887,423 @@
       "testNumber": 3,
       "parts": [
         {
-          "id": "cam18_lt3_p1",
+          "id": "cam18_t3_l_p1",
           "title": "Wayside Camera Club",
           "audioFile": "cam18_s9.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam18_lt3_q1",
-              "type": "notes_completion",
-              "question": "1. Name of street: _____",
+              "id": "cam18_t3_l_q1",
+              "type": "form_completion",
+              "question": "Email address: dan1068market.com | Home address: 52 1",
               "options": [],
               "correctAnswer": "Marrowfield"
             },
             {
-              "id": "cam18_lt3_q2",
-              "type": "notes_completion",
-              "question": "2. Membership type: _____",
+              "id": "cam18_t3_l_q2",
+              "type": "form_completion",
+              "question": "Email address: dan1068market.com | Heard about us: from a 2",
               "options": [],
               "correctAnswer": "Relative"
             },
             {
-              "id": "cam18_lt3_q3",
-              "type": "notes_completion",
-              "question": "3. Opportunity to _____",
+              "id": "cam18_t3_l_q3",
+              "type": "form_completion",
+              "question": "Reasons for joining: to enter competitions | to 3",
               "options": [],
               "correctAnswer": "socialise"
             },
             {
-              "id": "cam18_lt3_q4",
-              "type": "notes_completion",
-              "question": "4. Membership fee: _____",
+              "id": "cam18_t3_l_q4",
+              "type": "form_completion",
+              "question": "Reasons for joining: to enter competitions | Type of membership: 4",
               "options": [],
               "correctAnswer": "Full"
             },
             {
-              "id": "cam18_lt3_q5",
-              "type": "notes_completion",
-              "question": "5. Competition theme: _____",
+              "id": "cam18_t3_l_q5",
+              "type": "form_completion",
+              "question": "Title of competition | Instructions | Feedback to Dan | 5 ' _____ ' | A scene in the home | The picture's composition was not good.",
               "options": [],
               "correctAnswer": "Domestic life"
             },
             {
-              "id": "cam18_lt3_q6",
-              "type": "notes_completion",
-              "question": "6. Competition theme: _____",
+              "id": "cam18_t3_l_q6",
+              "type": "form_completion",
+              "question": "'Beautiful Sunsets' | Scene must show some 6",
               "options": [],
               "correctAnswer": "Clouds"
             },
             {
-              "id": "cam18_lt3_q7",
-              "type": "notes_completion",
-              "question": "7. Competition theme: _____",
+              "id": "cam18_t3_l_q7",
+              "type": "form_completion",
+              "question": "Title of competition | Instructions | Feedback to Dan | 'Beautiful Sunsets' | Scene must show some 6 ......................... | The 7",
               "options": [],
               "correctAnswer": "Timing"
             },
             {
-              "id": "cam18_lt3_q8",
-              "type": "notes_completion",
-              "question": "8. Competition theme: _____",
+              "id": "cam18_t3_l_q8",
+              "type": "form_completion",
+              "question": "' ......................... ' | Scene must show 9 ......................... | The photograph was too 10",
               "options": [],
               "correctAnswer": "Animal magic"
             },
             {
-              "id": "cam18_lt3_q9",
-              "type": "notes_completion",
+              "id": "cam18_t3_l_q9",
+              "type": "form_completion",
               "question": "9. Competition theme: _____",
               "options": [],
               "correctAnswer": "(animal) movement"
             },
             {
-              "id": "cam18_lt3_q10",
-              "type": "notes_completion",
-              "question": "10. Competition theme: _____",
+              "id": "cam18_t3_l_q10",
+              "type": "form_completion",
+              "question": "Title of competition | Instructions | Feedback to Dan | 8 ' ......................... ' | Scene must show 9 ......................... | The photograph was too 10",
               "options": [],
               "correctAnswer": "Dark"
             }
           ]
         },
         {
-          "id": "cam18_lt3_p2",
+          "id": "cam18_t3_l_p2",
           "title": "Wild Mushrooms",
           "audioFile": "cam18_s10.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam18_lt3_q11",
-              "type": "multiple_choice",
-              "question": "Question 11: Choose the correct letter.",
+              "id": "cam18_t3_l_q11",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO warnings does Dan give about picking mushrooms?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. Don't pick more than one variety of mushroom at a time.",
+                "B. Don't pick mushrooms near busy roads.",
+                "C. Don't eat mushrooms given to you.",
+                "D. Don't eat mushrooms while picking them.",
+                "E. Don't pick old mushrooms."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam18_lt3_q12",
-              "type": "multiple_choice",
-              "question": "Question 12: Choose the correct letter.",
+              "id": "cam18_t3_l_q12",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO warnings does Dan give about picking mushrooms?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. Don't pick more than one variety of mushroom at a time.",
+                "B. Don't pick mushrooms near busy roads.",
+                "C. Don't eat mushrooms given to you.",
+                "D. Don't eat mushrooms while picking them.",
+                "E. Don't pick old mushrooms."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam18_lt3_q13",
-              "type": "multiple_choice",
-              "question": "Question 13: Choose the correct letter.",
+              "id": "cam18_t3_l_q13",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO ideas about wild mushrooms does Dan say are correct?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. Mushrooms should always be peeled before eating.",
+                "B. Mushrooms eaten by animals may be unsafe.",
+                "C. Cooking destroys toxins in mushrooms.",
+                "D. Brightly coloured mushrooms can be edible.",
+                "E. All poisonous mushrooms have a bad smell."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. _ picking a limited amount of mushrooms"
             },
             {
-              "id": "cam18_lt3_q14",
-              "type": "multiple_choice",
-              "question": "Question 14: Choose the correct letter.",
+              "id": "cam18_t3_l_q14",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO ideas about wild mushrooms does Dan say are correct?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. Mushrooms should always be peeled before eating.",
+                "B. Mushrooms eaten by animals may be unsafe.",
+                "C. Cooking destroys toxins in mushrooms.",
+                "D. Brightly coloured mushrooms can be edible.",
+                "E. All poisonous mushrooms have a bad smell."
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam18_lt3_q15",
+              "id": "cam18_t3_l_q15",
               "type": "multiple_choice",
-              "question": "Question 15: Choose the correct letter.",
+              "question": "What advice does Dan give about picking mushrooms in parks?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. Choose wooded areas.",
+                "B. Don't disturb wildlife.",
+                "C. Get there early."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam18_lt3_q16",
+              "id": "cam18_t3_l_q16",
               "type": "multiple_choice",
-              "question": "Question 16: Choose the correct letter.",
+              "question": "Dan says it is a good idea for beginners to",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. use a mushroom app.",
+                "B. join a group.",
+                "C. take a reference book."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam18_lt3_q17",
+              "id": "cam18_t3_l_q17",
               "type": "multiple_choice",
-              "question": "Question 17: Choose the correct letter.",
+              "question": "What does Dan say is important for conservation?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. selecting only fully grown mushrooms",
+                "B. picking a limited amount of mushrooms",
+                "C. avoiding areas where rare mushroom species grow"
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam18_lt3_q18",
+              "id": "cam18_t3_l_q18",
               "type": "multiple_choice",
-              "question": "Question 18: Choose the correct letter.",
+              "question": "According to Dan, some varieties of wild mushrooms are in decline because there is",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. a huge demand for them from restaurants.",
+                "B. a lack of rain in this part of the country.",
+                "C. a rise in building developments locally."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. Cook them for a long time."
             },
             {
-              "id": "cam18_lt3_q19",
+              "id": "cam18_t3_l_q19",
               "type": "multiple_choice",
-              "question": "Question 19: Choose the correct letter.",
+              "question": "Dan says that when storing mushrooms, people should",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. keep them in the fridge for no more than two days.",
+                "B. keep them in a brown bag in a dark room.",
+                "C. leave them for a period after washing them."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. keep them in the fridge for no more than two days."
             },
             {
-              "id": "cam18_lt3_q20",
+              "id": "cam18_t3_l_q20",
               "type": "multiple_choice",
-              "question": "Question 20: Choose the correct letter.",
+              "question": "What does Dan say about trying new varieties of mushrooms?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. Experiment with different recipes.",
+                "B. Expect some to have a strong taste.",
+                "C. Cook them for a long time."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. Experiment with different recipes."
             }
           ]
         },
         {
-          "id": "cam18_lt3_p3",
+          "id": "cam18_t3_l_p3",
           "title": "Automation and the Future of Work",
           "audioFile": "cam18_s11.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam18_lt3_q21",
-              "type": "multiple_choice",
-              "question": "Question 21: Choose the correct letter.",
+              "id": "cam18_t3_l_q21",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO opinions about the Luddites do the students express?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. Their actions were ineffective.",
+                "B. They are still influential today.",
+                "C. They have received unfair criticism.",
+                "D. They were proved right.",
+                "E. Their attitude is understandable."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. These jobs are likely to be at risk."
             },
             {
-              "id": "cam18_lt3_q22",
-              "type": "multiple_choice",
-              "question": "Question 22: Choose the correct letter.",
+              "id": "cam18_t3_l_q22",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO opinions about the Luddites do the students express?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. Their actions were ineffective.",
+                "B. They are still influential today.",
+                "C. They have received unfair criticism.",
+                "D. They were proved right.",
+                "E. Their attitude is understandable."
               ],
               "correctAnswer": "E"
             },
             {
-              "id": "cam18_lt3_q23",
-              "type": "multiple_choice",
-              "question": "Question 23: Choose the correct letter.",
+              "id": "cam18_t3_l_q23",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO predictions about the future of work are the students doubtful about?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. Work will be more rewarding.",
+                "B. Unemployment will fall.",
+                "C. People will want to delay retiring.",
+                "D. Working hours will be shorter.",
+                "E. People will change jobs more frequently."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam18_lt3_q24",
-              "type": "multiple_choice",
-              "question": "Question 24: Choose the correct letter.",
+              "id": "cam18_t3_l_q24",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO predictions about the future of work are the students doubtful about?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. Work will be more rewarding.",
+                "B. Unemployment will fall.",
+                "C. People will want to delay retiring.",
+                "D. Working hours will be shorter.",
+                "E. People will change jobs more frequently."
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam18_lt3_q25",
+              "id": "cam18_t3_l_q25",
               "type": "matching",
-              "question": "25. Accountants: _____",
+              "question": "Accountants",
               "options": [
-                "A. likely to be at risk",
-                "B. role has become more interesting",
-                "C. number has fallen dramatically",
-                "D. working conditions have improved",
-                "E. higher disposable income",
-                "F. likely significant rise in demand",
-                "G. employment and productivity risen",
-                "H. increasingly specialised"
+                "A. Their actions were ineffective.",
+                "B. They are still influential today.",
+                "C. They have received unfair criticism.",
+                "D. They were proved right.",
+                "E. Their attitude is understandable."
               ],
               "correctAnswer": "G"
             },
             {
-              "id": "cam18_lt3_q26",
+              "id": "cam18_t3_l_q26",
               "type": "matching",
-              "question": "26. Hairdressers: _____",
+              "question": "Hairdressers",
               "options": [
-                "A. likely to be at risk",
-                "B. role has become more interesting",
-                "C. number has fallen dramatically",
-                "D. working conditions have improved",
-                "E. higher disposable income",
-                "F. likely significant rise in demand",
-                "G. employment and productivity risen",
-                "H. increasingly specialised"
+                "A. Their actions were ineffective.",
+                "B. They are still influential today.",
+                "C. They have received unfair criticism.",
+                "D. They were proved right.",
+                "E. Their attitude is understandable."
               ],
               "correctAnswer": "E"
             },
             {
-              "id": "cam18_lt3_q27",
+              "id": "cam18_t3_l_q27",
               "type": "matching",
-              "question": "27. Admin staff: _____",
+              "question": "Administrative staff",
               "options": [
-                "A. likely to be at risk",
-                "B. role has become more interesting",
-                "C. number has fallen dramatically",
-                "D. working conditions have improved",
-                "E. higher disposable income",
-                "F. likely significant rise in demand",
-                "G. employment and productivity risen",
-                "H. increasingly specialised"
+                "A. Their actions were ineffective.",
+                "B. They are still influential today.",
+                "C. They have received unfair criticism.",
+                "D. They were proved right.",
+                "E. Their attitude is understandable."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam18_lt3_q28",
+              "id": "cam18_t3_l_q28",
               "type": "matching",
-              "question": "28. Agricultural workers: _____",
+              "question": "Agricultural workers",
               "options": [
-                "A. likely to be at risk",
-                "B. role has become more interesting",
-                "C. number has fallen dramatically",
-                "D. working conditions have improved",
-                "E. higher disposable income",
-                "F. likely significant rise in demand",
-                "G. employment and productivity risen",
-                "H. increasingly specialised"
+                "A. Their actions were ineffective.",
+                "B. They are still influential today.",
+                "C. They have received unfair criticism.",
+                "D. They were proved right.",
+                "E. Their attitude is understandable."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam18_lt3_q29",
+              "id": "cam18_t3_l_q29",
               "type": "matching",
-              "question": "29. Care workers: _____",
+              "question": "Care workers",
               "options": [
-                "A. likely to be at risk",
-                "B. role has become more interesting",
-                "C. number has fallen dramatically",
-                "D. working conditions have improved",
-                "E. higher disposable income",
-                "F. likely significant rise in demand",
-                "G. employment and productivity risen",
-                "H. increasingly specialised"
+                "A. Their actions were ineffective.",
+                "B. They are still influential today.",
+                "C. They have received unfair criticism.",
+                "D. They were proved right.",
+                "E. Their attitude is understandable."
               ],
               "correctAnswer": "F"
             },
             {
-              "id": "cam18_lt3_q30",
+              "id": "cam18_t3_l_q30",
               "type": "matching",
-              "question": "30. Bank clerks: _____",
+              "question": "Bank clerks",
               "options": [
-                "A. likely to be at risk",
-                "B. role has become more interesting",
-                "C. number has fallen dramatically",
-                "D. working conditions have improved",
-                "E. higher disposable income",
-                "F. likely significant rise in demand",
-                "G. employment and productivity risen",
-                "H. increasingly specialised"
+                "A. Their actions were ineffective.",
+                "B. They are still influential today.",
+                "C. They have received unfair criticism.",
+                "D. They were proved right.",
+                "E. Their attitude is understandable."
               ],
               "correctAnswer": "A"
             }
           ]
         },
         {
-          "id": "cam18_lt3_p4",
+          "id": "cam18_t3_l_p4",
           "title": "Space Traffic Management",
           "audioFile": "cam18_s12.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam18_lt3_q31",
-              "type": "notes_completion",
+              "id": "cam18_t3_l_q31",
+              "type": "form_completion",
               "question": "31. Need for _____ improvements",
               "options": [],
               "correctAnswer": "Technical"
             },
             {
-              "id": "cam18_lt3_q32",
-              "type": "notes_completion",
+              "id": "cam18_t3_l_q32",
+              "type": "form_completion",
               "question": "32. Satellites are becoming _____",
               "options": [],
               "correctAnswer": "Cheap"
             },
             {
-              "id": "cam18_lt3_q33",
-              "type": "notes_completion",
+              "id": "cam18_t3_l_q33",
+              "type": "form_completion",
               "question": "33. There are _____ of new satellites",
               "options": [],
               "correctAnswer": "Thousands"
             },
             {
-              "id": "cam18_lt3_q34",
-              "type": "notes_completion",
+              "id": "cam18_t3_l_q34",
+              "type": "form_completion",
               "question": "34. Problem of _____",
               "options": [],
               "correctAnswer": "Identification"
             },
             {
-              "id": "cam18_lt3_q35",
-              "type": "notes_completion",
+              "id": "cam18_t3_l_q35",
+              "type": "form_completion",
               "question": "35. System for _____",
               "options": [],
               "correctAnswer": "Tracking"
             },
             {
-              "id": "cam18_lt3_q36",
-              "type": "notes_completion",
+              "id": "cam18_t3_l_q36",
+              "type": "form_completion",
               "question": "36. Use by _____ organisations",
               "options": [],
               "correctAnswer": "Military"
             },
             {
-              "id": "cam18_lt3_q37",
-              "type": "notes_completion",
+              "id": "cam18_t3_l_q37",
+              "type": "form_completion",
               "question": "37. Determining _____",
               "options": [],
               "correctAnswer": "Location"
             },
             {
-              "id": "cam18_lt3_q38",
-              "type": "notes_completion",
+              "id": "cam18_t3_l_q38",
+              "type": "form_completion",
               "question": "38. _____ of future movements",
               "options": [],
               "correctAnswer": "Prediction"
             },
             {
-              "id": "cam18_lt3_q39",
-              "type": "notes_completion",
+              "id": "cam18_t3_l_q39",
+              "type": "form_completion",
               "question": "39. A shared _____",
               "options": [],
               "correctAnswer": "Database"
             },
             {
-              "id": "cam18_lt3_q40",
-              "type": "notes_completion",
+              "id": "cam18_t3_l_q40",
+              "type": "form_completion",
               "question": "40. Importance of _____",
               "options": [],
               "correctAnswer": "Trust"
@@ -1353,456 +1317,409 @@
       "testNumber": 4,
       "parts": [
         {
-          "id": "cam18_lt4_p1",
+          "id": "cam18_t4_l_p1",
           "title": "Job Application",
           "audioFile": "cam18_s13.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam18_lt4_q1",
-              "type": "notes_completion",
-              "question": "1. Job title: _____",
+              "id": "cam18_t4_l_q1",
+              "type": "form_completion",
+              "question": "Job details from employment agency | Role               1",
               "options": [],
               "correctAnswer": "Receptionist"
             },
             {
-              "id": "cam18_lt4_q2",
-              "type": "notes_completion",
-              "question": "2. Type of practice: _____",
+              "id": "cam18_t4_l_q2",
+              "type": "form_completion",
+              "question": "Job details from employment agency | Location       Fordham 2",
               "options": [],
               "correctAnswer": "Medical"
             },
             {
-              "id": "cam18_lt4_q3",
-              "type": "notes_completion",
-              "question": "3. Name of practice: _____",
+              "id": "cam18_t4_l_q3",
+              "type": "form_completion",
+              "question": "Job details from employment agency | 3 _____ Road, Fordham",
               "options": [],
               "correctAnswer": "Chastons"
             },
             {
-              "id": "cam18_lt4_q4",
-              "type": "notes_completion",
-              "question": "4. Responsible for _____",
+              "id": "cam18_t4_l_q4",
+              "type": "form_completion",
+              "question": "Work involves | making 4 _____ and reorganising them",
               "options": [],
               "correctAnswer": "appointments"
             },
             {
-              "id": "cam18_lt4_q5",
-              "type": "notes_completion",
-              "question": "5. Must use a _____",
+              "id": "cam18_t4_l_q5",
+              "type": "form_completion",
+              "question": "Work involves | maintaining the internal 5",
               "options": [],
               "correctAnswer": "database"
             },
             {
-              "id": "cam18_lt4_q6",
-              "type": "notes_completion",
-              "question": "6. Must have previous _____",
+              "id": "cam18_t4_l_q6",
+              "type": "form_completion",
+              "question": "Requirements | 6 _____ (essential)",
               "options": [],
               "correctAnswer": "experience"
             },
             {
-              "id": "cam18_lt4_q7",
-              "type": "notes_completion",
-              "question": "7. Applicant should be _____",
+              "id": "cam18_t4_l_q7",
+              "type": "form_completion",
+              "question": "Requirements | a calm and 7",
               "options": [],
               "correctAnswer": "confident"
             },
             {
-              "id": "cam18_lt4_q8",
-              "type": "notes_completion",
-              "question": "8. Job is initially _____",
+              "id": "cam18_t4_l_q8",
+              "type": "form_completion",
+              "question": "Other information | a 8 _____ job further opportunities may be available",
               "options": [],
               "correctAnswer": "temporary"
             },
             {
-              "id": "cam18_lt4_q9",
-              "type": "notes_completion",
-              "question": "9. Hourly pay: £_____",
+              "id": "cam18_t4_l_q9",
+              "type": "form_completion",
+              "question": "Other information | hours: 7.45 a.m. to 9",
               "options": [],
               "correctAnswer": "1.15"
             },
             {
-              "id": "cam18_lt4_q10",
-              "type": "notes_completion",
-              "question": "10. Benefit: free _____",
+              "id": "cam18_t4_l_q10",
+              "type": "form_completion",
+              "question": "Other information | 10 _____ is available onsite",
               "options": [],
               "correctAnswer": "parking"
             }
           ]
         },
         {
-          "id": "cam18_lt4_p2",
+          "id": "cam18_t4_l_p2",
           "title": "Agricultural Museum",
           "audioFile": "cam18_s14.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam18_lt4_q11",
+              "id": "cam18_t4_l_q11",
               "type": "multiple_choice",
-              "question": "Question 11: Choose the correct letter.",
+              "question": "The museum building was originally",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. a factory.",
+                "B. a private home.",
+                "C. a hall of residence."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam18_lt4_q12",
+              "id": "cam18_t4_l_q12",
               "type": "multiple_choice",
-              "question": "Question 12: Choose the correct letter.",
+              "question": "The university uses part of the museum building as",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. teaching rooms.",
+                "B. a research library.",
+                "C. administration offices."
+              ],
+              "correctAnswer": "A. teaching rooms."
+            },
+            {
+              "id": "cam18_t4_l_q13",
+              "type": "multiple_choice",
+              "question": "What does the guide say about the entrance fee?",
+              "options": [
+                "A. Visitors decide whether or not they wish to pay.",
+                "B. Only children and students receive a discount.",
+                "C. The museum charges extra for special exhibitions."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam18_lt4_q13",
+              "id": "cam18_t4_l_q14",
               "type": "multiple_choice",
-              "question": "Question 13: Choose the correct letter.",
+              "question": "What are visitors advised to leave in the cloakroom?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
-              ],
-              "correctAnswer": "A"
-            },
-            {
-              "id": "cam18_lt4_q14",
-              "type": "multiple_choice",
-              "question": "Question 14: Choose the correct letter.",
-              "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. cameras",
+                "B. coats",
+                "C. bags"
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam18_lt4_q15",
+              "id": "cam18_t4_l_q15",
               "type": "matching",
-              "question": "15. Four Seasons: _____",
+              "question": "Four Seasons",
               "options": [
-                "A. parents must supervise children",
-                "B. new things to see",
-                "C. closed today",
-                "D. available all year",
-                "E. quiz for visitors",
-                "F. features something created by students",
-                "G. expert is here today",
-                "H. free entry"
+                "A. a factory.",
+                "B. a private home.",
+                "C. a hall of residence."
               ],
               "correctAnswer": "F"
             },
             {
-              "id": "cam18_lt4_q16",
+              "id": "cam18_t4_l_q16",
               "type": "matching",
-              "question": "16. Farmhouse Kitchen: _____",
+              "question": "Farmhouse Kitchen",
               "options": [
-                "A. parents must supervise children",
-                "B. new things to see",
-                "C. closed today",
-                "D. available all year",
-                "E. quiz for visitors",
-                "F. features something created by students",
-                "G. expert is here today",
-                "H. free entry"
+                "A. a factory.",
+                "B. a private home.",
+                "C. a hall of residence."
               ],
               "correctAnswer": "G"
             },
             {
-              "id": "cam18_lt4_q17",
+              "id": "cam18_t4_l_q17",
               "type": "matching",
-              "question": "17. A Year on the Farm: _____",
+              "question": "A Year on the Farm",
               "options": [
-                "A. parents must supervise children",
-                "B. new things to see",
-                "C. closed today",
-                "D. available all year",
-                "E. quiz for visitors",
-                "F. features something created by students",
-                "G. expert is here today",
-                "H. free entry"
+                "A. a factory.",
+                "B. a private home.",
+                "C. a hall of residence."
               ],
               "correctAnswer": "E"
             },
             {
-              "id": "cam18_lt4_q18",
+              "id": "cam18_t4_l_q18",
               "type": "matching",
-              "question": "18. Wagon Walk: _____",
+              "question": "Wagon Walk",
               "options": [
-                "A. parents must supervise children",
-                "B. new things to see",
-                "C. closed today",
-                "D. available all year",
-                "E. quiz for visitors",
-                "F. features something created by students",
-                "G. expert is here today",
-                "H. free entry"
+                "A. a factory.",
+                "B. a private home.",
+                "C. a hall of residence."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam18_lt4_q19",
+              "id": "cam18_t4_l_q19",
               "type": "matching",
-              "question": "19. Bees are Magic: _____",
+              "question": "Bees are Magic",
               "options": [
-                "A. parents must supervise children",
-                "B. new things to see",
-                "C. closed today",
-                "D. available all year",
-                "E. quiz for visitors",
-                "F. features something created by students",
-                "G. expert is here today",
-                "H. free entry"
+                "A. a factory.",
+                "B. a private home.",
+                "C. a hall of residence."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam18_lt4_q20",
+              "id": "cam18_t4_l_q20",
               "type": "matching",
-              "question": "20. The Pond: _____",
+              "question": "The Pond",
               "options": [
-                "A. parents must supervise children",
-                "B. new things to see",
-                "C. closed today",
-                "D. available all year",
-                "E. quiz for visitors",
-                "F. features something created by students",
-                "G. expert is here today",
-                "H. free entry"
+                "A. a factory.",
+                "B. a private home.",
+                "C. a hall of residence."
               ],
               "correctAnswer": "B"
             }
           ]
         },
         {
-          "id": "cam18_lt4_p3",
+          "id": "cam18_t4_l_p3",
           "title": "Children's Activities",
           "audioFile": "cam18_s15.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam18_lt4_q21",
-              "type": "multiple_choice",
-              "question": "Question 21: Choose the correct letter.",
+              "id": "cam18_t4_l_q21",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO educational skills were shown in the video of children doing origami?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. solving problems",
+                "B. following instructions",
+                "C. working cooperatively",
+                "D. learning through play",
+                "E. developing hand-eye coordination"
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam18_lt4_q22",
-              "type": "multiple_choice",
-              "question": "Question 22: Choose the correct letter.",
+              "id": "cam18_t4_l_q22",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO educational skills were shown in the video of children doing origami?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. solving problems",
+                "B. following instructions",
+                "C. working cooperatively",
+                "D. learning through play",
+                "E. developing hand-eye coordination"
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam18_lt4_q23",
+              "id": "cam18_t4_l_q23",
               "type": "matching",
-              "question": "23. Sid: _____",
+              "question": "Sid",
               "options": [
-                "A. demonstrated independence",
-                "B. showed good leadership",
-                "C. developed competitive attitude",
-                "D. found activity calming",
-                "E. improved concentration",
-                "F. seemed confused",
-                "G. found activity easy",
-                "H. lacked confidence"
+                "A. solving problems",
+                "B. following instructions",
+                "C. working cooperatively",
+                "D. learning through play",
+                "E. developing hand-eye coordination"
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam18_lt4_q24",
+              "id": "cam18_t4_l_q24",
               "type": "matching",
-              "question": "24. Jack: _____",
+              "question": "Jack",
               "options": [
-                "A. demonstrated independence",
-                "B. showed good leadership",
-                "C. developed competitive attitude",
-                "D. found activity calming",
-                "E. improved concentration",
-                "F. seemed confused",
-                "G. found activity easy",
-                "H. lacked confidence"
+                "A. solving problems",
+                "B. following instructions",
+                "C. working cooperatively",
+                "D. learning through play",
+                "E. developing hand-eye coordination"
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam18_lt4_q25",
+              "id": "cam18_t4_l_q25",
               "type": "matching",
-              "question": "25. Naomi: _____",
+              "question": "Naomi",
               "options": [
-                "A. demonstrated independence",
-                "B. showed good leadership",
-                "C. developed competitive attitude",
-                "D. found activity calming",
-                "E. improved concentration",
-                "F. seemed confused",
-                "G. found activity easy",
-                "H. lacked confidence"
+                "A. solving problems",
+                "B. following instructions",
+                "C. working cooperatively",
+                "D. learning through play",
+                "E. developing hand-eye coordination"
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam18_lt4_q26",
+              "id": "cam18_t4_l_q26",
               "type": "matching",
-              "question": "26. Anya: _____",
+              "question": "Anya",
               "options": [
-                "A. demonstrated independence",
-                "B. showed good leadership",
-                "C. developed competitive attitude",
-                "D. found activity calming",
-                "E. improved concentration",
-                "F. seemed confused",
-                "G. found activity easy",
-                "H. lacked confidence"
+                "A. solving problems",
+                "B. following instructions",
+                "C. working cooperatively",
+                "D. learning through play",
+                "E. developing hand-eye coordination"
               ],
               "correctAnswer": "G"
             },
             {
-              "id": "cam18_lt4_q27",
+              "id": "cam18_t4_l_q27",
               "type": "matching",
-              "question": "27. Zara: _____",
+              "question": "Zara",
               "options": [
-                "A. demonstrated independence",
-                "B. showed good leadership",
-                "C. developed competitive attitude",
-                "D. found activity calming",
-                "E. improved concentration",
-                "F. seemed confused",
-                "G. found activity easy",
-                "H. lacked confidence"
+                "A. solving problems",
+                "B. following instructions",
+                "C. working cooperatively",
+                "D. learning through play",
+                "E. developing hand-eye coordination"
               ],
               "correctAnswer": "F"
             },
             {
-              "id": "cam18_lt4_q28",
+              "id": "cam18_t4_l_q28",
               "type": "multiple_choice",
-              "question": "Question 28: Choose the correct letter.",
+              "question": "Before starting an origami activity in class, the students think it is important for the teacher to",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. make models that demonstrate the different stages.",
+                "B. check children understand the terminology involved.",
+                "C. tell children not to worry if they find the activity difficult."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. make models that demonstrate the different stages."
             },
             {
-              "id": "cam18_lt4_q29",
+              "id": "cam18_t4_l_q29",
               "type": "multiple_choice",
-              "question": "Question 29: Choose the correct letter.",
+              "question": "The students agree that some teachers might be unwilling to use origami in class because",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. they may not think that crafts are important.",
+                "B. they may not have the necessary skills.",
+                "C. they may worry that it will take up too much time."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. they may not have the necessary skills."
             },
             {
-              "id": "cam18_lt4_q30",
+              "id": "cam18_t4_l_q30",
               "type": "multiple_choice",
-              "question": "Question 30: Choose the correct letter.",
+              "question": "Why do the students decide to use origami in their maths teaching practice?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. to correct a particular misunderstanding",
+                "B. to set a challenge",
+                "C. to introduce a new concept"
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. to introduce a new concept"
             }
           ]
         },
         {
-          "id": "cam18_lt4_p4",
+          "id": "cam18_t4_l_p4",
           "title": "Life of a Novelist",
           "audioFile": "cam18_s16.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam18_lt4_q31",
-              "type": "notes_completion",
+              "id": "cam18_t4_l_q31",
+              "type": "form_completion",
               "question": "31. Her first idea for a story was based on the _____",
               "options": [],
               "correctAnswer": "plot"
             },
             {
-              "id": "cam18_lt4_q32",
-              "type": "notes_completion",
+              "id": "cam18_t4_l_q32",
+              "type": "form_completion",
               "question": "32. She experienced _____ while growing up",
               "options": [],
               "correctAnswer": "poverty"
             },
             {
-              "id": "cam18_lt4_q33",
-              "type": "notes_completion",
+              "id": "cam18_t4_l_q33",
+              "type": "form_completion",
               "question": "33. She travelled around _____",
               "options": [],
               "correctAnswer": "Europe"
             },
             {
-              "id": "cam18_lt4_q34",
-              "type": "notes_completion",
+              "id": "cam18_t4_l_q34",
+              "type": "form_completion",
               "question": "34. She wrote _____ as an outlet for creativity",
               "options": [],
               "correctAnswer": "poetry"
             },
             {
-              "id": "cam18_lt4_q35",
-              "type": "notes_completion",
+              "id": "cam18_t4_l_q35",
+              "type": "form_completion",
               "question": "35. She is talented at _____",
               "options": [],
               "correctAnswer": "drawings"
             },
             {
-              "id": "cam18_lt4_q36",
-              "type": "notes_completion",
+              "id": "cam18_t4_l_q36",
+              "type": "form_completion",
               "question": "36. She started collecting _____",
               "options": [],
               "correctAnswer": "furniture"
             },
             {
-              "id": "cam18_lt4_q37",
-              "type": "notes_completion",
+              "id": "cam18_t4_l_q37",
+              "type": "form_completion",
               "question": "37. She buys old _____",
               "options": [],
               "correctAnswer": "lamps"
             },
             {
-              "id": "cam18_lt4_q38",
-              "type": "notes_completion",
+              "id": "cam18_t4_l_q38",
+              "type": "form_completion",
               "question": "38. She finds inspiration by the _____",
               "options": [],
               "correctAnswer": "harbour"
             },
             {
-              "id": "cam18_lt4_q39",
-              "type": "notes_completion",
+              "id": "cam18_t4_l_q39",
+              "type": "form_completion",
               "question": "39. Her stories often involve _____",
               "options": [],
               "correctAnswer": "children"
             },
             {
-              "id": "cam18_lt4_q40",
-              "type": "notes_completion",
+              "id": "cam18_t4_l_q40",
+              "type": "form_completion",
               "question": "40. Her stories explore relationships with _____",
               "options": [],
               "correctAnswer": "relatives"

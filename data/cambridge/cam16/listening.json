@@ -7,470 +7,416 @@
       "testNumber": 1,
       "parts": [
         {
-          "id": "cam16_lt1_p1",
+          "id": "cam16_t1_l_p1",
           "title": "Children's Engineering Workshops",
           "audioFile": "cam16_s1.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam16_lt1_q1",
-              "type": "notes_completion",
-              "question": "1. Make a jumping frog, a _____-timer or a powered rocket",
+              "id": "cam16_t1_l_q1",
+              "type": "form_completion",
+              "question": "Activities | Create a cover for an 1",
               "options": [],
               "correctAnswer": "egg"
             },
             {
-              "id": "cam16_lt1_q2",
-              "type": "notes_completion",
-              "question": "2. Build a _____ crane or a bridge",
+              "id": "cam16_t1_l_q2",
+              "type": "form_completion",
+              "question": "Activities | Take part in a competition to build the tallest 2",
               "options": [],
               "correctAnswer": "tower"
             },
             {
-              "id": "cam16_lt1_q3",
-              "type": "notes_completion",
-              "question": "3. Design and build your own _____",
+              "id": "cam16_t1_l_q3",
+              "type": "form_completion",
+              "question": "Activities | Make a 3 _____ powered by a balloon.",
               "options": [],
               "correctAnswer": "car"
             },
             {
-              "id": "cam16_lt1_q4",
-              "type": "notes_completion",
-              "question": "4. Make and decorate a model of your favourite _____",
+              "id": "cam16_t1_l_q4",
+              "type": "form_completion",
+              "question": "Activities: | Build model cars, trucks and 4",
               "options": [],
               "correctAnswer": "animals"
             },
             {
-              "id": "cam16_lt1_q5",
-              "type": "notes_completion",
-              "question": "5. Build a _____ that can bear weight",
+              "id": "cam16_t1_l_q5",
+              "type": "form_completion",
+              "question": "Activities: | Take part in a competition to build the longest 5",
               "options": [],
               "correctAnswer": "bridge"
             },
             {
-              "id": "cam16_lt1_q6",
-              "type": "notes_completion",
-              "question": "6. Create a short _____ using stop-motion animation",
+              "id": "cam16_t1_l_q6",
+              "type": "form_completion",
+              "question": "Activities: | Create a short 6",
               "options": [],
               "correctAnswer": "movie"
             },
             {
-              "id": "cam16_lt1_q7",
-              "type": "notes_completion",
-              "question": "7. Learn to _____ cakes like a professional",
+              "id": "cam16_t1_l_q7",
+              "type": "form_completion",
+              "question": "Activities: | Build, 7 _____ and program a humanoid robot.",
               "options": [],
               "correctAnswer": "decorate"
             },
             {
-              "id": "cam16_lt1_q8",
-              "type": "notes_completion",
-              "question": "8. Workshops take place on _____",
+              "id": "cam16_t1_l_q8",
+              "type": "form_completion",
+              "question": "Cost for a fiveweek block: £50 | Held on 8 _____ from 10 am to 11 am",
               "options": [],
               "correctAnswer": "Wednesdays"
             },
             {
-              "id": "cam16_lt1_q9",
-              "type": "notes_completion",
-              "question": "9. The course tutor is called _____",
+              "id": "cam16_t1_l_q9",
+              "type": "form_completion",
+              "question": "Location | Building 10A, 9",
               "options": [],
               "correctAnswer": "Fradstone"
             },
             {
-              "id": "cam16_lt1_q10",
-              "type": "notes_completion",
-              "question": "10. Parking is available at the _____ lot",
+              "id": "cam16_t1_l_q10",
+              "type": "form_completion",
+              "question": "Location | Plenty of 10",
               "options": [],
               "correctAnswer": "parking"
             }
           ]
         },
         {
-          "id": "cam16_lt1_p2",
+          "id": "cam16_t1_l_p2",
           "title": "Stevenson's (Company Tour)",
           "audioFile": "cam16_s2.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam16_lt1_q11",
+              "id": "cam16_t1_l_q11",
               "type": "multiple_choice",
-              "question": "Question 11: Choose the correct letter.",
+              "question": "Stevenson's was founded in",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. 1923.",
+                "B. 1924.",
+                "C. 1926."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. 1926."
             },
             {
-              "id": "cam16_lt1_q12",
+              "id": "cam16_t1_l_q12",
               "type": "multiple_choice",
-              "question": "Question 12: Choose the correct letter.",
+              "question": "Originally, Stevenson's manufactured goods for",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. the healthcare industry.",
+                "B. the automotive industry.",
+                "C. the machine tools industry."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. _ the healthcare industry."
             },
             {
-              "id": "cam16_lt1_q13",
+              "id": "cam16_t1_l_q13",
               "type": "multiple_choice",
-              "question": "Question 13: Choose the correct letter.",
+              "question": "What does the speaker say about the company premises?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. The company has recently moved.",
+                "B. The company has no plans to move.",
+                "C. The company is going to move shortly."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam16_lt1_q14",
+              "id": "cam16_t1_l_q14",
               "type": "multiple_choice",
-              "question": "Question 14: Choose the correct letter.",
+              "question": "The programme for the work experience group includes",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. time to do research.",
+                "B. meetings with a teacher.",
+                "C. talks by staff."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam16_lt1_q15",
+              "id": "cam16_t1_l_q15",
               "type": "matching",
-              "question": "Match the location 1 to the letter on the map.",
+              "question": "coffee room",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I"
+                "A. 1923.",
+                "B. 1924.",
+                "C. 1926."
               ],
               "correctAnswer": "H"
             },
             {
-              "id": "cam16_lt1_q16",
+              "id": "cam16_t1_l_q16",
               "type": "matching",
-              "question": "Match the location 2 to the letter on the map.",
+              "question": "warehouse",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I"
+                "A. 1923.",
+                "B. 1924.",
+                "C. 1926."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam16_lt1_q17",
+              "id": "cam16_t1_l_q17",
               "type": "matching",
-              "question": "Match the location 3 to the letter on the map.",
+              "question": "staff canteen",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I"
+                "A. 1923.",
+                "B. 1924.",
+                "C. 1926."
               ],
               "correctAnswer": "G"
             },
             {
-              "id": "cam16_lt1_q18",
+              "id": "cam16_t1_l_q18",
               "type": "matching",
-              "question": "Match the location 4 to the letter on the map.",
+              "question": "meeting room",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I"
+                "A. 1923.",
+                "B. 1924.",
+                "C. 1926."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam16_lt1_q19",
+              "id": "cam16_t1_l_q19",
               "type": "matching",
-              "question": "Match the location 5 to the letter on the map.",
+              "question": "human resources",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I"
+                "A. 1923.",
+                "B. 1924.",
+                "C. 1926."
               ],
               "correctAnswer": "I"
             },
             {
-              "id": "cam16_lt1_q20",
+              "id": "cam16_t1_l_q20",
               "type": "matching",
-              "question": "Match the location 6 to the letter on the map.",
+              "question": "boardroom",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H",
-                "I"
+                "A. 1923.",
+                "B. 1924.",
+                "C. 1926."
               ],
               "correctAnswer": "A"
             }
           ]
         },
         {
-          "id": "cam16_lt1_p3",
+          "id": "cam16_t1_l_p3",
           "title": "Art Projects (Jess and Tom)",
           "audioFile": "cam16_s3.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam16_lt1_q21",
-              "type": "multiple_choice",
-              "question": "Which TWO things do Jess and Tom agree to include in their art project?\nA. photographs\nB. interviews\nC. a visit to a museum\nD. a survey\nE. handouts",
+              "id": "cam16_t1_l_q21",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO parts of the introductory stage to their art projects do Jess and Tom agree were useful?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. the Bird Park visit",
+                "B. the workshop sessions",
+                "C. the Natural History Museum visit",
+                "D. the projects done in previous years",
+                "E. the handouts with research sources"
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. a visit to a museum"
             },
             {
-              "id": "cam16_lt1_q22",
-              "type": "multiple_choice",
-              "question": "Which TWO things do Jess and Tom agree to include in their art project?\nA. photographs\nB. interviews\nC. a visit to a museum\nD. a survey\nE. handouts",
+              "id": "cam16_t1_l_q22",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO parts of the introductory stage to their art projects do Jess and Tom agree were useful?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. the Bird Park visit",
+                "B. the workshop sessions",
+                "C. the Natural History Museum visit",
+                "D. the projects done in previous years",
+                "E. the handouts with research sources"
               ],
-              "correctAnswer": "E"
+              "correctAnswer": "E. handouts"
             },
             {
-              "id": "cam16_lt1_q23",
-              "type": "multiple_choice",
-              "question": "Which TWO changes do Jess and Tom make to their project plan?\nA. they decide to include more artists\nB. they will be less specific about the outcome\nC. they will focus on contemporary works\nD. they will add more evaluative notes\nE. they will change the presentation format",
+              "id": "cam16_t1_l_q23",
+              "type": "multiple_choice_multi",
+              "question": "In which TWO ways do both Jess and Tom decide to change their proposals?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. by giving a rationale for their action plans",
+                "B. by being less specific about the outcome",
+                "C. by adding a video diary presentation",
+                "D. by providing a timeline and a mind map",
+                "E. by making their notes more evaluative"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. they will be less specific about the outcome"
             },
             {
-              "id": "cam16_lt1_q24",
-              "type": "multiple_choice",
-              "question": "Which TWO changes do Jess and Tom make to their project plan?\nA. they decide to include more artists\nB. they will be less specific about the outcome\nC. they will focus on contemporary works\nD. they will add more evaluative notes\nE. they will change the presentation format",
+              "id": "cam16_t1_l_q24",
+              "type": "multiple_choice_multi",
+              "question": "In which TWO ways do both Jess and Tom decide to change their proposals?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. by giving a rationale for their action plans",
+                "B. by being less specific about the outcome",
+                "C. by adding a video diary presentation",
+                "D. by providing a timeline and a mind map",
+                "E. by making their notes more evaluative"
               ],
-              "correctAnswer": "E"
+              "correctAnswer": "E. they will change the presentation format"
             },
             {
-              "id": "cam16_lt1_q25",
+              "id": "cam16_t1_l_q25",
               "type": "matching",
-              "question": "Match the artwork 1 to the description.",
+              "question": "Falcon (Landseer)",
               "options": [
-                "A. childhood memory",
-                "B. urban development",
-                "C. fast movement",
-                "D. potential threat",
-                "E. social change",
-                "F. continuity of life",
-                "G. protection of nature",
-                "H. confused attitude to nature"
+                "A. the Bird Park visit",
+                "B. the workshop sessions",
+                "C. the Natural History Museum visit",
+                "D. the projects done in previous years",
+                "E. the handouts with research sources"
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam16_lt1_q26",
+              "id": "cam16_t1_l_q26",
               "type": "matching",
-              "question": "Match the artwork 2 to the description.",
+              "question": "Fish hawk (Audubon)",
               "options": [
-                "A. childhood memory",
-                "B. urban development",
-                "C. fast movement",
-                "D. potential threat",
-                "E. social change",
-                "F. continuity of life",
-                "G. protection of nature",
-                "H. confused attitude to nature"
+                "A. the Bird Park visit",
+                "B. the workshop sessions",
+                "C. the Natural History Museum visit",
+                "D. the projects done in previous years",
+                "E. the handouts with research sources"
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam16_lt1_q27",
+              "id": "cam16_t1_l_q27",
               "type": "matching",
-              "question": "Match the artwork 3 to the description.",
+              "question": "Kingfisher (van Gogh)",
               "options": [
-                "A. childhood memory",
-                "B. urban development",
-                "C. fast movement",
-                "D. potential threat",
-                "E. social change",
-                "F. continuity of life",
-                "G. protection of nature",
-                "H. confused attitude to nature"
+                "A. the Bird Park visit",
+                "B. the workshop sessions",
+                "C. the Natural History Museum visit",
+                "D. the projects done in previous years",
+                "E. the handouts with research sources"
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam16_lt1_q28",
+              "id": "cam16_t1_l_q28",
               "type": "matching",
-              "question": "Match the artwork 4 to the description.",
+              "question": "Portrait of William Wells",
               "options": [
-                "A. childhood memory",
-                "B. urban development",
-                "C. fast movement",
-                "D. potential threat",
-                "E. social change",
-                "F. continuity of life",
-                "G. protection of nature",
-                "H. confused attitude to nature"
+                "A. the Bird Park visit",
+                "B. the workshop sessions",
+                "C. the Natural History Museum visit",
+                "D. the projects done in previous years",
+                "E. the handouts with research sources"
               ],
               "correctAnswer": "H"
             },
             {
-              "id": "cam16_lt1_q29",
+              "id": "cam16_t1_l_q29",
               "type": "matching",
-              "question": "Match the artwork 5 to the description.",
+              "question": "Vairumati (Gauguin)",
               "options": [
-                "A. childhood memory",
-                "B. urban development",
-                "C. fast movement",
-                "D. potential threat",
-                "E. social change",
-                "F. continuity of life",
-                "G. protection of nature",
-                "H. confused attitude to nature"
+                "A. the Bird Park visit",
+                "B. the workshop sessions",
+                "C. the Natural History Museum visit",
+                "D. the projects done in previous years",
+                "E. the handouts with research sources"
               ],
               "correctAnswer": "F"
             },
             {
-              "id": "cam16_lt1_q30",
+              "id": "cam16_t1_l_q30",
               "type": "matching",
-              "question": "Match the artwork 6 to the description.",
+              "question": "Portrait of Giovanni de Medici",
               "options": [
-                "A. childhood memory",
-                "B. urban development",
-                "C. fast movement",
-                "D. potential threat",
-                "E. social change",
-                "F. continuity of life",
-                "G. protection of nature",
-                "H. confused attitude to nature"
+                "A. the Bird Park visit",
+                "B. the workshop sessions",
+                "C. the Natural History Museum visit",
+                "D. the projects done in previous years",
+                "E. the handouts with research sources"
               ],
               "correctAnswer": "G"
             }
           ]
         },
         {
-          "id": "cam16_lt1_p4",
+          "id": "cam16_t1_l_p4",
           "title": "Stoicism",
           "audioFile": "cam16_s4.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam16_lt1_q31",
-              "type": "notes_completion",
-              "question": "Question 31: ONE WORD ONLY.",
+              "id": "cam16_t1_l_q31",
+              "type": "form_completion",
+              "question": "Stoicism is still relevant today because of its 31 _____",
               "options": [],
               "correctAnswer": "practical"
             },
             {
-              "id": "cam16_lt1_q32",
-              "type": "notes_completion",
-              "question": "Question 32: ONE WORD ONLY.",
+              "id": "cam16_t1_l_q32",
+              "type": "form_completion",
+              "question": "The Stoics' ideas are surprisingly well known, despite not being intended for 32 _____",
               "options": [],
               "correctAnswer": "publication"
             },
             {
-              "id": "cam16_lt1_q33",
-              "type": "notes_completion",
-              "question": "Question 33: ONE WORD ONLY.",
+              "id": "cam16_t1_l_q33",
+              "type": "form_completion",
+              "question": "Epictetus said that external events cannot be controlled but the 33 _____",
               "options": [],
               "correctAnswer": "choices"
             },
             {
-              "id": "cam16_lt1_q34",
-              "type": "notes_completion",
-              "question": "Question 34: ONE WORD ONLY.",
+              "id": "cam16_t1_l_q34",
+              "type": "form_completion",
+              "question": "A Stoic is someone who has a different view on experiences which others would consider as 34 _____",
               "options": [],
               "correctAnswer": "negative"
             },
             {
-              "id": "cam16_lt1_q35",
-              "type": "notes_completion",
-              "question": "Question 35: ONE WORD ONLY.",
+              "id": "cam16_t1_l_q35",
+              "type": "form_completion",
+              "question": "George Washington organised a _____",
               "options": [],
               "correctAnswer": "play"
             },
             {
-              "id": "cam16_lt1_q36",
-              "type": "notes_completion",
-              "question": "Question 36: ONE WORD ONLY.",
+              "id": "cam16_t1_l_q36",
+              "type": "form_completion",
+              "question": "Adam Smith’s ideas On _____",
               "options": [],
               "correctAnswer": "capitalism"
             },
             {
-              "id": "cam16_lt1_q37",
-              "type": "notes_completion",
-              "question": "Question 37: ONE WORD ONLY.",
+              "id": "cam16_t1_l_q37",
+              "type": "form_completion",
+              "question": "– the treatment for 37 _____",
               "options": [],
               "correctAnswer": "depression"
             },
             {
-              "id": "cam16_lt1_q38",
-              "type": "notes_completion",
-              "question": "Question 38: ONE WORD ONLY.",
+              "id": "cam16_t1_l_q38",
+              "type": "form_completion",
+              "question": "people learn to base their thinking on _____",
               "options": [],
               "correctAnswer": "logic"
             },
             {
-              "id": "cam16_lt1_q39",
-              "type": "notes_completion",
-              "question": "Question 39: ONE WORD ONLY.",
+              "id": "cam16_t1_l_q39",
+              "type": "form_completion",
+              "question": "In business, people benefit from Stoicism by identifying obstacles as 39 _____",
               "options": [],
               "correctAnswer": "opportunity"
             },
             {
-              "id": "cam16_lt1_q40",
-              "type": "notes_completion",
-              "question": "Question 40: ONE WORD ONLY.",
+              "id": "cam16_t1_l_q40",
+              "type": "form_completion",
+              "question": "PART 4 Questions 31 _____",
               "options": [],
               "correctAnswer": "practice"
             }
@@ -483,382 +429,376 @@
       "testNumber": 2,
       "parts": [
         {
-          "id": "cam16_lt2_p1",
+          "id": "cam16_t2_l_p1",
           "title": "Copying Photos to Digital Format",
           "audioFile": "cam16_s5.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam16_lt2_q1",
-              "type": "notes_completion",
-              "question": "1. Number of photos: 200, cost per photo depends on the _____",
+              "id": "cam16_t2_l_q1",
+              "type": "form_completion",
+              "question": "Requirements | Photos must not be in a 1",
               "options": [],
               "correctAnswer": "frame"
             },
             {
-              "id": "cam16_lt2_q2",
-              "type": "notes_completion",
-              "question": "2. Total cost: £_____",
+              "id": "cam16_t2_l_q2",
+              "type": "form_completion",
+              "question": "Cost | The cost for 360 photos is 2 £",
               "options": [],
               "correctAnswer": "195"
             },
             {
-              "id": "cam16_lt2_q3",
-              "type": "notes_completion",
-              "question": "3. Gives a discount for _____ by card",
+              "id": "cam16_t2_l_q3",
+              "type": "form_completion",
+              "question": "Cost | Before the completed order is sent, 3",
               "options": [],
               "correctAnswer": "payment"
             },
             {
-              "id": "cam16_lt2_q4",
-              "type": "notes_completion",
-              "question": "4. These are photos of _____",
+              "id": "cam16_t2_l_q4",
+              "type": "form_completion",
+              "question": "Services included in the price | Photos can be placed in a folder, e.g. with the name 4",
               "options": [],
               "correctAnswer": "Grandparents"
             },
             {
-              "id": "cam16_lt2_q5",
-              "type": "notes_completion",
-              "question": "5. Photo type: black and white and _____",
+              "id": "cam16_t2_l_q5",
+              "type": "form_completion",
+              "question": "Services included in the price | The 5 _____ and contrast can be improved if necessary.",
               "options": [],
               "correctAnswer": "colour"
             },
             {
-              "id": "cam16_lt2_q6",
-              "type": "notes_completion",
-              "question": "6. State of photos: some damage to the _____ of the photo",
+              "id": "cam16_t2_l_q6",
+              "type": "form_completion",
+              "question": "Services included in the price | Photos which are very fragile will be scanned by 6",
               "options": [],
               "correctAnswer": "hand"
             },
             {
-              "id": "cam16_lt2_q7",
-              "type": "notes_completion",
-              "question": "7. Issue: the _____ of photos is too light",
+              "id": "cam16_t2_l_q7",
+              "type": "form_completion",
+              "question": "Special restore service (costs extra) | It may be possible to remove an object from a photo, or change the 7",
               "options": [],
               "correctAnswer": "background"
             },
             {
-              "id": "cam16_lt2_q8",
-              "type": "notes_completion",
-              "question": "8. Camera setting: adjust the _____",
+              "id": "cam16_t2_l_q8",
+              "type": "form_completion",
+              "question": "Special restore service (costs extra) | A photo which is not correctly in 8",
               "options": [],
               "correctAnswer": "focus"
             },
             {
-              "id": "cam16_lt2_q9",
-              "type": "notes_completion",
-              "question": "9. Delivery time: _____",
+              "id": "cam16_t2_l_q9",
+              "type": "form_completion",
+              "question": "Other information | Orders are completed within 9",
               "options": [],
               "correctAnswer": "ten days"
             },
             {
-              "id": "cam16_lt2_q10",
-              "type": "notes_completion",
-              "question": "10. Photos will be stored in a _____ box",
+              "id": "cam16_t2_l_q10",
+              "type": "form_completion",
+              "question": "Other information | Send the photos in a box (not 10",
               "options": [],
               "correctAnswer": "plastic"
             }
           ]
         },
         {
-          "id": "cam16_lt2_p2",
+          "id": "cam16_t2_l_p2",
           "title": "Dartfield House School",
           "audioFile": "cam16_s6.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam16_lt2_q11",
+              "id": "cam16_t2_l_q11",
               "type": "multiple_choice",
-              "question": "Question 11: Choose the correct letter.",
+              "question": "Dartfield House school used to be",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. a tourist information centre.",
+                "B. a private home.",
+                "C. a local council building."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam16_lt2_q12",
+              "id": "cam16_t2_l_q12",
               "type": "multiple_choice",
-              "question": "Question 12: Choose the correct letter.",
+              "question": "What is planned with regard to the lower school?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. All buildings on the main site will be improved.",
+                "B. The lower school site will be used for new homes.",
+                "C. Additional school buildings will be constructed on the lower school site."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam16_lt2_q13",
+              "id": "cam16_t2_l_q13",
               "type": "multiple_choice",
-              "question": "Question 13: Choose the correct letter.",
+              "question": "The catering has been changed because of",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. long queuing times.",
+                "B. changes to the school timetable.",
+                "C. dissatisfaction with the menus."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam16_lt2_q14",
+              "id": "cam16_t2_l_q14",
               "type": "multiple_choice",
-              "question": "Question 14: Choose the correct letter.",
+              "question": "Parents are asked to",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. help their children to decide in advance which serving point to use.",
+                "B. make sure their children have enough money for food.",
+                "C. advise their children on healthy food to eat."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. __ long queuing times."
             },
             {
-              "id": "cam16_lt2_q15",
+              "id": "cam16_t2_l_q15",
               "type": "multiple_choice",
-              "question": "Question 15: Choose the correct letter.",
+              "question": "What does the speaker say about the existing canteen?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. Food will still be served there.",
+                "B. Only staff will have access to it.",
+                "C. Pupils can take their food into it."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam16_lt2_q16",
+              "id": "cam16_t2_l_q16",
               "type": "matching",
-              "question": "Match the club activity 1 to the description.",
+              "question": "World Adventures",
               "options": [
-                "A. Street Life - pupils help to plan menus",
-                "B. Speedy Italian - only vegetarian food",
-                "C. Taste of Asia - includes cookery demonstrations",
-                "D. World Adventures - daily change in menu",
-                "E. Healthy Kitchen - uses local ingredients"
+                "A. a tourist information centre.",
+                "B. a private home.",
+                "C. a local council building."
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam16_lt2_q17",
+              "id": "cam16_t2_l_q17",
               "type": "matching",
-              "question": "Match the club activity 2 to the description.",
+              "question": "Street Life",
               "options": [
-                "A. Street Life - pupils help to plan menus",
-                "B. Speedy Italian - only vegetarian food",
-                "C. Taste of Asia - includes cookery demonstrations",
-                "D. World Adventures - daily change in menu",
-                "E. Healthy Kitchen - uses local ingredients"
+                "A. a tourist information centre.",
+                "B. a private home.",
+                "C. a local council building."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam16_lt2_q18",
+              "id": "cam16_t2_l_q18",
               "type": "matching",
-              "question": "Match the club activity 3 to the description.",
+              "question": "Speedy Italian",
               "options": [
-                "A. Street Life - pupils help to plan menus",
-                "B. Speedy Italian - only vegetarian food",
-                "C. Taste of Asia - includes cookery demonstrations",
-                "D. World Adventures - daily change in menu",
-                "E. Healthy Kitchen - uses local ingredients"
+                "A. a tourist information centre.",
+                "B. a private home.",
+                "C. a local council building."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam16_lt2_q19",
-              "type": "multiple_choice",
-              "question": "Which TWO after-school activities are mentioned?\nA. drama\nB. acting\nC. piano\nD. football\nE. dance",
+              "id": "cam16_t2_l_q19",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO optional after-school lessons are new?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. swimming",
+                "B. piano",
+                "C. acting",
+                "D. cycling",
+                "E. theatre sound and lighting"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. acting"
             },
             {
-              "id": "cam16_lt2_q20",
-              "type": "multiple_choice",
-              "question": "Which TWO after-school activities are mentioned?\nA. drama\nB. acting\nC. piano\nD. football\nE. dance",
+              "id": "cam16_t2_l_q20",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO optional after-school lessons are new?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. swimming",
+                "B. piano",
+                "C. acting",
+                "D. cycling",
+                "E. theatre sound and lighting"
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. piano"
             }
           ]
         },
         {
-          "id": "cam16_lt2_p3",
+          "id": "cam16_t2_l_p3",
           "title": "Assignment on Sleep and Dreams",
           "audioFile": "cam16_s7.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam16_lt2_q21",
+              "id": "cam16_t2_l_q21",
               "type": "multiple_choice",
-              "question": "Question 21: Choose the correct letter.",
+              "question": "Luke read that one reason why we often forget dreams is that",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. our memories cannot cope with too much information.",
+                "B. we might otherwise be confused about what is real.",
+                "C. we do not think they are important."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. we might otherwise be confused about what is real."
             },
             {
-              "id": "cam16_lt2_q22",
+              "id": "cam16_t2_l_q22",
               "type": "multiple_choice",
-              "question": "Question 22: Choose the correct letter.",
+              "question": "What do Luke and Susie agree about dreams predicting the future?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. It may just be due to chance.",
+                "B. It only happens with certain types of event.",
+                "C. It happens more often than some people think."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. It may just be due to chance."
             },
             {
-              "id": "cam16_lt2_q23",
+              "id": "cam16_t2_l_q23",
               "type": "multiple_choice",
-              "question": "Question 23: Choose the correct letter.",
+              "question": "Susie says that a study on pre-school children having a short nap in the day",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. had controversial results.",
+                "B. used faulty research methodology.",
+                "C. failed to reach any clear conclusions."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. failed to reach any clear conclusions."
             },
             {
-              "id": "cam16_lt2_q24",
+              "id": "cam16_t2_l_q24",
               "type": "multiple_choice",
-              "question": "Question 24: Choose the correct letter.",
+              "question": "In their last assignment, both students had problems with",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. statistical analysis.",
+                "B. making an action plan.",
+                "C. self-assessment."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. _ self-assessment."
             },
             {
-              "id": "cam16_lt2_q25",
-              "type": "notes_completion",
-              "question": "25. They need information about the _____ of sleep research",
+              "id": "cam16_t2_l_q25",
+              "type": "form_completion",
+              "question": "Decide on sample: | Twelve students from the 25",
               "options": [],
               "correctAnswer": "history"
             },
             {
-              "id": "cam16_lt2_q26",
-              "type": "notes_completion",
-              "question": "26. The professor recommends a particular _____ for background reading",
+              "id": "cam16_t2_l_q26",
+              "type": "form_completion",
+              "question": "Decide on procedure: | Answers on 26",
               "options": [],
               "correctAnswer": "paper"
             },
             {
-              "id": "cam16_lt2_q27",
-              "type": "notes_completion",
-              "question": "27. The study looked at how _____ respond to sleep deprivation",
+              "id": "cam16_t2_l_q27",
+              "type": "form_completion",
+              "question": "Check ethical guidelines for working with 27",
               "options": [],
               "correctAnswer": "humans"
             },
             {
-              "id": "cam16_lt2_q28",
-              "type": "notes_completion",
-              "question": "28. A key factor affecting sleep quality is the level of _____",
+              "id": "cam16_t2_l_q28",
+              "type": "form_completion",
+              "question": "Ensure that risk is assessed and 28",
               "options": [],
               "correctAnswer": "stress"
             },
             {
-              "id": "cam16_lt2_q29",
-              "type": "notes_completion",
-              "question": "29. The results can be presented using a _____",
+              "id": "cam16_t2_l_q29",
+              "type": "form_completion",
+              "question": "Analyse the results | Calculate the correlation and make a 29",
               "options": [],
               "correctAnswer": "graph"
             },
             {
-              "id": "cam16_lt2_q30",
-              "type": "notes_completion",
-              "question": "30. They still need to _____ the data collected",
+              "id": "cam16_t2_l_q30",
+              "type": "form_completion",
+              "question": "30 _____ the research",
               "options": [],
               "correctAnswer": "evaluate"
             }
           ]
         },
         {
-          "id": "cam16_lt2_p4",
+          "id": "cam16_t2_l_p4",
           "title": "Health Benefits of Dance",
           "audioFile": "cam16_s8.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam16_lt2_q31",
-              "type": "notes_completion",
-              "question": "Question 31: ONE WORD ONLY.",
+              "id": "cam16_t2_l_q31",
+              "type": "form_completion",
+              "question": "An experiment on university students suggested that dance increases 31 _____",
               "options": [],
               "correctAnswer": "creativity"
             },
             {
-              "id": "cam16_lt2_q32",
-              "type": "notes_completion",
-              "question": "Question 32: ONE WORD ONLY.",
+              "id": "cam16_t2_l_q32",
+              "type": "form_completion",
+              "question": "For those with mental illness, dance could be used as a form of 32 _____",
               "options": [],
               "correctAnswer": "therapy"
             },
             {
-              "id": "cam16_lt2_q33",
-              "type": "notes_completion",
-              "question": "Question 33: ONE WORD ONLY.",
+              "id": "cam16_t2_l_q33",
+              "type": "form_completion",
+              "question": "accessible for people with low levels of 33 _____",
               "options": [],
               "correctAnswer": "fitness"
             },
             {
-              "id": "cam16_lt2_q34",
-              "type": "notes_completion",
-              "question": "Question 34: ONE WORD ONLY.",
+              "id": "cam16_t2_l_q34",
+              "type": "form_completion",
+              "question": "better 34 _____ reduces the risk of accidents _____",
               "options": [],
               "correctAnswer": "balance"
             },
             {
-              "id": "cam16_lt2_q35",
-              "type": "notes_completion",
-              "question": "Question 35: ONE WORD ONLY.",
+              "id": "cam16_t2_l_q35",
+              "type": "form_completion",
+              "question": "improves 35 _____",
               "options": [],
               "correctAnswer": "brain"
             },
             {
-              "id": "cam16_lt2_q36",
-              "type": "notes_completion",
-              "question": "Question 36: ONE WORD ONLY.",
+              "id": "cam16_t2_l_q36",
+              "type": "form_completion",
+              "question": "Gives people MOTE _____",
               "options": [],
               "correctAnswer": "motivation"
             },
             {
-              "id": "cam16_lt2_q37",
-              "type": "notes_completion",
-              "question": "Question 37: ONE WORD ONLY.",
+              "id": "cam16_t2_l_q37",
+              "type": "form_completion",
+              "question": ">| p. 123] |B p.107| _____",
               "options": [],
               "correctAnswer": "isolation"
             },
             {
-              "id": "cam16_lt2_q38",
-              "type": "notes_completion",
-              "question": "Question 38: ONE WORD ONLY.",
+              "id": "cam16_t2_l_q38",
+              "type": "form_completion",
+              "question": "40 minutes Uses UP AS MANY _____",
               "options": [],
               "correctAnswer": "calories"
             },
             {
-              "id": "cam16_lt2_q39",
-              "type": "notes_completion",
-              "question": "Question 39: ONE WORD ONLY.",
+              "id": "cam16_t2_l_q39",
+              "type": "form_completion",
+              "question": "– women suffering from 39 _____",
               "options": [],
               "correctAnswer": "obesity"
             },
             {
-              "id": "cam16_lt2_q40",
-              "type": "notes_completion",
-              "question": "Question 40: ONE WORD ONLY.",
+              "id": "cam16_t2_l_q40",
+              "type": "form_completion",
+              "question": "Zumba became a _____",
               "options": [],
               "correctAnswer": "habit"
             }
@@ -871,442 +811,424 @@
       "testNumber": 3,
       "parts": [
         {
-          "id": "cam16_lt3_p1",
+          "id": "cam16_t3_l_p1",
           "title": "Junior Cycle Camp",
           "audioFile": "cam16_s9.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam16_lt3_q1",
-              "type": "notes_completion",
-              "question": "1. Camp location: Adventure _____",
+              "id": "cam16_t3_l_q1",
+              "type": "form_completion",
+              "question": "JUNIOR CYCLE CAMP | The course focuses on skills and safety. | First of all, children at this level are taken to practise in a 1",
               "options": [],
               "correctAnswer": "park"
             },
             {
-              "id": "cam16_lt3_q2",
-              "type": "notes_completion",
-              "question": "2. Camp colour group: _____ group",
+              "id": "cam16_t3_l_q2",
+              "type": "form_completion",
+              "question": "Instructors wear 2",
               "options": [],
               "correctAnswer": "blue"
             },
             {
-              "id": "cam16_lt3_q3",
-              "type": "notes_completion",
-              "question": "3. Need to provide a _____ number",
+              "id": "cam16_t3_l_q3",
+              "type": "form_completion",
+              "question": "Instructors | A 3 _____ is required and training is given.",
               "options": [],
               "correctAnswer": "reference"
             },
             {
-              "id": "cam16_lt3_q4",
-              "type": "notes_completion",
-              "question": "4. Evening activity: listen to a _____",
+              "id": "cam16_t3_l_q4",
+              "type": "form_completion",
+              "question": "Classes | There are quiet times during the morning for a 4",
               "options": [],
               "correctAnswer": "story"
             },
             {
-              "id": "cam16_lt3_q5",
-              "type": "notes_completion",
-              "question": "5. Bad weather alternative: activity _____",
+              "id": "cam16_t3_l_q5",
+              "type": "form_completion",
+              "question": "Classes are held even if there is 5",
               "options": [],
               "correctAnswer": "rain"
             },
             {
-              "id": "cam16_lt3_q6",
-              "type": "notes_completion",
-              "question": "6. Food provided: _____ in the afternoon",
+              "id": "cam16_t3_l_q6",
+              "type": "form_completion",
+              "question": "What to bring | a 6",
               "options": [],
               "correctAnswer": "snack"
             },
             {
-              "id": "cam16_lt3_q7",
-              "type": "notes_completion",
-              "question": "7. Must bring own _____ (if needed)",
+              "id": "cam16_t3_l_q7",
+              "type": "form_completion",
+              "question": "What to bring | Charlie's 7",
               "options": [],
               "correctAnswer": "medication"
             },
             {
-              "id": "cam16_lt3_q8",
-              "type": "notes_completion",
-              "question": "8. Required item: a _____ for cycling",
+              "id": "cam16_t3_l_q8",
+              "type": "form_completion",
+              "question": "Day 1 | Before the class, his 8",
               "options": [],
               "correctAnswer": "helmet"
             },
             {
-              "id": "cam16_lt3_q9",
-              "type": "notes_completion",
-              "question": "9. Accommodation: sleep in a _____",
+              "id": "cam16_t3_l_q9",
+              "type": "form_completion",
+              "question": "Day 1 | He should then go to the 9",
               "options": [],
               "correctAnswer": "tent"
             },
             {
-              "id": "cam16_lt3_q10",
-              "type": "notes_completion",
-              "question": "10. Total cost: $_____",
+              "id": "cam16_t3_l_q10",
+              "type": "form_completion",
+              "question": "Cost | The course costs 10 $",
               "options": [],
               "correctAnswer": "199"
             }
           ]
         },
         {
-          "id": "cam16_lt3_p2",
+          "id": "cam16_t3_l_p2",
           "title": "Agriculture & Horticulture Jobs",
           "audioFile": "cam16_s10.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam16_lt3_q11",
-              "type": "multiple_choice",
-              "question": "Which TWO benefits of working in agriculture are mentioned?\nA. active lifestyle\nB. high salary\nC. flexible working\nD. travel opportunities\nE. job security",
+              "id": "cam16_t3_l_q11",
+              "type": "multiple_choice_multi",
+              "question": "According to Megan, what are the TWO main advantages of working in the agriculture and horticulture sectors?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. the active lifestyle",
+                "B. the above-average salaries",
+                "C. the flexible working opportunities",
+                "D. the opportunities for overseas travel",
+                "E. the chance to be in a natural environment"
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. active lifestyle"
             },
             {
-              "id": "cam16_lt3_q12",
-              "type": "multiple_choice",
-              "question": "Which TWO benefits of working in agriculture are mentioned?\nA. active lifestyle\nB. high salary\nC. flexible working\nD. travel opportunities\nE. job security",
+              "id": "cam16_t3_l_q12",
+              "type": "multiple_choice_multi",
+              "question": "According to Megan, what are the TWO main advantages of working in the agriculture and horticulture sectors?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. the active lifestyle",
+                "B. the above-average salaries",
+                "C. the flexible working opportunities",
+                "D. the opportunities for overseas travel",
+                "E. the chance to be in a natural environment"
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. flexible working"
             },
             {
-              "id": "cam16_lt3_q13",
-              "type": "multiple_choice",
-              "question": "Which TWO challenges of working in horticulture are mentioned?\nA. low pay\nB. quiet location\nC. difficult weather\nD. long hours\nE. physical demands",
+              "id": "cam16_t3_l_q13",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO of the following are likely to be disadvantages for people working outdoors?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. the increasing risk of accidents",
+                "B. being in a very quiet location",
+                "C. difficult weather conditions at times",
+                "D. the cost of housing",
+                "E. the level of physical fitness required"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. quiet location"
             },
             {
-              "id": "cam16_lt3_q14",
-              "type": "multiple_choice",
-              "question": "Which TWO challenges of working in horticulture are mentioned?\nA. low pay\nB. quiet location\nC. difficult weather\nD. long hours\nE. physical demands",
+              "id": "cam16_t3_l_q14",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO of the following are likely to be disadvantages for people working outdoors?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. the increasing risk of accidents",
+                "B. being in a very quiet location",
+                "C. difficult weather conditions at times",
+                "D. the cost of housing",
+                "E. the level of physical fitness required"
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. difficult weather"
             },
             {
-              "id": "cam16_lt3_q15",
+              "id": "cam16_t3_l_q15",
               "type": "matching",
-              "question": "Match the job 1 to the description.",
+              "question": "Fresh food commercial manager",
               "options": [
-                "A. not a permanent job",
-                "B. involves international travel",
-                "C. experience not essential",
-                "D. intensive but fun",
-                "E. management training provided",
-                "F. chance for rapid promotion",
-                "G. accommodation available",
-                "H. local travel"
+                "A. the active lifestyle",
+                "B. the above-average salaries",
+                "C. the flexible working opportunities",
+                "D. the opportunities for overseas travel",
+                "E. the chance to be in a natural environment"
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam16_lt3_q16",
+              "id": "cam16_t3_l_q16",
               "type": "matching",
-              "question": "Match the job 2 to the description.",
+              "question": "Agronomist",
               "options": [
-                "A. not a permanent job",
-                "B. involves international travel",
-                "C. experience not essential",
-                "D. intensive but fun",
-                "E. management training provided",
-                "F. chance for rapid promotion",
-                "G. accommodation available",
-                "H. local travel"
+                "A. the active lifestyle",
+                "B. the above-average salaries",
+                "C. the flexible working opportunities",
+                "D. the opportunities for overseas travel",
+                "E. the chance to be in a natural environment"
               ],
               "correctAnswer": "F"
             },
             {
-              "id": "cam16_lt3_q17",
+              "id": "cam16_t3_l_q17",
               "type": "matching",
-              "question": "Match the job 3 to the description.",
+              "question": "Fresh produce buyer",
               "options": [
-                "A. not a permanent job",
-                "B. involves international travel",
-                "C. experience not essential",
-                "D. intensive but fun",
-                "E. management training provided",
-                "F. chance for rapid promotion",
-                "G. accommodation available",
-                "H. local travel"
+                "A. the active lifestyle",
+                "B. the above-average salaries",
+                "C. the flexible working opportunities",
+                "D. the opportunities for overseas travel",
+                "E. the chance to be in a natural environment"
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam16_lt3_q18",
+              "id": "cam16_t3_l_q18",
               "type": "matching",
-              "question": "Match the job 4 to the description.",
+              "question": "Garden centre sales manager",
               "options": [
-                "A. not a permanent job",
-                "B. involves international travel",
-                "C. experience not essential",
-                "D. intensive but fun",
-                "E. management training provided",
-                "F. chance for rapid promotion",
-                "G. accommodation available",
-                "H. local travel"
+                "A. the active lifestyle",
+                "B. the above-average salaries",
+                "C. the flexible working opportunities",
+                "D. the opportunities for overseas travel",
+                "E. the chance to be in a natural environment"
               ],
               "correctAnswer": "H"
             },
             {
-              "id": "cam16_lt3_q19",
+              "id": "cam16_t3_l_q19",
               "type": "matching",
-              "question": "Match the job 5 to the description.",
+              "question": "Tree technician",
               "options": [
-                "A. not a permanent job",
-                "B. involves international travel",
-                "C. experience not essential",
-                "D. intensive but fun",
-                "E. management training provided",
-                "F. chance for rapid promotion",
-                "G. accommodation available",
-                "H. local travel"
+                "A. the active lifestyle",
+                "B. the above-average salaries",
+                "C. the flexible working opportunities",
+                "D. the opportunities for overseas travel",
+                "E. the chance to be in a natural environment"
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam16_lt3_q20",
+              "id": "cam16_t3_l_q20",
               "type": "matching",
-              "question": "Match the job 6 to the description.",
+              "question": "Farm worker",
               "options": [
-                "A. not a permanent job",
-                "B. involves international travel",
-                "C. experience not essential",
-                "D. intensive but fun",
-                "E. management training provided",
-                "F. chance for rapid promotion",
-                "G. accommodation available",
-                "H. local travel"
+                "A. the active lifestyle",
+                "B. the above-average salaries",
+                "C. the flexible working opportunities",
+                "D. the opportunities for overseas travel",
+                "E. the chance to be in a natural environment"
               ],
               "correctAnswer": "G"
             }
           ]
         },
         {
-          "id": "cam16_lt3_p3",
+          "id": "cam16_t3_l_p3",
           "title": "Diet & Obesity Presentation",
           "audioFile": "cam16_s11.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam16_lt3_q21",
-              "type": "multiple_choice",
-              "question": "Which TWO strengths of the study do the students identify?\nA. the study was conducted over a long period\nB. the participants were from diverse backgrounds\nC. the sample size was large\nD. the participants were unaware of what they were drinking\nE. the results were consistent across all age groups",
+              "id": "cam16_t3_l_q21",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO points does Adam make about his experiment on artificial sweeteners?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. The results were what he had predicted.",
+                "B. The experiment was simple to set up.",
+                "C. A large sample of people was tested.",
+                "D. The subjects were unaware of what they were drinking.",
+                "E. The test was repeated several times for each person."
+              ],
+              "correctAnswer": "C. the sample size was large"
+            },
+            {
+              "id": "cam16_t3_l_q22",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO points does Adam make about his experiment on artificial sweeteners?",
+              "options": [
+                "A. The results were what he had predicted.",
+                "B. The experiment was simple to set up.",
+                "C. A large sample of people was tested.",
+                "D. The subjects were unaware of what they were drinking.",
+                "E. The test was repeated several times for each person."
+              ],
+              "correctAnswer": "D. the participants were unaware of what they were drinking"
+            },
+            {
+              "id": "cam16_t3_l_q23",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO problems did Rosie have when measuring the fat content of nuts?",
+              "options": [
+                "A. She used the wrong sort of nuts.",
+                "B. She used an unsuitable chemical.",
+                "C. She did not grind the nuts finely enough.",
+                "D. The information on the nut package was incorrect.",
+                "E. The weighing scales may have been unsuitable."
+              ],
+              "correctAnswer": "C. the nuts were not finely ground enough"
+            },
+            {
+              "id": "cam16_t3_l_q24",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO problems did Rosie have when measuring the fat content of nuts?",
+              "options": [
+                "A. She used the wrong sort of nuts.",
+                "B. She used an unsuitable chemical.",
+                "C. She did not grind the nuts finely enough.",
+                "D. The information on the nut package was incorrect.",
+                "E. The weighing scales may have been unsuitable."
+              ],
+              "correctAnswer": "E. the scales used for measurement were unsuitable"
+            },
+            {
+              "id": "cam16_t3_l_q25",
+              "type": "multiple_choice",
+              "question": "Adam suggests that restaurants could reduce obesity if their menus",
+              "options": [
+                "A. offered fewer options.",
+                "B. had more low-calorie foods.",
+                "C. were organised in a particular way."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam16_lt3_q22",
+              "id": "cam16_t3_l_q26",
               "type": "multiple_choice",
-              "question": "Which TWO strengths of the study do the students identify?\nA. the study was conducted over a long period\nB. the participants were from diverse backgrounds\nC. the sample size was large\nD. the participants were unaware of what they were drinking\nE. the results were consistent across all age groups",
+              "question": "The students agree that food manufacturers deliberately",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. make calorie counts hard to understand.",
+                "B. fail to provide accurate calorie counts.",
+                "C. use ineffective methods to reduce calories."
               ],
-              "correctAnswer": "D"
+              "correctAnswer": "A. make calorie counts hard to understand."
             },
             {
-              "id": "cam16_lt3_q23",
+              "id": "cam16_t3_l_q27",
               "type": "multiple_choice",
-              "question": "Which TWO weaknesses of the study do the students identify?\nA. the age range of participants was too narrow\nB. the nuts were served whole rather than ground\nC. the nuts were not finely ground enough\nD. the participants' diets were not monitored\nE. the scales used for measurement were unsuitable",
+              "question": "What does Rosie say about levels of exercise in England?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
-              ],
-              "correctAnswer": "C"
-            },
-            {
-              "id": "cam16_lt3_q24",
-              "type": "multiple_choice",
-              "question": "Which TWO weaknesses of the study do the students identify?\nA. the age range of participants was too narrow\nB. the nuts were served whole rather than ground\nC. the nuts were not finely ground enough\nD. the participants' diets were not monitored\nE. the scales used for measurement were unsuitable",
-              "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
-              ],
-              "correctAnswer": "E"
-            },
-            {
-              "id": "cam16_lt3_q25",
-              "type": "multiple_choice",
-              "question": "Question 25: Choose the correct letter.",
-              "options": [
-                "A",
-                "B",
-                "C"
-              ],
-              "correctAnswer": "C"
-            },
-            {
-              "id": "cam16_lt3_q26",
-              "type": "multiple_choice",
-              "question": "Question 26: Choose the correct letter.",
-              "options": [
-                "A",
-                "B",
-                "C"
-              ],
-              "correctAnswer": "A"
-            },
-            {
-              "id": "cam16_lt3_q27",
-              "type": "multiple_choice",
-              "question": "Question 27: Choose the correct letter.",
-              "options": [
-                "A",
-                "B",
-                "C"
+                "A. The amount recommended is much too low.",
+                "B. Most people overestimate how much they do.",
+                "C. Women now exercise more than they used to."
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam16_lt3_q28",
+              "id": "cam16_t3_l_q28",
               "type": "multiple_choice",
-              "question": "Question 28: Choose the correct letter.",
+              "question": "Adam refers to the location and width of stairs in a train station to illustrate",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. practical changes that can influence people's behaviour.",
+                "B. methods of helping people who have mobility problems.",
+                "C. ways of preventing accidents by controlling crowd movement."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. practical changes that can influence people’s behaviour. B_ methods of helping people who have mobility problems. C_ ways of preventing accidents by controlling crowd movement."
             },
             {
-              "id": "cam16_lt3_q29",
+              "id": "cam16_t3_l_q29",
               "type": "multiple_choice",
-              "question": "Question 29: Choose the correct letter.",
+              "question": "What do the students agree about including reference to exercise in their presentation?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. They should probably leave it out.",
+                "B. They need to do more research on it.",
+                "C. They should discuss this with their tutor."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. They should probably leave it out."
             },
             {
-              "id": "cam16_lt3_q30",
+              "id": "cam16_t3_l_q30",
               "type": "multiple_choice",
-              "question": "Question 30: Choose the correct letter.",
+              "question": "What are the students going to do next for their presentation?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. prepare some slides for it",
+                "B. find out how long they have for it",
+                "C. decide on its content and organisation"
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. decide on its content and organisation >| p. 125||@ p.112} 59 Test 3"
             }
           ]
         },
         {
-          "id": "cam16_lt3_p4",
+          "id": "cam16_t3_l_p4",
           "title": "Hand Knitting",
           "audioFile": "cam16_s12.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam16_lt3_q31",
-              "type": "notes_completion",
-              "question": "Question 31: ONE WORD ONLY.",
+              "id": "cam16_t3_l_q31",
+              "type": "form_completion",
+              "question": "We imagine someone like a 31 _____",
               "options": [],
               "correctAnswer": "grandmother"
             },
             {
-              "id": "cam16_lt3_q32",
-              "type": "notes_completion",
-              "question": "Question 32: ONE WORD ONLY.",
+              "id": "cam16_t3_l_q32",
+              "type": "form_completion",
+              "question": "A 32 _____ ago, knitting was expected to disappear. _____",
               "options": [],
               "correctAnswer": "decade"
             },
             {
-              "id": "cam16_lt3_q33",
-              "type": "notes_completion",
-              "question": "Question 33: ONE WORD ONLY.",
+              "id": "cam16_t3_l_q33",
+              "type": "form_completion",
+              "question": "People are buying more 33 _____",
               "options": [],
               "correctAnswer": "equipment"
             },
             {
-              "id": "cam16_lt3_q34",
-              "type": "notes_completion",
-              "question": "Question 34: ONE WORD ONLY.",
+              "id": "cam16_t3_l_q34",
+              "type": "form_completion",
+              "question": "gives support in times of 34 _____",
               "options": [],
               "correctAnswer": "economic"
             },
             {
-              "id": "cam16_lt3_q35",
-              "type": "notes_completion",
-              "question": "Question 35: ONE WORD ONLY.",
+              "id": "cam16_t3_l_q35",
+              "type": "form_completion",
+              "question": "requires only 35 _____",
               "options": [],
               "correctAnswer": "basic"
             },
             {
-              "id": "cam16_lt3_q36",
-              "type": "notes_completion",
-              "question": "Question 36: ONE WORD ONLY.",
+              "id": "cam16_t3_l_q36",
+              "type": "form_completion",
+              "question": "Findings show early knitted items to be 36 _____",
               "options": [],
               "correctAnswer": "round"
             },
             {
-              "id": "cam16_lt3_q37",
-              "type": "notes_completion",
-              "question": "Question 37: ONE WORD ONLY.",
+              "id": "cam16_t3_l_q37",
+              "type": "form_completion",
+              "question": "The first needles were made of natural materials such as wood and 37 _____",
               "options": [],
               "correctAnswer": "bone"
             },
             {
-              "id": "cam16_lt3_q38",
-              "type": "notes_completion",
-              "question": "Question 38: ONE WORD ONLY.",
+              "id": "cam16_t3_l_q38",
+              "type": "form_completion",
+              "question": "Early yarns felt 38 _____",
               "options": [],
               "correctAnswer": "rough"
             },
             {
-              "id": "cam16_lt3_q39",
-              "type": "notes_completion",
-              "question": "Question 39: ONE WORD ONLY.",
+              "id": "cam16_t3_l_q39",
+              "type": "form_completion",
+              "question": "Geographical areas had their own _____",
               "options": [],
               "correctAnswer": "style"
             },
             {
-              "id": "cam16_lt3_q40",
-              "type": "notes_completion",
-              "question": "Question 40: ONE WORD ONLY.",
+              "id": "cam16_t3_l_q40",
+              "type": "form_completion",
+              "question": "Everyday tasks like looking after _____",
               "options": [],
               "correctAnswer": "sheep"
             }
@@ -1319,464 +1241,416 @@
       "testNumber": 4,
       "parts": [
         {
-          "id": "cam16_lt4_p1",
+          "id": "cam16_t4_l_p1",
           "title": "Holiday Rental",
           "audioFile": "cam16_s13.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam16_lt4_q1",
-              "type": "notes_completion",
-              "question": "1. Date available: _____ March",
+              "id": "cam16_t4_l_q1",
+              "type": "form_completion",
+              "question": "Granary Cottage | available for week beginning 1",
               "options": [],
               "correctAnswer": "28th"
             },
             {
-              "id": "cam16_lt4_q2",
-              "type": "notes_completion",
-              "question": "2. Cost per week: £_____",
+              "id": "cam16_t4_l_q2",
+              "type": "form_completion",
+              "question": "Granary Cottage | cost for the week: 2 £",
               "options": [],
               "correctAnswer": "550"
             },
             {
-              "id": "cam16_lt4_q3",
-              "type": "notes_completion",
-              "question": "3. Name of cottage: _____ Cottage",
+              "id": "cam16_t4_l_q3",
+              "type": "form_completion",
+              "question": "Granary Cottage | 3 _____ Cottage",
               "options": [],
               "correctAnswer": "Chervil"
             },
             {
-              "id": "cam16_lt4_q4",
-              "type": "notes_completion",
-              "question": "4. Parking: available in the _____",
+              "id": "cam16_t4_l_q4",
+              "type": "form_completion",
+              "question": "Granary Cottage | building was originally a 4",
               "options": [],
               "correctAnswer": "garage"
             },
             {
-              "id": "cam16_lt4_q5",
-              "type": "notes_completion",
-              "question": "5. Garden: has a _____ with seating",
+              "id": "cam16_t4_l_q5",
+              "type": "form_completion",
+              "question": "Granary Cottage | walk through doors from living room into a 5",
               "options": [],
               "correctAnswer": "garden"
             },
             {
-              "id": "cam16_lt4_q6",
-              "type": "notes_completion",
-              "question": "6. Parking for guests: on-street _____",
+              "id": "cam16_t4_l_q6",
+              "type": "form_completion",
+              "question": "Granary Cottage | several 6 _____ spaces at the front",
               "options": [],
               "correctAnswer": "parking"
             },
             {
-              "id": "cam16_lt4_q7",
-              "type": "notes_completion",
-              "question": "7. Heating: _____-burning stove",
+              "id": "cam16_t4_l_q7",
+              "type": "form_completion",
+              "question": "Granary Cottage | central heating and stove that burns 7",
               "options": [],
               "correctAnswer": "wood"
             },
             {
-              "id": "cam16_lt4_q8",
-              "type": "notes_completion",
-              "question": "8. Nearest shop: across the _____",
+              "id": "cam16_t4_l_q8",
+              "type": "form_completion",
+              "question": "Granary Cottage | views of old 8",
               "options": [],
               "correctAnswer": "bridge"
             },
             {
-              "id": "cam16_lt4_q9",
-              "type": "notes_completion",
-              "question": "9. Local attraction: the old _____",
+              "id": "cam16_t4_l_q9",
+              "type": "form_completion",
+              "question": "view of hilltop 9",
               "options": [],
               "correctAnswer": "monument"
             },
             {
-              "id": "cam16_lt4_q10",
-              "type": "notes_completion",
-              "question": "10. Booking deposit required by _____",
+              "id": "cam16_t4_l_q10",
+              "type": "form_completion",
+              "question": "Payment | deadline for final payment: end of 10",
               "options": [],
               "correctAnswer": "March"
             }
           ]
         },
         {
-          "id": "cam16_lt4_p2",
+          "id": "cam16_t4_l_p2",
           "title": "Local Council Report on Traffic and Highways",
           "audioFile": "cam16_s14.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam16_lt4_q11",
+              "id": "cam16_t4_l_q11",
               "type": "multiple_choice",
-              "question": "Question 11: Choose the correct letter.",
+              "question": "A survey found people's main concern about traffic in the area was",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. cuts to public transport.",
+                "B. poor maintenance of roads.",
+                "C. changes in the type of traffic."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam16_lt4_q12",
+              "id": "cam16_t4_l_q12",
               "type": "multiple_choice",
-              "question": "Question 12: Choose the correct letter.",
+              "question": "Which change will shortly be made to the cycle path next to the river?",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. It will be widened.",
+                "B. It will be extended.",
+                "C. It will be resurfaced."
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "A. _ It will be widened."
             },
             {
-              "id": "cam16_lt4_q13",
+              "id": "cam16_t4_l_q13",
               "type": "multiple_choice",
-              "question": "Question 13: Choose the correct letter.",
+              "question": "Plans for a pedestrian crossing have been postponed because",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. the Post Office has moved.",
+                "B. the proposed location is unsafe.",
+                "C. funding is not available at present."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. __ the proposed location is unsafe."
             },
             {
-              "id": "cam16_lt4_q14",
+              "id": "cam16_t4_l_q14",
               "type": "multiple_choice",
-              "question": "Question 14: Choose the correct letter.",
+              "question": "On Station Road, notices have been erected",
               "options": [
-                "A",
-                "B",
-                "C"
+                "A. telling cyclists not to leave their bikes outside the station ticket office.",
+                "B. asking motorists to switch off engines when waiting at the level crossing.",
+                "C. warning pedestrians to leave enough time when crossing the railway line."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. asking motorists to switch off engines when waiting at the level crossing."
             },
             {
-              "id": "cam16_lt4_q15",
+              "id": "cam16_t4_l_q15",
               "type": "matching",
-              "question": "Match the facility 1 to the letter on the map.",
+              "question": "New car park",
               "options": [
-                "A. Children's playground",
-                "B. Car park extension",
-                "C. New car park",
-                "D. Cycle path",
-                "E. Pavilion",
-                "F. New cricket pitch",
-                "G. Footpath",
-                "H. Notice board",
-                "I. Skateboard ramp"
+                "A. cuts to public transport.",
+                "B. poor maintenance of roads.",
+                "C. changes in the type of traffic."
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam16_lt4_q16",
+              "id": "cam16_t4_l_q16",
               "type": "matching",
-              "question": "Match the facility 2 to the letter on the map.",
+              "question": "New cricket pitch",
               "options": [
-                "A. Children's playground",
-                "B. Car park extension",
-                "C. New car park",
-                "D. Cycle path",
-                "E. Pavilion",
-                "F. New cricket pitch",
-                "G. Footpath",
-                "H. Notice board",
-                "I. Skateboard ramp"
+                "A. cuts to public transport.",
+                "B. poor maintenance of roads.",
+                "C. changes in the type of traffic."
               ],
               "correctAnswer": "F"
             },
             {
-              "id": "cam16_lt4_q17",
+              "id": "cam16_t4_l_q17",
               "type": "matching",
-              "question": "Match the facility 3 to the letter on the map.",
+              "question": "Children's playground",
               "options": [
-                "A. Children's playground",
-                "B. Car park extension",
-                "C. New car park",
-                "D. Cycle path",
-                "E. Pavilion",
-                "F. New cricket pitch",
-                "G. Footpath",
-                "H. Notice board",
-                "I. Skateboard ramp"
+                "A. cuts to public transport.",
+                "B. poor maintenance of roads.",
+                "C. changes in the type of traffic."
               ],
               "correctAnswer": "A"
             },
             {
-              "id": "cam16_lt4_q18",
+              "id": "cam16_t4_l_q18",
               "type": "matching",
-              "question": "Match the facility 4 to the letter on the map.",
+              "question": "Skateboard ramp",
               "options": [
-                "A. Children's playground",
-                "B. Car park extension",
-                "C. New car park",
-                "D. Cycle path",
-                "E. Pavilion",
-                "F. New cricket pitch",
-                "G. Footpath",
-                "H. Notice board",
-                "I. Skateboard ramp"
+                "A. cuts to public transport.",
+                "B. poor maintenance of roads.",
+                "C. changes in the type of traffic."
               ],
               "correctAnswer": "I"
             },
             {
-              "id": "cam16_lt4_q19",
+              "id": "cam16_t4_l_q19",
               "type": "matching",
-              "question": "Match the facility 5 to the letter on the map.",
+              "question": "Pavilion",
               "options": [
-                "A. Children's playground",
-                "B. Car park extension",
-                "C. New car park",
-                "D. Cycle path",
-                "E. Pavilion",
-                "F. New cricket pitch",
-                "G. Footpath",
-                "H. Notice board",
-                "I. Skateboard ramp"
+                "A. cuts to public transport.",
+                "B. poor maintenance of roads.",
+                "C. changes in the type of traffic."
               ],
               "correctAnswer": "E"
             },
             {
-              "id": "cam16_lt4_q20",
+              "id": "cam16_t4_l_q20",
               "type": "matching",
-              "question": "Match the facility 6 to the letter on the map.",
+              "question": "Notice board",
               "options": [
-                "A. Children's playground",
-                "B. Car park extension",
-                "C. New car park",
-                "D. Cycle path",
-                "E. Pavilion",
-                "F. New cricket pitch",
-                "G. Footpath",
-                "H. Notice board",
-                "I. Skateboard ramp"
+                "A. cuts to public transport.",
+                "B. poor maintenance of roads.",
+                "C. changes in the type of traffic."
               ],
               "correctAnswer": "H"
             }
           ]
         },
         {
-          "id": "cam16_lt4_p3",
+          "id": "cam16_t4_l_p3",
           "title": "Bike-Sharing Schemes",
           "audioFile": "cam16_s15.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam16_lt4_q21",
-              "type": "multiple_choice",
-              "question": "Which TWO benefits of bike-sharing schemes are mentioned as being most important?\nA. improving public health\nB. reducing traffic congestion\nC. improving air quality\nD. saving commuters money\nE. reducing noise pollution",
+              "id": "cam16_t4_l_q21",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO benefits of city bike-sharing schemes do the students agree are the most important?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. reducing noise pollution",
+                "B. reducing traffic congestion",
+                "C. improving air quality",
+                "D. encouraging health and fitness",
+                "E. making cycling affordable"
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. reducing traffic congestion"
             },
             {
-              "id": "cam16_lt4_q22",
-              "type": "multiple_choice",
-              "question": "Which TWO benefits of bike-sharing schemes are mentioned as being most important?\nA. improving public health\nB. reducing traffic congestion\nC. improving air quality\nD. saving commuters money\nE. reducing noise pollution",
+              "id": "cam16_t4_l_q22",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO benefits of city bike-sharing schemes do the students agree are the most important?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. reducing noise pollution",
+                "B. reducing traffic congestion",
+                "C. improving air quality",
+                "D. encouraging health and fitness",
+                "E. making cycling affordable"
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. improving air quality"
             },
             {
-              "id": "cam16_lt4_q23",
-              "type": "multiple_choice",
-              "question": "Which TWO factors are said to contribute to the success of bike-sharing schemes?\nA. low membership fees\nB. the app is easy to use\nC. public awareness was raised\nD. government subsidies\nE. good weather conditions",
+              "id": "cam16_t4_l_q23",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO things do the students think are necessary for successful bike-sharing schemes?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. Bikes should have a GPS system.",
+                "B. The app should be easy to use.",
+                "C. Public awareness should be raised.",
+                "D. Only one scheme should be available.",
+                "E. There should be a large network of cycle lanes."
               ],
-              "correctAnswer": "B"
+              "correctAnswer": "B. the app is easy to use"
             },
             {
-              "id": "cam16_lt4_q24",
-              "type": "multiple_choice",
-              "question": "Which TWO factors are said to contribute to the success of bike-sharing schemes?\nA. low membership fees\nB. the app is easy to use\nC. public awareness was raised\nD. government subsidies\nE. good weather conditions",
+              "id": "cam16_t4_l_q24",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO things do the students think are necessary for successful bike-sharing schemes?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. Bikes should have a GPS system.",
+                "B. The app should be easy to use.",
+                "C. Public awareness should be raised.",
+                "D. Only one scheme should be available.",
+                "E. There should be a large network of cycle lanes."
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. public awareness was raised"
             },
             {
-              "id": "cam16_lt4_q25",
+              "id": "cam16_t4_l_q25",
               "type": "matching",
-              "question": "Match the city 1 to the opinion about its bike-sharing scheme.",
+              "question": "Amsterdam",
               "options": [
-                "A. has been disappointing",
-                "B. should be cheaper",
-                "C. surprised it has been so successful",
-                "D. more investment required",
-                "E. system well designed",
-                "F. disagree about reasons for success",
-                "G. started too late"
+                "A. reducing noise pollution",
+                "B. reducing traffic congestion",
+                "C. improving air quality",
+                "D. encouraging health and fitness",
+                "E. making cycling affordable"
               ],
               "correctAnswer": "C"
             },
             {
-              "id": "cam16_lt4_q26",
+              "id": "cam16_t4_l_q26",
               "type": "matching",
-              "question": "Match the city 2 to the opinion about its bike-sharing scheme.",
+              "question": "Dublin",
               "options": [
-                "A. has been disappointing",
-                "B. should be cheaper",
-                "C. surprised it has been so successful",
-                "D. more investment required",
-                "E. system well designed",
-                "F. disagree about reasons for success",
-                "G. started too late"
+                "A. reducing noise pollution",
+                "B. reducing traffic congestion",
+                "C. improving air quality",
+                "D. encouraging health and fitness",
+                "E. making cycling affordable"
               ],
               "correctAnswer": "F"
             },
             {
-              "id": "cam16_lt4_q27",
+              "id": "cam16_t4_l_q27",
               "type": "matching",
-              "question": "Match the city 3 to the opinion about its bike-sharing scheme.",
+              "question": "London",
               "options": [
-                "A. has been disappointing",
-                "B. should be cheaper",
-                "C. surprised it has been so successful",
-                "D. more investment required",
-                "E. system well designed",
-                "F. disagree about reasons for success",
-                "G. started too late"
+                "A. reducing noise pollution",
+                "B. reducing traffic congestion",
+                "C. improving air quality",
+                "D. encouraging health and fitness",
+                "E. making cycling affordable"
               ],
               "correctAnswer": "D"
             },
             {
-              "id": "cam16_lt4_q28",
+              "id": "cam16_t4_l_q28",
               "type": "matching",
-              "question": "Match the city 4 to the opinion about its bike-sharing scheme.",
+              "question": "Buenos Aires",
               "options": [
-                "A. has been disappointing",
-                "B. should be cheaper",
-                "C. surprised it has been so successful",
-                "D. more investment required",
-                "E. system well designed",
-                "F. disagree about reasons for success",
-                "G. started too late"
+                "A. reducing noise pollution",
+                "B. reducing traffic congestion",
+                "C. improving air quality",
+                "D. encouraging health and fitness",
+                "E. making cycling affordable"
               ],
               "correctAnswer": "E"
             },
             {
-              "id": "cam16_lt4_q29",
+              "id": "cam16_t4_l_q29",
               "type": "matching",
-              "question": "Match the city 5 to the opinion about its bike-sharing scheme.",
+              "question": "New York",
               "options": [
-                "A. has been disappointing",
-                "B. should be cheaper",
-                "C. surprised it has been so successful",
-                "D. more investment required",
-                "E. system well designed",
-                "F. disagree about reasons for success",
-                "G. started too late"
+                "A. reducing noise pollution",
+                "B. reducing traffic congestion",
+                "C. improving air quality",
+                "D. encouraging health and fitness",
+                "E. making cycling affordable"
               ],
               "correctAnswer": "B"
             },
             {
-              "id": "cam16_lt4_q30",
+              "id": "cam16_t4_l_q30",
               "type": "matching",
-              "question": "Match the city 6 to the opinion about its bike-sharing scheme.",
+              "question": "Sydney",
               "options": [
-                "A. has been disappointing",
-                "B. should be cheaper",
-                "C. surprised it has been so successful",
-                "D. more investment required",
-                "E. system well designed",
-                "F. disagree about reasons for success",
-                "G. started too late"
+                "A. reducing noise pollution",
+                "B. reducing traffic congestion",
+                "C. improving air quality",
+                "D. encouraging health and fitness",
+                "E. making cycling affordable"
               ],
               "correctAnswer": "A"
             }
           ]
         },
         {
-          "id": "cam16_lt4_p4",
+          "id": "cam16_t4_l_p4",
           "title": "Extinction of the Dodo Bird",
           "audioFile": "cam16_s16.mp3",
           "subtitle": "",
           "duration": "",
           "questions": [
             {
-              "id": "cam16_lt4_q31",
-              "type": "notes_completion",
-              "question": "Question 31: ONE WORD ONLY.",
+              "id": "cam16_t4_l_q31",
+              "type": "form_completion",
+              "question": ">/p. 127} |p.119) _____",
               "options": [],
               "correctAnswer": "spices"
             },
             {
-              "id": "cam16_lt4_q32",
-              "type": "notes_completion",
-              "question": "Question 32: ONE WORD ONLY.",
+              "id": "cam16_t4_l_q32",
+              "type": "form_completion",
+              "question": "1638 The Dutch established a _____",
               "options": [],
               "correctAnswer": "colony"
             },
             {
-              "id": "cam16_lt4_q33",
-              "type": "notes_completion",
-              "question": "Question 33: ONE WORD ONLY.",
+              "id": "cam16_t4_l_q33",
+              "type": "form_completion",
+              "question": "A Dutch painting suggests the dodo was very 33 _____",
               "options": [],
               "correctAnswer": "fat"
             },
             {
-              "id": "cam16_lt4_q34",
-              "type": "notes_completion",
-              "question": "Question 34: ONE WORD ONLY.",
+              "id": "cam16_t4_l_q34",
+              "type": "form_completion",
+              "question": "The only remaining soft tissue is a dried 34 _____",
               "options": [],
               "correctAnswer": "head"
             },
             {
-              "id": "cam16_lt4_q35",
-              "type": "notes_completion",
-              "question": "Question 35: ONE WORD ONLY.",
+              "id": "cam16_t4_l_q35",
+              "type": "form_completion",
+              "question": "Recent studies of a dodo skeleton suggest the birds were capable of rapid 35 _____",
               "options": [],
               "correctAnswer": "movement"
             },
             {
-              "id": "cam16_lt4_q36",
-              "type": "notes_completion",
-              "question": "Question 36: ONE WORD ONLY.",
+              "id": "cam16_t4_l_q36",
+              "type": "form_completion",
+              "question": "It's thought they were able to use their small wings to maintain _____",
               "options": [],
               "correctAnswer": "balance"
             },
             {
-              "id": "cam16_lt4_q37",
-              "type": "notes_completion",
-              "question": "Question 37: ONE WORD ONLY.",
+              "id": "cam16_t4_l_q37",
+              "type": "form_completion",
+              "question": "Their 37 _____ was of average size. _____",
               "options": [],
               "correctAnswer": "brain"
             },
             {
-              "id": "cam16_lt4_q38",
-              "type": "notes_completion",
-              "question": "Question 38: ONE WORD ONLY.",
+              "id": "cam16_t4_l_q38",
+              "type": "form_completion",
+              "question": "Their sense of 38 _____",
               "options": [],
               "correctAnswer": "smell"
             },
             {
-              "id": "cam16_lt4_q39",
-              "type": "notes_completion",
-              "question": "Question 39: ONE WORD ONLY.",
+              "id": "cam16_t4_l_q39",
+              "type": "form_completion",
+              "question": "39 _____ also escaped onto the island and ate the birds' eggs. _____",
               "options": [],
               "correctAnswer": "rats"
             },
             {
-              "id": "cam16_lt4_q40",
-              "type": "notes_completion",
-              "question": "Question 40: ONE WORD ONLY.",
+              "id": "cam16_t4_l_q40",
+              "type": "form_completion",
+              "question": "PART 4 Questions 31 _____",
               "options": [],
               "correctAnswer": "forest"
             }

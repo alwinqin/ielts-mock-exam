@@ -15,7 +15,7 @@
             {
               "id": "cam19_t1_r_q1",
               "type": "tfng",
-              "question": "Modern tennis rackets are heavier than rackets used in the 19th century.",
+              "question": "People had expected Andy Murray to become the world's top tennis player for at least five years before 2016.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -26,7 +26,7 @@
             {
               "id": "cam19_t1_r_q2",
               "type": "tfng",
-              "question": "The first graphite tennis rackets went into production in the 1960s.",
+              "question": "The change that Andy Murray made to his rackets attracted a lot of attention.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -37,7 +37,7 @@
             {
               "id": "cam19_t1_r_q3",
               "type": "tfng",
-              "question": "All professional tennis players now use polyester strings.",
+              "question": "Most of the world's top players take a professional racket stringer on tour with them.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -48,7 +48,7 @@
             {
               "id": "cam19_t1_r_q4",
               "type": "tfng",
-              "question": "Larger racket heads have increased the size of the sweet spot.",
+              "question": "Mike and Bob Bryan use rackets that are light in comparison to the majority of rackets.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -59,7 +59,7 @@
             {
               "id": "cam19_t1_r_q5",
               "type": "tfng",
-              "question": "Changes to racket technology have made the game easier for beginners.",
+              "question": "Werner Fischer played with a spaghetti-strung racket that he designed himself.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -70,7 +70,7 @@
             {
               "id": "cam19_t1_r_q6",
               "type": "tfng",
-              "question": "The development of new string materials has affected how players generate spin.",
+              "question": "The weather can affect how professional players adjust the strings on their rackets.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -81,7 +81,7 @@
             {
               "id": "cam19_t1_r_q7",
               "type": "tfng",
-              "question": "There is concern that technology may have reduced the importance of skill in tennis.",
+              "question": "It was believed that the change Pete Sampras made to his rackets contributed to his strong serve.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -91,43 +91,43 @@
             },
             {
               "id": "cam19_t1_r_q8",
-              "type": "notes_completion",
-              "question": "The first tennis rackets were made from wood, and they needed to be coated with protective 8. _____",
+              "type": "form_completion",
+              "question": "The tennis racket and how it has changed | Mike and Bob Bryan made changes to the types of 8",
               "options": [],
               "correctAnswer": "paint"
             },
             {
               "id": "cam19_t1_r_q9",
-              "type": "notes_completion",
-              "question": "Modern rackets help players put a heavy 9. _____ on the ball",
+              "type": "form_completion",
+              "question": "The tennis racket and how it has changed | Players were not allowed to use the spaghettistrung racket because of the amount of 9",
               "options": [],
               "correctAnswer": "topspin"
             },
             {
               "id": "cam19_t1_r_q10",
-              "type": "notes_completion",
-              "question": "The materials used today allow strings to be tightened to a much higher 10. _____ level",
+              "type": "form_completion",
+              "question": "The tennis racket and how it has changed | Changes to rackets can be regarded as being as important as players' diets or the 10",
               "options": [],
               "correctAnswer": "training"
             },
             {
               "id": "cam19_t1_r_q11",
-              "type": "notes_completion",
-              "question": "Early rackets used natural materials like sheep 11. _____ for strings",
+              "type": "form_completion",
+              "question": "The tennis racket and how it has changed | All rackets used to have natural strings made from the 11",
               "options": [],
               "correctAnswer": "gut"
             },
             {
               "id": "cam19_t1_r_q12",
-              "type": "notes_completion",
-              "question": "Changes to frame 12. _____ have affected the balance of modern rackets",
+              "type": "form_completion",
+              "question": "The tennis racket and how it has changed | Pete Sampras had metal 12",
               "options": [],
               "correctAnswer": "weights"
             },
             {
               "id": "cam19_t1_r_q13",
-              "type": "notes_completion",
-              "question": "The development of synthetic 13. _____ has improved handling and comfort",
+              "type": "form_completion",
+              "question": "The tennis racket and how it has changed | Gonçalo Oliveira changed the 13",
               "options": [],
               "correctAnswer": "grips"
             }
@@ -142,7 +142,7 @@
             {
               "id": "cam19_t1_r_q14",
               "type": "matching_info",
-              "question": "the use of small, fast boats that outmatched larger warships",
+              "question": "a reference to a denial of involvement in piracy",
               "options": [
                 "A",
                 "B",
@@ -157,7 +157,7 @@
             {
               "id": "cam19_t1_r_q15",
               "type": "matching_info",
-              "question": "the organisation of ransom operations involving intermediaries in many ports",
+              "question": "details of how a campaign to eradicate piracy was carried out",
               "options": [
                 "A",
                 "B",
@@ -172,7 +172,7 @@
             {
               "id": "cam19_t1_r_q16",
               "type": "matching_info",
-              "question": "the role of geography in providing safe bases for pirate activity",
+              "question": "a mention of the circumstances in which states in the ancient world would make use of pirates",
               "options": [
                 "A",
                 "B",
@@ -187,7 +187,7 @@
             {
               "id": "cam19_t1_r_q17",
               "type": "matching_info",
-              "question": "how piracy affected the cost of food in Rome",
+              "question": "a reference to how people today commonly view pirates",
               "options": [
                 "A",
                 "B",
@@ -202,7 +202,7 @@
             {
               "id": "cam19_t1_r_q18",
               "type": "matching_info",
-              "question": "how captured pirates were resettled after being defeated",
+              "question": "an explanation of how some people were encouraged not to return to piracy",
               "options": [
                 "A",
                 "B",
@@ -217,7 +217,7 @@
             {
               "id": "cam19_t1_r_q19",
               "type": "matching_info",
-              "question": "the strategy of dividing the Mediterranean into zones for a military campaign",
+              "question": "a mention of the need for many sailing vessels to stay relatively close to land",
               "options": [
                 "A",
                 "B",
@@ -292,7 +292,7 @@
             {
               "id": "cam19_t1_r_q24",
               "type": "summary_completion",
-              "question": "Pirates stored their plunder, including valuable items such as 24. _____",
+              "question": "Piracy was an issue ancient Rome had to deal with, but it also brought some benefits for Rome. For example, pirates supplied slaves that were important for Rome's industries. However, attacks on vessels transporting 24",
               "options": [],
               "correctAnswer": "grain"
             },
@@ -306,7 +306,7 @@
             {
               "id": "cam19_t1_r_q26",
               "type": "summary_completion",
-              "question": "Kidnapped victims were held until a 26. _____ was paid for their release",
+              "question": "Ancient Rome and piracy | Piracy was an issue ancient Rome had to deal with, but it also brought some benefits for Rome. For example, pirates supplied slaves that were important for Rome's industries. However, attacks on vessels transporting 24 ............................................................ to Rome resulted in calls for 25 ............................................................ for the pirates responsible. Nevertheless, piracy continued, with some pirates demanding a 26",
               "options": [],
               "correctAnswer": "ransom"
             }
@@ -321,7 +321,7 @@
             {
               "id": "cam19_t1_r_q27",
               "type": "multiple_choice",
-              "question": "Question 27: Choose the correct letter, A, B, C or D.",
+              "question": "What point does the writer make about misinformation in the first paragraph?",
               "options": [
                 "A",
                 "B",
@@ -333,7 +333,7 @@
             {
               "id": "cam19_t1_r_q28",
               "type": "multiple_choice",
-              "question": "Question 28: Choose the correct letter, A, B, C or D.",
+              "question": "What does the writer say about the role of technology?",
               "options": [
                 "A",
                 "B",
@@ -345,7 +345,7 @@
             {
               "id": "cam19_t1_r_q29",
               "type": "multiple_choice",
-              "question": "Question 29: Choose the correct letter, A, B, C or D.",
+              "question": "What is the writer doing in the fourth paragraph?",
               "options": [
                 "A",
                 "B",
@@ -357,7 +357,7 @@
             {
               "id": "cam19_t1_r_q30",
               "type": "multiple_choice",
-              "question": "Question 30: Choose the correct letter, A, B, C or D.",
+              "question": "What point does the writer make about regulation in the USA?",
               "options": [
                 "A",
                 "B",
@@ -369,7 +369,7 @@
             {
               "id": "cam19_t1_r_q31",
               "type": "matching_names",
-              "question": "causes people to believe something simply because they have heard it many times before",
+              "question": "Although people have 31",
               "options": [
                 "A. the familiarity effect",
                 "B. confirmation bias",
@@ -459,7 +459,7 @@
             {
               "id": "cam19_t1_r_q36",
               "type": "matching_names",
-              "question": "online environments where people are exposed only to information that reinforces existing views",
+              "question": "What happens when people encounter misinformation? | Although people have 31 ........................................ to misinformation, there is debate about precisely how and when we label something as true or untrue. The philosophers Descartes and Spinoza had 32 ........................................ about how people engage with information. While Descartes believed that people accept or reject information after considering whether it is true or not, Spinoza argued that people accepted all information they encountered (and by default misinformation) and did not verify or reject it until afterwards. Moreover, Spinoza believed that a distinct 33 ........................................ is involved in these stages. Recent research has provided 34 ........................................ for Spinoza's theory and it would appear that people accept all encountered information as if it were true, even if this is for an extremely 35 ........................................, and do not label the information as true or false until later. This is consistent with the fact that the resources for scepticism and the resources for perceiving and encoding are in 36",
               "options": [
                 "A. the familiarity effect",
                 "B. confirmation bias",
@@ -477,44 +477,48 @@
             {
               "id": "cam19_t1_r_q37",
               "type": "ynng",
-              "question": "Repeating a false claim while correcting it can actually make the misinformation more familiar.",
+              "question": "Campaigns designed to correct misinformation will fail to achieve their purpose if people are unable to understand them.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "YES"
             },
             {
               "id": "cam19_t1_r_q38",
               "type": "ynng",
-              "question": "Fact-checking organisations have been successful in stopping the spread of political misinformation.",
+              "question": "Attempts to teach elementary school students about misinformation have been opposed.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NOT GIVEN"
             },
             {
               "id": "cam19_t1_r_q39",
               "type": "ynng",
-              "question": "Simply telling people that a claim is false is an effective way to change their beliefs.",
+              "question": "It may be possible to overcome the problem of misinformation in a relatively short period.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NO"
             },
             {
               "id": "cam19_t1_r_q40",
               "type": "ynng",
-              "question": "Pre-emptive exposure to weakened misleading arguments can help people resist misinformation.",
+              "question": "The need to keep up with new information is hugely exaggerated in today's world. → [p. 121] 29",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "NOT GIVEN"
             }
@@ -534,57 +538,57 @@
           "questions": [
             {
               "id": "cam19_t2_r_q1",
-              "type": "notes_completion",
-              "question": "The invention of the steam 1. _____ provided reliable power for factories",
+              "type": "form_completion",
+              "question": "Steam power | In Watt and Boulton's steam engine, the movement of the 1",
               "options": [],
               "correctAnswer": "piston"
             },
             {
               "id": "cam19_t2_r_q2",
-              "type": "notes_completion",
-              "question": "Rich deposits of iron ore and 2. _____ were key natural resources",
+              "type": "form_completion",
+              "question": "Steam power | A greater supply of 2",
               "options": [],
               "correctAnswer": "coal"
             },
             {
               "id": "cam19_t2_r_q3",
-              "type": "notes_completion",
-              "question": "Textile production expanded rapidly with machines such as the spinning jenny and power looms installed in 3. _____",
+              "type": "form_completion",
+              "question": "Textile industry | Before the Industrial Revolution, spinners and weavers worked at home and in 3",
               "options": [],
               "correctAnswer": "workshops"
             },
             {
               "id": "cam19_t2_r_q4",
-              "type": "notes_completion",
-              "question": "Displaced agricultural workers became a mobile source of 4. _____",
+              "type": "form_completion",
+              "question": "Textile industry | Not as much 4",
               "options": [],
               "correctAnswer": "labour"
             },
             {
               "id": "cam19_t2_r_q5",
-              "type": "notes_completion",
-              "question": "British banks and legal institutions supported investment and protected 5. _____",
+              "type": "form_completion",
+              "question": "Iron industry | Smelting of iron ore with coke resulted in material that was better 5",
               "options": [],
               "correctAnswer": "quality"
             },
             {
               "id": "cam19_t2_r_q6",
-              "type": "notes_completion",
-              "question": "The construction of canals and 6. _____ improved transport infrastructure",
+              "type": "form_completion",
+              "question": "Iron industry | Demand for iron increased with the growth of the 6",
               "options": [],
               "correctAnswer": "railways"
             },
             {
               "id": "cam19_t2_r_q7",
-              "type": "notes_completion",
-              "question": "Rapid urbanisation created severe problems with overcrowding and poor 7. _____",
+              "type": "form_completion",
+              "question": "Urbanisation | The new cities were dirty, crowded and lacked sufficient 7",
               "options": [],
               "correctAnswer": "sanitation"
             },
             {
               "id": "cam19_t2_r_q8",
               "type": "tfng",
-              "question": "The British government provided direct financial support for the early textile factories.",
+              "question": "Britain's canal network grew rapidly so that more goods could be transported around the country.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -595,7 +599,7 @@
             {
               "id": "cam19_t2_r_q9",
               "type": "tfng",
-              "question": "The enclosure movement mainly benefited small farmers.",
+              "question": "Costs in the iron industry rose when the technique of smelting iron ore with coke was introduced.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -606,7 +610,7 @@
             {
               "id": "cam19_t2_r_q10",
               "type": "tfng",
-              "question": "James Watt was the only person to improve the steam engine during the Industrial Revolution.",
+              "question": "Samuel Morse's communication system was more reliable than that developed by William Cooke and Charles Wheatstone.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -617,7 +621,7 @@
             {
               "id": "cam19_t2_r_q11",
               "type": "tfng",
-              "question": "The Factory Acts were introduced in response to public concern about working conditions.",
+              "question": "The economic benefits of industrialisation were limited to certain sectors of society.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -628,7 +632,7 @@
             {
               "id": "cam19_t2_r_q12",
               "type": "tfng",
-              "question": "Britain's colonial trade network contributed to the growth of its industrial economy.",
+              "question": "Some skilled weavers believed that the introduction of the new textile machines would lead to job losses.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -639,7 +643,7 @@
             {
               "id": "cam19_t2_r_q13",
               "type": "tfng",
-              "question": "The Industrial Revolution led to a decrease in the total population of British cities.",
+              "question": "There was some sympathy among local people for the Luddites who were arrested near Huddersfield.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -658,7 +662,7 @@
             {
               "id": "cam19_t2_r_q14",
               "type": "matching_info",
-              "question": "the distinction between stress that helps and stress that harms performance",
+              "question": "reference to two chemical compounds which impact on performance",
               "options": [
                 "A",
                 "B",
@@ -672,7 +676,7 @@
             {
               "id": "cam19_t2_r_q15",
               "type": "matching_info",
-              "question": "ways in which sport psychologists help athletes manage competitive pressure",
+              "question": "examples of strategies for minimising the effects of stress",
               "options": [
                 "A",
                 "B",
@@ -686,7 +690,7 @@
             {
               "id": "cam19_t2_r_q16",
               "type": "matching_info",
-              "question": "the physical changes that occur in the body during stressful situations",
+              "question": "how a sportsperson accounted for their own experience of stress",
               "options": [
                 "A",
                 "B",
@@ -700,7 +704,7 @@
             {
               "id": "cam19_t2_r_q17",
               "type": "matching_info",
-              "question": "the difference between failing under pressure and excelling under pressure",
+              "question": "study results indicating links between stress responses and performance",
               "options": [
                 "A",
                 "B",
@@ -714,7 +718,7 @@
             {
               "id": "cam19_t2_r_q18",
               "type": "matching_info",
-              "question": "the idea that there is an optimal level of stress for peak performance",
+              "question": "mention of people who can influence how athletes perceive their stress responses",
               "options": [
                 "A",
                 "B",
@@ -727,29 +731,29 @@
             },
             {
               "id": "cam19_t2_r_q19",
-              "type": "notes_completion",
-              "question": "Athletes who cannot handle pressure may experience 19. _____ in their performance",
+              "type": "form_completion",
+              "question": "19 Performance stress involves many demands on the athlete, for example, coping with the possible risk of",
               "options": [],
               "correctAnswer": "failure"
             },
             {
               "id": "cam19_t2_r_q20",
-              "type": "notes_completion",
-              "question": "Techniques such as visualisation and controlled breathing can help athletes regulate their stress 20. _____",
+              "type": "form_completion",
+              "question": "20 Cortisol can cause tennis players to produce fewer good",
               "options": [],
               "correctAnswer": "shots"
             },
             {
               "id": "cam19_t2_r_q21",
-              "type": "notes_completion",
-              "question": "Positive stress can produce feelings of 21. _____ that enhance focus",
+              "type": "form_completion",
+              "question": "21 Psychologists can help athletes to view their physiological responses as the effect of a positive feeling such as",
               "options": [],
               "correctAnswer": "excitement"
             },
             {
               "id": "cam19_t2_r_q22",
-              "type": "notes_completion",
-              "question": "Deep 22. _____ exercises can activate the parasympathetic nervous system and calm the body",
+              "type": "form_completion",
+              "question": "22 _____ is an example of a psychological technique which can reduce an athlete's stress responses.",
               "options": [],
               "correctAnswer": "breathing"
             },
@@ -812,7 +816,7 @@
             {
               "id": "cam19_t2_r_q27",
               "type": "matching_names",
-              "question": "belief that giftedness is a fixed trait identifiable through IQ tests",
+              "question": "Maryam Mirzakhani is regarded as 27",
               "options": [
                 "A. appeal",
                 "B. determined",
@@ -830,7 +834,7 @@
             {
               "id": "cam19_t2_r_q28",
               "type": "matching_names",
-              "question": "ability to think of novel solutions to complex problems, distinct from academic ability",
+              "question": "Maryam Mirzakhani | a record that she retained at the time of her death. However, maths held little | 28 _____ for her as a child and in fact her performance was below",
               "options": [
                 "A. appeal",
                 "B. determined",
@@ -848,7 +852,7 @@
             {
               "id": "cam19_t2_r_q29",
               "type": "matching_names",
-              "question": "the tendency for high-IQ children to perform well in traditional educational settings",
+              "question": "Maryam Mirzakhani | a record that she retained at the time of her death. However, maths held little | average until she was 29",
               "options": [
                 "A. appeal",
                 "B. determined",
@@ -866,7 +870,7 @@
             {
               "id": "cam19_t2_r_q30",
               "type": "matching_names",
-              "question": "the argument that effort and perseverance matter more than innate talent",
+              "question": "Maryam Mirzakhani | Later, as a professional mathematician, she had an inquiring mind and proved | herself to be 30",
               "options": [
                 "A. appeal",
                 "B. determined",
@@ -884,7 +888,7 @@
             {
               "id": "cam19_t2_r_q31",
               "type": "matching_names",
-              "question": "the idea that success in later life is correlated with a sense of fulfillment",
+              "question": "Maryam Mirzakhani | Later, as a professional mathematician, she had an inquiring mind and proved | got the greatest 31",
               "options": [
                 "A. appeal",
                 "B. determined",
@@ -902,7 +906,7 @@
             {
               "id": "cam19_t2_r_q32",
               "type": "matching_names",
-              "question": "creativity in developing original approaches, often leading to breakthroughs",
+              "question": "Later, as a professional mathematician, she had an inquiring mind and proved | and in fact she was responsible for some extremely 32",
               "options": [
                 "A. appeal",
                 "B. determined",
@@ -920,62 +924,87 @@
             {
               "id": "cam19_t2_r_q33",
               "type": "ynng",
-              "question": "Children identified as gifted consistently maintain their advantage into adulthood.",
+              "question": "Many people who ended up winning prestigious intellectual prizes only reached an average standard when young.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
               ],
               "correctAnswer": "YES"
             },
             {
               "id": "cam19_t2_r_q34",
               "type": "ynng",
-              "question": "Gifted programmes in schools have been shown to improve outcomes for all students.",
+              "question": "Einstein's failures as a young man were due to his lack of confidence.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
               ],
               "correctAnswer": "NOT GIVEN"
             },
             {
               "id": "cam19_t2_r_q35",
               "type": "ynng",
-              "question": "There is evidence that labelling a child as gifted can create psychological pressures.",
+              "question": "It is difficult to reach agreement on whether some children are actually born gifted.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
               ],
               "correctAnswer": "YES"
             },
             {
               "id": "cam19_t2_r_q36",
               "type": "ynng",
-              "question": "Most gifted education programmes identify children from all socioeconomic backgrounds equally.",
+              "question": "Einstein was upset by the public's view of his life's work.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
               ],
               "correctAnswer": "NOT GIVEN"
             },
             {
               "id": "cam19_t2_r_q37",
               "type": "ynng",
-              "question": "The author believes that identifying children as gifted does more harm than good.",
+              "question": "Einstein put his success down to the speed at which he dealt with scientific questions.",
               "options": [
-                "YES",
-                "NO",
-                "NOT GIVEN"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
               ],
               "correctAnswer": "NO"
             },
             {
               "id": "cam19_t2_r_q38",
               "type": "multiple_choice",
-              "question": "Question 38: Choose the correct letter, A, B, C or D.",
+              "question": "What does Eyre believe is needed for children to equal 'gifted' standards?",
               "options": [
                 "A",
                 "B",
@@ -987,7 +1016,7 @@
             {
               "id": "cam19_t2_r_q39",
               "type": "multiple_choice",
-              "question": "Question 39: Choose the correct letter, A, B, C or D.",
+              "question": "What is the result of Ericsson's research?",
               "options": [
                 "A",
                 "B",
@@ -999,7 +1028,7 @@
             {
               "id": "cam19_t2_r_q40",
               "type": "multiple_choice",
-              "question": "Question 40: Choose the correct letter, A, B, C or D.",
+              "question": "In the penultimate paragraph, it is stated the key to some deprived children's success is",
               "options": [
                 "A",
                 "B",
@@ -1025,7 +1054,7 @@
             {
               "id": "cam19_t3_r_q1",
               "type": "tfng",
-              "question": "Archaeologists have found evidence that early humans reached islands much later than previously thought.",
+              "question": "Archaeological research had taken place on the island of Obi before the arrival of Ceri Shipton and his colleagues.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1036,7 +1065,7 @@
             {
               "id": "cam19_t3_r_q2",
               "type": "tfng",
-              "question": "Stone tools found on islands show clear signs of having been made by early hominins.",
+              "question": "At the Kelo sites, the researchers found the first clam shell axes ever to be discovered in the region.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1047,7 +1076,7 @@
             {
               "id": "cam19_t3_r_q3",
               "type": "tfng",
-              "question": "The discovery of burnt animal bones suggests that early island settlers used fire.",
+              "question": "The size of Obi today is less than it was 18,000 years ago.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1058,7 +1087,7 @@
             {
               "id": "cam19_t3_r_q4",
               "type": "tfng",
-              "question": "Most early island settlements were located on large islands visible from the mainland.",
+              "question": "A change in the climate around 11,700 years ago had a greater impact on Obi than on the surrounding islands.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1069,7 +1098,7 @@
             {
               "id": "cam19_t3_r_q5",
               "type": "tfng",
-              "question": "The presence of obsidian on islands indicates that trade networks existed with mainland communities.",
+              "question": "The researchers believe there is a connection between warmer, wetter weather and a change in the material used to make axes.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1080,7 +1109,7 @@
             {
               "id": "cam19_t3_r_q6",
               "type": "tfng",
-              "question": "The earliest island settlers used metal tools for constructing watercraft.",
+              "question": "Shipton's team were surprised to find evidence of the Obi islanders' hunting practices.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1091,7 +1120,7 @@
             {
               "id": "cam19_t3_r_q7",
               "type": "tfng",
-              "question": "All evidence of prehistoric island settlement comes from Mediterranean sites.",
+              "question": "It is thought that the Kelo shelters were occupied continuously until about 1,000 years ago.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1101,43 +1130,43 @@
             },
             {
               "id": "cam19_t3_r_q8",
-              "type": "notes_completion",
-              "question": "Archaeologists have found evidence of occupation in coastal 8. _____",
+              "type": "form_completion",
+              "question": "Archaeological findings on Obi | Excavations of rock shelters inside 8",
               "options": [],
               "correctAnswer": "caves"
             },
             {
               "id": "cam19_t3_r_q9",
-              "type": "notes_completion",
-              "question": "Excavations have uncovered tools made from 9. _____",
+              "type": "form_completion",
+              "question": "Kelo revealed: | axes made out of 9",
               "options": [],
               "correctAnswer": "stone"
             },
             {
               "id": "cam19_t3_r_q10",
-              "type": "notes_completion",
-              "question": "The remains of animal 10. _____ with cut marks provide evidence of butchery",
+              "type": "form_completion",
+              "question": "Kelo revealed: | 10 _____ of an animal: evidence of what ancient islanders ate",
               "options": [],
               "correctAnswer": "bones"
             },
             {
               "id": "cam19_t3_r_q11",
-              "type": "notes_completion",
-              "question": "Ornamental 11. _____ made from shell and bone indicate cultural activity",
+              "type": "form_completion",
+              "question": "Kelo revealed: | 11 _____ which resembled ones found on other islands.",
               "options": [],
               "correctAnswer": "beads"
             },
             {
               "id": "cam19_t3_r_q12",
-              "type": "notes_completion",
-              "question": "Fragments of 12. _____ show that early settlers produced containers",
+              "type": "form_completion",
+              "question": "It is thought that from 8,000 years ago, Obi islanders: | had 12 _____ as well as items made out of metal",
               "options": [],
               "correctAnswer": "pottery"
             },
             {
               "id": "cam19_t3_r_q13",
-              "type": "notes_completion",
-              "question": "Residues of 13. _____ on ancient pottery suggest early trade in aromatic goods",
+              "type": "form_completion",
+              "question": "It is thought that from 8,000 years ago, Obi islanders: | probably took part in the production and sale of 13",
               "options": [],
               "correctAnswer": "spices"
             }
@@ -1152,7 +1181,7 @@
             {
               "id": "cam19_t3_r_q14",
               "type": "matching_info",
-              "question": "a description of how wetlands serve as natural flood defences",
+              "question": "reference to the need to ensure that inhabitants of wetland regions continue to benefit from them",
               "options": [
                 "A",
                 "B",
@@ -1168,7 +1197,7 @@
             {
               "id": "cam19_t3_r_q15",
               "type": "matching_info",
-              "question": "the frightening rate at which wetlands are being lost worldwide",
+              "question": "the proportion of wetlands which have already been lost",
               "options": [
                 "A",
                 "B",
@@ -1184,7 +1213,7 @@
             {
               "id": "cam19_t3_r_q16",
               "type": "matching_info",
-              "question": "the role of peatlands in absorbing and storing atmospheric carbon",
+              "question": "reference to the idea that people are beginning to appreciate the value of wetlands",
               "options": [
                 "A",
                 "B",
@@ -1200,7 +1229,7 @@
             {
               "id": "cam19_t3_r_q17",
               "type": "matching_info",
-              "question": "an explanation of how wetlands filter pollutants from water",
+              "question": "mention of the cultural significance of wetlands",
               "options": [
                 "A",
                 "B",
@@ -1215,84 +1244,84 @@
             },
             {
               "id": "cam19_t3_r_q18",
-              "type": "notes_completion",
-              "question": "Wetlands play a crucial role in the 18. _____ cycle, storing large amounts of this element in their soils",
+              "type": "form_completion",
+              "question": "18 Peatlands which have been drained begin to release",
               "options": [],
               "correctAnswer": "carbon"
             },
             {
               "id": "cam19_t3_r_q19",
-              "type": "notes_completion",
-              "question": "Drainage of peatlands for agriculture releases large amounts of greenhouse gases through 19. _____",
+              "type": "form_completion",
+              "question": "19 Once peatland areas have been cleared,",
               "options": [],
               "correctAnswer": "fires"
             },
             {
               "id": "cam19_t3_r_q20",
-              "type": "notes_completion",
-              "question": "Wetlands support a huge range of plant and animal life, contributing significantly to global 20. _____",
+              "type": "form_completion",
+              "question": "Clearing peatland forests to make way for oil palm plantations destroys the ................................. of the local environment.",
               "options": [],
               "correctAnswer": "biodiversity"
             },
             {
               "id": "cam19_t3_r_q21",
-              "type": "notes_completion",
-              "question": "The construction of 21. _____ for agriculture has caused widespread drying of wetland areas",
+              "type": "form_completion",
+              "question": "Water is drained out of peatlands through the ................................. which are created by logging companies.",
               "options": [],
               "correctAnswer": "ditches"
             },
             {
               "id": "cam19_t3_r_q22",
-              "type": "notes_completion",
-              "question": "When peatlands are drained, the ground compacts and this process of 22. _____ releases stored carbon",
+              "type": "form_completion",
+              "question": "Draining peatlands leads to ................................. : a serious problem which can eventually result in coastal flooding and land loss. 68 ## Page 70 Reading",
               "options": [],
               "correctAnswer": "subsidence"
             },
             {
               "id": "cam19_t3_r_q23",
               "type": "matching_names",
-              "question": "has studied the economic value of wetland ecosystem services in developing countries",
+              "question": "Communities living in wetland regions must be included in discussions about the future of these areas.",
               "options": [
-                "A. Matthew McCartney",
-                "B. Pieter van Eijk",
-                "C. Marcel Silvius",
-                "D. Dave Tickner"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam19_t3_r_q24",
               "type": "matching_names",
-              "question": "investigated the role of wetlands in supporting freshwater fisheries in Southeast Asia",
+              "question": "Official policies towards wetlands vary from one nation to the next.",
               "options": [
-                "A. Matthew McCartney",
-                "B. Pieter van Eijk",
-                "C. Marcel Silvius",
-                "D. Dave Tickner"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam19_t3_r_q25",
               "type": "matching_names",
-              "question": "argues that wetlands are undervalued in policy decisions about land use",
+              "question": "People cause harm to wetlands without having any intention to do so.",
               "options": [
-                "A. Matthew McCartney",
-                "B. Pieter van Eijk",
-                "C. Marcel Silvius",
-                "D. Dave Tickner"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam19_t3_r_q26",
               "type": "matching_names",
-              "question": "has researched the impact of agricultural drainage on carbon emissions from peatlands",
+              "question": "Initiatives to reverse environmental damage need not be complex. List of Experts",
               "options": [
-                "A. Matthew McCartney",
-                "B. Pieter van Eijk",
-                "C. Marcel Silvius",
-                "D. Dave Tickner"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "B"
             }
@@ -1307,7 +1336,7 @@
             {
               "id": "cam19_t3_r_q27",
               "type": "multiple_choice",
-              "question": "Question 27: Choose the correct letter, A, B, C or D.",
+              "question": "What does the reader learn about the conversation in the first paragraph?",
               "options": [
                 "A",
                 "B",
@@ -1319,7 +1348,7 @@
             {
               "id": "cam19_t3_r_q28",
               "type": "multiple_choice",
-              "question": "Question 28: Choose the correct letter, A, B, C or D.",
+              "question": "What assists the electronic translator during lectures at Karlsruhe Institute of Technology?",
               "options": [
                 "A",
                 "B",
@@ -1331,7 +1360,7 @@
             {
               "id": "cam19_t3_r_q29",
               "type": "multiple_choice",
-              "question": "Question 29: Choose the correct letter, A, B, C or D.",
+              "question": "When referring to The Hitchhiker's Guide to the Galaxy, the writer suggests that",
               "options": [
                 "A",
                 "B",
@@ -1343,7 +1372,7 @@
             {
               "id": "cam19_t3_r_q30",
               "type": "multiple_choice",
-              "question": "Question 30: Choose the correct letter, A, B, C or D.",
+              "question": "What does the writer say about sharing earpieces?",
               "options": [
                 "A",
                 "B",
@@ -1355,66 +1384,60 @@
             {
               "id": "cam19_t3_r_q31",
               "type": "matching",
-              "question": "the delay between speech input and translated output",
+              "question": "Speech translation methods are developing fast in Japan",
               "options": [
-                "A. challenges with accents and dialects",
-                "B. difficulty with cultural references and sarcasm",
-                "C. problems with latency in real-time translation",
-                "D. difficulty translating emotional tone",
-                "E. problems with domain-specific vocabulary",
-                "F. difficulty handling code-switching between languages"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam19_t3_r_q32",
               "type": "matching",
-              "question": "the challenge of translating when speakers switch between two languages in one conversation",
+              "question": "TV interviews that use translation voiceover methods are successful",
               "options": [
-                "A. challenges with accents and dialects",
-                "B. difficulty with cultural references and sarcasm",
-                "C. problems with latency in real-time translation",
-                "D. difficulty translating emotional tone",
-                "E. problems with domain-specific vocabulary",
-                "F. difficulty handling code-switching between languages"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "E"
             },
             {
               "id": "cam19_t3_r_q33",
               "type": "matching",
-              "question": "the difficulty of understanding implied meaning and humour that depends on shared cultural knowledge",
+              "question": "Future translation systems should address people appropriately",
               "options": [
-                "A. challenges with accents and dialects",
-                "B. difficulty with cultural references and sarcasm",
-                "C. problems with latency in real-time translation",
-                "D. difficulty translating emotional tone",
-                "E. problems with domain-specific vocabulary",
-                "F. difficulty handling code-switching between languages"
+                "A",
+                "B",
+                "C",
+                "D"
               ],
               "correctAnswer": "F"
             },
             {
               "id": "cam19_t3_r_q34",
               "type": "matching",
-              "question": "the difficulty of translating specialised terms used in professional or technical fields",
+              "question": "Users may be able to maintain their local customs [Box containing the following text:]",
               "options": [
-                "A. challenges with accents and dialects",
-                "B. difficulty with cultural references and sarcasm",
-                "C. problems with latency in real-time translation",
-                "D. difficulty translating emotional tone",
-                "E. problems with domain-specific vocabulary",
-                "F. difficulty handling code-switching between languages"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam19_t3_r_q35",
               "type": "ynng",
-              "question": "Current speech translation systems achieve better results on European language pairs than on Asian ones.",
+              "question": "Language translation systems will be seen as very useful throughout the academic and professional worlds.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NO"
@@ -1422,10 +1445,10 @@
             {
               "id": "cam19_t3_r_q36",
               "type": "ynng",
-              "question": "There is concern that speech translation could reduce the motivation to learn other languages.",
+              "question": "The overall value of automated translation to family life is yet to be shown.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "YES"
@@ -1433,10 +1456,10 @@
             {
               "id": "cam19_t3_r_q37",
               "type": "ynng",
-              "question": "The author believes that AI speech translation will eventually replace human interpreters entirely.",
+              "question": "Automated translation could make life more difficult for immigrant families.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NO"
@@ -1444,10 +1467,10 @@
             {
               "id": "cam19_t3_r_q38",
               "type": "ynng",
-              "question": "Speech translation technology is already widely used in international diplomacy.",
+              "question": "Visual aspects of language translation are being considered by scientists.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NOT GIVEN"
@@ -1455,10 +1478,10 @@
             {
               "id": "cam19_t3_r_q39",
               "type": "ynng",
-              "question": "End-to-end speech translation systems perform better than those using intermediate text conversion.",
+              "question": "International scientists have found English easier to translate into other languages than Latin.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NOT GIVEN"
@@ -1466,10 +1489,10 @@
             {
               "id": "cam19_t3_r_q40",
               "type": "ynng",
-              "question": "Accurate real-time speech translation could significantly improve cross-cultural communication.",
+              "question": "As far as language is concerned, there is a difference between people's social and practical needs.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "YES"
@@ -1491,7 +1514,7 @@
             {
               "id": "cam19_t4_r_q1",
               "type": "tfng",
-              "question": "Butterflies are useful indicators of environmental change because they are cold-blooded.",
+              "question": "Forty years ago, there were fewer butterflies in Britain than at present.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1502,7 +1525,7 @@
             {
               "id": "cam19_t4_r_q2",
               "type": "tfng",
-              "question": "Rising temperatures have allowed some butterfly species to move into areas where they were not previously found.",
+              "question": "Caterpillars are eaten by a number of different predators.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1513,7 +1536,7 @@
             {
               "id": "cam19_t4_r_q3",
               "type": "tfng",
-              "question": "All butterfly species in Britain have expanded their ranges as a result of climate change.",
+              "question": "'Phenology' is a term used to describe a creature's ability to alter the location of a lifecycle event.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1524,7 +1547,7 @@
             {
               "id": "cam19_t4_r_q4",
               "type": "tfng",
-              "question": "Butterflies with generalist diets are more affected by climate change than specialists.",
+              "question": "Some species of butterfly have a reduced lifespan due to spring temperature increases.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1535,7 +1558,7 @@
             {
               "id": "cam19_t4_r_q5",
               "type": "tfng",
-              "question": "The comma butterfly was previously confined to the north of England.",
+              "question": "There is a clear reason for the adaptations that butterflies are making to climate change.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1546,7 +1569,7 @@
             {
               "id": "cam19_t4_r_q6",
               "type": "tfng",
-              "question": "Extreme weather events such as droughts have been shown to affect butterfly survival rates directly.",
+              "question": "The data used in the study was taken from the work of amateur butterfly watchers.",
               "options": [
                 "TRUE",
                 "FALSE",
@@ -1556,50 +1579,50 @@
             },
             {
               "id": "cam19_t4_r_q7",
-              "type": "notes_completion",
-              "question": "Some butterfly 7. _____ have been observed moving northwards as temperatures rise",
+              "type": "form_completion",
+              "question": "The Small Blue | lives in large 7",
               "options": [],
               "correctAnswer": "colonies"
             },
             {
               "id": "cam19_t4_r_q8",
-              "type": "notes_completion",
-              "question": "Butterflies are emerging earlier in the 8. _____ each year",
+              "type": "form_completion",
+              "question": "The Small Blue | first appears at the start of 8",
               "options": [],
               "correctAnswer": "spring"
             },
             {
               "id": "cam19_t4_r_q9",
-              "type": "notes_completion",
-              "question": "Several rare species face an increased risk of becoming 9. _____",
+              "type": "form_completion",
+              "question": "The High Brown Fritillary | is considered to be more 9",
               "options": [],
               "correctAnswer": "endangered"
             },
             {
               "id": "cam19_t4_r_q10",
-              "type": "notes_completion",
-              "question": "The creation of corridors can help connect fragmented 10. _____",
+              "type": "form_completion",
+              "question": "The High Brown Fritillary | its caterpillars occupy a limited range of 10",
               "options": [],
               "correctAnswer": "habitats"
             },
             {
               "id": "cam19_t4_r_q11",
-              "type": "notes_completion",
-              "question": "Long-term monitoring data has been collected by volunteer recorders across 11. _____",
+              "type": "form_completion",
+              "question": "The Silverstudded Blue | is already able to reproduce twice a year in warm areas of 11",
               "options": [],
               "correctAnswer": "Europe"
             },
             {
               "id": "cam19_t4_r_q12",
-              "type": "notes_completion",
-              "question": "Species in the 12. _____ parts of Britain are at greatest risk from warming",
+              "type": "form_completion",
+              "question": "The White Admiral | is found in 12",
               "options": [],
               "correctAnswer": "southern"
             },
             {
               "id": "cam19_t4_r_q13",
-              "type": "notes_completion",
-              "question": "Changes in the availability of larval food plants can affect butterfly 13. _____",
+              "type": "form_completion",
+              "question": "The White Admiral | both climate change and the 13",
               "options": [],
               "correctAnswer": "diet"
             }
@@ -1614,7 +1637,7 @@
             {
               "id": "cam19_t4_r_q14",
               "type": "matching_info",
-              "question": "an explanation of the types of mineral deposits found on the ocean floor",
+              "question": "reference to the rapidly increasing need for one raw material in the transport industry",
               "options": [
                 "A",
                 "B",
@@ -1628,7 +1651,7 @@
             {
               "id": "cam19_t4_r_q15",
               "type": "matching_info",
-              "question": "a description of the environmental damage caused by sediment plumes",
+              "question": "a rough estimate of the area of the Earth covered by the oceans",
               "options": [
                 "A",
                 "B",
@@ -1642,7 +1665,7 @@
             {
               "id": "cam19_t4_r_q16",
               "type": "matching_info",
-              "question": "reasons why deep-sea minerals are in demand for green technology",
+              "question": "how a particular underwater habitat, where minerals and organisms co-exist, is formed",
               "options": [
                 "A",
                 "B",
@@ -1656,7 +1679,7 @@
             {
               "id": "cam19_t4_r_q17",
               "type": "matching_info",
-              "question": "the role of the International Seabed Authority in regulating mining",
+              "question": "reference to the fact that the countries of the world have yet to agree on rules for the exploration of the seabed",
               "options": [
                 "A",
                 "B",
@@ -1670,99 +1693,99 @@
             {
               "id": "cam19_t4_r_q18",
               "type": "matching_names",
-              "question": "has researched the biodiversity of hydrothermal vent ecosystems and their vulnerability to mining",
+              "question": "A move away from the exploration of heavily mined reserves on land is a good idea.",
               "options": [
-                "A. Mat Upton",
-                "B. Hunter, Aguon & Singh",
-                "C. Jon Copley",
-                "D. Mike Johnston",
-                "E. Verena Tunnicliffe"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam19_t4_r_q19",
               "type": "matching_names",
-              "question": "argues that deep-sea mining regulations should incorporate stronger environmental safeguards",
+              "question": "The negative effects of undersea exploration on local areas and their inhabitants are being ignored.",
               "options": [
-                "A. Mat Upton",
-                "B. Hunter, Aguon & Singh",
-                "C. Jon Copley",
-                "D. Mike Johnston",
-                "E. Verena Tunnicliffe"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam19_t4_r_q20",
               "type": "matching_names",
-              "question": "has studied the potential impact of mining on deep-sea sediment communities",
+              "question": "There are more worthwhile things to extract from the sea than minerals.",
               "options": [
-                "A. Mat Upton",
-                "B. Hunter, Aguon & Singh",
-                "C. Jon Copley",
-                "D. Mike Johnston",
-                "E. Verena Tunnicliffe"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam19_t4_r_q21",
               "type": "matching_names",
-              "question": "investigated the unique species found at hydrothermal vents in the Pacific Ocean",
+              "question": "No other form of human exploration will have such a destructive impact on marine life as deep-sea mining.",
               "options": [
-                "A. Mat Upton",
-                "B. Hunter, Aguon & Singh",
-                "C. Jon Copley",
-                "D. Mike Johnston",
-                "E. Verena Tunnicliffe"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
               ],
               "correctAnswer": "E"
             },
             {
               "id": "cam19_t4_r_q22",
               "type": "matching_names",
-              "question": "warns that the rush to exploit deep-sea minerals could outpace environmental understanding",
+              "question": "More is known about outer space than about what lies beneath the oceans.",
               "options": [
-                "A. Mat Upton",
-                "B. Hunter, Aguon & Singh",
-                "C. Jon Copley",
-                "D. Mike Johnston",
-                "E. Verena Tunnicliffe"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam19_t4_r_q23",
               "type": "matching_names",
-              "question": "explored the possibility that deep-sea mining could disrupt carbon storage in ocean sediments",
+              "question": "There is one marine life habitat where experts agree mining should not take place. List of People",
               "options": [
-                "A. Mat Upton",
-                "B. Hunter, Aguon & Singh",
-                "C. Jon Copley",
-                "D. Mike Johnston",
-                "E. Verena Tunnicliffe"
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam19_t4_r_q24",
-              "type": "notes_completion",
-              "question": "Deep-sea mining could generate large amounts of 24. _____ that would need to be disposed of carefully",
+              "type": "form_completion",
+              "question": "Mining the sea floor | be superior to those found in the earth. They also say that these can be removed | without producing much 24",
               "options": [],
               "correctAnswer": "waste"
             },
             {
               "id": "cam19_t4_r_q25",
-              "type": "notes_completion",
-              "question": "The operation of underwater vehicles and 25. _____ would create noise pollution in the deep ocean",
+              "type": "form_completion",
+              "question": "Mining the sea floor | be superior to those found in the earth. They also say that these can be removed | The extraction is often done by adapting the 25",
               "options": [],
               "correctAnswer": "machinery"
             },
             {
               "id": "cam19_t4_r_q26",
-              "type": "notes_completion",
-              "question": "Many scientists argue that a precautionary approach based on 26. _____ should be adopted",
+              "type": "form_completion",
+              "question": "Mining the sea floor | seawater from the slurry that is brought up to ships and returning it to the seabed. | However, concerned groups strongly believe that 26",
               "options": [],
               "correctAnswer": "caution"
             }
@@ -1777,7 +1800,7 @@
             {
               "id": "cam19_t4_r_q27",
               "type": "multiple_choice",
-              "question": "Question 27: Choose the correct letter, A, B, C or D.",
+              "question": "What is the writer doing in the first paragraph?",
               "options": [
                 "A",
                 "B",
@@ -1789,7 +1812,7 @@
             {
               "id": "cam19_t4_r_q28",
               "type": "multiple_choice",
-              "question": "Question 28: Choose the correct letter, A, B, C or D.",
+              "question": "What point is made about Richard Dawkins' book The Selfish Gene?",
               "options": [
                 "A",
                 "B",
@@ -1801,7 +1824,7 @@
             {
               "id": "cam19_t4_r_q29",
               "type": "multiple_choice",
-              "question": "Question 29: Choose the correct letter, A, B, C or D.",
+              "question": "What does the writer suggest about the prehistoric era in the fourth paragraph?",
               "options": [
                 "A",
                 "B",
@@ -1813,7 +1836,7 @@
             {
               "id": "cam19_t4_r_q30",
               "type": "multiple_choice",
-              "question": "Question 30: Choose the correct letter, A, B, C or D.",
+              "question": "The writer refers to Bruce Knauft's work as support for the idea that",
               "options": [
                 "A",
                 "B",
@@ -1824,46 +1847,46 @@
             },
             {
               "id": "cam19_t4_r_q31",
-              "type": "notes_completion",
-              "question": "Hamilton's theory of inclusive fitness predicts that altruism evolves more readily in societies with a high degree of 31. _____",
+              "type": "form_completion",
+              "question": "Contemporary huntergatherer societies | Bruce Knauft's research shows that contemporary huntergatherer societies tend | to exhibit a high level of 31",
               "options": [],
               "correctAnswer": "egalitarianism"
             },
             {
               "id": "cam19_t4_r_q32",
-              "type": "notes_completion",
-              "question": "Reciprocal altruism is more likely to evolve when individuals can recognise each other and remember past interactions, building a 32. _____ system",
+              "type": "form_completion",
+              "question": "Contemporary huntergatherer societies | distributing resources fairly among all members is a moral obligation. These societies | also employ strategies to prevent differences in 32",
               "options": [],
               "correctAnswer": "status"
             },
             {
               "id": "cam19_t4_r_q33",
-              "type": "notes_completion",
-              "question": "In some animal societies, individuals engage in cooperative 33. _____ where they share food with non-relatives who have previously shared with them",
+              "type": "form_completion",
+              "question": "Contemporary huntergatherer societies | example, the !Kung follow a custom whereby the credit for one person's success | at 33 _____ is given to another member of the group. Individuals who",
               "options": [],
               "correctAnswer": "hunting"
             },
             {
               "id": "cam19_t4_r_q34",
-              "type": "notes_completion",
-              "question": "The prisoner's dilemma model shows that purely selfish strategies are not always optimal, especially when individuals can punish 34. _____ behaviour",
+              "type": "form_completion",
+              "question": "Contemporary huntergatherer societies | example, the !Kung follow a custom whereby the credit for one person's success | behave in a 34",
               "options": [],
               "correctAnswer": "domineering"
             },
             {
               "id": "cam19_t4_r_q35",
-              "type": "notes_completion",
-              "question": "In human societies, cultural norms and institutions can promote cooperation even among strangers, reducing the need for genetic relatedness as a basis for 35. _____",
+              "type": "form_completion",
+              "question": "Contemporary huntergatherer societies | example, the !Kung follow a custom whereby the credit for one person's success | group, and women have a considerable amount of 35",
               "options": [],
               "correctAnswer": "autonomy"
             },
             {
               "id": "cam19_t4_r_q36",
               "type": "ynng",
-              "question": "The author believes that explaining altruism in evolutionary terms diminishes its moral value.",
+              "question": "Some anthropologists are mistaken about the point when the number of societies",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NOT GIVEN"
@@ -1871,10 +1894,10 @@
             {
               "id": "cam19_t4_r_q37",
               "type": "ynng",
-              "question": "Reciprocal altruism requires individuals to keep track of who has helped them in the past.",
+              "question": "Humans who developed warlike traits in prehistory would have had an advantage",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NO"
@@ -1882,10 +1905,10 @@
             {
               "id": "cam19_t4_r_q38",
               "type": "ynng",
-              "question": "The iterated prisoner's dilemma shows that cooperation can be a stable strategy.",
+              "question": "Being peaceful and cooperative is a natural way for people to behave.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "YES"
@@ -1893,10 +1916,10 @@
             {
               "id": "cam19_t4_r_q39",
               "type": "ynng",
-              "question": "Most animals engage in reciprocal altruism with unrelated individuals.",
+              "question": "Negative traits are more apparent in some modern cultures than in others.",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NOT GIVEN"
@@ -1904,10 +1927,10 @@
             {
               "id": "cam19_t4_r_q40",
               "type": "ynng",
-              "question": "Kin selection can explain all examples of altruistic behaviour observed in nature.",
+              "question": "Animal research has failed to reveal a link between changes in the environment",
               "options": [
-                "YES",
-                "NO",
+                "TRUE",
+                "FALSE",
                 "NOT GIVEN"
               ],
               "correctAnswer": "NO"
