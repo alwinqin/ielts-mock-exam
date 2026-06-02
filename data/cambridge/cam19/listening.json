@@ -582,7 +582,7 @@
             },
             {
               "id": "cam19_t2_l_q17",
-              "type": "matching",
+              "type": "multiple_choice_multi",
               "question": "Which TWO things does David say about the lifeboat volunteer training?",
               "options": [
                 "A. The residential course developed his leadership skills.",
@@ -595,7 +595,7 @@
             },
             {
               "id": "cam19_t2_l_q18",
-              "type": "matching",
+              "type": "multiple_choice_multi",
               "question": "Which TWO things does David say about the lifeboat volunteer training?",
               "options": [
                 "A. The residential course developed his leadership skills.",
@@ -608,7 +608,7 @@
             },
             {
               "id": "cam19_t2_l_q19",
-              "type": "matching",
+              "type": "multiple_choice_multi",
               "question": "Which TWO things does David find most motivating about the work he does?",
               "options": [
                 "A. working as part of a team",
@@ -621,7 +621,7 @@
             },
             {
               "id": "cam19_t2_l_q20",
-              "type": "matching",
+              "type": "multiple_choice_multi",
               "question": "Which TWO things does David find most motivating about the work he does?",
               "options": [
                 "A. working as part of a team",

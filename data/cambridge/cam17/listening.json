@@ -1013,7 +1013,7 @@
             },
             {
               "id": "cam17_t3_l_q16",
-              "type": "matching",
+              "type": "multiple_choice_multi",
               "question": "Questions 11 and 12 Which TWO facts are given about the school’s extended hours childcare service? A It started recently. B More children attend after school than before school. C An average of 50 children attend in the mornings. D",
               "options": [
                 "A. has limited availability",
@@ -1028,7 +1028,7 @@
             },
             {
               "id": "cam17_t3_l_q17",
-              "type": "matching",
+              "type": "multiple_choice_multi",
               "question": "Questions 11 and 12 Which TWO facts are given about the school’s extended hours childcare service? A It started recently. B More children attend after school than before school. C An average of 50 children attend in the mornings. D",
               "options": [
                 "A. has limited availability",
@@ -1043,7 +1043,7 @@
             },
             {
               "id": "cam17_t3_l_q18",
-              "type": "matching",
+              "type": "multiple_choice_multi",
               "question": "Questions 11 and 12 Which TWO facts are given about the school’s extended hours childcare service? A It started recently. B More children attend after school than before school. C An average of 50 children attend in the mornings. D",
               "options": [
                 "A. has limited availability",
@@ -1058,7 +1058,7 @@
             },
             {
               "id": "cam17_t3_l_q19",
-              "type": "matching",
+              "type": "multiple_choice_multi",
               "question": "Questions 11 and 12 Which TWO facts are given about the school’s extended hours childcare service? A It started recently. B More children attend after school than before school. C An average of 50 children attend in the mornings. D",
               "options": [
                 "A. has limited availability",
@@ -1073,7 +1073,7 @@
             },
             {
               "id": "cam17_t3_l_q20",
-              "type": "matching",
+              "type": "multiple_choice_multi",
               "question": "Questions 11 and 12 Which TWO facts are given about the school’s extended hours childcare service? A It started recently. B More children attend after school than before school. C An average of 50 children attend in the mornings. D",
               "options": [
                 "A. has limited availability",

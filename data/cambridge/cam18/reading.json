@@ -826,49 +826,49 @@
             },
             {
               "id": "cam18_t2_r_q34",
-              "type": "table_completion",
+              "type": "form_completion",
               "question": "Leonardo da Vinci's ideal city | A collection of Leonardo da Vinci's paperwork reveals his design of a new city | beside the Ticino River. This was to provide better 34",
               "options": [],
               "correctAnswer": "transport"
             },
             {
               "id": "cam18_t2_r_q35",
-              "type": "table_completion",
+              "type": "form_completion",
               "question": "Leonardo da Vinci's ideal city | their design. They included features that can be seen in some tower blocks today, | such as 35",
               "options": [],
               "correctAnswer": "staircases"
             },
             {
               "id": "cam18_t2_r_q36",
-              "type": "table_completion",
+              "type": "form_completion",
               "question": "Leonardo da Vinci's ideal city | their design. They included features that can be seen in some tower blocks today, | Leonardo da Vinci wasn't only an architect. His expertise in 36",
               "options": [],
               "correctAnswer": "engineering"
             },
             {
               "id": "cam18_t2_r_q37",
-              "type": "table_completion",
+              "type": "form_completion",
               "question": "that the height of houses should relate to the width of streets in case earthquakes | occurred. The design of many cities in Italy today follows this 37",
               "options": [],
               "correctAnswer": "rule"
             },
             {
               "id": "cam18_t2_r_q38",
-              "type": "table_completion",
+              "type": "form_completion",
               "question": "that the height of houses should relate to the width of streets in case earthquakes | While some cities from 38",
               "options": [],
               "correctAnswer": "Roman"
             },
             {
               "id": "cam18_t2_r_q39",
-              "type": "table_completion",
+              "type": "form_completion",
               "question": "found in Leonardo's designs, his ideas weren't put into practice until long after his | death. 39 _____ is one example of a city that was redesigned in the",
               "options": [],
               "correctAnswer": "Paris"
             },
             {
               "id": "cam18_t2_r_q40",
-              "type": "table_completion",
+              "type": "form_completion",
               "question": "19th century in the way that Leonardo had envisaged. His ideas are also relevant to | today's world, where building 40",
               "options": [],
               "correctAnswer": "outwards"

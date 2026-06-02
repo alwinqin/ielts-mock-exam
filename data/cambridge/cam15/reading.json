@@ -75,42 +75,42 @@
             },
             {
               "id": "cam15_t1_r_q8",
-              "type": "table_completion",
+              "type": "form_completion",
               "question": "| :| :| | | Middle Ages | Nutmeg was brought to Europe by the 8",
               "options": [],
               "correctAnswer": "Arabs"
             },
             {
               "id": "cam15_t1_r_q9",
-              "type": "table_completion",
+              "type": "form_completion",
               "question": "| 16th century | European nations took control of the nutmeg trade | | | 17th century | Demand for nutmeg grew, as it was believed to be effective against the disease known as the 9",
               "options": [],
               "correctAnswer": "plague"
             },
             {
               "id": "cam15_t1_r_q10",
-              "type": "table_completion",
+              "type": "form_completion",
               "question": "| | restricted nutmeg production to a few areas | | | | put 10",
               "options": [],
               "correctAnswer": "lime"
             },
             {
               "id": "cam15_t1_r_q11",
-              "type": "table_completion",
+              "type": "form_completion",
               "question": "| | restricted nutmeg production to a few areas | | | | finally obtained the island of 11",
               "options": [],
               "correctAnswer": "Run"
             },
             {
               "id": "cam15_t1_r_q12",
-              "type": "table_completion",
+              "type": "form_completion",
               "question": "| | restricted nutmeg production to a few areas | | | Late 18th century | 1770 nutmeg plants were secretly taken to 12",
               "options": [],
               "correctAnswer": "Mauritius"
             },
             {
               "id": "cam15_t1_r_q13",
-              "type": "table_completion",
+              "type": "form_completion",
               "question": "| | restricted nutmeg production to a few areas | | | | 1778 half the Banda Islands’ nutmeg plantations were destroyed by a 13",
               "options": [],
               "correctAnswer": "tsunami"
