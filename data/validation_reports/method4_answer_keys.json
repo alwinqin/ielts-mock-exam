@@ -1,0 +1,10 @@
+{
+  "method": "answer_key_validation",
+  "stats": {
+    "answer_keys_found": 0,
+    "answers_compared": 0,
+    "mismatches": 0
+  },
+  "extracted_keys": {},
+  "mismatches": []
+}

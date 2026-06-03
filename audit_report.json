@@ -1,0 +1,419 @@
+{
+  "timestamp": "2026-06-02T10:34:33.973272",
+  "total_issues": 26,
+  "total_passes": 39,
+  "issues": [
+    {
+      "severity": "LOW",
+      "round": 2,
+      "category": "unsafe-json-parse",
+      "file": "data.js",
+      "detail": "4 JSON.parse calls without try-catch in immediate context"
+    },
+    {
+      "severity": "LOW",
+      "round": 2,
+      "category": "long-function",
+      "file": "exam.js:renderExam",
+      "detail": "Function \"renderExam\" is 58 lines (max 50 recommended)"
+    },
+    {
+      "severity": "LOW",
+      "round": 2,
+      "category": "long-function",
+      "file": "exam.js:submitExam",
+      "detail": "Function \"submitExam\" is 88 lines (max 50 recommended)"
+    },
+    {
+      "severity": "LOW",
+      "round": 2,
+      "category": "long-function",
+      "file": "history.js:renderHistoryPage",
+      "detail": "Function \"renderHistoryPage\" is 89 lines (max 50 recommended)"
+    },
+    {
+      "severity": "LOW",
+      "round": 2,
+      "category": "long-function",
+      "file": "listening-review.js:renderListeningReview",
+      "detail": "Function \"renderListeningReview\" is 52 lines (max 50 recommended)"
+    },
+    {
+      "severity": "MEDIUM",
+      "round": 2,
+      "category": "xss-risk",
+      "file": "listening.js:141",
+      "detail": "innerHTML with potential unescaped data"
+    },
+    {
+      "severity": "LOW",
+      "round": 2,
+      "category": "long-function",
+      "file": "listening.js:renderListeningExam",
+      "detail": "Function \"renderListeningExam\" is 118 lines (max 50 recommended)"
+    },
+    {
+      "severity": "LOW",
+      "round": 2,
+      "category": "long-function",
+      "file": "listening.js:renderListeningFooter",
+      "detail": "Function \"renderListeningFooter\" is 55 lines (max 50 recommended)"
+    },
+    {
+      "severity": "LOW",
+      "round": 2,
+      "category": "long-function",
+      "file": "listening.js:listeningSubmitExam",
+      "detail": "Function \"listeningSubmitExam\" is 71 lines (max 50 recommended)"
+    },
+    {
+      "severity": "LOW",
+      "round": 2,
+      "category": "long-function",
+      "file": "review.js:renderReviewQuestions",
+      "detail": "Function \"renderReviewQuestions\" is 60 lines (max 50 recommended)"
+    },
+    {
+      "severity": "LOW",
+      "round": 2,
+      "category": "unsafe-json-parse",
+      "file": "timer.js",
+      "detail": "1 JSON.parse calls without try-catch in immediate context"
+    },
+    {
+      "severity": "LOW",
+      "round": 2,
+      "category": "long-function",
+      "file": "writing-review.js:showWritingTaskReview",
+      "detail": "Function \"showWritingTaskReview\" is 57 lines (max 50 recommended)"
+    },
+    {
+      "severity": "LOW",
+      "round": 2,
+      "category": "long-function",
+      "file": "wrong-book.js:renderRedoPanel",
+      "detail": "Function \"renderRedoPanel\" is 59 lines (max 50 recommended)"
+    },
+    {
+      "severity": "LOW",
+      "round": 2,
+      "category": "long-function",
+      "file": "wrong-book.js:submitRedoAnswer",
+      "detail": "Function \"submitRedoAnswer\" is 57 lines (max 50 recommended)"
+    },
+    {
+      "severity": "LOW",
+      "round": 3,
+      "category": "state-save-gap",
+      "file": "listening.js",
+      "detail": "50 state changes, 6 save calls"
+    },
+    {
+      "severity": "LOW",
+      "round": 3,
+      "category": "null-access-risk",
+      "file": "listening.js",
+      "detail": "Array access without bounds check near lines: [407]"
+    },
+    {
+      "severity": "INFO",
+      "round": 3,
+      "category": "event-listener-cleanup",
+      "file": "listening.js",
+      "detail": "4 listeners added, 0 removed — potential memory leak on re-render"
+    },
+    {
+      "severity": "MEDIUM",
+      "round": 5,
+      "category": "speaking-no-persist",
+      "file": "speaking.js",
+      "detail": "Recordings stored in memory only — lost on page refresh"
+    },
+    {
+      "severity": "LOW",
+      "round": 5,
+      "category": "speaking-hardcoded-url",
+      "file": "speaking.js",
+      "detail": "Transcription endpoint hardcoded to localhost:8081"
+    },
+    {
+      "severity": "MEDIUM",
+      "round": 5,
+      "category": "speaking-json-onclick",
+      "file": "speaking.js",
+      "detail": "JSON.stringify in onclick handler — fragile, may break with special chars"
+    },
+    {
+      "severity": "LOW",
+      "round": 8,
+      "category": "attempt-format-diff",
+      "file": "review.js+listening-review.js",
+      "detail": "Different fields: {'date', 'testId', 'timeTaken'}"
+    },
+    {
+      "severity": "LOW",
+      "round": 9,
+      "category": "i18n-unused-keys",
+      "file": "i18n.js",
+      "detail": "51 keys defined but not referenced in code"
+    },
+    {
+      "severity": "LOW",
+      "round": 10,
+      "category": "security-hardcoded-urls",
+      "file": "JS",
+      "detail": "Hardcoded URLs: ['http://localhost:8081/transcribe']"
+    },
+    {
+      "severity": "INFO",
+      "round": 10,
+      "category": "security-csrf",
+      "file": "global",
+      "detail": "Client-side only app — no server-side CSRF protection (expected)"
+    },
+    {
+      "severity": "HIGH",
+      "round": 10,
+      "category": "perf-bundle-size",
+      "file": "data-bundle.js",
+      "detail": "Bundle size 1593KB exceeds 300KB budget"
+    },
+    {
+      "severity": "LOW",
+      "round": 10,
+      "category": "perf-sync-scripts",
+      "file": "index.html",
+      "detail": "15 scripts loaded synchronously — consider defer"
+    }
+  ],
+  "passes": [
+    {
+      "round": 1,
+      "category": "reading-structure",
+      "detail": "cam14/reading.json loads OK (4 tests)"
+    },
+    {
+      "round": 1,
+      "category": "listening-structure",
+      "detail": "cam14/listening.json loads OK (4 tests)"
+    },
+    {
+      "round": 1,
+      "category": "reading-structure",
+      "detail": "cam15/reading.json loads OK (4 tests)"
+    },
+    {
+      "round": 1,
+      "category": "listening-structure",
+      "detail": "cam15/listening.json loads OK (4 tests)"
+    },
+    {
+      "round": 1,
+      "category": "reading-structure",
+      "detail": "cam16/reading.json loads OK (4 tests)"
+    },
+    {
+      "round": 1,
+      "category": "listening-structure",
+      "detail": "cam16/listening.json loads OK (4 tests)"
+    },
+    {
+      "round": 1,
+      "category": "reading-structure",
+      "detail": "cam17/reading.json loads OK (4 tests)"
+    },
+    {
+      "round": 1,
+      "category": "listening-structure",
+      "detail": "cam17/listening.json loads OK (4 tests)"
+    },
+    {
+      "round": 1,
+      "category": "reading-structure",
+      "detail": "cam18/reading.json loads OK (4 tests)"
+    },
+    {
+      "round": 1,
+      "category": "listening-structure",
+      "detail": "cam18/listening.json loads OK (4 tests)"
+    },
+    {
+      "round": 1,
+      "category": "reading-structure",
+      "detail": "cam19/reading.json loads OK (4 tests)"
+    },
+    {
+      "round": 1,
+      "category": "listening-structure",
+      "detail": "cam19/listening.json loads OK (4 tests)"
+    },
+    {
+      "round": 1,
+      "category": "reading-structure",
+      "detail": "cam20/reading.json loads OK (4 tests)"
+    },
+    {
+      "round": 1,
+      "category": "listening-structure",
+      "detail": "cam20/listening.json loads OK (4 tests)"
+    },
+    {
+      "round": 4,
+      "category": "auto-submit-chain",
+      "detail": "autoSubmit → submitExam chain exists"
+    },
+    {
+      "round": 4,
+      "category": "grading-consistency",
+      "detail": "Multiple choice multi grading consistent across modules"
+    },
+    {
+      "round": 4,
+      "category": "timer-integration",
+      "detail": "Timer properly initialized and started"
+    },
+    {
+      "round": 4,
+      "category": "scroll-behavior",
+      "detail": "Question nav uses scrollIntoView"
+    },
+    {
+      "round": 4,
+      "category": "answer-persistence",
+      "detail": "Answers stored in module-level variable across passage switches"
+    },
+    {
+      "round": 4,
+      "category": "flag-persistence",
+      "detail": "Flags stored in module-level variable"
+    },
+    {
+      "round": 5,
+      "category": "writing-timer-save",
+      "detail": "Writing state saved every 30 seconds"
+    },
+    {
+      "round": 5,
+      "category": "writing-task-switch-save",
+      "detail": "Textarea saved before task switch"
+    },
+    {
+      "round": 5,
+      "category": "writing-word-count",
+      "detail": "Real-time word count tracking"
+    },
+    {
+      "round": 5,
+      "category": "speaking-recorder-stop",
+      "detail": "MediaRecorder properly stopped"
+    },
+    {
+      "round": 7,
+      "category": "error-handling",
+      "detail": "Multiple error handling patterns found"
+    },
+    {
+      "round": 7,
+      "category": "loading-states",
+      "detail": "11 loading state references"
+    },
+    {
+      "round": 7,
+      "category": "empty-states",
+      "detail": "23 empty state references"
+    },
+    {
+      "round": 7,
+      "category": "modal-cleanup",
+      "detail": "Modal overlays properly cleaned up"
+    },
+    {
+      "round": 7,
+      "category": "navigation-back",
+      "detail": "Back navigation available in multiple views"
+    },
+    {
+      "round": 7,
+      "category": "responsive-css",
+      "detail": "17 responsive design indicators in CSS"
+    },
+    {
+      "round": 8,
+      "category": "wrong-answer-flow",
+      "detail": "Wrong answer data flows correctly: exam → history → wrong-book"
+    },
+    {
+      "round": 8,
+      "category": "review-consistency",
+      "detail": "Reading and listening reviews use consistent CSS classes"
+    },
+    {
+      "round": 8,
+      "category": "attempt-format",
+      "detail": "4 common fields between reading and listening attempts"
+    },
+    {
+      "round": 8,
+      "category": "type-labels-consistent",
+      "detail": "14 type labels consistent across modules"
+    },
+    {
+      "round": 8,
+      "category": "cambridge-parsing",
+      "detail": "Cambridge test ID parsing appears consistent"
+    },
+    {
+      "round": 8,
+      "category": "review-routing",
+      "detail": "Both reading and listening review routes exist"
+    },
+    {
+      "round": 9,
+      "category": "html-lang",
+      "detail": "HTML lang attribute present"
+    },
+    {
+      "round": 9,
+      "category": "html-viewport",
+      "detail": "Viewport meta tag present"
+    },
+    {
+      "round": 9,
+      "category": "html-charset",
+      "detail": "Charset declaration present"
+    }
+  ],
+  "stats": {
+    "round1_books": 13,
+    "round2_js_files": 14,
+    "round3_listening_ls_keys": [],
+    "round6_ls_prefixes": "{'attempt_history': ['attempt_history'], 'ielts_active': ['ielts_active_tab'], 'ielts_lang': ['ielts_lang'], 'listening_attempt': ['listening_attempt_history'], 'mastered_wrong': ['mastered_wrong_questions']}",
+    "round6_total_ls_keys": 5,
+    "round7_routes": [
+      "/",
+      "/exam/",
+      "/history",
+      "/listening-exam/",
+      "/listening-history",
+      "/listening-review/",
+      "/review/",
+      "/speaking-exam/",
+      "/writing-exam/",
+      "/writing-review/",
+      "/wrong-book",
+      "/wrong-book/"
+    ],
+    "round7_css_lines": 595,
+    "round7_focus_states": 18,
+    "round9_en_keys": 154,
+    "round9_zh_keys": 154,
+    "round9_used_keys": 103,
+    "round10_innerhtml_unescaped": 23,
+    "round10_bundle_size_kb": 1592.9,
+    "round10_script_tags": 15,
+    "round10_global_names": 195,
+    "round10_cross_refs": "{'app.js': ['data.bandScore', 'data.clearExamData', 'data.clearListeningData', 'data.getAttemptHistory', 'data.getListeningAttemptHistory', 'data.loadAnswers', 'data.loadExamState', 'data.loadListeningState', 'exam.renderExam', 'history.renderHistoryPage', 'i18n.t', 'listening-review.renderListeningHistoryPage', 'listening-review.renderListeningReview', 'listening.renderListeningExam', 'listening.startExam', 'review.renderReview', 'speaking.renderSpeakingExam', 'writing-review.renderWritingReview', 'writing.renderWritingExam', 'wrong-book.renderWrongBookPage'], 'data.js': ['exam.saveAnswer', 'listening.saveListeningAnswer'], 'exam.js': ['data.bandScore', 'data.escapeHtml', 'data.loadAnswers', 'data.loadExamState', 'data.loadFlagged', 'data.saveAnswers', 'data.saveAttempt', 'data.saveExamState', 'data.saveFlagged', 'i18n.t'], 'history.js': ['data.bandScore', 'data.clearAllHistoryData', 'data.escapeHtml', 'data.formatDuration', 'data.getAttemptHistory', 'i18n.t'], 'i18n.js': ['data.bandScore', 'listening.startExam', 'speaking.playRecording', 'speaking.startRecording', 'speaking.stopRecording'], 'listening-review.js': ['data.bandScore', 'data.escapeHtml', 'data.getListeningAttemptHistory', 'history.onClearAllHistory', 'i18n.t'], 'listening.js': ['data.bandScore', 'data.escapeHtml', 'data.formatTime', 'data.loadListeningAnswers', 'data.loadListeningFlagged', 'data.loadListeningState', 'data.saveListeningAnswers', 'data.saveListeningAttempt', 'data.saveListeningFlagged', 'data.saveListeningState'], 'review.js': ['data.bandScore', 'data.escapeHtml', 'data.formatDuration', 'i18n.t'], 'speaking.js': ['data.escapeHtml'], 'timer.js': ['data.formatTime'], 'writing-review.js': ['data.loadWritingAnswers', 'writing.countWords'], 'writing.js': ['data.escapeHtml', 'data.formatTime', 'data.loadWritingAnswers', 'data.loadWritingState', 'data.saveWritingAnswers', 'data.saveWritingState'], 'wrong-book.js': ['data.escapeHtml', 'data.getAttemptHistory', 'data.getListeningAttemptHistory', 'data.isMastered', 'data.removeMasteredQuestion', 'data.saveMasteredQuestion', 'i18n.t']}",
+    "round10_total_issues": 26,
+    "round10_severity_breakdown": "{'LOW': 20, 'MEDIUM': 3, 'INFO': 2, 'HIGH': 1}"
+  }
+}

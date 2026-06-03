@@ -1,0 +1,8 @@
+{
+  "method": "dual_transcription",
+  "sample_size": 21,
+  "average_agreement": 0.9791,
+  "flagged_count": 0,
+  "flagged": [],
+  "interpretation": "Agreement >= 0.85: High confidence — OCR is reliable for these pages.\nAgreement 0.70-0.85: Moderate — manual spot-check recommended.\nAgreement < 0.70: Low — likely OCR errors, needs review."
+}

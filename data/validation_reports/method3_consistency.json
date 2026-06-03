@@ -1,0 +1,9 @@
+{
+  "method": "consistency_checks",
+  "stats": {
+    "pages_checked": 56,
+    "questions_checked": 2240,
+    "issues_found": 0
+  },
+  "issues": []
+}
