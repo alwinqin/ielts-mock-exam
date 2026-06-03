@@ -1,54 +1,18 @@
 #!/usr/bin/env python3
 """Inspect answer key PDF pages to understand why VLM fails to detect them."""
 
-import base64
-import io
 import json
 import time
 from pathlib import Path
 
 import fitz
-import requests
 from PIL import Image
 
-API_URL = "http://100.114.112.77:8000/v1/chat/completions"
-MODEL = "Gemma-4-26B-A4B-it"
-PDF_DIR = Path(__file__).parent / "data" / "cambridge" / "pdf"
+from vlm_client import PDF_DIR, render_jpeg, vlm_call
+
 OUTPUT_DIR = Path(__file__).parent / "data" / "validation_reports" / "answer_key_samples"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
-def render_jpeg(doc, pg, dpi=150):
-    mat = fitz.Matrix(dpi / 72, dpi / 72)
-    pix = doc[pg].get_pixmap(matrix=mat)
-    img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-    buf = io.BytesIO()
-    img.save(buf, format="JPEG", quality=85)
-    return base64.b64encode(buf.getvalue()).decode()
-
-def vlm_call(img_b64, prompt, max_tokens=1024):
-    for attempt in range(3):
-        try:
-            resp = requests.post(
-                API_URL,
-                headers={"Content-Type": "application/json"},
-                json={
-                    "model": MODEL,
-                    "messages": [{"role": "user", "content": [
-                        {"type": "text", "text": prompt},
-                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{img_b64}"}},
-                    ]}],
-                    "max_tokens": max_tokens,
-                    "temperature": 0.0,
-                },
-                timeout=120,
-            )
-            if resp.status_code == 200:
-                return resp.json()["choices"][0]["message"]["content"]
-            time.sleep(min((attempt + 1) * 5, 30))
-        except Exception:
-            time.sleep(3)
-    return None
 
 # ── Step 1: Extract sample pages from answer PDFs as actual JPEG files ──
 print("=" * 60)

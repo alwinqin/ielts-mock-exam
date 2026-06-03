@@ -188,6 +188,7 @@ function renderPart3Question(questions, idx, main) {
   const q = questions[idx];
   const qid = `p3_q${idx}`;
   const hasRecording = speakingRecordings[qid];
+  const escapedQ = escapeHtml(q).replace(/'/g, "\\'");
 
   main.innerHTML = `
     <div class="speaking-question-panel">
@@ -195,19 +196,27 @@ function renderPart3Question(questions, idx, main) {
       <div class="speaking-question-text">${escapeHtml(q)}</div>
 
       <div class="speaking-controls">
-        <button class="btn btn-primary" onclick="toggleRecording('${qid}')">${t('startRecording')}</button>
-        <button class="btn btn-secondary" onclick="playRecording('${qid}')" ${!hasRecording ? 'disabled' : ''}>${t('playRecording')}</button>
-        <button class="btn btn-secondary" onclick="transcribeRecording('${qid}')" ${!hasRecording ? 'disabled' : ''}>${t('transcribe')}</button>
+        <button class="btn btn-primary" id="speakingRecordBtn">${t('startRecording')}</button>
+        <button class="btn btn-secondary" id="speakingPlayBtn" ${!hasRecording ? 'disabled' : ''}>${t('playRecording')}</button>
+        <button class="btn btn-secondary" id="speakingTranscribeBtn" ${!hasRecording ? 'disabled' : ''}>${t('transcribe')}</button>
       </div>
 
       <div id="speakingRecordingStatus" style="margin-top:8px;font-size:0.85rem;color:#888;"></div>
       <div id="speakingPart3Result"></div>
 
       <div style="margin-top:20px;">
-        <button class="btn btn-primary" onclick="renderPart3Question(${JSON.stringify(questions).replace(/"/g, "'")}, ${idx + 1}, document.getElementById('speakingMain'))">${t('nextQuestion')} →</button>
+        <button class="btn btn-primary" id="speakingNextBtn">${t('nextQuestion')} →</button>
       </div>
     </div>
   `;
+
+  // Attach event listeners (safe, no inline onclick)
+  document.getElementById('speakingRecordBtn').addEventListener('click', () => toggleRecording(qid));
+  document.getElementById('speakingPlayBtn').addEventListener('click', () => playRecording(qid));
+  document.getElementById('speakingTranscribeBtn').addEventListener('click', () => transcribeRecording(qid));
+  document.getElementById('speakingNextBtn').addEventListener('click', () => {
+    renderPart3Question(questions, idx + 1, main);
+  });
 }
 
 // Recording utilities

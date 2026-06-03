@@ -14,23 +14,16 @@ Strategy:
   4. Cross-validate against JSON data with answer normalization
 """
 
-import base64
-import io
 import json
 import re
 import time
-from collections import defaultdict
 from pathlib import Path
-from typing import Optional
 
 import fitz
-import requests
-from PIL import Image
 
-API_URL = "http://100.114.112.77:8000/v1/chat/completions"
-MODEL = "Gemma-4-26B-A4B-it"
+from vlm_client import PDF_DIR, render_jpeg, vlm_call
+
 BASE = Path(__file__).parent
-PDF_DIR = BASE / "data" / "cambridge" / "pdf"
 OUTPUT = BASE / "data" / "validation_reports" / "extracted_answer_keys.json"
 
 ANSWER_KEY_PAGE_RANGE = range(118, 129)
@@ -57,41 +50,6 @@ HEADING_TYPES = {"matching_headings"}
 def load_json(path: Path) -> dict:
     with open(path, encoding="utf-8") as f:
         return json.load(f)
-
-
-def render_jpeg(doc: fitz.Document, pg: int, dpi: int = 200) -> str:
-    mat = fitz.Matrix(dpi / 72, dpi / 72)
-    pix = doc[pg].get_pixmap(matrix=mat)
-    img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-    buf = io.BytesIO()
-    img.save(buf, format="JPEG", quality=85)
-    return base64.b64encode(buf.getvalue()).decode()
-
-
-def vlm_call(img_b64: str, prompt: str, max_tokens: int = 2048) -> Optional[str]:
-    for attempt in range(3):
-        try:
-            resp = requests.post(
-                API_URL,
-                headers={"Content-Type": "application/json"},
-                json={
-                    "model": MODEL,
-                    "messages": [{"role": "user", "content": [
-                        {"type": "text", "text": prompt},
-                        {"type": "image_url", "image_url": {
-                            "url": f"data:image/jpeg;base64,{img_b64}"}},
-                    ]}],
-                    "max_tokens": max_tokens,
-                    "temperature": 0.0,
-                },
-                timeout=120,
-            )
-            if resp.status_code == 200:
-                return resp.json()["choices"][0]["message"]["content"]
-            time.sleep(min((attempt + 1) * 10, 60))
-        except Exception:
-            time.sleep(3)
-    return None
 
 
 # ═══════════════════════════════════════════════════════════════

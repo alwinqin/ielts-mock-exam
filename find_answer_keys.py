@@ -1,54 +1,18 @@
 #!/usr/bin/env python3
 """Find actual answer key pages in Chinese study guide PDFs and test extraction."""
 
-import base64
-import io
 import json
 import time
 from pathlib import Path
 
 import fitz
-import requests
 from PIL import Image
 
-API_URL = "http://100.114.112.77:8000/v1/chat/completions"
-MODEL = "Gemma-4-26B-A4B-it"
-PDF_DIR = Path(__file__).parent / "data" / "cambridge" / "pdf"
+from vlm_client import PDF_DIR, render_jpeg, vlm_call
+
 OUTPUT_DIR = Path(__file__).parent / "data" / "validation_reports" / "answer_key_samples"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
-def render_jpeg(doc, pg, dpi=200):
-    mat = fitz.Matrix(dpi / 72, dpi / 72)
-    pix = doc[pg].get_pixmap(matrix=mat)
-    img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-    buf = io.BytesIO()
-    img.save(buf, format="JPEG", quality=90)
-    return base64.b64encode(buf.getvalue()).decode(), len(buf.getvalue())
-
-def vlm_call(img_b64, prompt, max_tokens=2048):
-    for attempt in range(3):
-        try:
-            resp = requests.post(
-                API_URL,
-                headers={"Content-Type": "application/json"},
-                json={
-                    "model": MODEL,
-                    "messages": [{"role": "user", "content": [
-                        {"type": "text", "text": prompt},
-                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{img_b64}"}},
-                    ]}],
-                    "max_tokens": max_tokens,
-                    "temperature": 0.0,
-                },
-                timeout=120,
-            )
-            if resp.status_code == 200:
-                return resp.json()["choices"][0]["message"]["content"]
-            time.sleep(min((attempt + 1) * 5, 30))
-        except Exception:
-            time.sleep(3)
-    return None
 
 # ── Strategy 1: Look at pages 119-126 for cam15 (as stated in README) ──
 print("=" * 70)
@@ -63,8 +27,8 @@ print(f"Total pages: {total}")
 answer_key_results = []
 
 for pg in range(118, min(130, total)):  # Pages 119-130 (0-indexed: 118-129)
-    img_b64, img_bytes = render_jpeg(doc, pg, dpi=200)
-    print(f"\np{pg+1} ({img_bytes//1024}KB JPEG @ 200DPI) ...")
+    img_b64 = render_jpeg(doc, pg, dpi=200)
+    print(f"\np{pg+1} (rendered @ 200DPI) ...")
 
     # Save a low-res copy for visual inspection
     mat_low = fitz.Matrix(1.5, 1.5)
@@ -113,7 +77,7 @@ doc = fitz.open(str(cam15))
 
 # Try page 120 specifically (often the first answer key page)
 for pg in [119, 120, 121, 122, 123, 124, 125]:
-    img_b64, img_bytes = render_jpeg(doc, pg, dpi=200)
+    img_b64 = render_jpeg(doc, pg, dpi=200)
     print(f"\np{pg+1} — trying grid-aware extraction ...")
 
     grid_prompt = """Look VERY CAREFULLY at this page. I need to extract IELTS answer keys.
@@ -162,7 +126,7 @@ for book_id, pages in books_to_check.items():
     for pg in pages:
         if pg >= total:
             continue
-        img_b64, img_bytes = render_jpeg(this_doc, pg, dpi=200)
+        img_b64 = render_jpeg(this_doc, pg, dpi=200)
         check = vlm_call(img_b64, "Does this page show IELTS answer keys (numbers 1-40 with letter answers A-G)? Reply 'YES' or 'NO'.", max_tokens=32)
         print(f"  p{pg+1}: {check[:80] if check else 'FAIL'}")
         if check and "YES" in check.upper():

@@ -12,8 +12,7 @@ import fitz
 import requests
 from PIL import Image
 
-API_URL = "http://100.114.112.77:8000/v1/chat/completions"
-MODEL = "Gemma-4-26B-A4B-it"
+from vlm_client import VLM_API_URL, VLM_MODEL
 BASE = Path(__file__).parent
 PDF_DIR = BASE / "data" / "cambridge" / "pdf"
 OUTPUT = BASE / "data" / "validation_reports" / "vlm_capability_report.json"
@@ -93,10 +92,10 @@ def vlm_call(img_b64, prompt, max_tokens=1024, temperature=0.0):
     start = time.time()
     try:
         resp = requests.post(
-            API_URL,
+            VLM_API_URL,
             headers={"Content-Type": "application/json"},
             json={
-                "model": MODEL,
+                "model": VLM_MODEL,
                 "messages": [{"role": "user", "content": [
                     {"type": "text", "text": prompt},
                     {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{img_b64}"}},
@@ -172,10 +171,10 @@ def test_multi_image():
 
     try:
         resp = requests.post(
-            API_URL,
+            VLM_API_URL,
             headers={"Content-Type": "application/json"},
             json={
-                "model": MODEL,
+                "model": VLM_MODEL,
                 "messages": [{"role": "user", "content": [
                     {"type": "text", "text": "Describe these two pages briefly — what test and section is each?"},
                     {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{img1}"}},
@@ -200,8 +199,8 @@ def main():
     print("=" * 70)
 
     report = {
-        "model": MODEL,
-        "endpoint": API_URL,
+        "model": VLM_MODEL,
+        "endpoint": VLM_API_URL,
         "tests": {},
     }
 

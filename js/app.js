@@ -251,147 +251,91 @@ const App = {
     }
   },
 
-  renderReadingGrid(grid) {
-    // Cambridge book groups first
-    const books = this.cambridgeBooks || [];
-    books.forEach(book => {
-      const bookDiv = document.createElement('div');
-      bookDiv.className = 'book-group';
-      bookDiv.innerHTML = `
-        <div class="book-group-header" onclick="this.parentElement.classList.toggle('collapsed')">
-          <span class="book-group-title">${book.bookTitle}</span>
-          <span class="book-group-toggle">&#9660;</span>
-        </div>
-        <div class="book-group-tests"></div>
-      `;
-      const testsDiv = bookDiv.querySelector('.book-group-tests');
-      book.tests.forEach(test => {
-        const { status, bestScore } = this.getTestStatus(test.id);
-        const statusLabel = t(status === 'in_progress' ? 'inProgress' : status === 'completed' ? 'completed' : 'newTest');
-        const bestScoreHtml = bestScore !== null ? `<span class="best-score">${t('bestScore')}: ${bestScore}/40</span>` : '';
-        const actionText = status === 'in_progress' ? t('resumeExam') : t('startExam');
-        const actionLink = `#/exam/${test.id}`;
-        const reviewLink = status === 'completed' ? `#/review/${test.id}` : null;
+  _buildTestCards(tests, examType) {
+    const pathMap = {
+      reading:  { exam: '#/exam/',            review: '#/review/'            },
+      listening:{ exam: '#/listening-exam/',   review: '#/listening-review/'   },
+      writing:  { exam: '#/writing-exam/',    review: null                   },
+      speaking: { exam: '#/speaking-exam/',   review: null                   }
+    };
+    const paths = pathMap[examType];
+    const parts = [];
+    tests.forEach(test => {
+      let status, bestScore;
+      if (examType === 'listening') {
+        const s = this.getListeningStatus(test.id);
+        status = s.status; bestScore = s.bestScore;
+      } else if (examType === 'reading') {
+        const s = this.getTestStatus(test.id);
+        status = s.status; bestScore = s.bestScore;
+      } else {
+        status = 'new'; bestScore = null;
+      }
 
-        testsDiv.innerHTML += `
-          <div class="test-card ${status}">
-            <div class="test-card-header">
-              <h3>${test.title}</h3>
-              <span class="status-badge ${status}">${statusLabel}</span>
-            </div>
-            <div class="test-card-body">${bestScoreHtml}</div>
-            <div class="test-card-actions">
-              <a href="${actionLink}" class="btn btn-primary">${actionText}</a>
-              ${reviewLink ? `<a href="${reviewLink}" class="btn btn-secondary" style="margin-left:6px;">${t('review')}</a>` : ''}
-              ${status !== 'new' ? `<a href="${actionLink}" class="btn btn-secondary" style="margin-left:6px;" onclick="event.preventDefault(); App.confirmRedo('${test.id}', 'reading')">${t('redoExam')}</a>` : ''}
-            </div>
-          </div>
-        `;
-      });
-      grid.appendChild(bookDiv);
-    });
-
-    // Legacy tests
-    if (this.tests.length > 0 && books.length > 0) {
-      grid.innerHTML += `<div class="section-header">${t('moreTests')}</div>`;
-    }
-    this.tests.forEach(test => {
-      const { status, bestScore } = this.getTestStatus(test.id);
       const statusLabel = t(status === 'in_progress' ? 'inProgress' : status === 'completed' ? 'completed' : 'newTest');
       const bestScoreHtml = bestScore !== null ? `<span class="best-score">${t('bestScore')}: ${bestScore}/40</span>` : '';
       const actionText = status === 'in_progress' ? t('resumeExam') : t('startExam');
-      const actionLink = `#/exam/${test.id}`;
-      const reviewLink = status === 'completed' ? `#/review/${test.id}` : null;
+      const actionLink = paths.exam + test.id;
+      const reviewLink = paths.review && status === 'completed' ? paths.review + test.id : null;
 
-      grid.innerHTML += `
+      let bodyHtml = bestScoreHtml;
+      if (examType === 'writing') {
+        bodyHtml = `<span style="font-size:0.8rem;color:#888;">${t('task1')}: 150 ${t('words')} (20 min)<br>${t('task2')}: 250 ${t('words')} (40 min)</span>`;
+      } else if (examType === 'speaking') {
+        bodyHtml = `<span style="font-size:0.8rem;color:#888;">${t('part1')} (4-5 min)<br>${t('part2')} (3-4 min)<br>${t('part3')} (4-5 min)</span>`;
+      }
+
+      parts.push(`
         <div class="test-card ${status}">
           <div class="test-card-header">
             <h3>${test.title}</h3>
             <span class="status-badge ${status}">${statusLabel}</span>
           </div>
-          <div class="test-card-body">
-            ${bestScoreHtml}
-          </div>
+          <div class="test-card-body">${bodyHtml}</div>
           <div class="test-card-actions">
             <a href="${actionLink}" class="btn btn-primary">${actionText}</a>
             ${reviewLink ? `<a href="${reviewLink}" class="btn btn-secondary" style="margin-left:6px;">${t('review')}</a>` : ''}
-            ${status !== 'new' ? `<a href="${actionLink}" class="btn btn-secondary" style="margin-left:6px;" onclick="event.preventDefault(); App.confirmRedo('${test.id}', 'reading')">${t('redoExam')}</a>` : ''}
+            ${status !== 'new' ? `<a href="${actionLink}" class="btn btn-secondary" style="margin-left:6px;" onclick="event.preventDefault(); App.confirmRedo('${test.id}', '${examType}')">${t('redoExam')}</a>` : ''}
           </div>
         </div>
-      `;
+      `);
     });
+    return parts.join('');
+  },
+
+  _renderBookGroup(book, examType) {
+    const bookDiv = document.createElement('div');
+    bookDiv.className = 'book-group';
+    bookDiv.innerHTML = `
+      <div class="book-group-header" onclick="this.parentElement.classList.toggle('collapsed')">
+        <span class="book-group-title">${book.bookTitle}</span>
+        <span class="book-group-toggle">&#9660;</span>
+      </div>
+      <div class="book-group-tests">${this._buildTestCards(book.tests, examType)}</div>
+    `;
+    return bookDiv;
+  },
+
+  renderReadingGrid(grid) {
+    this._renderGrid(this.cambridgeBooks, this.tests, 'reading', grid);
+  },
+
+  _renderGrid(books, legacyTests, examType, grid) {
+    (books || []).forEach(book => {
+      grid.appendChild(this._renderBookGroup(book, examType));
+    });
+    if (legacyTests.length > 0 && books.length > 0) {
+      grid.insertAdjacentHTML('beforeend', `<div class="section-header">${t('moreTests')}</div>`);
+    }
+    grid.insertAdjacentHTML('beforeend', this._buildTestCards(legacyTests, examType));
   },
 
   renderListeningGrid(grid) {
-    // Cambridge book groups first
-    const listeningBooks = this.cambridgeListeningBooks || [];
-    listeningBooks.forEach(book => {
-      const bookDiv = document.createElement('div');
-      bookDiv.className = 'book-group';
-      bookDiv.innerHTML = `
-        <div class="book-group-header" onclick="this.parentElement.classList.toggle('collapsed')">
-          <span class="book-group-title">${book.bookTitle}</span>
-          <span class="book-group-toggle">&#9660;</span>
-        </div>
-        <div class="book-group-tests"></div>
-      `;
-      const testsDiv = bookDiv.querySelector('.book-group-tests');
-      book.tests.forEach(test => {
-        const { status, bestScore } = this.getListeningStatus(test.id);
-        const statusLabel = t(status === 'in_progress' ? 'inProgress' : status === 'completed' ? 'completed' : 'newTest');
-        const bestScoreHtml = bestScore !== null ? `<span class="best-score">${t('bestScore')}: ${bestScore}/40</span>` : '';
-        const actionText = status === 'in_progress' ? t('resumeExam') : t('startExam');
-        const actionLink = `#/listening-exam/${test.id}`;
-        const reviewLink = status === 'completed' ? `#/listening-review/${test.id}` : null;
-
-        testsDiv.innerHTML += `
-          <div class="test-card ${status}">
-            <div class="test-card-header">
-              <h3>${test.title}</h3>
-              <span class="status-badge ${status}">${statusLabel}</span>
-            </div>
-            <div class="test-card-body">${bestScoreHtml}</div>
-            <div class="test-card-actions">
-              <a href="${actionLink}" class="btn btn-primary">${actionText}</a>
-              ${reviewLink ? `<a href="${reviewLink}" class="btn btn-secondary" style="margin-left:6px;">${t('review')}</a>` : ''}
-              ${status !== 'new' ? `<a href="${actionLink}" class="btn btn-secondary" style="margin-left:6px;" onclick="event.preventDefault(); App.confirmRedo('${test.id}', 'listening')">${t('redoExam')}</a>` : ''}
-            </div>
-          </div>
-        `;
-      });
-      grid.appendChild(bookDiv);
-    });
-
-    // Legacy listening tests
-    if (this.cambridgeListeningBooks.length > 0) {
-      grid.innerHTML += `<div class="section-header">${t('moreTests')}</div>`;
-    }
+    const legacy = [];
     for (let i = 1; i <= 10; i++) {
-      const id = `test${i}`;
-      const { status, bestScore } = this.getListeningStatus(id);
-      const statusLabel = t(status === 'in_progress' ? 'inProgress' : status === 'completed' ? 'completed' : 'newTest');
-      const bestScoreHtml = bestScore !== null ? `<span class="best-score">${t('bestScore')}: ${bestScore}/40</span>` : '';
-      const actionText = status === 'in_progress' ? t('resumeExam') : t('startExam');
-      const actionLink = `#/listening-exam/${id}`;
-      const reviewLink = status === 'completed' ? `#/listening-review/${id}` : null;
-
-      grid.innerHTML += `
-        <div class="test-card ${status}">
-          <div class="test-card-header">
-            <h3>${t('listening')} ${i}</h3>
-            <span class="status-badge ${status}">${statusLabel}</span>
-          </div>
-          <div class="test-card-body">
-            ${bestScoreHtml}
-          </div>
-          <div class="test-card-actions">
-            <a href="${actionLink}" class="btn btn-primary">${actionText}</a>
-            ${reviewLink ? `<a href="${reviewLink}" class="btn btn-secondary" style="margin-left:6px;">${t('review')}</a>` : ''}
-            ${status !== 'new' ? `<a href="${actionLink}" class="btn btn-secondary" style="margin-left:6px;" onclick="event.preventDefault(); App.confirmRedo('${id}', 'listening')">${t('redoExam')}</a>` : ''}
-          </div>
-        </div>
-      `;
+      legacy.push({ id: `test${i}`, title: `${t('listening')} ${i}` });
     }
+    this._renderGrid(this.cambridgeListeningBooks, legacy, 'listening', grid);
   },
 
   async showExam(testId) {
@@ -408,7 +352,7 @@ const App = {
       renderExam(this.currentTest);
     } catch (e) {
       console.error('Exam error:', e);
-      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:#999">${e.message}</small></div>`;
+      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:#999">${escapeHtml(e.message)}</small></div>`;
     }
   },
 
@@ -452,7 +396,7 @@ const App = {
       renderListeningExam(testData);
     } catch (e) {
       console.error('Listening exam error:', e);
-      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:#999">${e.message}</small></div>`;
+      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:#999">${escapeHtml(e.message)}</small></div>`;
     }
   },
 
@@ -541,61 +485,11 @@ const App = {
   },
 
   renderWritingGrid(grid) {
-    // Cambridge book groups first
-    const books = this.cambridgeWritingBooks || [];
-    books.forEach(book => {
-      const bookDiv = document.createElement('div');
-      bookDiv.className = 'book-group';
-      bookDiv.innerHTML = `
-        <div class="book-group-header" onclick="this.parentElement.classList.toggle('collapsed')">
-          <span class="book-group-title">${book.bookTitle}</span>
-          <span class="book-group-toggle">&#9660;</span>
-        </div>
-        <div class="book-group-tests"></div>
-      `;
-      const testsDiv = bookDiv.querySelector('.book-group-tests');
-      book.tests.forEach(test => {
-        testsDiv.innerHTML += `
-          <div class="test-card">
-            <div class="test-card-header">
-              <h3>${test.title}</h3>
-              <span class="status-badge new">${t('newTest')}</span>
-            </div>
-            <div class="test-card-body" style="font-size:0.8rem;color:#888;">
-              ${t('task1')}: 150 ${t('words')} (20 min)<br>
-              ${t('task2')}: 250 ${t('words')} (40 min)
-            </div>
-            <div class="test-card-actions">
-              <a href="#/writing-exam/${test.id}" class="btn btn-primary">${t('startExam')}</a>
-            </div>
-          </div>
-        `;
-      });
-      grid.appendChild(bookDiv);
-    });
-
-    // Legacy tests
-    if (books.length > 0) {
-      grid.innerHTML += `<div class="section-header">${t('moreTests')}</div>`;
-    }
+    const legacy = [];
     for (let i = 1; i <= 10; i++) {
-      const id = `test${i}`;
-      grid.innerHTML += `
-        <div class="test-card">
-          <div class="test-card-header">
-            <h3>${t('writing')} ${i}</h3>
-            <span class="status-badge new">${t('newTest')}</span>
-          </div>
-          <div class="test-card-body" style="font-size:0.8rem;color:#888;">
-            ${t('task1')}: 150 ${t('words')} (20 min)<br>
-            ${t('task2')}: 250 ${t('words')} (40 min)
-          </div>
-          <div class="test-card-actions">
-            <a href="#/writing-exam/${id}" class="btn btn-primary">${t('startExam')}</a>
-          </div>
-        </div>
-      `;
+      legacy.push({ id: `test${i}`, title: `${t('writing')} ${i}` });
     }
+    this._renderGrid(this.cambridgeWritingBooks, legacy, 'writing', grid);
   },
 
   async showWritingExam(testId) {
@@ -606,7 +500,7 @@ const App = {
       renderWritingExam(testData);
     } catch (e) {
       console.error('Writing exam error:', e);
-      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:#999">${e.message}</small></div>`;
+      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:#999">${escapeHtml(e.message)}</small></div>`;
     }
   },
 
@@ -620,63 +514,11 @@ const App = {
   },
 
   renderSpeakingGrid(grid) {
-    // Cambridge book groups first
-    const books = this.cambridgeSpeakingBooks || [];
-    books.forEach(book => {
-      const bookDiv = document.createElement('div');
-      bookDiv.className = 'book-group';
-      bookDiv.innerHTML = `
-        <div class="book-group-header" onclick="this.parentElement.classList.toggle('collapsed')">
-          <span class="book-group-title">${book.bookTitle}</span>
-          <span class="book-group-toggle">&#9660;</span>
-        </div>
-        <div class="book-group-tests"></div>
-      `;
-      const testsDiv = bookDiv.querySelector('.book-group-tests');
-      book.tests.forEach(test => {
-        testsDiv.innerHTML += `
-          <div class="test-card">
-            <div class="test-card-header">
-              <h3>${test.title}</h3>
-              <span class="status-badge new">${t('newTest')}</span>
-            </div>
-            <div class="test-card-body" style="font-size:0.8rem;color:#888;">
-              ${t('part1')} (4-5 min)<br>
-              ${t('part2')} (3-4 min)<br>
-              ${t('part3')} (4-5 min)
-            </div>
-            <div class="test-card-actions">
-              <a href="#/speaking-exam/${test.id}" class="btn btn-primary">${t('startExam')}</a>
-            </div>
-          </div>
-        `;
-      });
-      grid.appendChild(bookDiv);
-    });
-
-    // Legacy tests
-    if (books.length > 0) {
-      grid.innerHTML += `<div class="section-header">${t('moreTests')}</div>`;
-    }
+    const legacy = [];
     for (let i = 1; i <= 10; i++) {
-      const id = `test${i}`;
-      grid.innerHTML += `
-        <div class="test-card">
-          <div class="test-card-header">
-            <h3>${t('speaking')} ${i}</h3>
-            <span class="status-badge new">${t('newTest')}</span>
-          </div>
-          <div class="test-card-body" style="font-size:0.8rem;color:#888;">
-            ${t('part1')} (4-5 min)<br>
-            ${t('part2')} (3-4 min)<br>
-            ${t('part3')} (4-5 min)
-          </div>
-          <div class="test-card-actions">
-            <a href="#/speaking-exam/${id}" class="btn btn-primary">${t('startExam')}</a>
-          </div>
-        </div>
-      `;
+      legacy.push({ id: `test${i}`, title: `${t('speaking')} ${i}` });
     }
+    this._renderGrid(this.cambridgeSpeakingBooks, legacy, 'speaking', grid);
   },
 
   async showSpeakingExam(testId) {
@@ -687,7 +529,7 @@ const App = {
       renderSpeakingExam(testData);
     } catch (e) {
       console.error('Speaking exam error:', e);
-      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:#999">${e.message}</small></div>`;
+      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:#999">${escapeHtml(e.message)}</small></div>`;
     }
   },
 
