@@ -38,6 +38,10 @@ data/cambridge/cam17/*_test*.json
 # Extraction cache
 .extraction_cache/
 
+# Generated extraction/validation artifacts
+data/extracted/
+data/validation_reports/answer_key_samples/
+
 # Temp/one-off scripts
 analyze_ielts.ps1
 cam15_page11.png
