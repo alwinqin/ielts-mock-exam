@@ -161,7 +161,18 @@ function startSpeakingPrep() {
 
 function startPart3() {
   speakingCurrentPart = 3;
-  const questions = speakingTestData.part2?.followUpQuestions || [];
+  // Flatten part3 topic groups into a flat question list
+  const part3Data = speakingTestData.part3 || [];
+  let topics;
+  if (Array.isArray(part3Data)) {
+    topics = part3Data;
+  } else {
+    topics = part3Data.topics || [];
+  }
+  const questions = [];
+  topics.forEach(topic => {
+    (topic.questions || []).forEach(q => questions.push(q));
+  });
   let idx = 0;
 
   document.getElementById('speakingPhaseBadge').textContent = t('part3');

@@ -25,13 +25,18 @@
       "what the film was about",
       "and explain why it left such a strong impression on you"
     ],
-    "followUpQuestions": [
-      "How do films influence society?",
-      "Do you think the film industry will survive the rise of streaming services?",
-      "Should films be used to educate people about social issues?",
-      "How has film-making technology changed the viewing experience?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam18_test3"
+  "id": "cam18_test3",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "How do films influence society?",
+        "Do you think the film industry will survive the rise of streaming services?",
+        "Should films be used to educate people about social issues?",
+        "How has film-making technology changed the viewing experience?"
+      ]
+    }
+  ]
 }

@@ -25,13 +25,18 @@
       "what you need to do to achieve it",
       "and explain why achieving this goal is important to you"
     ],
-    "followUpQuestions": [
-      "Why is it important for people to have goals?",
-      "How can people stay motivated when working towards long-term goals?",
-      "Do you think young people today have different goals than their parents?",
-      "Should employers help their employees achieve personal goals?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam20_test1"
+  "id": "cam20_test1",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Why is it important for people to have goals?",
+        "How can people stay motivated when working towards long-term goals?",
+        "Do you think young people today have different goals than their parents?",
+        "Should employers help their employees achieve personal goals?"
+      ]
+    }
+  ]
 }

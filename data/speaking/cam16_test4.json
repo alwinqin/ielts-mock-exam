@@ -25,13 +25,18 @@
       "why you decided to stop using it",
       "and explain how your life has changed since you stopped using it"
     ],
-    "followUpQuestions": [
-      "Do you think people are becoming too dependent on technology?",
-      "What older technologies are making a comeback?",
-      "How can people reduce their screen time?",
-      "Is it better to adopt new technology quickly or wait?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam16_test4"
+  "id": "cam16_test4",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Do you think people are becoming too dependent on technology?",
+        "What older technologies are making a comeback?",
+        "How can people reduce their screen time?",
+        "Is it better to adopt new technology quickly or wait?"
+      ]
+    }
+  ]
 }

@@ -25,11 +25,16 @@
       "When it takes place",
       "How people celebrate it",
       "Explain why it is important"
-    ],
-    "followUpQuestions": [
-      "Are traditions becoming less important in modern society?",
-      "Should traditions be preserved or changed over time?",
-      "What new traditions have emerged in recent years?"
     ]
-  }
+  },
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Are traditions becoming less important in modern society?",
+        "Should traditions be preserved or changed over time?",
+        "What new traditions have emerged in recent years?"
+      ]
+    }
+  ]
 }

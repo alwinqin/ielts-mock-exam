@@ -25,13 +25,18 @@
       "who you went with",
       "and explain why you enjoyed visiting it"
     ],
-    "followUpQuestions": [
-      "How does tourism affect local communities?",
-      "What can governments do to promote tourism?",
-      "Do you think tourism has more positive or negative effects?",
-      "How has tourism changed in the last few decades?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam16_test1"
+  "id": "cam16_test1",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "How does tourism affect local communities?",
+        "What can governments do to promote tourism?",
+        "Do you think tourism has more positive or negative effects?",
+        "How has tourism changed in the last few decades?"
+      ]
+    }
+  ]
 }

@@ -25,13 +25,18 @@
       "what the result of your decision was",
       "and explain how you felt after making this decision"
     ],
-    "followUpQuestions": [
-      "Do you think young people find it harder to make decisions than older people?",
-      "How can parents help their children learn to make good decisions?",
-      "Should important decisions be made alone or with the help of others?",
-      "Do you think technology helps people make better decisions?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam17_test1"
+  "id": "cam17_test1",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Do you think young people find it harder to make decisions than older people?",
+        "How can parents help their children learn to make good decisions?",
+        "Should important decisions be made alone or with the help of others?",
+        "Do you think technology helps people make better decisions?"
+      ]
+    }
+  ]
 }

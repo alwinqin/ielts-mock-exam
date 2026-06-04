@@ -25,11 +25,16 @@
       "Who you went with",
       "What you did there",
       "Explain why it was memorable"
-    ],
-    "followUpQuestions": [
-      "Do you think people are travelling more now than in the past?",
-      "What are the benefits of travelling to different countries?",
-      "How has tourism changed in your country in recent years?"
     ]
-  }
+  },
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Do you think people are travelling more now than in the past?",
+        "What are the benefits of travelling to different countries?",
+        "How has tourism changed in your country in recent years?"
+      ]
+    }
+  ]
 }

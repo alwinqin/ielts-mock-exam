@@ -25,13 +25,18 @@
       "who you would live with",
       "and explain why you would like to live there"
     ],
-    "followUpQuestions": [
-      "How has housing design changed in your country?",
-      "What are the advantages and disadvantages of living in a big city?",
-      "Do you think the government should provide affordable housing?",
-      "How will housing change in the future?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam19_test1"
+  "id": "cam19_test1",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "How has housing design changed in your country?",
+        "What are the advantages and disadvantages of living in a big city?",
+        "Do you think the government should provide affordable housing?",
+        "How will housing change in the future?"
+      ]
+    }
+  ]
 }

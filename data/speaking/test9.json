@@ -25,11 +25,16 @@
       "What the advice was",
       "Whether you followed it",
       "Explain how it helped you"
-    ],
-    "followUpQuestions": [
-      "Do people in your country ask for advice from family or friends?",
-      "Is it better to get advice from older or younger people?",
-      "How has the internet changed the way people seek advice?"
     ]
-  }
+  },
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Do people in your country ask for advice from family or friends?",
+        "Is it better to get advice from older or younger people?",
+        "How has the internet changed the way people seek advice?"
+      ]
+    }
+  ]
 }

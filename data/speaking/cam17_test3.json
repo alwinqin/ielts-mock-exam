@@ -25,13 +25,18 @@
       "why you want to learn this skill",
       "and explain how this skill might be useful in your life"
     ],
-    "followUpQuestions": [
-      "What skills do you think will be most important in the future?",
-      "Should practical skills be taught more in schools?",
-      "How has the internet changed the way people learn new skills?",
-      "Is it better to learn a wide range of skills or to specialise in one area?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam17_test3"
+  "id": "cam17_test3",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "What skills do you think will be most important in the future?",
+        "Should practical skills be taught more in schools?",
+        "How has the internet changed the way people learn new skills?",
+        "Is it better to learn a wide range of skills or to specialise in one area?"
+      ]
+    }
+  ]
 }

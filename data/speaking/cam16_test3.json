@@ -25,13 +25,18 @@
       "why you would like to own it",
       "and explain how you would feel if you owned it"
     ],
-    "followUpQuestions": [
-      "Why do some people spend a lot of money on luxury goods?",
-      "Do you think the desire for luxury goods is a positive or negative thing?",
-      "How has the market for luxury goods changed over time?",
-      "Should luxury goods be taxed more heavily?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam16_test3"
+  "id": "cam16_test3",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Why do some people spend a lot of money on luxury goods?",
+        "Do you think the desire for luxury goods is a positive or negative thing?",
+        "How has the market for luxury goods changed over time?",
+        "Should luxury goods be taxed more heavily?"
+      ]
+    }
+  ]
 }

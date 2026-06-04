@@ -25,13 +25,18 @@
       "why you decided to develop this habit",
       "and explain how this habit has benefited your life"
     ],
-    "followUpQuestions": [
-      "Why do many people find it difficult to maintain healthy habits?",
-      "What role should the government play in promoting public health?",
-      "How has the health and fitness industry changed in recent years?",
-      "Do you think people in the future will be healthier than people today?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam18_test2"
+  "id": "cam18_test2",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Why do many people find it difficult to maintain healthy habits?",
+        "What role should the government play in promoting public health?",
+        "How has the health and fitness industry changed in recent years?",
+        "Do you think people in the future will be healthier than people today?"
+      ]
+    }
+  ]
 }

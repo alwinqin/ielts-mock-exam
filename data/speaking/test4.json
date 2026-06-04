@@ -25,11 +25,16 @@
       "How you use it",
       "Why you find it useful",
       "Explain how it has changed your life"
-    ],
-    "followUpQuestions": [
-      "Do you think technology has made life easier or more complicated?",
-      "What technological development has had the biggest impact on society?",
-      "How do you think technology will change in the next ten years?"
     ]
-  }
+  },
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Do you think technology has made life easier or more complicated?",
+        "What technological development has had the biggest impact on society?",
+        "How do you think technology will change in the next ten years?"
+      ]
+    }
+  ]
 }

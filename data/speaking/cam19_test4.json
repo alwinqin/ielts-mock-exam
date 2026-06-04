@@ -25,13 +25,18 @@
       "who you travelled with",
       "and explain why you remember this journey so well"
     ],
-    "followUpQuestions": [
-      "How has transport changed in the last 50 years?",
-      "What are the environmental effects of increased travel?",
-      "Do you think people will travel more or less in the future?",
-      "How can governments encourage people to use greener transport?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam19_test4"
+  "id": "cam19_test4",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "How has transport changed in the last 50 years?",
+        "What are the environmental effects of increased travel?",
+        "Do you think people will travel more or less in the future?",
+        "How can governments encourage people to use greener transport?"
+      ]
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-06-02T10:34:33.973272",
-  "total_issues": 26,
+  "timestamp": "2026-06-03T19:05:50.776050",
+  "total_issues": 24,
   "total_passes": 39,
   "issues": [
     {
@@ -137,25 +137,18 @@
       "detail": "Transcription endpoint hardcoded to localhost:8081"
     },
     {
-      "severity": "MEDIUM",
-      "round": 5,
-      "category": "speaking-json-onclick",
-      "file": "speaking.js",
-      "detail": "JSON.stringify in onclick handler — fragile, may break with special chars"
-    },
-    {
       "severity": "LOW",
       "round": 8,
       "category": "attempt-format-diff",
       "file": "review.js+listening-review.js",
-      "detail": "Different fields: {'date', 'testId', 'timeTaken'}"
+      "detail": "Different fields: {'timeTaken', 'date', 'testId'}"
     },
     {
       "severity": "LOW",
       "round": 9,
       "category": "i18n-unused-keys",
       "file": "i18n.js",
-      "detail": "51 keys defined but not referenced in code"
+      "detail": "52 keys defined but not referenced in code"
     },
     {
       "severity": "LOW",
@@ -177,13 +170,6 @@
       "category": "perf-bundle-size",
       "file": "data-bundle.js",
       "detail": "Bundle size 1593KB exceeds 300KB budget"
-    },
-    {
-      "severity": "LOW",
-      "round": 10,
-      "category": "perf-sync-scripts",
-      "file": "index.html",
-      "detail": "15 scripts loaded synchronously — consider defer"
     }
   ],
   "passes": [
@@ -407,13 +393,13 @@
     "round7_focus_states": 18,
     "round9_en_keys": 154,
     "round9_zh_keys": 154,
-    "round9_used_keys": 103,
-    "round10_innerhtml_unescaped": 23,
+    "round9_used_keys": 102,
+    "round10_innerhtml_unescaped": 15,
     "round10_bundle_size_kb": 1592.9,
     "round10_script_tags": 15,
     "round10_global_names": 195,
-    "round10_cross_refs": "{'app.js': ['data.bandScore', 'data.clearExamData', 'data.clearListeningData', 'data.getAttemptHistory', 'data.getListeningAttemptHistory', 'data.loadAnswers', 'data.loadExamState', 'data.loadListeningState', 'exam.renderExam', 'history.renderHistoryPage', 'i18n.t', 'listening-review.renderListeningHistoryPage', 'listening-review.renderListeningReview', 'listening.renderListeningExam', 'listening.startExam', 'review.renderReview', 'speaking.renderSpeakingExam', 'writing-review.renderWritingReview', 'writing.renderWritingExam', 'wrong-book.renderWrongBookPage'], 'data.js': ['exam.saveAnswer', 'listening.saveListeningAnswer'], 'exam.js': ['data.bandScore', 'data.escapeHtml', 'data.loadAnswers', 'data.loadExamState', 'data.loadFlagged', 'data.saveAnswers', 'data.saveAttempt', 'data.saveExamState', 'data.saveFlagged', 'i18n.t'], 'history.js': ['data.bandScore', 'data.clearAllHistoryData', 'data.escapeHtml', 'data.formatDuration', 'data.getAttemptHistory', 'i18n.t'], 'i18n.js': ['data.bandScore', 'listening.startExam', 'speaking.playRecording', 'speaking.startRecording', 'speaking.stopRecording'], 'listening-review.js': ['data.bandScore', 'data.escapeHtml', 'data.getListeningAttemptHistory', 'history.onClearAllHistory', 'i18n.t'], 'listening.js': ['data.bandScore', 'data.escapeHtml', 'data.formatTime', 'data.loadListeningAnswers', 'data.loadListeningFlagged', 'data.loadListeningState', 'data.saveListeningAnswers', 'data.saveListeningAttempt', 'data.saveListeningFlagged', 'data.saveListeningState'], 'review.js': ['data.bandScore', 'data.escapeHtml', 'data.formatDuration', 'i18n.t'], 'speaking.js': ['data.escapeHtml'], 'timer.js': ['data.formatTime'], 'writing-review.js': ['data.loadWritingAnswers', 'writing.countWords'], 'writing.js': ['data.escapeHtml', 'data.formatTime', 'data.loadWritingAnswers', 'data.loadWritingState', 'data.saveWritingAnswers', 'data.saveWritingState'], 'wrong-book.js': ['data.escapeHtml', 'data.getAttemptHistory', 'data.getListeningAttemptHistory', 'data.isMastered', 'data.removeMasteredQuestion', 'data.saveMasteredQuestion', 'i18n.t']}",
-    "round10_total_issues": 26,
-    "round10_severity_breakdown": "{'LOW': 20, 'MEDIUM': 3, 'INFO': 2, 'HIGH': 1}"
+    "round10_cross_refs": "{'app.js': ['data.bandScore', 'data.clearExamData', 'data.clearListeningData', 'data.escapeHtml', 'data.getAttemptHistory', 'data.getListeningAttemptHistory', 'data.loadAnswers', 'data.loadExamState', 'data.loadListeningState', 'exam.renderExam', 'history.renderHistoryPage', 'i18n.t', 'listening-review.renderListeningHistoryPage', 'listening-review.renderListeningReview', 'listening.renderListeningExam', 'listening.startExam', 'review.renderReview', 'speaking.renderSpeakingExam', 'writing-review.renderWritingReview', 'writing.renderWritingExam', 'wrong-book.renderWrongBookPage'], 'data.js': ['exam.saveAnswer', 'listening.saveListeningAnswer'], 'exam.js': ['data.bandScore', 'data.escapeHtml', 'data.loadAnswers', 'data.loadExamState', 'data.loadFlagged', 'data.saveAnswers', 'data.saveAttempt', 'data.saveExamState', 'data.saveFlagged', 'i18n.t'], 'history.js': ['data.bandScore', 'data.clearAllHistoryData', 'data.escapeHtml', 'data.formatDuration', 'data.getAttemptHistory', 'i18n.t'], 'i18n.js': ['data.bandScore', 'listening.startExam', 'speaking.playRecording', 'speaking.startRecording', 'speaking.stopRecording'], 'listening-review.js': ['data.bandScore', 'data.escapeHtml', 'data.getListeningAttemptHistory', 'history.onClearAllHistory', 'i18n.t'], 'listening.js': ['data.bandScore', 'data.escapeHtml', 'data.formatTime', 'data.loadListeningAnswers', 'data.loadListeningFlagged', 'data.loadListeningState', 'data.saveListeningAnswers', 'data.saveListeningAttempt', 'data.saveListeningFlagged', 'data.saveListeningState'], 'review.js': ['data.bandScore', 'data.escapeHtml', 'data.formatDuration', 'i18n.t'], 'speaking.js': ['data.escapeHtml'], 'timer.js': ['data.formatTime'], 'writing-review.js': ['data.loadWritingAnswers', 'writing.countWords'], 'writing.js': ['data.escapeHtml', 'data.formatTime', 'data.loadWritingAnswers', 'data.loadWritingState', 'data.saveWritingAnswers', 'data.saveWritingState'], 'wrong-book.js': ['data.escapeHtml', 'data.getAttemptHistory', 'data.getListeningAttemptHistory', 'data.isMastered', 'data.removeMasteredQuestion', 'data.saveMasteredQuestion', 'i18n.t']}",
+    "round10_total_issues": 24,
+    "round10_severity_breakdown": "{'LOW': 19, 'MEDIUM': 2, 'INFO': 2, 'HIGH': 1}"
   }
 }

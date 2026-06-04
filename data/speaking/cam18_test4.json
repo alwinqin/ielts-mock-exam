@@ -25,13 +25,18 @@
       "what it is about",
       "and explain why it is meaningful to you"
     ],
-    "followUpQuestions": [
-      "Why is music so important in people's lives?",
-      "How has the music industry changed with the internet?",
-      "Do you think music should be taught more in schools?",
-      "Is traditional music in your country being lost?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam18_test4"
+  "id": "cam18_test4",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Why is music so important in people's lives?",
+        "How has the music industry changed with the internet?",
+        "Do you think music should be taught more in schools?",
+        "Is traditional music in your country being lost?"
+      ]
+    }
+  ]
 }

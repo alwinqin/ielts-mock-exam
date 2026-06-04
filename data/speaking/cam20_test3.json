@@ -25,13 +25,18 @@
       "why you chose that particular gift",
       "and explain how the person reacted when they received it"
     ],
-    "followUpQuestions": [
-      "Has the tradition of gift-giving changed in your country?",
-      "Do you think expensive gifts are more meaningful than inexpensive ones?",
-      "How do consumer habits affect gift-giving?",
-      "Should children be taught about the value of giving rather than receiving?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam20_test3"
+  "id": "cam20_test3",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Has the tradition of gift-giving changed in your country?",
+        "Do you think expensive gifts are more meaningful than inexpensive ones?",
+        "How do consumer habits affect gift-giving?",
+        "Should children be taught about the value of giving rather than receiving?"
+      ]
+    }
+  ]
 }

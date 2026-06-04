@@ -25,13 +25,18 @@
       "what you know about its behaviour",
       "and explain why you find this animal interesting"
     ],
-    "followUpQuestions": [
-      "How important are zoos in protecting animals?",
-      "Should wild animals be kept as pets?",
-      "How has human activity affected wildlife?",
-      "What can be done to protect endangered species more effectively?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam20_test4"
+  "id": "cam20_test4",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "How important are zoos in protecting animals?",
+        "Should wild animals be kept as pets?",
+        "How has human activity affected wildlife?",
+        "What can be done to protect endangered species more effectively?"
+      ]
+    }
+  ]
 }

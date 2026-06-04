@@ -25,11 +25,16 @@
       "Why you set this goal",
       "How you plan to achieve it",
       "Explain how achieving it will affect your life"
-    ],
-    "followUpQuestions": [
-      "Do you think it is important to set goals?",
-      "How do successful people achieve their goals?",
-      "What is the difference between short-term and long-term goals?"
     ]
-  }
+  },
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Do you think it is important to set goals?",
+        "How do successful people achieve their goals?",
+        "What is the difference between short-term and long-term goals?"
+      ]
+    }
+  ]
 }

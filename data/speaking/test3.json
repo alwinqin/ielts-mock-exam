@@ -25,11 +25,16 @@
       "Why you want to learn it",
       "How you plan to learn it",
       "Explain how it might benefit you"
-    ],
-    "followUpQuestions": [
-      "Do you think people should learn new skills throughout their lives?",
-      "What is the best way to learn a new skill?",
-      "How has technology changed the way people learn?"
     ]
-  }
+  },
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Do you think people should learn new skills throughout their lives?",
+        "What is the best way to learn a new skill?",
+        "How has technology changed the way people learn?"
+      ]
+    }
+  ]
 }

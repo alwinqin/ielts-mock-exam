@@ -25,13 +25,18 @@
       "what it was about",
       "and explain why you enjoyed reading it because you had to think a lot"
     ],
-    "followUpQuestions": [
-      "Do you think reading is still important in the digital age?",
-      "What kinds of books are most popular in your country?",
-      "How do you think reading habits will change in the future?",
-      "Is it better to read for information or for pleasure?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam14_test1"
+  "id": "cam14_test1",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Do you think reading is still important in the digital age?",
+        "What kinds of books are most popular in your country?",
+        "How do you think reading habits will change in the future?",
+        "Is it better to read for information or for pleasure?"
+      ]
+    }
+  ]
 }

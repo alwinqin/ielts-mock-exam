@@ -25,13 +25,18 @@
       "why you decided to watch it",
       "and explain why you found it interesting"
     ],
-    "followUpQuestions": [
-      "Why do you think science programmes are popular?",
-      "Should schools use TV programmes to teach science?",
-      "How has television changed the way people learn about science?",
-      "Do you think people trust the science presented on TV?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam15_test4"
+  "id": "cam15_test4",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Why do you think science programmes are popular?",
+        "Should schools use TV programmes to teach science?",
+        "How has television changed the way people learn about science?",
+        "Do you think people trust the science presented on TV?"
+      ]
+    }
+  ]
 }

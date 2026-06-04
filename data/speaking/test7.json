@@ -25,11 +25,16 @@
       "When it happened",
       "Who was with you",
       "Explain why it was memorable"
-    ],
-    "followUpQuestions": [
-      "Do you think childhood is the most important stage of life?",
-      "How has childhood changed compared to the past?",
-      "What can adults learn from children?"
     ]
-  }
+  },
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Do you think childhood is the most important stage of life?",
+        "How has childhood changed compared to the past?",
+        "What can adults learn from children?"
+      ]
+    }
+  ]
 }

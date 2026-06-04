@@ -25,13 +25,18 @@
       "why you chose to buy from this website",
       "and explain whether you were satisfied with the experience"
     ],
-    "followUpQuestions": [
-      "How has e-commerce changed the retail industry?",
-      "What are the risks of online shopping?",
-      "Do you think online shopping is good for the environment?",
-      "What will online shopping be like in the future?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam15_test2"
+  "id": "cam15_test2",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "How has e-commerce changed the retail industry?",
+        "What are the risks of online shopping?",
+        "Do you think online shopping is good for the environment?",
+        "What will online shopping be like in the future?"
+      ]
+    }
+  ]
 }

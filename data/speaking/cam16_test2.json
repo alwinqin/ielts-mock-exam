@@ -25,13 +25,18 @@
       "what the review said",
       "and explain whether the review influenced your decision"
     ],
-    "followUpQuestions": [
-      "Why are online reviews so popular?",
-      "Do you think companies should respond to negative reviews?",
-      "How reliable are online reviews in your opinion?",
-      "What impact do reviews have on businesses?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam16_test2"
+  "id": "cam16_test2",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Why are online reviews so popular?",
+        "Do you think companies should respond to negative reviews?",
+        "How reliable are online reviews in your opinion?",
+        "What impact do reviews have on businesses?"
+      ]
+    }
+  ]
 }

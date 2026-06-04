@@ -25,11 +25,16 @@
       "How you know them",
       "What qualities they have",
       "Explain how they influenced you"
-    ],
-    "followUpQuestions": [
-      "What qualities do you think make a good role model?",
-      "Do you think celebrities are good role models for young people?",
-      "How have role models changed over the generations?"
     ]
-  }
+  },
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "What qualities do you think make a good role model?",
+        "Do you think celebrities are good role models for young people?",
+        "How have role models changed over the generations?"
+      ]
+    }
+  ]
 }

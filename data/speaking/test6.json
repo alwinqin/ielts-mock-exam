@@ -25,11 +25,16 @@
       "How often you go there",
       "What you do there",
       "Explain why you like this place"
-    ],
-    "followUpQuestions": [
-      "What makes a city a good place to live?",
-      "How has your city changed in recent years?",
-      "What improvements would you like to see in your city?"
     ]
-  }
+  },
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "What makes a city a good place to live?",
+        "How has your city changed in recent years?",
+        "What improvements would you like to see in your city?"
+      ]
+    }
+  ]
 }

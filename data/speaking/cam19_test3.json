@@ -25,13 +25,18 @@
       "who took the photograph",
       "and explain why you like this photograph so much"
     ],
-    "followUpQuestions": [
-      "Why do people enjoy looking at photographs?",
-      "How has digital photography changed the way we record our lives?",
-      "Do you think professional photography is still important?",
-      "Should photography be taught as an art form in schools?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam19_test3"
+  "id": "cam19_test3",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Why do people enjoy looking at photographs?",
+        "How has digital photography changed the way we record our lives?",
+        "Do you think professional photography is still important?",
+        "Should photography be taught as an art form in schools?"
+      ]
+    }
+  ]
 }

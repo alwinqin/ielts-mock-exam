@@ -25,13 +25,18 @@
       "how they got into this job",
       "and explain why you think their job is interesting"
     ],
-    "followUpQuestions": [
-      "What jobs are most respected in your country?",
-      "How do young people choose their careers these days?",
-      "Do you think job satisfaction is more important than a high salary?",
-      "How is the job market changing with new technology?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam17_test4"
+  "id": "cam17_test4",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "What jobs are most respected in your country?",
+        "How do young people choose their careers these days?",
+        "Do you think job satisfaction is more important than a high salary?",
+        "How is the job market changing with new technology?"
+      ]
+    }
+  ]
 }

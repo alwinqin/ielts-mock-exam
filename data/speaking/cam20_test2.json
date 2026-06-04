@@ -25,13 +25,18 @@
       "what changes you have noticed there",
       "and explain how people in this place deal with the weather conditions"
     ],
-    "followUpQuestions": [
-      "How serious is climate change in your opinion?",
-      "What should governments do to address climate change?",
-      "How can individuals reduce their impact on the environment?",
-      "Do you think international cooperation on climate change is effective?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam20_test2"
+  "id": "cam20_test2",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "How serious is climate change in your opinion?",
+        "What should governments do to address climate change?",
+        "How can individuals reduce their impact on the environment?",
+        "Do you think international cooperation on climate change is effective?"
+      ]
+    }
+  ]
 }

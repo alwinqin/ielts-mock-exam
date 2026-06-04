@@ -25,13 +25,18 @@
       "why you chose to buy from this website",
       "and explain whether you were satisfied with the experience"
     ],
-    "followUpQuestions": [
-      "How has online shopping changed the way people shop?",
-      "What are the disadvantages of shopping online?",
-      "Do you think physical stores will disappear in the future?",
-      "How can online retailers improve the customer experience?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam14_test4"
+  "id": "cam14_test4",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "How has online shopping changed the way people shop?",
+        "What are the disadvantages of shopping online?",
+        "Do you think physical stores will disappear in the future?",
+        "How can online retailers improve the customer experience?"
+      ]
+    }
+  ]
 }

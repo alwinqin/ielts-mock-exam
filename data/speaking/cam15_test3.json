@@ -25,13 +25,18 @@
       "what you know about their career",
       "and explain why you admire this person"
     ],
-    "followUpQuestions": [
-      "What qualities does a person need to succeed in business?",
-      "How important is education for business success?",
-      "Do you think business people have a responsibility to society?",
-      "How has the role of business leaders changed in recent years?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam15_test3"
+  "id": "cam15_test3",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "What qualities does a person need to succeed in business?",
+        "How important is education for business success?",
+        "Do you think business people have a responsibility to society?",
+        "How has the role of business leaders changed in recent years?"
+      ]
+    }
+  ]
 }

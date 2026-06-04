@@ -25,13 +25,18 @@
       "how it has changed",
       "and explain whether you think the changes are positive or negative"
     ],
-    "followUpQuestions": [
-      "Why do cities change so quickly?",
-      "Do you think it is important to preserve historical buildings?",
-      "How can city planners balance development and preservation?",
-      "What will cities look like in 50 years?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam17_test2"
+  "id": "cam17_test2",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Why do cities change so quickly?",
+        "Do you think it is important to preserve historical buildings?",
+        "How can city planners balance development and preservation?",
+        "What will cities look like in 50 years?"
+      ]
+    }
+  ]
 }

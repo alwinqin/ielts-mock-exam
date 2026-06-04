@@ -25,13 +25,18 @@
       "how you completed it",
       "and explain how you felt when you had successfully completed the task"
     ],
-    "followUpQuestions": [
-      "Do you think difficult tasks are good for people's development?",
-      "How do employers or teachers help people deal with challenging tasks?",
-      "Is it better to work on difficult tasks alone or in a team?",
-      "What skills are most important for overcoming challenges?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam14_test3"
+  "id": "cam14_test3",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Do you think difficult tasks are good for people's development?",
+        "How do employers or teachers help people deal with challenging tasks?",
+        "Is it better to work on difficult tasks alone or in a team?",
+        "What skills are most important for overcoming challenges?"
+      ]
+    }
+  ]
 }

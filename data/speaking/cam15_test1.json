@@ -25,13 +25,18 @@
       "what facilities it has",
       "and explain whether you would recommend this hotel to others"
     ],
-    "followUpQuestions": [
-      "What makes a hotel a good place to stay?",
-      "How has the hotel industry changed in recent years?",
-      "Do you prefer staying in a hotel or other types of accommodation?",
-      "How can hotels attract more customers?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam15_test1"
+  "id": "cam15_test1",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "What makes a hotel a good place to stay?",
+        "How has the hotel industry changed in recent years?",
+        "Do you prefer staying in a hotel or other types of accommodation?",
+        "How can hotels attract more customers?"
+      ]
+    }
+  ]
 }

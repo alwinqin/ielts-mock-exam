@@ -25,11 +25,16 @@
       "How you helped them",
       "Why they needed help",
       "Explain how you felt about it"
-    ],
-    "followUpQuestions": [
-      "Do people in your country help each other in communities?",
-      "Should schools teach children to help others?",
-      "How has technology changed the way people offer help?"
     ]
-  }
+  },
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Do people in your country help each other in communities?",
+        "Should schools teach children to help others?",
+        "How has technology changed the way people offer help?"
+      ]
+    }
+  ]
 }

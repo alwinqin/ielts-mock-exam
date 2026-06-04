@@ -25,13 +25,18 @@
       "who was with you",
       "and explain why this memory is so important to you"
     ],
-    "followUpQuestions": [
-      "Why do some childhood memories stay with us forever?",
-      "How has childhood changed compared to your parents' generation?",
-      "Do you think children today are under too much pressure?",
-      "What role do grandparents play in children's lives?"
-    ],
     "preparationTime": 60
   },
-  "id": "cam18_test1"
+  "id": "cam18_test1",
+  "part3": [
+    {
+      "topic": "Discussion",
+      "questions": [
+        "Why do some childhood memories stay with us forever?",
+        "How has childhood changed compared to your parents' generation?",
+        "Do you think children today are under too much pressure?",
+        "What role do grandparents play in children's lives?"
+      ]
+    }
+  ]
 }
