@@ -604,7 +604,7 @@
               "type": "summary_completion",
               "question": "Ventilation in 19thcentury hospital wards | Professor Alan Short examined the work of John Shaw Billings, who influenced the | architectural _____ of hospitals to ensure they had good ventilation.",
               "options": [],
-              "correctAnswer": "design"
+              "correctAnswer": "designs"
             },
             {
               "id": "cam14_t2_r_q20",
@@ -1492,7 +1492,7 @@
                 "D",
                 "E"
               ],
-              "correctAnswer": "D"
+              "correctAnswer": "E"
             },
             {
               "id": "cam14_t4_r_q16",
