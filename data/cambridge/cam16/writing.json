@@ -9,13 +9,15 @@
         "title": "WRITING",
         "instruction": "WRITING\nWRITING TASK 1\nYou should spend about 20 minutes on this task.\nThe charts below show the changes in ownership of electrical appliances and amount of time spent doing housework in households in one country between 1920 and 2019.\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\nWrite at least 150 words.",
         "wordLimit": 150,
-        "timeRecommended": 20
+        "timeRecommended": 20,
+        "type": "bar_chart"
       },
       "task2": {
         "title": "WRITING TASK 2",
         "instruction": "WRITING TASK 2\n\nYou should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nIn some countries, more and more people are becoming interested in finding out about the history of the house or building they live in.\n\nWhat are the reasons for this?\n\nHow can people research this?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
         "wordLimit": 250,
-        "timeRecommended": 40
+        "timeRecommended": 40,
+        "type": "two_part_question"
       },
       "sampleEssays": {
         "task1": "Sample Writing answers\n\nAdditional sample Writing answers in Resource Bank\n\nTEST 1, WRITING TASK 1\n\nThis is an answer written by a candidate who achieved a Band 5.0 score.\n\nThis charts shows about percentage of households with electcal appliances and Number of hour at housework per week, per household between 1920 and 2019.\n\nIn the first chart washing machine. Refrigerator. Vacuum cleaner all rise from 1920 to 2019. Refrigerator and Vacuum cleaner increase faster than washing machine. In 1920, Refrigerator just zero percentage of households and Refrigerator is 30 percentage of households, but in 2019 they all increase 100 percentage of household. Washing machine is to percantage of households in 1920, however in 2019 is just increase about 15 percentage at households, and washing mashine is overed by Pefrigerator and Vacuum cleaner in 1940 and 1960. Vacuum cleaner is overed by Pefrigerator in 1942.\n\nIn the second chart Houses per week is 50 Number of hours per week, but it decline to 10 Number of hours per week in 2019.\n\nOver than, percentang of households with electical appliance increase however Number of hours per week decline from 1920 to 2019.",
@@ -29,13 +31,15 @@
         "title": "WRITING",
         "instruction": "WRITING\nWRITING TASK 1\nYou should spend about 20 minutes on this task.\nThe diagram below shows the manufacturing process for making sugar from sugar cane.\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\nWrite at least 150 words.",
         "wordLimit": 150,
-        "timeRecommended": 20
+        "timeRecommended": 20,
+        "type": "process_diagram"
       },
       "task2": {
         "title": "WRITING TASK 2",
         "instruction": "WRITING TASK 2\n\nYou should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nIn their advertising, businesses nowadays usually emphasise that their products are new in some way.\n\nWhy is this? Do you think it is a positive or negative development?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
         "wordLimit": 250,
-        "timeRecommended": 40
+        "timeRecommended": 40,
+        "type": "positive_negative_development"
       },
       "sampleEssays": {
         "task1": "Sample Writing answers\n\nTEST 2, WRITING TASK 1\n\nThis is an answer written by a candidate who achieved a Band 6.0 score.\n\nThe diagram illustrates the process by which sugar is produced from sugar cane. The process consists of seven steps of various time length, starting by farming sugar canes and ending by dry sugar ready to use.\n\nFirst, sugarcane is farmed and nourished for a period of 12 to 18 months, which is the longest step in the whole process. Second, sugar cane get harvested by the means of two ways, either manually or using specialized vehicles. Third, the harvested sugar cane go through the step of crushing, resulting in liquid form called juice.\n\nThe fourth step involves purifying the juice through Limestone filters. The purified juice now goes through the fifth step, which put it under extreme heat to allow it to evaporate to get syrup out from it. Then the syrup is centrifuged to separate sugar crystals from syrup. Once that happend the sugar is taken into the last phase of drying and cooling, which finalise the process and produce ready-to-use sugar that is packed and ready for sale.\n\nHere is the examiner's comment:\n\nThere is an overview presented in the first paragraph which summarises the process into the farming stages and the drying stages. This summary could be more detailed, e.g. farming, crushing, separating and drying stages. The ideas are presented in three paragraphs and follow the logical sequence of the process. Cohesive devices are basic [First | Second | Third | fourth] and there is some repetition, but there is a clear progression.\n\nSpelling is generally accurate and the vocabulary conveys the message well, with some range [the longest step | specialized vehicles | liquid]. Grammatical range is weaker and there are a number of errors [get harvested / is harvested] including third-person endings [go through / goes through | put / puts].\n\nThis response could be improved by a more detailed overview and more accuracy in grammatical structures.\n\n133",
@@ -49,13 +53,15 @@
         "title": "WRITING",
         "instruction": "WRITING\nWRITING TASK 1\nYou should spend about 20 minutes on this task.\nThe plans below show the site of an airport now and how it will look after redevelopment next year.\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\nWrite at least 150 words.",
         "wordLimit": 150,
-        "timeRecommended": 20
+        "timeRecommended": 20,
+        "type": "map_comparison"
       },
       "task2": {
         "title": "WRITING TASK 2",
         "instruction": "WRITING TASK 2\n\nYou should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nMany manufactured food and drink products contain high levels of sugar, which causes many health problems. Sugary products should be made more expensive to encourage people to consume less sugar.\n\nDo you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
         "wordLimit": 250,
-        "timeRecommended": 40
+        "timeRecommended": 40,
+        "type": "opinion_essay"
       },
       "sampleEssays": {
         "task1": "Sample Writing answers\n\nTEST 3, WRITING TASK 1\n\nThis is an answer written by a candidate who achieved a Band 6.5 score.\n\nThe South West airport had some changes after its redevelopment. The departures area was modified to have a bag drop service, along with a cafe and check-in module that were already there before the redevelopment. However, both the cafe and the check-in module changed places to make room for the bag drop. After going through security passport control, passengers and airport staff will be able to purchase stuff at the new stores before their flight. After doing some shopping, the boarding gates wait ahead. There are now 18 gates, which were 8 before the redevelopment. For this reason, the walkway installed between the gates has been replaced for a sky train, which will be able to transport people along the different gates. But if you're not leaving the South West airport, you'll be glad to know the arrivals area has also been redeveloped. After going through passport control customs, passengers and airport staff will be able to hire different services. This area was empty before the redevelopment, but now it has an ATM, a cafe and a car hire service that will gladly take you to your destination.\n\nHere is the examiner's comment:\n\nThis response covers the key details required; however, it describes the changes in the past tense instead of using future verb forms for the development 'next year'. Overall, it could be improved by adding a summary of the main changes.\n\nThe response has been organised logically by describing the changes to the journey through the redeveloped airport: firstly departures, then arrivals. There are some good cohesive features [However | After | But] and some referencing [which | This area]. Organisation could be improved by breaking the response down into two or three paragraphs.\n\nVocabulary is a strength, with some effective collocation [changed places | take you to your destination] and flexibility [modified | installed between].\n\nIn terms of grammar, this response has a variety of structures, but it describes some of the changes in the past simple [was modified] and in the present perfect [has been replaced by] whereas the question asked for a description of the future changes. To improve the score, there should be a wider range of future structures to address the changes 'next year'.\n\n135",
@@ -69,13 +75,15 @@
         "title": "WRITING",
         "instruction": "WRITING\nWRITING TASK 1\nYou should spend about 20 minutes on this task.\nThe diagram below shows the process for recycling plastic bottles.\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\nWrite at least 150 words.",
         "wordLimit": 150,
-        "timeRecommended": 20
+        "timeRecommended": 20,
+        "type": "process_diagram"
       },
       "task2": {
         "title": "WRITING TASK 2",
         "instruction": "WRITING TASK 2\n\nYou should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nIn the future all cars, buses and trucks will be driverless. The only people travelling inside these vehicles will be passengers.\n\nDo you think the advantages of driverless vehicles outweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
         "wordLimit": 250,
-        "timeRecommended": 40
+        "timeRecommended": 40,
+        "type": "opinion_essay"
       },
       "sampleEssays": {
         "task1": "Sample Writing answers\n\nTEST 4, WRITING TASK 1\n\nThis is an answer written by a candidate who achieved a Band 5.5 score.\n\nPlastic bottles are one of the most materials used in the world, and recycling is a really important subject to try to minimize the waste.\n\nAround the streets, in front off houses and restaurants is possible to see some bins, to collect organic and recycle waste. The yellow in is the correct one to trash recycle things, such as plastic bottles. After trashed, a truck collects at least once a week and leave in a specific place to separate what is recyclable and what is not. For that reason, is really important to separate before trash, this means someone will not spend to many time separating.\n\nRecycling is a big process, after separated the waste should be compressing in blocks to facilitate the crushing and washing process, that should be done because to many durty come with the bottles and crushing it makes easier to produce a new material.\n\nCrushed, washed and then going to the production of plastic pellets, it is can be finally heated to form a raw material.\n\nBut what can be produced using recycled bottles? New bottles, containers, bags, T-shirts, pen, toys and to many other things.\n\nSearching, it is possible to see how is big the waste problem around the world and how not to many governments invests in this situation. Starting into the houses, avoiding to use plastics in excess and separating the correct things in the correct bins, is a good way to keep the environment safe.\n\nHere is the examiner's comment:\n\nIn this process task, the response includes an introduction and covers the main stages of the recycling process. However, there is significant irrelevant detail included, e.g. in the last paragraph, which reduces the score.\n\nThe stages are set out in order and there is good overall progression with some effective linking devices [such as / For that reason] and cohesion [what is ... what is not / that] but the errors reduce the band score here. The candidate tends to use lists rather than a full range of cohesive devices.\n\nVocabulary is adequate with some original vocabulary [minimize the waste / separated / containers | environment]; however, much is taken directly from the task [compressing / to form a raw material]. There are errors in spelling [in / in bin / durty / dirty] but they do not reduce communication.\n\nGrammatical structures are limited and level of error is high [after separated / after separating / should be compressing / should be compressed / it is can be / it can be]. For a higher score, improved accuracy is needed.\n\nThe score for this response could be improved by including a summary of the main stages of the process, e.g. plastic bottles are collected, sorted, broken down and made into new products.\n\n137",

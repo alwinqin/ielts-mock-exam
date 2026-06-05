@@ -1,0 +1,174 @@
+{
+  "id": "cam14",
+  "title": "Cambridge IELTS 14 Speaking",
+  "tests": [
+    {
+      "id": "cam14_test1",
+      "testNumber": 1,
+      "part1": {
+        "topic": "Future",
+        "questions": [
+          "What job would you like to have in ten years from now? [Why?]",
+          "How useful will English be for your future? [Why/Why not?]",
+          "How much travelling do you hope to do in the future? [Why/Why not?]",
+          "How do you think your life will change in the future? [Why/Why not?]"
+        ]
+      },
+      "part2": {
+        "title": "Describe a book that you enjoyed reading because you had to think a lot.",
+        "prompts": [
+          "what this book was",
+          "why you decided to read it",
+          "what reading this book made you think about",
+          "explain why you enjoyed reading this book"
+        ]
+      },
+      "part3": {
+        "topics": [
+          {
+            "topic": "Children and reading",
+            "questions": [
+              "What are the most popular types of children's books in your country?",
+              "What are the benefits of parents reading books to their children?",
+              "Should parents always let children choose the books they read?"
+            ]
+          },
+          {
+            "topic": "Electronic books",
+            "questions": [
+              "How popular are electronic books in your country?",
+              "What are the advantages of parents reading electronic books compared to printed books?",
+              "Will electronic books ever completely replace printed books in the future?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cam14_test2",
+      "testNumber": 2,
+      "part1": {
+        "topic": "Social media",
+        "questions": [
+          "Which social media websites do you use?",
+          "How much time do you spend on social media sites? [Why/Why not?]",
+          "What kind of information about yourself have you put on social media? [Why/Why not?]",
+          "Is there anything you don't like about social media? [Why?]"
+        ]
+      },
+      "part2": {
+        "title": "Describe something you liked very much which you bought for your home.",
+        "prompts": [
+          "where you bought it",
+          "what it looked like",
+          "how you used it",
+          "explain why you liked it so much"
+        ]
+      },
+      "part3": {
+        "topics": [
+          {
+            "topic": "Creating a nice home",
+            "questions": [
+              "Why do some people buy lots of things for their home?",
+              "Do you think it is very expensive to make a home look nice?",
+              "Why don't some people care about how their home looks?"
+            ]
+          },
+          {
+            "topic": "Different types of home",
+            "questions": [
+              "In what ways is living in a flat/apartment better than living in a house?",
+              "Do you think homes will look different in the future?",
+              "Do you agree that the kinds of homes people prefer change as they get older?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cam14_test3",
+      "testNumber": 3,
+      "part1": {
+        "topic": "Neighbours",
+        "questions": [
+          "How often do you see your neighbours? [Why/Why not?]",
+          "Do you invite your neighbours to your home? [Why/Why not?]",
+          "Do you think you are a good neighbour? [Why/Why not?]",
+          "Has a neighbour ever helped you? [Why/Why not?]"
+        ]
+      },
+      "part2": {
+        "title": "Describe a very difficult task that you succeeded in doing as part of your work or studies.",
+        "prompts": [
+          "what task you did",
+          "why this task was very difficult",
+          "how you worked on this task",
+          "explain how you felt when you had successfully completed this task"
+        ]
+      },
+      "part3": {
+        "topics": [
+          {
+            "topic": "Difficult jobs",
+            "questions": [
+              "What are the most difficult jobs that people do?",
+              "Why do you think some people choose to do difficult jobs?",
+              "Do you agree or disagree that all jobs are difficult sometimes?"
+            ]
+          },
+          {
+            "topic": "Personal and career success",
+            "questions": [
+              "How important is it for everyone to have a goal in their personal life?",
+              "Is it always necessary to work hard in order to achieve career success?",
+              "Do you think that successful people are always happy people?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cam14_test4",
+      "testNumber": 4,
+      "part1": {
+        "topic": "Your neighbourhood",
+        "questions": [
+          "Do you like the neighbourhood you live in? [Why/Why not?]",
+          "What do you do in your neighbourhood in your free time? [Why/Why not?]",
+          "What new things would you like to have in your neighbourhood? [Why/Why not?]",
+          "Would you like to live in another neighbourhood in your town or city? [Why/Why not?]"
+        ]
+      },
+      "part2": {
+        "title": "Describe a website you have bought something from.",
+        "prompts": [
+          "what the website is",
+          "what you bought from this website",
+          "how satisfied you were with what you bought",
+          "explain why you decided to use this website"
+        ]
+      },
+      "part3": {
+        "topics": [
+          {
+            "topic": "Online shopping",
+            "questions": [
+              "What kinds of things do people in your country often buy from online shops?",
+              "Why has online shopping become so popular in many countries?",
+              "What are some possible disadvantages of buying things from online shops?"
+            ]
+          },
+          {
+            "topic": "Online retail businesses",
+            "questions": [
+              "Do you agree that the prices of all goods should be lower on internet shopping sites than in shops?",
+              "Will large shopping malls continue to be popular, despite the growth of internet shopping?",
+              "Do you think that some businesses (e.g. banks and travel agents) will only operate online in the future?"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

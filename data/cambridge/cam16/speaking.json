@@ -1,0 +1,175 @@
+{
+  "id": "cam16",
+  "title": "Cambridge IELTS 16 Speaking",
+  "tests": [
+    {
+      "id": "cam16_test1",
+      "testNumber": 1,
+      "part1": {
+        "topic": "People you study/work with",
+        "questions": [
+          "Who do you spend most time studying/working with? [Why?]",
+          "What kinds of things do you study/work on with other people? [Why?]",
+          "Are there times when you study/work better by yourself? [Why/Why not?]",
+          "Is it important to like the people you study/work with? [Why/Why not?]"
+        ]
+      },
+      "part2": {
+        "title": "Describe a tourist attraction you enjoyed visiting.",
+        "prompts": [
+          "You should say:",
+          "what this tourist attraction is",
+          "when and why you visited it",
+          "what you did there",
+          "and explain why you enjoyed visiting this tourist attraction."
+        ]
+      },
+      "part3": {
+        "topics": [
+          {
+            "topic": "Different kinds of tourist attractions",
+            "questions": [
+              "What are the most popular tourist attractions in your country?",
+              "How do the types of tourist attractions that younger people like to visit compare with those that older people like to visit?",
+              "Do you agree that some tourist attractions (e.g. national museums/galleries) should be free to visit?"
+            ]
+          },
+          {
+            "topic": "The importance of international tourism",
+            "questions": [
+              "Why is tourism important to a country?",
+              "What are the benefits to individuals of visiting another country as tourists?",
+              "How necessary is it for tourists to learn the language of the country they're visiting?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cam16_test2",
+      "testNumber": 2,
+      "part1": {
+        "topic": "Flowers and plants",
+        "questions": [
+          "Do you have a favourite flower or plant? [Why/Why not?]",
+          "What kinds of flowers and plants grow near where you live? [Why/Why not?]",
+          "Is it important to you to have flowers and plants in your home? [Why/Why not?]",
+          "Have you ever bought flowers for someone else? [Why/Why not?]"
+        ]
+      },
+      "part2": {
+        "title": "Describe a review you read about a product or service.",
+        "prompts": [
+          "where you read the review",
+          "what the product or service was",
+          "what information the review gave about the product or service",
+          "and explain what you did as a result of reading this review."
+        ]
+      },
+      "part3": {
+        "topics": [
+          {
+            "topic": "Online reviews",
+            "questions": [
+              "What kinds of things do people write online reviews about in your country?",
+              "Why do some people write online reviews?",
+              "Do you think that online reviews are good for both shoppers and companies?"
+            ]
+          },
+          {
+            "topic": "Customer service",
+            "questions": [
+              "What do you think it might be like to work in a customer service job?",
+              "Do you agree that customers are more likely to complain nowadays?",
+              "How important is it for companies to take all customer complaints seriously?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cam16_test3",
+      "testNumber": 3,
+      "part1": {
+        "topic": "Summer",
+        "questions": [
+          "Is summer your favourite time of year? [Why/Why not?]",
+          "What do you do in summer when the weather's very hot? [Why?]",
+          "Do you go on holiday every summer? [Why/Why not?]",
+          "Did you enjoy the summer holidays when you were at school? [Why/Why not?]"
+        ]
+      },
+      "part2": {
+        "title": "Describe a luxury item you would like to own in the future.",
+        "prompts": [
+          "what item you would like to own",
+          "what this item looks like",
+          "why you would like to own this item",
+          "and explain whether you think you will ever own this item."
+        ]
+      },
+      "part3": {
+        "topics": [
+          {
+            "topic": "Expensive items",
+            "questions": [
+              "Which expensive items would many young people (in your country) like to buy?",
+              "How do the expensive items that younger people want to buy differ from those that older people want to buy?",
+              "Do you think that people are more likely to buy expensive items for their friends or for themselves?"
+            ]
+          },
+          {
+            "topic": "Rich people",
+            "questions": [
+              "How difficult is it to become very rich in today's world?",
+              "Do you agree that money does not necessarily bring happiness?",
+              "In what ways might rich people use their money to help society?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cam16_test4",
+      "testNumber": 4,
+      "part1": {
+        "topic": "Fast food",
+        "questions": [
+          "What kinds of fast food have you tried? [Why/Why not?]",
+          "Do you ever use a microwave to cook food quickly? [Why/Why not?]",
+          "How popular are fast food restaurants where you live? [Why/Why not?]",
+          "When would you go to a fast-food restaurant? [Why/Why not?]"
+        ]
+      },
+      "part2": {
+        "title": "Describe some technology (e.g. an app, phone, software program) that you decided to stop using.",
+        "prompts": [
+          "when and where you got this technology",
+          "why you started using this technology",
+          "why you decided to stop using it",
+          "and explain how you feel about the decision you made."
+        ]
+      },
+      "part3": {
+        "topics": [
+          {
+            "topic": "Computer games",
+            "questions": [
+              "What kinds of computer games do people play in your country?",
+              "Why do people enjoy playing computer games?",
+              "Do you think that all computer games should have a minimum age for players?"
+            ]
+          },
+          {
+            "topic": "Technology in the classroom",
+            "questions": [
+              "In what ways can technology in the classroom be helpful?",
+              "Do you agree that students are often better at using technology than their teachers?",
+              "Do you believe that computers will ever replace human teachers?"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

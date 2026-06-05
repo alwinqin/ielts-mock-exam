@@ -1,0 +1,174 @@
+{
+  "id": "cam15",
+  "title": "Cambridge IELTS 15 Speaking",
+  "tests": [
+    {
+      "id": "cam15_test1",
+      "testNumber": 1,
+      "part1": {
+        "topic": "Email",
+        "questions": [
+          "What kinds of emails do you receive about your work or studies?",
+          "Do you prefer to email, phone or text your friends? [Why?]",
+          "Do you reply to emails and messages as soon as you receive them? [Why/Why not?]",
+          "Are you happy to receive emails that are advertising things? [Why/Why not?]"
+        ]
+      },
+      "part2": {
+        "title": "Describe a hotel that you know.",
+        "prompts": [
+          "where this hotel is",
+          "what this hotel looks like",
+          "what facilities this hotel has",
+          "and explain whether you think this is a nice hotel to stay in."
+        ]
+      },
+      "part3": {
+        "topics": [
+          {
+            "topic": "Staying in hotels",
+            "questions": [
+              "What things are important when people are choosing a hotel?",
+              "Why do some people not like staying in hotels?",
+              "Do you think staying in a luxury hotel is a waste of money?"
+            ]
+          },
+          {
+            "topic": "Working in a hotel",
+            "questions": [
+              "Do you think hotel work is a good career for life?",
+              "How does working in a big hotel compare with working in a small hotel?",
+              "What skills are needed to be a successful hotel manager?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cam15_test2",
+      "testNumber": 2,
+      "part1": {
+        "topic": "Languages",
+        "questions": [
+          "How many languages can you speak? [Why/Why not?]",
+          "How useful will English be to you in your future? [Why/Why not?]",
+          "What do you remember about learning languages at school? [Why/Why not?]",
+          "What do you think would be the hardest language for you to learn? [Why?]"
+        ]
+      },
+      "part2": {
+        "title": "Describe a website that you bought something from.",
+        "prompts": [
+          "what the website is",
+          "what you bought from this website",
+          "how satisfied you were with what you bought",
+          "and explain what you liked or disliked about using this website."
+        ]
+      },
+      "part3": {
+        "topics": [
+          {
+            "topic": "Shopping online",
+            "questions": [
+              "What kinds of things do people in your country often buy from online shops?",
+              "Why do you think online shopping has become so popular nowadays?",
+              "What are some possible disadvantages of buying things from online shops?"
+            ]
+          },
+          {
+            "topic": "The culture of consumerism",
+            "questions": [
+              "Why do many people today keep buying things which they do not need?",
+              "Do you believe the benefits of a consumer society outweigh the disadvantages?",
+              "How possible is it to avoid the culture of consumerism?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cam15_test3",
+      "testNumber": 3,
+      "part1": {
+        "topic": "Swimming",
+        "questions": [
+          "Did you learn to swim when you were a child? [Why/Why not?]",
+          "How often do you go swimming now? [Why/Why not?]",
+          "What places are there for swimming where you live? [Why?]",
+          "Do you think it would be more enjoyable to go swimming outdoors or at an indoor pool? [Why?]"
+        ]
+      },
+      "part2": {
+        "title": "Describe a famous business person that you know about.",
+        "prompts": [
+          "who this person is",
+          "what kind of business this person is involved in",
+          "what you know about this business person",
+          "and explain what you think of this business person."
+        ]
+      },
+      "part3": {
+        "topics": [
+          {
+            "topic": "Famous people today",
+            "questions": [
+              "What kinds of people are most famous in your country today?",
+              "Why are there so many stories about famous people in the news?",
+              "Do you agree or disagree that many young people today want to be famous?"
+            ]
+          },
+          {
+            "topic": "Advantages of being famous",
+            "questions": [
+              "Do you think it is easy for famous people to earn a lot of money?",
+              "Why might famous people enjoy having fans?",
+              "In what ways could famous people use their influence to do good things in the world?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cam15_test4",
+      "testNumber": 4,
+      "part1": {
+        "topic": "Jewellery",
+        "questions": [
+          "How often do you wear jewellery? [Why/Why not?]",
+          "What type of jewellery do you like best? [Why/Why not?]",
+          "When do people like to give jewellery in your country? [Why?]",
+          "Have you ever given jewellery to someone as a gift? [Why/Why not?]"
+        ]
+      },
+      "part2": {
+        "title": "Describe an interesting TV programme you watched about a science topic.",
+        "prompts": [
+          "what science topic this TV programme was about",
+          "when you saw this TV programme",
+          "what you learnt from this TV programme about a science topic",
+          "and explain why you found this TV programme interesting."
+        ]
+      },
+      "part3": {
+        "topics": [
+          {
+            "topic": "Science and the public",
+            "questions": [
+              "How interested are most people in your country in science?",
+              "Why do you think children today might be better at science than their parents?",
+              "How do you suggest the public can learn more about scientific developments?"
+            ]
+          },
+          {
+            "topic": "Scientific discoveries",
+            "questions": [
+              "What do you think are the most important scientific discoveries in the last 100 years?",
+              "Do you agree or disagree that there are no more major scientific discoveries left to make?",
+              "Who should pay for scientific research – governments or private companies?"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

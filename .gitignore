@@ -25,9 +25,6 @@ data/cambridge/audio/
 data/cambridge/pdf/
 data/cambridge/**/*.txt
 
-# Empty Cambridge-format placeholders
-data/cambridge/*/speaking.json
-
 # Intermediate per-test files (cam17)
 data/cambridge/cam17/*_test*.json
 
@@ -40,6 +37,7 @@ data/cambridge/cam17/*_test*.json
 # Generated extraction/validation artifacts
 data/extracted/
 data/validation_reports/answer_key_samples/
+data/tmp/
 
 # Temp/one-off scripts
 analyze_ielts.ps1
@@ -47,3 +45,8 @@ cam15_page11.png
 cam15_page11_out.txt
 extract_all_pdfs.py
 extract_text.py
+extract_all_reading.py
+extract_cam16_reading.py
+extract_reading_text.py
+extract_reading_vlm.py
+ocr_reading_passages.py
