@@ -1,0 +1,10 @@
+{
+  "name": "ielts-reading-exam",
+  "private": true,
+  "devDependencies": {
+    "@playwright/test": "^1.52.0"
+  },
+  "scripts": {
+    "test:e2e": "npx playwright test --config=e2e/playwright.config.js"
+  }
+}

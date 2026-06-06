@@ -86,12 +86,12 @@ function renderListeningReviewQuestions(allQuestions, attempt, filter) {
       <div class="review-question ${statusClass}">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">
           <strong>${t('question')} ${idx + 1}</strong>
-          <span style="font-size:0.75rem;color:#999;">${t('section').replace('S','')} ${q.sectionIndex + 1}</span>
+          <span style="font-size:0.75rem;color:var(--text-muted);">${t('section').replace('S','')} ${q.sectionIndex + 1}</span>
         </div>
         <div class="question-text">${escapeHtml(q.question)}</div>
         <div class="review-answer">
-          <span data-i18n="yourAnswer">${t('yourAnswer')}</span>: <span class="user-answer ${isCorrect ? 'correct' : ''}">${escapeHtml(userAns) || '<em style="color:#999;">(empty)</em>'}</span>
-          ${isCorrect ? '<span style="color:#2e7d32;margin-left:8px;">&#10003;</span>' : ''}
+          <span data-i18n="yourAnswer">${t('yourAnswer')}</span>: <span class="user-answer ${isCorrect ? 'correct' : ''}">${escapeHtml(userAns) || '<em style="color:var(--text-muted);">(empty)</em>'}</span>
+          ${isCorrect ? '<span style="color:var(--color-success);margin-left:8px;">&#10003;</span>' : ''}
           ${!isCorrect ? `| <span data-i18n="correctAnswer">${t('correctAnswer')}</span>: <span class="correct-answer">${escapeHtml(q.correctAnswer)}</span>` : ''}
         </div>
         <div class="review-explanation">
@@ -132,7 +132,7 @@ function renderListeningHistoryPage(container) {
     </div>
   `;
 
-  html += `<h2 style="font-size:1.2rem;margin:20px 0 12px;color:#1a3a5c;" data-i18n="history">${t('history')}</h2>`;
+  html += `<h2 style="font-size:1.2rem;margin:20px 0 12px;color:var(--text-heading);" data-i18n="history">${t('history')}</h2>`;
   html += `<div class="history-table-wrap"><table class="history-table">
     <thead><tr><th data-i18n="test">${t('test')}</th><th data-i18n="date">${t('date')}</th><th data-i18n="score">${t('score')}</th><th data-i18n="bandScore">${t('bandScore')}</th><th data-i18n="action">${t('action')}</th></tr></thead>
     <tbody>

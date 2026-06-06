@@ -37,7 +37,7 @@ function renderHistoryPage(container) {
   }
 
   // Attempt history table
-  html += `<h2 style="font-size:1.2rem;margin:20px 0 12px;color:#1a3a5c;" data-i18n="history">${t('history')}</h2>`;
+  html += `<h2 style="font-size:1.2rem;margin:20px 0 12px;color:var(--text-heading);" data-i18n="history">${t('history')}</h2>`;
   html += `<div class="history-table-wrap"><table class="history-table">
     <thead><tr><th data-i18n="test">${t('test')}</th><th data-i18n="date">${t('date')}</th><th data-i18n="score">${t('score')}</th><th data-i18n="bandScore">${t('bandScore')}</th><th data-i18n="timeUsed">${t('timeUsed')}</th><th data-i18n="action">${t('action')}</th></tr></thead>
     <tbody>
@@ -90,16 +90,21 @@ function renderHistoryPage(container) {
 }
 
 function onClearAllHistory() {
-  if (confirm(t('clearAllHistoryConfirm'))) {
-    clearAllHistoryData();
-    const main = document.getElementById('mainContent');
-    main.innerHTML = `
-      <div class="history-container" style="text-align:center;padding:60px 24px;">
-        <p style="font-size:1.1rem;color:#2e7d32;margin-bottom:16px;" data-i18n="clearAllHistoryDone">${t('clearAllHistoryDone')}</p>
-        <a href="#/" class="btn btn-primary" data-i18n="backToTests">${t('backToTests')}</a>
-      </div>
-    `;
-  }
+  showModal({
+    type: 'confirm',
+    title: t('clearAllHistory'),
+    message: t('clearAllHistoryConfirm'),
+    onConfirm: function () {
+      clearAllHistoryData();
+      const main = document.getElementById('mainContent');
+      main.innerHTML = `
+        <div class="history-container" style="text-align:center;padding:60px 24px;">
+          <p style="font-size:1.1rem;color:var(--color-success);margin-bottom:16px;" data-i18n="clearAllHistoryDone">${t('clearAllHistoryDone')}</p>
+          <a href="#/" class="btn btn-primary" data-i18n="backToTests">${t('backToTests')}</a>
+        </div>
+      `;
+    }
+  });
 }
 
 function calculateStats(history) {

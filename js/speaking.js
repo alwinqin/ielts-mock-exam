@@ -6,6 +6,15 @@ let speakingAudioChunks = [];
 let speakingRecordings = {};
 let speakingTranscriptions = {};
 let speakingPrepTimer = null;
+let speakingPart2Timer = null;
+let speakingPart2TimeRemaining = 120;
+
+function speakingBeforeUnload(e) {
+  if (Object.keys(speakingRecordings).length > 0) {
+    e.preventDefault();
+    e.returnValue = '';
+  }
+}
 
 function renderSpeakingExam(testData) {
   speakingTestData = testData;
@@ -13,6 +22,8 @@ function renderSpeakingExam(testData) {
   speakingPart1Index = 0;
   speakingRecordings = {};
   speakingTranscriptions = {};
+
+  window.addEventListener('beforeunload', speakingBeforeUnload);
 
   const container = document.getElementById('mainContent');
   container.innerHTML = `
@@ -61,7 +72,7 @@ function renderPart1Question() {
     <div class="speaking-question-panel">
       <h3>${t('part1')} - Question ${qNum}</h3>
       <div class="speaking-question-text">${escapeHtml(q.question)}</div>
-      ${q.followUp ? `<div class="speaking-followup" style="margin-top:8px;color:#888;font-size:0.85rem;">Follow-up: ${escapeHtml(q.followUp)}</div>` : ''}
+      ${q.followUp ? `<div class="speaking-followup" style="margin-top:8px;color:var(--text-muted);font-size:0.85rem;">Follow-up: ${escapeHtml(q.followUp)}</div>` : ''}
 
       <div class="speaking-controls">
         <button class="btn btn-primary" id="speakingRecordBtn" onclick="toggleRecording('${qid}')">${t('startRecording')}</button>
@@ -69,7 +80,7 @@ function renderPart1Question() {
         <button class="btn btn-secondary" id="speakingTranscribeBtn" onclick="transcribeRecording('${qid}')" ${!hasRecording ? 'disabled' : ''}>${t('transcribe')}</button>
       </div>
 
-      <div id="speakingRecordingStatus" style="margin-top:8px;font-size:0.85rem;color:#888;"></div>
+      <div id="speakingRecordingStatus" style="margin-top:8px;font-size:0.85rem;color:var(--text-muted);"></div>
 
       ${hasTranscription ? `<div class="speaking-transcription"><strong>${t('transcription')}:</strong><br>${escapeHtml(speakingTranscriptions[qid])}</div>` : ''}
       ${hasRecording ? `<div class="speaking-recording-saved">${t('recordingSaved')} (${getRecordingSize(qid)})</div>` : ''}
@@ -108,19 +119,20 @@ function startPart2() {
       </div>
 
       <div id="speakingPrepSection">
-        <p style="color:#e65100;font-weight:600;margin:16px 0;">
+        <p style="color:var(--color-warning);font-weight:600;margin:16px 0;">
           ${t('prepTime')}: <span id="speakingPrepTimer">1:00</span>
         </p>
         <button class="btn btn-primary" onclick="startSpeakingPrep()">Start Preparation (1 min)</button>
       </div>
 
       <div id="speakingPart2Controls" style="display:none;">
+        <div id="speakingPart2Timer" style="text-align:center;margin-bottom:12px;font-size:1.5rem;font-weight:700;color:var(--text-heading);"></div>
         <div class="speaking-controls">
           <button class="btn btn-primary" onclick="toggleRecording('${qid}')">${t('startRecording')}</button>
           <button class="btn btn-secondary" onclick="playRecording('${qid}')">${t('playRecording')}</button>
           <button class="btn btn-secondary" onclick="transcribeRecording('${qid}')">${t('transcribe')}</button>
         </div>
-        <div id="speakingRecordingStatus2" style="margin-top:8px;font-size:0.85rem;color:#888;"></div>
+        <div id="speakingRecordingStatus2" style="margin-top:8px;font-size:0.85rem;color:var(--text-muted);"></div>
       </div>
 
       <div id="speakingPart2Result"></div>
@@ -134,7 +146,7 @@ function startPart2() {
 
 function startSpeakingPrep() {
   document.getElementById('speakingPrepSection').innerHTML = `
-    <p style="color:#e65100;font-weight:600;margin:16px 0;">
+    <p style="color:var(--color-warning);font-weight:600;margin:16px 0;">
       ${t('prepTime')}: <span id="speakingPrepTimer" style="font-size:1.3rem;">1:00</span>
     </p>
   `;
@@ -149,12 +161,39 @@ function startSpeakingPrep() {
       const m = Math.floor(remaining / 60);
       const s = remaining % 60;
       el.textContent = `${m}:${s.toString().padStart(2, '0')}`;
-      if (remaining <= 5) el.style.color = '#d32f2f';
+      if (remaining <= 5) el.style.color = 'var(--color-danger)';
     }
     if (remaining <= 0) {
       clearInterval(speakingPrepTimer);
       speakingPrepTimer = null;
       if (el) el.textContent = 'Time\'s up! Start speaking!';
+      startSpeakingTimer();
+    }
+  }, 1000);
+}
+
+function startSpeakingTimer() {
+  speakingPart2TimeRemaining = 120;
+  if (speakingPart2Timer) { clearInterval(speakingPart2Timer); }
+  const timerEl = document.getElementById('speakingPart2Timer');
+  if (timerEl) timerEl.textContent = '2:00';
+
+  speakingPart2Timer = setInterval(() => {
+    speakingPart2TimeRemaining--;
+    if (timerEl) {
+      const m = Math.floor(speakingPart2TimeRemaining / 60);
+      const s = speakingPart2TimeRemaining % 60;
+      timerEl.textContent = `${m}:${s.toString().padStart(2, '0')}`;
+      if (speakingPart2TimeRemaining <= 30) timerEl.style.color = 'var(--color-warning)';
+      if (speakingPart2TimeRemaining <= 10) timerEl.style.color = 'var(--color-danger)';
+    }
+    if (speakingPart2TimeRemaining <= 0) {
+      clearInterval(speakingPart2Timer);
+      speakingPart2Timer = null;
+      if (timerEl) timerEl.textContent = 'Time\'s up!';
+      if (speakingMediaRecorder && speakingMediaRecorder.state === 'recording') {
+        stopRecording();
+      }
     }
   }, 1000);
 }
@@ -188,8 +227,8 @@ function renderPart3Question(questions, idx, main) {
     main.innerHTML = `
       <div class="speaking-question-panel" style="text-align:center;">
         <h3>${t('speaking')} - ${t('finish')}</h3>
-        <p style="margin:20px 0;color:#666;">You have completed all parts of the speaking test.</p>
-        <p style="margin-bottom:20px;color:#888;">Review your recordings and transcriptions above.</p>
+        <p style="margin:20px 0;color:var(--text-secondary);">You have completed all parts of the speaking test.</p>
+        <p style="margin-bottom:20px;color:var(--text-muted);">Review your recordings and transcriptions above.</p>
         <a href="#/" class="btn btn-primary">${t('backToTests')}</a>
       </div>
     `;
@@ -212,7 +251,7 @@ function renderPart3Question(questions, idx, main) {
         <button class="btn btn-secondary" id="speakingTranscribeBtn" ${!hasRecording ? 'disabled' : ''}>${t('transcribe')}</button>
       </div>
 
-      <div id="speakingRecordingStatus" style="margin-top:8px;font-size:0.85rem;color:#888;"></div>
+      <div id="speakingRecordingStatus" style="margin-top:8px;font-size:0.85rem;color:var(--text-muted);"></div>
       <div id="speakingPart3Result"></div>
 
       <div style="margin-top:20px;">
@@ -242,7 +281,10 @@ function toggleRecording(qid) {
 
 function startRecording(qid) {
   if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
-    alert('Recording not supported in this browser. Please use Chrome, Firefox, or Edge.');
+    showModal({
+      title: t('error'),
+      message: 'Recording not supported in this browser. Please use Chrome, Firefox, or Edge.'
+    });
     return;
   }
 
@@ -261,7 +303,7 @@ function startRecording(qid) {
       stream.getTracks().forEach(t => t.stop());
 
       const status = document.getElementById('speakingRecordingStatus') || document.getElementById('speakingRecordingStatus2');
-      if (status) status.innerHTML = `<span style="color:#2e7d32;">${t('recordingSaved')} (${(blob.size/1024).toFixed(0)} KB)</span>`;
+      if (status) status.innerHTML = `<span style="color:var(--color-success);">${t('recordingSaved')} (${(blob.size/1024).toFixed(0)} KB)</span>`;
 
       // Enable play and transcribe buttons
       document.querySelectorAll('#speakingPlayBtn, #speakingTranscribeBtn').forEach(b => b.disabled = false);
@@ -278,9 +320,9 @@ function startRecording(qid) {
     speakingMediaRecorder.start();
     updateAllButtons(qid);
     const status = document.getElementById('speakingRecordingStatus') || document.getElementById('speakingRecordingStatus2');
-    if (status) status.innerHTML = '<span style="color:#e65100;">Recording... click Stop to finish</span>';
+    if (status) status.innerHTML = '<span style="color:var(--color-warning);">Recording... click Stop to finish</span>';
   }).catch(e => {
-    alert('Microphone access denied. Please allow microphone access to use the speaking test.');
+    showModal({ message: 'Microphone access denied. Please allow microphone access to use the speaking test.' });
     console.error(e);
   });
 }
@@ -339,7 +381,7 @@ function transcribeRecording(qid) {
   })
   .catch(e => {
     if (btn) btn.textContent = t('transcribe');
-    alert('Transcription server not running. Start it with: python3 speech-server.py');
+    showModal({ message: 'Transcription server not running. Start it with: python3 speech-server.py' });
     console.error(e);
   });
 }

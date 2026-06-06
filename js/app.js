@@ -1,5 +1,44 @@
 const isFileProtocol = window.location.protocol === 'file:';
 
+// ===== Theme =====
+function getStoredTheme() {
+  return localStorage.getItem('ielts_theme');
+}
+
+function applyTheme(theme) {
+  if (theme === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  } else if (theme === 'light') {
+    document.documentElement.setAttribute('data-theme', 'light');
+  } else {
+    document.documentElement.removeAttribute('data-theme');
+  }
+}
+
+function updateThemeButton() {
+  const btn = document.getElementById('themeToggle');
+  if (!btn) return;
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  btn.textContent = isDark ? '☾' : '☀';
+  btn.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+}
+
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('ielts_theme', next);
+  applyTheme(next);
+  updateThemeButton();
+}
+
+function initTheme() {
+  const stored = getStoredTheme();
+  if (stored) {
+    applyTheme(stored);
+  }
+  updateThemeButton();
+}
+
 async function loadTestData(path) {
   // Cambridge path detection on path like "data/cambridge/cam17/reading.json"
   const camInfo = parseCambridgePath(path);
@@ -200,6 +239,8 @@ const App = {
     } else if (hash.startsWith('/listening-review/')) {
       const testId = hash.split('/listening-review/')[1];
       this.showListeningReview(testId);
+    } else if (hash === '/dashboard') {
+      this.showDashboard(main);
     } else if (hash === '/wrong-book') {
       this.showWrongBook(main);
     } else if (hash.startsWith('/wrong-book/')) {
@@ -234,7 +275,8 @@ const App = {
         </div>
         <div class="test-grid" id="testGrid"></div>
         <div class="sidebar-actions">
-          <a href="#/history" class="btn btn-secondary" data-i18n="viewHistory">${t('viewHistory')}</a>
+          <a href="#/dashboard" class="btn btn-secondary" data-i18n="dashboard">${t('dashboard')}</a>
+          <a href="#/history" class="btn btn-secondary" style="margin-left:8px;" data-i18n="viewHistory">${t('viewHistory')}</a>
           <a href="#/wrong-book" class="btn btn-secondary" style="margin-left:8px;" data-i18n="wrongBook">${t('wrongBook')}</a>
         </div>
       </div>
@@ -280,9 +322,9 @@ const App = {
 
       let bodyHtml = bestScoreHtml;
       if (examType === 'writing') {
-        bodyHtml = `<span style="font-size:0.8rem;color:#888;">${t('task1')}: 150 ${t('words')} (20 min)<br>${t('task2')}: 250 ${t('words')} (40 min)</span>`;
+        bodyHtml = `<span style="font-size:0.8rem;color:var(--text-muted);">${t('task1')}: 150 ${t('words')} (20 min)<br>${t('task2')}: 250 ${t('words')} (40 min)</span>`;
       } else if (examType === 'speaking') {
-        bodyHtml = `<span style="font-size:0.8rem;color:#888;">${t('part1')} (4-5 min)<br>${t('part2')} (3-4 min)<br>${t('part3')} (4-5 min)</span>`;
+        bodyHtml = `<span style="font-size:0.8rem;color:var(--text-muted);">${t('part1')} (4-5 min)<br>${t('part2')} (3-4 min)<br>${t('part3')} (4-5 min)</span>`;
       }
 
       parts.push(`
@@ -352,7 +394,7 @@ const App = {
       renderExam(this.currentTest);
     } catch (e) {
       console.error('Exam error:', e);
-      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:#999">${escapeHtml(e.message)}</small></div>`;
+      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:var(--text-muted)">${escapeHtml(e.message)}</small></div>`;
     }
   },
 
@@ -396,7 +438,7 @@ const App = {
       renderListeningExam(testData);
     } catch (e) {
       console.error('Listening exam error:', e);
-      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:#999">${escapeHtml(e.message)}</small></div>`;
+      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:var(--text-muted)">${escapeHtml(e.message)}</small></div>`;
     }
   },
 
@@ -480,6 +522,10 @@ const App = {
     renderHistoryPage(container);
   },
 
+  showDashboard(container) {
+    renderDashboard(container);
+  },
+
   showWrongBook(container) {
     renderWrongBookPage(container);
   },
@@ -500,7 +546,7 @@ const App = {
       renderWritingExam(testData);
     } catch (e) {
       console.error('Writing exam error:', e);
-      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:#999">${escapeHtml(e.message)}</small></div>`;
+      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:var(--text-muted)">${escapeHtml(e.message)}</small></div>`;
     }
   },
 
@@ -549,7 +595,7 @@ const App = {
       renderSpeakingExam(testData);
     } catch (e) {
       console.error('Speaking exam error:', e);
-      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:#999">${escapeHtml(e.message)}</small></div>`;
+      container.innerHTML = `<div class="error">${t('errorLoadData')}<br><small style="color:var(--text-muted)">${escapeHtml(e.message)}</small></div>`;
     }
   },
 
@@ -585,4 +631,4 @@ const App = {
   }
 };
 
-window.addEventListener('DOMContentLoaded', () => App.init());
+window.addEventListener('DOMContentLoaded', () => { initTheme(); App.init(); });

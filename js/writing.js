@@ -4,11 +4,20 @@ let writingCurrentTask = 'task1';
 let writingTimer = null;
 let writingTimeRemaining = 3600; // 60 min
 
+function writingBeforeUnload(e) {
+  if (writingTimer !== null) {
+    e.preventDefault();
+    e.returnValue = '';
+  }
+}
+
 function renderWritingExam(testData) {
   writingTestData = testData;
   writingAnswers = loadWritingAnswers(testData.id) || { task1: '', task2: '' };
   writingCurrentTask = 'task1';
   writingTimeRemaining = 3600;
+
+  window.addEventListener('beforeunload', writingBeforeUnload);
 
   // Restore timer state
   const saved = loadWritingState(testData.id);
@@ -55,7 +64,7 @@ function renderWritingTask(task) {
   promptPanel.innerHTML = `
     <div class="writing-prompt-header">
       <h3>${task === 'task1' ? t('task1') : t('task2')}</h3>
-      <span style="font-size:0.8rem;color:#888;">${task === 'task1' ? '150 words, 20 min' : '250 words, 40 min'}</span>
+      <span style="font-size:0.8rem;color:var(--text-muted);">${task === 'task1' ? '150 words, 20 min' : '250 words, 40 min'}</span>
     </div>
     <div class="writing-prompt-body">
       <p><strong>${data.title || ''}</strong></p>
@@ -74,7 +83,7 @@ function renderWritingTask(task) {
     </div>
     <div class="writing-wordcount">
       <span>${t('wordCount')}: <strong id="wcCount">${wordCount}</strong> ${t('words')}</span>
-      <span style="margin-left:16px;color:#888;">
+      <span style="margin-left:16px;color:var(--text-muted);">
         ${task === 'task1' ? t('minWords', { n: 150 }) : t('minWords', { n: 250 })}
       </span>
     </div>
@@ -158,7 +167,7 @@ function showWritingSubmitModal() {
     <div class="modal">
       <h2>${t('submitConfirm')}</h2>
       <p>${t('submitConfirmDesc')}</p>
-      <p style="font-size:0.85rem;color:#666;margin-top:8px;">
+      <p style="font-size:0.85rem;color:var(--text-secondary);margin-top:8px;">
         ${t('task1')}: ${task1Wc} ${t('words')} | ${t('task2')}: ${task2Wc} ${t('words')}
       </p>
       <div class="modal-actions">
@@ -171,6 +180,7 @@ function showWritingSubmitModal() {
 }
 
 function submitWriting() {
+  window.removeEventListener('beforeunload', writingBeforeUnload);
   if (writingTimer) { clearInterval(writingTimer); writingTimer = null; }
 
   // Save final answers

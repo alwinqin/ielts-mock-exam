@@ -158,6 +158,13 @@ const i18n = {
     clearAllHistory: 'Clear All History',
     clearAllHistoryConfirm: 'This will permanently delete all practice history, including reading, listening, wrong book records, and exam states. This action cannot be undone. Continue?',
     clearAllHistoryDone: 'All history has been cleared.',
+    // Dashboard
+    dashboard: 'Dashboard',
+    skillComparison: 'Skill Comparison',
+    bandScoreTrend: 'Band Score Trend',
+    questionTypePerformance: 'Question Type Performance',
+    recentAttempts: 'Recent Attempts',
+    skill: 'Skill',
   },
   zh: {
     appTitle: '雅思模拟考试',
@@ -317,6 +324,13 @@ const i18n = {
     clearAllHistory: '清除全部历史',
     clearAllHistoryConfirm: '此操作将永久删除所有练习历史，包括阅读、听力、错题本记录和考试状态。此操作不可撤销，确定继续吗？',
     clearAllHistoryDone: '所有历史已清除。',
+    // Dashboard
+    dashboard: '数据仪表盘',
+    skillComparison: '技能对比',
+    bandScoreTrend: '分数趋势',
+    questionTypePerformance: '题型表现',
+    recentAttempts: '最近练习',
+    skill: '技能',
   }
 };
 

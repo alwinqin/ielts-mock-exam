@@ -116,12 +116,12 @@ function renderReviewQuestions(allQuestions) {
       <div class="review-question ${statusClass}">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">
           <strong>${t('question')} ${idx + 1}</strong>
-          <span style="font-size:0.75rem;color:#999;">${typeLabels[q.type] || q.type} | ${q.passageTitle || ''}</span>
+          <span style="font-size:0.75rem;color:var(--text-muted);">${typeLabels[q.type] || q.type} | ${q.passageTitle || ''}</span>
         </div>
         <div class="question-text">${escapeHtml(q.question)}</div>
         <div class="review-answer">
-          <span data-i18n="yourAnswer">${t('yourAnswer')}</span>: <span class="user-answer ${isCorrect ? 'correct' : ''}">${escapeHtml(userAns) || '<em style="color:#999;">(empty)</em>'}</span>
-          ${isCorrect ? '<span style="color:#2e7d32;margin-left:8px;">&#10003;</span>' : ''}
+          <span data-i18n="yourAnswer">${t('yourAnswer')}</span>: <span class="user-answer ${isCorrect ? 'correct' : ''}">${escapeHtml(userAns) || '<em style="color:var(--text-muted);">(empty)</em>'}</span>
+          ${isCorrect ? '<span style="color:var(--color-success);margin-left:8px;">&#10003;</span>' : ''}
           ${!isCorrect ? `| <span data-i18n="correctAnswer">${t('correctAnswer')}</span>: <span class="correct-answer">${escapeHtml(q.correctAnswer)}</span>` : ''}
         </div>
         <div class="review-explanation">

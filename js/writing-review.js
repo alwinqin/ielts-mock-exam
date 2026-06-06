@@ -47,42 +47,42 @@ function showWritingTaskReview(task, btn) {
   const container = document.getElementById('writingReviewContent');
   container.innerHTML = `
     <div style="margin-bottom:16px;">
-      <h3 style="color:#1a3a5c;margin-bottom:8px;">${task === 'task1' ? 'Task 1: ' : 'Task 2: '}${title}</h3>
-      <p style="font-size:0.85rem;color:#555;margin-bottom:12px;">${testData[task].prompt || ''}</p>
+      <h3 style="color:var(--text-heading);margin-bottom:8px;">${task === 'task1' ? 'Task 1: ' : 'Task 2: '}${title}</h3>
+      <p style="font-size:0.85rem;color:var(--text-secondary);margin-bottom:12px;">${testData[task].prompt || ''}</p>
     </div>
 
     <div style="display:flex;gap:16px;flex-wrap:wrap;">
       <div style="flex:1;min-width:300px;">
-        <h4 style="color:#333;margin-bottom:8px;">${t('yourWriting')}</h4>
-        <div style="background:#f9f9f9;border:1px solid #e0e0e0;border-radius:6px;padding:16px;font-size:0.9rem;line-height:1.7;white-space:pre-wrap;min-height:200px;max-height:500px;overflow-y:auto;">
-          ${userText || '<em style="color:#999;">(no content)</em>'}
+        <h4 style="color:var(--text-primary);margin-bottom:8px;">${t('yourWriting')}</h4>
+        <div style="background:var(--bg-subtle);border:1px solid var(--border-color);border-radius:6px;padding:16px;font-size:0.9rem;line-height:1.7;white-space:pre-wrap;min-height:200px;max-height:500px;overflow-y:auto;">
+          ${escapeHtml(userText) || '<em style="color:var(--text-muted);">(no content)</em>'}
         </div>
-        <p style="font-size:0.8rem;color:#888;margin-top:4px;">${t('wordCount')}: ${countWords(userText)} ${t('words')}</p>
+        <p style="font-size:0.8rem;color:var(--text-muted);margin-top:4px;">${t('wordCount')}: ${countWords(userText)} ${t('words')}</p>
       </div>
       <div style="flex:1;min-width:300px;">
-        <h4 style="color:#2e7d32;margin-bottom:8px;">${t('modelAnswer')}</h4>
-        <div style="background:#f1f8e9;border:1px solid #c8e6c9;border-radius:6px;padding:16px;font-size:0.9rem;line-height:1.7;white-space:pre-wrap;max-height:500px;overflow-y:auto;">
-          ${modelText || '<em style="color:#999;">Model answer not available.</em>'}
+        <h4 style="color:var(--color-success);margin-bottom:8px;">${t('modelAnswer')}</h4>
+        <div style="background:var(--color-success-bg);border:1px solid var(--color-success-border);border-radius:6px;padding:16px;font-size:0.9rem;line-height:1.7;white-space:pre-wrap;max-height:500px;overflow-y:auto;">
+          ${modelText || '<em style="color:var(--text-muted);">Model answer not available.</em>'}
         </div>
       </div>
     </div>
 
-    <div style="margin-top:24px;padding:16px;background:#fff;border-radius:8px;border:1px solid #e0e0e0;">
-      <h4 style="color:#1a3a5c;margin-bottom:12px;">${t('selfAssess')}</h4>
-      <p style="font-size:0.85rem;color:#888;margin-bottom:12px;">Compare your writing with the model answer and assess yourself:</p>
+    <div style="margin-top:24px;padding:16px;background:var(--bg-surface);border-radius:8px;border:1px solid var(--border-color);">
+      <h4 style="color:var(--text-heading);margin-bottom:12px;">${t('selfAssess')}</h4>
+      <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:12px;">Compare your writing with the model answer and assess yourself:</p>
       <table style="width:100%;border-collapse:collapse;font-size:0.85rem;">
         <tr>
-          <th style="text-align:left;padding:8px;border-bottom:1px solid #e0e0e0;color:#555;">Criterion</th>
-          <th style="text-align:center;padding:8px;border-bottom:1px solid #e0e0e0;color:#555;">1</th>
-          <th style="text-align:center;padding:8px;border-bottom:1px solid #e0e0e0;color:#555;">2</th>
-          <th style="text-align:center;padding:8px;border-bottom:1px solid #e0e0e0;color:#555;">3</th>
-          <th style="text-align:center;padding:8px;border-bottom:1px solid #e0e0e0;color:#555;">4</th>
-          <th style="text-align:center;padding:8px;border-bottom:1px solid #e0e0e0;color:#555;">5</th>
+          <th style="text-align:left;padding:8px;border-bottom:1px solid var(--border-color);color:var(--text-secondary);">Criterion</th>
+          <th style="text-align:center;padding:8px;border-bottom:1px solid var(--border-color);color:var(--text-secondary);">1</th>
+          <th style="text-align:center;padding:8px;border-bottom:1px solid var(--border-color);color:var(--text-secondary);">2</th>
+          <th style="text-align:center;padding:8px;border-bottom:1px solid var(--border-color);color:var(--text-secondary);">3</th>
+          <th style="text-align:center;padding:8px;border-bottom:1px solid var(--border-color);color:var(--text-secondary);">4</th>
+          <th style="text-align:center;padding:8px;border-bottom:1px solid var(--border-color);color:var(--text-secondary);">5</th>
         </tr>
-        <tr><td style="padding:6px;border-bottom:1px solid #f0f0f0;">${t('taskAchievement')}</td><td colspan="5" style="padding:6px;border-bottom:1px solid #f0f0f0;"><input type="range" min="1" max="5" value="3" style="width:100%;" oninput="this.nextElementSibling.textContent=this.value"></td><td style="padding:6px;border-bottom:1px solid #f0f0f0;font-size:0.8rem;color:#888;">3</td></tr>
-        <tr><td style="padding:6px;border-bottom:1px solid #f0f0f0;">${t('coherence')}</td><td colspan="5" style="padding:6px;border-bottom:1px solid #f0f0f0;"><input type="range" min="1" max="5" value="3" style="width:100%;" oninput="this.nextElementSibling.textContent=this.value"></td><td style="padding:6px;border-bottom:1px solid #f0f0f0;font-size:0.8rem;color:#888;">3</td></tr>
-        <tr><td style="padding:6px;border-bottom:1px solid #f0f0f0;">${t('lexicalResource')}</td><td colspan="5" style="padding:6px;border-bottom:1px solid #f0f0f0;"><input type="range" min="1" max="5" value="3" style="width:100%;" oninput="this.nextElementSibling.textContent=this.value"></td><td style="padding:6px;border-bottom:1px solid #f0f0f0;font-size:0.8rem;color:#888;">3</td></tr>
-        <tr><td style="padding:6px;">${t('grammar')}</td><td colspan="5" style="padding:6px;"><input type="range" min="1" max="5" value="3" style="width:100%;" oninput="this.nextElementSibling.textContent=this.value"></td><td style="padding:6px;font-size:0.8rem;color:#888;">3</td></tr>
+        <tr><td style="padding:6px;border-bottom:1px solid #f0f0f0;">${t('taskAchievement')}</td><td colspan="5" style="padding:6px;border-bottom:1px solid #f0f0f0;"><input type="range" min="1" max="5" value="3" style="width:100%;" oninput="this.nextElementSibling.textContent=this.value"></td><td style="padding:6px;border-bottom:1px solid #f0f0f0;font-size:0.8rem;color:var(--text-muted);">3</td></tr>
+        <tr><td style="padding:6px;border-bottom:1px solid #f0f0f0;">${t('coherence')}</td><td colspan="5" style="padding:6px;border-bottom:1px solid #f0f0f0;"><input type="range" min="1" max="5" value="3" style="width:100%;" oninput="this.nextElementSibling.textContent=this.value"></td><td style="padding:6px;border-bottom:1px solid #f0f0f0;font-size:0.8rem;color:var(--text-muted);">3</td></tr>
+        <tr><td style="padding:6px;border-bottom:1px solid #f0f0f0;">${t('lexicalResource')}</td><td colspan="5" style="padding:6px;border-bottom:1px solid #f0f0f0;"><input type="range" min="1" max="5" value="3" style="width:100%;" oninput="this.nextElementSibling.textContent=this.value"></td><td style="padding:6px;border-bottom:1px solid #f0f0f0;font-size:0.8rem;color:var(--text-muted);">3</td></tr>
+        <tr><td style="padding:6px;">${t('grammar')}</td><td colspan="5" style="padding:6px;"><input type="range" min="1" max="5" value="3" style="width:100%;" oninput="this.nextElementSibling.textContent=this.value"></td><td style="padding:6px;font-size:0.8rem;color:var(--text-muted);">3</td></tr>
       </table>
     </div>
   `;

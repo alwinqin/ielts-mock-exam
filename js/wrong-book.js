@@ -284,7 +284,7 @@ function startWrongRedo(testId, questionNumber, module) {
 
     renderRedoPanel(q, module);
   }).catch(() => {
-    alert(t('errorLoadData'));
+    showModal({ message: t('errorLoadData') });
   });
 }
 
@@ -307,8 +307,8 @@ function loadPracticeQuestion(index) {
       <div class="wrong-book-container">
         <h1 data-i18n="practiceMode">${t('practiceMode')}</h1>
         <div class="wrong-book-empty">
-          <p style="color:#2e7d32;font-weight:600;font-size:1.1rem;" data-i18n="noWrongAnswers">${t('noWrongAnswers')}</p>
-          <p style="margin-top:8px;color:#666;">${_practiceItems.length} ${t('wrongAnswers')} — ${t('done')}</p>
+          <p style="color:var(--color-success);font-weight:600;font-size:1.1rem;" data-i18n="noWrongAnswers">${t('noWrongAnswers')}</p>
+          <p style="margin-top:8px;color:var(--text-secondary);">${_practiceItems.length} ${t('wrongAnswers')} — ${t('done')}</p>
           <a href="#/wrong-book" class="btn btn-primary" style="margin-top:16px;" data-i18n="wrongBook">${t('wrongBook')}</a>
         </div>
       </div>
@@ -358,7 +358,7 @@ function renderRedoPanel(q, module) {
     html += '</div>';
   } else if (q.type === 'matching_headings' || q.type === 'matching_info' || q.type === 'matching_sentence' || q.type === 'matching_names' || q.type === 'matching') {
     html += '<div class="options">';
-    html += `<select id="redoSelect" style="padding:6px;border:1px solid #ccc;border-radius:4px;width:100%;">`;
+    html += `<select id="redoSelect" style="padding:6px;border:1px solid var(--border-color);border-radius:4px;width:100%;">`;
     html += `<option value="">${t('selectAll')}</option>`;
     (q.options || []).forEach(opt => {
       html += `<option value="${escapeHtml(opt)}">${escapeHtml(opt)}</option>`;
@@ -366,7 +366,7 @@ function renderRedoPanel(q, module) {
     html += '</select></div>';
   } else {
     // text input
-    html += `<div class="options"><label class="option-label"><input type="text" id="redoTextInput" placeholder="..." style="flex:1;padding:6px;border:1px solid #ccc;border-radius:4px;"></label></div>`;
+    html += `<div class="options"><label class="option-label"><input type="text" id="redoTextInput" placeholder="..." style="flex:1;padding:6px;border:1px solid var(--border-color);border-radius:4px;"></label></div>`;
   }
 
   html += `
@@ -382,7 +382,7 @@ function renderRedoPanel(q, module) {
 }
 
 function submitRedoAnswer() {
-  if (!_redoQuestion) { alert(t('errorLoadData')); return; }
+  if (!_redoQuestion) { showModal({ message: t('errorLoadData') }); return; }
   const resultEl = document.getElementById('redoResult');
   if (!resultEl) return;
 
