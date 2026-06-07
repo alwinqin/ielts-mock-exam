@@ -123,7 +123,7 @@
                 "B. There are some restrictions.",
                 "C. It is against the rules."
               ],
-              "correctAnswer": "B. reviewing progress"
+              "correctAnswer": "B. making career plans"
             },
             {
               "id": "cam14_t1_l_q14",
@@ -134,7 +134,7 @@
                 "B. There are some restrictions.",
                 "C. It is against the rules."
               ],
-              "correctAnswer": "D. career plans"
+              "correctAnswer": "E. reviewing progress"
             },
             {
               "id": "cam14_t1_l_q15",
@@ -264,7 +264,7 @@
                 "B. more sharing of information",
                 "C. agreement on shared policies"
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "A"
             },
             {
               "id": "cam14_t1_l_q26",
