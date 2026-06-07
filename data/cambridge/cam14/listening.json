@@ -101,7 +101,7 @@
                 "B. There are some restrictions.",
                 "C. It is against the rules."
               ],
-              "correctAnswer": "A. ask lots of questions"
+              "correctAnswer": "A"
             },
             {
               "id": "cam14_t1_l_q12",
@@ -112,7 +112,7 @@
                 "B. There are some restrictions.",
                 "C. It is against the rules."
               ],
-              "correctAnswer": "B. get to know colleagues"
+              "correctAnswer": "C"
             },
             {
               "id": "cam14_t1_l_q13",
@@ -264,7 +264,7 @@
                 "B. more sharing of information",
                 "C. agreement on shared policies"
               ],
-              "correctAnswer": "A"
+              "correctAnswer": "C. agreement on shared policies"
             },
             {
               "id": "cam14_t1_l_q26",

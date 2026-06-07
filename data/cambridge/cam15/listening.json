@@ -796,14 +796,14 @@
               "type": "form_completion",
               "question": "– 33 _____",
               "options": [],
-              "correctAnswer": "wire(s)"
+              "correctAnswer": "wire"
             },
             {
               "id": "cam15_t2_l_q34",
               "type": "form_completion",
               "question": "– 34 _____",
               "options": [],
-              "correctAnswer": "seed(s)"
+              "correctAnswer": "seed"
             },
             {
               "id": "cam15_t2_l_q35",
@@ -831,7 +831,7 @@
               "type": "form_completion",
               "question": "Farmers made special places where _____",
               "options": [],
-              "correctAnswer": "fish(es)"
+              "correctAnswer": "fish"
             },
             {
               "id": "cam15_t2_l_q39",
@@ -1207,7 +1207,7 @@
               "type": "form_completion",
               "question": "e decline in bathing contributed to occurrence of _____",
               "options": [],
-              "correctAnswer": "disease(s)"
+              "correctAnswer": "disease"
             },
             {
               "id": "cam15_t3_l_q37",
@@ -1615,7 +1615,7 @@
               "type": "form_completion",
               "question": "The leading industry was _____",
               "options": [],
-              "correctAnswer": "textile(s)"
+              "correctAnswer": "textile"
             },
             {
               "id": "cam15_t4_l_q35",

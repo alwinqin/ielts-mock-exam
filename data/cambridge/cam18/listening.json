@@ -325,7 +325,7 @@
                 "D. trying to earn a lot of money",
                 "E. openly disliking her client"
               ],
-              "correctAnswer": "E"
+              "correctAnswer": "E. openly disliking her client"
             },
             {
               "id": "cam18_t1_l_q29",
@@ -351,7 +351,7 @@
                 "D. the best time of year for fashion buying",
                 "E. the most popular fashion sizes"
               ],
-              "correctAnswer": "C"
+              "correctAnswer": "C. fashion designs people want but can't find"
             }
           ]
         },
@@ -848,14 +848,14 @@
               "type": "form_completion",
               "question": "36. Held closed with _____",
               "options": [],
-              "correctAnswer": "string(s)"
+              "correctAnswer": "string"
             },
             {
               "id": "cam18_t2_l_q37",
               "type": "form_completion",
               "question": "37. They were tied around the _____",
               "options": [],
-              "correctAnswer": "waist(s)"
+              "correctAnswer": "waist"
             },
             {
               "id": "cam18_t2_l_q38",
