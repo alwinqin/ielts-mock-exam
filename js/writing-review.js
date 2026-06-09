@@ -79,11 +79,13 @@ function showWritingTaskReview(task, btn) {
           <th style="text-align:center;padding:8px;border-bottom:1px solid var(--border-color);color:var(--text-secondary);">4</th>
           <th style="text-align:center;padding:8px;border-bottom:1px solid var(--border-color);color:var(--text-secondary);">5</th>
         </tr>
-        <tr><td style="padding:6px;border-bottom:1px solid #f0f0f0;">${t('taskAchievement')}</td><td colspan="5" style="padding:6px;border-bottom:1px solid #f0f0f0;"><input type="range" min="1" max="5" value="3" style="width:100%;" oninput="this.nextElementSibling.textContent=this.value"></td><td style="padding:6px;border-bottom:1px solid #f0f0f0;font-size:0.8rem;color:var(--text-muted);">3</td></tr>
-        <tr><td style="padding:6px;border-bottom:1px solid #f0f0f0;">${t('coherence')}</td><td colspan="5" style="padding:6px;border-bottom:1px solid #f0f0f0;"><input type="range" min="1" max="5" value="3" style="width:100%;" oninput="this.nextElementSibling.textContent=this.value"></td><td style="padding:6px;border-bottom:1px solid #f0f0f0;font-size:0.8rem;color:var(--text-muted);">3</td></tr>
-        <tr><td style="padding:6px;border-bottom:1px solid #f0f0f0;">${t('lexicalResource')}</td><td colspan="5" style="padding:6px;border-bottom:1px solid #f0f0f0;"><input type="range" min="1" max="5" value="3" style="width:100%;" oninput="this.nextElementSibling.textContent=this.value"></td><td style="padding:6px;border-bottom:1px solid #f0f0f0;font-size:0.8rem;color:var(--text-muted);">3</td></tr>
+        <tr><td style="padding:6px;border-bottom:1px solid var(--border-color);">${t('taskAchievement')}</td><td colspan="5" style="padding:6px;border-bottom:1px solid var(--border-color);"><input type="range" min="1" max="5" value="3" style="width:100%;" oninput="this.nextElementSibling.textContent=this.value"></td><td style="padding:6px;border-bottom:1px solid var(--border-color);font-size:0.8rem;color:var(--text-muted);">3</td></tr>
+        <tr><td style="padding:6px;border-bottom:1px solid var(--border-color);">${t('coherence')}</td><td colspan="5" style="padding:6px;border-bottom:1px solid var(--border-color);"><input type="range" min="1" max="5" value="3" style="width:100%;" oninput="this.nextElementSibling.textContent=this.value"></td><td style="padding:6px;border-bottom:1px solid var(--border-color);font-size:0.8rem;color:var(--text-muted);">3</td></tr>
+        <tr><td style="padding:6px;border-bottom:1px solid var(--border-color);">${t('lexicalResource')}</td><td colspan="5" style="padding:6px;border-bottom:1px solid var(--border-color);"><input type="range" min="1" max="5" value="3" style="width:100%;" oninput="this.nextElementSibling.textContent=this.value"></td><td style="padding:6px;border-bottom:1px solid var(--border-color);font-size:0.8rem;color:var(--text-muted);">3</td></tr>
         <tr><td style="padding:6px;">${t('grammar')}</td><td colspan="5" style="padding:6px;"><input type="range" min="1" max="5" value="3" style="width:100%;" oninput="this.nextElementSibling.textContent=this.value"></td><td style="padding:6px;font-size:0.8rem;color:var(--text-muted);">3</td></tr>
       </table>
+      <button class="btn btn-small btn-primary" onclick="saveWritingSelfAssessment()" style="margin-top:12px;">${t('confirm')}</button>
+      <span id="selfAssessSaved" style="display:none;margin-left:8px;font-size:0.8rem;color:var(--color-success);">&#10003; ${t('saveSuccess')}</span>
     </div>
   `;
 }
@@ -97,3 +99,22 @@ window.renderWritingReview = function(testData, container) {
   window._writingReviewTestData = testData;
   renderWritingReview(testData, container);
 };
+
+function saveWritingSelfAssessment() {
+  const sliders = document.querySelectorAll('#mainContent input[type="range"]');
+  if (sliders.length < 4) return;
+  const data = {
+    taskAchievement: parseInt(sliders[0].value),
+    coherence: parseInt(sliders[1].value),
+    lexicalResource: parseInt(sliders[2].value),
+    grammar: parseInt(sliders[3].value),
+    overall: Math.round((parseInt(sliders[0].value) + parseInt(sliders[1].value) + parseInt(sliders[2].value) + parseInt(sliders[3].value)) / 4)
+  };
+  const testId = window._writingReviewTestData?.id;
+  if (!testId) return;
+  const state = JSON.parse(localStorage.getItem('writing_state_' + testId) || '{}');
+  state.selfAssessment = data;
+  localStorage.setItem('writing_state_' + testId, JSON.stringify(state));
+  const el = document.getElementById('selfAssessSaved');
+  if (el) { el.style.display = 'inline'; setTimeout(() => { el.style.display = 'none'; }, 3000); }
+}

@@ -107,7 +107,12 @@ function updateWritingProgress() {
   const el = document.getElementById('writingWordCount');
   if (!el) return;
   const total = countWords((writingAnswers.task1 || '') + ' ' + (writingAnswers.task2 || ''));
+  const task1Words = countWords(writingAnswers.task1 || '');
+  const task2Words = countWords(writingAnswers.task2 || '');
+  const minMet = task1Words >= 150 && task2Words >= 250;
   el.innerHTML = `${t('wordCount')}: ${total}/400+ ${t('words')}`;
+  el.style.color = minMet ? '' : 'var(--color-warning)';
+  el.style.fontWeight = minMet ? '' : '600';
 }
 
 function countWords(text) {

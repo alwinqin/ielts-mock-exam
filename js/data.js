@@ -158,17 +158,22 @@ function escapeHtml(text) {
 
 // Clear ALL history data across all modules
 function clearAllHistoryData() {
-  // Reading history
-  localStorage.removeItem('attempt_history');
-  // Listening history
-  localStorage.removeItem('listening_attempt_history');
-  // Wrong book mastered marks
-  localStorage.removeItem('mastered_wrong_questions');
-  // Clear all test states (test1-test10)
-  for (let i = 1; i <= 10; i++) {
-    const id = `test${i}`;
-    clearExamData(id);
-    clearListeningData(id);
-    clearWritingData(id);
+  // Known localStorage key prefixes for all test data
+  const keyPatterns = [
+    'exam_state_', 'user_answers_', 'flagged_', 'timer_',
+    'listening_answers_', 'listening_state_', 'listening_flagged_', 'listening_timer_',
+    'writing_answers_', 'writing_state_'
+  ];
+  const keysToRemove = [];
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    if (key && keyPatterns.some(p => key.startsWith(p))) {
+      keysToRemove.push(key);
+    }
   }
+  keysToRemove.forEach(k => localStorage.removeItem(k));
+  // Remove history arrays
+  localStorage.removeItem('attempt_history');
+  localStorage.removeItem('listening_attempt_history');
+  localStorage.removeItem('mastered_wrong_questions');
 }

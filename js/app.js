@@ -1,4 +1,5 @@
 const isFileProtocol = window.location.protocol === 'file:';
+const isTauri = window.__TAURI__ !== undefined;
 
 // ===== Theme =====
 function getStoredTheme() {
@@ -18,14 +19,17 @@ function applyTheme(theme) {
 function updateThemeButton() {
   const btn = document.getElementById('themeToggle');
   if (!btn) return;
-  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark'
+    || (!document.documentElement.getAttribute('data-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
   btn.textContent = isDark ? '☾' : '☀';
   btn.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
 }
 
 function toggleTheme() {
   const current = document.documentElement.getAttribute('data-theme');
-  const next = current === 'dark' ? 'light' : 'dark';
+  const systemIsDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const isCurrentlyDark = current === 'dark' || (!current && systemIsDark);
+  const next = isCurrentlyDark ? 'light' : 'dark';
   localStorage.setItem('ielts_theme', next);
   applyTheme(next);
   updateThemeButton();
@@ -39,12 +43,23 @@ function initTheme() {
   updateThemeButton();
 }
 
+function showErrorWithRetry(container, message) {
+  const currentHash = window.location.hash;
+  container.innerHTML = `
+    <div class="error-with-retry">
+      <p>${message}</p>
+      <a href="${currentHash || '#/'}" class="btn btn-primary">${typeof t === 'function' ? t('retry') : 'Retry'}</a>
+      <a href="#/" class="btn btn-secondary" style="margin-left:8px;">${typeof t === 'function' ? t('backToTests') : 'Back'}</a>
+    </div>
+  `;
+}
+
 async function loadTestData(path) {
   // Cambridge path detection on path like "data/cambridge/cam17/reading.json"
   const camInfo = parseCambridgePath(path);
   if (camInfo) {
     let bookData;
-    if (isFileProtocol && window.__DATA_BUNDLE__) {
+    if ((isFileProtocol || isTauri) && window.__DATA_BUNDLE__) {
       const books = window.__DATA_BUNDLE__.cambridge || {};
       bookData = books[camInfo.bookId]?.[camInfo.type];
     } else {
@@ -56,7 +71,7 @@ async function loadTestData(path) {
     return { _cambridgeBook: true, bookData: bookData, type: camInfo.type, bookId: camInfo.bookId };
   }
 
-  if (isFileProtocol && window.__DATA_BUNDLE__) {
+  if ((isFileProtocol || isTauri) && window.__DATA_BUNDLE__) {
     const parts = path.replace('.json', '').split('/');
     if (parts[0] === 'data' && parts.length === 2) {
       return window.__DATA_BUNDLE__.reading[parts[1]];
@@ -91,7 +106,7 @@ const App = {
   async loadTestList() {
     // Legacy tests
     const legacyTests = [];
-    const maxTests = (isFileProtocol && window.__DATA_BUNDLE__)
+    const maxTests = ((isFileProtocol || isTauri) && window.__DATA_BUNDLE__)
       ? Object.keys(window.__DATA_BUNDLE__.reading || {}).length
       : 20;
     for (let i = 1; i <= maxTests; i++) {
@@ -382,7 +397,7 @@ const App = {
 
   async showExam(testId) {
     const container = document.getElementById('mainContent');
-    container.innerHTML = `<div class="loading">${t('loading')}</div>`;
+    container.innerHTML = `<div class="loading-state"><span class="spinner"></span>${t('loading')}</div>`;
 
     try {
       if (testId.startsWith('cam')) {
@@ -425,7 +440,7 @@ const App = {
 
   async showListeningExam(testId) {
     const container = document.getElementById('mainContent');
-    container.innerHTML = `<div class="loading">${t('loading')}</div>`;
+    container.innerHTML = `<div class="loading-state"><span class="spinner"></span>${t('loading')}</div>`;
 
     try {
       let testData;
@@ -540,7 +555,7 @@ const App = {
 
   async showWritingExam(testId) {
     const container = document.getElementById('mainContent');
-    container.innerHTML = `<div class="loading">${t('loading')}</div>`;
+    container.innerHTML = `<div class="loading-state"><span class="spinner"></span>${t('loading')}</div>`;
     try {
       const testData = await loadTestData(`data/writing/${testId}.json`);
       renderWritingExam(testData);
@@ -569,7 +584,7 @@ const App = {
 
   async showSpeakingExam(testId) {
     const container = document.getElementById('mainContent');
-    container.innerHTML = `<div class="loading">${t('loading')}</div>`;
+    container.innerHTML = `<div class="loading-state"><span class="spinner"></span>${t('loading')}</div>`;
     try {
       let testData;
       if (testId.startsWith('cam')) {

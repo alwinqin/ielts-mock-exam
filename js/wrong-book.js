@@ -58,25 +58,9 @@ function computeTypeStats(items) {
   return stats;
 }
 
-// Type label mapping
+// Type label mapping — uses shared formatTypeName from i18n.js
 function getTypeLabel(type) {
-  const labels = {
-    'multiple_choice': 'Multiple Choice',
-    'multiple_choice_multi': 'Multiple Choice (Multi)',
-    'tfng': 'True/False/Not Given',
-    'ynng': 'YES/NO/NOT GIVEN',
-    'matching_headings': 'Matching Headings',
-    'matching_info': 'Matching Information',
-    'matching_sentence': 'Matching Sentence Endings',
-    'matching_names': 'Matching Names',
-    'matching': 'Matching',
-    'sentence_completion': 'Sentence Completion',
-    'summary_completion': 'Summary Completion',
-    'notes_completion': 'Notes Completion',
-    'form_completion': 'Form Completion',
-    'short_answer': 'Short Answer'
-  };
-  return labels[type] || type;
+  return formatTypeName(type);
 }
 
 // ---- page render ----

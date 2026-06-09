@@ -1,4 +1,13 @@
 {
+  "date": "2026-06-09 13:52:52",
+  "total_answers": 0,
+  "coverage_pct": 0,
+  "confidence_counts": {
+    "high": 2236,
+    "medium": 0,
+    "low": 0,
+    "json_only": 4
+  },
   "answers": {
     "cam14": {
       "listening": {
@@ -15899,15 +15908,5 @@
       },
       "writing": {}
     }
-  },
-  "summary": {
-    "total": 2240,
-    "high_confidence": 1916,
-    "json_only": 324,
-    "needs_review": 0,
-    "last_updated": "2026-06-08",
-    "method": "cross-validated against compiled answer keys (cam14_16_answers.txt, cam18_20_answers.txt)",
-    "note": "cam17 (320 items) has no compiled answer key coverage. cam20 Q33-36 reading test 4 marked not available in source."
-  },
-  "review_items": []
+  }
 }

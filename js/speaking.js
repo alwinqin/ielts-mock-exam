@@ -166,7 +166,7 @@ function startSpeakingPrep() {
     if (remaining <= 0) {
       clearInterval(speakingPrepTimer);
       speakingPrepTimer = null;
-      if (el) el.textContent = 'Time\'s up! Start speaking!';
+      if (el) el.textContent = t('timeUpStartSpeaking');
       startSpeakingTimer();
     }
   }, 1000);
@@ -190,7 +190,7 @@ function startSpeakingTimer() {
     if (speakingPart2TimeRemaining <= 0) {
       clearInterval(speakingPart2Timer);
       speakingPart2Timer = null;
-      if (timerEl) timerEl.textContent = 'Time\'s up!';
+      if (timerEl) timerEl.textContent = t('timeUp');
       if (speakingMediaRecorder && speakingMediaRecorder.state === 'recording') {
         stopRecording();
       }
@@ -224,11 +224,12 @@ function startPart3() {
 
 function renderPart3Question(questions, idx, main) {
   if (idx >= questions.length) {
+    window.removeEventListener('beforeunload', speakingBeforeUnload);
     main.innerHTML = `
       <div class="speaking-question-panel" style="text-align:center;">
         <h3>${t('speaking')} - ${t('finish')}</h3>
-        <p style="margin:20px 0;color:var(--text-secondary);">You have completed all parts of the speaking test.</p>
-        <p style="margin-bottom:20px;color:var(--text-muted);">Review your recordings and transcriptions above.</p>
+        <p style="margin:20px 0;color:var(--text-secondary);">${t('speakingComplete')}</p>
+        <p style="margin-bottom:20px;color:var(--text-muted);">${t('reviewRecordings')}</p>
         <a href="#/" class="btn btn-primary">${t('backToTests')}</a>
       </div>
     `;
@@ -283,7 +284,7 @@ function startRecording(qid) {
   if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
     showModal({
       title: t('error'),
-      message: 'Recording not supported in this browser. Please use Chrome, Firefox, or Edge.'
+      message: t('recordingNotSupported')
     });
     return;
   }
@@ -322,7 +323,7 @@ function startRecording(qid) {
     const status = document.getElementById('speakingRecordingStatus') || document.getElementById('speakingRecordingStatus2');
     if (status) status.innerHTML = '<span style="color:var(--color-warning);">Recording... click Stop to finish</span>';
   }).catch(e => {
-    showModal({ message: 'Microphone access denied. Please allow microphone access to use the speaking test.' });
+    showModal({ message: t('microphoneDenied') });
     console.error(e);
   });
 }
@@ -350,40 +351,67 @@ function transcribeRecording(qid) {
   const btn = document.querySelector('#speakingTranscribeBtn') || document.querySelectorAll('.btn-secondary')[1];
   if (btn) btn.textContent = t('transcribing');
 
-  // Convert to WAV for whisper (best compatibility)
-  const formData = new FormData();
-  formData.append('audio', blob, 'recording.wav');
+  transcribeAudio(blob)
+    .then(text => {
+      speakingTranscriptions[qid] = text;
+      if (btn) btn.textContent = t('transcribe');
 
-  fetch('http://localhost:8081/transcribe', {
-    method: 'POST',
-    body: blob,
-    headers: { 'Content-Type': 'application/octet-stream' }
-  })
-  .then(r => r.json())
-  .then(data => {
-    const text = data.text || '';
-    speakingTranscriptions[qid] = text;
-    if (btn) btn.textContent = t('transcribe');
+      const resultArea = document.getElementById('speakingPart2Result') || document.getElementById('speakingPart3Result') || document.getElementById('speakingMain');
+      const transDiv = document.createElement('div');
+      transDiv.className = 'speaking-transcription';
+      transDiv.innerHTML = `<strong>${t('transcription')}:</strong><br>${escapeHtml(text) || '(no speech detected)'}`;
 
-    // Show transcription
-    const resultArea = document.getElementById('speakingPart2Result') || document.getElementById('speakingPart3Result') || document.getElementById('speakingMain');
-    const transDiv = document.createElement('div');
-    transDiv.className = 'speaking-transcription';
-    transDiv.innerHTML = `<strong>${t('transcription')}:</strong><br>${escapeHtml(text) || '(no speech detected)'}`;
+      const existing = document.querySelector('.speaking-question-panel');
+      if (existing) {
+        const old = existing.querySelector('.speaking-transcription');
+        if (old) old.remove();
+        existing.appendChild(transDiv);
+      }
+    })
+    .catch(e => {
+      if (btn) btn.textContent = t('transcribe');
+      showModal({ message: t('transcriptionServerDown') });
+      console.error(e);
+    });
+}
 
-    // Add to appropriate place
-    const existing = document.querySelector('.speaking-question-panel');
-    if (existing) {
-      const old = existing.querySelector('.speaking-transcription');
-      if (old) old.remove();
-      existing.appendChild(transDiv);
-    }
-  })
-  .catch(e => {
-    if (btn) btn.textContent = t('transcribe');
-    showModal({ message: 'Transcription server not running. Start it with: python3 speech-server.py' });
-    console.error(e);
-  });
+async function transcribeAudio(blob) {
+  if (typeof isTauri !== 'undefined' && isTauri && window.__TAURI__) {
+    const buf = await blob.arrayBuffer();
+    const bytes = Array.from(new Uint8Array(buf));
+    return await window.__TAURI__.core.invoke('transcribe', { audio: bytes });
+  }
+  if (typeof isFileProtocol !== 'undefined' && !isFileProtocol) {
+    const formData = new FormData();
+    formData.append('audio', blob, 'recording.wav');
+    const resp = await fetch('http://localhost:8081/transcribe', { method: 'POST', body: formData });
+    const data = await resp.json();
+    return data.text || '';
+  }
+  if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+    return new Promise((resolve, reject) => {
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      const recognition = new SpeechRecognition();
+      recognition.lang = 'en-US';
+      recognition.interimResults = false;
+      recognition.maxAlternatives = 1;
+      const audioUrl = URL.createObjectURL(blob);
+      const audio = new Audio(audioUrl);
+      recognition.onresult = (event) => {
+        resolve(event.results[0][0].transcript);
+        URL.revokeObjectURL(audioUrl);
+      };
+      recognition.onerror = (event) => {
+        URL.revokeObjectURL(audioUrl);
+        reject(new Error('Speech recognition error: ' + event.error));
+      };
+      recognition.onend = () => URL.revokeObjectURL(audioUrl);
+      audio.onended = () => recognition.stop();
+      recognition.start();
+      audio.play().catch(e => reject(e));
+    });
+  }
+  throw new Error('No transcription method available');
 }
 
 function getSupportedMimeType() {

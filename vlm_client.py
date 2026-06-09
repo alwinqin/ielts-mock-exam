@@ -23,7 +23,7 @@ VLM_API_URL = os.environ.get(
     "VLM_API_URL",
     "http://100.114.112.77:8000/v1/chat/completions",
 )
-VLM_MODEL = os.environ.get("VLM_MODEL", "Gemma-4-26B-A4B-it")
+VLM_MODEL = os.environ.get("VLM_MODEL", "Qwen3.6-27B")
 
 PDF_DIR = Path(__file__).parent / "data" / "cambridge" / "pdf"
 

@@ -1,10 +1,19 @@
 {
-  "name": "ielts-reading-exam",
+  "name": "ielts-mock-exam",
   "private": true,
   "devDependencies": {
-    "@playwright/test": "^1.52.0"
+    "@playwright/test": "^1.52.0",
+    "@tauri-apps/cli": "^2.11.2"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-shell": "^2"
   },
   "scripts": {
-    "test:e2e": "npx playwright test --config=e2e/playwright.config.js"
+    "test:e2e": "npx playwright test --config=e2e/playwright.config.js",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build",
+    "bundle": "python3 bundle_data.py"
   }
 }

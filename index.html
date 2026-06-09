@@ -8,11 +8,12 @@
   <link rel="stylesheet" href="css/style.css?v=2">
 </head>
 <body>
+  <a href="#mainContent" class="skip-link">Skip to main content</a>
   <div id="app">
     <header id="header">
       <a href="#/" class="logo" data-i18n="appTitle">雅思模拟考试</a>
       <div class="header-right">
-        <button id="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark mode" style="background:rgba(255,255,255,0.15);color:#fff;border:1px solid rgba(255,255,255,0.3);padding:6px 10px;border-radius:4px;font-size:0.85rem;margin-right:8px;">☀</button>
+        <button id="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark mode">☀</button>
         <button id="langToggle" onclick="switchLang(i18n.currentLang === 'zh' ? 'en' : 'zh')">English</button>
       </div>
     </header>
@@ -20,7 +21,7 @@
       <div class="loading" data-i18n="loading">加载中...</div>
     </main>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+  <script src="js/vendor/chart.min.js" defer></script>
   <script src="js/data-bundle.js?v=4" defer></script>
   <script src="js/i18n.js?v=4"></script>
   <script src="js/data.js?v=4"></script>

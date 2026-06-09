@@ -138,7 +138,7 @@
             {
               "id": "cam20_t1_r_q14",
               "type": "matching_info",
-              "question": "how the disease that killed the elms spreads",
+              "question": "reference to the research problems that arise from there being only a few surviving large elms",
               "options": [
                 "A",
                 "B",
@@ -153,7 +153,7 @@
             {
               "id": "cam20_t1_r_q15",
               "type": "matching_info",
-              "question": "the writer's optimism about the long-term prospects for the elm",
+              "question": "details of a difference of opinion about the value of reintroducing elms to Britain",
               "options": [
                 "A",
                 "B",
@@ -168,7 +168,7 @@
             {
               "id": "cam20_t1_r_q16",
               "type": "matching_info",
-              "question": "a description of the effect of the disease on Britain's elm trees",
+              "question": "reference to how Dutch elm disease was brought into Britain",
               "options": [
                 "A",
                 "B",
@@ -183,7 +183,7 @@
             {
               "id": "cam20_t1_r_q17",
               "type": "matching_info",
-              "question": "a project to reproduce elms that survived the disease",
+              "question": "a description of the conditions that have enabled a location in Britain to escape Dutch elm disease",
               "options": [
                 "A",
                 "B",
@@ -198,7 +198,7 @@
             {
               "id": "cam20_t1_r_q18",
               "type": "matching_info",
-              "question": "how the writer describes the scale of the destruction",
+              "question": "reference to the stage at which young elms become vulnerable to Dutch elm disease",
               "options": [
                 "A",
                 "B",
@@ -213,7 +213,7 @@
             {
               "id": "cam20_t1_r_q19",
               "type": "matching_names",
-              "question": "believes the main goal is to restore the elm to the British landscape",
+              "question": "If a tree gets infected with Dutch elm disease, the damage rapidly becomes visible.",
               "options": [
                 "A. Matt Elliot",
                 "B. Karen Russell",
@@ -224,7 +224,7 @@
             {
               "id": "cam20_t1_r_q20",
               "type": "matching_names",
-              "question": "co-ordinates the fieldwork involved in locating surviving elms",
+              "question": "It may be better to wait and see if the mature elms that have survived continue to flourish.",
               "options": [
                 "A. Matt Elliot",
                 "B. Karen Russell",
@@ -235,7 +235,7 @@
             {
               "id": "cam20_t1_r_q21",
               "type": "matching_names",
-              "question": "emphasises the importance of testing the resistance of potential trees",
+              "question": "There must be an explanation for the survival of some mature elms.",
               "options": [
                 "A. Matt Elliot",
                 "B. Karen Russell",
@@ -246,7 +246,7 @@
             {
               "id": "cam20_t1_r_q22",
               "type": "matching_names",
-              "question": "considers the elm project a model for future conservation work",
+              "question": "We need to be aware that insects carrying Dutch elm disease are not very far away.",
               "options": [
                 "A. Matt Elliot",
                 "B. Karen Russell",
@@ -257,7 +257,7 @@
             {
               "id": "cam20_t1_r_q23",
               "type": "matching_names",
-              "question": "has collected cuttings from elms that showed signs of resistance",
+              "question": "You understand the effect Dutch elm disease has had when you see evidence of how prominent the tree once was.",
               "options": [
                 "A. Matt Elliot",
                 "B. Karen Russell",
@@ -296,143 +296,131 @@
           "questions": [
             {
               "id": "cam20_t1_r_q27",
-              "type": "matching_info",
-              "question": "research findings concerning individuals who were actually experiencing stress",
+              "type": "multiple_choice",
+              "question": "In the first paragraph, the writer introduces the topic of the text by",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G"
+                "A. defining some commonly used terms.",
+                "B. questioning a widely held assumption.",
+                "C. mentioning a challenge faced by everyone.",
+                "D. specifying a situation which makes us most anxious."
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam20_t1_r_q28",
-              "type": "matching_info",
-              "question": "a biological explanation of why the brain responds to stress in a particular way",
+              "type": "multiple_choice",
+              "question": "What point does the writer make about firefighters in the second paragraph?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G"
+                "A. The regular changes of stress levels in their working lives make them ideal study subjects.",
+                "B. The strategies they use to handle stress are of particular interest to researchers.",
+                "C. The stressful nature of their job is typical of many public service professions.",
+                "D. Their personalities make them especially well-suited to working under stress."
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam20_t1_r_q29",
-              "type": "matching_info",
-              "question": "an account of how stress influences people's thinking in a financial context",
+              "type": "multiple_choice",
+              "question": "What is the writer doing in the fourth paragraph?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G"
+                "A. explaining their findings",
+                "B. justifying their approach",
+                "C. setting out their objectives",
+                "D. describing their methodology"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam20_t1_r_q30",
-              "type": "matching_info",
-              "question": "examples of how people's behaviour under stress is counterproductive",
+              "type": "multiple_choice",
+              "question": "In the seventh paragraph, the writer describes a mechanism in the brain which",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G"
+                "A. enables people to respond more quickly to stressful situations.",
+                "B. results in increased ability to control our levels of anxiety.",
+                "C. produces heightened sensitivity to indications of external threats.",
+                "D. is activated when there is a need to communicate a sense of danger."
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam20_t1_r_q31",
-              "type": "matching_info",
-              "question": "research that compared the behaviour of people under stress with those who were not",
+              "type": "sentence_completion",
+              "question": "At times when they were relaxed, the firefighters usually",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G"
+                "A. made them feel optimistic.",
+                "B. took relatively little notice of bad news.",
+                "C. responded to negative and positive information in the same way.",
+                "D. were feeling under stress.",
+                "E. put them in a stressful situation.",
+                "F. behaved in a similar manner, regardless of the circumstances.",
+                "G. thought it more likely that they would experience something bad."
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam20_t1_r_q32",
-              "type": "matching_info",
-              "question": "a reference to the persistence of the effects of stress on judgement",
+              "type": "sentence_completion",
+              "question": "The researchers noted that when the firefighters were stressed, they",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G"
+                "A. made them feel optimistic.",
+                "B. took relatively little notice of bad news.",
+                "C. responded to negative and positive information in the same way.",
+                "D. were feeling under stress.",
+                "E. put them in a stressful situation.",
+                "F. behaved in a similar manner, regardless of the circumstances.",
+                "G. thought it more likely that they would experience something bad."
               ],
               "correctAnswer": "G"
             },
             {
               "id": "cam20_t1_r_q33",
-              "type": "matching_info",
-              "question": "findings relating to people who were not able to detect a difference in their behaviour",
+              "type": "sentence_completion",
+              "question": "When the firefighters were told good news, they always",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G"
+                "A. made them feel optimistic.",
+                "B. took relatively little notice of bad news.",
+                "C. responded to negative and positive information in the same way.",
+                "D. were feeling under stress.",
+                "E. put them in a stressful situation.",
+                "F. behaved in a similar manner, regardless of the circumstances.",
+                "G. thought it more likely that they would experience something bad."
               ],
               "correctAnswer": "F"
             },
             {
               "id": "cam20_t1_r_q34",
-              "type": "matching_info",
-              "question": "how participants were made to feel stressed during a study",
+              "type": "sentence_completion",
+              "question": "The students' cortisol levels and heart rates were affected when the researchers",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G"
+                "A. made them feel optimistic.",
+                "B. took relatively little notice of bad news.",
+                "C. responded to negative and positive information in the same way.",
+                "D. were feeling under stress.",
+                "E. put them in a stressful situation.",
+                "F. behaved in a similar manner, regardless of the circumstances.",
+                "G. thought it more likely that they would experience something bad."
               ],
               "correctAnswer": "E"
             },
             {
               "id": "cam20_t1_r_q35",
-              "type": "matching_info",
-              "question": "the occupations of the people who took part in one study",
+              "type": "sentence_completion",
+              "question": "In both experiments, negative information was processed better when the subjects",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G"
+                "A. made them feel optimistic.",
+                "B. took relatively little notice of bad news.",
+                "C. responded to negative and positive information in the same way.",
+                "D. were feeling under stress.",
+                "E. put them in a stressful situation.",
+                "F. behaved in a similar manner, regardless of the circumstances.",
+                "G. thought it more likely that they would experience something bad."
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam20_t1_r_q36",
               "type": "ynng",
-              "question": "Stressed individuals are generally unaware of the effects that stress is having on their decision-making.",
+              "question": "The tone of the content we post on social media tends to reflect the nature of the posts in our feeds.",
               "options": [
                 "YES",
                 "NO",
@@ -443,7 +431,7 @@
             {
               "id": "cam20_t1_r_q37",
               "type": "ynng",
-              "question": "Stressed individuals are less capable of distinguishing between important and unimportant information.",
+              "question": "Phones have a greater impact on our stress levels than other electronic media devices.",
               "options": [
                 "YES",
                 "NO",
@@ -454,7 +442,7 @@
             {
               "id": "cam20_t1_r_q38",
               "type": "ynng",
-              "question": "Stress is more likely to affect men's judgement than women's.",
+              "question": "The more we read about a stressful public event on social media, the less able we are to take the information in.",
               "options": [
                 "YES",
                 "NO",
@@ -465,7 +453,7 @@
             {
               "id": "cam20_t1_r_q39",
               "type": "ynng",
-              "question": "The stress caused by time pressure can reduce a person's ability to think creatively.",
+              "question": "Stress created by social media posts can lead us to take unnecessary precautions.",
               "options": [
                 "YES",
                 "NO",
@@ -476,7 +464,7 @@
             {
               "id": "cam20_t1_r_q40",
               "type": "ynng",
-              "question": "Understanding how stress affects judgement can help improve performance in certain professions.",
+              "question": "Our tendency to be affected by other people's moods can be used in a positive way.",
               "options": [
                 "YES",
                 "NO",
@@ -628,7 +616,7 @@
             {
               "id": "cam20_t2_r_q14",
               "type": "matching_info",
-              "question": "the reason why procrastinators often continue to delay despite knowing the consequences",
+              "question": "mention of false assumptions about why people procrastinate",
               "options": [
                 "A",
                 "B",
@@ -642,7 +630,7 @@
             {
               "id": "cam20_t2_r_q15",
               "type": "matching_info",
-              "question": "the claim that procrastination can sometimes be beneficial",
+              "question": "reference to the realisation that others also procrastinate",
               "options": [
                 "A",
                 "B",
@@ -656,7 +644,7 @@
             {
               "id": "cam20_t2_r_q16",
               "type": "matching_info",
-              "question": "a problem with how some people label procrastinators",
+              "question": "neurological evidence of a link between procrastination and emotion",
               "options": [
                 "A",
                 "B",
@@ -711,51 +699,53 @@
             },
             {
               "id": "cam20_t2_r_q23",
-              "type": "matching_names",
-              "question": "- 24 Which TWO comparisons between employees who often procrastinate and those who do not are mentioned in the text?",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO comparisons between employees who often procrastinate and those who do not are mentioned by the writer?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. Their salaries are lower.",
+                "B. The quality of their work is inferior.",
+                "C. They don't keep their jobs for as long.",
+                "D. They don't enjoy their working lives as much.",
+                "E. They have poorer relationships with colleagues."
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam20_t2_r_q24",
-              "type": "matching_names",
-              "question": "chronic procrastinators tend to have less stable jobs",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO comparisons between employees who often procrastinate and those who do not are mentioned by the writer?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. Their salaries are lower.",
+                "B. The quality of their work is inferior.",
+                "C. They don't keep their jobs for as long.",
+                "D. They don't enjoy their working lives as much.",
+                "E. They have poorer relationships with colleagues."
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam20_t2_r_q25",
-              "type": "matching_names",
-              "question": "- 26 Which TWO recommendations for getting out of a cycle of procrastination does the writer give? A.not judging ourselves harshly B.setting ourselves manageable aims C.rewarding ourselves for tasks achieved D.prioritising tasks according to their importance E.avoiding things that stop us concentrating on our tasks",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO recommendations for getting out of a cycle of procrastination does the writer give?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D"
+                "A. not judging ourselves harshly",
+                "B. setting ourselves manageable aims",
+                "C. rewarding ourselves for tasks achieved",
+                "D. prioritising tasks according to their importance",
+                "E. avoiding things that stop us concentrating on our tasks"
               ],
               "correctAnswer": "A"
             },
             {
               "id": "cam20_t2_r_q26",
-              "type": "matching_names",
-              "question": "suggests avoiding distractions",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO recommendations for getting out of a cycle of procrastination does the writer give?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. not judging ourselves harshly",
+                "B. setting ourselves manageable aims",
+                "C. rewarding ourselves for tasks achieved",
+                "D. prioritising tasks according to their importance",
+                "E. avoiding things that stop us concentrating on our tasks"
               ],
               "correctAnswer": "E"
             }
@@ -835,81 +825,81 @@
             },
             {
               "id": "cam20_t2_r_q33",
-              "type": "matching_info",
-              "question": "what people think about the roles of officials",
+              "type": "summary_completion",
+              "question": "Calls by the umpire",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. pitch boundary",
+                "B. numerous disputes",
+                "C. team tactics",
+                "D. subjective assessment",
+                "E. widespread approval",
+                "F. former roles",
+                "G. total silence",
+                "H. perceived area"
               ],
               "correctAnswer": "F"
             },
             {
               "id": "cam20_t2_r_q34",
-              "type": "matching_info",
-              "question": "the argument that accuracy is more important than tradition",
+              "type": "summary_completion",
+              "question": "Calls by the umpire",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. pitch boundary",
+                "B. numerous disputes",
+                "C. team tactics",
+                "D. subjective assessment",
+                "E. widespread approval",
+                "F. former roles",
+                "G. total silence",
+                "H. perceived area"
               ],
               "correctAnswer": "D"
             },
             {
               "id": "cam20_t2_r_q35",
-              "type": "matching_info",
-              "question": "the area of the field that is monitored by a particular technology",
+              "type": "summary_completion",
+              "question": "Calls by the umpire",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. pitch boundary",
+                "B. numerous disputes",
+                "C. team tactics",
+                "D. subjective assessment",
+                "E. widespread approval",
+                "F. former roles",
+                "G. total silence",
+                "H. perceived area"
               ],
               "correctAnswer": "H"
             },
             {
               "id": "cam20_t2_r_q36",
-              "type": "matching_info",
-              "question": "how disagreements over decisions have increased",
+              "type": "summary_completion",
+              "question": "Calls by the umpire",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. pitch boundary",
+                "B. numerous disputes",
+                "C. team tactics",
+                "D. subjective assessment",
+                "E. widespread approval",
+                "F. former roles",
+                "G. total silence",
+                "H. perceived area"
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam20_t2_r_q37",
-              "type": "matching_info",
-              "question": "the complete quiet needed by a particular technology",
+              "type": "summary_completion",
+              "question": "Calls by the umpire",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F",
-                "G",
-                "H"
+                "A. pitch boundary",
+                "B. numerous disputes",
+                "C. team tactics",
+                "D. subjective assessment",
+                "E. widespread approval",
+                "F. former roles",
+                "G. total silence",
+                "H. perceived area"
               ],
               "correctAnswer": "G"
             },
@@ -1178,55 +1168,53 @@
             },
             {
               "id": "cam20_t3_r_q20",
-              "type": "matching_info",
-              "question": "- 21",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO of these causes of damage to coral reefs are mentioned by the writer of the text?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. a rising number of extreme storms",
+                "B. the removal of too many fish from the sea",
+                "C. the contamination of the sea from waste",
+                "D. increased disease among marine species",
+                "E. alterations in the usual flow of water in the seas"
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam20_t3_r_q21",
-              "type": "matching_info",
-              "question": "alterations in the usual flow of water in the seas",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO of these causes of damage to coral reefs are mentioned by the writer of the text?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F"
+                "A. a rising number of extreme storms",
+                "B. the removal of too many fish from the sea",
+                "C. the contamination of the sea from waste",
+                "D. increased disease among marine species",
+                "E. alterations in the usual flow of water in the seas"
               ],
               "correctAnswer": "E"
             },
             {
               "id": "cam20_t3_r_q22",
-              "type": "matching_info",
-              "question": "- 23",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO of the following statements are true of the researchers at London Zoo?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. They are hoping to expand the numbers of different corals being bred in laboratories.",
+                "B. They want to identify corals that can cope well with the changed sea conditions.",
+                "C. They are looking at ways of creating artificial reefs that corals could grow on.",
+                "D. They are trying out methods that would speed up reproduction in some corals.",
+                "E. They are investigating materials that might protect reefs from higher temperatures."
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam20_t3_r_q23",
-              "type": "matching_info",
-              "question": "trying methods to speed up reproduction",
+              "type": "multiple_choice_multi",
+              "question": "Which TWO of the following statements are true of the researchers at London Zoo?",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E",
-                "F"
+                "A. They are hoping to expand the numbers of different corals being bred in laboratories.",
+                "B. They want to identify corals that can cope well with the changed sea conditions.",
+                "C. They are looking at ways of creating artificial reefs that corals could grow on.",
+                "D. They are trying out methods that would speed up reproduction in some corals.",
+                "E. They are investigating materials that might protect reefs from higher temperatures."
               ],
               "correctAnswer": "D"
             },
@@ -1262,7 +1250,7 @@
             {
               "id": "cam20_t3_r_q27",
               "type": "matching_names",
-              "question": "believes machine intelligence will eventually overpower human intelligence",
+              "question": "For our own safety, humans will need to restrict the abilities of robots.",
               "options": [
                 "A. Martin Rees",
                 "B. Daniel Wolpert",
@@ -1273,7 +1261,7 @@
             {
               "id": "cam20_t3_r_q28",
               "type": "matching_names",
-              "question": "claims that human-like robots may cause people to treat each other less well",
+              "question": "The risk of robots harming us is less serious than humans believe it to be.",
               "options": [
                 "A. Martin Rees",
                 "B. Daniel Wolpert",
@@ -1284,7 +1272,7 @@
             {
               "id": "cam20_t3_r_q29",
               "type": "matching_names",
-              "question": "argues that the main role of the brain is to enable us to move",
+              "question": "It will take many decades for robot intelligence to be as imaginative as human intelligence.",
               "options": [
                 "A. Martin Rees",
                 "B. Daniel Wolpert",
@@ -1295,7 +1283,7 @@
             {
               "id": "cam20_t3_r_q30",
               "type": "matching_names",
-              "question": "believes we must consider both the benefits and dangers of AI",
+              "question": "We may have to start considering whether we are treating robots fairly.",
               "options": [
                 "A. Martin Rees",
                 "B. Daniel Wolpert",
@@ -1306,7 +1294,7 @@
             {
               "id": "cam20_t3_r_q31",
               "type": "matching_names",
-              "question": "states that understanding how the brain controls movement can help improve robot design",
+              "question": "Robots are probably of more help to us on Earth than in space.",
               "options": [
                 "A. Martin Rees",
                 "B. Daniel Wolpert",
@@ -1317,7 +1305,7 @@
             {
               "id": "cam20_t3_r_q32",
               "type": "matching_names",
-              "question": "says machine intelligence could be as momentous as the origin of life",
+              "question": "The ideas in high-quality science fiction may prove to be just as accurate as those found in the work of mediocre scientists.",
               "options": [
                 "A. Martin Rees",
                 "B. Daniel Wolpert",
@@ -1328,7 +1316,7 @@
             {
               "id": "cam20_t3_r_q33",
               "type": "matching_names",
-              "question": "suggests that the desire to create companions reflects a desire for control",
+              "question": "There are those who look forward to robots developing greater intelligence.",
               "options": [
                 "A. Martin Rees",
                 "B. Daniel Wolpert",
@@ -1338,40 +1326,37 @@
             },
             {
               "id": "cam20_t3_r_q34",
-              "type": "matching_info",
-              "question": "changes made to other planets for our own benefit",
+              "type": "sentence_completion",
+              "question": "Richardson and Rees express similar views regarding",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. robots to explore outer space.",
+                "B. advances made in machine intelligence so far.",
+                "C. changes made to other planets for our own benefit.",
+                "D. the harm already done by artificial intelligence."
               ],
               "correctAnswer": "C"
             },
             {
               "id": "cam20_t3_r_q35",
-              "type": "matching_info",
-              "question": "advances made in machine intelligence so far",
+              "type": "sentence_completion",
+              "question": "Rees and Wolpert share an opinion about",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. robots to explore outer space.",
+                "B. advances made in machine intelligence so far.",
+                "C. changes made to other planets for our own benefit.",
+                "D. the harm already done by artificial intelligence."
               ],
               "correctAnswer": "B"
             },
             {
               "id": "cam20_t3_r_q36",
-              "type": "matching_info",
-              "question": "the harm already done by artificial intelligence",
+              "type": "sentence_completion",
+              "question": "Wolpert disagrees with Richardson on the question of",
               "options": [
-                "A",
-                "B",
-                "C",
-                "D",
-                "E"
+                "A. robots to explore outer space.",
+                "B. advances made in machine intelligence so far.",
+                "C. changes made to other planets for our own benefit.",
+                "D. the harm already done by artificial intelligence."
               ],
               "correctAnswer": "D"
             },
@@ -1557,13 +1542,13 @@
         {
           "id": "cam20_t4_p2",
           "title": "Adapting to the Effects of Climate Change",
-          "text": "York City.\n11 O'Keeffe was the subject of Stieglitz's photographic work for many years.\n12 O'Keeffe's paintings of the patio of her house in Abiquiú were among the artist's favourite works.\n13 O'Keeffe produced a greater quantity of work during the 1950s to 1970s than at any other time in her life.\n\nTest4-reading-passage2\n\nAdapting to the effects of climate change\n\nA All around the world, nations are already preparing for, and adapting to, climate change and its impacts. Even if we stopped all CO2 emissions tomorrow, we would continue to see the impact of the CO2 already released since industrial times, with scientists forecasting that global warming would continue for around 40 years. In the meantime, ice caps would continue to melt and sea levels rise. Some countries and regions will suffer more extreme impacts from these changes than others. It's in these places that innovation is thriving.\n\nB In Miami Beach, Florida, USA, seawater isn't just breaching the island city's walls, it's seeping up through the ground, so the only way to save the city is to lift it up above sea level. Starting in the lowest and most vulnerable neighbourhoods, roads have been raised by as much as 61 centimetres. The elevation work was carried out as part of Miami Beach's ambitious but much-needed stormwater-management programme. In addition to the road adaptations, the city has set up new pumps that can remove up to 75,000 litres of water per minute. In the face of floods, climate-mitigation strategies have often been overlooked, says Yanira Pineda, a senior sustainability coordinator. She knows that they're essential\nand that the job is far from over. ‘We know that in 20, 30, 40 years, we’ll need to go\nback in there and adjust to the changing environment,’ she says.\n\nC      Seawalls are a staple strategy for many coastal communities, but on the soft,\nmuddy northern shores of Java, Indonesia, they frequently collapse, further\nexacerbating coastal erosion. There have been many attempts to restore the\nisland’s coastal mangroves: ecosystems of trees and shrubs that help defend\ncoastal areas by trapping sediment in their net-like root systems, elevating the sea\nbed and dampening the energy of waves and tidal currents. But Susanna Tol of the\nnot-for-profit organisation Wetlands International says that, while hugely popular,\nthe majority of mangrove-planting projects fail. So, Wetlands International started\nout with a different approach, building semi-permeable dams, made from bamboo\npoles and brushwood, to mimic the role of mangrove roots and create favourable\nconditions for mangroves to grow back naturally. The programme has seen\nmoderate success, mainly in areas with less subsidence. ‘Unfortunately, traditional\ninfrastructure is often single-solution focused,’ says Tol. ‘For long-term success, it’s\ncritical that we transition towards multifunctional approaches that embed natural\nprocesses and that engage and benefit communities and local decision-makers.’\n\nD      As the floodwaters rose in the rice fields of the Mekong Delta in September\n2018, four small houses rose with them. Homes in this part of Vietnam are\ntraditionally built on stilts but these ones had been built to float. The modifications\nwere made by the Buoyant Foundation Project, a not-for-profit organisation that has\nbeen researching and retrofitting amphibious houses since 2006. ‘When I started\nthis,’ explains founder Elizabeth English, ‘climate change was not on the tip of\neverybody's tongue, but this technology is becoming necessary in places that didn't\npreviously need it.' It's much cheaper than permanently elevating houses, English\nexplains – about a third of what it would cost to completely replace a building's\nfoundations. It also avoids the problem of taller houses being at greater risk from\nwind damage. Another plus comes from the fact that amphibious structures can be\nsensitively adapted to meet cultural needs and match the kind of houses that are\nalready common in a community.\n\nE      Bangladesh is especially vulnerable to climate change. Most of the country\nis less than a metre above sea level and 80 per cent of its land lies on floodplains.\n'Almost 35 million people living on the coastal belt of Bangladesh are currently\naffected by soil and water salinity,' says Raisa Chowdhury of the international\ndevelopment organisation ICCO Cooperation. Rather than fighting against it, one\nproject is helping communities adapt to salt-affected soils. ICCO Cooperation has\nbeen working with 10,000 farmers in Bangladesh to start cultivating naturally\nsalt-tolerant crops in the region. Certain varieties of carrot, potato, kohlrabi,\ncabbage and beetroot have been found to be better suited to salty soil than the rice\nand wheat that is typically grown there. Chowdhury says that the results are very\nvisible, comparing a barren plot of land to the 'beautiful, lush green vegetable\ngarden' sitting beside it, in which he and his team have been working with the\nfarmers. Since the project began, farmers trained in saline agriculture have reported\nincreases of two to three more harvests per year.\n\nF      Greg Spotts from Los Angeles (LA) in the USA is chief sustainability officer of\nthe city's street services department. He leads the Cool Streets LA programme, a",
+          "text": "Test4-reading-passage2\n\nAdapting to the effects of climate change\n\nA All around the world, nations are already preparing for, and adapting to, climate change and its impacts. Even if we stopped all CO2 emissions tomorrow, we would continue to see the impact of the CO2 already released since industrial times, with scientists forecasting that global warming would continue for around 40 years. In the meantime, ice caps would continue to melt and sea levels rise. Some countries and regions will suffer more extreme impacts from these changes than others. It's in these places that innovation is thriving.\n\nB In Miami Beach, Florida, USA, seawater isn't just breaching the island city's walls, it's seeping up through the ground, so the only way to save the city is to lift it up above sea level. Starting in the lowest and most vulnerable neighbourhoods, roads have been raised by as much as 61 centimetres. The elevation work was carried out as part of Miami Beach's ambitious but much-needed stormwater-management programme. In addition to the road adaptations, the city has set up new pumps that can remove up to 75,000 litres of water per minute. In the face of floods, climate-mitigation strategies have often been overlooked, says Yanira Pineda, a senior sustainability coordinator. She knows that they're essential\nand that the job is far from over. ‘We know that in 20, 30, 40 years, we’ll need to go\nback in there and adjust to the changing environment,’ she says.\n\nC      Seawalls are a staple strategy for many coastal communities, but on the soft,\nmuddy northern shores of Java, Indonesia, they frequently collapse, further\nexacerbating coastal erosion. There have been many attempts to restore the\nisland’s coastal mangroves: ecosystems of trees and shrubs that help defend\ncoastal areas by trapping sediment in their net-like root systems, elevating the sea\nbed and dampening the energy of waves and tidal currents. But Susanna Tol of the\nnot-for-profit organisation Wetlands International says that, while hugely popular,\nthe majority of mangrove-planting projects fail. So, Wetlands International started\nout with a different approach, building semi-permeable dams, made from bamboo\npoles and brushwood, to mimic the role of mangrove roots and create favourable\nconditions for mangroves to grow back naturally. The programme has seen\nmoderate success, mainly in areas with less subsidence. ‘Unfortunately, traditional\ninfrastructure is often single-solution focused,’ says Tol. ‘For long-term success, it’s\ncritical that we transition towards multifunctional approaches that embed natural\nprocesses and that engage and benefit communities and local decision-makers.’\n\nD      As the floodwaters rose in the rice fields of the Mekong Delta in September\n2018, four small houses rose with them. Homes in this part of Vietnam are\ntraditionally built on stilts but these ones had been built to float. The modifications\nwere made by the Buoyant Foundation Project, a not-for-profit organisation that has\nbeen researching and retrofitting amphibious houses since 2006. ‘When I started\nthis,’ explains founder Elizabeth English, ‘climate change was not on the tip of\neverybody's tongue, but this technology is becoming necessary in places that didn't\npreviously need it.' It's much cheaper than permanently elevating houses, English\nexplains – about a third of what it would cost to completely replace a building's\nfoundations. It also avoids the problem of taller houses being at greater risk from\nwind damage. Another plus comes from the fact that amphibious structures can be\nsensitively adapted to meet cultural needs and match the kind of houses that are\nalready common in a community.\n\nE      Bangladesh is especially vulnerable to climate change. Most of the country\nis less than a metre above sea level and 80 per cent of its land lies on floodplains.\n'Almost 35 million people living on the coastal belt of Bangladesh are currently\naffected by soil and water salinity,' says Raisa Chowdhury of the international\ndevelopment organisation ICCO Cooperation. Rather than fighting against it, one\nproject is helping communities adapt to salt-affected soils. ICCO Cooperation has\nbeen working with 10,000 farmers in Bangladesh to start cultivating naturally\nsalt-tolerant crops in the region. Certain varieties of carrot, potato, kohlrabi,\ncabbage and beetroot have been found to be better suited to salty soil than the rice\nand wheat that is typically grown there. Chowdhury says that the results are very\nvisible, comparing a barren plot of land to the 'beautiful, lush green vegetable\ngarden' sitting beside it, in which he and his team have been working with the\nfarmers. Since the project began, farmers trained in saline agriculture have reported\nincreases of two to three more harvests per year.\n\nF      Greg Spotts from Los Angeles (LA) in the USA is chief sustainability officer of\nthe city's street services department. He leads the Cool Streets LA programme, a",
           "timeRecommended": 20,
           "questions": [
             {
               "id": "cam20_t4_r_q14",
               "type": "matching_info",
-              "question": "how the effects of climate change are becoming more intense",
+              "question": "how a type of plant functions as a natural protection for coastlines",
               "options": [
                 "A",
                 "B",
@@ -1577,7 +1562,7 @@
             {
               "id": "cam20_t4_r_q15",
               "type": "matching_info",
-              "question": "the need to balance adaptation with emission reduction",
+              "question": "a prediction about how long it could take to start noticing the effects of climate change",
               "options": [
                 "A",
                 "B",
@@ -1591,7 +1576,7 @@
             {
               "id": "cam20_t4_r_q16",
               "type": "matching_info",
-              "question": "examples of different adaptation methods used in different parts of the world",
+              "question": "a reference to the fact that a solution is particularly cost-effective",
               "options": [
                 "A",
                 "B",
@@ -1605,7 +1590,7 @@
             {
               "id": "cam20_t4_r_q17",
               "type": "matching_info",
-              "question": "a description of specific urban adaptation strategies",
+              "question": "a mention of a technology used to locate areas most in need of intervention",
               "options": [
                 "A",
                 "B",
@@ -1654,7 +1639,7 @@
             {
               "id": "cam20_t4_r_q23",
               "type": "matching_names",
-              "question": "says we need to rethink how we build homes in flood-prone areas",
+              "question": "It is essential to adopt strategies which involve and help residents of the region.",
               "options": [
                 "A. Yanira Pineda",
                 "B. Susanna Tol",
@@ -1667,7 +1652,7 @@
             {
               "id": "cam20_t4_r_q24",
               "type": "matching_names",
-              "question": "believes cities need to invest more in green infrastructure",
+              "question": "Interventions which reduce heat are absolutely vital for our survival in this location.",
               "options": [
                 "A. Yanira Pineda",
                 "B. Susanna Tol",
@@ -1680,7 +1665,7 @@
             {
               "id": "cam20_t4_r_q25",
               "type": "matching_names",
-              "question": "argues that adaptation should focus on protecting the most vulnerable communities",
+              "question": "More work will need to be done in future decades to deal with the impact of rising water levels.",
               "options": [
                 "A. Yanira Pineda",
                 "B. Susanna Tol",
@@ -1693,7 +1678,7 @@
             {
               "id": "cam20_t4_r_q26",
               "type": "matching_names",
-              "question": "emphasises the need for international funding for adaptation",
+              "question": "The number of locations requiring action to adapt to flooding has grown in recent years.",
               "options": [
                 "A. Yanira Pineda",
                 "B. Susanna Tol",
@@ -1708,13 +1693,13 @@
         {
           "id": "cam20_t4_p3",
           "title": "Livestock Guard Dogs (A New Role for Livestock Guard Dogs)",
-          "text": "List of People\nA. Yanira Pineda\nB. Susanna Tol\nC. Elizabeth English\nD. Raisa Chowdhury\nE. Greg Spotts\n\nTest4-reading-passage3\n\nA new role for livestock guard dogs\n\nLivestock guard dogs, traditionally used to protect farm animals from predators, are\nnow being used to protect the predators themselves\n\nA      For thousands of years, livestock guard dogs worked alongside shepherds\nto protect their sheep, goats and cattle from predators such as wolves and bears.\nBut in the 19th and 20th centuries, when such predators were largely exterminated,\nmost guard dogs lost their jobs. In recent years, however, as increased efforts have\nbeen made to protect wild animals, predators have become more widespread again.\nAs a result, farmers once more need to protect their livestock, and guard dogs are\nenjoying an unexpected revival.\n\nB      Today there are around 50 breeds of guard dogs on duty in various parts of\nthe world. These dogs are raised from an early age with the animals they will be\nwatching and eventually these animals become the dog's family. The dogs will place\nthemselves between the livestock and any threat, barking loudly. If necessary, they\nwill chase away predators, but often their mere presence is sufficient. 'Their initial\ntraining is to make them understand that livestock is going to be their life,' says Dan\nMacon, a shepherd with three guard dogs. ‘A fluffy white puppy is fun to be around,\nbut too much human affection makes it a great dog for guarding the front porch,\nrather than a great livestock guard dog.’\n\nC        The evidence indicates that guard dogs are highly effective. For example, in\nPortugal, biologist Silvia Ribeiro has found that more than 90 per cent of the farmers\nparticipating in a programme to train and use guard dogs to protect their herds\nagainst attack from wolves rate the performance of the dogs as very good or\nexcellent. In a study carried out in Australia by Linda van Bommel and Chris\nJohnson at the University of Tasmania, more than 65 per cent of herders reported\nthat predation stopped completely after they got the dogs, and almost all the rest\nsaw a decrease in attacks. ‘If they are managed and used properly, livestock guard\ndogs are the most efficient control method that we have in terms of the amount of\nlivestock that they save from predation,’ says van Bommel.\n\nD        But today’s guard dogs also have a new role – to help preserve the\npredators. It is hoped that reductions in livestock losses can make farmers more\ntolerant of predators and less likely to kill them. In Namibia, more than 90 per cent of\ncheetahs live outside protected areas, close to humans raising livestock. As a result,\nthe cheetahs are often held responsible for animal losses, and large numbers have\nbeen killed by farmers. When guard dogs were introduced, more than 90 per cent of\nfarmers reported a dramatic reduction in livestock losses, and said that as a result\nthey were less likely to kill predators. Julie Young, at Utah State University in the US,\nbelieves this result applies widely. ‘There is common ground from the livestock\nperspective and from the conservation perspective,' she says. 'If ranchers don't\nhave a dead cow, they will not make a call to apply for a permit to kill a wolf.'\n\nE      Looking at all the published evidence, Bethany Smith at Nottingham Trent\nUniversity in the UK found that up to 88 per cent of farmers said they no longer killed\npredators after using dogs – but warned that such self-reported results must be\ntaken with a pinch of salt. What's more, it is possible that livestock guard dogs\nmerely displace predators to unprotected neighbouring properties, where their fate\nisn't recorded. 'In some regions, we work with almost every farmer, but in others\nonly one or two have dogs,' says Ribeiro. 'If we are not working with everybody, we\nare transferring the wolf pressure to the neighbour's herd and he can use poison\nand kill an entire pack of wolves.'\n\nF      Another concern is whether there may be unintended ecological effects of\nusing guard dogs. Studies suggest that reducing deaths of one type of predator\nmay have a negative impact on other species. The extent of this problem isn't\nknown, but the consequences are clear in Namibia. Cheetahs aren't the only\nspecies that cause sheep and goat losses there: other predators also attack\nlivestock. In 2015, researchers reported that in spite of the impact farmers obtaining\nguard dogs had on cheetahs, the number of jackals killed by dogs and people\nactually increased. Guard dogs have other ecological impacts too. They have been\nfound to spread diseases to wild animals, including endangered Ethiopian wolves.\nThey may also compete with other carnivores for food. And by creating a 'landscape\nof fear', their mere presence can influence the behaviour of prey animals.",
+          "text": "Test4-reading-passage3\n\nA new role for livestock guard dogs\n\nLivestock guard dogs, traditionally used to protect farm animals from predators, are\nnow being used to protect the predators themselves\n\nA      For thousands of years, livestock guard dogs worked alongside shepherds\nto protect their sheep, goats and cattle from predators such as wolves and bears.\nBut in the 19th and 20th centuries, when such predators were largely exterminated,\nmost guard dogs lost their jobs. In recent years, however, as increased efforts have\nbeen made to protect wild animals, predators have become more widespread again.\nAs a result, farmers once more need to protect their livestock, and guard dogs are\nenjoying an unexpected revival.\n\nB      Today there are around 50 breeds of guard dogs on duty in various parts of\nthe world. These dogs are raised from an early age with the animals they will be\nwatching and eventually these animals become the dog's family. The dogs will place\nthemselves between the livestock and any threat, barking loudly. If necessary, they\nwill chase away predators, but often their mere presence is sufficient. 'Their initial\ntraining is to make them understand that livestock is going to be their life,' says Dan\nMacon, a shepherd with three guard dogs. ‘A fluffy white puppy is fun to be around,\nbut too much human affection makes it a great dog for guarding the front porch,\nrather than a great livestock guard dog.’\n\nC        The evidence indicates that guard dogs are highly effective. For example, in\nPortugal, biologist Silvia Ribeiro has found that more than 90 per cent of the farmers\nparticipating in a programme to train and use guard dogs to protect their herds\nagainst attack from wolves rate the performance of the dogs as very good or\nexcellent. In a study carried out in Australia by Linda van Bommel and Chris\nJohnson at the University of Tasmania, more than 65 per cent of herders reported\nthat predation stopped completely after they got the dogs, and almost all the rest\nsaw a decrease in attacks. ‘If they are managed and used properly, livestock guard\ndogs are the most efficient control method that we have in terms of the amount of\nlivestock that they save from predation,’ says van Bommel.\n\nD        But today’s guard dogs also have a new role – to help preserve the\npredators. It is hoped that reductions in livestock losses can make farmers more\ntolerant of predators and less likely to kill them. In Namibia, more than 90 per cent of\ncheetahs live outside protected areas, close to humans raising livestock. As a result,\nthe cheetahs are often held responsible for animal losses, and large numbers have\nbeen killed by farmers. When guard dogs were introduced, more than 90 per cent of\nfarmers reported a dramatic reduction in livestock losses, and said that as a result\nthey were less likely to kill predators. Julie Young, at Utah State University in the US,\nbelieves this result applies widely. ‘There is common ground from the livestock\nperspective and from the conservation perspective,' she says. 'If ranchers don't\nhave a dead cow, they will not make a call to apply for a permit to kill a wolf.'\n\nE      Looking at all the published evidence, Bethany Smith at Nottingham Trent\nUniversity in the UK found that up to 88 per cent of farmers said they no longer killed\npredators after using dogs – but warned that such self-reported results must be\ntaken with a pinch of salt. What's more, it is possible that livestock guard dogs\nmerely displace predators to unprotected neighbouring properties, where their fate\nisn't recorded. 'In some regions, we work with almost every farmer, but in others\nonly one or two have dogs,' says Ribeiro. 'If we are not working with everybody, we\nare transferring the wolf pressure to the neighbour's herd and he can use poison\nand kill an entire pack of wolves.'\n\nF      Another concern is whether there may be unintended ecological effects of\nusing guard dogs. Studies suggest that reducing deaths of one type of predator\nmay have a negative impact on other species. The extent of this problem isn't\nknown, but the consequences are clear in Namibia. Cheetahs aren't the only\nspecies that cause sheep and goat losses there: other predators also attack\nlivestock. In 2015, researchers reported that in spite of the impact farmers obtaining\nguard dogs had on cheetahs, the number of jackals killed by dogs and people\nactually increased. Guard dogs have other ecological impacts too. They have been\nfound to spread diseases to wild animals, including endangered Ethiopian wolves.\nThey may also compete with other carnivores for food. And by creating a 'landscape\nof fear', their mere presence can influence the behaviour of prey animals.",
           "timeRecommended": 20,
           "questions": [
             {
               "id": "cam20_t4_r_q27",
               "type": "matching_info",
-              "question": "why some guard dogs may pose a risk to wildlife",
+              "question": "an example of how one predator has been protected by the introduction of livestock guard dogs",
               "options": [
                 "A",
                 "B",
@@ -1729,7 +1714,7 @@
             {
               "id": "cam20_t4_r_q28",
               "type": "matching_info",
-              "question": "the type of training guard dogs need",
+              "question": "an optimistic suggestion about the possible positive developments in the use of livestock guard dogs",
               "options": [
                 "A",
                 "B",
@@ -1744,7 +1729,7 @@
             {
               "id": "cam20_t4_r_q29",
               "type": "matching_info",
-              "question": "the fact that guard dogs also protect against smaller predators",
+              "question": "a description of how the methods used by livestock guard dogs help to keep predators away",
               "options": [
                 "A",
                 "B",
@@ -1759,7 +1744,7 @@
             {
               "id": "cam20_t4_r_q30",
               "type": "matching_info",
-              "question": "a comparison between modern and traditional uses of guard dogs",
+              "question": "claims by different academics that the use of livestock guard dogs is a successful way of protecting farmers' herds",
               "options": [
                 "A",
                 "B",
@@ -1774,7 +1759,7 @@
             {
               "id": "cam20_t4_r_q31",
               "type": "matching_info",
-              "question": "the importance of the bond between the dog and the livestock",
+              "question": "a reference to how livestock guard dogs gain their skills",
               "options": [
                 "A",
                 "B",
@@ -1804,7 +1789,7 @@
             {
               "id": "cam20_t4_r_q33",
               "type": "matching_names",
-              "question": "warned that self-reported results from farmers should be treated with caution",
+              "question": "Claims of a change in behaviour from those using livestock guard dogs may not be totally accurate.",
               "options": [
                 "A. Dan Macon",
                 "B. Silvia Ribeiro",
@@ -1817,7 +1802,7 @@
             {
               "id": "cam20_t4_r_q34",
               "type": "matching_names",
-              "question": "pointed out the risk that if guard dogs are not used by all farmers, predators may target unprotected neighbours",
+              "question": "There may be negative results if the use of livestock guard dogs is not sufficiently widespread.",
               "options": [
                 "A. Dan Macon",
                 "B. Silvia Ribeiro",
@@ -1830,7 +1815,7 @@
             {
               "id": "cam20_t4_r_q35",
               "type": "matching_names",
-              "question": "claimed that when properly managed, livestock guard dogs are the most effective control method available",
+              "question": "Livestock guard dogs are the best way of protecting farm animals, as long as the dogs are appropriately handled.",
               "options": [
                 "A. Dan Macon",
                 "B. Silvia Ribeiro",
@@ -1843,7 +1828,7 @@
             {
               "id": "cam20_t4_r_q36",
               "type": "matching_names",
-              "question": "noted that too much human affection can interfere with a guard dog's working ability",
+              "question": "Teaching a livestock guard dog how to do its work needs a different focus from teaching a house guard dog.",
               "options": [
                 "A. Dan Macon",
                 "B. Silvia Ribeiro",

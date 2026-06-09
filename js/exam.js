@@ -46,6 +46,18 @@ function renderExam(testData) {
   // Start timer
   Timer.init(testData.id, () => autoSubmit());
 
+  // Track focused question for keyboard shortcuts
+  window._examActiveQid = null;
+  // Keyboard shortcut: 'f' to flag/unflag the last-focused question
+  window._examShortcutHandler = function(e) {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') return;
+    if (e.key === 'f' || e.key === 'F') {
+      e.preventDefault();
+      if (window._examActiveQid) toggleFlag(window._examActiveQid);
+    }
+  };
+  document.addEventListener('keydown', window._examShortcutHandler);
+
   // If exam was already completed, don't start timer
   const state = loadExamState(testData.id);
   if (state && state.completed) {
@@ -71,7 +83,7 @@ function renderPassageTabs() {
   currentTestData.passages.forEach((p, i) => {
     tabsHtml += `<div class="passage-tab ${i === 0 ? 'active' : ''}" role="tab" aria-selected="${i === 0}" aria-controls="passage-${i}" onclick="switchPassage(${i})">${t('passage')} ${i + 1}: ${p.title}</div>`;
     contentHtml += `
-      <div class="passage-content ${i === 0 ? 'active' : ''}" data-passage="${i}">
+      <div class="passage-content ${i === 0 ? 'active' : ''}" id="passage-${i}" role="tabpanel" data-passage="${i}">
         <h2>${t('passage')} ${i + 1}: ${p.title}</h2>
         <div class="passage-text">${escapeHtml(p.text)}</div>
       </div>
@@ -149,9 +161,9 @@ function renderQuestionInput(q, qid, userAnswer) {
     case 'form_completion':
       return renderCompletion(q, qid, userAnswer);
     case 'short_answer':
-      return renderTextInput(q, qid, userAnswer);
+      return renderCompletion(q, qid, userAnswer);
     default:
-      return renderTextInput(q, qid, userAnswer);
+      return renderCompletion(q, qid, userAnswer);
   }
 }
 
@@ -231,16 +243,6 @@ function saveCheckboxAnswer(qid) {
 }
 
 function renderCompletion(q, qid, userAnswer) {
-  return `
-    <div class="options">
-      <label class="option-label">
-        <input type="text" value="${escapeHtml(userAnswer)}" onchange="saveAnswer('${escapeHtml(qid)}', this.value, this)" placeholder="..." style="flex:1;padding:6px;border:1px solid var(--border-color);border-radius:4px;">
-      </label>
-    </div>
-  `;
-}
-
-function renderTextInput(q, qid, userAnswer) {
   return `
     <div class="options">
       <label class="option-label">

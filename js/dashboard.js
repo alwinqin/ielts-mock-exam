@@ -150,6 +150,12 @@ function renderSkillRadar(stats) {
   const canvas = document.getElementById('chartSkillRadar');
   if (!canvas) return;
 
+  // Collect writing and speaking self-assessment data
+  const writingData = collectWritingSelfAssessments();
+  const speakingData = collectSpeakingSelfAssessments();
+  const writingAvg = writingData.length > 0 ? writingData.reduce((s, v) => s + v, 0) / writingData.length : 0;
+  const speakingAvg = speakingData.length > 0 ? speakingData.reduce((s, v) => s + v, 0) / speakingData.length : 0;
+
   const ctx = canvas.getContext('2d');
   DASHBOARD_CHARTS.chartSkillRadar = new Chart(ctx, {
     type: 'radar',
@@ -157,7 +163,7 @@ function renderSkillRadar(stats) {
       labels: [t('reading'), t('listening'), t('writing'), t('speaking')],
       datasets: [{
         label: t('avgBand'),
-        data: [stats.readingAvg, stats.listeningAvg, 0, 0],
+        data: [stats.readingAvg, stats.listeningAvg, writingAvg, speakingAvg],
         backgroundColor: 'rgba(74, 139, 194, 0.2)',
         borderColor: 'rgba(74, 139, 194, 1)',
         borderWidth: 2,
@@ -329,24 +335,36 @@ function renderTypeBar(readingHistory, listeningHistory) {
   });
 }
 
-function formatTypeName(type) {
-  const map = {
-    'multiple_choice': 'Multiple Choice',
-    'multiple_choice_multi': 'Multi-Select',
-    'tfng': 'True/False/NG',
-    'ynng': 'Yes/No/NG',
-    'matching_headings': 'Match Headings',
-    'matching_info': 'Match Info',
-    'matching_sentence': 'Match Sentence',
-    'matching_names': 'Match Names',
-    'matching': 'Matching',
-    'sentence_completion': 'Sentence Comp.',
-    'summary_completion': 'Summary Comp.',
-    'notes_completion': 'Notes Comp.',
-    'form_completion': 'Form Comp.',
-    'short_answer': 'Short Answer'
-  };
-  return map[type] || type;
+function collectWritingSelfAssessments() {
+  const scores = [];
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    if (key && key.startsWith('writing_state_') && key !== 'writing_state_current') {
+      try {
+        const state = JSON.parse(localStorage.getItem(key));
+        if (state && state.selfAssessment && typeof state.selfAssessment.overall === 'number') {
+          scores.push(state.selfAssessment.overall);
+        }
+      } catch (e) { /* skip corrupted entries */ }
+    }
+  }
+  return scores;
+}
+
+function collectSpeakingSelfAssessments() {
+  const scores = [];
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    if (key && key.startsWith('speaking_state_')) {
+      try {
+        const state = JSON.parse(localStorage.getItem(key));
+        if (state && state.selfAssessment && typeof state.selfAssessment.overall === 'number') {
+          scores.push(state.selfAssessment.overall);
+        }
+      } catch (e) { /* skip corrupted entries */ }
+    }
+  }
+  return scores;
 }
 
 function destroyChart(key) {

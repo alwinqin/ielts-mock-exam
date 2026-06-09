@@ -94,29 +94,11 @@ function renderReviewQuestions(allQuestions) {
 
     count++;
 
-    // Determine question type label
-    const typeLabels = {
-      'multiple_choice': 'Multiple Choice',
-      'multiple_choice_multi': 'Multiple Choice (Multi)',
-      'tfng': 'True/False/Not Given',
-      'ynng': 'YES/NO/NOT GIVEN',
-      'matching_headings': 'Matching Headings',
-      'matching_info': 'Matching Information',
-      'matching_sentence': 'Matching Sentence Endings',
-      'matching_names': 'Matching Names',
-      'matching': 'Matching',
-      'sentence_completion': 'Sentence Completion',
-      'summary_completion': 'Summary Completion',
-      'notes_completion': 'Notes Completion',
-      'form_completion': 'Form Completion',
-      'short_answer': 'Short Answer'
-    };
-
     html += `
       <div class="review-question ${statusClass}">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">
           <strong>${t('question')} ${idx + 1}</strong>
-          <span style="font-size:0.75rem;color:var(--text-muted);">${typeLabels[q.type] || q.type} | ${q.passageTitle || ''}</span>
+          <span style="font-size:0.75rem;color:var(--text-muted);">${formatTypeName(q.type)} | ${q.passageTitle || ''}</span>
         </div>
         <div class="question-text">${escapeHtml(q.question)}</div>
         <div class="review-answer">

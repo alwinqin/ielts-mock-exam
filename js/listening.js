@@ -37,7 +37,7 @@ function createAudioElement() {
     });
   }
   // Ensure audio element is in the inline container (handles re-renders)
-  var container = document.getElementById('audioPlayerContainer');
+  const container = document.getElementById('audioPlayerContainer');
   if (container && listeningAudioEl.parentNode !== container) {
     container.appendChild(listeningAudioEl);
   }
@@ -54,16 +54,16 @@ function setPlaybackRate(rate) {
 }
 
 function renderSpeedControls() {
-  var container = document.getElementById('audioPlayerContainer');
+  const container = document.getElementById('audioPlayerContainer');
   if (!container) return;
   // Remove existing speed controls
-  var existing = container.querySelector('.speed-controls');
+  const existing = container.querySelector('.speed-controls');
   if (existing) existing.remove();
   // Create speed controls
-  var speedDiv = document.createElement('div');
+  const speedDiv = document.createElement('div');
   speedDiv.className = 'speed-controls';
   speedDiv.innerHTML = PLAYBACK_RATES.map(function(r) {
-    var active = r === listeningPlaybackRate ? ' active' : '';
+    const active = r === listeningPlaybackRate ? ' active' : '';
     return '<button class="speed-btn' + active + '" onclick="setPlaybackRate(' + r + ')" aria-label="Playback speed ' + r + 'x" aria-pressed="' + (r === listeningPlaybackRate) + '">' + r + 'x</button>';
   }).join('');
   container.appendChild(speedDiv);
@@ -71,12 +71,12 @@ function renderSpeedControls() {
 
 function showAudioPlayer() {
   if (listeningAudioEl) listeningAudioEl.style.display = 'block';
-  var container = document.getElementById('audioPlayerContainer');
+  const container = document.getElementById('audioPlayerContainer');
   if (container) container.style.display = 'flex';
 }
 function hideAudioPlayer() {
   if (listeningAudioEl) { listeningAudioEl.pause(); listeningAudioEl.src = ''; listeningAudioEl.style.display = 'none'; }
-  var container = document.getElementById('audioPlayerContainer');
+  const container = document.getElementById('audioPlayerContainer');
   if (container) container.style.display = 'none';
 }
 
@@ -98,13 +98,13 @@ function startSectionPreview(sectionIndex) {
     remaining--;
     const previewEl = document.getElementById('previewTimer');
     if (previewEl) {
-      previewEl.textContent = `Preview: ${remaining}s`;
+      previewEl.textContent = `${t('previewCountdown', { n: remaining })}`;
       if (remaining <= 5) previewEl.style.color = 'var(--color-danger)';
     }
     if (remaining <= 0) {
       clearInterval(listeningPhaseTimer);
       listeningPhaseTimer = null;
-      if (previewEl) previewEl.textContent = 'Preview ended - click Play';
+      if (previewEl) previewEl.textContent = t('previewEnded');
       // Update buttons
       updateAudioBar();
       renderListeningFooter();
@@ -196,7 +196,7 @@ function completeSection() {
     if (!existing) {
       const status = document.createElement('div');
       status.className = 'section-status';
-      status.textContent = '✓ Completed';
+      status.textContent = t('sectionCompleted');
       status.style.cssText = 'color:var(--color-success);font-weight:600;margin-top:8px;';
       content.appendChild(status);
     }
@@ -265,14 +265,14 @@ function renderListeningExam(testData) {
         <span class="phase-badge" id="phaseBadge" aria-live="polite">
           ${listeningPhase === 'transfer' ? t('transferPhase') :
             listeningPhase === 'ended' ? t('listeningEnded') :
-            listeningSubPhase === 'preview' ? 'Preview Time' :
-            listeningSubPhase === 'playing' ? 'Listening' :
-            listeningSubPhase === 'section_end' ? 'Section Complete' :
+            listeningSubPhase === 'preview' ? t('previewTime') :
+            listeningSubPhase === 'playing' ? t('listeningPhaseLabel') :
+            listeningSubPhase === 'section_end' ? t('sectionCompleteStatus') :
             t('playbackPhase')}
         </span>
         ${listeningPhase === 'transfer' || listeningPhase === 'ended' ? `<div class="timer" id="listeningTimerDisplay" role="timer" aria-live="polite" aria-label="Transfer time remaining: 10 minutes">10:00</div>` : ''}
         <span id="audioTimeDisplay" style="font-size:0.8rem;color:var(--text-muted);"></span>
-        <span id="audioErrorMsg" style="display:none;color:var(--color-warning);font-size:0.8rem;">Audio file not found</span>
+        <span id="audioErrorMsg" style="display:none;color:var(--color-warning);font-size:0.8rem;">${t('audioNotAvailable')}</span>
         <span class="progress-text">
           <strong id="listeningAnswered">${Object.keys(listeningAnswers).length}</strong>/40 ${t('answered')}
           | <strong id="listeningFlagged">${listeningFlagged.length}</strong> ${t('flagged')}
@@ -302,19 +302,19 @@ function renderListeningExam(testData) {
     const panel = document.getElementById('listeningPassagePanel');
     panel.innerHTML = `
       <div style="padding:40px;text-align:center;">
-        <h2 style="color:var(--text-heading);margin-bottom:16px;">IELTS Listening Test</h2>
-        <p style="color:var(--text-secondary);margin-bottom:8px;">4 sections, 40 questions</p>
-        <p style="color:var(--text-secondary);margin-bottom:24px;">Total time: ~30 minutes + 10 minutes transfer</p>
+        <h2 style="color:var(--text-heading);margin-bottom:16px;">${t('listeningTestTitle')}</h2>
+        <p style="color:var(--text-secondary);margin-bottom:8px;">${t('listeningTestInfo')}</p>
+        <p style="color:var(--text-secondary);margin-bottom:24px;">${t('listeningTestTime')}</p>
         <button class="btn btn-primary" onclick="startExam()" style="font-size:1.1rem;padding:12px 40px;">
-          Start Exam
+          ${t('startExam')}
         </button>
       </div>
     `;
     const qPanel = document.getElementById('listeningQuestionsPanel');
     qPanel.innerHTML = `
       <div style="padding:40px;text-align:center;color:var(--text-muted);">
-        <p>Click "Start Exam" to begin the listening test.</p>
-        <p style="margin-top:8px;">Each section has 30 seconds preview time, then audio playback.</p>
+        <p>${t('listeningStartHint')}</p>
+        <p style="margin-top:8px;">${t('listeningPreviewHint')}</p>
       </div>
     `;
   } else if (listeningPhase === 'playing') {
@@ -360,11 +360,11 @@ function renderSectionTabs() {
     const played = listeningCompletedSections.includes(i);
     const isCurrent = i === listeningCurrentSection;
     const cls = `${isCurrent ? 'active' : ''} ${played ? 'played' : ''}`;
-    tabsHtml += `<div class="section-tab ${cls}" role="tab" aria-selected="${isCurrent}" onclick="switchListeningSection(${i})">
+    tabsHtml += `<div class="section-tab ${cls}" id="section-tab-${i}" role="tab" aria-selected="${isCurrent}" aria-controls="section-content-${i}" onclick="switchListeningSection(${i})">
       ${t('section')} ${i + 1}${played ? ' ✓' : ''}
     </div>`;
     contentHtml += `
-      <div class="section-content ${isCurrent ? 'active' : ''}" data-section="${i}">
+      <div class="section-content ${isCurrent ? 'active' : ''}" id="section-content-${i}" role="tabpanel" aria-labelledby="section-tab-${i}">
         <h2>${t('section')} ${i + 1}: ${s.title || ''}</h2>
         <div class="section-subtitle">${s.subtitle || ''}</div>
         ${renderSectionContext(s)}
@@ -415,7 +415,7 @@ function renderProgressBar() {
 }
 
 function switchListeningSection(index) {
-  var prevSection = listeningCurrentSection;
+  const prevSection = listeningCurrentSection;
   listeningCurrentSection = index;
   document.querySelectorAll('.section-tab').forEach((tab, i) => { tab.classList.toggle('active', i === index); tab.setAttribute('aria-selected', i === index); });
   document.querySelectorAll('.section-content').forEach((el, i) => el.classList.toggle('active', i === index));
@@ -426,7 +426,7 @@ function switchListeningSection(index) {
     renderListeningQuestions(index, disabled);
   } else {
     const qPanel = document.getElementById('listeningQuestionsPanel');
-    if (qPanel) qPanel.innerHTML = '<div style="padding:24px;text-align:center;color:var(--text-muted);">This section is not yet available.</div>';
+    if (qPanel) qPanel.innerHTML = '<div style="padding:24px;text-align:center;color:var(--text-muted);">' + t('sectionNotAvailable') + '</div>';
   }
   updateAudioBar();
 }
@@ -446,7 +446,7 @@ function renderListeningQuestions(sectionIndex, disabled) {
     html += `
       <div class="question-header">
         <span class="question-number">${t('question')} ${getListeningGlobalNum(qid)}</span>
-        <button class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleListeningFlag('${qid}')" ${disabled ? 'disabled' : ''} aria-label="${isFlagged ? 'Unflag' : 'Flag'} question ${getListeningGlobalNum(qid)}">${isFlagged ? 'Flagged' : 'Flag'}</button>
+        <button class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleListeningFlag('${qid}')" ${disabled ? 'disabled' : ''} aria-label="${isFlagged ? t('unflag') : t('flag')} question ${getListeningGlobalNum(qid)}">${isFlagged ? t('flagged') : t('flag')}</button>
       </div>
     `;
     html += `<div class="question-text">${escapeHtml(q.question)}</div>`;
@@ -472,11 +472,11 @@ function renderListeningQuestionInput(q, qid, userAnswer, disabled) {
       const areLabels = (q.options || []).every(opt => opt.length <= 2);
       (q.options || []).forEach(opt => {
         const sel = userAnswer === opt;
-        const label = areLabels ? 'Option ' + opt : opt;
+        const label = areLabels ? t('optionLetter', { n: opt }) : opt;
         mcHtml += `<label class="option-label ${sel ? 'selected' : ''}"><input type="radio" name="lq_${qid}" value="${escapeHtml(opt)}" ${sel ? 'checked' : ''} onchange="saveListeningAnswer('${qid}', this.value)" ${ds}>${escapeHtml(label)}</label>`;
       });
       if (areLabels && (q.options || []).length > 0) {
-        mcHtml += '<div class="option-hint">Refer to the original question paper for full option text</div>';
+        mcHtml += '<div class="option-hint">' + t('referToPaper') + '</div>';
       }
       mcHtml += '</div>';
       return mcHtml;
@@ -594,13 +594,13 @@ function updateAudioBar() {
   if (!phaseBadge) return;
 
   if (listeningSubPhase === 'preview') {
-    phaseBadge.textContent = 'Preview Time';
+    phaseBadge.textContent = t('previewTime');
     phaseBadge.className = 'phase-badge preview';
   } else if (listeningSubPhase === 'playing') {
-    phaseBadge.textContent = `Listening - Section ${listeningCurrentSection + 1}`;
+    phaseBadge.textContent = t('listeningSectionPhase', { n: listeningCurrentSection + 1 });
     phaseBadge.className = 'phase-badge playback';
   } else if (listeningSubPhase === 'section_end') {
-    phaseBadge.textContent = 'Section Complete';
+    phaseBadge.textContent = t('sectionCompleteStatus');
     phaseBadge.className = 'phase-badge ended';
   } else if (listeningPhase === 'transfer') {
     phaseBadge.textContent = t('transferPhase');
@@ -637,31 +637,31 @@ function renderListeningFooter() {
     footer.innerHTML = `
       <div class="listening-footer-bar">
         <span style="font-size:0.85rem;color:var(--color-warning);font-weight:600;">
-          Preview Time: <span id="previewTimer" aria-live="polite">Preview: ${PREVIEW_SECONDS}s</span>
+          ${t('previewTimeLabel')}<span id="previewTimer" aria-live="polite">${t('previewCountdown', { n: PREVIEW_SECONDS })}</span>
         </span>
-        <span style="margin-left:12px;font-size:0.85rem;color:var(--text-muted);">Read the questions. You cannot answer during preview.</span>
-        <button class="btn btn-primary btn-small" onclick="startSectionAudio()" style="margin-left:auto;">Start Audio ▸</button>
+        <span style="margin-left:12px;font-size:0.85rem;color:var(--text-muted);">${t('readQuestionsHint')}</span>
+        <button class="btn btn-primary btn-small" onclick="startSectionAudio()" style="margin-left:auto;">${t('startAudioBtn')}</button>
       </div>
     `;
   } else if (listeningSubPhase === 'playing') {
     const nextBtn = listeningCurrentSection < listeningTestData.sections.length - 1 ?
-      `<button class="btn btn-primary btn-small" onclick="nextSection()" style="margin-left:8px;">Complete Section & Next ▸</button>` :
-      `<button class="btn btn-primary btn-small" onclick="nextSection()" style="margin-left:8px;">Finish & Start Transfer ▸</button>`;
+      `<button class="btn btn-primary btn-small" onclick="nextSection()" style="margin-left:8px;">${t('completeSectionBtn')}</button>` :
+      `<button class="btn btn-primary btn-small" onclick="nextSection()" style="margin-left:8px;">${t('finishTransferBtn')}</button>`;
     footer.innerHTML = `
       <div class="listening-footer-bar">
         <button class="play-btn" onclick="if(listeningAudioEl && listeningAudioEl.paused) { listeningAudioEl.play(); } else if(listeningAudioEl) { listeningAudioEl.pause(); }">
-          ${listeningAudioEl && !listeningAudioEl.paused ? 'Pause' : 'Play'}
+          ${listeningAudioEl && !listeningAudioEl.paused ? t('pauseAudio') : t('playAudio')}
         </button>
-        <span style="margin-left:8px;font-size:0.85rem;color:var(--text-muted);">Section ${listeningCurrentSection + 1} - Answer the questions while listening</span>
+        <span style="margin-left:8px;font-size:0.85rem;color:var(--text-muted);">${t('sectionAnswerHint', { n: listeningCurrentSection + 1 })}</span>
         ${nextBtn}
       </div>
     `;
   } else if (listeningSubPhase === 'section_end') {
     footer.innerHTML = `
       <div class="listening-footer-bar">
-        <span style="color:var(--color-success);font-weight:600;">Section ${listeningCurrentSection + 1} Completed ✓</span>
+        <span style="color:var(--color-success);font-weight:600;">${t('sectionCompletedLabel', { n: listeningCurrentSection + 1 })}</span>
         <button class="btn btn-primary btn-small" onclick="nextSection()" style="margin-left:12px;">
-          ${listeningCurrentSection < listeningTestData.sections.length - 1 ? 'Start Section ' + (listeningCurrentSection + 2) + ' ▸' : 'Start 10-min Transfer ▸'}
+          ${listeningCurrentSection < listeningTestData.sections.length - 1 ? t('startSectionBtn', { n: listeningCurrentSection + 2 }) : t('startTransferBtn')}
         </button>
       </div>
     `;
@@ -709,8 +709,8 @@ function enterTransferPhase() {
 
 function startTransferTimer() {
   if (listeningPhaseTimer) { clearInterval(listeningPhaseTimer); }
-  var st = loadListeningState(listeningTestData.id) || {};
-  var remaining = st.transferRemaining || 600;
+  const st = loadListeningState(listeningTestData.id) || {};
+  let remaining = st.transferRemaining || 600;
 
   listeningPhaseTimer = setInterval(() => {
     remaining--;

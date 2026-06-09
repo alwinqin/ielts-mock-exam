@@ -733,4 +733,203 @@ test.describe('IELTS Mock Exam System — E2E Validation', () => {
       });
     });
   });
+
+  // ═══════════════════════════════════════════════
+  // 13. Wrong Book & i18n
+  // ═══════════════════════════════════════════════
+  test.describe('13. Wrong Book & i18n', () => {
+    test('13.1 Wrong book page loads with empty state', async ({ page }) => {
+      await goTo(page, '/#/wrong-book');
+      await page.waitForTimeout(500);
+
+      const heading = page.locator('.wrong-book-container h1');
+      await expect(heading).toBeVisible();
+      await expect(heading).toContainText(/Wrong Answer Book|错题本/);
+
+      // Empty state should show
+      const empty = page.locator('.wrong-book-empty');
+      await expect(empty).toBeVisible();
+    });
+
+    test('13.2 Wrong book shows seeded wrong answers', async ({ page }) => {
+      // Seed wrong answers
+      await goTo(page, '/');
+      await page.waitForTimeout(300);
+      await page.evaluate(() => {
+        const attempts = [{
+          testId: 'cam17_test1', date: new Date().toISOString(), score: 30, total: 40,
+          bandScore: 7.0, timeTaken: 3300, answers: {},
+          wrongAnswers: [
+            { testId: 'cam17_test1', questionNumber: 1, type: 'tfng', question: 'Test Q1', yourAnswer: 'True', correctAnswer: 'False' },
+            { testId: 'cam17_test1', questionNumber: 5, type: 'matching_headings', question: 'Test Q5', yourAnswer: 'iii', correctAnswer: 'v' }
+          ],
+          typeCounts: { tfng: 8, matching_headings: 6 }
+        }];
+        localStorage.setItem('attempt_history', JSON.stringify(attempts));
+      });
+
+      await goTo(page, '/#/wrong-book');
+      await page.waitForTimeout(500);
+
+      // Should show stats and wrong items
+      const statCards = page.locator('.stat-card');
+      await expect(statCards).toHaveCount(3);
+
+      const wrongItems = page.locator('.wrong-item');
+      await expect(wrongItems).toHaveCount(2);
+
+      // Type filter buttons should be visible
+      const filterBtns = page.locator('.type-filter-btn');
+      const btnCount = await filterBtns.count();
+      expect(btnCount).toBeGreaterThanOrEqual(2);
+
+      // Clean up
+      await page.evaluate(() => localStorage.removeItem('attempt_history'));
+    });
+
+    test('13.3 i18n persists across page navigation', async ({ page }) => {
+      await goTo(page, '/');
+      // Set to Chinese
+      await page.evaluate(() => {
+        localStorage.setItem('ielts_lang', 'zh');
+        if (typeof switchLang === 'function') switchLang('zh');
+      });
+      await page.waitForTimeout(300);
+
+      const langAfterSet = await page.evaluate(() => localStorage.getItem('ielts_lang'));
+      expect(langAfterSet).toBe('zh');
+
+      // Navigate to another page
+      await goTo(page, '/#/wrong-book');
+      await page.waitForTimeout(300);
+
+      const langAfterNav = await page.evaluate(() => localStorage.getItem('ielts_lang'));
+      expect(langAfterNav).toBe('zh');
+
+      // Restore
+      await page.evaluate(() => {
+        localStorage.setItem('ielts_lang', 'en');
+        if (typeof switchLang === 'function') switchLang('en');
+      });
+    });
+
+    test('13.4 Listening exam renders skip-link', async ({ page }) => {
+      await goTo(page, '/');
+      // Navigate to listening
+      await page.locator('button.tab-btn', { hasText: /Listening|听力/ }).click();
+      await page.waitForTimeout(500);
+      const exam = page.locator('a[href*="listening-exam"]').first();
+      if (await exam.count() > 0) {
+        await exam.click();
+        await page.waitForTimeout(800);
+        // Check for skip link
+        const skipLink = page.locator('.skip-link');
+        await expect(skipLink).toBeVisible();
+        // Focus it and verify it becomes visible
+        await skipLink.focus();
+        const isVisible = await skipLink.isVisible();
+        expect(isVisible).toBeTruthy();
+      }
+    });
+  });
+
+  test.describe('14. Tauri Desktop Readiness', () => {
+    test('14.1 Environment variables: isTauri and isFileProtocol defined', async ({ page }) => {
+      await goTo(page, '/');
+      const vars = await page.evaluate(() => ({
+        isFileProtocol: typeof isFileProtocol !== 'undefined',
+        isTauri: typeof isTauri !== 'undefined',
+        isBrowser: !isFileProtocol && !isTauri
+      }));
+      expect(vars.isFileProtocol).toBeDefined();
+      expect(vars.isTauri).toBeDefined();
+      // In Playwright with HTTP server, we're in browser mode
+      expect(vars.isBrowser).toBe(true);
+    });
+
+    test('14.2 transcribeAudio function exists and handles missing methods', async ({ page }) => {
+      await goTo(page, '/');
+      await page.waitForTimeout(300);
+      const hasFn = await page.evaluate(() => typeof transcribeAudio === 'function');
+      expect(hasFn).toBe(true);
+      // Verify the function fails gracefully with no methods available
+      const errMsg = await page.evaluate(async () => {
+        try {
+          const fakeBlob = new Blob(['fake']);
+          await transcribeAudio(fakeBlob);
+          return 'resolved-unexpectedly';
+        } catch (e) {
+          return e.message;
+        }
+      });
+      // In HTTP mode, fetch to localhost:8081 fails with network error
+      const isExpected = errMsg.includes('No transcription method') || errMsg.includes('Failed to fetch') || errMsg === 'resolved-unexpectedly';
+      expect(isExpected).toBe(true);
+    });
+
+    test('14.3 Chart.js loaded from local file', async ({ page }) => {
+      await goTo(page, '/');
+      const chartLoaded = await page.evaluate(() => {
+        return typeof Chart !== 'undefined' && typeof Chart.defaults !== 'undefined';
+      });
+      expect(chartLoaded).toBe(true);
+      // Verify no CDN dependency (local vendor file)
+      const scripts = await page.evaluate(() =>
+        Array.from(document.querySelectorAll('script[src]')).map(s => s.src)
+      );
+      const cdnScripts = scripts.filter(s => s.includes('cdn.jsdelivr.net'));
+      expect(cdnScripts.length).toBe(0);
+    });
+
+    test('14.4 Audio paths use relative format', async ({ page }) => {
+      const { readFileSync } = require('fs');
+      const listeningPath = 'js/listening.js';
+      const content = readFileSync(listeningPath, 'utf8');
+      // Verify audio path construction uses relative paths
+      expect(content).toContain("data/cambridge/audio/");
+      expect(content).toContain("data/listening/audio/");
+      // Verify no hardcoded absolute paths
+      expect(content).not.toContain('/Volumes/EcommerceHDD/');
+    });
+
+    test('14.5 Tauri Cargo.toml dependencies', () => {
+      const { readFileSync } = require('fs');
+      const cargoPath = 'src-tauri/Cargo.toml';
+      const content = readFileSync(cargoPath, 'utf8');
+      expect(content).toContain('tauri =');
+      expect(content).toContain('tauri-plugin-shell');
+      expect(content).toContain('serde');
+    });
+
+    test('14.6 Tauri config has CSP and window settings', () => {
+      const { readFileSync } = require('fs');
+      const configPath = 'src-tauri/tauri.conf.json';
+      const config = JSON.parse(readFileSync(configPath, 'utf8'));
+      expect(config.app.security.csp).toBeDefined();
+      expect(config.app.windows[0].title).toBe('IELTS Mock Exam');
+      expect(config.app.windows[0].minWidth).toBe(1024);
+      // Resources use paths relative to src-tauri/ (../ prefix)
+      const resourceKeys = Object.keys(config.bundle.resources);
+      expect(resourceKeys.length).toBeGreaterThan(0);
+      expect(resourceKeys.some(k => k.includes('js'))).toBe(true);
+      expect(resourceKeys.some(k => k.includes('data/cambridge/audio'))).toBe(true);
+    });
+
+    test('14.7 Offline bundle file:// protocol readiness', async ({ page }) => {
+      await goTo(page, '/');
+      // Verify data-bundle exists for offline mode
+      const hasBundle = await page.evaluate(() => {
+        return typeof window.__DATA_BUNDLE__ !== 'undefined';
+      });
+      expect(hasBundle).toBe(true);
+
+      // Verify key data structures in bundle
+      const bundleKeys = await page.evaluate(() => {
+        const b = window.__DATA_BUNDLE__;
+        return b ? Object.keys(b) : [];
+      });
+      expect(bundleKeys).toContain('reading');
+      expect(bundleKeys).toContain('cambridge');
+    });
+  });
 });

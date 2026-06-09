@@ -1,0 +1,128 @@
+name: Build Desktop App
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src-tauri/**'
+      - 'js/**'
+      - 'css/**'
+      - 'index.html'
+      - 'data/**'
+      - '.github/workflows/build.yml'
+  schedule:
+    - cron: '17 2 * * *'  # Daily at 2:17 UTC
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  build-macos:
+    name: Build macOS (.dmg)
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: aarch64-apple-darwin,x86_64-apple-darwin
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Generate data bundle
+        run: python3 bundle_data.py
+
+      - name: Copy audio files (placeholder)
+        run: |
+          mkdir -p data/cambridge/audio data/listening/audio
+          # Audio files are not in the repo; create placeholder to allow build
+          echo "Audio files are bundled separately" > data/cambridge/audio/README.txt
+          echo "Audio files are bundled separately" > data/listening/audio/README.txt
+
+      - name: Build Tauri app
+        run: npx tauri build --target universal-apple-darwin
+        env:
+          APPLE_SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
+          APPLE_CERTIFICATE: ${{ secrets.APPLE_CERTIFICATE }}
+          APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
+          APPLE_ID: ${{ secrets.APPLE_ID }}
+          APPLE_PASSWORD: ${{ secrets.APPLE_PASSWORD }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+
+      - name: Upload DMG artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ielts-macos-dmg
+          path: src-tauri/target/release/bundle/dmg/*.dmg
+
+  build-windows:
+    name: Build Windows (.msi)
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: x86_64-pc-windows-msvc
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Generate data bundle
+        run: python3 bundle_data.py
+
+      - name: Copy audio files (placeholder)
+        run: |
+          mkdir -p data/cambridge/audio data/listening/audio
+          echo "Audio files are bundled separately" > data/cambridge/audio/README.txt
+          echo "Audio files are bundled separately" > data/listening/audio/README.txt
+
+      - name: Build Tauri app
+        run: npx tauri build --target x86_64-pc-windows-msvc
+
+      - name: Upload MSI artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ielts-windows-msi
+          path: src-tauri/target/release/bundle/msi/*.msi
+
+  release-draft:
+    name: Create Release Draft
+    runs-on: ubuntu-latest
+    needs: [build-macos, build-windows]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download macOS artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: ielts-macos-dmg
+
+      - name: Download Windows artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: ielts-windows-msi
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "IELTS Mock Exam - Build ${{ github.run_number }}"
+          tag_name: "build-${{ github.run_number }}"
+          draft: true
+          files: |
+            *.dmg
+            *.msi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
