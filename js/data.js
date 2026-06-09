@@ -156,6 +156,19 @@ function escapeHtml(text) {
   return div.innerHTML;
 }
 
+// Shared answer grading — used by reading, listening, and wrong-book
+function gradeAnswer(userAnswer, correctAnswer, questionType) {
+  const ua = (userAnswer || '').trim().toLowerCase();
+  const ca = (correctAnswer || '').trim().toLowerCase();
+  if (questionType === 'multiple_choice_multi') {
+    const userParts = ua.split(',').map(s => s.trim()).filter(Boolean).sort();
+    const correctParts = ca.split(',').map(s => s.trim()).filter(Boolean).sort();
+    return userParts.length === correctParts.length
+      && userParts.every((v, i) => v === correctParts[i]);
+  }
+  return ua === ca;
+}
+
 // Clear ALL history data across all modules
 function clearAllHistoryData() {
   // Known localStorage key prefixes for all test data

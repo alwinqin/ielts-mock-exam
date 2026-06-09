@@ -392,14 +392,7 @@ function submitRedoAnswer() {
     }
   }
 
-  let isCorrect;
-  if (_redoQuestion.type === 'multiple_choice_multi') {
-    const userParts = userAnswer.toLowerCase().split(',').map(s => s.trim()).filter(Boolean).sort();
-    const correctParts = (_redoQuestion.correctAnswer || '').toLowerCase().split(',').map(s => s.trim()).filter(Boolean).sort();
-    isCorrect = userParts.length === correctParts.length && userParts.every((v, i) => v === correctParts[i]);
-  } else {
-    isCorrect = userAnswer.trim().toLowerCase() === (_redoQuestion.correctAnswer || '').trim().toLowerCase();
-  }
+  const isCorrect = gradeAnswer(userAnswer, _redoQuestion.correctAnswer, _redoQuestion.type);
 
   resultEl.innerHTML = `
     <div class="redo-result ${isCorrect ? 'correct' : 'wrong'}">

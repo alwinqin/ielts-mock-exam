@@ -757,16 +757,7 @@ function listeningSubmitExam(isAuto) {
   let correct = 0;
   const wrongItems = [];
   listeningAllQuestions.forEach((q, idx) => {
-    const userAns = (listeningAnswers[q.id] || '').trim().toLowerCase();
-    const correctAns = (q.correctAnswer || '').trim().toLowerCase();
-    let isCorrect;
-    if (q.type === 'multiple_choice_multi') {
-      const userParts = userAns.split(',').map(s => s.trim()).filter(Boolean).sort();
-      const correctParts = correctAns.split(',').map(s => s.trim()).filter(Boolean).sort();
-      isCorrect = userParts.length === correctParts.length && userParts.every((v, i) => v === correctParts[i]);
-    } else {
-      isCorrect = userAns === correctAns;
-    }
+    const isCorrect = gradeAnswer(listeningAnswers[q.id], q.correctAnswer, q.type);
     if (isCorrect) correct++;
     else {
       wrongItems.push({

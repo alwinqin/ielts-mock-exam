@@ -44,10 +44,10 @@ function initTheme() {
 }
 
 function showErrorWithRetry(container, message) {
-  const currentHash = window.location.hash;
+  const currentHash = escapeHtml(window.location.hash);
   container.innerHTML = `
     <div class="error-with-retry">
-      <p>${message}</p>
+      <p>${escapeHtml(message)}</p>
       <a href="${currentHash || '#/'}" class="btn btn-primary">${typeof t === 'function' ? t('retry') : 'Retry'}</a>
       <a href="#/" class="btn btn-secondary" style="margin-left:8px;">${typeof t === 'function' ? t('backToTests') : 'Back'}</a>
     </div>
@@ -143,7 +143,7 @@ const App = {
               cambridgeBooks.push({ bookId, bookTitle: data.title, tests, source: 'cambridge' });
             }
           }
-        } catch (e) { /* not available */ }
+        } catch (e) { if (e.name !== 'TypeError' && e.message !== 'Failed to fetch') { console.warn('Reading scan failed for', bookId, e); } }
         try {
           const resp = await fetch(`data/cambridge/${bookId}/listening.json`);
           if (resp.ok) {
@@ -153,7 +153,7 @@ const App = {
               cambridgeListeningBooks.push({ bookId, bookTitle: data.title, tests, source: 'cambridge' });
             }
           }
-        } catch (e) { /* not available */ }
+        } catch (e) { if (e.name !== 'TypeError' && e.message !== 'Failed to fetch') { console.warn('Listening scan failed for', bookId, e); } }
       }
     }
 

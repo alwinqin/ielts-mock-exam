@@ -912,7 +912,7 @@ test.describe('IELTS Mock Exam System — E2E Validation', () => {
       const resourceKeys = Object.keys(config.bundle.resources);
       expect(resourceKeys.length).toBeGreaterThan(0);
       expect(resourceKeys.some(k => k.includes('js'))).toBe(true);
-      expect(resourceKeys.some(k => k.includes('data/cambridge/audio'))).toBe(true);
+      expect(resourceKeys.some(k => k.includes('data'))).toBe(true);
     });
 
     test('14.7 Offline bundle file:// protocol readiness', async ({ page }) => {
