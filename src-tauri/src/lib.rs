@@ -19,11 +19,17 @@ async fn get_app_data_dir(app: tauri::AppHandle) -> Result<String, String> {
     Ok(data_dir.to_string_lossy().to_string())
 }
 
+#[tauri::command]
+fn debug_log(msg: String) {
+    eprintln!("[JS-DEBUG] {}", msg);
+}
+
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     tauri::Builder::default()
         .plugin(tauri_plugin_shell::init())
         .invoke_handler(tauri::generate_handler![
+            debug_log,
             get_audio_path,
             get_app_data_dir,
             whisper::transcribe,

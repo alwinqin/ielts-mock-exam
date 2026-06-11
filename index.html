@@ -10,21 +10,21 @@
 <body>
   <a href="#mainContent" class="skip-link">Skip to main content</a>
   <div id="app">
-    <header id="header">
+    <header id="header" data-version="clean-build-v2">
       <a href="#/" class="logo" data-i18n="appTitle">雅思模拟考试</a>
       <div class="header-right">
-        <button id="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark mode">☀</button>
-        <button id="langToggle" onclick="switchLang(i18n.currentLang === 'zh' ? 'en' : 'zh')">English</button>
+        <button id="themeToggle" aria-label="Toggle dark mode">☀</button>
+        <button id="langToggle">English</button>
       </div>
     </header>
     <main id="mainContent">
       <div class="loading" data-i18n="loading">加载中...</div>
     </main>
   </div>
-  <script src="js/vendor/chart.min.js" defer></script>
-  <script src="js/data-bundle.js?v=4" defer></script>
-  <script src="js/i18n.js?v=4"></script>
-  <script src="js/data.js?v=4"></script>
+  <script src="js/i18n.js?v=5"></script>
+  <script src="js/data.js?v=5"></script>
+  <script src="js/vendor/chart.min.js?v=5"></script>
+  <script src="js/data-bundle.js?v=5"></script>
   <script src="js/modal.js?v=1"></script>
   <script src="js/cambridge-adapter.js?v=4"></script>
   <script src="js/review.js?v=4"></script>
@@ -38,6 +38,667 @@
   <script src="js/speaking.js?v=4"></script>
   <script src="js/wrong-book.js?v=4"></script>
   <script src="js/dashboard.js?v=4"></script>
-  <script src="js/app.js?v=4"></script>
+  <script>
+(function(){
+  const isFileProtocol = window.location.protocol === 'file:';
+  window.isFileProtocol = isFileProtocol;
+  const isTauri = window.__TAURI__ !== undefined;
+  window.isTauri = isTauri;
+
+  // ===== Theme =====
+  function getStoredTheme() {
+    return localStorage.getItem('ielts_theme');
+  }
+
+  function applyTheme(theme) {
+    if (theme === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    } else if (theme === 'light') {
+      document.documentElement.setAttribute('data-theme', 'light');
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+    }
+  }
+
+  function updateThemeButton() {
+    const btn = document.getElementById('themeToggle');
+    if (!btn) return;
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark'
+      || (!document.documentElement.getAttribute('data-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    btn.textContent = isDark ? '☾' : '☀';
+    btn.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+  }
+
+  window.toggleTheme = function() {
+    const current = document.documentElement.getAttribute('data-theme');
+    const systemIsDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const isCurrentlyDark = current === 'dark' || (!current && systemIsDark);
+    const next = isCurrentlyDark ? 'light' : 'dark';
+    localStorage.setItem('ielts_theme', next);
+    applyTheme(next);
+    updateThemeButton();
+  };
+
+  function initTheme() {
+    const stored = getStoredTheme();
+    if (stored) {
+      applyTheme(stored);
+    }
+    updateThemeButton();
+  }
+
+  function showErrorWithRetry(container, message) {
+    const currentHash = escapeHtml(window.location.hash);
+    container.innerHTML = '<div class="error-with-retry"><p>' + escapeHtml(message) + '</p><a href="' + (currentHash || '#/') + '" class="btn btn-primary">' + (typeof t === 'function' ? t('retry') : 'Retry') + '</a><a href="#/" class="btn btn-secondary" style="margin-left:8px;">' + (typeof t === 'function' ? t('backToTests') : 'Back') + '</a></div>';
+  }
+
+  async function loadTestData(path) {
+    const camInfo = parseCambridgePath(path);
+    if (camInfo) {
+      let bookData;
+      if ((isFileProtocol || isTauri) && window.__DATA_BUNDLE__) {
+        const books = window.__DATA_BUNDLE__.cambridge || {};
+        bookData = books[camInfo.bookId] ? books[camInfo.bookId][camInfo.type] : undefined;
+      } else {
+        const response = await fetch(path);
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        bookData = await response.json();
+      }
+      if (!bookData || !bookData.tests) throw new Error('Invalid Cambridge data');
+      return { _cambridgeBook: true, bookData: bookData, type: camInfo.type, bookId: camInfo.bookId };
+    }
+
+    if ((isFileProtocol || isTauri) && window.__DATA_BUNDLE__) {
+      const parts = path.replace('.json', '').split('/');
+      if (parts[0] === 'data' && parts.length === 2) {
+        return window.__DATA_BUNDLE__.reading[parts[1]];
+      }
+      if (parts[0] === 'data' && parts.length === 3) {
+        const category = parts[1];
+        return window.__DATA_BUNDLE__[category] ? window.__DATA_BUNDLE__[category][parts[2]] : undefined;
+      }
+      throw new Error('Unknown path: ' + path);
+    }
+    const response = await fetch(path);
+    if (!response.ok) throw new Error('HTTP ' + response.status);
+    return response.json();
+  }
+
+  const App = {
+    currentTest: null,
+    tests: [],
+    cambridgeBooks: [],
+    cambridgeListeningBooks: [],
+    cambridgeWritingBooks: [],
+    cambridgeSpeakingBooks: [],
+    activeTab: localStorage.getItem('ielts_active_tab') || 'reading',
+
+    async init() {
+      await this.loadTestList();
+      this.setupRouter();
+      this.handleRoute();
+      window.addEventListener('hashchange', function() { App.handleRoute(); });
+    },
+
+    async loadTestList() {
+      const maxTests = ((isFileProtocol || isTauri) && window.__DATA_BUNDLE__)
+        ? Object.keys(window.__DATA_BUNDLE__.reading || {}).length
+        : 20;
+      var legacyTests = [];
+      for (var i = 1; i <= maxTests; i++) {
+        legacyTests.push({ id: 'test' + i, title: 'Test ' + i, file: 'data/test' + i + '.json', source: 'legacy' });
+      }
+
+      var cambridgeBooks = [];
+      var cambridgeListeningBooks = [];
+      const camData = window.__DATA_BUNDLE__ ? (window.__DATA_BUNDLE__.cambridge || {}) : {};
+      var bookIds = Object.keys(camData);
+      for (var bi = 0; bi < bookIds.length; bi++) {
+        var bookId = bookIds[bi];
+        var reading = camData[bookId] ? camData[bookId].reading : undefined;
+        var listening = camData[bookId] ? camData[bookId].listening : undefined;
+        if (reading && reading.tests) {
+          var tests = getCambridgeReadingTests(reading);
+          cambridgeBooks.push({ bookId: bookId, bookTitle: reading.title, tests: tests, source: 'cambridge' });
+        }
+        if (listening && listening.tests) {
+          var tests2 = getCambridgeListeningTests(listening);
+          cambridgeListeningBooks.push({ bookId: bookId, bookTitle: listening.title, tests: tests2, source: 'cambridge' });
+        }
+      }
+      if (cambridgeBooks.length === 0 && !isFileProtocol) {
+        var httpBookIds = ['cam14', 'cam15', 'cam16', 'cam17', 'cam18', 'cam19', 'cam20'];
+        for (var bi2 = 0; bi2 < httpBookIds.length; bi2++) {
+          var httpBookId = httpBookIds[bi2];
+          try {
+            var resp = await fetch('data/cambridge/' + httpBookId + '/reading.json');
+            if (resp.ok) {
+              var data = await resp.json();
+              if (data.tests) {
+                var httpTests = getCambridgeReadingTests(data);
+                cambridgeBooks.push({ bookId: httpBookId, bookTitle: data.title, tests: httpTests, source: 'cambridge' });
+              }
+            }
+          } catch (e) { if (e.name !== 'TypeError' && e.message !== 'Failed to fetch') { console.warn('Reading scan failed for', httpBookId, e); } }
+          try {
+            var resp2 = await fetch('data/cambridge/' + httpBookId + '/listening.json');
+            if (resp2.ok) {
+              var data2 = await resp2.json();
+              if (data2.tests) {
+                var httpTests2 = getCambridgeListeningTests(data2);
+                cambridgeListeningBooks.push({ bookId: httpBookId, bookTitle: data2.title, tests: httpTests2, source: 'cambridge' });
+              }
+            }
+          } catch (e) { if (e.name !== 'TypeError' && e.message !== 'Failed to fetch') { console.warn('Listening scan failed for', httpBookId, e); } }
+        }
+      }
+
+      var cambridgeWritingBooks = [];
+      var writingData = window.__DATA_BUNDLE__ ? (window.__DATA_BUNDLE__.writing || {}) : {};
+      var writingKeys = Object.keys(writingData);
+      for (var wi = 0; wi < writingKeys.length; wi++) {
+        var key = writingKeys[wi];
+        var m = key.match(/^(cam\d+)_test(\d+)$/);
+        if (m) {
+          var wBookId = m[1];
+          var testNum = parseInt(m[2]);
+          var wBook = null;
+          for (var wj = 0; wj < cambridgeWritingBooks.length; wj++) {
+            if (cambridgeWritingBooks[wj].bookId === wBookId) { wBook = cambridgeWritingBooks[wj]; break; }
+          }
+          if (!wBook) {
+            wBook = { bookId: wBookId, bookTitle: 'Cambridge IELTS ' + wBookId.replace('cam', ''), tests: [], source: 'cambridge' };
+            cambridgeWritingBooks.push(wBook);
+          }
+          wBook.tests.push({ id: key, title: 'Test ' + testNum, bookId: wBookId, testNumber: testNum });
+        }
+      }
+      for (var wb = 0; wb < cambridgeWritingBooks.length; wb++) {
+        cambridgeWritingBooks[wb].tests.sort(function(a, b) { return a.testNumber - b.testNumber; });
+      }
+      cambridgeWritingBooks.sort(function(a, b) { return a.bookId.localeCompare(b.bookId); });
+
+      var cambridgeSpeakingBooks = [];
+      var speakingData = window.__DATA_BUNDLE__ ? (window.__DATA_BUNDLE__.speaking || {}) : {};
+      var speakingKeys = Object.keys(speakingData);
+      for (var si = 0; si < speakingKeys.length; si++) {
+        var skey = speakingKeys[si];
+        var sm = skey.match(/^(cam\d+)_test(\d+)$/);
+        if (sm) {
+          var sBookId = sm[1];
+          var sTestNum = parseInt(sm[2]);
+          var sBook = null;
+          for (var sj = 0; sj < cambridgeSpeakingBooks.length; sj++) {
+            if (cambridgeSpeakingBooks[sj].bookId === sBookId) { sBook = cambridgeSpeakingBooks[sj]; break; }
+          }
+          if (!sBook) {
+            sBook = { bookId: sBookId, bookTitle: 'Cambridge IELTS ' + sBookId.replace('cam', ''), tests: [], source: 'cambridge' };
+            cambridgeSpeakingBooks.push(sBook);
+          }
+          sBook.tests.push({ id: skey, title: 'Test ' + sTestNum, bookId: sBookId, testNumber: sTestNum });
+        }
+      }
+      for (var sb = 0; sb < cambridgeSpeakingBooks.length; sb++) {
+        cambridgeSpeakingBooks[sb].tests.sort(function(a, b) { return a.testNumber - b.testNumber; });
+      }
+      cambridgeSpeakingBooks.sort(function(a, b) { return a.bookId.localeCompare(b.bookId); });
+
+      this.tests = legacyTests;
+      this.cambridgeBooks = cambridgeBooks;
+      this.cambridgeListeningBooks = cambridgeListeningBooks;
+      this.cambridgeWritingBooks = cambridgeWritingBooks;
+      this.cambridgeSpeakingBooks = cambridgeSpeakingBooks;
+    },
+
+    getTestStatus: function(testId) {
+      var state = loadExamState(testId);
+      var history = getAttemptHistory();
+      var attempts = history.filter(function(h) { return h.testId === testId; });
+      var bestScore = attempts.length > 0 ? Math.max.apply(null, attempts.map(function(a) { return a.score; })) : null;
+      if (state && !state.completed) return { status: 'in_progress', bestScore: bestScore };
+      if (state && state.completed) return { status: 'completed', bestScore: bestScore };
+      return { status: 'new', bestScore: bestScore };
+    },
+
+    getListeningStatus: function(testId) {
+      var state = loadListeningState(testId);
+      var history = getListeningAttemptHistory();
+      var attempts = history.filter(function(h) { return h.testId === testId; });
+      var bestScore = attempts.length > 0 ? Math.max.apply(null, attempts.map(function(a) { return a.score; })) : null;
+      if (state && !state.completed) return { status: 'in_progress', bestScore: bestScore };
+      if (state && state.completed) return { status: 'completed', bestScore: bestScore };
+      return { status: 'new', bestScore: bestScore };
+    },
+
+    switchTab: function(tab) {
+      this.activeTab = tab;
+      localStorage.setItem('ielts_active_tab', tab);
+      var main = document.getElementById('mainContent');
+      if (!main) return;
+      this.renderTestSelect(main);
+    },
+
+    setupRouter: function() {},
+
+    handleRoute: function() {
+      var hash = window.location.hash.slice(1) || '/';
+      var main = document.getElementById('mainContent');
+      if (!main) return;
+      if (hash === '/' || hash === '') { this.renderTestSelect(main); }
+      else if (hash.indexOf('/exam/') === 0) { this.showExam(hash.split('/exam/')[1]); }
+      else if (hash.indexOf('/review/') === 0) { this.showReview(hash.split('/review/')[1]); }
+      else if (hash.indexOf('/listening-exam/') === 0) { this.showListeningExam(hash.split('/listening-exam/')[1]); }
+      else if (hash.indexOf('/listening-review/') === 0) { this.showListeningReview(hash.split('/listening-review/')[1]); }
+      else if (hash === '/dashboard') { this.showDashboard(main); }
+      else if (hash === '/wrong-book') { this.showWrongBook(main); }
+      else if (hash.indexOf('/wrong-book/') === 0) { this.showWrongBook(main); }
+      else if (hash === '/history') { this.showHistory(main); }
+      else if (hash === '/listening-history') { this.showListeningHistory(main); }
+      else if (hash.indexOf('/writing-exam/') === 0) { this.showWritingExam(hash.split('/writing-exam/')[1]); }
+      else if (hash.indexOf('/writing-review/') === 0) { this.showWritingReview(hash.split('/writing-review/')[1]); }
+      else if (hash.indexOf('/speaking-exam/') === 0) { this.showSpeakingExam(hash.split('/speaking-exam/')[1]); }
+      else { this.renderTestSelect(main); }
+    },
+
+    renderTestSelect: function(container) {
+      var self = this;
+      container.innerHTML = '<div class="test-select"><h1 data-i18n="selectTest">' + t('selectTest') + '</h1><div class="tab-nav"><button class="tab-btn ' + (this.activeTab === 'reading' ? 'active' : '') + '" data-action="switch-tab" data-tab="reading" data-i18n="reading">' + t('reading') + '</button><button class="tab-btn ' + (this.activeTab === 'listening' ? 'active' : '') + '" data-action="switch-tab" data-tab="listening" data-i18n="listening">' + t('listening') + '</button><button class="tab-btn ' + (this.activeTab === 'writing' ? 'active' : '') + '" data-action="switch-tab" data-tab="writing" data-i18n="writing">' + t('writing') + '</button><button class="tab-btn ' + (this.activeTab === 'speaking' ? 'active' : '') + '" data-action="switch-tab" data-tab="speaking" data-i18n="speaking">' + t('speaking') + '</button></div><div class="test-grid" id="testGrid"></div><div class="sidebar-actions"><a href="#/dashboard" class="btn btn-secondary" data-i18n="dashboard">' + t('dashboard') + '</a><a href="#/history" class="btn btn-secondary" style="margin-left:8px;" data-i18n="viewHistory">' + t('viewHistory') + '</a><a href="#/wrong-book" class="btn btn-secondary" style="margin-left:8px;" data-i18n="wrongBook">' + t('wrongBook') + '</a></div></div>';
+      var grid = document.getElementById('testGrid');
+      if (this.activeTab === 'listening') { this.renderListeningGrid(grid); }
+      else if (this.activeTab === 'writing') { this.renderWritingGrid(grid); }
+      else if (this.activeTab === 'speaking') { this.renderSpeakingGrid(grid); }
+      else { this.renderReadingGrid(grid); }
+    },
+
+    _buildTestCards: function(tests, examType) {
+      var self = this;
+      var pathMap = {
+        reading:  { exam: '#/exam/',            review: '#/review/'            },
+        listening:{ exam: '#/listening-exam/',   review: '#/listening-review/'   },
+        writing:  { exam: '#/writing-exam/',    review: null                   },
+        speaking: { exam: '#/speaking-exam/',   review: null                   }
+      };
+      var paths = pathMap[examType];
+      var parts = [];
+      tests.forEach(function(test) {
+        var status, bestScore;
+        if (examType === 'listening') {
+          var s = self.getListeningStatus(test.id);
+          status = s.status; bestScore = s.bestScore;
+        } else if (examType === 'reading') {
+          var s2 = self.getTestStatus(test.id);
+          status = s2.status; bestScore = s2.bestScore;
+        } else {
+          status = 'new'; bestScore = null;
+        }
+        var statusKey = status === 'in_progress' ? 'inProgress' : (status === 'completed' ? 'completed' : 'newTest');
+        var statusLabel = t(statusKey);
+        var bestScoreHtml = bestScore !== null ? '<span class="best-score">' + t('bestScore') + ': ' + bestScore + '/40</span>' : '';
+        var actionText = status === 'in_progress' ? t('resumeExam') : t('startExam');
+        var actionLink = paths.exam + test.id;
+        var reviewLink = (paths.review && status === 'completed') ? paths.review + test.id : null;
+        var bodyHtml = bestScoreHtml;
+        if (examType === 'writing') {
+          bodyHtml = '<span style="font-size:0.8rem;color:var(--text-muted);">' + t('task1') + ': 150 ' + t('words') + ' (20 min)<br>' + t('task2') + ': 250 ' + t('words') + ' (40 min)</span>';
+        } else if (examType === 'speaking') {
+          bodyHtml = '<span style="font-size:0.8rem;color:var(--text-muted);">' + t('part1') + ' (4-5 min)<br>' + t('part2') + ' (3-4 min)<br>' + t('part3') + ' (4-5 min)</span>';
+        }
+        var reviewHtml = reviewLink ? '<a href="' + reviewLink + '" class="btn btn-secondary" style="margin-left:6px;">' + t('review') + '</a>' : '';
+        var redoHtml = status !== 'new' ? '<a href="' + actionLink + '" class="btn btn-secondary" style="margin-left:6px;" data-action="redo-exam" data-redo="' + test.id + '" data-redo-type="' + examType + '">' + t('redoExam') + '</a>' : '';
+        parts.push('<div class="test-card ' + status + '"><div class="test-card-header"><h3>' + test.title + '</h3><span class="status-badge ' + status + '">' + statusLabel + '</span></div><div class="test-card-body">' + bodyHtml + '</div><div class="test-card-actions"><a href="' + actionLink + '" class="btn btn-primary">' + actionText + '</a>' + reviewHtml + redoHtml + '</div></div>');
+      });
+      return parts.join('');
+    },
+
+    _renderBookGroup: function(book, examType) {
+      var bookDiv = document.createElement('div');
+      bookDiv.className = 'book-group';
+      bookDiv.innerHTML = '<div class="book-group-header"><span class="book-group-title">' + book.bookTitle + '</span><span class="book-group-toggle">&#9660;</span></div><div class="book-group-tests">' + this._buildTestCards(book.tests, examType) + '</div>';
+      return bookDiv;
+    },
+
+    renderReadingGrid: function(grid) { this._renderGrid(this.cambridgeBooks, this.tests, 'reading', grid); },
+
+    _renderGrid: function(books, legacyTests, examType, grid) {
+      var self = this;
+      (books || []).forEach(function(book) { grid.appendChild(self._renderBookGroup(book, examType)); });
+      if (legacyTests.length > 0 && books.length > 0) {
+        grid.insertAdjacentHTML('beforeend', '<div class="section-header">' + t('moreTests') + '</div>');
+      }
+      grid.insertAdjacentHTML('beforeend', this._buildTestCards(legacyTests, examType));
+    },
+
+    renderListeningGrid: function(grid) {
+      var legacy = [];
+      for (var i = 1; i <= 10; i++) { legacy.push({ id: 'test' + i, title: t('listening') + ' ' + i }); }
+      this._renderGrid(this.cambridgeListeningBooks, legacy, 'listening', grid);
+    },
+
+    showExam: async function(testId) {
+      var container = document.getElementById('mainContent');
+      container.innerHTML = '<div class="loading-state"><span class="spinner"></span>' + t('loading') + '</div>';
+      try {
+        if (testId.indexOf('cam') === 0) { this.currentTest = await this.loadCambridgeReadingTest(testId); }
+        else { this.currentTest = await loadTestData('data/' + testId + '.json'); }
+        if (!this.currentTest || !this.currentTest.passages) throw new Error('Invalid data format');
+        renderExam(this.currentTest);
+      } catch (e) {
+        console.error('Exam error:', e);
+        container.innerHTML = '<div class="error">' + t('errorLoadData') + '<br><small style="color:var(--text-muted)">' + escapeHtml(e.message) + '</small></div>';
+      }
+    },
+
+    loadCambridgeReadingTest: async function(testId) {
+      var parts = testId.split('_');
+      var bookId = parts[0];
+      var path = 'data/cambridge/' + bookId + '/reading.json';
+      var result = await loadTestData(path);
+      if (result._cambridgeBook) { return getCambridgeReadingTest(result.bookData, testId); }
+      if (result.passages) return result;
+      throw new Error('Cambridge test not found');
+    },
+
+    loadCambridgeListeningTest: async function(testId) {
+      var parts = testId.split('_');
+      var bookId = parts[0];
+      var path = 'data/cambridge/' + bookId + '/listening.json';
+      var result = await loadTestData(path);
+      if (result._cambridgeBook) { return getCambridgeListeningTest(result.bookData, testId); }
+      if (result.sections) return result;
+      throw new Error('Cambridge listening test not found');
+    },
+
+    showListeningExam: async function(testId) {
+      var container = document.getElementById('mainContent');
+      container.innerHTML = '<div class="loading-state"><span class="spinner"></span>' + t('loading') + '</div>';
+      try {
+        var testData;
+        if (testId.indexOf('cam') === 0) { testData = await this.loadCambridgeListeningTest(testId); }
+        else { testData = await loadTestData('data/listening/' + testId + '.json'); }
+        if (!testData || !testData.sections) throw new Error('Invalid data format');
+        renderListeningExam(testData);
+      } catch (e) {
+        console.error('Listening exam error:', e);
+        container.innerHTML = '<div class="error">' + t('errorLoadData') + '<br><small style="color:var(--text-muted)">' + escapeHtml(e.message) + '</small></div>';
+      }
+    },
+
+    showReview: function(testId) {
+      var container = document.getElementById('mainContent');
+      this._showReview(testId, container);
+    },
+
+    _showReview: function(testId, container) {
+      var state = loadExamState(testId);
+      var answers = loadAnswers(testId);
+      var history = getAttemptHistory();
+      var attempt = history.filter(function(h) { return h.testId === testId; }).pop();
+      if (!attempt && Object.keys(answers).length === 0) {
+        container.innerHTML = '<div class="error"><p data-i18n="noHistory">' + t('noHistory') + '</p><a href="#/" class="btn btn-primary" data-i18n="backToTests">' + t('backToTests') + '</a></div>';
+        return;
+      }
+      var self = this;
+      var loadPromise = testId.indexOf('cam') === 0 ? this.loadCambridgeReadingTest(testId) : loadTestData('data/' + testId + '.json');
+      loadPromise.then(function(testData) {
+        if (attempt) { renderReview(testData, attempt, container); }
+        else {
+          var tempAttempt = { testId: testId, score: 0, total: testData.totalQuestions, bandScore: 0, timeTaken: 0, answers: {} };
+          for (var k in answers) { tempAttempt.answers[k] = answers[k]; }
+          var correct = 0;
+          var allQs = [];
+          testData.passages.forEach(function(p) { p.questions.forEach(function(q) { allQs.push(q); }); });
+          allQs.forEach(function(q) {
+            var userAns = (answers[q.id] || '').trim().toLowerCase();
+            var correctAns = (q.correctAnswer || '').trim().toLowerCase();
+            if (userAns === correctAns) correct++;
+          });
+          tempAttempt.score = correct;
+          tempAttempt.bandScore = bandScore(correct);
+          renderReview(testData, tempAttempt, container);
+        }
+      }).catch(function() { container.innerHTML = '<div class="error">' + t('errorLoadData') + '</div>'; });
+    },
+
+    showListeningReview: function(testId) {
+      var container = document.getElementById('mainContent');
+      var history = getListeningAttemptHistory();
+      var attempt = history.filter(function(h) { return h.testId === testId; }).pop();
+      if (!attempt) {
+        container.innerHTML = '<div class="error"><p data-i18n="noHistory">' + t('noHistory') + '</p><a href="#/" class="btn btn-primary" data-i18n="backToTests">' + t('backToTests') + '</a></div>';
+        return;
+      }
+      var loadPromise = testId.indexOf('cam') === 0 ? this.loadCambridgeListeningTest(testId) : loadTestData('data/listening/' + testId + '.json');
+      loadPromise.then(function(testData) { renderListeningReview(testData, attempt, container); })
+        .catch(function() { container.innerHTML = '<div class="error">' + t('errorLoadData') + '</div>'; });
+    },
+
+    showListeningHistory: function(container) { renderListeningHistoryPage(container); },
+    showHistory: function(container) { renderHistoryPage(container); },
+    showDashboard: function(container) { renderDashboard(container); },
+    showWrongBook: function(container) { renderWrongBookPage(container); },
+
+    renderWritingGrid: function(grid) {
+      var legacy = [];
+      for (var i = 1; i <= 10; i++) { legacy.push({ id: 'test' + i, title: t('writing') + ' ' + i }); }
+      this._renderGrid(this.cambridgeWritingBooks, legacy, 'writing', grid);
+    },
+
+    showWritingExam: async function(testId) {
+      var container = document.getElementById('mainContent');
+      container.innerHTML = '<div class="loading-state"><span class="spinner"></span>' + t('loading') + '</div>';
+      try {
+        var testData = await loadTestData('data/writing/' + testId + '.json');
+        renderWritingExam(testData);
+      } catch (e) {
+        console.error('Writing exam error:', e);
+        container.innerHTML = '<div class="error">' + t('errorLoadData') + '<br><small style="color:var(--text-muted)">' + escapeHtml(e.message) + '</small></div>';
+      }
+    },
+
+    showWritingReview: function(testId) {
+      var container = document.getElementById('mainContent');
+      loadTestData('data/writing/' + testId + '.json').then(function(testData) { renderWritingReview(testData, container); })
+        .catch(function() { container.innerHTML = '<div class="error">' + t('errorLoadData') + '</div>'; });
+    },
+
+    renderSpeakingGrid: function(grid) {
+      var legacy = [];
+      for (var i = 1; i <= 10; i++) { legacy.push({ id: 'test' + i, title: t('speaking') + ' ' + i }); }
+      this._renderGrid(this.cambridgeSpeakingBooks, legacy, 'speaking', grid);
+    },
+
+    showSpeakingExam: async function(testId) {
+      var container = document.getElementById('mainContent');
+      container.innerHTML = '<div class="loading-state"><span class="spinner"></span>' + t('loading') + '</div>';
+      try {
+        var testData;
+        if (testId.indexOf('cam') === 0) {
+          var parts = testId.split('_');
+          var bookId = parts[0];
+          var bookData = await loadTestData('data/cambridge/' + bookId + '/speaking.json');
+          var camTest = (bookData.tests || []).find(function(t) { return t.id === testId; });
+          if (!camTest) throw new Error('Test not found in ' + bookId);
+          testData = {
+            id: camTest.id,
+            part1: (camTest.part1.questions || []).map(function(q) { return { question: q }; }),
+            part2: { cueCard: camTest.part2.title || '', bulletPoints: camTest.part2.prompts || [], preparationTime: 60 },
+            part3: camTest.part3.topics || camTest.part3 || []
+          };
+        } else {
+          testData = await loadTestData('data/speaking/' + testId + '.json');
+        }
+        renderSpeakingExam(testData);
+      } catch (e) {
+        console.error('Speaking exam error:', e);
+        container.innerHTML = '<div class="error">' + t('errorLoadData') + '<br><small style="color:var(--text-muted)">' + escapeHtml(e.message) + '</small></div>';
+      }
+    },
+
+    confirmRedo: function(testId, type) {
+      var label = type === 'listening' ? t('listening') : t('reading');
+      var overlay = document.createElement('div');
+      overlay.className = 'modal-overlay';
+      overlay.innerHTML = '<div class="modal"><h2>' + t('redoExam') + ' ' + label + '</h2><p>' + t('submitConfirmDesc') + '</p><div class="modal-actions"><button class="btn btn-secondary" data-action="close-modal" data-i18n="cancel">' + t('cancel') + '</button><button class="btn btn-primary" data-action="confirm-redo" data-redo-id="' + testId + '" data-redo-type="' + type + '" data-i18n="confirm">' + t('confirm') + '</button></div></div>';
+      document.body.appendChild(overlay);
+    },
+
+    _doRedo: function(testId, type) {
+      if (type === 'listening') {
+        if (typeof listeningPhaseTimer !== 'undefined' && listeningPhaseTimer) { clearInterval(listeningPhaseTimer); listeningPhaseTimer = null; }
+        clearListeningData(testId);
+        window.location.hash = '#/listening-exam/' + testId;
+      } else {
+        clearExamData(testId);
+        window.location.hash = '#/exam/' + testId;
+      }
+    }
+  };
+
+  window.App = App;
+
+  // Attach header button listeners (replaces onclick for WKWebView CSP)
+  var themeBtn = document.getElementById('themeToggle');
+  if (themeBtn) themeBtn.addEventListener('click', function() { window.toggleTheme(); });
+  var langBtn = document.getElementById('langToggle');
+  if (langBtn) langBtn.addEventListener('click', function() { switchLang(i18n.currentLang === 'zh' ? 'en' : 'zh'); });
+
+  // === Centralized Event Delegation (replaces ALL inline onclick/onchange for WKWebView CSP) ===
+  document.addEventListener('click', function(e) {
+    var el = e.target;
+    var actionEl = el.closest('[data-action]');
+    if (!actionEl) {
+      // Handle book-group-header toggle (no data-action needed, use class check)
+      var bookHeader = el.closest('.book-group-header');
+      if (bookHeader) { bookHeader.parentElement.classList.toggle('collapsed'); return; }
+      return;
+    }
+    var action = actionEl.getAttribute('data-action');
+    var qid, testId, examType;
+
+    switch (action) {
+      // === Navigation ===
+      case 'switch-tab':
+        App.switchTab(actionEl.getAttribute('data-tab'));
+        break;
+      case 'redo-exam':
+        e.preventDefault();
+        App.confirmRedo(actionEl.getAttribute('data-redo'), actionEl.getAttribute('data-redo-type'));
+        break;
+
+      // === Modal ===
+      case 'close-modal':
+        actionEl.closest('.modal-overlay').remove();
+        break;
+      case 'confirm-redo':
+        actionEl.closest('.modal-overlay').remove();
+        App._doRedo(actionEl.getAttribute('data-redo-id'), actionEl.getAttribute('data-redo-type'));
+        break;
+
+      // === Reading Exam ===
+      case 'show-submit-modal': showSubmitModal(); break;
+      case 'switch-passage': switchPassage(parseInt(actionEl.getAttribute('data-passage'))); break;
+      case 'toggle-flag': toggleFlag(actionEl.getAttribute('data-qid')); break;
+      case 'scroll-to-question': scrollToQuestion(actionEl.getAttribute('data-qid')); break;
+      case 'submit-exam': submitExam(); break;
+      case 'close-auto-submit':
+        actionEl.closest('.modal-overlay').remove();
+        var redirect = actionEl.getAttribute('data-redirect');
+        if (redirect) window.location.hash = redirect;
+        break;
+
+      // === Listening Exam ===
+      case 'set-playback-rate': setPlaybackRate(parseFloat(actionEl.getAttribute('data-rate'))); break;
+      case 'show-listening-submit': showListeningSubmitModal(); break;
+      case 'start-listening-exam': startExam(); break;
+      case 'switch-listening-section': switchListeningSection(parseInt(actionEl.getAttribute('data-section'))); break;
+      case 'toggle-listening-flag': toggleListeningFlag(actionEl.getAttribute('data-qid')); break;
+      case 'start-section-audio': startSectionAudio(); break;
+      case 'next-section': nextSection(); break;
+      case 'toggle-play-pause':
+        if (listeningAudioEl && listeningAudioEl.paused) { listeningAudioEl.play(); }
+        else if (listeningAudioEl) { listeningAudioEl.pause(); }
+        break;
+      case 'listening-submit-exam': listeningSubmitExam(); break;
+
+      // === Speaking ===
+      case 'speaking-record': toggleRecording(actionEl.getAttribute('data-qid')); break;
+      case 'speaking-play': playRecording(actionEl.getAttribute('data-qid')); break;
+      case 'speaking-transcribe': transcribeRecording(actionEl.getAttribute('data-qid')); break;
+      case 'speaking-next-part1': nextPart1Question(); break;
+      case 'speaking-start-prep': startSpeakingPrep(); break;
+      case 'speaking-start-part3': startPart3(); break;
+
+      // === Writing ===
+      case 'writing-show-submit': showWritingSubmitModal(); break;
+      case 'writing-switch-task': switchWritingTask(actionEl.getAttribute('data-task')); break;
+      case 'writing-submit': submitWriting(); break;
+
+      // === Writing Review ===
+      case 'writing-review-task': showWritingTaskReview(actionEl.getAttribute('data-task'), actionEl); break;
+      case 'writing-review-save': saveWritingSelfAssessment(); break;
+
+      // === Review ===
+      case 'review-set-filter': setReviewFilter(actionEl.getAttribute('data-filter')); break;
+      case 'listening-review-set-filter': setListeningFilter(actionEl, actionEl.getAttribute('data-filter')); break;
+
+      // === History ===
+      case 'clear-all-history': onClearAllHistory(); break;
+
+      // === Wrong Book ===
+      case 'wrong-book-set-filter': setWrongBookFilter(actionEl.getAttribute('data-filter')); break;
+      case 'wrong-book-start-practice': e.preventDefault(); startPracticeMode(actionEl.getAttribute('data-type')); break;
+      case 'wrong-book-redo':
+        startWrongRedo(actionEl.getAttribute('data-testid'), parseInt(actionEl.getAttribute('data-qnum')), actionEl.getAttribute('data-module'));
+        break;
+      case 'wrong-book-mark-mastered': markAsMastered(actionEl.getAttribute('data-qid')); break;
+      case 'wrong-book-unmark-mastered': unmarkMastered(actionEl.getAttribute('data-qid')); break;
+      case 'wrong-book-submit-redo': submitRedoAnswer(); break;
+      case 'wrong-book-cancel-redo': cancelRedo(); break;
+      case 'wrong-book-next-practice': nextPracticeQuestion(); break;
+
+      default: break;
+    }
+  });
+
+  // Input event delegation (replaces oninput attributes)
+  document.addEventListener('input', function(e) {
+    var el = e.target;
+    var inputEl = el.closest('[data-input]');
+    if (!inputEl) return;
+    var action = inputEl.getAttribute('data-input');
+    switch (action) {
+      case 'writing-input': onWritingInput(); break;
+      case 'range-label': inputEl.nextElementSibling.textContent = inputEl.value; break;
+      default: break;
+    }
+  });
+
+  // Change event delegation (replaces onchange attributes)
+  document.addEventListener('change', function(e) {
+    var el = e.target;
+    var changeEl = el.closest('[data-change]');
+    if (!changeEl) return;
+    var action = changeEl.getAttribute('data-change');
+    var qid = changeEl.getAttribute('data-qid');
+    switch (action) {
+      case 'save-answer': saveAnswer(qid, el.value, el); break;
+      case 'save-checkbox': saveCheckboxAnswer(qid); break;
+      case 'save-listening-answer': saveListeningAnswer(qid, el.value); break;
+      case 'save-listening-checkbox': saveListeningCheckboxAnswer(qid); break;
+      default: break;
+    }
+  });
+
+  function boot() {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() { initTheme(); App.init(); });
+    } else {
+      initTheme();
+      App.init();
+    }
+  }
+  boot();
+})();
+  </script>
 </body>
 </html>

@@ -34,9 +34,9 @@ function renderListeningReview(testData, attempt, container) {
       </div>
 
       <div class="review-filters">
-        <button class="btn btn-small btn-primary active" onclick="setListeningFilter(this,'all')" data-i18n="all">${t('all')}</button>
-        <button class="btn btn-small btn-secondary" onclick="setListeningFilter(this,'wrong')" data-i18n="wrongOnly">${t('wrongOnly')}</button>
-        <button class="btn btn-small btn-secondary" onclick="setListeningFilter(this,'unanswered')" data-i18n="unanswered">${t('unanswered')}</button>
+        <button class="btn btn-small btn-primary active" data-action="listening-review-set-filter" data-filter="all')" data-i18n="all">${t('all')}</button>
+        <button class="btn btn-small btn-secondary" data-action="listening-review-set-filter" data-filter="wrong')" data-i18n="wrongOnly">${t('wrongOnly')}</button>
+        <button class="btn btn-small btn-secondary" data-action="listening-review-set-filter" data-filter="unanswered')" data-i18n="unanswered">${t('unanswered')}</button>
       </div>
 
       <div id="listeningReviewQuestions"></div>
@@ -153,7 +153,7 @@ function renderListeningHistoryPage(container) {
   html += `</tbody></table></div>`;
   html += `<div style="text-align:center;margin-top:20px;">
     <a href="#/" class="btn btn-primary" data-i18n="backToTests">${t('backToTests')}</a>
-    <button class="btn btn-danger" style="margin-top:12px;display:block;margin-left:auto;margin-right:auto;" onclick="onClearAllHistory()" data-i18n="clearAllHistory">${t('clearAllHistory')}</button>
+    <button class="btn btn-danger" style="margin-top:12px;display:block;margin-left:auto;margin-right:auto;" data-action="clear-all-history" data-i18n="clearAllHistory">${t('clearAllHistory')}</button>
   </div>`;
   html += `</div>`;
 

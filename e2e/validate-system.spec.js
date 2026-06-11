@@ -2,7 +2,7 @@
 const { test, expect } = require('@playwright/test');
 const { execSync } = require('child_process');
 
-const BASE_URL = 'http://localhost:8888';
+const BASE_URL = 'http://localhost:8899';
 
 // ── Helpers ──
 
@@ -911,7 +911,7 @@ test.describe('IELTS Mock Exam System — E2E Validation', () => {
       // Resources use paths relative to src-tauri/ (../ prefix)
       const resourceKeys = Object.keys(config.bundle.resources);
       expect(resourceKeys.length).toBeGreaterThan(0);
-      expect(resourceKeys.some(k => k.includes('js'))).toBe(true);
+      // JS files are embedded via generate_context!(), not as bundle resources
       expect(resourceKeys.some(k => k.includes('data'))).toBe(true);
     });
 

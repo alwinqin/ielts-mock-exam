@@ -92,11 +92,21 @@ if [ "$MODE" = "--quick" ] || [ "$MODE" = "--data-only" ]; then
 else
     log_section "Step 5: Playwright E2E Tests"
     if command -v npx &>/dev/null; then
+        # Start dev server on test port (8899) if not already running
+        if ! lsof -i :8899 &>/dev/null; then
+            python3 -m http.server 8899 --bind 127.0.0.1 &
+            SERVER_PID=$!
+            sleep 1
+        else
+            SERVER_PID=""
+        fi
         if npx playwright test e2e/ --config=e2e/playwright.config.js 2>&1 | tail -20; then
             log_pass "All E2E tests passed"
         else
             log_fail "E2E tests failed"
         fi
+        # Clean up server if we started it
+        [ -n "$SERVER_PID" ] && kill $SERVER_PID 2>/dev/null
     else
         log_warn "Playwright not available — install with: npm install"
     fi

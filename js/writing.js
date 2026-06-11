@@ -35,11 +35,11 @@ function renderWritingExam(testData) {
         <span class="progress-text" id="writingWordCount">
           ${t('wordCount')}: 0/400+ ${t('words')}
         </span>
-        <button class="btn btn-primary btn-small" onclick="showWritingSubmitModal()">${t('submit')}</button>
+        <button class="btn btn-primary btn-small" data-action="writing-show-submit">${t('submit')}</button>
       </div>
       <div class="writing-tabs">
-        <button class="writing-tab active" data-task="task1" onclick="switchWritingTask('task1')">${t('task1')}</button>
-        <button class="writing-tab" data-task="task2" onclick="switchWritingTask('task2')">${t('task2')}</button>
+        <button class="writing-tab active" data-task="task1" data-action="writing-switch-task">${t('task1')}</button>
+        <button class="writing-tab" data-task="task2" data-action="writing-switch-task">${t('task2')}</button>
       </div>
       <div class="writing-main">
         <div class="writing-prompt" id="writingPrompt"></div>
@@ -79,7 +79,7 @@ function renderWritingTask(task) {
 
   editorPanel.innerHTML = `
     <div class="writing-editor-area">
-      <textarea id="writingTextarea" oninput="onWritingInput()" placeholder="${t('yourWriting')}...">${escapeHtml(userText)}</textarea>
+      <textarea id="writingTextarea" data-input="writing-input" placeholder="${t('yourWriting')}...">${escapeHtml(userText)}</textarea>
     </div>
     <div class="writing-wordcount">
       <span>${t('wordCount')}: <strong id="wcCount">${wordCount}</strong> ${t('words')}</span>
@@ -176,8 +176,8 @@ function showWritingSubmitModal() {
         ${t('task1')}: ${task1Wc} ${t('words')} | ${t('task2')}: ${task2Wc} ${t('words')}
       </p>
       <div class="modal-actions">
-        <button class="btn btn-secondary" onclick="this.closest('.modal-overlay').remove()">${t('cancel')}</button>
-        <button class="btn btn-primary" onclick="submitWriting()">${t('confirm')}</button>
+        <button class="btn btn-secondary" data-action="close-modal">${t('cancel')}</button>
+        <button class="btn btn-primary" data-action="writing-submit">${t('confirm')}</button>
       </div>
     </div>
   `;

@@ -1,8 +1,36 @@
 {
-  "timestamp": "2026-06-03T19:05:50.776050",
-  "total_issues": 24,
-  "total_passes": 39,
+  "timestamp": "2026-06-11T16:19:56.126724",
+  "total_issues": 33,
+  "total_passes": 37,
   "issues": [
+    {
+      "severity": "LOW",
+      "round": 2,
+      "category": "unsafe-json-parse",
+      "file": "dashboard.js",
+      "detail": "2 JSON.parse calls without try-catch in immediate context"
+    },
+    {
+      "severity": "LOW",
+      "round": 2,
+      "category": "long-function",
+      "file": "dashboard.js:renderDashboard",
+      "detail": "Function \"renderDashboard\" is 57 lines (max 50 recommended)"
+    },
+    {
+      "severity": "LOW",
+      "round": 2,
+      "category": "long-function",
+      "file": "dashboard.js:renderTrendLine",
+      "detail": "Function \"renderTrendLine\" is 56 lines (max 50 recommended)"
+    },
+    {
+      "severity": "LOW",
+      "round": 2,
+      "category": "long-function",
+      "file": "dashboard.js:renderTypeBar",
+      "detail": "Function \"renderTypeBar\" is 86 lines (max 50 recommended)"
+    },
     {
       "severity": "LOW",
       "round": 2,
@@ -15,14 +43,14 @@
       "round": 2,
       "category": "long-function",
       "file": "exam.js:renderExam",
-      "detail": "Function \"renderExam\" is 58 lines (max 50 recommended)"
+      "detail": "Function \"renderExam\" is 70 lines (max 50 recommended)"
     },
     {
       "severity": "LOW",
       "round": 2,
       "category": "long-function",
       "file": "exam.js:submitExam",
-      "detail": "Function \"submitExam\" is 88 lines (max 50 recommended)"
+      "detail": "Function \"submitExam\" is 79 lines (max 50 recommended)"
     },
     {
       "severity": "LOW",
@@ -42,15 +70,22 @@
       "severity": "MEDIUM",
       "round": 2,
       "category": "xss-risk",
-      "file": "listening.js:141",
+      "file": "listening.js:209",
       "detail": "innerHTML with potential unescaped data"
+    },
+    {
+      "severity": "MEDIUM",
+      "round": 2,
+      "category": "file-too-large",
+      "file": "listening.js",
+      "detail": "857 lines (max 800 recommended)"
     },
     {
       "severity": "LOW",
       "round": 2,
       "category": "long-function",
       "file": "listening.js:renderListeningExam",
-      "detail": "Function \"renderListeningExam\" is 118 lines (max 50 recommended)"
+      "detail": "Function \"renderListeningExam\" is 120 lines (max 50 recommended)"
     },
     {
       "severity": "LOW",
@@ -64,14 +99,7 @@
       "round": 2,
       "category": "long-function",
       "file": "listening.js:listeningSubmitExam",
-      "detail": "Function \"listeningSubmitExam\" is 71 lines (max 50 recommended)"
-    },
-    {
-      "severity": "LOW",
-      "round": 2,
-      "category": "long-function",
-      "file": "review.js:renderReviewQuestions",
-      "detail": "Function \"renderReviewQuestions\" is 60 lines (max 50 recommended)"
+      "detail": "Function \"listeningSubmitExam\" is 62 lines (max 50 recommended)"
     },
     {
       "severity": "LOW",
@@ -83,9 +111,16 @@
     {
       "severity": "LOW",
       "round": 2,
+      "category": "unsafe-json-parse",
+      "file": "writing-review.js",
+      "detail": "1 JSON.parse calls without try-catch in immediate context"
+    },
+    {
+      "severity": "LOW",
+      "round": 2,
       "category": "long-function",
       "file": "writing-review.js:showWritingTaskReview",
-      "detail": "Function \"showWritingTaskReview\" is 57 lines (max 50 recommended)"
+      "detail": "Function \"showWritingTaskReview\" is 59 lines (max 50 recommended)"
     },
     {
       "severity": "LOW",
@@ -93,13 +128,6 @@
       "category": "long-function",
       "file": "wrong-book.js:renderRedoPanel",
       "detail": "Function \"renderRedoPanel\" is 59 lines (max 50 recommended)"
-    },
-    {
-      "severity": "LOW",
-      "round": 2,
-      "category": "long-function",
-      "file": "wrong-book.js:submitRedoAnswer",
-      "detail": "Function \"submitRedoAnswer\" is 57 lines (max 50 recommended)"
     },
     {
       "severity": "LOW",
@@ -113,7 +141,7 @@
       "round": 3,
       "category": "null-access-risk",
       "file": "listening.js",
-      "detail": "Array access without bounds check near lines: [407]"
+      "detail": "Array access without bounds check near lines: [124, 477]"
     },
     {
       "severity": "INFO",
@@ -121,6 +149,13 @@
       "category": "event-listener-cleanup",
       "file": "listening.js",
       "detail": "4 listeners added, 0 removed — potential memory leak on re-render"
+    },
+    {
+      "severity": "HIGH",
+      "round": 4,
+      "category": "grading-inconsistent",
+      "file": "exam.js+listening.js",
+      "detail": "Multiple choice multi grading logic differs between modules"
     },
     {
       "severity": "MEDIUM",
@@ -137,18 +172,46 @@
       "detail": "Transcription endpoint hardcoded to localhost:8081"
     },
     {
+      "severity": "INFO",
+      "round": 6,
+      "category": "ls-no-removal",
+      "file": "localStorage",
+      "detail": "Key \"ielts_theme\" is set but never removed"
+    },
+    {
+      "severity": "INFO",
+      "round": 6,
+      "category": "ls-no-removal",
+      "file": "localStorage",
+      "detail": "Key \"writing_state_\" is set but never removed"
+    },
+    {
       "severity": "LOW",
       "round": 8,
       "category": "attempt-format-diff",
       "file": "review.js+listening-review.js",
-      "detail": "Different fields: {'timeTaken', 'date', 'testId'}"
+      "detail": "Different fields: {'timeTaken', 'testId', 'date'}"
+    },
+    {
+      "severity": "MEDIUM",
+      "round": 9,
+      "category": "i18n-missing-en",
+      "file": "i18n.js",
+      "detail": "Keys missing in en: {'timeUpStartSpeaking'}"
     },
     {
       "severity": "LOW",
       "round": 9,
       "category": "i18n-unused-keys",
       "file": "i18n.js",
-      "detail": "52 keys defined but not referenced in code"
+      "detail": "44 keys defined but not referenced in code"
+    },
+    {
+      "severity": "HIGH",
+      "round": 9,
+      "category": "i18n-missing-def",
+      "file": "i18n.js",
+      "detail": "20 keys used in code but not defined: {'listeningStartHint', 'previewTimeLabel', 'previewEnded', 'previewTime', 'listeningPreviewHint', 'startTransferBtn', 'sectionNotAvailable', 'readQuestionsHint', 'timeUpStartSpeaking', 'completeSectionBtn', 'finishTransferBtn', 'listeningTestInfo', 'referToPaper', 'listeningPhaseLabel', 'unflag', 'listeningTestTitle', 'sectionCompleteStatus', 'startAudioBtn', 'error', 'listeningTestTime'}"
     },
     {
       "severity": "LOW",
@@ -169,7 +232,7 @@
       "round": 10,
       "category": "perf-bundle-size",
       "file": "data-bundle.js",
-      "detail": "Bundle size 1593KB exceeds 300KB budget"
+      "detail": "Bundle size 1115KB exceeds 300KB budget"
     }
   ],
   "passes": [
@@ -250,11 +313,6 @@
     },
     {
       "round": 4,
-      "category": "grading-consistency",
-      "detail": "Multiple choice multi grading consistent across modules"
-    },
-    {
-      "round": 4,
       "category": "timer-integration",
       "detail": "Timer properly initialized and started"
     },
@@ -301,17 +359,12 @@
     {
       "round": 7,
       "category": "loading-states",
-      "detail": "11 loading state references"
+      "detail": "12 loading state references"
     },
     {
       "round": 7,
       "category": "empty-states",
-      "detail": "23 empty state references"
-    },
-    {
-      "round": 7,
-      "category": "modal-cleanup",
-      "detail": "Modal overlays properly cleaned up"
+      "detail": "25 empty state references"
     },
     {
       "round": 7,
@@ -321,7 +374,7 @@
     {
       "round": 7,
       "category": "responsive-css",
-      "detail": "17 responsive design indicators in CSS"
+      "detail": "29 responsive design indicators in CSS"
     },
     {
       "round": 8,
@@ -337,11 +390,6 @@
       "round": 8,
       "category": "attempt-format",
       "detail": "4 common fields between reading and listening attempts"
-    },
-    {
-      "round": 8,
-      "category": "type-labels-consistent",
-      "detail": "14 type labels consistent across modules"
     },
     {
       "round": 8,
@@ -367,16 +415,22 @@
       "round": 9,
       "category": "html-charset",
       "detail": "Charset declaration present"
+    },
+    {
+      "round": 9,
+      "category": "aria-labels",
+      "detail": "ARIA labels used in JS-generated content"
     }
   ],
   "stats": {
     "round1_books": 13,
-    "round2_js_files": 14,
+    "round2_js_files": 16,
     "round3_listening_ls_keys": [],
-    "round6_ls_prefixes": "{'attempt_history': ['attempt_history'], 'ielts_active': ['ielts_active_tab'], 'ielts_lang': ['ielts_lang'], 'listening_attempt': ['listening_attempt_history'], 'mastered_wrong': ['mastered_wrong_questions']}",
-    "round6_total_ls_keys": 5,
+    "round6_ls_prefixes": "{'attempt_history': ['attempt_history'], 'ielts_active': ['ielts_active_tab'], 'ielts_lang': ['ielts_lang'], 'ielts_theme': ['ielts_theme'], 'listening_attempt': ['listening_attempt_history'], 'mastered_wrong': ['mastered_wrong_questions'], 'writing_state': ['writing_state_']}",
+    "round6_total_ls_keys": 7,
     "round7_routes": [
       "/",
+      "/dashboard",
       "/exam/",
       "/history",
       "/listening-exam/",
@@ -389,17 +443,17 @@
       "/wrong-book",
       "/wrong-book/"
     ],
-    "round7_css_lines": 595,
-    "round7_focus_states": 18,
-    "round9_en_keys": 154,
-    "round9_zh_keys": 154,
-    "round9_used_keys": 102,
-    "round10_innerhtml_unescaped": 15,
-    "round10_bundle_size_kb": 1592.9,
-    "round10_script_tags": 15,
-    "round10_global_names": 195,
-    "round10_cross_refs": "{'app.js': ['data.bandScore', 'data.clearExamData', 'data.clearListeningData', 'data.escapeHtml', 'data.getAttemptHistory', 'data.getListeningAttemptHistory', 'data.loadAnswers', 'data.loadExamState', 'data.loadListeningState', 'exam.renderExam', 'history.renderHistoryPage', 'i18n.t', 'listening-review.renderListeningHistoryPage', 'listening-review.renderListeningReview', 'listening.renderListeningExam', 'listening.startExam', 'review.renderReview', 'speaking.renderSpeakingExam', 'writing-review.renderWritingReview', 'writing.renderWritingExam', 'wrong-book.renderWrongBookPage'], 'data.js': ['exam.saveAnswer', 'listening.saveListeningAnswer'], 'exam.js': ['data.bandScore', 'data.escapeHtml', 'data.loadAnswers', 'data.loadExamState', 'data.loadFlagged', 'data.saveAnswers', 'data.saveAttempt', 'data.saveExamState', 'data.saveFlagged', 'i18n.t'], 'history.js': ['data.bandScore', 'data.clearAllHistoryData', 'data.escapeHtml', 'data.formatDuration', 'data.getAttemptHistory', 'i18n.t'], 'i18n.js': ['data.bandScore', 'listening.startExam', 'speaking.playRecording', 'speaking.startRecording', 'speaking.stopRecording'], 'listening-review.js': ['data.bandScore', 'data.escapeHtml', 'data.getListeningAttemptHistory', 'history.onClearAllHistory', 'i18n.t'], 'listening.js': ['data.bandScore', 'data.escapeHtml', 'data.formatTime', 'data.loadListeningAnswers', 'data.loadListeningFlagged', 'data.loadListeningState', 'data.saveListeningAnswers', 'data.saveListeningAttempt', 'data.saveListeningFlagged', 'data.saveListeningState'], 'review.js': ['data.bandScore', 'data.escapeHtml', 'data.formatDuration', 'i18n.t'], 'speaking.js': ['data.escapeHtml'], 'timer.js': ['data.formatTime'], 'writing-review.js': ['data.loadWritingAnswers', 'writing.countWords'], 'writing.js': ['data.escapeHtml', 'data.formatTime', 'data.loadWritingAnswers', 'data.loadWritingState', 'data.saveWritingAnswers', 'data.saveWritingState'], 'wrong-book.js': ['data.escapeHtml', 'data.getAttemptHistory', 'data.getListeningAttemptHistory', 'data.isMastered', 'data.removeMasteredQuestion', 'data.saveMasteredQuestion', 'i18n.t']}",
-    "round10_total_issues": 24,
-    "round10_severity_breakdown": "{'LOW': 19, 'MEDIUM': 2, 'INFO': 2, 'HIGH': 1}"
+    "round7_css_lines": 1030,
+    "round7_focus_states": 24,
+    "round9_en_keys": 165,
+    "round9_zh_keys": 166,
+    "round9_used_keys": 141,
+    "round10_innerhtml_unescaped": 16,
+    "round10_bundle_size_kb": 1115.3,
+    "round10_script_tags": 18,
+    "round10_global_names": 225,
+    "round10_cross_refs": "{'app.js': ['dashboard.renderDashboard', 'data.bandScore', 'data.clearExamData', 'data.clearListeningData', 'data.escapeHtml', 'data.getAttemptHistory', 'data.getListeningAttemptHistory', 'data.loadAnswers', 'data.loadExamState', 'data.loadListeningState', 'exam.renderExam', 'history.renderHistoryPage', 'i18n.t', 'listening-review.renderListeningHistoryPage', 'listening-review.renderListeningReview', 'listening.renderListeningExam', 'listening.startExam', 'review.renderReview', 'speaking.renderSpeakingExam', 'writing-review.renderWritingReview', 'writing.renderWritingExam', 'wrong-book.renderWrongBookPage'], 'dashboard.js': ['data.bandScore', 'data.formatTime', 'data.getAttemptHistory', 'data.getListeningAttemptHistory'], 'data.js': ['exam.saveAnswer', 'listening.saveListeningAnswer'], 'exam.js': ['data.bandScore', 'data.escapeHtml', 'data.gradeAnswer', 'data.loadAnswers', 'data.loadExamState', 'data.loadFlagged', 'data.saveAnswers', 'data.saveAttempt', 'data.saveExamState', 'data.saveFlagged', 'i18n.t'], 'history.js': ['data.bandScore', 'data.clearAllHistoryData', 'data.escapeHtml', 'data.formatDuration', 'data.getAttemptHistory', 'i18n.t'], 'i18n.js': ['data.bandScore', 'listening.completeSection', 'listening.startExam', 'speaking.playRecording', 'speaking.startRecording', 'speaking.stopRecording'], 'listening-review.js': ['data.bandScore', 'data.escapeHtml', 'data.getListeningAttemptHistory', 'i18n.t'], 'listening.js': ['data.bandScore', 'data.escapeHtml', 'data.formatTime', 'data.gradeAnswer', 'data.loadListeningAnswers', 'data.loadListeningFlagged', 'data.loadListeningState', 'data.saveListeningAnswers', 'data.saveListeningAttempt', 'data.saveListeningFlagged', 'data.saveListeningState'], 'review.js': ['data.bandScore', 'data.escapeHtml', 'data.formatDuration', 'i18n.formatTypeName', 'i18n.t'], 'speaking.js': ['data.escapeHtml'], 'timer.js': ['data.formatTime'], 'writing-review.js': ['data.escapeHtml', 'data.loadWritingAnswers', 'writing.countWords'], 'writing.js': ['data.escapeHtml', 'data.formatTime', 'data.loadWritingAnswers', 'data.loadWritingState', 'data.saveWritingAnswers', 'data.saveWritingState'], 'wrong-book.js': ['data.escapeHtml', 'data.getAttemptHistory', 'data.getListeningAttemptHistory', 'data.gradeAnswer', 'data.isMastered', 'data.removeMasteredQuestion', 'data.saveMasteredQuestion', 'i18n.formatTypeName', 'i18n.t']}",
+    "round10_total_issues": 33,
+    "round10_severity_breakdown": "{'LOW': 22, 'MEDIUM': 4, 'INFO': 4, 'HIGH': 3}"
   }
 }

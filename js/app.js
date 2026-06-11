@@ -1,6 +1,8 @@
 const isFileProtocol = window.location.protocol === 'file:';
 const isTauri = window.__TAURI__ !== undefined;
 
+(function(){var d=document.createElement('div');d.textContent='APPJS: line 3 OK, isTauri='+isTauri;d.style.cssText='font:14px monospace;padding:2px;color:green';document.body.appendChild(d);})();
+
 // ===== Theme =====
 function getStoredTheme() {
   return localStorage.getItem('ielts_theme');
@@ -87,6 +89,7 @@ async function loadTestData(path) {
   return response.json();
 }
 
+(function(){var d=document.createElement('div');d.textContent='APPJS: before App definition, readyState='+document.readyState;d.style.cssText='font:14px monospace;padding:2px;color:blue';document.body.appendChild(d);})();
 const App = {
   currentTest: null,
   tests: [],
@@ -104,16 +107,7 @@ const App = {
   },
 
   async loadTestList() {
-    // Legacy tests
-    const legacyTests = [];
-    const maxTests = ((isFileProtocol || isTauri) && window.__DATA_BUNDLE__)
-      ? Object.keys(window.__DATA_BUNDLE__.reading || {}).length
-      : 20;
-    for (let i = 1; i <= maxTests; i++) {
-      legacyTests.push({ id: `test${i}`, title: `Test ${i}`, file: `data/test${i}.json`, source: 'legacy' });
-    }
-
-    // Cambridge tests
+    // Cambridge reading tests
     const cambridgeBooks = [];
     const cambridgeListeningBooks = [];
     // Try bundle first (works in both file:// and HTTP modes)
@@ -195,7 +189,6 @@ const App = {
     cambridgeSpeakingBooks.forEach(b => b.tests.sort((a, b) => a.testNumber - b.testNumber));
     cambridgeSpeakingBooks.sort((a, b) => a.bookId.localeCompare(b.bookId));
 
-    this.tests = legacyTests;
     this.cambridgeBooks = cambridgeBooks;
     this.cambridgeListeningBooks = cambridgeListeningBooks;
     this.cambridgeWritingBooks = cambridgeWritingBooks;
@@ -283,10 +276,10 @@ const App = {
       <div class="test-select">
         <h1 data-i18n="selectTest">${t('selectTest')}</h1>
         <div class="tab-nav">
-          <button class="tab-btn ${this.activeTab === 'reading' ? 'active' : ''}" onclick="App.switchTab('reading')" data-i18n="reading">${t('reading')}</button>
-          <button class="tab-btn ${this.activeTab === 'listening' ? 'active' : ''}" onclick="App.switchTab('listening')" data-i18n="listening">${t('listening')}</button>
-          <button class="tab-btn ${this.activeTab === 'writing' ? 'active' : ''}" onclick="App.switchTab('writing')" data-i18n="writing">${t('writing')}</button>
-          <button class="tab-btn ${this.activeTab === 'speaking' ? 'active' : ''}" onclick="App.switchTab('speaking')" data-i18n="speaking">${t('speaking')}</button>
+          <button class="tab-btn ${this.activeTab === 'reading' ? 'active' : ''}" data-action="switch-tab" data-tab="reading" data-i18n="reading">${t('reading')}</button>
+          <button class="tab-btn ${this.activeTab === 'listening' ? 'active' : ''}" data-action="switch-tab" data-tab="listening" data-i18n="listening">${t('listening')}</button>
+          <button class="tab-btn ${this.activeTab === 'writing' ? 'active' : ''}" data-action="switch-tab" data-tab="writing" data-i18n="writing">${t('writing')}</button>
+          <button class="tab-btn ${this.activeTab === 'speaking' ? 'active' : ''}" data-action="switch-tab" data-tab="speaking" data-i18n="speaking">${t('speaking')}</button>
         </div>
         <div class="test-grid" id="testGrid"></div>
         <div class="sidebar-actions">
@@ -352,7 +345,7 @@ const App = {
           <div class="test-card-actions">
             <a href="${actionLink}" class="btn btn-primary">${actionText}</a>
             ${reviewLink ? `<a href="${reviewLink}" class="btn btn-secondary" style="margin-left:6px;">${t('review')}</a>` : ''}
-            ${status !== 'new' ? `<a href="${actionLink}" class="btn btn-secondary" style="margin-left:6px;" onclick="event.preventDefault(); App.confirmRedo('${test.id}', '${examType}')">${t('redoExam')}</a>` : ''}
+            ${status !== 'new' ? `<a href="${actionLink}" class="btn btn-secondary" style="margin-left:6px;" data-action="redo-exam" data-redo="${test.id}" data-redo-type="${examType}">${t('redoExam')}</a>` : ''}
           </div>
         </div>
       `);
@@ -364,7 +357,7 @@ const App = {
     const bookDiv = document.createElement('div');
     bookDiv.className = 'book-group';
     bookDiv.innerHTML = `
-      <div class="book-group-header" onclick="this.parentElement.classList.toggle('collapsed')">
+      <div class="book-group-header">
         <span class="book-group-title">${book.bookTitle}</span>
         <span class="book-group-toggle">&#9660;</span>
       </div>
@@ -374,25 +367,17 @@ const App = {
   },
 
   renderReadingGrid(grid) {
-    this._renderGrid(this.cambridgeBooks, this.tests, 'reading', grid);
+    this._renderGrid(this.cambridgeBooks, 'reading', grid);
   },
 
-  _renderGrid(books, legacyTests, examType, grid) {
+  _renderGrid(books, examType, grid) {
     (books || []).forEach(book => {
       grid.appendChild(this._renderBookGroup(book, examType));
     });
-    if (legacyTests.length > 0 && books.length > 0) {
-      grid.insertAdjacentHTML('beforeend', `<div class="section-header">${t('moreTests')}</div>`);
-    }
-    grid.insertAdjacentHTML('beforeend', this._buildTestCards(legacyTests, examType));
   },
 
   renderListeningGrid(grid) {
-    const legacy = [];
-    for (let i = 1; i <= 10; i++) {
-      legacy.push({ id: `test${i}`, title: `${t('listening')} ${i}` });
-    }
-    this._renderGrid(this.cambridgeListeningBooks, legacy, 'listening', grid);
+    this._renderGrid(this.cambridgeListeningBooks, 'listening', grid);
   },
 
   async showExam(testId) {
@@ -400,11 +385,7 @@ const App = {
     container.innerHTML = `<div class="loading-state"><span class="spinner"></span>${t('loading')}</div>`;
 
     try {
-      if (testId.startsWith('cam')) {
-        this.currentTest = await this.loadCambridgeReadingTest(testId);
-      } else {
-        this.currentTest = await loadTestData(`data/${testId}.json`);
-      }
+      this.currentTest = await this.loadCambridgeReadingTest(testId);
       if (!this.currentTest || !this.currentTest.passages) throw new Error('Invalid data format');
       renderExam(this.currentTest);
     } catch (e) {
@@ -443,12 +424,7 @@ const App = {
     container.innerHTML = `<div class="loading-state"><span class="spinner"></span>${t('loading')}</div>`;
 
     try {
-      let testData;
-      if (testId.startsWith('cam')) {
-        testData = await this.loadCambridgeListeningTest(testId);
-      } else {
-        testData = await loadTestData(`data/listening/${testId}.json`);
-      }
+      let testData = await this.loadCambridgeListeningTest(testId);
       if (!testData || !testData.sections) throw new Error('Invalid data format');
       renderListeningExam(testData);
     } catch (e) {
@@ -546,11 +522,7 @@ const App = {
   },
 
   renderWritingGrid(grid) {
-    const legacy = [];
-    for (let i = 1; i <= 10; i++) {
-      legacy.push({ id: `test${i}`, title: `${t('writing')} ${i}` });
-    }
-    this._renderGrid(this.cambridgeWritingBooks, legacy, 'writing', grid);
+    this._renderGrid(this.cambridgeWritingBooks, 'writing', grid);
   },
 
   async showWritingExam(testId) {
@@ -575,11 +547,7 @@ const App = {
   },
 
   renderSpeakingGrid(grid) {
-    const legacy = [];
-    for (let i = 1; i <= 10; i++) {
-      legacy.push({ id: `test${i}`, title: `${t('speaking')} ${i}` });
-    }
-    this._renderGrid(this.cambridgeSpeakingBooks, legacy, 'speaking', grid);
+    this._renderGrid(this.cambridgeSpeakingBooks, 'speaking', grid);
   },
 
   async showSpeakingExam(testId) {
@@ -623,8 +591,8 @@ const App = {
         <h2>${t('redoExam')} ${label}</h2>
         <p>${t('submitConfirmDesc')}</p>
         <div class="modal-actions">
-          <button class="btn btn-secondary" onclick="this.closest('.modal-overlay').remove()" data-i18n="cancel">${t('cancel')}</button>
-          <button class="btn btn-primary" onclick="this.closest('.modal-overlay').remove(); App._doRedo('${testId}', '${type}')" data-i18n="confirm">${t('confirm')}</button>
+          <button class="btn btn-secondary" data-action="close-modal" data-i18n="cancel">${t('cancel')}</button>
+          <button class="btn btn-primary" data-action="confirm-redo" data-redo-id="${testId}" data-redo-type="${type}" data-i18n="confirm">${t('confirm')}</button>
         </div>
       </div>
     `;
@@ -646,4 +614,13 @@ const App = {
   }
 };
 
-window.addEventListener('DOMContentLoaded', () => { initTheme(); App.init(); });
+(function(){var d=document.createElement('div');d.textContent='APPJS: App defined OK, typeof App='+(typeof App);d.style.cssText='font:14px monospace;padding:2px;color:green';document.body.appendChild(d);})();
+
+(function boot() {
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => { initTheme(); App.init(); });
+  } else {
+    initTheme();
+    App.init();
+  }
+})();

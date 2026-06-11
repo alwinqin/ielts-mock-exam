@@ -141,12 +141,12 @@ function renderTypeFilterBar() {
   if (!el) return;
 
   const types = Object.keys(_wrongBookTypeStats).sort();
-  let html = `<button class="type-filter-btn ${_wrongBookActiveFilter === 'all' ? 'active' : ''}" onclick="setWrongBookFilter('all')" data-i18n="allTypes">${t('allTypes')} (${_wrongBookItems.length})</button>`;
+  let html = `<button class="type-filter-btn ${_wrongBookActiveFilter === 'all' ? 'active' : ''}" data-action="wrong-book-set-filter" data-filter="all')" data-i18n="allTypes">${t('allTypes')} (${_wrongBookItems.length})</button>`;
 
   types.forEach(t => {
     const count = _wrongBookTypeStats[t];
     const isActive = _wrongBookActiveFilter === t;
-    html += `<button class="type-filter-btn ${isActive ? 'active' : ''}" onclick="setWrongBookFilter('${t}')">${getTypeLabel(t)} (${count})</button>`;
+    html += `<button class="type-filter-btn ${isActive ? 'active' : ''}" data-action="wrong-book-set-filter" data-filter="${t}')">${getTypeLabel(t)} (${count})</button>`;
   });
 
   el.innerHTML = html;
@@ -158,7 +158,7 @@ function renderWeaknessLink() {
 
   const worstType = Object.entries(_wrongBookTypeStats).sort((a, b) => b[1] - a[1])[0];
   if (worstType && worstType[1] >= 2) {
-    el.innerHTML = `<a href="#" class="btn btn-small btn-danger" onclick="event.preventDefault(); startPracticeMode('${worstType[0]}')" data-i18n="practiceWeakTypes">${t('practiceWeakTypes')}: ${getTypeLabel(worstType[0])}</a>`;
+    el.innerHTML = `<a href="#" class="btn btn-small btn-danger" data-action="wrong-book-start-practice" data-type="${worstType[0]}" data-i18n="practiceWeakTypes">${t('practiceWeakTypes')}: ${getTypeLabel(worstType[0])}</a>`;
   }
 }
 
@@ -197,10 +197,10 @@ function renderWrongList(filterType) {
           ${mastered ? `<span class="mastered-badge" style="margin-left:8px;" data-i18n="mastered">${t('mastered')}</span>` : ''}
         </div>
         <div class="wrong-item-actions">
-          <button class="btn btn-small btn-primary" onclick="startWrongRedo('${w.testId}', ${w.questionNumber}, '${w.module}')" data-i18n="redoWrongQuestion">${t('redoWrongQuestion')}</button>
+          <button class="btn btn-small btn-primary" data-action="wrong-book-redo" data-testid="${w.testId}" data-qnum="${w.questionNumber}" data-module="${w.module}" data-i18n="redoWrongQuestion">${t('redoWrongQuestion')}</button>
           ${mastered
-            ? `<button class="btn btn-small btn-secondary" onclick="unmarkMastered('${qid}')" data-i18n="markMastered">${t('markMastered')}</button>`
-            : `<button class="btn btn-small btn-secondary" onclick="markAsMastered('${qid}')" data-i18n="markMastered">${t('markMastered')}</button>`
+            ? `<button class="btn btn-small btn-secondary" data-action="wrong-book-unmark-mastered" data-qid="${qid}" data-i18n="markMastered">${t('markMastered')}</button>`
+            : `<button class="btn btn-small btn-secondary" data-action="wrong-book-mark-mastered" data-qid="${qid}" data-i18n="markMastered">${t('markMastered')}</button>`
           }
         </div>
       </div>
@@ -355,8 +355,8 @@ function renderRedoPanel(q, module) {
 
   html += `
       <div style="margin-top:16px;display:flex;gap:8px;">
-        <button class="btn btn-primary" onclick="submitRedoAnswer()" data-i18n="submit">${t('submit')}</button>
-        <button class="btn btn-secondary" onclick="cancelRedo()" data-i18n="cancel">${t('cancel')}</button>
+        <button class="btn btn-primary" data-action="wrong-book-submit-redo" data-i18n="submit">${t('submit')}</button>
+        <button class="btn btn-secondary" data-action="wrong-book-cancel-redo" data-i18n="cancel">${t('cancel')}</button>
       </div>
       <div id="redoResult"></div>
     </div>
@@ -411,7 +411,7 @@ function submitRedoAnswer() {
   if (_practiceMode) {
     resultEl.innerHTML += `
       <div style="margin-top:12px;">
-        <button class="btn btn-primary" onclick="nextPracticeQuestion()" data-i18n="nextQuestion">${_practiceIndex < _practiceItems.length - 1 ? t('nextQuestion') : t('done')}</button>
+        <button class="btn btn-primary" data-action="wrong-book-next-practice" data-i18n="nextQuestion">${_practiceIndex < _practiceItems.length - 1 ? t('nextQuestion') : t('done')}</button>
       </div>
     `;
   }

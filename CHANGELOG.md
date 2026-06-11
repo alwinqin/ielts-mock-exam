@@ -3,22 +3,34 @@
 ## [2.0.0] — Unreleased (Tauri Desktop Edition)
 
 ### Added
-- **Tauri Desktop Application**: macOS (.dmg) and Windows (.msi) support
-- **Whisper.cpp Sidecar**: Offline speech transcription via Rust backend
+- **Tauri v2 Desktop Application**: macOS (.dmg) and Windows (.msi) support
+- **Whisper.cpp Sidecar**: Offline speech transcription via Rust backend (planned)
 - **Transcribe Interface Abstraction**: Tauri native > HTTP server > Web Speech API fallback chain
 - **Local Chart.js**: Vendored chart.min.js, no CDN dependency
-- **Autonomous CI/CD Pipeline**: 3-layer validation (pre-commit / CI push / scheduled audit)
-- **Desktop CI Builds**: GitHub Actions for macOS universal + Windows MSVC
-- **Pre-commit Hook**: Blocks commits with CRITICAL data issues
-- **Scheduled Deep Audit**: Daily automated quality checks + issue management
-- **Quality Dashboard**: Automated quality metrics generation
+- **Audio Setup Script**: `setup-audio.sh` for Cambridge audio file management
+- **Audio Pre-Resolution**: Async URL resolution during preview phase to avoid WKWebView autoplay rejection
 - **App Window Configuration**: minWidth 1024, minHeight 600
 
 ### Changed
+- **Event Delegation**: All inline `onclick` handlers removed (0 remaining), WKWebView CSP compatible
+- **Audio Playback**: Synchronous `play()` via pre-resolved URLs, bypasses WKWebView user-gesture requirement
+- **Port**: Standardized on 8899 across dev server, E2E tests, CI, and Tauri config
+- **CSP Headers**: `media-src` includes `*` fallback for WKWebView custom protocols
 - **Environment Detection**: Added `isTauri` flag alongside `isFileProtocol`
-- **Audio Path Resolution**: Tauri resource_dir for desktop, relative paths for web
+- **Audio Path Resolution**: Tauri `resource_dir` for desktop, relative paths for web
 - **Data Loading**: `isFileProtocol || isTauri` condition for bundle usage
-- **CSP Headers**: Proper Content-Security-Policy for Tauri WebView
+
+### Removed
+- **AI-Generated Practice Tests**: 50 files deleted (20 reading, 10 listening, 10 writing, 10 speaking)
+  - Tests were AI-synthesized and had quality/accuracy gaps vs. real Cambridge material
+  - Their audio files (40 MP3s) also cleaned up
+- **Legacy i18n Keys**: `moreTests` entries removed from en/zh dictionaries
+
+### Fixed
+- **WKWebView onclick**: 6 `onclick` handlers in app.js converted to `data-action` event delegation
+- **speaking.js Syntax**: 6 instances of mismatched quote escaping (`data-qid="${qid}')"`)
+- **E2E Port Conflict**: Port 8888 occupied by Docker, migrated to 8899
+- **E2E Test 14.6**: Removed JS bundle.resources assertion (JS embedded via `generate_context!()`)
 
 ### Security
 - CSP defined in tauri.conf.json (script-src, connect-src, media-src)

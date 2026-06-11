@@ -3,7 +3,6 @@ const i18n = {
   en: {
     appTitle: 'IELTS Mock Test',
     selectTest: 'Select a Test',
-    moreTests: 'More Practice Tests',
     startExam: 'Start Exam',
     resumeExam: 'Resume',
     viewHistory: 'View History',
@@ -201,7 +200,6 @@ const i18n = {
   zh: {
     appTitle: '雅思模拟考试',
     selectTest: '选择试题',
-    moreTests: '更多模拟题',
     startExam: '开始考试',
     resumeExam: '继续',
     viewHistory: '查看历史',

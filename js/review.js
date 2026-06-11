@@ -34,9 +34,9 @@ function renderReview(testData, attempt, container) {
       </div>
 
       <div class="review-filters">
-        <button class="btn btn-small ${reviewFilter === 'all' ? 'btn-primary active' : 'btn-secondary'}" onclick="setReviewFilter('all')" data-i18n="all">${t('all')}</button>
-        <button class="btn btn-small ${reviewFilter === 'wrong' ? 'btn-primary active' : 'btn-secondary'}" onclick="setReviewFilter('wrong')" data-i18n="wrongOnly">${t('wrongOnly')}</button>
-        <button class="btn btn-small ${reviewFilter === 'unanswered' ? 'btn-primary active' : 'btn-secondary'}" onclick="setReviewFilter('unanswered')" data-i18n="unanswered">${t('unanswered')}</button>
+        <button class="btn btn-small ${reviewFilter === 'all' ? 'btn-primary active' : 'btn-secondary'}" data-action="review-set-filter" data-filter="all')" data-i18n="all">${t('all')}</button>
+        <button class="btn btn-small ${reviewFilter === 'wrong' ? 'btn-primary active' : 'btn-secondary'}" data-action="review-set-filter" data-filter="wrong')" data-i18n="wrongOnly">${t('wrongOnly')}</button>
+        <button class="btn btn-small ${reviewFilter === 'unanswered' ? 'btn-primary active' : 'btn-secondary'}" data-action="review-set-filter" data-filter="unanswered')" data-i18n="unanswered">${t('unanswered')}</button>
       </div>
 
       <div id="reviewQuestions"></div>

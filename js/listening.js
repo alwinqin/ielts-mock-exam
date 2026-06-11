@@ -8,6 +8,7 @@ let listeningCompletedSections = [];
 let listeningAudioEl = null;
 let listeningAllQuestions = [];
 let listeningPhaseTimer = null;
+let listeningPreResolvedAudioSrc = null;
 
 const PREVIEW_SECONDS = 30;
 const PLAYBACK_RATES = [0.5, 0.75, 1, 1.25, 1.5];
@@ -64,7 +65,7 @@ function renderSpeedControls() {
   speedDiv.className = 'speed-controls';
   speedDiv.innerHTML = PLAYBACK_RATES.map(function(r) {
     const active = r === listeningPlaybackRate ? ' active' : '';
-    return '<button class="speed-btn' + active + '" onclick="setPlaybackRate(' + r + ')" aria-label="Playback speed ' + r + 'x" aria-pressed="' + (r === listeningPlaybackRate) + '">' + r + 'x</button>';
+    return '<button class="speed-btn' + active + '" data-action="set-playback-rate" data-rate="' + r + '" aria-label="Playback speed ' + r + 'x" aria-pressed="' + (r === listeningPlaybackRate) + '">' + r + 'x</button>';
   }).join('');
   container.appendChild(speedDiv);
 }
@@ -83,6 +84,7 @@ function hideAudioPlayer() {
 function startSectionPreview(sectionIndex) {
   listeningCurrentSection = sectionIndex;
   listeningSubPhase = 'preview';
+  resolveAudioSrc(sectionIndex);
 
   // Show section tabs and questions - but disable question inputs
   switchListeningSection(sectionIndex);
@@ -118,6 +120,36 @@ function startSectionPreview(sectionIndex) {
   });
 }
 
+function resolveAudioSrc(sectionIndex) {
+  const section = listeningTestData.sections[sectionIndex];
+  if (!section) return Promise.resolve(null);
+  const isCambridge = listeningTestData._source === 'cambridge' || listeningTestData.id.startsWith('cam');
+  const audioPrefix = isCambridge ? 'data/cambridge/audio/' : 'data/listening/audio/';
+  const audioFile = section.audioFile || `${listeningTestData.id}_s${sectionIndex + 1}.mp3`;
+  var relativePath = audioPrefix + audioFile;
+
+  if (window.__TAURI__ || window.__TAURI_INTERNALS__) {
+    var invokeFn = (window.__TAURI__ && window.__TAURI__.core && window.__TAURI__.core.invoke) || (window.__TAURI_INTERNALS__ && window.__TAURI_INTERNALS__.invoke);
+    var convertFn = (window.__TAURI__ && window.__TAURI__.core && window.__TAURI__.core.convertFileSrc) || (window.__TAURI_INTERNALS__ && window.__TAURI_INTERNALS__.convertFileSrc);
+    if (invokeFn && convertFn) {
+      return invokeFn('get_audio_path', { testId: listeningTestData.id, sectionIdx: sectionIndex }).then(function(audioDir) {
+        listeningPreResolvedAudioSrc = convertFn(audioDir + '/' + audioFile);
+        return listeningPreResolvedAudioSrc;
+      }).catch(function(e) {
+        console.warn('Tauri audio path error:', e);
+        listeningPreResolvedAudioSrc = relativePath;
+        return null;
+      });
+    } else {
+      listeningPreResolvedAudioSrc = relativePath;
+      return Promise.resolve(null);
+    }
+  } else {
+    listeningPreResolvedAudioSrc = relativePath;
+    return Promise.resolve(listeningPreResolvedAudioSrc);
+  }
+}
+
 function startSectionAudio() {
   if (listeningSubPhase !== 'preview' && listeningSubPhase !== 'section_end') return;
 
@@ -137,18 +169,25 @@ function startSectionAudio() {
 
 function playAudioForSection(sectionIndex) {
   if (!listeningAudioEl) createAudioElement();
-  const section = listeningTestData.sections[sectionIndex];
+  var section = listeningTestData.sections[sectionIndex];
   if (!section) return;
 
-  const isCambridge = listeningTestData._source === 'cambridge' || listeningTestData.id.startsWith('cam');
-  const audioPrefix = isCambridge ? 'data/cambridge/audio/' : 'data/listening/audio/';
-  const audioPath = audioPrefix + (section.audioFile || `${listeningTestData.id}_s${sectionIndex + 1}.mp3`);
-  listeningAudioEl.src = audioPath;
+  // Use pre-resolved URL if available, otherwise fall back to resolving now
+  if (listeningPreResolvedAudioSrc) {
+    listeningAudioEl.src = listeningPreResolvedAudioSrc;
+    listeningPreResolvedAudioSrc = null;
+  } else {
+    var isCambridge = listeningTestData._source === 'cambridge' || listeningTestData.id.startsWith('cam');
+    var audioPrefix = isCambridge ? 'data/cambridge/audio/' : 'data/listening/audio/';
+    var audioFile = section.audioFile || `${listeningTestData.id}_s${sectionIndex + 1}.mp3`;
+    listeningAudioEl.src = audioPrefix + audioFile;
+  }
+
   listeningAudioEl.currentTime = 0;
   listeningAudioEl.playbackRate = listeningPlaybackRate;
-  listeningAudioEl.play().catch(e => {
+  listeningAudioEl.play().catch(function(e) {
     console.warn('Audio play error:', e.message);
-    const el = document.getElementById('audioErrorMsg');
+    var el = document.getElementById('audioErrorMsg');
     if (el) el.style.display = 'block';
   });
 
@@ -277,7 +316,7 @@ function renderListeningExam(testData) {
           <strong id="listeningAnswered">${Object.keys(listeningAnswers).length}</strong>/40 ${t('answered')}
           | <strong id="listeningFlagged">${listeningFlagged.length}</strong> ${t('flagged')}
         </span>
-        ${listeningPhase === 'transfer' ? `<button class="btn btn-primary btn-small" onclick="showListeningSubmitModal()">${t('submit')}</button>` : ''}
+        ${listeningPhase === 'transfer' ? `<button class="btn btn-primary btn-small" data-action="show-listening-submit">${t('submit')}</button>` : ''}
       </div>
 
       <div class="listening-progress-bar" id="listeningProgressBar"></div>
@@ -305,7 +344,7 @@ function renderListeningExam(testData) {
         <h2 style="color:var(--text-heading);margin-bottom:16px;">${t('listeningTestTitle')}</h2>
         <p style="color:var(--text-secondary);margin-bottom:8px;">${t('listeningTestInfo')}</p>
         <p style="color:var(--text-secondary);margin-bottom:24px;">${t('listeningTestTime')}</p>
-        <button class="btn btn-primary" onclick="startExam()" style="font-size:1.1rem;padding:12px 40px;">
+        <button class="btn btn-primary" data-action="start-listening-exam" style="font-size:1.1rem;padding:12px 40px;">
           ${t('startExam')}
         </button>
       </div>
@@ -327,7 +366,9 @@ function renderListeningExam(testData) {
     if (listeningSubPhase === 'preview' && listeningPhaseTimer === null) {
       startSectionPreview(listeningCurrentSection);
     } else if (listeningSubPhase === 'playing') {
-      playAudioForSection(listeningCurrentSection);
+      resolveAudioSrc(listeningCurrentSection).then(function() {
+        playAudioForSection(listeningCurrentSection);
+      });
     }
   } else if (listeningPhase === 'transfer') {
     renderSectionTabs();
@@ -360,7 +401,7 @@ function renderSectionTabs() {
     const played = listeningCompletedSections.includes(i);
     const isCurrent = i === listeningCurrentSection;
     const cls = `${isCurrent ? 'active' : ''} ${played ? 'played' : ''}`;
-    tabsHtml += `<div class="section-tab ${cls}" id="section-tab-${i}" role="tab" aria-selected="${isCurrent}" aria-controls="section-content-${i}" onclick="switchListeningSection(${i})">
+    tabsHtml += `<div class="section-tab ${cls}" id="section-tab-${i}" role="tab" aria-selected="${isCurrent}" aria-controls="section-content-${i}" data-action="switch-listening-section" data-section="${i}">
       ${t('section')} ${i + 1}${played ? ' ✓' : ''}
     </div>`;
     contentHtml += `
@@ -446,7 +487,7 @@ function renderListeningQuestions(sectionIndex, disabled) {
     html += `
       <div class="question-header">
         <span class="question-number">${t('question')} ${getListeningGlobalNum(qid)}</span>
-        <button class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleListeningFlag('${qid}')" ${disabled ? 'disabled' : ''} aria-label="${isFlagged ? t('unflag') : t('flag')} question ${getListeningGlobalNum(qid)}">${isFlagged ? t('flagged') : t('flag')}</button>
+        <button class="flag-btn ${isFlagged ? 'flagged' : ''}" data-action="toggle-listening-flag" data-qid="${qid}" ${disabled ? 'disabled' : ''} aria-label="${isFlagged ? t('unflag') : t('flag')} question ${getListeningGlobalNum(qid)}">${isFlagged ? t('flagged') : t('flag')}</button>
       </div>
     `;
     html += `<div class="question-text">${escapeHtml(q.question)}</div>`;
@@ -473,7 +514,7 @@ function renderListeningQuestionInput(q, qid, userAnswer, disabled) {
       (q.options || []).forEach(opt => {
         const sel = userAnswer === opt;
         const label = areLabels ? t('optionLetter', { n: opt }) : opt;
-        mcHtml += `<label class="option-label ${sel ? 'selected' : ''}"><input type="radio" name="lq_${qid}" value="${escapeHtml(opt)}" ${sel ? 'checked' : ''} onchange="saveListeningAnswer('${qid}', this.value)" ${ds}>${escapeHtml(label)}</label>`;
+        mcHtml += `<label class="option-label ${sel ? 'selected' : ''}"><input type="radio" name="lq_${qid}" value="${escapeHtml(opt)}" ${sel ? 'checked' : ''} data-change="save-listening-answer" data-qid="${qid}" ${ds}>${escapeHtml(label)}</label>`;
       });
       if (areLabels && (q.options || []).length > 0) {
         mcHtml += '<div class="option-hint">' + t('referToPaper') + '</div>';
@@ -497,9 +538,9 @@ function renderListeningQuestionInput(q, qid, userAnswer, disabled) {
     case 'notes_completion':
     case 'form_completion':
     case 'short_answer':
-      return `<div class="options"><label class="option-label"><input type="text" value="${escapeHtml(userAnswer)}" onchange="saveListeningAnswer('${qid}', this.value)" placeholder="..." style="flex:1;padding:6px;" ${ds}></label></div>`;
+      return `<div class="options"><label class="option-label"><input type="text" value="${escapeHtml(userAnswer)}" data-change="save-listening-answer" data-qid="${qid}" placeholder="..." style="flex:1;padding:6px;" ${ds}></label></div>`;
     default:
-      return `<div class="options"><label class="option-label"><input type="text" value="${escapeHtml(userAnswer)}" onchange="saveListeningAnswer('${qid}', this.value)" placeholder="..." style="flex:1;padding:6px;" ${ds}></label></div>`;
+      return `<div class="options"><label class="option-label"><input type="text" value="${escapeHtml(userAnswer)}" data-change="save-listening-answer" data-qid="${qid}" placeholder="..." style="flex:1;padding:6px;" ${ds}></label></div>`;
   }
 }
 
@@ -508,7 +549,7 @@ function renderListeningRadioOptions(q, qid, userAnswer, options, disabled) {
   let html = '<div class="options">';
   options.forEach(opt => {
     const sel = userAnswer === opt;
-    html += `<label class="option-label ${sel ? 'selected' : ''}"><input type="radio" name="lq_${qid}" value="${escapeHtml(opt)}" ${sel ? 'checked' : ''} onchange="saveListeningAnswer('${qid}', this.value)" ${ds}>${escapeHtml(opt)}</label>`;
+    html += `<label class="option-label ${sel ? 'selected' : ''}"><input type="radio" name="lq_${qid}" value="${escapeHtml(opt)}" ${sel ? 'checked' : ''} data-change="save-listening-answer" data-qid="${qid}" ${ds}>${escapeHtml(opt)}</label>`;
   });
   html += '</div>';
   return html;
@@ -520,7 +561,7 @@ function renderListeningCheckboxOptions(q, qid, userAnswer, disabled) {
   let html = '<div class="options">';
   (q.options || []).forEach(opt => {
     const checked = selected.includes(opt);
-    html += `<label class="option-label checkbox-label ${checked ? 'selected' : ''}"><input type="checkbox" name="lq_${qid}" value="${escapeHtml(opt)}" ${checked ? 'checked' : ''} onchange="saveListeningCheckboxAnswer('${qid}')" ${ds}>${escapeHtml(opt)}</label>`;
+    html += `<label class="option-label checkbox-label ${checked ? 'selected' : ''}"><input type="checkbox" name="lq_${qid}" value="${escapeHtml(opt)}" ${checked ? 'checked' : ''} data-change="save-listening-checkbox" data-qid="${qid}" ${ds}>${escapeHtml(opt)}</label>`;
   });
   html += '</div>';
   return html;
@@ -529,7 +570,7 @@ function renderListeningCheckboxOptions(q, qid, userAnswer, disabled) {
 function renderListeningMatching(q, qid, userAnswer, disabled) {
   const ds = disabled ? 'disabled' : '';
   let html = '<div class="options">';
-  html += `<select class="matching-select" onchange="saveListeningAnswer('${escapeHtml(qid)}', this.value)" style="padding:6px;border:1px solid var(--border-color);border-radius:4px;width:100%;" ${ds}>`;
+  html += `<select class="matching-select" data-change="save-listening-answer" data-qid="${escapeHtml(qid)}" style="padding:6px;border:1px solid var(--border-color);border-radius:4px;width:100%;" ${ds}>`;
   html += `<option value="">${t('selectAll')}</option>`;
   (q.options || []).forEach(opt => {
     const sel = userAnswer === opt;
@@ -622,7 +663,7 @@ function renderListeningFooter() {
   if (listeningPhase === 'transfer') {
     footer.innerHTML = `
       <div class="listening-footer-bar">
-        <button class="btn btn-primary" onclick="showListeningSubmitModal()">${t('submit')}</button>
+        <button class="btn btn-primary" data-action="show-listening-submit">${t('submit')}</button>
         <span style="margin-left:12px;font-size:0.85rem;color:var(--text-secondary);">${t('transferDesc')}</span>
       </div>
     `;
@@ -640,16 +681,16 @@ function renderListeningFooter() {
           ${t('previewTimeLabel')}<span id="previewTimer" aria-live="polite">${t('previewCountdown', { n: PREVIEW_SECONDS })}</span>
         </span>
         <span style="margin-left:12px;font-size:0.85rem;color:var(--text-muted);">${t('readQuestionsHint')}</span>
-        <button class="btn btn-primary btn-small" onclick="startSectionAudio()" style="margin-left:auto;">${t('startAudioBtn')}</button>
+        <button class="btn btn-primary btn-small" data-action="start-section-audio" style="margin-left:auto;">${t('startAudioBtn')}</button>
       </div>
     `;
   } else if (listeningSubPhase === 'playing') {
     const nextBtn = listeningCurrentSection < listeningTestData.sections.length - 1 ?
-      `<button class="btn btn-primary btn-small" onclick="nextSection()" style="margin-left:8px;">${t('completeSectionBtn')}</button>` :
-      `<button class="btn btn-primary btn-small" onclick="nextSection()" style="margin-left:8px;">${t('finishTransferBtn')}</button>`;
+      `<button class="btn btn-primary btn-small" data-action="next-section" style="margin-left:8px;">${t('completeSectionBtn')}</button>` :
+      `<button class="btn btn-primary btn-small" data-action="next-section" style="margin-left:8px;">${t('finishTransferBtn')}</button>`;
     footer.innerHTML = `
       <div class="listening-footer-bar">
-        <button class="play-btn" onclick="if(listeningAudioEl && listeningAudioEl.paused) { listeningAudioEl.play(); } else if(listeningAudioEl) { listeningAudioEl.pause(); }">
+        <button class="play-btn" data-action="toggle-play-pause">
           ${listeningAudioEl && !listeningAudioEl.paused ? t('pauseAudio') : t('playAudio')}
         </button>
         <span style="margin-left:8px;font-size:0.85rem;color:var(--text-muted);">${t('sectionAnswerHint', { n: listeningCurrentSection + 1 })}</span>
@@ -660,7 +701,7 @@ function renderListeningFooter() {
     footer.innerHTML = `
       <div class="listening-footer-bar">
         <span style="color:var(--color-success);font-weight:600;">${t('sectionCompletedLabel', { n: listeningCurrentSection + 1 })}</span>
-        <button class="btn btn-primary btn-small" onclick="nextSection()" style="margin-left:12px;">
+        <button class="btn btn-primary btn-small" data-action="next-section" style="margin-left:12px;">
           ${listeningCurrentSection < listeningTestData.sections.length - 1 ? t('startSectionBtn', { n: listeningCurrentSection + 2 }) : t('startTransferBtn')}
         </button>
       </div>
@@ -688,7 +729,7 @@ function enterTransferPhase() {
     if (!topbar.querySelector('.btn-primary')) {
       const submitBtn = document.createElement('button');
       submitBtn.className = 'btn btn-primary btn-small';
-      submitBtn.onclick = showListeningSubmitModal;
+      submitBtn.setAttribute('data-action', 'show-listening-submit');
       submitBtn.textContent = t('submit');
       topbar.appendChild(submitBtn);
     }
@@ -742,8 +783,8 @@ function showListeningSubmitModal() {
       <p>${t('submitConfirmDesc')}</p>
       ${unanswered > 0 ? `<p style="color:var(--color-warning);font-weight:600;">${t('submitWarningUnanswered', { n: unanswered })}</p>` : ''}
       <div class="modal-actions">
-        <button class="btn btn-secondary" onclick="this.closest('.modal-overlay').remove()">${t('cancel')}</button>
-        <button class="btn btn-primary" onclick="listeningSubmitExam()">${t('confirm')}</button>
+        <button class="btn btn-secondary" data-action="close-modal">${t('cancel')}</button>
+        <button class="btn btn-primary" data-action="listening-submit-exam">${t('confirm')}</button>
       </div>
     </div>
   `;
@@ -804,7 +845,7 @@ function listeningSubmitExam(isAuto) {
         <h2>${t('timeUp')}</h2>
         <p>${t('listening')} ${t('examEnded')}</p>
         <div class="modal-actions">
-          <button class="btn btn-primary" onclick="this.closest('.modal-overlay').remove(); window.location.hash='#/listening-review/${listeningTestData.id}'">${t('viewReview')}</button>
+          <button class="btn btn-primary" data-action="close-auto-submit" data-redirect="#/listening-review/${listeningTestData.id}">${t('viewReview')}</button>
         </div>
       </div>
     `;

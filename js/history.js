@@ -82,7 +82,7 @@ function renderHistoryPage(container) {
 
   html += `<div style="text-align:center;margin-top:20px;">
     <a href="#/" class="btn btn-primary" data-i18n="backToTests">${t('backToTests')}</a>
-    <button class="btn btn-danger" style="margin-top:12px;" onclick="onClearAllHistory()" data-i18n="clearAllHistory">${t('clearAllHistory')}</button>
+    <button class="btn btn-danger" style="margin-top:12px;" data-action="clear-all-history" data-i18n="clearAllHistory">${t('clearAllHistory')}</button>
   </div>`;
   html += `</div>`;
 

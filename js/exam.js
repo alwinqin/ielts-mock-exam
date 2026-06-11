@@ -28,7 +28,7 @@ function renderExam(testData) {
           <strong id="answeredCount">${Object.keys(currentAnswers).length}</strong>/${testData.totalQuestions} ${t('answered')}
           | <strong id="flaggedCount">${currentFlagged.length}</strong> ${t('flagged')}
         </span>
-        <button class="btn btn-primary btn-small" onclick="showSubmitModal()" data-i18n="submit">${t('submit')}</button>
+        <button class="btn btn-primary btn-small" data-action="show-submit-modal" data-i18n="submit">${t('submit')}</button>
       </div>
       <div class="exam-main">
         <div class="exam-passage" id="passagePanel"></div>
@@ -81,7 +81,7 @@ function renderPassageTabs() {
   let tabsHtml = '<div class="passage-tabs">';
   let contentHtml = '';
   currentTestData.passages.forEach((p, i) => {
-    tabsHtml += `<div class="passage-tab ${i === 0 ? 'active' : ''}" role="tab" aria-selected="${i === 0}" aria-controls="passage-${i}" onclick="switchPassage(${i})">${t('passage')} ${i + 1}: ${p.title}</div>`;
+    tabsHtml += `<div class="passage-tab ${i === 0 ? 'active' : ''}" role="tab" aria-selected="${i === 0}" aria-controls="passage-${i}" data-action="switch-passage" data-passage="${i}">${t('passage')} ${i + 1}: ${p.title}</div>`;
     contentHtml += `
       <div class="passage-content ${i === 0 ? 'active' : ''}" id="passage-${i}" role="tabpanel" data-passage="${i}">
         <h2>${t('passage')} ${i + 1}: ${p.title}</h2>
@@ -119,7 +119,7 @@ function renderQuestions(passageIndex) {
     html += `
       <div class="question-header">
         <span class="question-number">${t('question')} ${getQuestionGlobalNumber(qid)}</span>
-        <button class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag('${escapeHtml(qid)}')" data-i18n="${isFlagged ? 'flagged' : 'flag'}" aria-label="${isFlagged ? t('unflag') : t('flag')} question ${getQuestionGlobalNumber(qid)}">${isFlagged ? t('flagged') : t('flag')}</button>
+        <button class="flag-btn ${isFlagged ? 'flagged' : ''}" data-action="toggle-flag" data-qid="${escapeHtml(qid)}" data-i18n="${isFlagged ? 'flagged' : 'flag'}" aria-label="${isFlagged ? t('unflag') : t('flag')} question ${getQuestionGlobalNumber(qid)}">${isFlagged ? t('flagged') : t('flag')}</button>
       </div>
     `;
     html += `<div class="question-text">${escapeHtml(q.question)}</div>`;
@@ -174,7 +174,7 @@ function renderRadioOptions(q, qid, userAnswer, forcedOptions) {
     const selected = userAnswer === opt;
     html += `
       <label class="option-label ${selected ? 'selected' : ''}">
-        <input type="radio" name="q_${escapeHtml(qid)}" value="${escapeHtml(opt)}" ${selected ? 'checked' : ''} onchange="saveAnswer('${escapeHtml(qid)}', this.value, this)">
+        <input type="radio" name="q_${escapeHtml(qid)}" value="${escapeHtml(opt)}" ${selected ? 'checked' : ''} data-change="save-answer" data-qid="${escapeHtml(qid)}">
         ${escapeHtml(opt)}
       </label>
     `;
@@ -185,7 +185,7 @@ function renderRadioOptions(q, qid, userAnswer, forcedOptions) {
 
 function renderMatchingHeadings(q, qid, userAnswer) {
   let html = '<div class="options">';
-  html += `<select class="matching-select" onchange="saveAnswer('${escapeHtml(qid)}', this.value, this)" style="padding:6px;border:1px solid var(--border-color);border-radius:4px;width:100%;">`;
+  html += `<select class="matching-select" data-change="save-answer" data-qid="${escapeHtml(qid)}" style="padding:6px;border:1px solid var(--border-color);border-radius:4px;width:100%;">`;
   html += `<option value="">${t('selectAll')}</option>`;
   q.options.forEach(opt => {
     const selected = userAnswer === opt;
@@ -202,7 +202,7 @@ function renderCheckboxOptions(q, qid, userAnswer) {
     const checked = selected.includes(opt);
     html += `
       <label class="option-label checkbox-label ${checked ? 'selected' : ''}">
-        <input type="checkbox" name="q_${escapeHtml(qid)}" value="${escapeHtml(opt)}" ${checked ? 'checked' : ''} onchange="saveCheckboxAnswer('${escapeHtml(qid)}')">
+        <input type="checkbox" name="q_${escapeHtml(qid)}" value="${escapeHtml(opt)}" ${checked ? 'checked' : ''} data-change="save-checkbox" data-qid="${escapeHtml(qid)}">
         ${escapeHtml(opt)}
       </label>
     `;
@@ -246,7 +246,7 @@ function renderCompletion(q, qid, userAnswer) {
   return `
     <div class="options">
       <label class="option-label">
-        <input type="text" value="${escapeHtml(userAnswer)}" onchange="saveAnswer('${escapeHtml(qid)}', this.value, this)" placeholder="..." style="flex:1;padding:6px;border:1px solid var(--border-color);border-radius:4px;">
+        <input type="text" value="${escapeHtml(userAnswer)}" data-change="save-answer" data-qid="${escapeHtml(qid)}" placeholder="..." style="flex:1;padding:6px;border:1px solid var(--border-color);border-radius:4px;">
       </label>
     </div>
   `;
@@ -325,7 +325,7 @@ function renderQuestionNav() {
     const isAnswered = !!currentAnswers[q.id];
     const isFlagged = currentFlagged.includes(q.id);
     const cls = `question-nav-btn ${isAnswered ? 'answered' : ''} ${isFlagged ? 'flagged' : ''}`;
-    html += `<button class="${cls}" onclick="scrollToQuestion('${escapeHtml(q.id)}')" aria-label="Question ${i + 1}${isAnswered ? ', answered' : ''}${isFlagged ? ', flagged' : ''}">${i + 1}</button>`;
+    html += `<button class="${cls}" data-action="scroll-to-question" data-qid="${escapeHtml(q.id)}" aria-label="Question ${i + 1}${isAnswered ? ', answered' : ''}${isFlagged ? ', flagged' : ''}">${i + 1}</button>`;
   }
   if (nav) nav.innerHTML = html;
 }
@@ -357,8 +357,8 @@ function showSubmitModal() {
       <p data-i18n="submitConfirmDesc">${t('submitConfirmDesc')}</p>
       ${unanswered > 0 ? `<p style="color:var(--color-warning);font-weight:600;">${t('submitWarningUnanswered', { n: unanswered })}</p>` : ''}
       <div class="modal-actions">
-        <button class="btn btn-secondary" onclick="this.closest('.modal-overlay').remove()" data-i18n="cancel">${t('cancel')}</button>
-        <button class="btn btn-primary" onclick="submitExam()" data-i18n="confirm">${t('confirm')}</button>
+        <button class="btn btn-secondary" data-action="close-modal" data-i18n="cancel">${t('cancel')}</button>
+        <button class="btn btn-primary" data-action="submit-exam" data-i18n="confirm">${t('confirm')}</button>
       </div>
     </div>
   `;
@@ -456,7 +456,7 @@ function autoSubmit() {
       <h2 data-i18n="timeUp">${t('timeUp')}</h2>
       <p data-i18n="timeUpDesc">${t('timeUpDesc')}</p>
       <div class="modal-actions">
-        <button class="btn btn-primary" onclick="this.closest('.modal-overlay').remove()" data-i18n="viewReview">${t('viewReview')}</button>
+        <button class="btn btn-primary" data-action="close-auto-submit" data-i18n="viewReview">${t('viewReview')}</button>
       </div>
     </div>
   `;

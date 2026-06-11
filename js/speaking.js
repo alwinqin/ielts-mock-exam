@@ -75,9 +75,9 @@ function renderPart1Question() {
       ${q.followUp ? `<div class="speaking-followup" style="margin-top:8px;color:var(--text-muted);font-size:0.85rem;">Follow-up: ${escapeHtml(q.followUp)}</div>` : ''}
 
       <div class="speaking-controls">
-        <button class="btn btn-primary" id="speakingRecordBtn" onclick="toggleRecording('${qid}')">${t('startRecording')}</button>
-        <button class="btn btn-secondary" id="speakingPlayBtn" onclick="playRecording('${qid}')" ${!hasRecording ? 'disabled' : ''}>${t('playRecording')}</button>
-        <button class="btn btn-secondary" id="speakingTranscribeBtn" onclick="transcribeRecording('${qid}')" ${!hasRecording ? 'disabled' : ''}>${t('transcribe')}</button>
+        <button class="btn btn-primary" id="speakingRecordBtn" data-action="speaking-record" data-qid="${qid}">${t('startRecording')}</button>
+        <button class="btn btn-secondary" id="speakingPlayBtn" data-action="speaking-play" data-qid="${qid}" ${!hasRecording ? 'disabled' : ''}>${t('playRecording')}</button>
+        <button class="btn btn-secondary" id="speakingTranscribeBtn" data-action="speaking-transcribe" data-qid="${qid}" ${!hasRecording ? 'disabled' : ''}>${t('transcribe')}</button>
       </div>
 
       <div id="speakingRecordingStatus" style="margin-top:8px;font-size:0.85rem;color:var(--text-muted);"></div>
@@ -86,7 +86,7 @@ function renderPart1Question() {
       ${hasRecording ? `<div class="speaking-recording-saved">${t('recordingSaved')} (${getRecordingSize(qid)})</div>` : ''}
 
       <div style="margin-top:20px;">
-        <button class="btn btn-primary" onclick="nextPart1Question()">${t('nextQuestion')} →</button>
+        <button class="btn btn-primary" data-action="speaking-next-part1">${t('nextQuestion')} →</button>
       </div>
     </div>
   `;
@@ -122,15 +122,15 @@ function startPart2() {
         <p style="color:var(--color-warning);font-weight:600;margin:16px 0;">
           ${t('prepTime')}: <span id="speakingPrepTimer">1:00</span>
         </p>
-        <button class="btn btn-primary" onclick="startSpeakingPrep()">Start Preparation (1 min)</button>
+        <button class="btn btn-primary" data-action="speaking-start-prep">Start Preparation (1 min)</button>
       </div>
 
       <div id="speakingPart2Controls" style="display:none;">
         <div id="speakingPart2Timer" style="text-align:center;margin-bottom:12px;font-size:1.5rem;font-weight:700;color:var(--text-heading);"></div>
         <div class="speaking-controls">
-          <button class="btn btn-primary" onclick="toggleRecording('${qid}')">${t('startRecording')}</button>
-          <button class="btn btn-secondary" onclick="playRecording('${qid}')">${t('playRecording')}</button>
-          <button class="btn btn-secondary" onclick="transcribeRecording('${qid}')">${t('transcribe')}</button>
+          <button class="btn btn-primary" data-action="speaking-record" data-qid="${qid}">${t('startRecording')}</button>
+          <button class="btn btn-secondary" data-action="speaking-play" data-qid="${qid}">${t('playRecording')}</button>
+          <button class="btn btn-secondary" data-action="speaking-transcribe" data-qid="${qid}">${t('transcribe')}</button>
         </div>
         <div id="speakingRecordingStatus2" style="margin-top:8px;font-size:0.85rem;color:var(--text-muted);"></div>
       </div>
@@ -138,7 +138,7 @@ function startPart2() {
       <div id="speakingPart2Result"></div>
 
       <div style="margin-top:20px;">
-        <button class="btn btn-primary" onclick="startPart3()">${t('nextPart')} →</button>
+        <button class="btn btn-primary" data-action="speaking-start-part3">${t('nextPart')} →</button>
       </div>
     </div>
   `;

@@ -75,14 +75,14 @@ jobs:
         run: npx playwright install chromium --with-deps
 
       - name: Start HTTP server
-        run: python3 -m http.server 8888 &
+        run: python3 -m http.server 8899 &
         env:
           PYTHONUNBUFFERED: 1
 
       - name: Wait for server
         run: |
           for i in $(seq 1 30); do
-            if curl -s http://localhost:8888 > /dev/null; then
+            if curl -s http://localhost:8899 > /dev/null; then
               echo "Server ready"
               exit 0
             fi

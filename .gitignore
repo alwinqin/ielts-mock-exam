@@ -24,8 +24,16 @@ src-tauri/target/
 
 # Build output
 *.zip
+www/
+audit_report.json
 
-# Audio files (too large for GitHub)
+# E2E test results
+test-results/
+
+# Diagnostic snapshots
+*.diag
+
+# Audio files (too large for GitHub — use Git LFS or external hosting)
 data/listening/audio/
 data/cambridge/audio/
 
@@ -45,6 +53,8 @@ data/cambridge/cam17/*_test*.json
 # Generated extraction/validation artifacts
 data/extracted/
 data/validation_reports/answer_key_samples/
+data/validation_reports/*.json
+!data/validation_reports/answer_keys_snapshot.json
 data/tmp/
 
 # Temp/one-off scripts
