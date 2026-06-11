@@ -38,7 +38,8 @@
       "icons/icon.png"
     ],
     "resources": {
-      "../data/": "data/"
+      "../data/": "data/",
+      "binaries/": "binaries/"
     }
   },
   "plugins": {
