@@ -141,14 +141,6 @@
     },
 
     async loadTestList() {
-      const maxTests = ((isFileProtocol || isTauri) && window.__DATA_BUNDLE__)
-        ? Object.keys(window.__DATA_BUNDLE__.reading || {}).length
-        : 20;
-      var legacyTests = [];
-      for (var i = 1; i <= maxTests; i++) {
-        legacyTests.push({ id: 'test' + i, title: 'Test ' + i, file: 'data/test' + i + '.json', source: 'legacy' });
-      }
-
       var cambridgeBooks = [];
       var cambridgeListeningBooks = [];
       const camData = window.__DATA_BUNDLE__ ? (window.__DATA_BUNDLE__.cambridge || {}) : {};
@@ -243,7 +235,6 @@
       }
       cambridgeSpeakingBooks.sort(function(a, b) { return a.bookId.localeCompare(b.bookId); });
 
-      this.tests = legacyTests;
       this.cambridgeBooks = cambridgeBooks;
       this.cambridgeListeningBooks = cambridgeListeningBooks;
       this.cambridgeWritingBooks = cambridgeWritingBooks;
@@ -357,29 +348,22 @@
       return bookDiv;
     },
 
-    renderReadingGrid: function(grid) { this._renderGrid(this.cambridgeBooks, this.tests, 'reading', grid); },
+    renderReadingGrid: function(grid) { this._renderGrid(this.cambridgeBooks, 'reading', grid); },
 
-    _renderGrid: function(books, legacyTests, examType, grid) {
+    _renderGrid: function(books, examType, grid) {
       var self = this;
       (books || []).forEach(function(book) { grid.appendChild(self._renderBookGroup(book, examType)); });
-      if (legacyTests.length > 0 && books.length > 0) {
-        grid.insertAdjacentHTML('beforeend', '<div class="section-header">' + t('moreTests') + '</div>');
-      }
-      grid.insertAdjacentHTML('beforeend', this._buildTestCards(legacyTests, examType));
     },
 
     renderListeningGrid: function(grid) {
-      var legacy = [];
-      for (var i = 1; i <= 10; i++) { legacy.push({ id: 'test' + i, title: t('listening') + ' ' + i }); }
-      this._renderGrid(this.cambridgeListeningBooks, legacy, 'listening', grid);
+      this._renderGrid(this.cambridgeListeningBooks, 'listening', grid);
     },
 
     showExam: async function(testId) {
       var container = document.getElementById('mainContent');
       container.innerHTML = '<div class="loading-state"><span class="spinner"></span>' + t('loading') + '</div>';
       try {
-        if (testId.indexOf('cam') === 0) { this.currentTest = await this.loadCambridgeReadingTest(testId); }
-        else { this.currentTest = await loadTestData('data/' + testId + '.json'); }
+        this.currentTest = await this.loadCambridgeReadingTest(testId);
         if (!this.currentTest || !this.currentTest.passages) throw new Error('Invalid data format');
         renderExam(this.currentTest);
       } catch (e) {
@@ -412,9 +396,7 @@
       var container = document.getElementById('mainContent');
       container.innerHTML = '<div class="loading-state"><span class="spinner"></span>' + t('loading') + '</div>';
       try {
-        var testData;
-        if (testId.indexOf('cam') === 0) { testData = await this.loadCambridgeListeningTest(testId); }
-        else { testData = await loadTestData('data/listening/' + testId + '.json'); }
+        var testData = await this.loadCambridgeListeningTest(testId);
         if (!testData || !testData.sections) throw new Error('Invalid data format');
         renderListeningExam(testData);
       } catch (e) {
@@ -438,8 +420,7 @@
         return;
       }
       var self = this;
-      var loadPromise = testId.indexOf('cam') === 0 ? this.loadCambridgeReadingTest(testId) : loadTestData('data/' + testId + '.json');
-      loadPromise.then(function(testData) {
+      this.loadCambridgeReadingTest(testId).then(function(testData) {
         if (attempt) { renderReview(testData, attempt, container); }
         else {
           var tempAttempt = { testId: testId, score: 0, total: testData.totalQuestions, bandScore: 0, timeTaken: 0, answers: {} };
@@ -467,8 +448,7 @@
         container.innerHTML = '<div class="error"><p data-i18n="noHistory">' + t('noHistory') + '</p><a href="#/" class="btn btn-primary" data-i18n="backToTests">' + t('backToTests') + '</a></div>';
         return;
       }
-      var loadPromise = testId.indexOf('cam') === 0 ? this.loadCambridgeListeningTest(testId) : loadTestData('data/listening/' + testId + '.json');
-      loadPromise.then(function(testData) { renderListeningReview(testData, attempt, container); })
+      this.loadCambridgeListeningTest(testId).then(function(testData) { renderListeningReview(testData, attempt, container); })
         .catch(function() { container.innerHTML = '<div class="error">' + t('errorLoadData') + '</div>'; });
     },
 
@@ -478,9 +458,7 @@
     showWrongBook: function(container) { renderWrongBookPage(container); },
 
     renderWritingGrid: function(grid) {
-      var legacy = [];
-      for (var i = 1; i <= 10; i++) { legacy.push({ id: 'test' + i, title: t('writing') + ' ' + i }); }
-      this._renderGrid(this.cambridgeWritingBooks, legacy, 'writing', grid);
+      this._renderGrid(this.cambridgeWritingBooks, 'writing', grid);
     },
 
     showWritingExam: async function(testId) {
@@ -502,31 +480,14 @@
     },
 
     renderSpeakingGrid: function(grid) {
-      var legacy = [];
-      for (var i = 1; i <= 10; i++) { legacy.push({ id: 'test' + i, title: t('speaking') + ' ' + i }); }
-      this._renderGrid(this.cambridgeSpeakingBooks, legacy, 'speaking', grid);
+      this._renderGrid(this.cambridgeSpeakingBooks, 'speaking', grid);
     },
 
     showSpeakingExam: async function(testId) {
       var container = document.getElementById('mainContent');
       container.innerHTML = '<div class="loading-state"><span class="spinner"></span>' + t('loading') + '</div>';
       try {
-        var testData;
-        if (testId.indexOf('cam') === 0) {
-          var parts = testId.split('_');
-          var bookId = parts[0];
-          var bookData = await loadTestData('data/cambridge/' + bookId + '/speaking.json');
-          var camTest = (bookData.tests || []).find(function(t) { return t.id === testId; });
-          if (!camTest) throw new Error('Test not found in ' + bookId);
-          testData = {
-            id: camTest.id,
-            part1: (camTest.part1.questions || []).map(function(q) { return { question: q }; }),
-            part2: { cueCard: camTest.part2.title || '', bulletPoints: camTest.part2.prompts || [], preparationTime: 60 },
-            part3: camTest.part3.topics || camTest.part3 || []
-          };
-        } else {
-          testData = await loadTestData('data/speaking/' + testId + '.json');
-        }
+        var testData = await loadTestData('data/speaking/' + testId + '.json');
         renderSpeakingExam(testData);
       } catch (e) {
         console.error('Speaking exam error:', e);

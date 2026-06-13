@@ -79,6 +79,9 @@ function renderPart1Question() {
         <button class="btn btn-secondary" id="speakingPlayBtn" data-action="speaking-play" data-qid="${qid}" ${!hasRecording ? 'disabled' : ''}>${t('playRecording')}</button>
         <button class="btn btn-secondary" id="speakingTranscribeBtn" data-action="speaking-transcribe" data-qid="${qid}" ${!hasRecording ? 'disabled' : ''}>${t('transcribe')}</button>
       </div>
+      <div class="volume-meter" style="height:6px;background:var(--color-border);border-radius:3px;margin-top:8px;display:none;">
+        <div class="volume-bar" style="height:100%;width:0%;background:var(--color-success);border-radius:3px;transition:width 0.1s;"></div>
+      </div>
 
       <div id="speakingRecordingStatus" style="margin-top:8px;font-size:0.85rem;color:var(--text-muted);"></div>
 
@@ -292,19 +295,58 @@ function startRecording(qid) {
   navigator.mediaDevices.getUserMedia({ audio: true }).then(stream => {
     speakingAudioChunks = [];
     const options = { mimeType: getSupportedMimeType() };
+    console.log('Recording started — mimeType:', options.mimeType);
+    const tracks = stream.getAudioTracks();
+    if (tracks.length > 0) {
+      console.log('Mic device:', tracks[0].label);
+    }
     speakingMediaRecorder = new MediaRecorder(stream, options);
 
+    // Volume meter
+    let audioCtx, analyser, meterAnim;
+    const volMeter = document.querySelector('.volume-meter');
+    const volBar = document.querySelector('.volume-bar');
+    if (volMeter && volBar) {
+      try {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        analyser = audioCtx.createAnalyser();
+        analyser.fftSize = 256;
+        audioCtx.createMediaStreamSource(stream).connect(analyser);
+        const buf = new Uint8Array(analyser.frequencyBinCount);
+        volMeter.style.display = 'block';
+        const updateMeter = () => {
+          analyser.getByteFrequencyData(buf);
+          const avg = buf.reduce((a, b) => a + b, 0) / buf.length;
+          const pct = Math.min(100, avg / 128 * 100);
+          volBar.style.width = pct + '%';
+          volBar.style.background = avg < 5 ? 'var(--color-border)' : avg < 20 ? 'var(--color-warning)' : 'var(--color-success)';
+          meterAnim = requestAnimationFrame(updateMeter);
+        };
+        updateMeter();
+      } catch (e) { console.warn('Volume meter not supported:', e); }
+    }
+
     speakingMediaRecorder.ondataavailable = (e) => {
+      console.log('DataAvailable — size:', e.data.size);
       if (e.data.size > 0) speakingAudioChunks.push(e.data);
     };
 
+    speakingMediaRecorder.onerror = (e) => {
+      console.error('MediaRecorder error:', e);
+    };
+
     speakingMediaRecorder.onstop = () => {
+      if (meterAnim) cancelAnimationFrame(meterAnim);
+      if (audioCtx) audioCtx.close().catch(() => {});
+      if (volMeter) volMeter.style.display = 'none';
+      console.log('Recording stopped — chunks:', speakingAudioChunks.length, 'chunks');
       const blob = new Blob(speakingAudioChunks, { type: options.mimeType || 'audio/webm' });
+      console.log('Recording blob size:', blob.size, 'bytes');
       speakingRecordings[qid] = blob;
       stream.getTracks().forEach(t => t.stop());
 
       const status = document.getElementById('speakingRecordingStatus') || document.getElementById('speakingRecordingStatus2');
-      if (status) status.innerHTML = `<span style="color:var(--color-success);">${t('recordingSaved')} (${(blob.size/1024).toFixed(0)} KB)</span>`;
+      if (status) status.innerHTML = `<span style="color:${blob.size > 0 ? 'var(--color-success)' : 'var(--color-danger)'};">${t('recordingSaved')} (${(blob.size/1024).toFixed(0)} KB)</span>`;
 
       // Enable play and transcribe buttons
       document.querySelectorAll('#speakingPlayBtn, #speakingTranscribeBtn').forEach(b => b.disabled = false);
@@ -312,7 +354,7 @@ function startRecording(qid) {
       // Update result area
       const result = document.getElementById('speakingPart2Result') || document.getElementById('speakingPart3Result');
       if (result) {
-        result.innerHTML = `<div class="speaking-recording-saved" style="margin-top:8px;">${t('recordingSaved')}</div>`;
+        result.innerHTML = `<div class="speaking-recording-saved" style="margin-top:8px;">${t('recordingSaved')} (${(blob.size/1024).toFixed(0)} KB)</div>`;
       }
 
       updateAllButtons();
@@ -336,12 +378,23 @@ function stopRecording() {
 }
 
 function playRecording(qid) {
+  console.log('playRecording called — qid:', qid, 'available keys:', Object.keys(speakingRecordings));
   const blob = speakingRecordings[qid];
-  if (!blob) return;
+  if (!blob) {
+    console.error('No recording found for qid:', qid);
+    return;
+  }
+  console.log('Playing — size:', blob.size, 'bytes, type:', blob.type);
 
   const url = URL.createObjectURL(blob);
   const audio = new Audio(url);
-  audio.play();
+  audio.onloadedmetadata = () => console.log('Audio duration:', audio.duration, 's');
+  audio.onerror = () => console.error('Audio error:', audio.error);
+  audio.play().then(() => {
+    console.log('Playback started OK');
+  }).catch(e => {
+    console.error('Playback failed:', e.message);
+  });
 }
 
 function transcribeRecording(qid) {
@@ -382,11 +435,15 @@ async function transcribeAudio(blob) {
     return await window.__TAURI__.core.invoke('transcribe', { audio: bytes });
   }
   if (typeof isFileProtocol !== 'undefined' && !isFileProtocol) {
-    const formData = new FormData();
-    formData.append('audio', blob, 'recording.wav');
-    const resp = await fetch('http://localhost:8081/transcribe', { method: 'POST', body: formData });
-    const data = await resp.json();
-    return data.text || '';
+    try {
+      const resp = await fetch('http://localhost:8081/transcribe', { method: 'POST', body: blob });
+      if (resp.ok) {
+        const data = await resp.json();
+        return data.text || '';
+      }
+    } catch (e) {
+      // Server not available — fall through to Web Speech API
+    }
   }
   if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
     return new Promise((resolve, reject) => {

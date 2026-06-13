@@ -554,27 +554,7 @@ const App = {
     const container = document.getElementById('mainContent');
     container.innerHTML = `<div class="loading-state"><span class="spinner"></span>${t('loading')}</div>`;
     try {
-      let testData;
-      if (testId.startsWith('cam')) {
-        const parts = testId.split('_');
-        const bookId = parts[0];
-        const bookData = await loadTestData(`data/cambridge/${bookId}/speaking.json`);
-        const camTest = (bookData.tests || []).find(t => t.id === testId);
-        if (!camTest) throw new Error('Test not found in ' + bookId);
-        // Transform Cambridge format to app format
-        testData = {
-          id: camTest.id,
-          part1: (camTest.part1.questions || []).map(q => ({ question: q })),
-          part2: {
-            cueCard: camTest.part2.title || '',
-            bulletPoints: camTest.part2.prompts || [],
-            preparationTime: 60
-          },
-          part3: camTest.part3.topics || camTest.part3 || []
-        };
-      } else {
-        testData = await loadTestData(`data/speaking/${testId}.json`);
-      }
+      const testData = await loadTestData(`data/speaking/${testId}.json`);
       renderSpeakingExam(testData);
     } catch (e) {
       console.error('Speaking exam error:', e);
